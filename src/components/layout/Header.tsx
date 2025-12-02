@@ -41,8 +41,7 @@ export default function Header() {
     'text-foreground'
   );
 
-
-  const logoSrc = "/images/Logo_color.png";
+  const logoSrc = isHome && !isScrolled ? "/images/logo-white.png" : "/images/Logo_color.png";
   const mobileLogoSrc = "/images/Logo_color.png";
 
   return (
