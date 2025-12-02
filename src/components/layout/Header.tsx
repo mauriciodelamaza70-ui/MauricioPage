@@ -42,8 +42,8 @@ export default function Header() {
   );
 
 
-  const logoSrc = isHome && !isScrolled ? "/images/logo-white.png" : "/images/Logo_color.png";
-  const mobileLogoSrc = "/images/Logo_color.png";
+  const logoSrc = "/images/logo-white.png";
+  const mobileLogoSrc = "/images/logo-white.png";
 
   return (
     <header className={headerClasses}>
