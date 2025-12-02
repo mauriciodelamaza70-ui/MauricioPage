@@ -13,29 +13,31 @@ export default function HeroSlider() {
   const heroImages = PlaceHolderImages.filter(p => p.id.startsWith('hero-'));
 
   const [emblaRef] = useEmblaCarousel({ loop: true }, [
-    Autoplay({ delay: 5000, stopOnInteraction: true }),
+    Autoplay({ delay: 5000, stopOnInteraction: false }),
     Fade()
   ]);
 
   return (
-    <section className="relative h-[85vh] w-full overflow-hidden" ref={emblaRef}>
-      <div className="embla__container h-full">
-        {heroImages.map((heroImage, index) => (
-          <div key={heroImage.id} className="embla__slide relative h-full">
-             <Image
-                src={heroImage.imageUrl}
-                alt={heroImage.description}
-                fill
-                className="object-cover"
-                priority={index === 0}
-                data-ai-hint={heroImage.imageHint}
-            />
-            <div className="absolute inset-0 bg-black/40" />
-          </div>
-        ))}
+    <section className="relative h-[85vh] w-full text-white">
+      <div className="overflow-hidden h-full" ref={emblaRef}>
+        <div className="embla__container h-full">
+          {heroImages.map((heroImage, index) => (
+            <div key={heroImage.id} className="embla__slide relative h-full">
+               <Image
+                  src={heroImage.imageUrl}
+                  alt={heroImage.description}
+                  fill
+                  className="object-cover"
+                  priority={index === 0}
+                  data-ai-hint={heroImage.imageHint}
+              />
+              <div className="absolute inset-0 bg-black/40" />
+            </div>
+          ))}
+        </div>
       </div>
       
-      <div className="absolute inset-0 z-10 flex h-full flex-col items-center justify-center p-4 text-center text-white">
+      <div className="absolute inset-0 z-10 flex h-full flex-col items-center justify-center p-4 text-center">
         <h1 className="font-headline text-5xl font-bold leading-tight drop-shadow-2xl md:text-7xl lg:text-8xl">
           Cine Ambiental...
         </h1>
