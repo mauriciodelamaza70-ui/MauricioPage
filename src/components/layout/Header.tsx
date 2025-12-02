@@ -28,19 +28,27 @@ export default function Header() {
 
   const headerClasses = cn(
     'sticky top-0 z-50 w-full transition-all duration-300',
-    'bg-white shadow-md'
+    isHome && !isScrolled ? 'bg-transparent' : 'bg-white shadow-md'
   );
 
   const linkClasses = cn(
       'font-medium transition-colors hover:text-accent',
-      'text-foreground'
+      isHome && !isScrolled ? 'text-white' : 'text-foreground'
   );
+  
+  const mobileLinkClasses = cn(
+    'text-lg font-medium transition-colors hover:text-accent',
+    'text-foreground'
+  );
+
+
+  const logoSrc = isHome && !isScrolled ? "/images/logo-white.png" : "/images/logo-de-la-maza.jpg";
 
   return (
     <header className={headerClasses}>
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/images/logo-de-la-maza.jpg" alt="Terra Vision Logo" width={170} height={40} priority className="h-10 w-auto" />
+          <Image src={logoSrc} alt="Terra Vision Logo" width={170} height={40} priority className="h-10 w-auto" />
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
@@ -49,7 +57,7 @@ export default function Header() {
               href={link.href}
               className={cn(
                 linkClasses,
-                pathname === link.href ? 'text-accent' : 'text-foreground'
+                pathname === link.href ? 'text-accent' : ''
               )}
             >
               {link.label}
@@ -59,7 +67,7 @@ export default function Header() {
         <div className="md:hidden">
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className='text-foreground'>
+              <Button variant="ghost" size="icon" className={cn(isHome && !isScrolled ? 'text-white hover:bg-white/10' : 'text-foreground')}>
                 <Menu />
               </Button>
             </SheetTrigger>
@@ -74,7 +82,7 @@ export default function Header() {
                       <Link
                         href={link.href}
                         className={cn(
-                          'text-lg font-medium transition-colors hover:text-accent',
+                          mobileLinkClasses,
                            pathname === link.href ? 'text-accent' : 'text-foreground'
                         )}
                       >
