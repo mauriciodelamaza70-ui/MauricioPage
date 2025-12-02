@@ -7,6 +7,12 @@
       "imageHint": "forest canopy"
     },
     {
+      "id": "hero-4",
+      "description": "Captura de pantalla de producción",
+      "imageUrl": "/images/Captura-de-pantalla-2022-05-25-a-las-19.13.54-1.png",
+      "imageHint": "film production"
+    },
+    {
       "id": "hero-2",
       "description": "Hero image of a camera lens reflecting a landscape",
       "imageUrl": "https://images.unsplash.com/photo-1695402624920-6c7d6595202c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYW1lcmElMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY0NjgyNDQ0fDA&ixlib.rb-4.1.0&q=80&w=1080",
