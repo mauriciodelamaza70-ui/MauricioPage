@@ -1,5 +1,6 @@
 "use client"
 
+import React from "react"
 import Image from "next/image"
 import Autoplay from "embla-carousel-autoplay"
 import {
@@ -13,23 +14,27 @@ import { Button } from "@/components/ui/button"
 export default function HeroSlider() {
   const heroImages = PlaceHolderImages.filter(p => p.id.startsWith('hero-'));
 
+  const carouselPlugins = [
+    Autoplay({ delay: 5000, stopOnInteraction: false }),
+  ];
+
   return (
-    <section className="relative h-screen w-full">
+    <section className="relative h-screen w-full overflow-hidden">
         <Carousel
             opts={{ loop: true }}
-            plugins={[Autoplay({ delay: 5000, stopOnInteraction: false })]}
-            className="h-full w-full"
+            plugins={carouselPlugins}
+            className="h-full w-full embla-fade"
         >
             <CarouselContent>
-                {heroImages.map((heroImage) => (
+                {heroImages.map((heroImage, index) => (
                     <CarouselItem key={heroImage.id}>
                          <div className="relative h-screen w-full">
                             <Image
                                 src={heroImage.imageUrl}
                                 alt={heroImage.description}
                                 fill
-                                className="object-cover"
-                                priority={heroImage.id === 'hero-1'}
+                                className="object-cover embla__slide__img"
+                                priority={index === 0}
                                 data-ai-hint={heroImage.imageHint}
                             />
                              <div className="absolute inset-0 bg-black/40" />
@@ -49,7 +54,7 @@ export default function HeroSlider() {
          <p className="mt-2 text-lg italic text-gray-300 md:text-xl">
             - Mauricio De la Maza-Benignos
         </p>
-        <Button asChild size="lg" className="mt-8 bg-accent text-lg text-white hover:bg-accent/90">
+        <Button asChild size="lg" className="mt-8 bg-accent text-lg text-primary-foreground hover:bg-accent/90">
           <a href="https://panterracinefest.com" target="_blank" rel="noopener noreferrer">Conoce más</a>
         </Button>
       </div>

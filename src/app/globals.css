@@ -10,6 +10,20 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
 }
 
+.embla-fade .embla__slide {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+.embla-fade .embla__slide.is-in-view {
+  opacity: 1;
+}
+
+.embla-fade .embla__slide.is-in-view .embla__slide__img {
+  transform: scale(1.05);
+  transition: transform 6s ease-out;
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -24,13 +38,13 @@ h1, h2, h3, h4, h5, h6 {
     --secondary-foreground: 0 0% 20%;
     --muted: 0 0% 96.1%;
     --muted-foreground: 0 0% 45.1%;
-    --accent: 31 58% 65%;
+    --accent: 33 51% 61%;
     --accent-foreground: 0 0% 10%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 87.8%;
     --input: 0 0% 87.8%;
-    --ring: 31 58% 65%;
+    --ring: 33 51% 61%;
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;
     --chart-3: 197 37% 24%;
@@ -52,13 +66,13 @@ h1, h2, h3, h4, h5, h6 {
     --secondary-foreground: 0 0% 98%;
     --muted: 0 0% 14.9%;
     --muted-foreground: 0 0% 63.9%;
-    --accent: 31 58% 65%;
+    --accent: 33 51% 61%;
     --accent-foreground: 0 0% 10%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 20%;
     --input: 0 0% 20%;
-    --ring: 31 58% 65%;
+    --ring: 33 51% 61%;
     --chart-1: 220 70% 50%;
     --chart-2: 160 60% 45%;
     --chart-3: 30 80% 55%;
