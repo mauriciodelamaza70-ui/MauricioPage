@@ -26,16 +26,21 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const headerClasses = cn(
+    'sticky top-0 z-50 w-full transition-all duration-300',
+    isScrolled || !isHome ? 'bg-white shadow-md' : 'bg-white'
+  );
+
+  const linkClasses = cn(
+      'font-medium transition-colors hover:text-accent',
+      'text-foreground'
+  );
+
   return (
-    <header
-      className={cn(
-        'sticky top-0 z-50 w-full transition-all duration-300',
-        isScrolled || !isHome ? 'bg-white shadow-md' : 'bg-transparent',
-      )}
-    >
+    <header className={headerClasses}>
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/images/logo-de-la-maza.jpg" alt="Terra Vision Logo" width={170} height={40} />
+          <Image src="/images/logo-de-la-maza.jpg" alt="Terra Vision Logo" width={150} height={35} priority />
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
@@ -43,8 +48,8 @@ export default function Header() {
               key={link.href}
               href={link.href}
               className={cn(
-                'font-medium transition-colors hover:text-accent',
-                pathname === link.href ? 'text-accent' : (isHome && !isScrolled ? 'text-white' : 'text-foreground')
+                linkClasses,
+                pathname === link.href ? 'text-accent' : 'text-foreground'
               )}
             >
               {link.label}
@@ -54,14 +59,14 @@ export default function Header() {
         <div className="md:hidden">
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className={cn(isHome && !isScrolled ? 'text-white' : 'text-foreground')}>
+              <Button variant="ghost" size="icon" className='text-foreground'>
                 <Menu />
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] bg-background">
               <div className="flex flex-col space-y-6 p-6">
                 <Link href="/" className="flex items-center gap-2 self-start">
-                   <Image src="/images/logo-de-la-maza.jpg" alt="Terra Vision Logo" width={170} height={40} />
+                   <Image src="/images/logo-de-la-maza.jpg" alt="Terra Vision Logo" width={150} height={35} />
                 </Link>
                 <nav className="flex flex-col space-y-4">
                   {navLinks.map((link) => (
