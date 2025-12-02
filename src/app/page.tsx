@@ -22,15 +22,6 @@ export default function Home() {
       <main className="flex-grow">
         <HeroSlider />
 
-        <section className="py-20 bg-secondary">
-          <div className="container mx-auto px-4 text-center">
-            <blockquote className="font-headline text-3xl md:text-4xl lg:text-5xl max-w-4xl mx-auto text-foreground">
-              "La Tierra también tiene derechos, y el Estado la obligación de velar por el acceso efectivo a la justicia ambiental."
-            </blockquote>
-            <footer className="mt-4 text-lg font-semibold text-foreground">- Mauricio De la Maza-Benignos</footer>
-          </div>
-        </section>
-
         <section id="nosotros" className="py-24">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -58,8 +49,17 @@ export default function Home() {
             </div>
           </div>
         </section>
+        
+        <section className="py-20 bg-secondary">
+          <div className="container mx-auto px-4 text-center">
+            <blockquote className="font-headline text-3xl md:text-4xl lg:text-5xl max-w-4xl mx-auto text-foreground">
+              "La Tierra también tiene derechos, y el Estado la obligación de velar por el acceso efectivo a la justicia ambiental."
+            </blockquote>
+            <footer className="mt-4 text-lg font-semibold text-foreground">- Mauricio De la Maza-Benignos</footer>
+          </div>
+        </section>
 
-        <section id="portfolio" className="py-24 bg-secondary">
+        <section id="portfolio" className="py-24 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12">Portafolio / Nuestras Producciones</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
