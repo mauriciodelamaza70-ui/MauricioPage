@@ -20,7 +20,7 @@ export default function HeroSlider() {
   ];
 
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative h-[85vh] w-full overflow-hidden">
       <Carousel
         opts={{ loop: true }}
         plugins={carouselPlugins}
@@ -28,7 +28,7 @@ export default function HeroSlider() {
       >
         <CarouselContent>
           {heroImages.map((heroImage, index) => (
-            <CarouselItem key={heroImage.id} className="h-screen">
+            <CarouselItem key={heroImage.id} className="h-full">
               <div className="relative h-full w-full">
                 <Image
                     src={heroImage.imageUrl}

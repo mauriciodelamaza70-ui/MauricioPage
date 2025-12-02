@@ -46,9 +46,9 @@ export default function Header() {
 
   return (
     <header className={headerClasses}>
-      <div className="container mx-auto flex h-20 items-center justify-between px-4">
+      <div className="container mx-auto flex h-24 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <Image src={logoSrc} alt="Terra Vision Logo" width={200} height={50} priority className="h-14 w-auto" />
+          <Image src={logoSrc} alt="Terra Vision Logo" width={200} height={50} priority className="h-16 w-auto" />
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
