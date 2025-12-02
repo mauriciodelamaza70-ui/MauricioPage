@@ -1,6 +1,6 @@
 import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement } from './types';
-import { Facebook, Instagram, Linkedin, Vimeo } from 'lucide-react';
-import { TheatreIcon } from '@/components/icons';
+import { Facebook, Instagram, Linkedin } from 'lucide-react';
+import { TheatreIcon, VimeoIcon } from '@/components/icons';
 
 export const siteConfig = {
   name: 'Terra Vision',
@@ -26,7 +26,7 @@ export const socialLinks: SocialLink[] = [
     { name: 'Facebook', href: '#', icon: Facebook },
     { name: 'Instagram', href: '#', icon: Instagram },
     { name: 'LinkedIn', href: '#', icon: Linkedin },
-    { name: 'Vimeo', href: '#', icon: Vimeo },
+    { name: 'Vimeo', href: '#', icon: VimeoIcon },
 ];
 
 export const biography = {
