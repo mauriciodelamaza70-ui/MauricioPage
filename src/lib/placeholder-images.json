@@ -3,7 +3,7 @@
     {
       "id": "hero-1",
       "description": "Hero image of a forest canopy",
-      "imageUrl": "https://images.unsplash.com/photo-1516441311474-499e4f3b32db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxmb3Jlc3QlMjBjYW5vcHl8ZW58MHx8fHwxNzY0NjcxNDg1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/hero-1.jpg",
       "imageHint": "forest canopy"
     },
     {
@@ -63,109 +63,109 @@
     {
       "id": "blog-3",
       "description": "Blog post image about a new project",
-      "imageUrl": "https://images.unsplash.com/photo-1612539473441-dfc1cefd5e1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY0NjIxMjI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1612539473441-dfc1cefd5e1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY0NjIxMjI3fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "mountain landscape"
     },
     {
       "id": "blog-4",
       "description": "Blog post image for news",
-      "imageUrl": "https://images.unsplash.com/photo-1477281765962-ef34e8bb0967?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcmVzcyUyMGNvbmZlcmVuY2V8ZW58MHx8fHwxNzY0NjY5MzA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1477281765962-ef34e8bb0967?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcmVzcyUyMGNvbmZlcmVuY2V8ZW58MHx8fHwxNzY0NjY5MzA5fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "press conference"
     },
     {
       "id": "blog-5",
       "description": "Blog post image for a technical article",
-      "imageUrl": "https://images.unsplash.com/photo-1721466759653-5383d6be56cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWNobmljYWwlMjBkcmF3aW5nfGVufDB8fHx8MTc2NDYzMDAwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1721466759653-5383d6be56cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWNobmljYWwlMjBkcmF3aW5nfGVufDB8fHx8MTc2NDYzMDAwOXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "technical drawing"
     },
     {
       "id": "blog-6",
       "description": "Blog post image for a project update",
-      "imageUrl": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZWFtJTIwd29ya2luZ3xlbnwwfHx8fDE3NjQ1OTExODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZWFtJTIwd29ya2luZ3xlbnwwfHx8fDE3NjQ1OTExODd8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "team working"
     },
     {
       "id": "about-hero",
       "description": "Hero image for the About Us page",
-      "imageUrl": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjQ2NDY1OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx0ZWFtJTIwY29sbGFib3JhdGlvbnxlbnwwfHx8fDE3NjQ2NDY1OTV8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "team collaboration"
     },
     {
       "id": "services-hero",
       "description": "Hero image for the Services page",
-      "imageUrl": "https://images.unsplash.com/photo-1619708454012-e02c71dae3f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkcm9uZSUyMGZpbG1pbmd8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1619708454012-e02c71dae3f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxkcm9uZSUyMGZpbG1pbmd8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "drone filming"
     },
     {
       "id": "gallery-hero",
       "description": "Hero image for the Gallery page",
-      "imageUrl": "https://images.unsplash.com/photo-1507643179773-3e975d7ac515?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2NDY2NjYzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1507643179773-3e975d7ac515?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2NDY2NjYzNXww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "art gallery"
     },
     {
       "id": "magazine-hero",
       "description": "Hero image for the Magazine page",
-      "imageUrl": "https://images.unsplash.com/photo-1621873783043-99e3e59f1dd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyZWFkaW5nJTIwbWFnYXppbmV8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1621873783043-99e3e59f1dd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyZWFkaW5nJTIwbWFnYXppbmV8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "reading magazine"
     },
     {
       "id": "contact-hero",
       "description": "Hero image for the Contact page",
-      "imageUrl": "https://images.unsplash.com/photo-1648879266402-a8ee47f014c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvbGQlMjB0ZWxlcGhvbmV8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1648879266402-a8ee47f014c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxvbGQlMjB0ZWxlcGhvbmV8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "old telephone"
     },
     {
       "id": "gallery-nature-1",
       "description": "Image of a jaguar",
-      "imageUrl": "https://images.unsplash.com/photo-1717329322511-a93bb172c444?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxqYWd1YXIlMjB3aWxkbGlmZXxlbnwwfHx8fDE3NjQ3MDEwOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1717329322511-a93bb172c444?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxqYWd1YXIlMjB3aWxkbGlmZXxlbnwwfHx8fDE3NjQ3MDEwOTJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "jaguar wildlife"
     },
     {
       "id": "gallery-nature-2",
       "description": "Image of a colorful bird",
-      "imageUrl": "https://images.unsplash.com/photo-1551647318-f0b1dfea688a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cXVldHphbCUyMGJpcmR8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1551647318-f0b1dfea688a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cXVldHphbCUyMGJpcmR8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "quetzal bird"
     },
     {
       "id": "gallery-nature-3",
       "description": "Image of a whale breaching",
-      "imageUrl": "https://images.unsplash.com/photo-1522432601293-65a2fdbd86c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3aGFsZSUyMGJyZWFjaHxlbnwwfHx8fDE3NjQ3MDEwOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1522432601293-65a2fdbd86c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3aGFsZSUyMGJyZWFjaHxlbnwwfHx8fDE3NjQ3MDEwOTJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "whale breach"
     },
     {
       "id": "gallery-film-1",
       "description": "Behind the scenes film shot",
-      "imageUrl": "https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaWxtJTIwc2V0fGVufDB8fHx8MTc2NDY1ODIzN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaWxtJTIwc2V0fGVufDB8fHx8MTc2NDY1ODIzN3ww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "film set"
     },
     {
       "id": "gallery-film-2",
       "description": "Cinematic shot of a landscape",
-      "imageUrl": "https://images.unsplash.com/photo-1531905343786-2b92bcb7d3a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaW5lbWF0aWMlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY0NjgyMDcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1531905343786-2b92bcb7d3a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaW5lbWF0aWMlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY0NjgyMDcyfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "cinematic landscape"
     },
     {
       "id": "gallery-film-3",
       "description": "Director looking at a monitor",
-      "imageUrl": "https://images.unsplash.com/photo-1698779051087-a5eb01bd0129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkaXJlY3RvciUyMHdhdGNoaW5nfGVufDB8fHx8MTc2NDcwMTA5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1698779051087-a5eb01bd0129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkaXJlY3RvciUyMHdhdGNoaW5nfGVufDB8fHx8MTc2NDcwMTA5M3ww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "director watching"
     },
     {
       "id": "gallery-events-1",
       "description": "Speaker at a conference",
-      "imageUrl": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29uZmVyZW5jZSUyMHNwZWFrZXJ8ZW58MHx8fHwxNzY0NjQwOTQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29uZmVyZW5jZSUyMHNwZWFrZXJ8ZW58MHx8fHwxNzY0NjQwOTQ2fDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "conference speaker"
     },
     {
       "id": "gallery-events-2",
       "description": "Audience at a film festival",
-      "imageUrl": "https://images.unsplash.com/photo-1485095329183-d0797cdc5676?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaW5lbWElMjBhdWRpZW5jZXxlbnwwfHx8fDE3NjQ3MDEwOTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1485095329183-d0797cdc5676?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaW5lbWElMjBhdWRpZW5jZXxlbnwwfHx8fDE3NjQ3MDEwOTN8MA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "cinema audience"
     },
     {
       "id": "gallery-events-3",
       "description": "Award ceremony",
-      "imageUrl": "https://images.unsplash.com/photo-1642104744809-14b986179927?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhd2FyZCUyMGNlcmVtb255fGVufDB8fHx8MTc2NDY0MDk0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1642104744809-14b986179927?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhd2FyZCUyMGNlcmVtb255fGVufDB8fHx8MTc2NDY0MDk0Nnww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "award ceremony"
     },
     {
@@ -191,12 +191,6 @@
       "description": "Coastal scene",
       "imageUrl": "https://images.unsplash.com/photo-1614394535670-c314bb280ed2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2FzdGxpbmUlMjBhZXJpYWx8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "coastline aerial"
-    },
-    {
-      "id": "gallery-new-landscape",
-      "description": "A beautiful new landscape",
-      "imageUrl": "https://images.unsplash.com/photo-1501854140801-50d01698950b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsYW5kc2NhcGV8ZW58MHx8fHwxNzIzNTY3ODkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "stunning landscape"
     }
   ]
 }
