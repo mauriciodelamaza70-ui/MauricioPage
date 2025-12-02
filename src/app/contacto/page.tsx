@@ -2,6 +2,7 @@ import PageHero from "@/components/common/PageHero";
 import ContactForm from "@/components/pages/contact/ContactForm";
 import { socialLinks } from "@/lib/data";
 import { Mail, Phone, MapPin } from "lucide-react";
+import { WhatsAppIcon } from "@/components/icons";
 
 export default function ContactoPage() {
     return (
@@ -16,17 +17,17 @@ export default function ContactoPage() {
                             <div>
                                 <h2 className="font-headline text-4xl md:text-5xl font-bold">Conversemos</h2>
                                 <p className="mt-4 text-lg text-muted-foreground">
-                                    ¿Tienes un proyecto en mente o una consulta? Estamos aquí para escucharte.
+                                    ¿Tienes un proyecto en mente o una consulta? Estoy aquí para escucharte.
                                 </p>
                             </div>
                             <div className="space-y-6">
                                 <div className="flex items-center gap-4">
-                                    <Phone className="h-6 w-6 text-accent" />
-                                    <a href="tel:+528112345678" className="text-lg hover:text-accent transition-colors">+52 (81) 1234 5678</a>
+                                    <WhatsAppIcon className="h-6 w-6 text-accent" />
+                                    <a href="https://wa.me/5218110165108" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-accent transition-colors">+52 81 1016 5108</a>
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <Mail className="h-6 w-6 text-accent" />
-                                    <a href="mailto:info@terravision.com" className="text-lg hover:text-accent transition-colors">info@terravision.com</a>
+                                    <a href="mailto:mauriciodelamaza@gmail.com" className="text-lg hover:text-accent transition-colors">mauriciodelamaza@gmail.com</a>
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <MapPin className="h-6 w-6 text-accent" />

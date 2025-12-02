@@ -38,8 +38,8 @@ export default function Footer() {
           <div className="space-y-4">
             <h3 className="font-headline text-xl font-semibold text-white">Contacto</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href="mailto:info@terravision.com" className="hover:text-accent transition-colors">info@terravision.com</a></li>
-              <li><a href="tel:+528112345678" className="hover:text-accent transition-colors">+52 (81) 1234 5678</a></li>
+              <li><a href="mailto:mauriciodelamaza@gmail.com" className="hover:text-accent transition-colors">mauriciodelamaza@gmail.com</a></li>
+              <li><a href="https://wa.me/5218110165108" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors">WhatsApp: +52 81 1016 5108</a></li>
               <li>Monterrey, México</li>
             </ul>
           </div>
