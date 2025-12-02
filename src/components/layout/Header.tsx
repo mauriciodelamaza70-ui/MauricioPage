@@ -42,8 +42,8 @@ export default function Header() {
   );
 
 
-  const logoSrc = "/images/logo-white.png";
-  const mobileLogoSrc = "/images/logo-white.png";
+  const logoSrc = "/images/Logo_color.png";
+  const mobileLogoSrc = "/images/Logo_color.png";
 
   return (
     <header className={headerClasses}>
