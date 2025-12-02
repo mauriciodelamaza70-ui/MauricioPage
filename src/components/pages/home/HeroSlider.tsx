@@ -19,7 +19,7 @@ export default function HeroSlider() {
   ];
 
   return (
-    <section className="relative h-[80vh] w-full overflow-hidden">
+    <section className="relative h-screen w-full overflow-hidden">
         <Carousel
             opts={{ loop: true }}
             plugins={carouselPlugins}
