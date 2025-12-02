@@ -2,6 +2,7 @@
 
 import React from "react"
 import Image from "next/image"
+import Link from "next/link";
 import Autoplay from "embla-carousel-autoplay"
 import {
   Carousel,
@@ -15,34 +16,34 @@ export default function HeroSlider() {
   const heroImages = PlaceHolderImages.filter(p => p.id.startsWith('hero-'));
 
   const carouselPlugins = [
-    Autoplay({ delay: 5000, stopOnInteraction: false }),
+    Autoplay({ delay: 5000, stopOnInteraction: true }),
   ];
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
-        <Carousel
-            opts={{ loop: true }}
-            plugins={carouselPlugins}
-            className="h-full w-full embla-fade"
-        >
-            <CarouselContent>
-                {heroImages.map((heroImage, index) => (
-                    <CarouselItem key={heroImage.id}>
-                         <div className="relative h-full w-full">
-                            <Image
-                                src={heroImage.imageUrl}
-                                alt={heroImage.description}
-                                fill
-                                className="object-cover embla__slide__img"
-                                priority={index === 0}
-                                data-ai-hint={heroImage.imageHint}
-                            />
-                             <div className="absolute inset-0 bg-black/40" />
-                        </div>
-                    </CarouselItem>
-                ))}
-            </CarouselContent>
-        </Carousel>
+      <Carousel
+        opts={{ loop: true }}
+        plugins={carouselPlugins}
+        className="h-full w-full embla-fade"
+      >
+        <CarouselContent>
+          {heroImages.map((heroImage, index) => (
+            <CarouselItem key={heroImage.id} className="h-screen">
+              <div className="relative h-full w-full">
+                <Image
+                    src={heroImage.imageUrl}
+                    alt={heroImage.description}
+                    fill
+                    className="object-cover embla__slide__img"
+                    priority={index === 0}
+                    data-ai-hint={heroImage.imageHint}
+                />
+                <div className="absolute inset-0 bg-black/40" />
+              </div>
+            </CarouselItem>
+          ))}
+        </CarouselContent>
+      </Carousel>
       
       <div className="absolute inset-0 z-10 flex h-full flex-col items-center justify-center p-4 text-center text-white">
         <h1 className="font-headline text-5xl font-bold leading-tight drop-shadow-2xl md:text-7xl lg:text-8xl">
@@ -55,7 +56,7 @@ export default function HeroSlider() {
             - Mauricio De la Maza-Benignos
         </p>
         <Button asChild size="lg" className="mt-8 bg-accent text-lg text-primary-foreground hover:bg-accent/90">
-          <a href="https://panterracinefest.com" target="_blank" rel="noopener noreferrer">Conoce más</a>
+            <a href="https://panterracinefest.com" target="_blank" rel="noopener noreferrer">Conoce más</a>
         </Button>
       </div>
     </section>
