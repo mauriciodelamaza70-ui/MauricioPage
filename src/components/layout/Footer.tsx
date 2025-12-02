@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Col 1: Logo and description */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/images/logo-de-la-maza.jpg" alt="Terra Vision Logo" width={170} height={40} />
+              <Image src="/images/logo-white.png" alt="Terra Vision Logo" width={170} height={40} />
             </Link>
             <p className="text-muted-foreground">
               Producción audiovisual y consultoría ambiental desde 1994.
