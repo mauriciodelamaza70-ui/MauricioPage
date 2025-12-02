@@ -138,6 +138,7 @@ export const galleryImages: GalleryImage[] = [
   { id: 'gal-11', title: 'Preparando toma', category: 'Behind the Scenes', imageId: 'gallery-bts-2' },
   { id: 'gal-12', title: 'Sierra Madre Oriental', category: 'Paisajes', imageId: 'gallery-landscapes-1' },
   { id: 'gal-13', title: 'Costa de Oaxaca', category: 'Paisajes', imageId: 'gallery-landscapes-2' },
+  { id: 'gal-14', title: 'Paisaje impresionante', category: 'Paisajes', imageId: 'gallery-new-landscape' },
 ];
 
 export const achievements: Achievement[] = [
@@ -157,3 +158,5 @@ export const history = {
         { title: 'Compromiso Social', description: 'Creemos en el poder de nuestras historias para educar, inspirar y movilizar a la comunidad.' }
     ]
 };
+
+    

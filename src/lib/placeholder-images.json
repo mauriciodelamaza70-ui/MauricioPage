@@ -171,26 +171,32 @@
     {
       "id": "gallery-bts-1",
       "description": "Camera crew in the jungle",
-      "imageUrl": "https://images.unsplash.com/photo-1652968171302-5b9e1bb0e0b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYW1lcmElMjBjcmV3fGVufDB8fHx8MTc2NDcwMTA5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1652968171302-5b9e1bb0e0b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYW1lcmElMjBjcmV3fGVufDB8fHx8MTc2NDcwMTA5M3ww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "camera crew"
     },
     {
       "id": "gallery-bts-2",
       "description": "Setting up a shot",
-      "imageUrl": "https://images.unsplash.com/photo-1624717369214-abf029e0f03d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaWxtaW5nJTIwc2V0dXB8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1624717369214-abf029e0f03d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaWxtaW5nJTIwc2V0dXB8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "filming setup"
     },
     {
       "id": "gallery-landscapes-1",
       "description": "Mountain range",
-      "imageUrl": "https://images.unsplash.com/photo-1445452916036-9022dfd33aa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb3VudGFpbiUyMHJhbmdlfGVufDB8fHx8MTc2NDYwMzY2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1445452916036-9022dfd33aa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb3VudGFpbiUyMHJhbmdlfGVufDB8fHx8MTc2NDYwMzY2N3ww&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "mountain range"
     },
     {
       "id": "gallery-landscapes-2",
       "description": "Coastal scene",
-      "imageUrl": "https://images.unsplash.com/photo-1614394535670-c314bb280ed2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2FzdGxpbmUlMjBhZXJpYWx8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1614394535670-c314bb280ed2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2FzdGxpbmUlMjBhZXJpYWx8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib.rb-4.1.0&q=80&w=1080",
       "imageHint": "coastline aerial"
+    },
+    {
+      "id": "gallery-new-landscape",
+      "description": "A beautiful new landscape",
+      "imageUrl": "https://images.unsplash.com/photo-1501854140801-50d01698950b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxsYW5kc2NhcGV8ZW58MHx8fHwxNzIzNTY3ODkxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stunning landscape"
     }
   ]
 }
