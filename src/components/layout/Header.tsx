@@ -75,7 +75,7 @@ export default function Header() {
             <SheetContent side="right" className="w-[300px] bg-background">
               <div className="flex flex-col space-y-6 p-6">
                 <Link href="/" className="flex items-center gap-2 self-start">
-                   <Image src={mobileLogoSrc} alt="Terra Vision Logo" width={140} height={30} className="h-8 w-auto" />
+                   <Image src={mobileLogoSrc} alt="Terra Vision Logo" width={140} height={30} className="h-auto w-32" />
                 </Link>
                 <nav className="flex flex-col space-y-4">
                   {navLinks.map((link) => (
