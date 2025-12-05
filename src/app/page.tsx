@@ -62,9 +62,9 @@ export default function Home() {
                   <Image
                     src={bioImage.imageUrl}
                     alt="Mauricio De la Maza-Benignos"
-                    width={400}
-                    height={400}
-                    className="rounded-full aspect-square object-cover shadow-2xl"
+                    width={500}
+                    height={600}
+                    className="rounded-lg object-cover shadow-2xl"
                     data-ai-hint={bioImage.imageHint}
                   />
                 )}
