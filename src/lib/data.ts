@@ -163,20 +163,20 @@ export const posts: Post[] = [
 ];
 
 export const galleryImages: GalleryImage[] = [
-  { id: 'gal-1', title: 'Jaguar en la selva', category: 'Naturaleza', imageId: 'gallery-nature-1' },
-  { id: 'gal-2', title: 'Quetzal en vuelo', category: 'Naturaleza', imageId: 'gallery-nature-2' },
-  { id: 'gal-3', title: 'Ballena jorobada', category: 'Naturaleza', imageId: 'gallery-nature-3' },
-  { id: 'gal-4', title: 'Set de filmación en el desierto', category: 'Proyectos', imageId: 'gallery-film-1' },
-  { id: 'gal-5', title: 'Paisaje cinematográfico', category: 'Proyectos', imageId: 'gallery-film-2' },
-  { id: 'gal-6', title: 'Director en acción', category: 'Proyectos', imageId: 'gallery-film-3' },
-  { id: 'gal-7', title: 'Conferencia magistral', category: 'Eventos', imageId: 'gallery-events-1' },
-  { id: 'gal-8', title: 'Estreno en festival', category: 'Eventos', imageId: 'gallery-events-2' },
-  { id: 'gal-9', title: 'Recibiendo premio', category: 'Eventos', imageId: 'gallery-events-3' },
-  { id: 'gal-10', title: 'Equipo en la jungla', category: 'Behind the Scenes', imageId: 'gallery-bts-1' },
-  { id: 'gal-11', title: 'Preparando toma', category: 'Behind the Scenes', imageId: 'gallery-bts-2' },
-  { id: 'gal-12', title: 'Sierra Madre Oriental', category: 'Paisajes', imageId: 'gallery-landscapes-1' },
-  { id: 'gal-13', title: 'Costa de Oaxaca', category: 'Paisajes', imageId: 'gallery-landscapes-2' },
-  { id: 'gal-14', title: 'Paisaje de Montaña', category: 'Paisajes', imageId: 'gallery-landscape-3' },
+  { id: 'gal-1', title: 'Río en el cañón', category: 'Naturaleza', imageId: 'gallery-new-1' },
+  { id: 'gal-2', title: 'Hombre en la naturaleza', category: 'Naturaleza', imageId: 'gallery-new-2' },
+  { id: 'gal-3', title: 'Paisaje montañoso', category: 'Paisajes', imageId: 'gallery-new-3' },
+  { id: 'gal-4', title: 'Pez bajo el agua', category: 'Naturaleza', imageId: 'gallery-new-4' },
+  { id: 'gal-5', title: 'Filmando en la naturaleza', category: 'Proyectos', imageId: 'gallery-new-5' },
+  { id: 'gal-6', title: 'Pez en el agua', category: 'Naturaleza', imageId: 'gallery-new-6' },
+  { id: 'gal-7', title: 'Cámara en la naturaleza', category: 'Proyectos', imageId: 'gallery-new-7' },
+  { id: 'gal-8', title: 'Conversación en evento', category: 'Eventos', imageId: 'gallery-new-8' },
+  { id: 'gal-9', title: 'Equipo filmando', category: 'Behind the Scenes', imageId: 'gallery-new-9' },
+  { id: 'gal-10', title: 'Hombre con cámara', category: 'Behind the Scenes', imageId: 'gallery-new-10' },
+  { id: 'gal-11', title: 'Conferencia', category: 'Eventos', imageId: 'gallery-new-11' },
+  { id: 'gal-12', title: 'Paisaje de Arramberri', category: 'Paisajes', imageId: 'gallery-new-12' },
+  { id: 'gal-13', title: 'Cuatro Ciénegas', category: 'Paisajes', imageId: 'gallery-new-13' },
+  { id: 'gal-14', title: 'Paisaje de Perú', category: 'Paisajes', imageId: 'gallery-new-14' },
 ];
 
 export const videoGallery: Video[] = [

@@ -117,7 +117,7 @@
     {
       "id": "gallery-hero",
       "description": "Hero image for the Gallery page",
-      "imageUrl": "https://images.unsplash.com/photo-1507643179773-3e975d7ac515?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcnQlMjBnYWxsZXJ5fGVufDB8fHx8MTc2NDY2NjYzNXww&ixlib.rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/images/videos.jpg",
       "imageHint": "art gallery"
     },
     {
@@ -133,88 +133,88 @@
       "imageHint": "old telephone"
     },
     {
-      "id": "gallery-nature-1",
-      "description": "Image of a jaguar",
-      "imageUrl": "https://images.unsplash.com/photo-1717329322511-a93bb172c444?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxqYWd1YXIlMjB3aWxkbGlmZXxlbnwwfHx8fDE3NjQ3MDEwOTJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "jaguar wildlife"
+      "id": "gallery-new-1",
+      "description": "Río en un cañón",
+      "imageUrl": "/images/AC3I3990.jpg",
+      "imageHint": "river canyon"
     },
     {
-      "id": "gallery-nature-2",
-      "description": "Image of a colorful bird",
-      "imageUrl": "https://images.unsplash.com/photo-1551647318-f0b1dfea688a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cXVldHphbCUyMGJpcmR8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "quetzal bird"
+      "id": "gallery-new-2",
+      "description": "Hombre en la naturaleza",
+      "imageUrl": "/images/AC3I4671.jpg",
+      "imageHint": "man nature"
     },
     {
-      "id": "gallery-nature-3",
-      "description": "Image of a whale breaching",
-      "imageUrl": "https://images.unsplash.com/photo-1522432601293-65a2fdbd86c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3aGFsZSUyMGJyZWFjaHxlbnwwfHx8fDE3NjQ3MDEwOTJ8MA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "whale breach"
-    },
-    {
-      "id": "gallery-film-1",
-      "description": "Behind the scenes film shot",
-      "imageUrl": "https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaWxtJTIwc2V0fGVufDB8fHx8MTc2NDY1ODIzN3ww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "film set"
-    },
-    {
-      "id": "gallery-film-2",
-      "description": "Cinematic shot of a landscape",
-      "imageUrl": "https://images.unsplash.com/photo-1531905343786-2b92bcb7d3a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaW5lbWF0aWMlMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY0NjgyMDcyfDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "cinematic landscape"
-    },
-    {
-      "id": "gallery-film-3",
-      "description": "Director looking at a monitor",
-      "imageUrl": "https://images.unsplash.com/photo-1698779051087-a5eb01bd0129?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkaXJlY3RvciUyMHdhdGNoaW5nfGVufDB8fHx8MTc2NDcwMTA5M3ww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "director watching"
-    },
-    {
-      "id": "gallery-events-1",
-      "description": "Speaker at a conference",
-      "imageUrl": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29uZmVyZW5jZSUyMHNwZWFrZXJ8ZW58MHx8fHwxNzY0NjQwOTQ2fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "conference speaker"
-    },
-    {
-      "id": "gallery-events-2",
-      "description": "Audience at a film festival",
-      "imageUrl": "https://images.unsplash.com/photo-1485095329183-d0797cdc5676?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjaW5lbWElMjBhdWRpZW5jZXxlbnwwfHx8fDE3NjQ3MDEwOTN8MA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "cinema audience"
-    },
-    {
-      "id": "gallery-events-3",
-      "description": "Award ceremony",
-      "imageUrl": "https://images.unsplash.com/photo-1642104744809-14b986179927?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhd2FyZCUyMGNlcmVtb255fGVufDB8fHx8MTc2NDY0MDk0Nnww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "award ceremony"
-    },
-    {
-      "id": "gallery-bts-1",
-      "description": "Camera crew in the jungle",
-      "imageUrl": "https://images.unsplash.com/photo-1652968171302-5b9e1bb0e0b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjYW1lcmElMjBjcmV3fGVufDB8fHx8MTc2NDcwMTA5M3ww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "camera crew"
-    },
-    {
-      "id": "gallery-bts-2",
-      "description": "Setting up a shot",
-      "imageUrl": "https://images.unsplash.com/photo-1624717369214-abf029e0f03d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxmaWxtaW5nJTIwc2V0dXB8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "filming setup"
-    },
-    {
-      "id": "gallery-landscapes-1",
-      "description": "Mountain range",
-      "imageUrl": "https://images.unsplash.com/photo-1445452916036-9022dfd33aa8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtb3VudGFpbiUyMHJhbmdlfGVufDB8fHx8MTc2NDYwMzY2N3ww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "mountain range"
-    },
-    {
-      "id": "gallery-landscapes-2",
-      "description": "Coastal scene",
-      "imageUrl": "https://images.unsplash.com/photo-1614394535670-c314bb280ed2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjb2FzdGxpbmUlMjBhZXJpYWx8ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "coastline aerial"
-    },
-    {
-      "id": "gallery-landscape-3",
-      "description": "A beautiful mountain landscape",
-      "imageUrl": "/images/mi-paisaje.jpg",
+      "id": "gallery-new-3",
+      "description": "Paisaje de montaña",
+      "imageUrl": "/images/AC3I9506-1.jpg",
       "imageHint": "mountain landscape"
+    },
+    {
+      "id": "gallery-new-4",
+      "description": "Pez bajo el agua",
+      "imageUrl": "/images/Copia-de-Xenotoca-Eiseni.jpg",
+      "imageHint": "fish underwater"
+    },
+    {
+      "id": "gallery-new-5",
+      "description": "Filmando en la naturaleza",
+      "imageUrl": "/images/DSC01476.jpg",
+      "imageHint": "filming nature"
+    },
+    {
+      "id": "gallery-new-6",
+      "description": "Pez en el agua",
+      "imageUrl": "/images/DSC01569.jpg",
+      "imageHint": "fish water"
+    },
+    {
+      "id": "gallery-new-7",
+      "description": "Cámara en la naturaleza",
+      "imageUrl": "/images/IMG_0912.jpg",
+      "imageHint": "camera nature"
+    },
+    {
+      "id": "gallery-new-8",
+      "description": "Conversación en evento",
+      "imageUrl": "/images/IMG_1654.jpg",
+      "imageHint": "event conversation"
+    },
+    {
+      "id": "gallery-new-9",
+      "description": "Equipo de filmación",
+      "imageUrl": "/images/IMG_2618.jpg",
+      "imageHint": "film crew"
+    },
+    {
+      "id": "gallery-new-10",
+      "description": "Hombre con cámara",
+      "imageUrl": "/images/IMG_5046.jpg",
+      "imageHint": "man camera"
+    },
+    {
+      "id": "gallery-new-11",
+      "description": "Conferencia",
+      "imageUrl": "/images/IMG_9498.jpg",
+      "imageHint": "conference"
+    },
+    {
+      "id": "gallery-new-12",
+      "description": "Paisaje de Arramberri",
+      "imageUrl": "/images/arramberri-057.jpg",
+      "imageHint": "landscape arramberri"
+    },
+    {
+      "id": "gallery-new-13",
+      "description": "Paisaje de Cuatro Ciénegas",
+      "imageUrl": "/images/cuatro-cienegas-2017-2.jpg",
+      "imageHint": "cuatro cienegas"
+    },
+    {
+      "id": "gallery-new-14",
+      "description": "Paisaje de Perú",
+      "imageUrl": "/images/peru.jpg",
+      "imageHint": "peru landscape"
     },
     {
       "id": "cta-bg",
