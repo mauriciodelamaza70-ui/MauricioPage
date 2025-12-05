@@ -40,7 +40,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
-                <h2 className="font-headline text-xl font-bold mb-4">Mauricio De la Maza-Benignos</h2>
+                <h2 className="font-headline text-4xl font-bold mb-4">Mauricio De la Maza-Benignos</h2>
                 <div className="text-muted-foreground space-y-4">
                   <p>{newBio}</p>
                 </div>
@@ -101,7 +101,6 @@ export default function Home() {
                     {serviceIcons[service.title as keyof typeof serviceIcons]}
                   </div>
                   <h3 className="font-headline text-2xl font-semibold mb-2">{service.title}</h3>
-                  <p className="text-muted-foreground">{service.summary}</p>
                 </Card>
               ))}
             </div>
