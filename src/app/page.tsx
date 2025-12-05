@@ -68,24 +68,24 @@ export default function Home() {
         </section>
 
         <section id="portfolio" className="py-24 bg-black text-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-5xl mx-auto">
-                <div className="aspect-video w-full mb-12">
-                  <iframe 
-                      src="https://player.vimeo.com/video/12860646?h=c33c3a968a&color=D4A373&title=0&byline=0&portrait=0" 
-                      className="w-full h-full"
-                      frameBorder="0" 
-                      allow="autoplay; fullscreen; picture-in-picture" 
-                      allowFullScreen>
-                  </iframe>
-                </div>
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="font-headline text-4xl md:text-5xl font-bold text-white mb-8">
+              Producciones
+            </h2>
+            <div className="max-w-4xl mx-auto mb-8">
+              <div className="aspect-video w-full">
+                <iframe
+                  src="https://player.vimeo.com/video/12860646?h=c33c3a968a&color=D4A373&title=0&byline=0&portrait=0"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
-            <div className="text-center">
-              <h2 className="font-headline text-4xl md:text-5xl font-bold text-white mb-8">Nuestras Producciones</h2>
-              <Button asChild size="lg" className="bg-accent text-primary-foreground hover:bg-accent/90 font-headline tracking-widest px-10">
-                  <Link href="/galerias">¡DESCUBRE!</Link>
-              </Button>
-            </div>
+            <Button asChild size="lg" className="bg-accent text-primary-foreground hover:bg-accent/90 font-headline tracking-widest px-10">
+              <Link href="/galerias">¡DESCUBRE!</Link>
+            </Button>
           </div>
         </section>
 
