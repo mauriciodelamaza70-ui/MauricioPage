@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Camera, FileText, Aperture, Quote } from "lucide-react";
-import { siteConfig, biography, services, projects, posts } from "@/lib/data";
+import { siteConfig, services, projects, posts } from "@/lib/data";
 import HeroSlider from "@/components/pages/home/HeroSlider";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { TheatreIcon } from "@/components/icons";
@@ -18,6 +18,8 @@ export default function Home() {
     'Cultura': <TheatreIcon className="h-10 w-10 text-accent" />,
     'Consultoría': <FileText className="h-10 w-10 text-accent" />,
   };
+  const newBio = "Mauricio de la Maza se graduó summa cum laude con un Doctorado en Biología y Desarrollo Sustentable en la UANL; cuenta con una Maestría en administración de Empresas de la Universidad de Lancaster, Reino Unido, con programa de intercambio con ESC, Lyon, Francia, donde se especializó en Planificación Estratégica; es Ingeniero Agrónomo Zootecnista en Ingeniería Agrícola y Zootecnia del Tecnológico de Monterrey; además posee una licenciatura en Derecho con Mención Honorífica de Excelencia del TecMilenio y estudios de Maestría en Arte Cinematográfico y Multimedia en la Escuela Superior de Cine y Multimedia Ilumina.";
+
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -40,7 +42,10 @@ export default function Home() {
               <div className="order-2 md:order-1">
                 <h2 className="font-headline text-4xl md:text-5xl font-bold mb-6">Mauricio De la Maza-Benignos</h2>
                 <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-                  <p>{biography.full.substring(0, 300)}...</p>
+                  <p>{newBio}</p>
+                </div>
+                <div className="mt-6">
+                    <Image src="/images/FirmaNegro-1.png" alt="Firma de Mauricio De la Maza" width={200} height={100} />
                 </div>
                 <Button asChild variant="link" className="text-accent text-lg p-0 h-auto mt-6">
                   <Link href="/nosotros">Leer más <ArrowRight className="ml-2 h-5 w-5" /></Link>
