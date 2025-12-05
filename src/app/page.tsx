@@ -78,7 +78,7 @@ export default function Home() {
             <div className="max-w-4xl mx-auto mb-12">
               <div className="aspect-video w-full">
                 <iframe
-                  src="https://player.vimeo.com/video/12860646?h=c33c3a968a&color=D4A373&title=0&byline=0&portrait=0#t=1s"
+                  src="https://player.vimeo.com/video/12860646?h=c33c3a968a&color=D4A373&title=0&byline=0&portrait=0"
                   className="w-full h-full"
                   frameBorder="0"
                   allow="autoplay; fullscreen; picture-in-picture"
