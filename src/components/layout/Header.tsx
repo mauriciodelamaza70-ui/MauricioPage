@@ -28,6 +28,7 @@ export default function Header() {
 
   const headerClasses = cn(
     'fixed top-0 z-50 w-full transition-all duration-300',
+    'h-16',
     isHome && !isScrolled ? 'bg-transparent' : 'bg-white shadow-md'
   );
 
@@ -46,7 +47,7 @@ export default function Header() {
 
   return (
     <header className={headerClasses}>
-      <div className="container mx-auto flex h-16 items-center justify-between px-4">
+      <div className="container mx-auto flex h-full items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
           <Image src={logoSrc} alt="Terra Vision Logo" width={140} height={30} priority className={cn("h-auto transition-all duration-300 w-32")} />
         </Link>
