@@ -1,47 +1,20 @@
 "use client";
 
-import { useState, useMemo } from 'react';
 import Image from 'next/image';
 import { GalleryImage } from '@/lib/types';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { cn } from '@/lib/utils';
-import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
-import { Card, CardContent } from '@/components/ui/card';
+import { Card } from '@/components/ui/card';
 
 type GalleryGridProps = {
   images: GalleryImage[];
 };
 
-const categories = ['Todo', 'Naturaleza', 'Proyectos', 'Eventos', 'Behind the Scenes', 'Paisajes'];
-
 export default function GalleryGrid({ images }: GalleryGridProps) {
-  const [filter, setFilter] = useState('Todo');
-
-  const filteredImages = useMemo(() => {
-    if (filter === 'Todo') return images;
-    return images.filter((image) => image.category === filter);
-  }, [filter, images]);
-
   return (
     <div>
-      <div className="flex justify-center flex-wrap gap-2 mb-12">
-        {categories.map((category) => (
-          <Button
-            key={category}
-            variant={filter === category ? 'default' : 'outline'}
-            onClick={() => setFilter(category)}
-            className={cn(
-                filter === category ? 'bg-accent hover:bg-accent/90' : 'border-accent text-accent hover:bg-accent hover:text-white'
-            )}
-          >
-            {category}
-          </Button>
-        ))}
-      </div>
-
       <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
-        {filteredImages.map((image) => {
+        {images.map((image) => {
           const placeholder = PlaceHolderImages.find((p) => p.id === image.imageId);
           if (!placeholder) return null;
           return (
