@@ -1,8 +1,10 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Camera, FileText, Aperture } from "lucide-react";
+import { ArrowRight, Camera, FileText, Aperture, Quote } from "lucide-react";
 import { siteConfig, biography, services, projects, posts } from "@/lib/data";
 import HeroSlider from "@/components/pages/home/HeroSlider";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
@@ -22,7 +24,17 @@ export default function Home() {
       <main className="flex-grow">
         <HeroSlider />
 
-        <section id="nosotros" className="py-24">
+        <section className="py-24">
+            <div className="container mx-auto px-4 text-center">
+                <Quote className="h-12 w-12 text-accent mx-auto mb-6" />
+                <blockquote className="font-headline text-3xl md:text-4xl font-bold max-w-4xl mx-auto leading-tight">
+                    La Tierra también tiene derechos, y el Estado la obligación de velar por el acceso efectivo a la justicia ambiental.
+                </blockquote>
+                <p className="mt-6 text-lg font-medium text-muted-foreground">- Mauricio de la Maza-Benignos</p>
+            </div>
+        </section>
+
+        <section id="nosotros" className="py-24 bg-secondary">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">

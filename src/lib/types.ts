@@ -12,7 +12,6 @@ export type SocialLink = {
 export type Service = {
   title: string;
   summary: string;
-  icon: React.ElementType;
   details: {
     title: string;
     description: string;
