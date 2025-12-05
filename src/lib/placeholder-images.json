@@ -31,18 +31,6 @@
       "imageHint": "film production"
     },
     {
-      "id": "hero-2",
-      "description": "Hero image of a camera lens reflecting a landscape",
-      "imageUrl": "https://images.unsplash.com/photo-1695402624920-6c7d6595202c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYW1lcmElMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY0NjgyNDQ0fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "camera landscape"
-    },
-    {
-      "id": "hero-3",
-      "description": "Hero image of a desert landscape at sunset",
-      "imageUrl": "https://images.unsplash.com/photo-1612852098567-8b5d42ee6a52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZGVzZXJ0JTIwc3Vuc2V0fGVufDB8fHx8MTc2NDYzNzExNHww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "desert sunset"
-    },
-    {
       "id": "biography-mauricio",
       "description": "Professional photo of Mauricio De la Maza-Benignos",
       "imageUrl": "/images/Mauricio.jpg",
