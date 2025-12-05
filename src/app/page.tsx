@@ -77,7 +77,7 @@ export default function Home() {
               <h2 className="font-headline text-4xl md:text-5xl font-bold text-white mb-8">Nuestras Producciones</h2>
             </div>
             
-            <div className="max-w-6xl mx-auto">
+            <div className="mx-auto">
               <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-2xl">
                  <iframe 
                     src="https://player.vimeo.com/video/12860646?h=c33c3a968a&color=D4A373&title=0&byline=0&portrait=0" 
