@@ -46,9 +46,9 @@ export default function Header() {
 
   return (
     <header className={headerClasses}>
-      <div className="container mx-auto flex h-24 items-center justify-between px-4">
+      <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <Image src={logoSrc} alt="Terra Vision Logo" width={170} height={40} priority className={cn("h-auto transition-all duration-300 w-40")} />
+          <Image src={logoSrc} alt="Terra Vision Logo" width={150} height={35} priority className={cn("h-auto transition-all duration-300 w-36")} />
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
@@ -74,7 +74,7 @@ export default function Header() {
             <SheetContent side="right" className="w-[300px] bg-background">
               <div className="flex flex-col space-y-6 p-6">
                 <Link href="/" className="flex items-center gap-2 self-start">
-                   <Image src={mobileLogoSrc} alt="Terra Vision Logo" width={170} height={40} className="h-10 w-auto" />
+                   <Image src={mobileLogoSrc} alt="Terra Vision Logo" width={150} height={35} className="h-9 w-auto" />
                 </Link>
                 <nav className="flex flex-col space-y-4">
                   {navLinks.map((link) => (
