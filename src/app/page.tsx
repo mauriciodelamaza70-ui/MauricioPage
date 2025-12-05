@@ -23,6 +23,10 @@ export default function Home() {
   const newBio = "Mauricio de la Maza se graduó summa cum laude con un Doctorado en Biología y Desarrollo Sustentable en la UANL; cuenta con una Maestría en administración de Empresas de la Universidad de Lancaster, Reino Unido, con programa de intercambio con ESC, Lyon, Francia, donde se especializó en Planificación Estratégica; es Ingeniero Agrónomo Zootecnista en Ingeniería Agrícola y Zootecnia del Tecnológico de Monterrey; además posee una licenciatura en Derecho con Mención Honorífica de Excelencia del TecMilenio y estudios de Maestría en Arte Cinematográfico y Multimedia en la Escuela Superior de Cine y Multimedia Ilumina.";
 
 
+  const displayedServices = services.filter(service => 
+    ['Producción Audiovisual', 'Fotografía', 'Cultura', 'Consultoría'].includes(service.title)
+  );
+
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow">
@@ -97,7 +101,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12">Nuestros Servicios</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {services.map((service) => (
+              {displayedServices.map((service) => (
                 <Card key={service.title} className="text-center p-8 border-2 border-transparent hover:border-accent hover:shadow-xl transition-all duration-300">
                   <div className="flex justify-center mb-4">
                     {serviceIcons[service.title as keyof typeof serviceIcons]}
