@@ -9,6 +9,7 @@ import { siteConfig, services, projects, posts } from "@/lib/data";
 import HeroSlider from "@/components/pages/home/HeroSlider";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { TheatreIcon } from "@/components/icons";
+import HistoryTimeline from "@/components/pages/home/HistoryTimeline";
 
 export default function Home() {
   const bioImage = PlaceHolderImages.find(p => p.id === 'biography-mauricio');
@@ -114,13 +115,12 @@ export default function Home() {
 
         <section className="bg-secondary py-24">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="font-headline text-4xl md:text-5xl font-bold mb-4">Desde 1994</h2>
-            <p className="text-lg md:text-xl max-w-3xl mx-auto text-muted-foreground">
-              Con una trayectoria que abarca casi tres décadas, hemos sido pioneros en la narrativa ambiental, combinando la ciencia, el arte y la comunicación para inspirar el cambio y promover la conservación en México y más allá.
-            </p>
-             <Button asChild variant="link" className="text-accent text-lg p-0 h-auto mt-6">
-                <Link href="/nosotros">Nuestra historia <ArrowRight className="ml-2 h-5 w-5" /></Link>
-              </Button>
+            <p className="text-sm uppercase tracking-widest text-accent mb-2">DESDE 1994</p>
+            <h2 className="font-headline text-4xl md:text-5xl font-bold mb-12">Nuestra Historia</h2>
+            <HistoryTimeline />
+            <Button asChild variant="link" className="text-accent text-lg p-0 h-auto mt-12">
+              <Link href="/nosotros">Conoce la historia completa <ArrowRight className="ml-2 h-5 w-5" /></Link>
+            </Button>
           </div>
         </section>
 

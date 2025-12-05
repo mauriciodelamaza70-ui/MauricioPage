@@ -1,4 +1,4 @@
-import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement } from './types';
+import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent } from './types';
 import { Facebook, Instagram, Linkedin } from 'lucide-react';
 import { TheatreIcon, VimeoIcon, WhatsAppIcon } from '@/components/icons';
 
@@ -159,5 +159,27 @@ export const history = {
     ]
 };
 
+export const timelineEvents: TimelineEvent[] = [
+    {
+        year: '1994',
+        description: 'Le otorgan el "Premio a los mejores estudiantes de México" por el Comité Nacional Permanente de los Mejores Estudiantes de México'
+    },
+    {
+        year: '2014',
+        description: 'Obtiene el primer lugar en el "Premio Dr. José Álvarez Del Villar" por su tesis doctoral, otorgado por la Sociedad Mexicana de Ictiología'
+    },
+    {
+        year: '2015',
+        description: 'Logra el Premio de Investigación UANL al mejor artículo académico en Ciencias Naturales'
+    },
+    {
+        year: '2020',
+        description: 'Recibe el Doctorado Honoris Causa por parte de la Universidad Autónoma de Nuevo León'
+    },
+     {
+        year: '2021',
+        description: 'Gana el International Conservation Award otorgado por la Arizona Game & Fish Commission'
+    }
+];
     
     

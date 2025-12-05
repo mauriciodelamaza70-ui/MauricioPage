@@ -48,3 +48,8 @@ export type Achievement = {
   title: string;
   organization: string;
 };
+
+export type TimelineEvent = {
+  year: string;
+  description: string;
+};
