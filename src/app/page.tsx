@@ -89,8 +89,8 @@ export default function Home() {
             </div>
             
             <div className="container mx-auto px-4 text-center mt-12">
-                <Button asChild variant="link" className="text-2xl text-white hover:text-accent font-headline tracking-widest">
-                <Link href="/galerias">¡DESCUBRE!</Link>
+                <Button asChild size="lg" className="bg-accent text-primary-foreground hover:bg-accent/90 font-headline tracking-widest px-10">
+                    <Link href="/galerias">¡DESCUBRE!</Link>
                 </Button>
             </div>
         </section>
