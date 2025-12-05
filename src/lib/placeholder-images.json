@@ -7,6 +7,24 @@
       "imageHint": "forest canopy"
     },
     {
+      "id": "hero-s2",
+      "description": "Hero image S2",
+      "imageUrl": "/images/S2.jpg",
+      "imageHint": "nature landscape"
+    },
+    {
+      "id": "hero-s3",
+      "description": "Hero image S3",
+      "imageUrl": "/images/S3.jpg",
+      "imageHint": "mountain view"
+    },
+    {
+      "id": "hero-arramberri",
+      "description": "Hero image arramberri",
+      "imageUrl": "/images/arramberri-057.jpg",
+      "imageHint": "canyon river"
+    },
+    {
       "id": "hero-4",
       "description": "Captura de pantalla de producción",
       "imageUrl": "/images/Captura-de-pantalla-2022-05-25-a-las-19.13.54-1.png",
