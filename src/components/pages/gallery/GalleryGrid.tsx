@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { GalleryImage } from '@/lib/types';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { Card } from '@/components/ui/card';
 
 type GalleryGridProps = {
@@ -34,6 +34,7 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
                 </Card>
               </DialogTrigger>
               <DialogContent className="max-w-4xl p-2">
+                <DialogTitle className="sr-only">{image.title}</DialogTitle>
                 <Image
                   src={placeholder.imageUrl.replace(/\d+\/\d+$/, '1200/800')}
                   alt={image.title}

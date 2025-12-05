@@ -10,7 +10,7 @@ import HeroSlider from "@/components/pages/home/HeroSlider";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { TheatreIcon } from "@/components/icons";
 import HistoryTimeline from "@/components/pages/home/HistoryTimeline";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 
 export default function Home() {
   const bioImage = PlaceHolderImages.find(p => p.id === 'biography-mauricio');
@@ -101,12 +101,14 @@ export default function Home() {
                   </div>
                 </DialogTrigger>
                 <DialogContent className="max-w-4xl p-0 aspect-video">
+                  <DialogTitle className="sr-only">Video de Producciones</DialogTitle>
                   <iframe
                     src="https://player.vimeo.com/video/12860646?h=c33c3a968a&color=D4A373&title=0&byline=0&portrait=0&autoplay=1"
                     className="w-full h-full rounded-md"
                     frameBorder="0"
                     allow="autoplay; fullscreen; picture-in-picture"
                     allowFullScreen
+                    title="Video de Producciones de Terra Vision"
                   ></iframe>
                 </DialogContent>
               </Dialog>

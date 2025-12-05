@@ -4,7 +4,7 @@ import Image from 'next/image';
 import type { Video } from '@/lib/types';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import { PlayCircle } from 'lucide-react';
 
 type VideoGridProps = {
@@ -40,6 +40,7 @@ export default function VideoGrid({ videos }: VideoGridProps) {
               </Card>
             </DialogTrigger>
             <DialogContent className="max-w-4xl p-0 aspect-video">
+              <DialogTitle className="sr-only">{video.title}</DialogTitle>
               <iframe
                 src={`https://www.youtube.com/embed/${video.youtubeId}?autoplay=1`}
                 title={video.title}
