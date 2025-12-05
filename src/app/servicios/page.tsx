@@ -1,13 +1,20 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import PageHero from "@/components/common/PageHero";
 import { Button } from "@/components/ui/button";
 import { services } from "@/lib/data";
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import type { Service } from '@/lib/types';
+import { cn } from '@/lib/utils';
+import { Check } from 'lucide-react';
 
 export default function ServiciosPage() {
   const talentImage1 = PlaceHolderImages.find(p => p.id === 'talent-1');
   const talentImage2 = PlaceHolderImages.find(p => p.id === 'talent-2');
+  const [selectedService, setSelectedService] = useState<Service | null>(services[0]);
 
   return (
     <>
@@ -24,7 +31,14 @@ export default function ServiciosPage() {
             {services.map((service, index) => {
               const serviceImage = PlaceHolderImages.find(p => p.id === service.imageId);
               return (
-                <Link href={`/servicios#${service.title.toLowerCase().replace(/\s/g, '-')}`} key={service.title} className="group relative aspect-video block overflow-hidden rounded-lg shadow-lg">
+                <button
+                  key={service.title}
+                  onClick={() => setSelectedService(service)}
+                  className={cn(
+                    "group relative aspect-video block overflow-hidden rounded-lg shadow-lg focus:outline-none focus:ring-4 focus:ring-accent focus:ring-opacity-50",
+                    selectedService?.title === service.title && 'ring-4 ring-accent ring-opacity-75'
+                  )}
+                >
                   {serviceImage && (
                     <Image
                       src={serviceImage.imageUrl}
@@ -40,36 +54,36 @@ export default function ServiciosPage() {
                       {service.title}
                     </h3>
                   </div>
-                </Link>
+                </button>
               );
             })}
           </div>
         </div>
       </section>
       
-      <section id="detalles-servicios" className="py-24 bg-secondary">
-        <div className="container mx-auto px-4 max-w-4xl">
-            {services.map((service) => (
-                <div key={service.title} id={service.title.toLowerCase().replace(/\s/g, '-')} className="mb-20 scroll-mt-24">
-                    <h3 className="font-headline text-4xl font-bold mb-4">{service.title}</h3>
-                    <p className="text-lg text-muted-foreground mb-8">{service.summary}</p>
-                    {service.details.map((detail, detailIndex) => (
-                        <div key={detailIndex}>
-                            <h4 className="font-bold text-2xl mb-4 text-foreground">{detail.title}</h4>
-                            <ul className="space-y-3 text-muted-foreground">
-                                {detail.items.map((item, itemIndex) => (
-                                <li key={itemIndex} className="flex items-start">
-                                    <span className="text-accent mr-3 mt-1 font-bold text-xl">&#8226;</span>
-                                    <span>{item}</span>
-                                </li>
-                                ))}
-                            </ul>
-                        </div>
-                    ))}
-                </div>
-            ))}
-        </div>
-      </section>
+      {selectedService && (
+        <section id="detalles-servicios" className="py-24 bg-secondary">
+          <div className="container mx-auto px-4 max-w-4xl">
+              <div className="mb-20 scroll-mt-24">
+                  <h3 className="font-headline text-4xl font-bold mb-4">{selectedService.title}</h3>
+                  <p className="text-lg text-muted-foreground mb-8">{selectedService.summary}</p>
+                  {selectedService.details.map((detail, detailIndex) => (
+                      <div key={detailIndex}>
+                          <h4 className="font-bold text-2xl mb-4 text-foreground">{detail.title}</h4>
+                          <ul className="space-y-3 text-muted-foreground">
+                              {detail.items.map((item, itemIndex) => (
+                              <li key={itemIndex} className="flex items-start">
+                                  <span className="text-accent mr-3 mt-1"><Check size={20} /></span>
+                                  <span>{item}</span>
+                              </li>
+                              ))}
+                          </ul>
+                      </div>
+                  ))}
+              </div>
+          </div>
+        </section>
+      )}
 
        <section className="py-24">
           <div className="container mx-auto px-4">
@@ -89,14 +103,14 @@ export default function ServiciosPage() {
                   <h3 className="font-headline text-3xl font-bold mb-4">Acciones con Propósito</h3>
                   <p className="text-muted-foreground mb-6">Las nuevas ideas, proyectos, sueños y mejoras para proteger y resguardar los derechos del medio ambiente son siempre bienvenidos.</p>
                    <Button asChild className="bg-accent hover:bg-accent/90">
-                    <Link href="/contacto">Contratanos</Link>
+                    <Link href="/contacto">Contrátanos</Link>
                   </Button>
                 </div>
                  <div>
                   <h3 className="font-headline text-3xl font-bold mb-4">Dirección Creativa</h3>
                   <p className="text-muted-foreground mb-6">Muchos de los jóvenes que participaron en la preproducción de nuestros documentales quedaron enamorados de el mundo del cine, ciencia y naturaleza.</p>
                    <Button asChild className="bg-accent hover:bg-accent/90">
-                    <Link href="/contacto">Contratanos</Link>
+                    <Link href="/contacto">Contrátanos</Link>
                   </Button>
                 </div>
               </div>

@@ -129,17 +129,17 @@ export const services: Service[] = [
   {
     title: 'Video Editing',
     imageId: 'service-editing',
-    summary: 'Post-producción profesional para dar vida a tus proyectos audiovisuales.',
+    summary: 'Post-producción profesional para dar vida a tus proyectos audiovisuales con las últimas tecnologías y un enfoque creativo.',
     details: [
         {
             title: "Post-Producción de Video",
             description: "Servicios completos de edición y post-producción para cine, TV y web.",
             items: [
-                "Edición de video y montaje",
-                "Corrección de color y etalonaje",
-                "Diseño y mezcla de sonido",
-                "Creación de gráficos en movimiento y efectos visuales (VFX)",
-                "Masterización y entrega para diferentes plataformas"
+                "Edición de video y montaje narrativo",
+                "Corrección de color y etalonaje cinematográfico",
+                "Diseño y mezcla de sonido profesional",
+                "Creación de gráficos en movimiento (motion graphics) y efectos visuales (VFX) básicos",
+                "Masterización y entrega para diversas plataformas (cine, broadcast, web)"
             ]
         }
     ]
