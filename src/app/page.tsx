@@ -68,32 +68,31 @@ export default function Home() {
         </section>
 
         <section id="portfolio" className="py-24 bg-black text-gray-200">
-          <div className="container mx-auto px-4 text-center mb-12">
-            <div className="relative inline-block mb-4">
-              <div className="absolute top-[-20px] left-1/2 transform -translate-x-1/2 w-px h-5 bg-accent"></div>
-              <p className="text-sm tracking-[0.2em] text-accent font-semibold">PORTAFOLIO</p>
+            <div className="container mx-auto px-4 text-center mb-12">
+                <div className="relative inline-block mb-4">
+                <div className="absolute top-[-20px] left-1/2 transform -translate-x-1/2 w-px h-5 bg-accent"></div>
+                <p className="text-sm tracking-[0.2em] text-accent font-semibold">PORTAFOLIO</p>
+                </div>
+                <h2 className="font-headline text-4xl md:text-5xl font-bold text-white mb-8">Nuestras Producciones</h2>
             </div>
-            <h2 className="font-headline text-4xl md:text-5xl font-bold text-white mb-8">Nuestras Producciones</h2>
-          </div>
-          
-          <div className="w-full">
-            <div className="aspect-w-16 aspect-h-9">
-               <iframe 
-                  src="https://player.vimeo.com/video/12860646?h=c33c3a968a&color=D4A373&title=0&byline=0&portrait=0" 
-                  width="100%" 
-                  height="100%" 
-                  frameBorder="0" 
-                  allow="autoplay; fullscreen; picture-in-picture" 
-                  allowFullScreen>
-              </iframe>
+            
+            <div className="w-full">
+                <div className="aspect-w-16 aspect-h-9">
+                <iframe 
+                    src="https://player.vimeo.com/video/12860646?h=c33c3a968a&color=D4A373&title=0&byline=0&portrait=0" 
+                    className="w-full h-full"
+                    frameBorder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowFullScreen>
+                </iframe>
+                </div>
             </div>
-          </div>
-          
-          <div className="container mx-auto px-4 text-center mt-12">
-            <Button asChild variant="link" className="text-2xl text-white hover:text-accent font-headline tracking-widest">
-              <Link href="/galerias">¡DESCUBRE!</Link>
-            </Button>
-          </div>
+            
+            <div className="container mx-auto px-4 text-center mt-12">
+                <Button asChild variant="link" className="text-2xl text-white hover:text-accent font-headline tracking-widest">
+                <Link href="/galerias">¡DESCUBRE!</Link>
+                </Button>
+            </div>
         </section>
 
         <section id="servicios" className="py-24">
@@ -175,3 +174,5 @@ export default function Home() {
     </div>
   );
 }
+
+    
