@@ -40,8 +40,8 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
-                <h2 className="font-headline text-2xl md:text-3xl font-bold mb-6">Mauricio De la Maza-Benignos</h2>
-                <div className="max-w-none text-muted-foreground space-y-4">
+                <h2 className="font-headline text-2xl font-bold mb-4">Mauricio De la Maza-Benignos</h2>
+                <div className="text-muted-foreground space-y-4">
                   <p>{newBio}</p>
                 </div>
                 <div className="mt-6">
@@ -67,36 +67,32 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="portfolio" className="py-24 bg-white">
-          <div className="container mx-auto px-4">
-            <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12">Portafolio / Nuestras Producciones</h2>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-              {projects.slice(0, 4).map((project) => {
-                 const projectImage = PlaceHolderImages.find(p => p.id === project.imageId);
-                 return (
-                  <Card key={project.id} className="overflow-hidden group">
-                    {projectImage && (
-                      <div className="aspect-video overflow-hidden">
-                        <Image
-                          src={projectImage.imageUrl}
-                          alt={project.title}
-                          width={600}
-                          height={400}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                          data-ai-hint={projectImage.imageHint}
-                        />
-                      </div>
-                    )}
-                    <CardHeader>
-                      <CardTitle className="font-headline text-xl">{project.title}</CardTitle>
-                    </CardHeader>
-                  </Card>
-                 );
-              })}
+        <section id="portfolio" className="py-24 bg-black text-gray-200">
+          <div className="container mx-auto px-4 text-center">
+            <div className="mb-12">
+              <div className="relative inline-block mb-4">
+                <div className="absolute top-[-20px] left-1/2 transform -translate-x-1/2 w-px h-5 bg-accent"></div>
+                <p className="text-sm tracking-[0.2em] text-accent font-semibold">PORTAFOLIO</p>
+              </div>
+              <h2 className="font-headline text-4xl md:text-5xl font-bold text-white mb-8">Nuestras Producciones</h2>
             </div>
+            
+            <div className="max-w-4xl mx-auto">
+              <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden shadow-2xl">
+                 <iframe 
+                    src="https://player.vimeo.com/video/12860646?h=c33c3a968a&color=D4A373&title=0&byline=0&portrait=0" 
+                    width="100%" 
+                    height="100%" 
+                    frameBorder="0" 
+                    allow="autoplay; fullscreen; picture-in-picture" 
+                    allowFullScreen>
+                </iframe>
+              </div>
+            </div>
+            
             <div className="text-center mt-12">
-              <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
-                <Link href="/galerias">Ver más producciones</Link>
+              <Button asChild variant="link" className="text-2xl text-white hover:text-accent font-headline tracking-widest">
+                <Link href="/galerias">¡DESCUBRE!</Link>
               </Button>
             </div>
           </div>
