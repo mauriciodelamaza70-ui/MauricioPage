@@ -5,12 +5,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { ArrowRight, Camera, FileText, Aperture, Quote, PlayCircle } from "lucide-react";
-import { siteConfig, services, projects, posts, productionLogos } from "@/lib/data";
+import { siteConfig, services, posts, productionLogos } from "@/lib/data";
 import HeroSlider from "@/components/pages/home/HeroSlider";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { TheatreIcon } from "@/components/icons";
 import HistoryTimeline from "@/components/pages/home/HistoryTimeline";
-import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import ProductionsCarousel from "@/components/pages/home/ProductionsCarousel";
 
 export default function Home() {
   const bioImage = PlaceHolderImages.find(p => p.id === 'biography-mauricio');
@@ -83,19 +83,7 @@ export default function Home() {
                 Nuestras Producciones
                 </h2>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-center">
-                {productionLogos.map((logo, index) => (
-                    <div key={index} className="flex justify-center">
-                        <Image
-                            src={logo.src}
-                            alt={logo.alt}
-                            width={logo.width}
-                            height={logo.height}
-                            className="object-contain rounded-md"
-                        />
-                    </div>
-                ))}
-            </div>
+            <ProductionsCarousel />
             <div className="text-center mt-12">
               <Button asChild size="lg" className="bg-accent text-primary-foreground hover:bg-accent/90 font-headline tracking-widest px-10">
                 <Link href="/galerias">¡DESCUBRE!</Link>
