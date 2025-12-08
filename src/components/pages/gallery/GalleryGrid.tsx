@@ -11,7 +11,7 @@ type GalleryGridProps = {
 
 export default function GalleryGrid({ images }: GalleryGridProps) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
       {images.map((image) => {
         const placeholder = PlaceHolderImages.find((p) => p.id === image.imageId);
         if (!placeholder) return null;
