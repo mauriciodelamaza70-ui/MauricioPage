@@ -147,11 +147,11 @@ export const services: Service[] = [
 ];
 
 export const productionLogos: ProductionLogo[] = [
-    { src: '/images/Cora.png', alt: 'Cora Poster', width: 200, height: 300 },
-    { src: '/images/Dialogos de la muerte.png', alt: 'Diálogos de la Muerte Poster', width: 200, height: 300 },
-    { src: '/images/Wildligeconservation.png', alt: 'Wildlife Conservation Film Festival Poster', width: 200, height: 300 },
-    { src: '/images/PPPanterra-1.png', alt: 'Pantera Cine Fest Poster', width: 200, height: 300 },
-    { src: '/images/El zapato.png', alt: 'El Zapato Poster', width: 200, height: 300 },
+    { src: '/images/Cora.png', alt: 'Cora Poster', width: 250, height: 375 },
+    { src: '/images/Dialogos de la muerte.png', alt: 'Diálogos de la Muerte Poster', width: 250, height: 375 },
+    { src: '/images/Wildligeconservation.png', alt: 'Wildlife Conservation Film Festival Poster', width: 250, height: 375 },
+    { src: '/images/PPPanterra-1.png', alt: 'Pantera Cine Fest Poster', width: 250, height: 375 },
+    { src: '/images/El zapato.png', alt: 'El Zapato Poster', width: 250, height: 375 },
 ];
 
 export const projects: Project[] = [
