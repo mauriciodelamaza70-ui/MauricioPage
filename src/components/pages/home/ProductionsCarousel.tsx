@@ -31,12 +31,12 @@ export default function ProductionsCarousel() {
     >
       <CarouselContent>
         {productionLogos.map((logo, index) => (
-          <CarouselItem key={index} className="basis-full md:basis-1/2 lg:basis-1/4 flex justify-center">
+          <CarouselItem key={index} className="basis-full md:basis-1/2 lg:basis-1/3 flex justify-center">
             <Link 
               href={logo.url || '#'}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-1 cursor-pointer aspect-[2/3] w-[260px] relative block group"
+              className="p-1 cursor-pointer aspect-[2/3] w-[300px] relative block group"
               aria-label={`Visitar sitio de ${logo.alt}`}
             >
               <Image
