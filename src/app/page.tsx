@@ -5,14 +5,12 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { ArrowRight, Camera, FileText, Aperture, Quote, PlayCircle } from "lucide-react";
-import { siteConfig, services, projects, posts } from "@/lib/data";
+import { siteConfig, services, projects, posts, productionLogos } from "@/lib/data";
 import HeroSlider from "@/components/pages/home/HeroSlider";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { TheatreIcon } from "@/components/icons";
 import HistoryTimeline from "@/components/pages/home/HistoryTimeline";
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import LogoCarousel from "@/components/pages/home/LogoCarousel";
-
 
 export default function Home() {
   const bioImage = PlaceHolderImages.find(p => p.id === 'biography-mauricio');
@@ -78,15 +76,31 @@ export default function Home() {
         </section>
 
         <section id="portfolio" className="py-24 bg-black text-white">
-          <div className="container mx-auto px-4 text-center">
-            <p className="text-sm uppercase tracking-widest text-gray-400 mb-2">Portafolio</p>
-            <h2 className="font-headline text-4xl md:text-5xl font-bold text-white mb-12">
-              Nuestras Producciones
-            </h2>
-            <LogoCarousel />
-            <Button asChild size="lg" className="bg-accent text-primary-foreground hover:bg-accent/90 font-headline tracking-widest px-10 mt-12">
-              <Link href="/galerias">¡DESCUBRE!</Link>
-            </Button>
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+                <p className="text-sm uppercase tracking-widest text-gray-400 mb-2">Portafolio</p>
+                <h2 className="font-headline text-4xl md:text-5xl font-bold text-white">
+                Nuestras Producciones
+                </h2>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-center">
+                {productionLogos.map((logo, index) => (
+                    <div key={index} className="flex justify-center">
+                        <Image
+                            src={logo.src}
+                            alt={logo.alt}
+                            width={logo.width}
+                            height={logo.height}
+                            className="object-contain rounded-md"
+                        />
+                    </div>
+                ))}
+            </div>
+            <div className="text-center mt-12">
+              <Button asChild size="lg" className="bg-accent text-primary-foreground hover:bg-accent/90 font-headline tracking-widest px-10">
+                <Link href="/galerias">¡DESCUBRE!</Link>
+              </Button>
+            </div>
           </div>
         </section>
 
