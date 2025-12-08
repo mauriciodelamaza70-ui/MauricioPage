@@ -21,7 +21,7 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
             <Dialog key={image.id}>
               <DialogTrigger asChild>
                 <Card className="overflow-hidden cursor-pointer group">
-                    <div className="overflow-hidden aspect-video">
+                    <div className="overflow-hidden aspect-[2/3] relative">
                         <Image
                             src={placeholder.imageUrl}
                             alt={image.title}
@@ -35,10 +35,10 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
               <DialogContent className="max-w-4xl p-2">
                 <DialogTitle className="sr-only">{image.title}</DialogTitle>
                 <Image
-                  src={placeholder.imageUrl.replace(/\d+\/\d+$/, '1200/800')}
+                  src={placeholder.imageUrl.replace(/\d+\/\d+$/, '800/1200')}
                   alt={image.title}
-                  width={1200}
-                  height={800}
+                  width={800}
+                  height={1200}
                   className="w-full h-auto rounded-md"
                    data-ai-hint={placeholder.imageHint}
                 />
