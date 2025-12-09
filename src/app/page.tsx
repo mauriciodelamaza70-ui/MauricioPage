@@ -65,15 +65,15 @@ export default function Home() {
                 </Button>
               </div>
               <div className="order-1 md:order-2 flex flex-col items-center justify-center">
-                 <div className="flex flex-wrap justify-center items-center gap-4 mb-4">
+                 <div className="flex flex-wrap justify-center items-center gap-6 mb-4">
                   {recognitionLogos.map((logo) => (
-                    <Link key={logo.name} href={logo.url} target="_blank" rel="noopener noreferrer" className="transition-all">
+                    <Link key={logo.name} href={logo.url} target="_blank" rel="noopener noreferrer" className="transition-opacity hover:opacity-80">
                        <Image
                         src={logo.src}
                         alt={`${logo.name} logo`}
-                        width={logo.name === 'Brain' ? 40 : 80}
+                        width={logo.name === 'Wikipedia' ? 40 : 80}
                         height={40}
-                        className="object-contain"
+                        className="object-contain h-10 w-auto"
                       />
                     </Link>
                   ))}
