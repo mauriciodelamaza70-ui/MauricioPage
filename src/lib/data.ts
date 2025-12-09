@@ -176,11 +176,11 @@ export const posts: Post[] = [
 <p>Al paso del tiempo, directores de teatro de países como Chile, EUA y Australia la han llevado a escena. Actualmente, la obra está por estrenarse en España y Argentina. Además, la dramaturgia se ha traducido al inglés gracias a Cristina Elenes y actualmente una actriz-bailarina venezolana que radica en París llevará a escena el monólogo traducido al francés. ¿Por qué se ha mantenido vigente esta obra al paso del tiempo? ¿Qué se encuentra en la obra La loca del maniquí que necesita urgentemente ser traducida a más idiomas?</p>
 <p>El monólogo nos sitúa ante una mujer que va a interactuar en el espacio con diversos elementos, uno de ellos es un maniquí que, a través de esa relación, el lector y espectador será conducido al infierno que existe en una mente que ha sido construida por otros y no por sí misma. Y como producto de esa construcción, se ha suscitado la mutilación externa e interna del personaje. Pero, es un doble discurso al cual el lector y espectador están invitados a vivir de cerca y está basado en una de las realidades que han permanecido a través de los siglos.</p>
 <p>Y se trata de la impune y gran injusticia hacia la condición de ser mujer. Esto será importante para el lector que se enfrentará a las siguientes preguntas: ¿Qué es lo que siente esa mujer aparentemente loca? ¿Qué es lo que siente la mujer que se construye en nuestra sociedad? Es decir, se habla acerca de una condición que se ha sometido, domesticado y tratado como a una Femenina bestia de matadero o mujer para el matadero.</p>
-<img src="/images/prologo2.jpeg" alt="Maniquí en escena" class="my-6 rounded-lg shadow-md" />
+<img src="/images/prologo2.png" alt="Maniquí en escena" class="my-6 rounded-lg shadow-md" />
 <p>Xavier Araiza da forma a un personaje que utiliza la palabra como un recurso de escape, de denuncia y como parte de un ¡Basta! que será lanzado al lector o espectador. Por lo tanto, se le da voz a las que han sido violentadas, quemadas vivas, desaparecidas o convertidas en un objeto para uso egoísta de una mentalidad o sistema machista que cínicamente afirma que no existe tal realidad.</p>
 <p>Es por medio de la palabra como podemos ser testigos de ese descender a los infiernos del inconsciente por parte del personaje. Y será necesario el desdoblamiento de La loca del maniquí, quien ha ocultado lo que siente a través de una máscara y del silencio. Pero ¿quién es capaz de mutilar a otro ser humano y de qué manera?</p>
 <p>El autor ha realizado una radiografía a la mujer y a su entorno. Observa de cerca las acciones y pensamientos del personaje que se mantiene en el límite, entre la vida y la muerte, incluso todo el tiempo está cuestionando la existencia o el valor de la vida. Porque si algo hay que realizar como parte del análisis psicoanalítico y social es el de reconocer lo que sucede en los entornos familiares, religiosos, políticos y culturales de la Loca del maniquí. Y como es algo oculto, es a través de la palabra donde se puede reconocer la construcción que se le ha impuesto a la mujer y no al hombre o niño que nace en una familia.</p>
-<img src="/images/prologo3.jpeg" alt="Actriz en monólogo" class="my-6 rounded-lg shadow-md" />
+<img src="/images/prologo3.png" alt="Actriz en monólogo" class="my-6 rounded-lg shadow-md" />
 <p>Dicho sistema ha permanecido durante siglos y ha dejado claro que se trata de injusticia y falta de humanidad. Porque en ese sistema patriarcal, el hombre es el único que importa por estar hecho a imagen y semejanza de un dios divino. No existe en ese sistema el espacio que permita a una mujer ejercer su condición de ser humano en el mundo. Es la sociedad, la que atrapa, la que acorrala, la que minimiza y condena a la mujer que cada vez más se queda sola en el mundo.</p>
 <p>El autor es incisivo al cuestionar a la sociedad de su tiempo del año 2000 y a la del 2020 Y he aquí uno de sus argumentos: ¿Por qué no ha existido o existe una rebelión si se está mutilando externa e internamente a una mujer que es de la misma condición humana que el hombre? Ante ese panorama, ¿Cómo no comprender a la Loca del maniquí que se ha visto obligada a construir una máscara? y ¿Cómo no comprender la condición de ser mujer en un mundo construido por un solo sexo?</p>
 <p>Esa es la sensibilidad de la cual está hecho el autor Xavier Araiza, quien ha experimentado con el distanciamiento teatral al dirigir su propia obra e incluso colocado estéticamente a Xavier Caro, un hombre-actor para que exprese parte de lo que psíquicamente guarda una mujer. Xavier Araiza ha sido testigo de la violencia e injusticia que sucede en su tierra del Noreste de México y no se ha cruzado de brazos. Una violencia que habita en el mundo que lo rodea y que sólo ha demostrado falta de empatía ante una condición humana que no ha tenido escapatoria ante la mutilación de su propio ser por parte de quienes deberían cuidarla.</p>
@@ -188,7 +188,7 @@ export const posts: Post[] = [
 <p>El lector y espectador están invitados a considerar la gran metáfora del teatro…no podemos existir, si no existe el otro. No se puede existir con un ser mutilado y debemos estar completos para poder existir. ¡Larga vida en los escenarios para la Loca del maniquí!</p>
 <p>Podrás disfrutar esta obra de teatro en el Teatro Dramatico en Barrio Antiguo los martes 7, 14 y 21 de junio a las 8 PM. Así como verla en la pantalla grande los domingos 12, 19 y 26 de junio a las 3 PM.</p>
 `, 
-    imageId: 'blog-loca-maniqui', 
+    imageId: 'blog-prologo4', 
     category: 'Literatura' 
   },
   { 
@@ -294,7 +294,6 @@ export const posts: Post[] = [
     date: '25 de Septiembre, 2021', 
     excerpt: 'Una reflexión crítica sobre los obstáculos que enfrentan las ONGs ambientales en el panorama político actual.', 
     content: `
-<p>Poco se ha indagado sobre el trato diferenciado hacia organizaciones defensoras del medio ambiente sano, a pesar de que resulta trascendente en la medida de que cada programa de fomento, tiene una normatividad propia en el ámbito administrativo, y a nivel nacional, prevalece una visión excluyente generalizada. Poco, a pesar de que bajo un punto de vista financiero, es imposible deslindar la perspectiva de justiciabilidad de los DESCA, en la medida de que las organizaciones, los promueven y defienden. Sin embargo, cada inicio de año fiscal, puede analizarse argumentación jurídica en un mecanismo de control de constitucionalidad concentrado, a través de las vías dispuestas para tal efecto, para que quienes se estiman agraviados, accionen el juicio de amparo, con la finalidad de proteger intereses difusos y colectivos de los derechos humanos y generar referencias jurisdiccionales de mandatos de optimización -principios-.</p>
 <h4>Del surgimiento de las Organizaciones ambientalistas</h4>
 <p>Las organizaciones de la sociedad civil nacen ante la necesidad de buscar soluciones a problemas socialmente relevantes; son “el resultado de la presión ciudadana por participar en las decisiones públicas que afectan su vida” (Morera & Quintana, 2019). Según la normatividad civil, se constituyen a través de un conjunto de personas que se dan un marco legal de actividades para regularse de acuerdo con un propósito; además, la Ley Federal de Fomento a las Actividades realizadas por las organizaciones de la sociedad civil (LFFAOSC), instituye cuáles son sus derechos, entre los que destaca, el acceso a los apoyos y estímulos públicos para fomento de las actividades; además de precisar como una de las actividades objeto de fomento, la protección del ambiente, la flora y la fauna, la preservación y restauración del equilibrio ecológico (Diputados, 2018).</p>
 <p>En ese orden de ideas, en determinadas circunstancias, cualquier organización ambientalista, cuyo objeto social conlleve actividades de fomento, está en aptitud de ser considerada como promotora y defensora del derecho humano al medio ambiente sano. Son estas organizaciones, las que actualmente están inmersas en una política pública que incide de forma negativa en el desarrollo de su objeto social, el goce y ejercicio de sus derechos, y su participación activa en la agenda pública, y reciben además, un trato desigual. Al respecto, el ordenamiento jurídico en nuestro país, permite el trato diferenciado porque en sí mismo no es contrario a la igualdad y a la no discriminación; no obstante, cuando deriva en la vulneración de los derechos del grupo diferenciado, se violenta el derecho a la no discriminación (Vázquez, 2018).</p>
@@ -369,11 +368,11 @@ export const posts: Post[] = [
 <p>RAMSAR: busca la conservación y el uso racional de los humedales mediante acciones locales y nacionales y gracias a la cooperación internacional, como contribución al logro de un desarrollo sostenible en todo el mundo; esto debido a que los humedales están entre los ecosistemas más diversos y productivos. Los humedales suministran toda nuestra agua potable. Su degradación y conversión continúan.</p>
 <p>Convenio de Diversidad Biológica (5 de junio de 1992): Conservación de la biodiversidad, utilización sostenible de sus componentes, participación justa y equitativa en los beneficios que derivan de la utilización de los recursos genéticos; para promover un futuro sostenible.</p>
 <p>Marco de las Naciones Unidas sobre el Cambio Climático: México firma la Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC) en 1992 y ese mismo año es aprobada unánimemente por la Cámara de Senadores del H. Congreso de la Unión.</p>
-<p>El uso de animales en el cine, tal y como lo documentó McKeown (1981). En el documental “Cruel camera”, ha sido sumamente inhumano y cruel. Por ejemplo, en éste mismo, a la pregunta de “¿Dado el caso que el productor tiene que escoger entre contratar a un buen entrenador de animales o cometer un acto de crueldad a algún animal para ahorrar dinero? En alrededor del minuto 8:31 de dicho documental, Peter Carter, exdirector de la CBC, poco antes de su muerte, respondió que, aunque él no está de acuerdo con ello, está consciente de directores que preferían sacrificar a un animal para obtener una buena toma, sin embargo, prefirió no dar nombres. “Se dé casos en que algún animal es sacrificado de acuerdo al guion, y en lugar de simular el sacrificio este es llevado a cabo, es más barato y fácil”. </p>
+<p>El uso de animales en el cine, tal y como lo documentó McKeown (1981). En el documental “Cruel camera”, ha sido sumamente inhumano y cruel. Por ejemplo, en éste mismo, a la pregunta de “¿Dado el caso que el productor tiene que escoger entre contratar a un buen entrenador de animales o cometer un acto de crueldad a algún animal para ahorrar dinero? En alrededor del minuto 8:31 de dicho documental, Peter Carter, exdirector de la CBC, poco antes de su muerte, respondió que, aunque él no está de acuerdo con ello, está consciente de directores que preferían sacrificar a un animal para obtener una buena toma, sin embargo, prefirió no dar nombres. “Se dé casos en que algún animal es sacrificado de acuerdo al guion, y en lugar de simular el sacrificio este es llevado a cabo, es más barato y fácil”.</p>
 <p>En el mismo film (McKeown, 1981), y Palmer más tarde en 2011, documenta cómo Walt Disney, considerado el “creador” de los filmes comerciales de vida silvestre, muestra (minutos 16:11 a 17:51) la existencia de tomas crueles de supuestos eventos “naturales” que fueron “montadas” por dicha casa productora con el propósito de “entretener a una audiencia”. Tanto como en el film White Wilderness donde además del oso rodando por una colina, se muestra un falso montaje de lemmings “suicidándose” en masa (minutos 22:56 al 26:36); así como la película Perry la ardilla, en la cual fueron sacrificadas cruelmente un número importante de dichos ejemplares en sets artificiales, como se aprecia en los minutos 27:09 a 27:52 del documental.</p>
 <p>Más tarde en 1967, se hizo famosa la secuencia fotográfica de John Dominis (1921-2013), que apareció en la revista Life, de un leopardo cazando a un babuino aterrado y destrozando su cráneo. Luego se supo que se trató de un montaje para el cual el leopardo había sido rentado y el babuino previamente capturado. No obstante, de acuerdo a la revista, “en aquellos tiempos no se oponían a realizar montajes que de otro modo eran imposibles de obtener” (Life, S.F).</p>
 <p><em>Fotografía por John Dominis. «Leopardo a punto de matar a un babuino aterrorizado», 1966. Revista Life</em></p>
-<p>Y aunque hoy los sets “naturales” montados en estudio siguen siendo utilizados en la cinematografía para obtener primeros planos de tomas increíbles, afortunadamente, la crueldad deliberada hacia los animales se ha vuelto algo inaceptable e ilegal, el público exige que se le informe cuando las tomas son hechas en sets artificiales, y por lo menos, en México y los EEUU y México, gracias a organizaciones como el American Humain Association, (https://www.americanhumane.org/program/humane-hollywood/) los cineastas estamos obligados, al menos en el set, a tratar a los animales actores con respeto y dignidad. </p>
+<p>Y aunque hoy los sets “naturales” montados en estudio siguen siendo utilizados en la cinematografía para obtener primeros planos de tomas increíbles, afortunadamente, la crueldad deliberada hacia los animales se ha vuelto algo inaceptable e ilegal, el público exige que se le informe cuando las tomas son hechas en sets artificiales, y por lo menos, en México y los EEUU y México, gracias a organizaciones como el American Humain Association, (https://www.americanhumane.org/program/humane-hollywood/) los cineastas estamos obligados, al menos en el set, a tratar a los animales actores con respeto y dignidad.</p>
 <p>Al igual que Palmer (2011) en su experiencia con un primer plano de un oso grizzli, durante mi trabajo de filmación me he visto en la necesidad de utilizar Foleys (efectos especiales) para dar cierto grado de realismo, por ejemplo, al sonido de batir de alas de una codorniz que filmé a casi 50 metros de distancia con una telefoto; y al igual que la esposa de Palmer, cuando expliqué el efecto especial a un colega, su reacción fue “qué tramposo…”, pues el público espera autenticidad y veracidad de un documental de naturaleza.</p>
 <p>Para Palmer (2011) los ejemplos anteriores ilustran tres formas distintas de problemas éticos: Primero, el engaño a la audiencia mediante el montaje y la manipulación; segundo, el maltrato y la crueldad hacia los animales y el hábitat; y tercero, un tema ético a su juicio, “más sutil, pero, sin embargo, vital”: ¿Los documentales de la naturaleza fomentan la conservación? Agregaré uno más: ¿Hasta qué grado debe o puede interactuar el documentalista con el objeto de estudio sin invadir su privacidad?</p>
 <p>En lo relativo al tercer punto sensu Palmer (2011), no me cabe la menor duda que los documentales de naturaleza son una fuente de investigación, conocimiento y concientización del público, que le permiten al espectador “viajar” a lugares remotos, y contribuyen a acercar la naturaleza a las masas citadinas; por lo que atienden a un bien mucho mayor que el mal que causan, cuando estos se filman de manera respetuosa y responsable. ¿De qué otra manera se puede concientizar a las masas para que conozcan, amen y respeten la naturaleza, sin la necesidad de tener animales cautivos en zoos? Dicho lo anterior, coincido con Palmer (2011). Presentar a los animales “salvajes” como fieras malvadas, como sucede en producciones como “Cara a cara con el Peligro” y “A prueba de todo” de Animal Planet, apelan al morbo, y hacen aún más difícil la tarea de convencer al público sobre la necesidad de proteger a estos animales.</p>
@@ -394,7 +393,7 @@ export const posts: Post[] = [
 <h4>Bibliografía:</h4>
 <ul>
 <li>Boswall, J. (1997).The Moral Pivots of Wildlife Filmmaking. EBU Diffusion (Summer):9-12.</li>
-<li>Coughlan, S. (2010). Animals need ‘right to privacy’ from wildlife films. BBC News. https://www.bbc.com/news/10093327</li>
+<li>Coughlan, S. (2010). Animals need \'right to privacy\' from wildlife films. BBC News. https://www.bbc.com/news/10093327</li>
 <li>Christopher J. Preston & Wayne Ouderkirk (2006) Nature, Value, Duty: Life on Earth with Holmes Rolston, III. Springer Science & Business Media, 280 pp.</li>
 <li>Leopold, A. (1949). The Land Ethic. https://www.uky.edu/~rsand1/china2017/library/Leopold1.pdf</li>
 <li>Life (S.F.) The Photography of John Dominis. https://www.life.com/photographer/john-dominis/</li>
@@ -410,125 +409,50 @@ export const posts: Post[] = [
   },
 ];
 
+
 export const galleryImages: GalleryImage[] = [
-  { id: 'gal-1', title: 'Río en el cañón', category: 'Naturaleza', imageId: 'gallery-new-1' },
-  { id: 'gal-2', title: 'Hombre en la naturaleza', category: 'Naturaleza', imageId: 'gallery-new-2' },
+  { id: 'gal-1', title: 'Río en cañón', category: 'Paisajes', imageId: 'gallery-new-1' },
+  { id: 'gal-2', title: 'Hombre en la naturaleza', category: 'Behind the Scenes', imageId: 'gallery-new-2' },
   { id: 'gal-3', title: 'Paisaje montañoso', category: 'Paisajes', imageId: 'gallery-new-3' },
-  { id: 'gal-4', title: 'Pez bajo el agua', category: 'Naturaleza', imageId: 'gallery-new-4' },
-  { id: 'gal-5', title: 'Filmando en la naturaleza', category: 'Proyectos', imageId: 'gallery-new-5' },
+  { id: 'gal-4', title: 'Pez Xenotoca Eiseni', category: 'Naturaleza', imageId: 'gallery-new-4' },
+  { id: 'gal-5', title: 'Filmando en la naturaleza', category: 'Behind the Scenes', imageId: 'gallery-new-5' },
   { id: 'gal-6', title: 'Pez en el agua', category: 'Naturaleza', imageId: 'gallery-new-6' },
-  { id: 'gal-7', title: 'Cámara en la naturaleza', category: 'Proyectos', imageId: 'gallery-new-7' },
+  { id: 'gal-7', title: 'Cámara en la naturaleza', category: 'Behind the Scenes', imageId: 'gallery-new-7' },
   { id: 'gal-8', title: 'Conversación en evento', category: 'Eventos', imageId: 'gallery-new-8' },
-  { id: 'gal-9', title: 'Equipo filmando', category: 'Behind the Scenes', imageId: 'gallery-new-9' },
+  { id: 'gal-9', title: 'Equipo de filmación', category: 'Proyectos', imageId: 'gallery-new-9' },
   { id: 'gal-10', title: 'Hombre con cámara', category: 'Behind the Scenes', imageId: 'gallery-new-10' },
   { id: 'gal-11', title: 'Conferencia', category: 'Eventos', imageId: 'gallery-new-11' },
   { id: 'gal-12', title: 'Paisaje de Arramberri', category: 'Paisajes', imageId: 'gallery-new-12' },
-  { id: 'gal-13', title: 'Cuatro Ciénegas', category: 'Paisajes', imageId: 'gallery-new-13' },
+  { id: 'gal-13', title: 'Paisaje de Cuatro Ciénegas', category: 'Paisajes', imageId: 'gallery-new-13' },
   { id: 'gal-14', title: 'Paisaje de Perú', category: 'Paisajes', imageId: 'gallery-new-14' },
 ];
 
 export const videoGallery: Video[] = [
-  {
-    id: 'vid-1',
-    title: 'En busca del águila elegante',
-    type: 'Mediometraje',
-    youtubeId: 'og-QOYsTTcE',
-    thumbnailId: 'video-thumb-1'
-  },
-  {
-    id: 'vid-2',
-    title: 'La cotorra serrana oriental',
-    type: 'Cortometraje',
-    youtubeId: 'MqNwizA7wc0',
-    thumbnailId: 'video-thumb-2'
-  },
-  {
-    id: 'vid-3',
-    title: 'Ecología del fuego',
-    type: 'Cortometraje',
-    youtubeId: 'M81DLdDI1HQ',
-    thumbnailId: 'video-thumb-3'
-  },
-  {
-    id: 'vid-4',
-    title: 'Historias del septentrión, la batalla del carrizal y el cachorrito carbonero',
-    type: 'Cortometraje',
-youtubeId: 'HE7A1PyqPZo',
-    thumbnailId: 'video-thumb-4'
-  },
-  {
-    id: 'vid-5',
-    title: 'Los murciélagos de la cueva de la boca',
-    type: 'Cortometraje',
-    youtubeId: 'suiOUN8zl18',
-    thumbnailId: 'video-thumb-5'
-  },
-  {
-    id: 'vid-6',
-    title: 'Praderas del Tokio',
-    type: 'Cortometraje',
-    youtubeId: 'I7StbzrZAlU',
-    thumbnailId: 'video-thumb-6'
-  },
+    { id: 'vid-1', title: 'En busca del águila elegante', type: 'Mediometraje', youtubeId: 'DxU4d1quC4E', thumbnailId: 'video-thumb-1'},
+    { id: 'vid-2', title: 'La cotorra serrana oriental', type: 'Cortometraje', youtubeId: 'XXuG0vA9p8o', thumbnailId: 'video-thumb-2'},
+    { id: 'vid-3', title: 'Ecología del fuego', type: 'Cortometraje', youtubeId: '2bF_9eW0G4A', thumbnailId: 'video-thumb-3'},
+    { id: 'vid-4', title: 'Historias del septentrión', type: 'Mediometraje', youtubeId: 'w5u10Yvpy04', thumbnailId: 'video-thumb-4'},
+    { id: 'vid-5', title: 'Los murciélagos de la cueva de la boca', type: 'Cortometraje', youtubeId: 'q-n6M2gGv_s', thumbnailId: 'video-thumb-5'},
+    { id: 'vid-6', title: 'Praderas del Tokio', type: 'Mediometraje', youtubeId: 'r53Y-wZ3R1o', thumbnailId: 'video-thumb-6'},
 ];
 
 export const achievements: Achievement[] = [
-    { year: 2020, title: 'Doctor Honoris Causa', organization: 'Universidad Autónoma de Nuevo León' },
-    { year: 2020, title: 'International Conservation Award', organization: 'Arizona Game & Fish Commission' },
-    { year: 2011, title: 'CEO / Director General', organization: 'Pronatura Noreste, A.C. (2011-2021)' },
-    { year: 2005, title: 'Director del Programa Desierto Chihuahuense', organization: 'World Wildlife Fund (WWF)' },
+  { year: 2021, title: 'Doctorado Honoris Causa', organization: 'Claustro Doctoral Iberoamericano' },
+  { year: 2020, title: 'Premio a la Conservación', organization: 'Programa Internacional y Fronterizo del Departamento de Caza y Pesca de Arizona' },
+  { year: 2015, title: 'Premio de Investigación UANL', organization: 'Universidad Autónoma de Nuevo León' },
+  { year: 2014, title: 'Premio "Dr. José Álvarez del Villar"', organization: 'Sociedad Mexicana de Ictiología' },
+  { year: 1994, title: 'Medalla "Mejores estudiantes de México"', organization: 'CONACYT e Instituto Mexicano de Cultura' },
 ];
-
-export const history = {
-    mission: "Destacar la importancia de la conservación ambiental a través del arte cinematográfico y la consultoría especializada, inspirando a la sociedad a reconectar con la naturaleza y a tomar acciones para su protección.",
-    vision: "Ser un referente en la producción audiovisual con contenido ambiental y social en México y Latinoamérica, creando obras que trasciendan fronteras e impulsen un cambio positivo y duradero en nuestra relación con el planeta.",
-    values: [
-        { title: 'Conservación', description: 'Nuestro motor principal es la protección y el respeto por el mundo natural.' },
-        { title: 'Creatividad', description: 'Buscamos formas innovadoras y artísticas para contar historias que importan.' },
-        { title: 'Excelencia', description: 'Comprometidos con la más alta calidad técnica y narrativa en cada proyecto.' },
-        { title: 'Compromiso Social', description: 'Creemos en el poder de nuestras historias para educar, inspirar y movilizar a la comunidad.' }
-    ]
-};
 
 export const timelineEvents: TimelineEvent[] = [
-  {
-      year: '1994',
-      description: 'Le otorgan el "Premio a los mejores estudiantes de México" por el Comité Nacional Permanente de los Mejores Estudiantes de México'
-  },
-  {
-      year: '2014',
-      description: 'Obtiene el primer lugar en el "Premio Dr. José Álvarez Del Villar" por su tesis doctoral, otorgado por la Sociedad Mexicana de Ictiología'
-  },
-  {
-      year: '2015',
-      description: 'Logra el Premio de Investigación UANL al mejor artículo académico en Ciencias Naturales'
-  },
-  {
-      year: '2006 - 2011',
-      description: 'Se desempeñó como Director del Fondo Mundial para la Naturaleza.'
-  },
-  {
-      year: '2011 - 2021',
-      description: 'Se desempeñó como Director de Ciencias de la Conservación y Director General de la ONG mexicana Pronatura Noreste.'
-  },
-  {
-      year: '2021 - Actualidad',
-      description: 'Funge como miembro del consejo asesor de AESPAC, A.C., y director de "De la Maza Consulting and Films"'
-  }
+  { year: '1994', description: 'Reconocido como uno de los "Mejores Estudiantes de México".' },
+  { year: '2005', description: 'Se une al Fondo Mundial para la Naturaleza (WWF).' },
+  { year: '2011', description: 'Nombrado Director General de Pronatura Noreste, A.C.' },
+  { year: '2014', description: 'Recibe el premio a la mejor tesis doctoral en ictiología.' },
+  { year: '2015', description: 'Gana el Premio de Investigación UANL en Ciencias Naturales.' },
+  { year: '2019', description: 'Lidera la defensa de El Llano de la Soledad.' },
+  { year: '2020', description: 'Recibe el Premio a la Conservación de AZGFD.' },
+  { year: '2021', description: 'Recibe el Doctorado Honoris Causa por su trayectoria.' },
+  { year: '2022', description: 'Produce el documental "Ad memoriam rei perpetuam".' },
 ];
-    
-    
 
-    
-
-
-
-
-    
-
-
-
-
-    
-
-    
