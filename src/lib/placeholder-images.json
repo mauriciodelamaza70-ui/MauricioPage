@@ -81,7 +81,7 @@
     {
       "id": "blog-prologo-cover",
       "description": "Detalle de la escenografía de la obra La Loca del Maniquí",
-      "imageUrl": "/images/prologo4.jpeg",
+      "imageUrl": "/images/prologo1.jpeg",
       "imageHint": "theatre set"
     },
     {
@@ -117,7 +117,7 @@
     {
       "id": "blog-discriminacion-ongs-cover",
       "description": "Imagen para el artículo sobre discriminación a ONGs",
-      "imageUrl": "/images/Discriminacion1.jpeg",
+      "imageUrl": "/images/discriminacion1.jpg",
       "imageHint": "data graphics"
     },
     {
@@ -135,7 +135,7 @@
     {
       "id": "blog-etica-documental-cover",
       "description": "Imagen para el artículo sobre ética en documentales de naturaleza",
-      "imageUrl": "/images/etica4.jpg",
+      "imageUrl": "/images/etica3.jpg",
       "imageHint": "filmmaker action"
     },
     {
@@ -347,6 +347,30 @@
       "description": "Thumbnail for Praderas del Tokio",
       "imageUrl": "/images/trailer-de-la-maza-Pradera-del-Tokio.png",
       "imageHint": "grassland documentary"
+    },
+    {
+      "id": "blog-prologo-cover-new",
+      "description": "Detalle de la escenografía de la obra La Loca del Maniquí",
+      "imageUrl": "/images/prologo4.jpeg",
+      "imageHint": "theatre set detail"
+    },
+    {
+      "id": "blog-consejo-tecnico-cover-new",
+      "description": "Liberación de aves durante la ceremonia del Consejo Técnico de Picachos",
+      "imageUrl": "/images/eco4.jpg",
+      "imageHint": "bird release"
+    },
+    {
+      "id": "blog-discriminacion-ongs-cover-new",
+      "description": "Gráficos de datos para el artículo de discriminación de ONGs",
+      "imageUrl": "/images/Discriminacion3.jpeg",
+      "imageHint": "data charts"
+    },
+    {
+      "id": "blog-etica-documental-cover-new",
+      "description": "Cineasta en acción para el artículo de ética documental",
+      "imageUrl": "/images/etica4.jpg",
+      "imageHint": "filmmaker in action"
     }
   ]
 }

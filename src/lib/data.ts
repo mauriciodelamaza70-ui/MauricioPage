@@ -188,7 +188,7 @@ export const posts: Post[] = [
 <p>El lector y espectador están invitados a considerar la gran metáfora del teatro…no podemos existir, si no existe el otro. No se puede existir con un ser mutilado y debemos estar completos para poder existir. ¡Larga vida en los escenarios para la Loca del maniquí!</p>
 <p>Podrás disfrutar esta obra de teatro en el Teatro Dramatico en Barrio Antiguo los martes 7, 14 y 21 de junio a las 8 PM. Así como verla en la pantalla grande los domingos 12, 19 y 26 de junio a las 3 PM.</p>
 `, 
-    imageId: 'blog-prologo-cover', 
+    imageId: 'blog-prologo-cover-new', 
     category: 'Literatura' 
   },
   { 
@@ -212,7 +212,7 @@ export const posts: Post[] = [
 <p><em>Imagen: Asociación Ecológica de la Sierra de Picachos</em></p>
 <p>Felicitamos a las autoridades, al Gobierno del Estado, a la Secretaría de Desarrollo Sustentable y a la Asociación Ecológica de Sierra de Picachos por su compromiso en la conservación de uno de los pulmones más grandes de Nuevo León, que llenará de beneficios ambientales y sociales a nuestro estado.</p>
 `, 
-    imageId: 'blog-consejo-tecnico-cover', 
+    imageId: 'blog-consejo-tecnico-cover-new', 
     category: 'Conservación' 
   },
   { 
@@ -328,7 +328,7 @@ export const posts: Post[] = [
 <p>Puede analizarse, a través del test de proporcionalidad, la argumentación jurídica que posibilita a los agraviados combatir anualmente, la normatividad aplicable, vía control de constitucionalidad concentrado; es decir, para que las organizaciones enfocadas en la defensa del medio ambiente como derecho humano, acudan al juicio de amparo indirecto, y logren acceder al fomento de su actividad, como una fuente de financiamiento para su aporte en el desarrollo social de nuestro país.</p>
 <p>En conclusión, el veto presupuestal controvertido a través de las vías legales, resulta conveniente para la consecución continua de diversas actividades contempladas en el objeto social, protege intereses difusos y colectivos, prioriza los derechos humanos, y crea el ambiente idóneo, para que otros sigan un legado en forma de juicio, además de que deviene prioritario en el marco de las recientes reformas a la Ley de Impuesto sobre la renta, que lejos de combatir la simulación de actividades que aduce el Presidente de la República, restringen, por ejemplo, las actividades de las donatarias autorizadas y atentan potencialmente contra su derecho de financiamiento y de autonomía (OSC, Alternativas y Capacidades / Centro de Enlace y Desarrollo para, 2020).</p>
 `, 
-    imageId: 'blog-discriminacion-ongs-cover', 
+    imageId: 'blog-discriminacion-ongs-cover-new', 
     category: 'Política Ambiental' 
   },
   { 
@@ -354,8 +354,8 @@ export const posts: Post[] = [
   },
   { id: 'post-9', slug: 'tenencia-legal-tierra-parques-nacionales', title: 'Tenencia legal de la tierra en Parques Nacionales', date: '22 de Septiembre, 2021', excerpt: 'Un examen de los complejos desafíos legales y sociales relacionados con la propiedad de la tierra en áreas protegidas.', content: `
 <img src="/images/tenencia9.jpg" alt="Tenencia legal de la tierra" class="my-6 rounded-lg shadow-md" />
-<img src="/images/tenencia8.jpg" alt="Tenencia legal de la tierra" class="my-6 rounded-lg shadow-md" />
 <p>La tenencia de la tierra en los parques nacionales mexicanos es probablemente el mayor reto para la conservación y el manejo de dichas áreas, toda vez que, contrario a la gran mayoría de los parques nacionales del mundo, en México un gran porcentaje de la tierra dentro de los parques nacionales se encuentra en manos de particulares y no de la federación. Ello se debe, primordialmente, al hecho de que la gran mayoría de los decretos de parque nacional no consideraron la expropiación como un paso fundamental para la consolidación de estos. Al contrario, en México se ha legislado y decretado por décadas bajo la premisa de que los parques nacionales son un bien público que debe ser protegido por la federación, pero cuya tenencia puede ser de particulares.</p>
+<img src="/images/tenencia8.jpg" alt="Tenencia legal de la tierra" class="my-6 rounded-lg shadow-md" />
 <img src="/images/tenencia7.png" alt="Tabla 1" class="my-6 rounded-lg shadow-md" />
 <p>La historia de la tenencia de la tierra en los parques nacionales mexicanos es un tema tan interesante como complejo. La Ley Forestal de 1926 contempló por primera vez en la legislación mexicana la creación de parques nacionales. A partir de entonces, y sobre todo durante el sexenio de Lázaro Cárdenas (1934-1940), cuando se decretaron 38 de los 77 parques nacionales con los que actualmente cuenta el país, la figura de parque nacional ha sido una de las herramientas más importantes de la política de conservación en México (SEMARNAP 1996, Vargas 2000, SEMARNAT 2016).</p>
 <img src="/images/tenencia6.png" alt="Tabla 2" class="my-6 rounded-lg shadow-md" />
@@ -457,8 +457,9 @@ export const posts: Post[] = [
 <li>Palmer, C. (2011). Salvaje: Documentalistas de la Naturaleza Necesitan un Codigo de Conducta. International Documentary Association. https://www.documentary.org/feature/la-etica-dentro-de-la-vida-salvaje-documentalistas-de-la-naturaleza-necesitan-un-codigo-de</li>
 <li>Taylor, P.W. (1986). Respect for Nature: A Theory of Environmental Ethics. Princeton University Press, 329 pp.</li>
 <li>Universidad de Sevilla. (2011) La ética de la comunicación a comienzo del siglo XXI. Libro de actas I congreso internacional de ética de la comunicación. Facultad de Comunicación.</li>
-</ul>`, 
-    imageId: 'blog-etica-documental-cover', 
+</ul>
+`, 
+    imageId: 'blog-etica-documental-cover-new', 
     category: 'Cine' 
   },
 ];
