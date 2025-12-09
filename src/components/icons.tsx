@@ -16,7 +16,7 @@ export const TheatreIcon = (props: React.SVGProps<SVGSVGElement>) => (
     <path d="M2 13.1a1 1 0 0 0 1.3.8l5.2-1.9a1 1 0 0 1 1.3.8l2.6 7.9a1 1 0 0 0 1.8 0l2.6-7.9a1 1 0 0 1 1.3-.8l5.2 1.9a1 1 0 0 0 1.3-.8V10a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1z" />
     <path d="M8 8.5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1V9" />
     <path d="M10 5.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-    <path d="M16 5.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+    <path d="M16 5.5a1 1 0 1 1-2 0 1 1 0 0 1 2-0z" />
   </svg>
 );
 
@@ -51,3 +51,30 @@ export const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
     </svg>
 );
 
+export const FacebookIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        {...props}
+    >
+        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+    </svg>
+);
+
+export const LinkedinIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        {...props}
+    >
+        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+        <rect width="4" height="12" x="2" y="9" />
+        <circle cx="4" cy="4" r="2" />
+    </svg>
+);
