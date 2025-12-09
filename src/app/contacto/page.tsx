@@ -27,7 +27,7 @@ export default function ContactoPage() {
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <Mail className="h-6 w-6 text-accent" />
-                                    <a href="mailto:mauriciodelamaza@gmail.com" className="text-lg hover:text-accent transition-colors">mauriciodelamaza@gmail.com</a>
+                                    <a href="mailto:mauriciodelamaza70@gmail.com" className="text-lg hover:text-accent transition-colors">mauriciodelamaza70@gmail.com</a>
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <MapPin className="h-6 w-6 text-accent" />
