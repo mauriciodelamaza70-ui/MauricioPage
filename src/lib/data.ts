@@ -1,3 +1,4 @@
+
 import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo } from './types';
 import { Facebook, Instagram, Linkedin } from 'lucide-react';
 import { TheatreIcon, VimeoIcon, WhatsAppIcon } from '@/components/icons';
@@ -245,7 +246,21 @@ export const posts: Post[] = [
     imageId: 'blog-aviturismo', 
     category: 'Turismo Sostenible' 
   },
-  { id: 'post-5', slug: 'doctor-honoris-causa', title: 'Otorga el Claustro Doctoral el grado de Doctor Honoris Causa a Mauricio de la Maza-Benignos', date: '25 de Octubre, 2021', excerpt: 'Un reconocimiento a la trayectoria y contribuciones en el campo de la biología y el desarrollo sustentable.', content: 'Contenido completo...', imageId: 'blog-honoris-causa', category: 'Noticias' },
+  { 
+    id: 'post-5', 
+    slug: 'doctor-honoris-causa', 
+    title: 'Otorga el Claustro Doctoral el grado de Doctor Honoris Causa a Mauricio de la Maza-Benignos', 
+    date: '25 de Octubre, 2021', 
+    excerpt: 'Un reconocimiento a la trayectoria y contribuciones en el campo de la biología y el desarrollo sustentable.', 
+    content: `
+<p>A través del reconocimiento de generaciones de líderes de excelencia profesional y social, el Claustro Doctoral busca fomentar el liderazgo y la educación. Por ello, el pasado viernes 1 de octubre se organizó la ceremonia de investidura para otorgar el grado de Doctor Honoris Causa a personajes eminentes que se han destacado en diversos ámbitos profesionales, sociales y culturales.</p>
+<p>Entre ellos, se distinguió el trabajo de nuestro fundador Mauricio de la Maza-Benignos, a través del cual se ha conseguido la protección de la flora y la fauna de diferentes ecosistemas mexicanos, la descripción de especies de peces y caracoles hidróbidos y la conservación de cuerpos de agua y recursos naturales del norte de México.</p>
+<p>Con estos destacados reconocimientos a la labor social, «se impulsa al propio individuo a continuar y mejorar su trabajo en beneficio de otros. Y al darlo a conocer logra infundir nuevas ideas e inspirar a terceros de manera tangible».</p>
+<p>Agradecemos al Claustro Doctoral el reconocimiento a la labor de nuestro fundador, estímulo que fomenta la evolución del mismo y lo expone al conocimiento de los demás, inspirando su continuación y la idea de que la protección de la naturaleza, sobrepasando intereses y organizaciones, es una actividad que contribuye a la mejora de la humanidad.</p>
+`, 
+    imageId: 'blog-honoris-causa', 
+    category: 'Noticias' 
+  },
   { id: 'post-6', slug: 'critica-cuatro-cienegas', title: 'Crítica de “Cuatro Ciénegas y la tragedia de los comunes” por José Pablo Acevedo', date: '09 de Octubre, 2021', excerpt: 'Una reseña profunda del documental, analizando su mensaje y su impacto en la conversación ambiental.', content: 'Contenido completo...', imageId: 'blog-cuatro-cienegas', category: 'Cine' },
   { id: 'post-7', slug: 'discriminacion-ongs-ambientales', title: 'Discriminación de organizaciones promotoras y defensoras del derecho al medio ambiente sano en la política pública mexicana', date: '25 de Septiembre, 2021', excerpt: 'Una reflexión crítica sobre los obstáculos que enfrentan las ONGs ambientales en el panorama político actual.', content: 'Contenido completo...', imageId: 'blog-discriminacion-ongs', category: 'Política Ambiental' },
   { id: 'post-8', slug: 'decreto-sierra-picachos', title: 'Se publica decreto sobre Sierra de Picachos como ANP', date: '22 de Septiembre, 2021', excerpt: 'Análisis del decreto que oficializa a la Sierra de Picachos como Área Natural Protegida y lo que significa para su futuro.', content: 'Contenido completo...', imageId: 'blog-decreto-picachos', category: 'Legislación' },
@@ -365,3 +380,6 @@ export const timelineEvents: TimelineEvent[] = [
     
 
 
+
+
+    
