@@ -16,10 +16,10 @@ export default function ColaboradoresPage() {
               Conoce a los talentosos profesionales y escritores que dan vida a nuestra revista con sus conocimientos y perspectivas únicas.
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
             {collaborators.map((collab) => (
-              <Card key={collab.name} className="flex flex-col md:flex-row items-start overflow-hidden">
-                 <div className="relative w-full md:w-1/3 aspect-square md:aspect-auto md:h-full">
+              <Card key={collab.name} className="flex flex-col md:flex-row items-start overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+                 <div className="relative w-full md:w-52 h-64 md:h-auto flex-shrink-0">
                     {collab.image ? (
                         <Image
                             src={collab.image}
@@ -33,12 +33,12 @@ export default function ColaboradoresPage() {
                         </div>
                     )}
                 </div>
-                <div className="w-full md:w-2/3">
-                    <CardHeader>
+                <div className="flex flex-col p-6">
+                    <CardHeader className="p-0">
                         <CardTitle className="font-headline text-3xl">{collab.name}</CardTitle>
                         <p className="text-base text-accent font-semibold pt-1">{collab.title}</p>
                     </CardHeader>
-                    <CardContent className="space-y-4 text-muted-foreground">
+                    <CardContent className="p-0 mt-4 space-y-4 text-muted-foreground">
                         <p>{collab.bio}</p>
                     </CardContent>
                 </div>
