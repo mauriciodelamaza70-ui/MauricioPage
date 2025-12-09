@@ -5,7 +5,7 @@ import { posts } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Search, ArrowRight } from "lucide-react";
+import { Search, ArrowRight, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function RevistaPage() {
@@ -59,6 +59,17 @@ export default function RevistaPage() {
                                 <Input placeholder="Escribe aquí..." className="pr-10" />
                                 <Search className="absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
                             </div>
+                        </div>
+
+                         {/* Collaborators Link */}
+                        <div className="p-6 bg-secondary rounded-lg">
+                            <h3 className="font-headline text-xl font-semibold mb-4">Nuestros Colaboradores</h3>
+                            <p className="text-muted-foreground mb-4">Conoce a los expertos que hacen posible nuestra revista.</p>
+                            <Button asChild className="w-full bg-accent hover:bg-accent/90">
+                                <Link href="/revista/colaboradores">
+                                    <Users className="mr-2 h-4 w-4" /> Ver Colaboradores
+                                </Link>
+                            </Button>
                         </div>
 
                         {/* Recent Posts */}

@@ -71,3 +71,9 @@ export type TimelineEvent = {
   year: string;
   description: string;
 };
+
+export type Collaborator = {
+  name: string;
+  title: string;
+  bio: string;
+};

@@ -1,6 +1,6 @@
 
 
-import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo } from './types';
+import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo, Collaborator } from './types';
 import { Facebook, Instagram, Linkedin } from 'lucide-react';
 import { TheatreIcon, VimeoIcon, WhatsAppIcon } from '@/components/icons';
 
@@ -337,10 +337,7 @@ export const posts: Post[] = [
     title: 'Se publica decreto sobre Sierra de Picachos como ANP', 
     date: '22 de Septiembre, 2021', 
     excerpt: 'Análisis del decreto que oficializa a la Sierra de Picachos como Área Natural Protegida y lo que significa para su futuro.', 
-    content: `<p>by De la Maza Team/ septiembre 22, 2021 2907 Views  No Comments</p>
-<p>Uncategorized</p>
-<p>22 de septiembre de 2021</p>
-<p>El Gobierno del Estado atendiendo la solicitud de la Asociación ecológica de la Sierra de Picachos AC, para la creación del Área Natural Protegida, “Ecosistema Sierra de Picachos”, el día de hoy publica el decreto mediante el cual constituye la citada ANP, con esto dan un ejemplo de colaboración entre la Sociedad Civil y Gobierno.</p>
+    content: `<p>El Gobierno del Estado atendiendo la solicitud de la Asociación ecológica de la Sierra de Picachos AC, para la creación del Área Natural Protegida, “Ecosistema Sierra de Picachos”, el día de hoy publica el decreto mediante el cual constituye la citada ANP, con esto dan un ejemplo de colaboración entre la Sociedad Civil y Gobierno.</p>
 <p>Área Natural Protegida “Ecosistemas de la Sierra Picachos” tiene una superficie de 99,432.49 hectáreas que se suman a las 75,872.55 hectáreas que ya estaban decretadas con anterioridad, en conjunto constituyen una superficie de 175,305.04 hectáreas.</p>
 <img src="/images/sierra1.jpg" alt="Mapa del ANP Actual" class="my-6 rounded-lg shadow-md" />
 <p><em>ANP Actual</em></p>
@@ -349,8 +346,7 @@ export const posts: Post[] = [
 <p>Las Áreas Naturales Protegidas de la Sierra de Picachos, son un espacio geográfico reconocido y dedicado a la naturaleza y sus servicios. En conjunto son el Área Natural Protegida más grande de Nuevo León y una pieza fundamental en el equilibrio ecológico del norte de México, que busca su conservación a largo plazo.</p>
 <img src="/images/sierra3.jpeg" alt="Sierra de Picachos" class="my-6 rounded-lg shadow-md" />
 <p>Con esta nueva Área Natural Protegida la Sierra de Picachos prestara grandes servicios ambientales, como 52,500 hm3 de agua por año, 2,758,880 toneladas de CO2 por año, 365 días/año limpieza de aire, entre otros, además del apoyo al equilibrio ecológico de la flora y fauna silvestre, aire limpio, el ecoturismo y la preservación de los valores históricos y culturales de nuestro estado además de despertar la conciencia, fomentar la sensibilidad y el respeto por la naturaleza.</p>
-<p>Es importante manifestar nuestro reconocimiento y agradecimiento al Gobernador del Estado, Ing. Jaime Rodríguez Calderón y a la Secretaría de Desarrollo Sustentable por su apoyo incondicional en esta acción que traerá grandes beneficios ambientales y sociales para Nuevo León.</p>
-`, 
+<p>Es importante manifestar nuestro reconocimiento y agradecimiento al Gobernador del Estado, Ing. Jaime Rodríguez Calderón y a la Secretaría de Desarrollo Sustentable por su apoyo incondicional en esta acción que traerá grandes beneficios ambientales y sociales para Nuevo León.</p>`, 
     imageId: 'blog-decreto-picachos-cover', 
     category: 'Noticias' 
   },
@@ -380,17 +376,14 @@ export const posts: Post[] = [
     <li>SEMARNAT (2016). Áreas naturales protegidas de México con decretos federales. México: Secretaría de Medio Ambiente y Recursos Naturales.</li>
     <li>Vargas, F. (2000). Parques nacionales de México. Aspectos históricos, legales y administrativos. En: Áreas naturales protegidas de México, una perspectiva. México: SEMARNAP, CONANP y PNUD.</li>
     <li>Warman, A. (2003). La reforma agraria mexicana: una visión de largo plazo. FAO.</li>
-</ul>
-`, imageId: 'blog-tenencia-tierra', category: 'Articulos' },
+</ul>`, imageId: 'blog-tenencia-tierra', category: 'Articulos' },
   { 
     id: 'post-10', 
     slug: 'etica-documental-naturaleza', 
     title: 'La ética del documental de naturaleza', 
     date: '17 de Septiembre, 2021', 
     excerpt: 'Una discusión sobre las responsabilidades y dilemas éticos que enfrentan los cineastas de vida silvestre.', 
-    content: `<p>by Mauricio de la Maza-Benignos/ septiembre 17, 2021 2320 Views  No Comments</p>
-<p>Artículos / Colaboradores</p>
-<p>Por Mauricio de la Maza-Benignos</p>
+    content: `<p>Por Mauricio de la Maza-Benignos</p>
 <p>…aplicar los códigos de ética para los seres humanos a los seres otros que humanos es antropomorfizar a los seres vivos otros que humanos con quienes compartimos el planeta. Las especies animales y vegetales no se rigen bajo principios morales y códigos deontológicos, tal y como lo hacemos nosotros; sin embargo, sí requieren de un espacio vital que les permita vivir sus vidas sin sufrimiento ni estrés “artificial”.</p>
 <p>…Desde mi perspectiva, existen circunstancias, formas y límites, en ocasiones no tan claros, que separan al cineasta ético del irresponsable o criminal a la hora de rodar documentales de naturaleza. A mi juicio, no deberían filmarse documentales de naturaleza cuyo fin primario no sea generar conocimiento, educar o crear consciencia para conservar, y ya en segunda instancia deleitar al espectador como efecto colateral.</p>
 <p>A mi juicio, el documental de naturaleza es un medio ideal, altamente efectivo para educar y concientizar al público acerca del entorno, los servicios ambientales y la historia natural de los elementos bióticos y abióticos originarios y antropogénicos que integran el paisaje, si partimos de la noción de que el ser humano forma parte de la naturaleza.</p>
@@ -408,7 +401,6 @@ export const posts: Post[] = [
 <p>Y si, conforme a la Real Academia Española, privacidad significa en su segunda acepción: “ámbito de la vida privada que se tiene derecho a proteger de cualquier intromisión”. ¿De qué ámbito estamos hablando cuando nos referimos a los seres vivos otros que humanos?</p>
 <p>El derecho mexicano no reconoce personalidad jurídica ni a la naturaleza ni a los seres vivos otros que humanos; no obstante, estos sí son sujetos de derecho en sí mismos. Sucede algo así como los romanos que tampoco reconocían el carácter de persona (sujeto de derechos y obligaciones) a todos los seres humanos, pues el goce de la personalidad distinguía a los esclavos y las personas libres que se subdividían en ciudadanos y no ciudadanos, así como en ingenuos y libertinos, solo por mencionar algunos ejemplos. También separaba las alieni juris, o sometidas a la autoridad de un jefe, de las sui juris que dependían de ellas mismas.</p>
 <p>Hoy existen en México leyes que buscan resguardar el equilibrio ecológico, así como leyes que procuran la protección y bienestar de los animales que, aunque substancialmente antropocéntricas, tienen como fin proteger a la biodiversidad, brindarle alojamiento, desarrollo natural, salud y evitarle el maltrato, la crueldad, el sufrimiento y la zoofilia, por mencionar algunas. No obstante, por ejemplo, las peleas de gallos o las corridas de toros siguen siendo legales. Vemos nuevamente que, más allá de los citados distingos, dichas leyes de observancia general y sus disposiciones son de orden público e interés social, otorgando la obligación a los seres humanos de “cuidar” a ciertos animales (generalmente se refieren a los domésticos y en menor grado a los de granja), más no les brindan a estos derechos en sentido estricto. Dicha situación, en el campo de la comunicación y la cinematografía nos remite por default a los campos de la deontología y la ética ambiental.</p>
-<img src="/images/etica1.jpg" alt="Fotografía por Mauricio de la Maza-Benignos" class="my-6 rounded-lg shadow-md" />
 <p>La ética ambiental es una rama de la filosofía, la cual se refiere a la extensión del constructo ético social hacia el resto de los seres vivos y sus hábitats. Fue inicialmente abordado en la década de los setenta en escritos de pensadores como Aldo Leopold, Garrett Hardin y Lynn White Jr., el último aseverado que la raíz de nuestra crisis ecológica es filosófica.</p>
 <p>Existen corrientes deontológicas de la ética ambiental que limitan a los procesos y elementos naturales de manera independiente al valor utilitario que los seres humanos podemos tener sobre los mismos; y dentro de ésta, corrientes holísticas, así como corrientes individualistas, dependiendo de si se coloca a la especie como la unidad fundamental de la vida o de si el valor intrínseco de los seres vivos otros que humanos buscan, como lo hacemos nosotros, su bienestar individual.</p>
 <p>Así, mientras que una corriente encabezada por Rolston Holmes, acepta el daño colateral al organismo en lo individual, por ejemplo, en el proceso de las colectas científicas con fines taxonómicos, pues estos son una mera representación de su especie que debe de ser preservada (Preston y Ouderkirk, 2006). La otra, encabezada por Paul W. Taylor, reconoce que como agentes morales en la toma de decisiones debemos de considerar el daño al organismo, que se traduce en el valor de respeto por la naturaleza, no interviniendo y haciendo uso de la racionalidad (Taylor 1986).</p>
@@ -444,7 +436,7 @@ export const posts: Post[] = [
 <p>El cineasta de naturaleza debería aproximarse hacia los ecosistemas, paisajes y sus componentes, incluyendo su flora y fauna con gran respeto a la hora de documentar y siempre preguntarse: ¿El fin justifica los medios?</p>
 <p>Frente a las expectativas del público, las tomas espectaculares de naturaleza exigen decisiones con alto grado ético que en muchas ocasiones ponen al documentalista íntegro en una clara desventaja frente al documentalista deshonesto.</p>
 <p>Partiendo de la imposibilidad, salvo en raras ocasiones de filmar aspectos de la naturaleza sin interferir en los procesos naturales, debido a la presencia misma del equipo de filmación, ¿hasta qué punto resulta aceptable invadir paisajes o los espacios vitales de los otros seres vivos para captar momentos dramáticos? En el caso de los montajes, por ejemplo, cuando se utilizan animales en cautiverio, ¿cómo se debe abordar el tema sin engañar al público?</p>
-<img src="/images/etica 4.jpg" alt="Cineasta en acción" class="my-6 rounded-lg shadow-md" />
+<img src="/images/etica1.jpg" alt="Cineasta en acción" class="my-6 rounded-lg shadow-md" />
 <p>Y citando a Palmer (2011), “el documentalista de vida silvestre tiene la responsabilidad de mostrar el mundo natural como es y de una manera en la que inspire a la gente a preservarlo”. No se vale engañar. Desde mi perspectiva, es un deber informar al público acerca del uso de “trucos” cinematográficos en el documental, incluyendo el uso de Foleys o efectos especiales, pues solo así, podemos evitar caer en el engaño y la manipulación de audiencias.</p>
 <h4>Bibliografía:</h4>
 <ul>
@@ -512,7 +504,25 @@ export const timelineEvents: TimelineEvent[] = [
   { year: '2022', description: 'Produce el documental "Ad memoriam rei perpetuam".' },
 ];
 
-
-
-
-
+export const collaborators: Collaborator[] = [
+  {
+    name: 'José Pablo Acevedo',
+    title: 'Cineasta y docente',
+    bio: 'Ha publicado su trabajo de crítica en diversos medios como Doble Rodada, Vocanova, Correspondencias y el Festival de cine Transcinema. Fue becario del Centro de Escritores Cinematográficos de CONARTE en 2018 y su documental “El Barrio de la Luz” fue uno de los ganadores en el concurso A QuedArte en Casa 2020 organizado por la UANL.'
+  },
+  {
+    name: 'David Jaramillo',
+    title: 'Realizador Audiovisual',
+    bio: 'Realizó su ópera prima titulada: “Cuatro Ciénegas”, exhibida en la FIL de Guadalajara, en el FICG33 y ECOZINE, Zaragoza España, 2019. Editó y realizó la fotografía el libro titulado ¨Parpadeo Cósmico-Cuatro Ciénegas¨ con investigadores del Instituto de Ecología de la UNAM, investigación de más de 5 años donde reitera su compromiso por la conservación del medio ambiente a través del arte y la ciencia.'
+  },
+  {
+    name: 'Claudia Luna Fuentes',
+    title: 'Comunicóloga y escritora',
+    bio: 'Comunicóloga, maestra en Historia de la Sociedad Contemporánea y directora de Divulgación Científica en el Museo del Desierto. Publicó Donde la piel, Las flores desenfundan sus espinas, Carne para las flores, Casa de sol, entre muchos otros libros. Ha sido traducida al inglés, alemán, francés, portugués y árabe. Parte de sus videopoemas, exploraciones sonoras y fotografías se mostraron en la Galería Mohammed Drissi, en Tánger, Marruecos de julio a agosto de 2021.'
+  },
+  {
+    name: 'Kenia Álvarez Rentería',
+    title: 'Abogada y consultora',
+    bio: 'Licenciada en Derecho con mención especial y Maestra en Derecho por la Universidad Autónoma de Chihuahua, con especialidad en Amparo por el Instituto de la Judicatura Federal extensión Coahuila. Actualmente se desempeña como Directora General de “LEVKA, Consultoría técnica y legal, S.C.”, y dirige el área de Derecho ambiental a través de litigios, proyectos y estudios, con el sector público y organizaciones de la sociedad civil, en los estados de Nuevo León, San Luis Potosí, Coahuila, Chihuahua y Durango.'
+  }
+];
