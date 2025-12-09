@@ -195,15 +195,39 @@ export const posts: Post[] = [
     content: `
 <p>Después de que el Gobierno del Estado decretara al Ecosistema Sierra de Picachos como Área Natural Protegida, miembros de la sociedad, de la UANL y de AESPAC se citaron el pasado 30 de octubre del 2021 en el Centro Ideas del municipio de Higueras para realizar la ceremonia de establecimiento de un Consejo Técnico que procurará el conservación de esta zona.</p>
 <p>Dicho Consejo es liderado por Alfonso Martínez, Secretario de Medio Ambiente; Edgardo Acosta, director general de Parques y Vida Silvestre de Nuevo León; y representantes locales de los municipios que abarca el ecosistema, como la Universidad Autónoma de Nuevo León, la Comisión Nacional del Agua, Profepa y Semanat.</p>
+<p><em>Imagen: Asociación Ecológica de la Sierra de Picachos</em></p>
 <p>Durante la ceremonia, se reconoció la importancia de cuidar la reserva de bosques, flora y fauna de esta Área Natural Protegida, así como la gran aportación de recursos naturales que provee al estado de Nuevo León, puesto que su superficie de 99,432 hectáreas, sumadas a las 75,872.55 hectáreas que se decretaron anteriormente, abarca los municipios de Doctor González, Agualeguas, Cerralvo, Higueras, Marín, Zuazua, Sabinas Hidalgo y Salinas Victoria.</p>
 <p>Alfonso Barragán, presidente de la Asociación Ecológica Sierra de Picachos, reconoció el beneficio del establecimiento del Consejo, que preservará el desarrollo sustentable del ecosistema y generará riqueza de recursos naturales.</p>
+<p><em>Imagen: Asociación Ecológica de la Sierra de Picachos</em></p>
 <p>De igual forma, se busca proteger la zona de actividades como excavaciones industriales y construcciones; promoviendo así el tursimo, las actividades recreativas sostenibles y acciones beneficiosas para el ecosistema. Un ejemplo de esto último, fue la liberación de dos águilas Harris, dos aguilillas grises y una lechuza que realizó el ambientalista Rodrigo Munrro durante la reunión.</p>
+<p><em>Imagen: Asociación Ecológica de la Sierra de Picachos</em></p>
 <p>Felicitamos a las autoridades, al Gobierno del Estado, a la Secretaría de Desarrollo Sustentable y a la Asociación Ecológica de Sierra de Picachos por su compromiso en la conservación de uno de los pulmones más grandes de Nuevo León, que llenará de beneficios ambientales y sociales a nuestro estado.</p>
 `, 
     imageId: 'blog-picachos', 
     category: 'Conservación' 
   },
-  { id: 'post-3', slug: 'valle-del-cocora', title: 'Valle del Cocora', date: '02 de Noviembre, 2021', excerpt: 'Un viaje visual y reflexivo por uno de los paisajes más emblemáticos de Colombia y su importancia ecológica.', content: 'Contenido completo...', imageId: 'blog-cocora', category: 'Viajes' },
+  { 
+    id: 'post-3', 
+    slug: 'valle-del-cocora', 
+    title: 'Valle del Cocora', 
+    date: '02 de Noviembre, 2021', 
+    excerpt: 'Un viaje visual y reflexivo por uno de los paisajes más emblemáticos de Colombia y su importancia ecológica.', 
+    content: `
+<p>📸 El fotoperiodista David Jaramillo nos comparte el siguiente video del Valle de Cocora, paisaje natural en Quindío, Colombia. 🏞️</p>
+<p>🎥 Este video refleja la parte espiritual profunda de los antiguos pobladores de Colombia a través del arte con el metal, en la búsqueda del color del sol. Trascendiendo entre la vida y la muerte, la orfebrería encuentra en ella misma a la estrella sagrada. ☀️</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; margin-top: 1.5rem; margin-bottom: 1.5rem; border-radius: 0.5rem;">
+  <iframe 
+    src="https://www.youtube.com/embed/pUKqlCbsl-o" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
+`, 
+    imageId: 'blog-cocora', 
+    category: 'Viajes' 
+  },
   { id: 'post-4', slug: 'aviturismo-nuevo-leon', title: 'El aviturismo en Nuevo León: su potencial económico y de conservación', date: '27 de Octubre, 2021', excerpt: 'Análisis sobre cómo el turismo de observación de aves puede impulsar la economía local y proteger la biodiversidad.', content: 'Contenido completo...', imageId: 'blog-aviturismo', category: 'Turismo Sostenible' },
   { id: 'post-5', slug: 'doctor-honoris-causa', title: 'Otorga el Claustro Doctoral el grado de Doctor Honoris Causa a Mauricio de la Maza-Benignos', date: '25 de Octubre, 2021', excerpt: 'Un reconocimiento a la trayectoria y contribuciones en el campo de la biología y el desarrollo sustentable.', content: 'Contenido completo...', imageId: 'blog-honoris-causa', category: 'Noticias' },
   { id: 'post-6', slug: 'critica-cuatro-cienegas', title: 'Crítica de “Cuatro Ciénegas y la tragedia de los comunes” por José Pablo Acevedo', date: '09 de Octubre, 2021', excerpt: 'Una reseña profunda del documental, analizando su mensaje y su impacto en la conversación ambiental.', content: 'Contenido completo...', imageId: 'blog-cuatro-cienegas', category: 'Cine' },
@@ -323,3 +347,4 @@ export const timelineEvents: TimelineEvent[] = [
     
 
     
+
