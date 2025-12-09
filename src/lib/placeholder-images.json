@@ -129,7 +129,7 @@
     {
       "id": "blog-tenencia-tierra",
       "description": "Imagen para el artículo de tenencia legal de la tierra",
-      "imageUrl": "/images/tenencia9.jpg",
+      "imageUrl": "/images/tenencia 9.jpg",
       "imageHint": "land ownership"
     },
     {
@@ -363,13 +363,13 @@
     {
       "id": "blog-discriminacion-ongs-cover-new",
       "description": "Gráficos de datos para el artículo de discriminación de ONGs",
-      "imageUrl": "/images/Discriminacion3.jpeg",
+      "imageUrl": "/images/Discriminación3.jpeg",
       "imageHint": "data charts"
     },
     {
       "id": "blog-etica-documental-cover-new",
       "description": "Cineasta en acción para el artículo de ética documental",
-      "imageUrl": "/images/etica4.jpg",
+      "imageUrl": "/images/etica 4.jpg",
       "imageHint": "filmmaker in action"
     }
   ]
