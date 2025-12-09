@@ -107,7 +107,7 @@ export default function NosotrosPage() {
                     <p>
                     Encabezó la estrategia para salvar El Llano de la Soledad, la colonia más grande de perritos de la pradera, de la devastación por la industria de la papa. Dentro de sus acciones, en diciembre de 2019, Mauricio de la Maza entregó una demanda penal por escrito ante la Fiscalía General de la República, delegación Nuevo León. En el escrito indicaba que las maniobras de los tractores para cultivar papa estaban tapando las madrigueras de los perritos de la pradera y éstos morían asfixiados.
                     </p>
-                    <Link href="https://youtu.be/DxU4d1quC4E" target="_blank" rel="noopener noreferrer" className="inline-flex items-center mt-4 text-accent hover:underline">
+                    <Link href="https://www.youtube.com/watch?v=R4RZDZIX6x0" target="_blank" rel="noopener noreferrer" className="inline-flex items-center mt-4 text-accent hover:underline">
                     <Youtube className="mr-2 h-5 w-5" />
                     Ver video en YouTube
                     </Link>
