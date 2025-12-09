@@ -26,9 +26,8 @@ export default function Home() {
 
   const recognitionLogos = [
     { name: "IMDb", src: "/images/imdb.png", url: "https://www.imdb.com/es/name/nm14485536/" },
-    { name: "People AI", src: "/images/People AI.png", url: "https://peopleai.com/fame/identities/mauricio-de-la-maza-benignos" },
-    { name: "Celebrity Birthdays", src: "/images/Celebrity.png", url: "https://celebrity-birthdays.com/people/mauricio-de-la-maza-benignos" },
-    { name: "Everything Explained", src: "/images/Brain.gif", url: "https://everything.explained.today/Mauricio_De_la_Maza-Benignos/" },
+    { name: "FilmFreeway", src: "/images/filmlogo.png", url: "https://filmfreeway.com/MauriciodelaMazaBenignos" },
+    { name: "Wikipedia", src: "/images/wikilogo.png", url: "https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos" },
   ];
 
   const displayedServices = services.filter(service => 
