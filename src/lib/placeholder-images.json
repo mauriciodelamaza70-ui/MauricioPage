@@ -79,40 +79,64 @@
       "imageHint": "environmental meeting"
     },
     {
-      "id": "blog-1",
-      "description": "Blog post image about environmental cinema",
-      "imageUrl": "https://images.unsplash.com/photo-1620654458802-d9392aa95664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmaWxtJTIwY2FtZXJhfGVufDB8fHx8MTc2NDcwMTA5Mnww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "film camera"
+      "id": "blog-loca-maniqui",
+      "description": "Image for Prólogo de La Loca del Maniquí",
+      "imageUrl": "https://images.unsplash.com/photo-1633477189729-9290b3261d0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxib29rJTIwY292ZXJ8ZW58MHx8fHwxNzY1MjA0MDQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "book cover"
     },
     {
-      "id": "blog-2",
-      "description": "Blog post image about conservation",
-      "imageUrl": "https://images.unsplash.com/photo-1735767652339-08d366622d76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0dXJ0bGUlMjBjb25zZXJ2YXRpb258ZW58MHx8fHwxNzY0NzAxMDkzfDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "turtle conservation"
+      "id": "blog-picachos",
+      "description": "Image for an article about Sierra de Picachos",
+      "imageUrl": "https://images.unsplash.com/photo-1565073182887-6bcefbe225b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bW91bnRhaW4lMjByYW5nZXxlbnwwfHx8fDE3NjUxNDY4NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mountain range"
     },
     {
-      "id": "blog-3",
-      "description": "Blog post image about a new project",
-      "imageUrl": "https://images.unsplash.com/photo-1612539473441-dfc1cefd5e1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bW91bnRhaW4lMjBsYW5kc2NhcGV8ZW58MHx8fHwxNzY0NjIxMjI3fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "mountain landscape"
+      "id": "blog-cocora",
+      "description": "Image of Valle del Cocora",
+      "imageUrl": "https://images.unsplash.com/photo-1525577288853-c6f0a020a162?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGFsbSUyMHRyZWVzfGVufDB8fHx8MTc2NTEzNzM3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "palm trees"
     },
     {
-      "id": "blog-4",
-      "description": "Blog post image for news",
-      "imageUrl": "https://images.unsplash.com/photo-1477281765962-ef34e8bb0967?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcmVzcyUyMGNvbmZlcmVuY2V8ZW58MHx8fHwxNzY0NjY5MzA5fDA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "press conference"
+      "id": "blog-aviturismo",
+      "description": "Image for an article about birdwatching tourism",
+      "imageUrl": "https://images.unsplash.com/photo-1534278854415-5c9afbb021a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxiaXJkJTIwd2F0Y2hpbmd8ZW58MHx8fHwxNzY1MjM5MTQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bird watching"
     },
     {
-      "id": "blog-5",
-      "description": "Blog post image for a technical article",
-      "imageUrl": "https://images.unsplash.com/photo-1721466759653-5383d6be56cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx0ZWNobmljYWwlMjBkcmF3aW5nfGVufDB8fHx8MTc2NDYzMDAwOXww&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "technical drawing"
+      "id": "blog-honoris-causa",
+      "description": "Image for an article about an Honoris Causa doctorate",
+      "imageUrl": "https://images.unsplash.com/photo-1699981369126-6670700d151e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx1bml2ZXJzaXR5JTIwYXdhcmR8ZW58MHx8fHwxNzY1MjM5MTQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "university award"
     },
     {
-      "id": "blog-6",
-      "description": "Blog post image for a project update",
-      "imageUrl": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx0ZWFtJTIwd29ya2luZ3xlbnwwfHx8fDE3NjQ1OTExODd8MA&ixlib.rb-4.1.0&q=80&w=1080",
-      "imageHint": "team working"
+      "id": "blog-cuatro-cienegas",
+      "description": "Image for a critique of a Cuatro Ciénegas documentary",
+      "imageUrl": "https://images.unsplash.com/photo-1643439911737-548e5d71717f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxkZXNlcnQlMjBzcHJpbmd8ZW58MHx8fHwxNzY1MjM5MTQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "desert spring"
+    },
+    {
+      "id": "blog-discriminacion-ongs",
+      "description": "Image for an article about discrimination against NGOs",
+      "imageUrl": "https://images.unsplash.com/photo-1681402560959-f64bda1de705?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcm90ZXN0JTIwcHVibGljfGVufDB8fHx8MTc2NTIzOTE0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "protest public"
+    },
+    {
+      "id": "blog-decreto-picachos",
+      "description": "Image for an article about a decree for Sierra de Picachos",
+      "imageUrl": "https://images.unsplash.com/photo-1764106813759-9ef7bf42a0af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxvZmZpY2lhbCUyMGRvY3VtZW50fGVufDB8fHx8MTc2NTE3Nzk5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "official document"
+    },
+    {
+      "id": "blog-tenencia-tierra",
+      "description": "Image for an article about land tenure in National Parks",
+      "imageUrl": "https://images.unsplash.com/photo-1729944283581-0b59f6325311?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYW5kJTIwbWFwfGVufDB8fHx8MTc2NTIzOTE0M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "land map"
+    },
+    {
+      "id": "blog-etica-documental",
+      "description": "Image for an article about the ethics of nature documentaries",
+      "imageUrl": "https://images.unsplash.com/photo-1692269538497-fa5c3e725400?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjYW1lcmElMjBuYXR1cmV8ZW58MHx8fHwxNzY1MjM5MTQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "camera nature"
     },
     {
       "id": "about-hero",

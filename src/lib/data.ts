@@ -162,12 +162,16 @@ export const projects: Project[] = [
 ];
 
 export const posts: Post[] = [
-    { id: 'post-1', title: 'El Arte de Filmar en el Silencio del Desierto', date: '15 de Julio, 2024', excerpt: 'Narra la experiencia y los desafíos de la producción de nuestro último documental en el Desierto de Samalayuca.', content: 'Contenido completo...', imageId: 'blog-1', category: 'Cine Ambiental' },
-    { id: 'post-2', title: 'La Importancia de los Corredores Biológicos', date: '02 de Julio, 2024', excerpt: 'Un análisis sobre cómo la conectividad de los ecosistemas es vital para la supervivencia de especies como el jaguar.', content: 'Contenido completo...', imageId: 'blog-2', category: 'Conservación' },
-    { id: 'post-3', title: 'Anuncio: Nuevo Proyecto Sobre Arrecifes Mexicanos', date: '20 de Junio, 2024', excerpt: 'Estamos emocionados de anunciar nuestra próxima gran producción, que nos llevará a las profundidades del Caribe Mexicano.', content: 'Contenido completo...', imageId: 'blog-3', category: 'Proyectos' },
-    { id: 'post-4', title: 'Ganadores del PanterFest 2023', date: '10 de Junio, 2024', excerpt: 'Un resumen de las obras y cineastas galardonados en la última edición de nuestro festival de cine.', content: 'Contenido completo...', imageId: 'blog-4', category: 'Noticias' },
-    { id: 'post-5', title: 'Guía Técnica: Cámaras y Lentes para Fotografía de Aves', date: '25 de Mayo, 2024', excerpt: 'Recomendaciones de equipo y técnicas para capturar la belleza de las aves en su hábitat natural.', content: 'Contenido completo...', imageId: 'blog-5', category: 'Artículos Técnicos' },
-    { id: 'post-6', title: 'Reflexiones sobre 10 años en Pronatura Noreste', date: '15 de Mayo, 2024', excerpt: 'Una mirada retrospectiva a los logros, aprendizajes y desafíos durante una década de liderazgo en la conservación.', content: 'Contenido completo...', imageId: 'blog-6', category: 'Conservación' },
+  { id: 'post-1', title: 'Prólogo de “La loca del maniquí”', date: '26 de Mayo, 2022', excerpt: 'Un vistazo al prólogo del libro, explorando sus temas centrales y el estilo narrativo.', content: 'Contenido completo...', imageId: 'blog-loca-maniqui', category: 'Literatura' },
+  { id: 'post-2', title: 'Establecen consejo técnico para la conservación del ecosistema de Picachos', date: '07 de Noviembre, 2021', excerpt: 'Conoce los detalles sobre la formación del nuevo consejo y sus objetivos para proteger la Sierra de Picachos.', content: 'Contenido completo...', imageId: 'blog-picachos', category: 'Conservación' },
+  { id: 'post-3', title: 'Valle del Cocora', date: '02 de Noviembre, 2021', excerpt: 'Un viaje visual y reflexivo por uno de los paisajes más emblemáticos de Colombia y su importancia ecológica.', content: 'Contenido completo...', imageId: 'blog-cocora', category: 'Viajes' },
+  { id: 'post-4', title: 'El aviturismo en Nuevo León: su potencial económico y de conservación', date: '27 de Octubre, 2021', excerpt: 'Análisis sobre cómo el turismo de observación de aves puede impulsar la economía local y proteger la biodiversidad.', content: 'Contenido completo...', imageId: 'blog-aviturismo', category: 'Turismo Sostenible' },
+  { id: 'post-5', title: 'Otorga el Claustro Doctoral el grado de Doctor Honoris Causa a Mauricio de la Maza-Benignos', date: '25 de Octubre, 2021', excerpt: 'Un reconocimiento a la trayectoria y contribuciones en el campo de la biología y el desarrollo sustentable.', content: 'Contenido completo...', imageId: 'blog-honoris-causa', category: 'Noticias' },
+  { id: 'post-6', title: 'Crítica de “Cuatro Ciénegas y la tragedia de los comunes” por José Pablo Acevedo', date: '09 de Octubre, 2021', excerpt: 'Una reseña profunda del documental, analizando su mensaje y su impacto en la conversación ambiental.', content: 'Contenido completo...', imageId: 'blog-cuatro-cienegas', category: 'Cine' },
+  { id: 'post-7', title: 'Discriminación de organizaciones promotoras y defensoras del derecho al medio ambiente sano en la política pública mexicana', date: '25 de Septiembre, 2021', excerpt: 'Una reflexión crítica sobre los obstáculos que enfrentan las ONGs ambientales en el panorama político actual.', content: 'Contenido completo...', imageId: 'blog-discriminacion-ongs', category: 'Política Ambiental' },
+  { id: 'post-8', title: 'Se publica decreto sobre Sierra de Picachos como ANP', date: '22 de Septiembre, 2021', excerpt: 'Análisis del decreto que oficializa a la Sierra de Picachos como Área Natural Protegida y lo que significa para su futuro.', content: 'Contenido completo...', imageId: 'blog-decreto-picachos', category: 'Legislación' },
+  { id: 'post-9', title: 'Tenencia legal de la tierra en Parques Nacionales', date: '22 de Septiembre, 2021', excerpt: 'Un examen de los complejos desafíos legales y sociales relacionados con la propiedad de la tierra en áreas protegidas.', content: 'Contenido completo...', imageId: 'blog-tenencia-tierra', category: 'Legislación' },
+  { id: 'post-10', title: 'La ética del documental de naturaleza', date: '17 de Septiembre, 2021', excerpt: 'Una discusión sobre las responsabilidades y dilemas éticos que enfrentan los cineastas de vida silvestre.', content: 'Contenido completo...', imageId: 'blog-etica-documental', category: 'Cine' },
 ];
 
 export const galleryImages: GalleryImage[] = [
@@ -280,4 +284,3 @@ export const timelineEvents: TimelineEvent[] = [
     
 
     
-
