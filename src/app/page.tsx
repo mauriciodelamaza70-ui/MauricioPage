@@ -166,7 +166,7 @@ export default function Home() {
                     <CardContent>
                       <p className="text-muted-foreground">{post.excerpt}</p>
                       <Button asChild variant="link" className="text-accent p-0 h-auto mt-4">
-                        <Link href="/revista">Leer más <ArrowRight className="ml-2 h-5 w-5" /></Link>
+                        <Link href={`/revista/${post.slug}`}>Leer más <ArrowRight className="ml-2 h-5 w-5" /></Link>
                       </Button>
                     </CardContent>
                   </Card>

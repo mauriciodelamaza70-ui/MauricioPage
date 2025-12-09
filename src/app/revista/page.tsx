@@ -41,7 +41,7 @@ export default function RevistaPage() {
                                         <CardTitle className="font-headline text-xl mt-1">{post.title}</CardTitle>
                                         <p className="text-muted-foreground mt-2 flex-grow">{post.excerpt}</p>
                                         <Button asChild variant="link" className="text-accent p-0 h-auto mt-4 self-start">
-                                            <Link href="#">Leer más <ArrowRight className="ml-2 h-5 w-5" /></Link>
+                                            <Link href={`/revista/${post.slug}`}>Leer más <ArrowRight className="ml-2 h-5 w-5" /></Link>
                                         </Button>
                                     </div>
                                 </Card>
@@ -67,7 +67,7 @@ export default function RevistaPage() {
                             <ul className="space-y-4">
                                 {posts.slice(0, 3).map(post => (
                                     <li key={post.id}>
-                                        <Link href="#" className="font-semibold hover:text-accent transition-colors">{post.title}</Link>
+                                        <Link href={`/revista/${post.slug}`} className="font-semibold hover:text-accent transition-colors">{post.title}</Link>
                                         <p className="text-sm text-muted-foreground">{post.date}</p>
                                     </li>
                                 ))}
