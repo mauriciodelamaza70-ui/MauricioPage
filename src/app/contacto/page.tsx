@@ -23,7 +23,7 @@ export default function ContactoPage() {
                             <div className="space-y-6">
                                 <div className="flex items-center gap-4">
                                     <WhatsAppIcon className="h-6 w-6 text-accent" />
-                                    <a href="https://wa.me/5218110165108" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-accent transition-colors">+52 81 1016 5108</a>
+                                    <a href="https://wa.me/528110165108" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-accent transition-colors">+52 81 1016 5108</a>
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <Mail className="h-6 w-6 text-accent" />
@@ -37,7 +37,7 @@ export default function ContactoPage() {
                             <div>
                                 <h3 className="font-headline text-2xl font-bold mb-4">Síguenos</h3>
                                 <div className="flex space-x-4">
-                                    {socialLinks.map((social) => (
+                                    {socialLinks.filter(social => social.name !== 'WhatsApp').map((social) => (
                                         <a
                                         key={social.name}
                                         href={social.href}

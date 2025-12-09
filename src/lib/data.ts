@@ -1,7 +1,8 @@
 
 
+
 import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo, Collaborator } from './types';
-import { Facebook, Instagram, Linkedin } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
 import { TheatreIcon, VimeoIcon, WhatsAppIcon } from '@/components/icons';
 
 export const siteConfig = {
@@ -25,11 +26,11 @@ export const navLinks: NavLink[] = [
 ];
 
 export const socialLinks: SocialLink[] = [
-    { name: 'Facebook', href: '#', icon: Facebook },
-    { name: 'Instagram', href: '#', icon: Instagram },
-    { name: 'LinkedIn', href: '#', icon: Linkedin },
-    { name: 'Vimeo', href: '#', icon: VimeoIcon },
-    { name: 'WhatsApp', href: 'https://wa.me/5218110165108', icon: WhatsAppIcon },
+    { name: 'Facebook', href: 'https://www.facebook.com/MauricioDelaMazaBenignos', icon: Facebook },
+    { name: 'Instagram', href: 'https://www.instagram.com/mauriciodelamazabenignos/', icon: Instagram },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/mauricio-de-la-maza-benignos-224a2a9/', icon: Linkedin },
+    { name: 'YouTube', href: 'https://www.youtube.com/@mauriciodelamaza7834', icon: Youtube },
+    { name: 'WhatsApp', href: 'https://wa.me/528110165108', icon: WhatsAppIcon },
 ];
 
 export const biography = {
