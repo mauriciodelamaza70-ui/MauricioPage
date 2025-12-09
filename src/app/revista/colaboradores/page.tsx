@@ -8,7 +8,7 @@ export default function ColaboradoresPage() {
   return (
     <>
       <PageHero title="Colaboradores" imageId="about-hero" />
-      <section className="py-24">
+      <section className="py-24 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-headline text-4xl md:text-5xl font-bold">Nuestros Expertos</h2>
@@ -16,32 +16,30 @@ export default function ColaboradoresPage() {
               Conoce a los talentosos profesionales y escritores que dan vida a nuestra revista con sus conocimientos y perspectivas únicas.
             </p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {collaborators.map((collab) => (
-              <Card key={collab.name} className="flex flex-col md:flex-row items-start overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
-                 <div className="relative w-full md:w-52 h-64 md:h-auto flex-shrink-0">
-                    {collab.image ? (
-                        <Image
-                            src={collab.image}
-                            alt={collab.name}
-                            fill
-                            className="object-cover"
-                        />
-                    ) : (
-                        <div className="flex items-center justify-center h-full bg-secondary">
-                            <User className="h-24 w-24 text-muted-foreground" />
-                        </div>
-                    )}
+              <Card key={collab.name} className="flex flex-col text-center items-center p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div className="relative w-32 h-32 rounded-full overflow-hidden mb-4 border-4 border-accent">
+                  {collab.image ? (
+                    <Image
+                      src={collab.image}
+                      alt={collab.name}
+                      fill
+                      className="object-cover"
+                    />
+                  ) : (
+                    <div className="flex items-center justify-center h-full w-full bg-muted">
+                      <User className="h-16 w-16 text-muted-foreground" />
+                    </div>
+                  )}
                 </div>
-                <div className="flex flex-col p-6">
-                    <CardHeader className="p-0">
-                        <CardTitle className="font-headline text-3xl">{collab.name}</CardTitle>
-                        <p className="text-base text-accent font-semibold pt-1">{collab.title}</p>
-                    </CardHeader>
-                    <CardContent className="p-0 mt-4 space-y-4 text-muted-foreground">
-                        <p>{collab.bio}</p>
-                    </CardContent>
-                </div>
+                <CardHeader className="p-0">
+                  <CardTitle className="font-headline text-2xl">{collab.name}</CardTitle>
+                  <p className="text-sm text-accent font-semibold pt-1">{collab.title}</p>
+                </CardHeader>
+                <CardContent className="p-0 mt-4 text-sm text-muted-foreground">
+                  <p>{collab.bio}</p>
+                </CardContent>
               </Card>
             ))}
           </div>
