@@ -9,7 +9,8 @@ import { FacebookIcon, LinkedinIcon } from '@/components/icons';
 import { siteConfig } from '@/lib/data';
 
 export default function PostPage({ params }: { params: { slug: string } }) {
-  const post = posts.find((post) => post.slug === params.slug);
+  const { slug } = params;
+  const post = posts.find((post) => post.slug === slug);
   const pathname = usePathname();
 
   if (!post) {
