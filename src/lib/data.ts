@@ -1,6 +1,7 @@
 
 
 
+
 import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo, Collaborator } from './types';
 import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
 import { TheatreIcon, VimeoIcon, WhatsAppIcon } from '@/components/icons';
@@ -476,12 +477,12 @@ export const galleryImages: GalleryImage[] = [
 ];
 
 export const videoGallery: Video[] = [
-    { id: 'vid-1', title: 'En busca del águila elegante', type: 'Mediometraje', youtubeId: 'DxU4d1quC4E', thumbnailId: 'video-thumb-1'},
-    { id: 'vid-2', title: 'La cotorra serrana oriental', type: 'Cortometraje', youtubeId: 'XXuG0vA9p8o', thumbnailId: 'video-thumb-2'},
-    { id: 'vid-3', title: 'Ecología del fuego', type: 'Cortometraje', youtubeId: '2bF_9eW0GvA', thumbnailId: 'video-thumb-3'},
-    { id: 'vid-4', title: 'Historias del septentrión', type: 'Mediometraje', youtubeId: 'w5u10Yvpy04', thumbnailId: 'video-thumb-4'},
-    { id: 'vid-5', title: 'Los murciélagos de la cueva de la boca', type: 'Cortometraje', youtubeId: 'q-n6M2gGv_s', thumbnailId: 'video-thumb-5'},
-    { id: 'vid-6', title: 'Praderas del Tokio', type: 'Mediometraje', youtubeId: 'r53Y-wZ3R1o', thumbnailId: 'video-thumb-6'},
+    { id: 'vid-1', title: 'En busca del águila elegante', type: 'Mediometraje', youtubeId: 'og-QOYsTTcE', thumbnailId: 'video-thumb-1'},
+    { id: 'vid-2', title: 'La cotorra serrana oriental', type: 'Cortometraje', youtubeId: 'MqNwizA7wc0', thumbnailId: 'video-thumb-2'},
+    { id: 'vid-3', title: 'Ecología del fuego', type: 'Cortometraje', youtubeId: 'M81DLdDI1HQ', thumbnailId: 'video-thumb-3'},
+    { id: 'vid-4', title: 'Historias del septentrión', type: 'Mediometraje', youtubeId: 'HE7A1PyqPZo', thumbnailId: 'video-thumb-4'},
+    { id: 'vid-5', title: 'Los murciélagos de la cueva de la boca', type: 'Cortometraje', youtubeId: 'suiOUN8zl18', thumbnailId: 'video-thumb-5'},
+    { id: 'vid-6', title: 'Praderas del Tokio', type: 'Mediometraje', youtubeId: 'I7StbzrZAlU', thumbnailId: 'video-thumb-6'},
 ];
 
 export const achievements: Achievement[] = [
