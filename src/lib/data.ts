@@ -310,7 +310,22 @@ export const posts: Post[] = [
     imageId: 'blog-discriminacion-ongs', 
     category: 'Política Ambiental' 
   },
-  { id: 'post-8', slug: 'decreto-sierra-picachos', title: 'Se publica decreto sobre Sierra de Picachos como ANP', date: '22 de Septiembre, 2021', excerpt: 'Análisis del decreto que oficializa a la Sierra de Picachos como Área Natural Protegida y lo que significa para su futuro.', content: 'Contenido completo...', imageId: 'blog-decreto-picachos', category: 'Legislación' },
+  { 
+    id: 'post-8', 
+    slug: 'decreto-sierra-picachos', 
+    title: 'Se publica decreto sobre Sierra de Picachos como ANP', 
+    date: '22 de Septiembre, 2021', 
+    excerpt: 'Análisis del decreto que oficializa a la Sierra de Picachos como Área Natural Protegida y lo que significa para su futuro.', 
+    content: `
+<p>El Gobierno del Estado atendiendo la solicitud de la Asociación ecológica de la Sierra de Picachos AC, para la creación del Área Natural Protegida, “Ecosistema Sierra de Picachos”, el día de hoy publica el decreto mediante el cual constituye la citada ANP, con esto dan un ejemplo de colaboración entre la Sociedad Civil y Gobierno.</p>
+<p>Área Natural Protegida “Ecosistemas de la Sierra Picachos” tiene una superficie de 99,432.49 hectáreas que se suman a las 75,872.55 hectáreas que ya estaban decretadas con anterioridad, en conjunto constituyen una superficie de 175,305.04 hectáreas.</p>
+<p>Las Áreas Natural Protegidas de la Sierra de Picachos, son un espacio geográfico reconocido y dedicado a la naturaleza y sus servicios. En conjunto son el Área Natural Protegida más grande de Nuevo León y una pieza fundamental en el equilibrio ecológico del norte de México, que busca su conservación a largo plazo.</p>
+<p>Con esta nueva Área Natural Protegida la Sierra de Picachos prestara grandes servicios ambientales, como 52,500 hm3 de agua por año, 2,758,880 toneladas de CO2 por año, 365 días/año limpieza de aire, entre otros, además del apoyo al equilibrio ecológico de la flora y fauna silvestre, aire limpio, el ecoturismo y la preservación de los valores históricos y culturales de nuestro estado además de despertar la conciencia, fomentar la sensibilidad y el respeto por la naturaleza.</p>
+<p>Es importante manifestar nuestro reconocimiento y agradecimiento al Gobernador del Estado, Ing. Jaime Rodríguez Calderón y a la Secretaría de Desarrollo Sustentable por su apoyo incondicional en esta acción que traerá grandes beneficios ambientales y sociales para Nuevo León.</p>
+`, 
+    imageId: 'blog-decreto-picachos', 
+    category: 'Legislación' 
+  },
   { id: 'post-9', slug: 'tenencia-legal-tierra-parques-nacionales', title: 'Tenencia legal de la tierra en Parques Nacionales', date: '22 de Septiembre, 2021', excerpt: 'Un examen de los complejos desafíos legales y sociales relacionados con la propiedad de la tierra en áreas protegidas.', content: 'Contenido completo...', imageId: 'blog-tenencia-tierra', category: 'Legislación' },
   { id: 'post-10', slug: 'etica-documental-naturaleza', title: 'La ética del documental de naturaleza', date: '17 de Septiembre, 2021', excerpt: 'Una discusión sobre las responsabilidades y dilemas éticos que enfrentan los cineastas de vida silvestre.', content: 'Contenido completo...', imageId: 'blog-etica-documental', category: 'Cine' },
 ];
@@ -430,4 +445,5 @@ export const timelineEvents: TimelineEvent[] = [
 
 
     
+
 
