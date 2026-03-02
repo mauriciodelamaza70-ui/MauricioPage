@@ -260,9 +260,9 @@
     },
     {
       "id": "cta-bg",
-      "description": "Escena de El zapato",
-      "imageUrl": "/images/zapato2.webp",
-      "imageHint": "film set"
+      "description": "Fondo de sección de llamado a la acción",
+      "imageUrl": "/images/servicios-1.jpg",
+      "imageHint": "drone filming"
     },
     {
       "id": "service-audiovisual",
