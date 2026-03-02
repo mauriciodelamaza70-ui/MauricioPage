@@ -13,7 +13,7 @@ import Link from "next/link";
 export default function GaleriasPage() {
   return (
     <>
-      <PageHero title="Galerías" imageId="gallery-hero" objectPosition="object-top" />
+      <PageHero title="Galerías" imageId="gallery-hero" objectPosition="object-center" />
       
       <div className="container mx-auto px-4 py-24">
         <div className="text-center mb-16">
