@@ -8,6 +8,7 @@ export default function NosotrosPage() {
   const heroImage = PlaceHolderImages.find((p) => p.id === 'nosotros-hero');
   const bioIntroImage = PlaceHolderImages.find((p) => p.id === 'bio-intro');
   const scienceImage = PlaceHolderImages.find((p) => p.id === 'science-mauricio');
+  const scienceImage2 = PlaceHolderImages.find((p) => p.id === 'blog-honoris-causa-cover');
 
   return (
     <>
@@ -133,11 +134,11 @@ export default function NosotrosPage() {
       </section>
 
       {/* Science Section */}
-      <section className="py-24 bg-secondary">
+      <section className="py-24 bg-secondary overflow-hidden">
         <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-                <div className="grid md:grid-cols-2 gap-12 items-center">
-                    <div className="space-y-6">
+                <div className="grid lg:grid-cols-12 gap-16 items-center">
+                    <div className="lg:col-span-7 space-y-6">
                         <div className="flex items-center gap-4 mb-4">
                             <Microscope className="h-10 w-10 text-accent" />
                             <h2 className="font-headline text-4xl font-bold">{biography.science.title}</h2>
@@ -149,17 +150,32 @@ export default function NosotrosPage() {
                             ))}
                         </div>
                     </div>
-                    {scienceImage && (
-                        <div className="relative aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
-                            <Image
-                                src={scienceImage.imageUrl}
-                                alt={scienceImage.description}
-                                fill
-                                className="object-cover"
-                                data-ai-hint={scienceImage.imageHint}
-                            />
+                    <div className="lg:col-span-5 grid grid-cols-1 gap-8">
+                        <div className="flex flex-col gap-8 md:flex-row lg:flex-col">
+                            {scienceImage && (
+                                <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-2xl">
+                                    <Image
+                                        src={scienceImage.imageUrl}
+                                        alt={scienceImage.description}
+                                        fill
+                                        className="object-cover object-right"
+                                        data-ai-hint={scienceImage.imageHint}
+                                    />
+                                </div>
+                            )}
+                            {scienceImage2 && (
+                                <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-2xl lg:-ml-12 lg:mt-4 z-10">
+                                    <Image
+                                        src={scienceImage2.imageUrl}
+                                        alt={scienceImage2.description}
+                                        fill
+                                        className="object-cover"
+                                        data-ai-hint={scienceImage2.imageHint}
+                                    />
+                                </div>
+                            )}
                         </div>
-                    )}
+                    </div>
                 </div>
             </div>
         </div>
