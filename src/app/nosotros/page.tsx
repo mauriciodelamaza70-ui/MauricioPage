@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -141,67 +140,81 @@ export default function NosotrosPage() {
         <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
                 <div className="grid lg:grid-cols-12 gap-16 items-start">
-                    <div className="lg:col-span-7 space-y-6">
+                    {/* Text Column */}
+                    <div className="lg:col-span-7 space-y-8">
                         <div className="flex items-center gap-4 mb-4">
                             <Microscope className="h-10 w-10 text-accent" />
-                            <h2 className="font-headline text-4xl font-bold">{biography.science.title}</h2>
+                            <h2 className="font-headline text-4xl md:text-5xl font-bold">{biography.science.title}</h2>
                         </div>
                         <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
-                            <p className="text-xl font-medium text-foreground">{biography.science.intro}</p>
+                            <p className="text-xl font-medium text-foreground border-l-4 border-accent pl-6">
+                                {biography.science.intro}
+                            </p>
                             {biography.science.details.map((text, index) => (
                                 <p key={index}>{text}</p>
                             ))}
                         </div>
                     </div>
-                    <div className="lg:col-span-5 grid grid-cols-2 gap-4">
-                        <div className="space-y-4">
-                            {scienceImage && (
-                                <div className="relative aspect-[4/5] w-full rounded-lg overflow-hidden shadow-xl">
-                                    <Image
-                                        src={scienceImage.imageUrl}
-                                        alt={scienceImage.description}
-                                        fill
-                                        className="object-cover object-right"
-                                        data-ai-hint={scienceImage.imageHint}
-                                    />
-                                </div>
-                            )}
-                            {wcffLogo && (
-                                <div className="relative aspect-[2/3] w-full rounded-lg overflow-hidden shadow-xl">
-                                    <Image
-                                        src={wcffLogo.imageUrl}
-                                        alt={wcffLogo.description}
-                                        fill
-                                        className="object-contain bg-white/50 p-4"
-                                        data-ai-hint={wcffLogo.imageHint}
-                                    />
-                                </div>
-                            )}
+
+                    {/* Image Mosaic Column */}
+                    <div className="lg:col-span-5 relative">
+                        <div className="grid grid-cols-2 gap-4">
+                            {/* Top Left: Scientific Work (dr1.jpg) */}
+                            <div className="col-span-1 space-y-4">
+                                {scienceImage && (
+                                    <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
+                                        <Image
+                                            src={scienceImage.imageUrl}
+                                            alt={scienceImage.description}
+                                            fill
+                                            className="object-cover object-right"
+                                            data-ai-hint={scienceImage.imageHint}
+                                        />
+                                    </div>
+                                )}
+                                {/* Bottom Left: WCFF Logo/Poster */}
+                                {wcffLogo && (
+                                    <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-xl bg-white/30 p-2 transform hover:scale-[1.02] transition-transform duration-500">
+                                        <Image
+                                            src={wcffLogo.imageUrl}
+                                            alt={wcffLogo.description}
+                                            fill
+                                            className="object-contain p-4"
+                                            data-ai-hint={wcffLogo.imageHint}
+                                        />
+                                    </div>
+                                )}
+                            </div>
+
+                            {/* Top Right: Scientific Detail (Fish) */}
+                            <div className="col-span-1 space-y-4 pt-12">
+                                {fishImage && (
+                                    <div className="relative aspect-square rounded-xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-transform duration-500">
+                                        <Image
+                                            src={fishImage.imageUrl}
+                                            alt={fishImage.description}
+                                            fill
+                                            className="object-cover"
+                                            data-ai-hint={fishImage.imageHint}
+                                        />
+                                    </div>
+                                )}
+                                {/* Bottom Right: Honoris Causa (dr3.jpg) */}
+                                {scienceImage2 && (
+                                    <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
+                                        <Image
+                                            src={scienceImage2.imageUrl}
+                                            alt={scienceImage2.description}
+                                            fill
+                                            className="object-cover"
+                                            data-ai-hint={scienceImage2.imageHint}
+                                        />
+                                    </div>
+                                )}
+                            </div>
                         </div>
-                        <div className="space-y-4 pt-12">
-                            {scienceImage2 && (
-                                <div className="relative aspect-[4/5] w-full rounded-lg overflow-hidden shadow-xl">
-                                    <Image
-                                        src={scienceImage2.imageUrl}
-                                        alt={scienceImage2.description}
-                                        fill
-                                        className="object-cover"
-                                        data-ai-hint={scienceImage2.imageHint}
-                                    />
-                                </div>
-                            )}
-                            {fishImage && (
-                                <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-xl">
-                                    <Image
-                                        src={fishImage.imageUrl}
-                                        alt={fishImage.description}
-                                        fill
-                                        className="object-cover"
-                                        data-ai-hint={fishImage.imageHint}
-                                    />
-                                </div>
-                            )}
-                        </div>
+                        {/* Decorative background element */}
+                        <div className="absolute -z-10 -bottom-10 -right-10 w-64 h-64 bg-accent/10 rounded-full blur-3xl" />
                     </div>
                 </div>
             </div>
