@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import Link from 'next/link';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -12,6 +11,8 @@ export default function NosotrosPage() {
   const scienceImage2 = PlaceHolderImages.find((p) => p.id === 'blog-honoris-causa-cover');
   const mauricioPortrait = PlaceHolderImages.find((p) => p.id === 'mauricio-portrait-science');
   const fishImage = PlaceHolderImages.find((p) => p.id === 'gallery-new-6');
+  const colibriImage = PlaceHolderImages.find((p) => p.id === 'service-digital');
+  const filmingImage = PlaceHolderImages.find((p) => p.id === 'gallery-new-5');
 
   return (
     <>
@@ -142,7 +143,7 @@ export default function NosotrosPage() {
             <div className="max-w-6xl mx-auto">
                 <div className="grid lg:grid-cols-12 gap-16 items-start">
                     {/* Text Column */}
-                    <div className="lg:col-span-7 space-y-8">
+                    <div className="lg:col-span-6 space-y-8">
                         <div className="flex items-center gap-4 mb-4">
                             <Microscope className="h-10 w-10 text-accent" />
                             <h2 className="font-headline text-4xl md:text-5xl font-bold">{biography.science.title}</h2>
@@ -158,7 +159,7 @@ export default function NosotrosPage() {
                     </div>
 
                     {/* Image Mosaic Column */}
-                    <div className="lg:col-span-5 relative">
+                    <div className="lg:col-span-6 relative">
                         <div className="grid grid-cols-2 gap-4">
                             {/* Left Column */}
                             <div className="col-span-1 space-y-4">
@@ -184,10 +185,32 @@ export default function NosotrosPage() {
                                         />
                                     </div>
                                 )}
+                                {filmingImage && (
+                                    <div className="relative aspect-square rounded-xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition-transform duration-500">
+                                        <Image
+                                            src={filmingImage.imageUrl}
+                                            alt={filmingImage.description}
+                                            fill
+                                            className="object-cover"
+                                            data-ai-hint={filmingImage.imageHint}
+                                        />
+                                    </div>
+                                )}
                             </div>
 
                             {/* Right Column */}
                             <div className="col-span-1 space-y-4 pt-12">
+                                {colibriImage && (
+                                    <div className="relative aspect-square rounded-xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-transform duration-500">
+                                        <Image
+                                            src={colibriImage.imageUrl}
+                                            alt={colibriImage.description}
+                                            fill
+                                            className="object-cover"
+                                            data-ai-hint={colibriImage.imageHint}
+                                        />
+                                    </div>
+                                )}
                                 {fishImage && (
                                     <div className="relative aspect-square rounded-xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-transform duration-500">
                                         <Image
