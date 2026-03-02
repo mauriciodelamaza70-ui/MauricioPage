@@ -158,9 +158,9 @@
     },
     {
       "id": "gallery-hero",
-      "description": "Hero image for the Gallery page",
-      "imageUrl": "/images/videos.jpg",
-      "imageHint": "art gallery"
+      "description": "Fondo para la página de Galerías",
+      "imageUrl": "/images/Diseno-sin-titulo-6.png",
+      "imageHint": "visual gallery background"
     },
     {
       "id": "magazine-hero",
