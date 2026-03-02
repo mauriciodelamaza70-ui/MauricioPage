@@ -244,10 +244,10 @@ export default function NosotrosPage() {
         </div>
       </section>
 
-      {/* Architecture Section - Minimalist and Aesthetic */}
-      <section className="relative py-40 overflow-hidden text-white">
+      {/* Architecture Section - Redesigned for Aesthetics */}
+      <section className="relative py-32 bg-black text-white overflow-hidden">
         {architectureBg && (
-          <div className="absolute inset-0">
+          <div className="absolute inset-0 opacity-40">
             <Image
               src={architectureBg.imageUrl}
               alt="Arquitectura unificada"
@@ -255,26 +255,34 @@ export default function NosotrosPage() {
               className="object-cover"
               data-ai-hint={architectureBg.imageHint}
             />
-            <div className="absolute inset-0 bg-black/90" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black" />
           </div>
         )}
+        
         <div className="relative z-10 container mx-auto px-4">
-            <div className="max-w-3xl mx-auto text-center">
-                <div className="w-8 h-px bg-accent mx-auto mb-10" />
-                <h2 className="font-headline text-2xl md:text-3xl font-bold mb-12 tracking-[0.15em] uppercase text-gray-100">
-                    {biography.architecture.title}
-                </h2>
-                <div className="space-y-12">
-                    <p className="text-base md:text-lg font-light leading-relaxed text-gray-400 max-w-xl mx-auto italic">
-                        {biography.architecture.text}
-                    </p>
-                    <div className="pt-10">
-                        <p className="font-headline text-xl md:text-2xl font-bold text-accent tracking-wide">
-                            {biography.architecture.conclusion}
-                        </p>
-                    </div>
-                </div>
+          <div className="grid md:grid-cols-12 gap-12 items-center min-h-[400px]">
+            {/* Minimalist Vertical-inspired Title */}
+            <div className="md:col-span-4 border-l border-accent/40 pl-8 py-4">
+              <span className="text-accent text-xs tracking-[0.5em] uppercase block mb-4 font-medium">Concepto</span>
+              <h2 className="font-headline text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">
+                {biography.architecture.title.split(' ').map((word, i) => (
+                  <span key={i} className="block">{word}</span>
+                ))}
+              </h2>
             </div>
+            
+            {/* Descriptive Text & Conclusion with high spacing */}
+            <div className="md:col-start-6 md:col-span-6 space-y-16">
+              <p className="text-xs md:text-sm font-light leading-[1.8] text-gray-400 max-w-sm border-b border-gray-800 pb-16 tracking-wide">
+                {biography.architecture.text}
+              </p>
+              <div className="animate-in fade-in slide-in-from-right-8 duration-1000">
+                <p className="font-headline text-2xl md:text-3xl lg:text-4xl font-bold text-white tracking-wide leading-snug">
+                  {biography.architecture.conclusion}
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </>
