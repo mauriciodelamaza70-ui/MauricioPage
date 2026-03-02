@@ -52,7 +52,7 @@ export default function Footer() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h3 className="font-headline text-xl font-semibold text-white">Profesional</h3>
-              <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 gap-4">
                 {professionalLinks.map((social) => (
                   <a
                     key={social.name}
@@ -71,7 +71,7 @@ export default function Footer() {
             
             <div className="space-y-4">
               <h4 className="text-xs uppercase tracking-[0.2em] text-accent font-bold">Música</h4>
-              <div className="flex gap-4">
+              <div className="flex gap-5">
                 {musicLinks.map((music) => (
                   <a
                     key={music.name}
