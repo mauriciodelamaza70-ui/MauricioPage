@@ -1,8 +1,10 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { biography } from '@/lib/data';
-import { Music, Film, Leaf, Zap, Microscope } from 'lucide-react';
+import { biography, featuredMovies } from '@/lib/data';
+import { Music, Film, Leaf, Zap, Microscope, Award } from 'lucide-react';
+import { Card, CardContent } from "@/components/ui/card";
 
 export default function NosotrosPage() {
   const heroImage = PlaceHolderImages.find((p) => p.id === 'nosotros-hero');
@@ -79,17 +81,50 @@ export default function NosotrosPage() {
       {/* Fiction Section */}
       <section className="py-24 bg-secondary">
         <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-                <div className="flex items-center gap-4 mb-8">
+            <div className="max-w-6xl mx-auto">
+                <div className="flex items-center gap-4 mb-12">
                     <Film className="h-10 w-10 text-accent" />
                     <h2 className="font-headline text-4xl font-bold">{biography.fiction.title}</h2>
                 </div>
-                <div className="prose prose-lg max-w-none text-muted-foreground space-y-8">
-                    <p className="text-xl font-medium text-foreground">{biography.fiction.text}</p>
-                    <p>{biography.fiction.details}</p>
-                    <div className="bg-background p-8 rounded-xl shadow-sm border-l-4 border-accent">
-                        <p className="mb-0">{biography.fiction.awards}</p>
-                    </div>
+                
+                <div className="grid lg:grid-cols-2 gap-16 items-start mb-20">
+                  <div className="prose prose-lg max-w-none text-muted-foreground space-y-8">
+                      <p className="text-xl font-medium text-foreground">{biography.fiction.text}</p>
+                      <p>{biography.fiction.details}</p>
+                      <div className="bg-background p-8 rounded-xl shadow-sm border-l-4 border-accent">
+                          <p className="mb-0 italic">{biography.fiction.awards}</p>
+                      </div>
+                  </div>
+                  
+                  <div className="grid grid-cols-3 gap-4">
+                    {featuredMovies.map((movie) => (
+                      <Link key={movie.id} href="/galerias" className="group block">
+                        <div className="relative aspect-[2/3] rounded-lg overflow-hidden shadow-lg transition-transform duration-300 group-hover:scale-105 group-hover:shadow-2xl">
+                          <Image 
+                            src={movie.poster} 
+                            alt={movie.title} 
+                            fill 
+                            className="object-cover" 
+                          />
+                          <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center p-4">
+                             <p className="text-white text-xs font-bold text-center uppercase tracking-wider">{movie.title}</p>
+                          </div>
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-3 gap-8">
+                  {featuredMovies.map((movie) => (
+                    <Card key={movie.id} className="bg-background border-none shadow-none">
+                      <CardContent className="p-0 space-y-4">
+                        <h3 className="font-headline text-2xl font-bold text-foreground">{movie.title} ({movie.year})</h3>
+                        <p className="text-sm text-accent uppercase font-bold tracking-widest">{movie.genre}</p>
+                        <p className="text-muted-foreground text-sm line-clamp-3 italic">"{movie.synopsis}"</p>
+                      </CardContent>
+                    </Card>
+                  ))}
                 </div>
             </div>
         </div>
