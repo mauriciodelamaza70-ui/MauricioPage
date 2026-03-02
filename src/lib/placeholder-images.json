@@ -175,6 +175,12 @@
       "imageHint": "old telephone"
     },
     {
+      "id": "gallery-prologo-3",
+      "description": "Escena de la obra Prologo 3",
+      "imageUrl": "/images/prologo3.png",
+      "imageHint": "theatre scene"
+    },
+    {
       "id": "gallery-new-1",
       "description": "Río en un cañón",
       "imageUrl": "/images/AC3I3990.jpg",
