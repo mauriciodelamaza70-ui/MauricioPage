@@ -138,7 +138,7 @@ export default function NosotrosPage() {
         </div>
       </section>
 
-      {/* Science Section - REDESIGNED AS MOSAIC GALLERY */}
+      {/* Science Section - MOSAIC GALLERY */}
       <section className="py-24 bg-secondary overflow-hidden">
         <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
@@ -244,8 +244,8 @@ export default function NosotrosPage() {
         </div>
       </section>
 
-      {/* Architecture Section - Redesigned for a cinematic feel */}
-      <section className="relative py-32 overflow-hidden text-white">
+      {/* Architecture Section - Minimalist and Aesthetic */}
+      <section className="relative py-40 overflow-hidden text-white">
         {architectureBg && (
           <div className="absolute inset-0">
             <Image
@@ -255,21 +255,21 @@ export default function NosotrosPage() {
               className="object-cover"
               data-ai-hint={architectureBg.imageHint}
             />
-            <div className="absolute inset-0 bg-black/85" />
+            <div className="absolute inset-0 bg-black/90" />
           </div>
         )}
         <div className="relative z-10 container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-                <div className="w-12 h-1 bg-accent mx-auto mb-10" />
-                <h2 className="font-headline text-4xl md:text-6xl font-bold mb-10 tracking-tight">
+            <div className="max-w-3xl mx-auto text-center">
+                <div className="w-8 h-px bg-accent mx-auto mb-10" />
+                <h2 className="font-headline text-2xl md:text-3xl font-bold mb-12 tracking-[0.15em] uppercase text-gray-100">
                     {biography.architecture.title}
                 </h2>
                 <div className="space-y-12">
-                    <p className="text-xl md:text-2xl font-light leading-relaxed text-gray-300 max-w-2xl mx-auto italic">
+                    <p className="text-base md:text-lg font-light leading-relaxed text-gray-400 max-w-xl mx-auto italic">
                         {biography.architecture.text}
                     </p>
-                    <div className="pt-6">
-                        <p className="font-headline text-3xl md:text-5xl font-bold text-accent">
+                    <div className="pt-10">
+                        <p className="font-headline text-xl md:text-2xl font-bold text-accent tracking-wide">
                             {biography.architecture.conclusion}
                         </p>
                     </div>
