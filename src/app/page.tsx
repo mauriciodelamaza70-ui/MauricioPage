@@ -42,10 +42,10 @@ export default function Home() {
         <section className="py-24">
             <div className="container mx-auto px-4 text-center">
                 <Quote className="h-12 w-12 text-accent mx-auto mb-6" />
-                <blockquote className="font-headline text-3xl md:text-4xl font-bold max-w-4xl mx-auto leading-tight">
-                    La Tierra también tiene derechos, y el Estado la obligación de velar por el acceso efectivo a la justicia ambiental.
+                <blockquote className="font-headline text-3xl md:text-5xl font-bold max-w-4xl mx-auto leading-tight italic">
+                    Las imágenes no solo narran: interrogan.<br className="hidden md:block" /> Los silencios no solo contienen: revelan.
                 </blockquote>
-                <p className="mt-6 text-lg font-medium text-muted-foreground">- Mauricio de la Maza-Benignos</p>
+                <p className="mt-8 text-lg font-medium text-muted-foreground uppercase tracking-widest">- Mauricio de la Maza-Benignos</p>
             </div>
         </section>
 
