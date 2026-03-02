@@ -9,6 +9,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import { PlaceHolderImages } from "@/lib/placeholder-images"
 import { Button } from "@/components/ui/button"
 import { biography } from "@/lib/data"
+import { cn } from "@/lib/utils"
 
 export default function HeroSlider() {
   const heroImages = PlaceHolderImages.filter(p => p.id.startsWith('hero-'));
@@ -21,19 +22,26 @@ export default function HeroSlider() {
     <section className="relative h-[85vh] w-full text-white">
       <div className="overflow-hidden h-full" ref={emblaRef}>
         <div className="flex h-full">
-          {heroImages.map((heroImage, index) => (
-            <div key={heroImage.id} className="relative h-full flex-[0_0_100%]">
-               <Image
+          {heroImages.map((heroImage, index) => {
+            const isZoomed = heroImage.id === 'hero-zapato-1' || heroImage.id === 'hero-dialogos-1';
+            
+            return (
+              <div key={heroImage.id} className="relative h-full flex-[0_0_100%] overflow-hidden">
+                <Image
                   src={heroImage.imageUrl}
                   alt={heroImage.description}
                   fill
-                  className="object-cover"
+                  className={cn(
+                    "object-cover transition-transform duration-700",
+                    isZoomed && "scale-110"
+                  )}
                   priority={index === 0}
                   data-ai-hint={heroImage.imageHint}
-              />
-              <div className="absolute inset-0 bg-black/40" />
-            </div>
-          ))}
+                />
+                <div className="absolute inset-0 bg-black/40" />
+              </div>
+            );
+          })}
         </div>
       </div>
       
