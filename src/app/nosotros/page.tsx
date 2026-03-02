@@ -174,12 +174,12 @@ export default function NosotrosPage() {
                                 )}
                                 {/* Bottom Left: WCFF Logo/Poster */}
                                 {wcffLogo && (
-                                    <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-xl bg-white/30 p-2 transform hover:scale-[1.02] transition-transform duration-500">
+                                    <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-xl bg-white/30 transform hover:scale-[1.02] transition-transform duration-500">
                                         <Image
                                             src={wcffLogo.imageUrl}
                                             alt={wcffLogo.description}
                                             fill
-                                            className="object-contain p-4"
+                                            className="object-cover"
                                             data-ai-hint={wcffLogo.imageHint}
                                         />
                                     </div>
