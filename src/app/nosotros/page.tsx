@@ -1,3 +1,4 @@
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
@@ -9,7 +10,7 @@ export default function NosotrosPage() {
   const bioIntroImage = PlaceHolderImages.find((p) => p.id === 'bio-intro');
   const scienceImage = PlaceHolderImages.find((p) => p.id === 'science-mauricio');
   const scienceImage2 = PlaceHolderImages.find((p) => p.id === 'blog-honoris-causa-cover');
-  const wcffLogo = PlaceHolderImages.find((p) => p.id === 'wcff-logo');
+  const mauricioPortrait = PlaceHolderImages.find((p) => p.id === 'mauricio-portrait-science');
   const fishImage = PlaceHolderImages.find((p) => p.id === 'gallery-new-6');
 
   return (
@@ -159,7 +160,7 @@ export default function NosotrosPage() {
                     {/* Image Mosaic Column */}
                     <div className="lg:col-span-5 relative">
                         <div className="grid grid-cols-2 gap-4">
-                            {/* Top Left: Scientific Work (dr1.jpg) */}
+                            {/* Left Column */}
                             <div className="col-span-1 space-y-4">
                                 {scienceImage && (
                                     <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
@@ -172,21 +173,20 @@ export default function NosotrosPage() {
                                         />
                                     </div>
                                 )}
-                                {/* Bottom Left: WCFF Logo/Poster */}
-                                {wcffLogo && (
-                                    <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-xl bg-white/30 transform hover:scale-[1.02] transition-transform duration-500">
+                                {mauricioPortrait && (
+                                    <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-transform duration-500">
                                         <Image
-                                            src={wcffLogo.imageUrl}
-                                            alt={wcffLogo.description}
+                                            src={mauricioPortrait.imageUrl}
+                                            alt={mauricioPortrait.description}
                                             fill
                                             className="object-cover"
-                                            data-ai-hint={wcffLogo.imageHint}
+                                            data-ai-hint={mauricioPortrait.imageHint}
                                         />
                                     </div>
                                 )}
                             </div>
 
-                            {/* Top Right: Scientific Detail (Fish) */}
+                            {/* Right Column */}
                             <div className="col-span-1 space-y-4 pt-12">
                                 {fishImage && (
                                     <div className="relative aspect-square rounded-xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-transform duration-500">
@@ -199,7 +199,6 @@ export default function NosotrosPage() {
                                         />
                                     </div>
                                 )}
-                                {/* Bottom Right: Honoris Causa (dr3.jpg) */}
                                 {scienceImage2 && (
                                     <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
                                         <Image

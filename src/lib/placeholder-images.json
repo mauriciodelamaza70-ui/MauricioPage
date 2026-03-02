@@ -346,7 +346,7 @@
       "id": "video-thumb-5",
       "description": "Thumbnail for Los murciélagos de la cueva de la boca",
       "imageUrl": "/images/trailer-de-la-maza-Cueva-de-la-boca.png",
-      "imageHint": "bats cave"
+      "imageHint": "bats xave"
     },
     {
       "id": "video-thumb-6",
@@ -385,10 +385,10 @@
       "imageHint": "scientist researcher"
     },
     {
-      "id": "wcff-logo",
-      "description": "Wildlife Conservation Film Festival Poster",
-      "imageUrl": "/images/Wildligeconservation.png",
-      "imageHint": "festival poster"
+      "id": "mauricio-portrait-science",
+      "description": "Retrato de Mauricio para sección científica",
+      "imageUrl": "/images/Mauricio.png",
+      "imageHint": "man portrait"
     }
   ]
 }
