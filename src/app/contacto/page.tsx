@@ -1,15 +1,11 @@
 
-import Image from "next/image";
 import PageHero from "@/components/common/PageHero";
 import ContactForm from "@/components/pages/contact/ContactForm";
 import { socialLinks } from "@/lib/data";
 import { Mail, Phone, MapPin } from "lucide-react";
 import { WhatsAppIcon } from "@/components/icons";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export default function ContactoPage() {
-    const contactInfoImage = PlaceHolderImages.find(p => p.id === 'contact-details');
-
     return (
         <>
             <PageHero title="Contacto" imageId="contact-hero" />
@@ -40,18 +36,6 @@ export default function ContactoPage() {
                                 </div>
                             </div>
                             
-                            {contactInfoImage && (
-                                <div className="relative aspect-video rounded-xl overflow-hidden shadow-xl border border-border/50">
-                                    <Image 
-                                        src={contactInfoImage.imageUrl} 
-                                        alt={contactInfoImage.description} 
-                                        fill 
-                                        className="object-cover"
-                                        data-ai-hint={contactInfoImage.imageHint}
-                                    />
-                                </div>
-                            )}
-
                             <div>
                                 <h3 className="font-headline text-2xl font-bold mb-4">Síguenos</h3>
                                 <div className="flex space-x-4">
