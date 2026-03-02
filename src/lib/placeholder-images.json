@@ -1,34 +1,40 @@
 {
   "placeholderImages": [
     {
-      "id": "hero-1",
-      "description": "Hero image of a forest canopy",
-      "imageUrl": "/images/S1.jpg",
-      "imageHint": "forest canopy"
+      "id": "hero-cora-1",
+      "description": "Escena de la película Cora",
+      "imageUrl": "/images/cora.webp",
+      "imageHint": "film scene"
     },
     {
-      "id": "hero-s2",
-      "description": "Hero image S2",
-      "imageUrl": "/images/S2.jpg",
-      "imageHint": "nature landscape"
+      "id": "hero-cora-2",
+      "description": "Producción de Cora",
+      "imageUrl": "/images/cora2.webp",
+      "imageHint": "cinema production"
     },
     {
-      "id": "hero-s3",
-      "description": "Hero image S3",
-      "imageUrl": "/images/S3.jpg",
-      "imageHint": "mountain view"
+      "id": "hero-dialogos-1",
+      "description": "Escena de Diálogos de la muerte",
+      "imageUrl": "/images/dialogos1.webp",
+      "imageHint": "dramatic scene"
     },
     {
-      "id": "hero-arramberri",
-      "description": "Hero image arramberri",
-      "imageUrl": "/images/arramberri-057.jpg",
-      "imageHint": "canyon river"
+      "id": "hero-dialogos-2",
+      "description": "Detalle de Diálogos de la muerte",
+      "imageUrl": "/images/dialogos2.webp",
+      "imageHint": "dark aesthetic"
     },
     {
-      "id": "hero-4",
-      "description": "Captura de pantalla de producción",
-      "imageUrl": "/images/Captura-de-pantalla-2022-05-25-a-las-19.13.54-1.png",
-      "imageHint": "film production"
+      "id": "hero-zapato-1",
+      "description": "Escena de El zapato",
+      "imageUrl": "/images/zapato1.webp",
+      "imageHint": "mystery film"
+    },
+    {
+      "id": "hero-zapato-2",
+      "description": "Producción de El zapato",
+      "imageUrl": "/images/zapato2.webp",
+      "imageHint": "film set"
     },
     {
       "id": "nosotros-hero",
