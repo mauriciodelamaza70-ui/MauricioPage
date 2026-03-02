@@ -52,39 +52,40 @@ export default function Footer() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h3 className="font-headline text-xl font-semibold text-white">Profesional</h3>
-              <div className="grid grid-cols-1 gap-4">
+              <ul className="space-y-3">
                 {professionalLinks.map((social) => (
-                  <a
-                    key={social.name}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-sm text-gray-400 hover:text-accent transition-colors group"
-                    aria-label={social.name}
-                  >
-                    <social.icon className="h-5 w-5 transition-transform group-hover:scale-110" />
-                    <span>{social.name}</span>
-                  </a>
+                  <li key={social.name}>
+                    <a
+                      href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm hover:text-accent transition-colors"
+                      aria-label={social.name}
+                    >
+                      {social.name}
+                    </a>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
             
             <div className="space-y-4">
               <h4 className="text-xs uppercase tracking-[0.2em] text-accent font-bold">Música</h4>
-              <div className="flex gap-5">
+              <ul className="space-y-3">
                 {musicLinks.map((music) => (
-                  <a
-                    key={music.name}
-                    href={music.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-accent transition-all hover:scale-110"
-                    aria-label={music.name}
-                  >
-                    <music.icon className="h-6 w-6" />
-                  </a>
+                  <li key={music.name}>
+                    <a
+                      href={music.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm hover:text-accent transition-colors"
+                      aria-label={music.name}
+                    >
+                      {music.name}
+                    </a>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
           </div>
 
