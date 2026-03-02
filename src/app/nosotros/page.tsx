@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { biography } from '@/lib/data';
-import { Music, Film, Leaf, Zap, Youtube } from 'lucide-react';
+import { Music, Film, Leaf, Zap, Microscope } from 'lucide-react';
 
 export default function NosotrosPage() {
   const heroImage = PlaceHolderImages.find((p) => p.id === 'nosotros-hero');
@@ -126,6 +126,24 @@ export default function NosotrosPage() {
                             <span className="px-6 py-2 border border-gray-700 rounded-full hover:border-accent transition-colors cursor-default">Bandcamp</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      {/* Science Section */}
+      <section className="py-24 bg-secondary">
+        <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+                <div className="flex items-center gap-4 mb-8">
+                    <Microscope className="h-10 w-10 text-accent" />
+                    <h2 className="font-headline text-4xl font-bold">{biography.science.title}</h2>
+                </div>
+                <div className="space-y-6 text-muted-foreground text-lg leading-relaxed">
+                    <p className="text-xl font-medium text-foreground">{biography.science.intro}</p>
+                    {biography.science.details.map((text, index) => (
+                        <p key={index}>{text}</p>
+                    ))}
                 </div>
             </div>
         </div>

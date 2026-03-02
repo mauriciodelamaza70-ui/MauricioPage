@@ -49,7 +49,7 @@ export const biography = {
     title: "Cine de ficción",
     text: "En la ficción, Mauricio construye relatos donde el conflicto no se resuelve únicamente en la acción externa, sino en la tensión interna de los personajes. El drama psicológico y el misterio funcionan como vehículos para explorar preguntas existenciales y filosóficas.",
     details: "Cora, El zapato y Diálogos de la muerte conforman un cuerpo de obra que se mueve en el terreno del cine de autor contemporáneo, con una puesta en escena contenida y una dirección centrada en el trabajo actoral. La atmósfera y el ritmo deliberado sostienen narrativas donde cada gesto tiene peso moral.",
-    awards: "Estas películas han circulado en festivales internacionales de cine independiente en Europa, América y Asia, recibiendo distinciones como Best Indie Feature Film, Best Avant-Garde Best Director, Best Mystery Film y Best Acting Ensemble. Más allá de los reconocimientos, consolidan una identidad estética definida y coherente."
+    awards: "Estas películas han circulado en festivales internacionales de cine independiente en Europa, América y Asia, recibiendo disticones como Best Indie Feature Film, Best Avant-Garde Best Director, Best Mystery Film y Best Acting Ensemble. Más allá de los reconocimientos, consolidan una identidad estética definida y coherente."
   },
   documentary: {
     title: "Documental y naturaleza",
@@ -63,6 +63,16 @@ export const biography = {
     recognition: "Parte de su obra ha sido reconocida en contextos vinculados al circuito audiovisual independiente, incluyendo disticones relacionadas con Best Original Score y menciones en festivales internacionales donde su música acompaña proyectos seleccionados.",
     platforms: "Su catálogo está disponible en plataformas digitales como Spotify, Apple Music y Bandcamp, extendiendo su circulación a públicos y profesionales del ámbito audiovisual en distintas partes del mundo.",
     platformsLinks: "Disponible en Spotify, Apple Music y Bandcamp"
+  },
+  science: {
+    title: "La ciencia como mirada",
+    intro: "La dimensión artística de Mauricio de la Maza-Benignos no surgió en el vacío: está profundamente enraizada en décadas de trabajo científico y conservacionista de primer nivel internacional.",
+    details: [
+      "Doctor en Biología y Desarrollo Sustentable summa cum laude por la UANL, miembro del Sistema Nacional de Investigadores de México, e ictiólogo con publicaciones en revistas científicas internacionales —incluyendo la descripción de nuevas especies de cíclidos del noreste de México—, su formación científica atraviesa toda su obra visual. La naturaleza en su cine no es decorado: es argumento.",
+      "Entre 2006 y 2011 dirigió el Programa del Desierto Chihuahuense para el WWF, trabajando con los gobiernos de México y Estados Unidos en la conservación del Río Conchos y el Río Bravo. De 2011 a 2021 fue Director General de Pronatura Noreste, una de las ONG ambientales más influyentes del norte de México. En 2020 recibió el Premio a la Conservación del Arizona Game and Fish Department por su labor en la región transfronteriza.",
+      "Desde 2023, es Director General (CEO) del Wildlife Conservation Film Festival (WCFF) —uno de los festivales de cine de naturaleza y conservación más importantes del mundo—, lo que consolida su labor como puente entre el cine, la ciencia y la conservación.",
+      "Esta trayectoria no es paralela a su cine: lo informa, lo profundiza y le otorga una perspectiva que muy pocos cineastas en el mundo pueden ofrecer."
+    ]
   },
   architecture: {
     title: "Una arquitectura unificada",
