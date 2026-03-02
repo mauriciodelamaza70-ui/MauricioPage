@@ -78,3 +78,18 @@ export type Collaborator = {
   bio: string;
   image: string | null;
 };
+
+export type Movie = {
+  id: string;
+  title: string;
+  year: string;
+  genre: string;
+  format: string;
+  synopsis: string;
+  awards: string;
+  streaming: string;
+  website: string;
+  imdb: string;
+  poster: string;
+  subtitle?: string;
+};

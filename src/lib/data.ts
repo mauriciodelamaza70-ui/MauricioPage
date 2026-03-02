@@ -1,4 +1,4 @@
-import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo, Collaborator } from './types';
+import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo, Collaborator, Movie } from './types';
 import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
 import { TheatreIcon, VimeoIcon, WhatsAppIcon } from '@/components/icons';
 
@@ -80,6 +80,50 @@ export const biography = {
     conclusion: "En su obra, cine y música no se ilustran: se revelan mutuamente."
   }
 };
+
+export const featuredMovies: Movie[] = [
+  {
+    id: 'cora-2024',
+    title: 'CORA',
+    year: '2024',
+    genre: 'Thriller psicológico',
+    format: 'largometraje',
+    synopsis: 'Cora es una socialité que enfrenta las consecuencias de sus propias decisiones con métodos poco convencionales. Infidelidad, amor prohibido, violencia y elecciones del pasado forman el torbellino que deberá atravesar para recuperar su vida. Inspirada en el Fénix, es un viaje de redención donde la culpa, la memoria y el deseo se entrelazan en una atmósfera de tensión psicológica.',
+    awards: 'Best Indie Narrative Feature, Best Original Screenplay, Best Casting Director, Best Arthouse Filmmaker, Best Mystery, Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress, Best Editing, entre otros en festivales en Europa, América y Asia.',
+    streaming: 'Amazon Prime Video, Tubi, Plex, Opprime.tv, Wocoo.tv',
+    website: 'corafilm.com',
+    imdb: 'https://www.imdb.com/title/tt31151642/',
+    poster: '/images/Cora.png'
+  },
+  {
+    id: 'dialogos-2023',
+    title: 'DIALOGOS DE LA MUERTE / Dialogues of Death',
+    year: '2023',
+    subtitle: 'Basada en obra del Marqués de Sade',
+    genre: 'Drama filosófico',
+    format: 'largometraje',
+    synopsis: 'Andrés, un sacerdote rural, visita a Alfonso, su amigo libertino en su lecho de muerte, para convencerlo de arrepentirse. Mientras los dos debaten, Malena, la próxima viuda, trama su venganza. Un homenaje al expresionismo alemán que explora conceptos morales, religiosos y filosóficos de quienes cuestionan sus creencias.',
+    awards: '10 premios ganados, 2 nominaciones. Rome International Movie Awards: Best Actor (Diego Abelardo), Best Supporting Actor (Christian Luigi), Best Acting Duo, entre otros.',
+    streaming: 'Tubi, Apple TV, Fawesome.tv, Opprime.tv',
+    website: 'dialogosdelamuerte.com',
+    imdb: 'https://www.imdb.com/title/tt26421317/',
+    poster: '/images/Dialogos de la muerte.png'
+  },
+  {
+    id: 'zapato-2025',
+    title: 'EL ZAPATO / The Shoe',
+    year: '2025',
+    subtitle: 'Codirección con Sofía Alejandra Díaz Garza',
+    genre: 'Comedia / Horror / Thriller',
+    format: 'largometraje',
+    synopsis: 'Una propuesta original e ingeniosa que desafía las convenciones del género. “Every once in a while, a film comes along that sort of knocks me on my ass…” — Brian Lutes. “Original, clever, and a true celebration of diversity” — Dr. Daniel Widdowson, Salt House Creative.',
+    awards: '12 wins & 7 nominations. IMDb rating: 7.1',
+    streaming: 'Tubi',
+    website: 'theshoe.info',
+    imdb: 'https://www.imdb.com/title/tt36605107/',
+    poster: '/images/El zapato.png'
+  }
+];
 
 export const services: Service[] = [
   {
