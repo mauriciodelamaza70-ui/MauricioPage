@@ -44,7 +44,7 @@ export default function NosotrosPage() {
                             src={bioIntroImage.imageUrl}
                             alt="Mauricio de la Maza"
                             fill
-                            className="object-cover rounded-lg shadow-2xl"
+                            className="object-cover object-left rounded-lg shadow-2xl"
                             data-ai-hint={bioIntroImage.imageHint}
                          />
                          <div className="absolute -bottom-8 -right-8 bg-accent text-primary-foreground p-8 rounded-lg hidden lg:block shadow-xl">
@@ -122,7 +122,6 @@ export default function NosotrosPage() {
                         <p className="text-sm uppercase tracking-widest text-accent mb-6">Disponible en plataformas</p>
                         <p className="text-lg">{biography.music.platforms}</p>
                         <div className="flex flex-wrap gap-6 mt-8">
-                            {/* Iconos o enlaces a plataformas podrían ir aquí */}
                             <span className="px-6 py-2 border border-gray-700 rounded-full hover:border-accent transition-colors cursor-default">Spotify</span>
                             <span className="px-6 py-2 border border-gray-700 rounded-full hover:border-accent transition-colors cursor-default">Apple Music</span>
                             <span className="px-6 py-2 border border-gray-700 rounded-full hover:border-accent transition-colors cursor-default">Bandcamp</span>
