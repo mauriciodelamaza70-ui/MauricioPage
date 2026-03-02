@@ -1,6 +1,6 @@
 import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo, Collaborator, Movie } from './types';
-import { Facebook, Instagram, Linkedin, Youtube } from 'lucide-react';
-import { TheatreIcon, VimeoIcon, WhatsAppIcon } from '@/components/icons';
+import { Facebook, Instagram, Linkedin, Youtube, Globe, Film, Award, BookOpen } from 'lucide-react';
+import { TheatreIcon, VimeoIcon, WhatsAppIcon, IMDbIcon, WikipediaIcon, SpotifyIcon, AppleMusicIcon, BandcampIcon } from '@/components/icons';
 
 export const siteConfig = {
   name: 'Terra Vision',
@@ -28,6 +28,25 @@ export const socialLinks: SocialLink[] = [
     { name: 'LinkedIn', href: 'https://www.linkedin.com/in/mauricio-de-la-maza-benignos-224a2a9/', icon: Linkedin },
     { name: 'YouTube', href: 'https://www.youtube.com/@mauriciodelamaza7834', icon: Youtube },
     { name: 'WhatsApp', href: 'https://wa.me/528110165108', icon: WhatsAppIcon },
+];
+
+export const professionalLinks: SocialLink[] = [
+    { name: 'IMDb', href: 'https://www.imdb.com/es/name/nm14485536/', icon: IMDbIcon },
+    { name: 'FilmFreeway', href: 'https://filmfreeway.com/MauriciodelaMazaBenignos', icon: Film },
+    { name: 'Wikipedia', href: 'https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos', icon: WikipediaIcon },
+    { name: 'WCFF', href: 'https://wcff.org', icon: Globe },
+];
+
+export const productionLinks = [
+    { name: 'Cora', href: 'https://corafilm.com' },
+    { name: 'Diálogos de la muerte', href: 'https://dialogosdelamuerte.com' },
+    { name: 'El Zapato', href: 'https://theshoe.info' },
+];
+
+export const musicLinks: SocialLink[] = [
+    { name: 'Spotify', href: 'https://open.spotify.com/artist/mauriciodelamaza', icon: SpotifyIcon },
+    { name: 'Apple Music', href: 'https://music.apple.com/artist/mauriciodelamaza', icon: AppleMusicIcon },
+    { name: 'Bandcamp', href: 'https://mauriciodelamaza.bandcamp.com', icon: BandcampIcon },
 ];
 
 export const biography = {
@@ -153,7 +172,7 @@ export const services: Service[] = [
     title: 'Fotografía Contemplativa',
     imageId: 'service-photography',
     summary: 'Una mirada que se detiene donde otras pasan de largo. La fotografía comparte el mismo temple del cine: la búsqueda de lo que late bajo la superficie. Ecosistemas, paisajes y retratos tratados con una sensibilidad que conjuga rigor científico y visión artística.',
-     details: []
+    details: []
   },
   {
     title: 'Gestión Cultural y Ética',
@@ -164,7 +183,7 @@ export const services: Service[] = [
   {
     title: 'Consultoría Ambiental Estratégica',
     imageId: 'service-consulting',
-    summary: 'Sustentada en una trayectoria científica y de gestión de primer nivel —WWF, Pronatura Noreste, Sistema Nacional de Investigadores—, esta consultoría combina análisis técnico, visión estratégica y experiencia en política pública. Especialidad en ecosistemas de agua dulce, biodiversidad del norte de México y desarrollo sustentable transfronterizo.',
+    summary: 'Sustentada en una trayectoria científica y de gestión de primer nivel —WWF, Pronatura Noreste, Sistema Nacional de Investigadores—, esta consultoría conbina análisis técnico, visión estratégica y experiencia en política pública. Especialidad en ecosistemas de agua dulce, biodiversidad del norte de México y desarrollo sustentable transfronterizo.',
     details: []
   },
   {
