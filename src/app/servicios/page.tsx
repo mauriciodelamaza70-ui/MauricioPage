@@ -29,7 +29,7 @@ export default function ServiciosPage() {
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {services.map((service, index) => {
+            {services.map((service) => {
               const serviceImage = PlaceHolderImages.find(p => p.id === service.imageId);
               return (
                 <button
@@ -45,13 +45,15 @@ export default function ServiciosPage() {
                       src={serviceImage.imageUrl}
                       alt={service.title}
                       fill
-                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                      className="object-cover transition-transform duration-500 group-hover:scale-110"
                       data-ai-hint={serviceImage.imageHint}
                     />
                   )}
-                  <div className="absolute inset-0 bg-black/40"></div>
+                  {/* Overlay oscurecido para mejorar contraste */}
+                  <div className="absolute inset-0 bg-black/55 transition-colors duration-300 group-hover:bg-black/45"></div>
+                  
                   <div className="absolute inset-0 flex items-center justify-center p-6">
-                    <h3 className="font-headline text-3xl font-bold text-center text-white drop-shadow-md">
+                    <h3 className="font-headline text-2xl md:text-3xl font-bold text-center text-white leading-tight tracking-wide">
                       {service.title}
                     </h3>
                   </div>
