@@ -25,7 +25,8 @@ export default function HeroSlider() {
           {heroImages.map((heroImage, index) => {
             // Aplicamos diferentes niveles de zoom para corregir bordes negros
             const isExtraZoom = heroImage.id === 'hero-zapato-1';
-            const isNormalZoom = heroImage.id === 'hero-dialogos-1';
+            // Aplicamos zoom normal (10%) a ambos diálogos para mayor consistencia
+            const isNormalZoom = heroImage.id === 'hero-dialogos-1' || heroImage.id === 'hero-dialogos-2';
             
             return (
               <div key={heroImage.id} className="relative h-full flex-[0_0_100%] overflow-hidden">
@@ -36,7 +37,7 @@ export default function HeroSlider() {
                   className={cn(
                     "object-cover transition-transform duration-700",
                     isExtraZoom && "scale-125", // Mayor zoom para zapato1
-                    isNormalZoom && "scale-110"  // Zoom normal para dialogos1
+                    isNormalZoom && "scale-110"  // Zoom normal para dialogos1 y dialogos2
                   )}
                   priority={index === 0}
                   data-ai-hint={heroImage.imageHint}
