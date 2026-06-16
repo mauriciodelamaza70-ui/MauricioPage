@@ -59,7 +59,11 @@ export default function RevistaPage() {
                         <div className="p-8 bg-secondary rounded-xl border border-border/50">
                             <h3 className="font-headline text-2xl font-bold mb-6">Explorar</h3>
                             <div className="relative">
-                                <Input placeholder="Buscar artículos..." className="pr-10 bg-background" />
+                                <Input 
+                                    placeholder="Buscar artículos..." 
+                                    className="pr-10 bg-background" 
+                                    suppressHydrationWarning
+                                />
                                 <Search className="absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
                             </div>
                         </div>

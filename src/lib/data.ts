@@ -31,9 +31,9 @@ export const socialLinks: SocialLink[] = [
 ];
 
 export const professionalLinks: SocialLink[] = [
-    { name: 'IMDb', href: 'https://www.imdb.com/es/name/nm14485536/', icon: IMDbIcon },
+    { name: 'IMDb', href: 'https://www.imdb.com/es/name/nm14485536/', icon: Globe },
     { name: 'FilmFreeway', href: 'https://filmfreeway.com/MauriciodelaMazaBenignos', icon: Film },
-    { name: 'Wikipedia', href: 'https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos', icon: WikipediaIcon },
+    { name: 'Wikipedia', href: 'https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos', icon: Globe },
     { name: 'WCFF', href: 'https://wcff.org', icon: Globe },
 ];
 
@@ -44,9 +44,9 @@ export const productionLinks = [
 ];
 
 export const musicLinks: SocialLink[] = [
-    { name: 'Spotify', href: 'https://open.spotify.com/intl-es/artist/2qHtMVEyh6uAXl5HiBT9GZ', icon: SpotifyIcon },
-    { name: 'Apple Music', href: 'https://music.apple.com/us/artist/mauricio-de-la-maza/1728959590', icon: AppleMusicIcon },
-    { name: 'Bandcamp', href: 'https://mauriciodelamaza.bandcamp.com', icon: BandcampIcon },
+    { name: 'Spotify', href: 'https://open.spotify.com/intl-es/artist/2qHtMVEyh6uAXl5HiBT9GZ', icon: Globe },
+    { name: 'Apple Music', href: 'https://music.apple.com/us/artist/mauricio-de-la-maza/1728959590', icon: Globe },
+    { name: 'Bandcamp', href: 'https://mauriciodelamaza.bandcamp.com', icon: Globe },
 ];
 
 export const biography = {
