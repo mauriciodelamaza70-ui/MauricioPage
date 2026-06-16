@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Terra Vision',
+  title: 'Mauricio de la Maza Benignos',
   description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
   icons: {
     icon: '/favicon.ico',

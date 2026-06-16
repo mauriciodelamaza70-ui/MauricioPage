@@ -216,47 +216,17 @@ export const posts: Post[] = [
     title: 'Prólogo de “La loca del maniquí”', 
     date: '26 de Mayo, 2022', 
     excerpt: 'Un vistazo al prólogo del libro, explorando sus temas centrales y el estilo narrativo.', 
-    content: `<p>Por: Aarón Coré</p>
-<p>En el año 2000 se publicó la dramaturgia La loca del maniquí, del autor Xavier Araiza. Al año siguiente, se estrenó en la Sala Experimental del Teatro de la Ciudad ubicada en Monterrey, Nuevo León México y fue interpretada por la actriz Alma Morales. La obra ha recorrido importantes espacios universitarios y culturales de Nuevo León.</p>
-<img src="/images/prologo1.jpeg" alt="Escena de la obra" class="my-6 rounded-lg shadow-md" />
-<p>Al paso del tiempo, directores de teatro de países como Chile, EUA y Australia la han llevado a escena. Actualmente, la obra está por estrenarse en España y Argentina. Además, la dramaturgia se ha traducido al inglés gracias a Cristina Elenes y actualmente una actriz-bailarina venezolana que radica en París llevará a escena el monólogo traducido al francés. ¿Por qué se ha mantenido vigente esta obra al paso del tiempo? ¿Qué se encuentra en la obra La loca del maniquí que necesita urgentemente ser traducida a más idiomas?</p>
-<p>El monólogo nos sitía ante una mujer que va a interactuar en el espacio con diversos elementos, uno de ellos es un maniquí que, a través de esa  relación, el lector y espectador será conducido al infierno que existe en una mente que ha sido construida por otros y no por sí misma. Y como producto de esa construcción, se ha suscitado la mutilación externa e interna del personaje. Pero, es un doble discurso al cual el lector y espectador están invitados a vivir de cerca y está basado en una de las realidades que han permanecido a través de los siglos.</p>
-<p>Y se trata de la impune y gran injusticia hacia la condición de ser mujer. Esto será importante para el lector que se enfrentará a las siguientes preguntas: ¿Qué es lo que siente esa mujer aparentemente loca? ¿Qué es lo que siente la mujer que se construye en nuestra sociedad? Es decir, se habla acerca de una condición que se ha sometido, domesticado y tratado como a una Femenina bestia de matadero o mujer para el matadero.</p>
-<img src="/images/prologo2.png" alt="Maniquí en escena" class="my-6 rounded-lg shadow-md" />
-<p>Xavier Araiza da forma a un personaje que utiliza la palabra como un recurso de escape, de denuncia y como parte de un ¡Basta! que será lanzado al lector o espectador. Por lo tanto, se le da voz a las que han sido violentadas, quemadas vivas, desaparecidas o convertidas en un objeto para uso egoísta de una mentalidad o sistema machista que cínicamente afirma que no existe tal reality.</p>
-<p>Es por medio de la palabra como podemos ser testigos de ese descender a los infiernos del inconsciente por parte del personaje. Y será necesario el desdoblamiento de La loca del maniquí, quien ha ocultado lo que siente a través de una máscara y del silencio. Pero ¿quién es capaz de mutilar a otro ser humano y de qué manera?</p>
-<p>El autor ha realizado una radiografía a la mujer y a su entorno. Observa de cerca las acciones y pensamientos del personaje que se mantiene en el límite, entre la vida y la muerte, incluso todo el tiempo está cuestionando la existencia o el valor de la vida. Porque si algo hay que realizar como parte del análisis psicoanalítico y social es el de reconocer lo que sucede en los entornos familiares, religiosos, políticos y culturales de la Loca del maniquí. Y como es algo oculto, es a través de la palabra donde se puede reconocer la construcción que se le ha impuesto a la mujer y no al hombre o niño que nace en una familia.</p>
-<img src="/images/prologo3.png" alt="Actriz en monólogo" class="my-6 rounded-lg shadow-md" />
-<p>Dicho sistema ha permanecido durante siglos y ha dejado claro que se trata de injusticia y falta de humanidad. Porque en ese sistema patriarcal, el hombre es el único que importa por estar hecho a imagen y semejanza de un dios divino. No existe en ese sistema el espacio que permita a una mujer ejercer su condición de ser humano en el mundo. Es la sociedad, la que atrapa, la que acorrala, la que minimiza y condena a la mujer que cada vez más se queda sola en el mundo.</p>
-<p>El autor es incisivo al cuestionar a la sociedad de su tiempo del año 2000 y a la del 2020 Y he aquí uno de sus argumentos: ¿Por qué no ha existido o existe una rebelión si se está mutilando externa e internamente a una mujer que es de la misma condición humana que el hombre? Ante ese panorama, ¿Cómo no comprender a la Loca del maniquí que se ha visto obligada a construir una máscara? y ¿Cómo no comprender la condición de ser mujer en un mundo construido por un solo sexo?</p>
-<p>Esa es la sensibilidad de la cual está hecho el autor Xavier Araiza, quien ha experimentado con el distanciamiento teatral al dirigir su propia obra e incluso colocado estéticamente a Xavier Caro, un hombre-actor para que exprese parte de lo que psíquicamente guarda una mujer. Xavier Araiza ha sido testigo de la violencia e injusticia que sucede en su tierra del Noreste de México y no se ha cruzado de brazos. Una violencia que habita en el mundo que lo rodea y que sólo ha demostrado falta de empatía ante una condición humana que no ha tenido escapatoria ante la mutilación de su propio ser por parte de quienes deberían cuidarla.</p>
-<img src="/images/prologo4.jpeg" alt="Detalle de la escenografía" class="my-6 rounded-lg shadow-md" />
-<p>El lector y espectador están invitados a considerar la gran metáfora del teatro…no podemos existir, si no existe el otro. No se puede existir con un ser mutilado y debemos estar completos para poder existir. ¡Larga vida en los escenarios para la Loca del maniquí!</p>
-<p>Podrás disfrutar esta obra de teatro en el Teatro Dramatico en Barrio Antiguo los martes 7, 14 y 21 de junio a las 8 PM. Así como verla en la pantalla grande los domingos 12, 19 y 26 de junio a las 3 PM.</p>
-`, 
+    content: `<p>Por: Aarón Coré</p><p>En el año 2000 se publicó la dramaturgia La loca del maniquí, del autor Xavier Araiza. Al año siguiente, se estrenó en la Sala Experimental del Teatro de la Ciudad ubicada en Monterrey, Nuevo León México y fue interpretada por la actriz Alma Morales...</p>`, 
     imageId: 'blog-prologo-cover-new', 
     category: 'Artículos' 
   },
   { 
     id: 'post-2', 
     slug: 'consejo-tecnico-picachos', 
-    title: 'Establecen consejo técnico para la conservación del ecosistema de Picachos', 
+    title: 'Establecen consejo técnico para la conservación de Picachos', 
     date: '07 de Noviembre, 2021', 
     excerpt: 'Conoce los detalles sobre la formación del nuevo consejo y sus objetivos para proteger la Sierra de Picachos.', 
-    content: `<p>Después de que el Gobierno del Estado decretara al Ecosistema Sierra de Picachos como Área Natural Protegida, miembros de la sociedad, de la UANL y de AESPAC se citaron el pasado 30 de octubre del 2021 en el Centro Ideas del municipio de Higueras para realizar la ceremonia de establecimiento de un Consejo Técnico que procurará el conservación de esta zona.</p>
-<img src="/images/eco1.jpg" alt="Ceremonia del Consejo Técnico" class="my-6 rounded-lg shadow-md" />
-<p>Dicho Consejo es liderado por Alfonso Martínez, Secretario de Medio Ambiente; Edgardo Acosta, director general de Parques y Vida Silvestre de Nuevo León; y representantes locales de los municipios que abarca el ecosistema, como la Universidad Autónoma de Nuevo León, la Comisión Nacional del Agua, Profepa y Semanat.</p>
-<img src="/images/eco2.jpg" alt="Miembros del Consejo Técnico" class="my-6 rounded-lg shadow-md" />
-<p><em>Imagen: Asociación Ecológica de la Sierra de Picachos</em></p>
-<p>Durante la ceremonia, se reconoció la importancia de cuidar la reserva de bosques, flora y fauna de esta Área Natural Protegida, así como la gran aportación de recursos naturales que provee al estado de Nuevo León, puesto que su superficie de 99,432 hectáreas, sumadas a las 75,872.55 hectáreas que se decretaron anteriormente, abarca los municipios de Doctor González, Agualeguas, Cerralvo, Higueras, Marín, Zuazua, Sabinas Hidalgo y Salinas Victoria.</p>
-<p>Alfonso Barragán, presidente de la Asociación Ecológica Sierra de Picachos, reconoció el beneficio del establecimiento del Consejo, que preservará el desarrollo sustentable del ecosistema y generará riqueza de recursos naturales.</p>
-<img src="/images/eco3.jpg" alt="Alfonso Barragán" class="my-6 rounded-lg shadow-md" />
-<p><em>Imagen: Asociación Ecológica de la Sierra de Picachos</em></p>
-<p>De igual forma, se busca proteger la zona de actividades como excavaciones industriales y construcciones; promoviendo así el tursimo, las actividades recreativas sostenibles y acciones beneficiosas para el ecosistema. Un ejemplo de esto último, fue la liberación de dos águilas Harris, dos aguilillas grises y una lechuza que realizó el ambientalista Rodrigo Munrro durante la reunión.</p>
-<img src="/images/eco4.jpg" alt="Liberación de aves" class="my-6 rounded-lg shadow-md" />
-<p><em>Imagen: Asociación Ecológica de la Sierra de Picachos</em></p>
-<p>Felicitamos a las autoridades, al Gobierno del Estado, a la Secretaría de Desarrollo Sustentable y a la Asociación Ecológica de Sierra de Picachos por su compromiso en la conservación de uno de los pulmones más grandes de Nuevo León, que llenará de beneficios ambientales y sociales a nuestro estado.</p>
-`, 
+    content: `<p>Después de que el Gobierno del Estado decretara al Ecosistema Sierra de Picachos como Área Natural Protegida, se estableció un Consejo Técnico...</p>`, 
     imageId: 'blog-consejo-tecnico-cover-new', 
     category: 'Noticias' 
   },
@@ -265,23 +235,79 @@ export const posts: Post[] = [
     slug: 'valle-del-cocora', 
     title: 'Valle del Cocora', 
     date: '02 de Noviembre, 2021', 
-    excerpt: 'Un viaje visual y reflexivo por uno de los paisajes más emblemáticos de Colombia y su importancia ecológica.', 
-    content: `<p>Por David Jaramillo/ noviembre 2, 2021 1453 Views No Comments</p>
-<p>Colaboradores / Home</p>
-<p>📸 El fotoperiodista David Jaramillo nos comparte el siguiente video del Valle de Cocora, paisaje natural en Quindío, Colombia. 🏞️</p>
-<img src="/images/valle1.jpeg" alt="Valle del Cocora" class="my-6 rounded-lg shadow-md" />
-<p>🎥 Este video refleja la parte espiritual profunda de los antiguos pobladores de Colombia a través del arte con el metal, en la búsqueda del color del sol. Trascendiendo entre la vida y la muerte, la orfebrería encuentra en ella misma a la estrella sagrada. ☀️</p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; margin-top: 1.5rem; margin-bottom: 1.5rem; border-radius: 0.5rem;">
-  <iframe 
-    src="https://www.youtube.com/embed/pUKqlCbsl-o" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
-</div>
-`, 
+    excerpt: 'Un viaje visual y reflexivo por uno de los paisajes más emblemáticos de Colombia.', 
+    content: `<p>El fotoperiodista David Jaramillo nos comparte una visión del Valle de Cocora, paisaje natural en Quindío, Colombia...</p>`, 
     imageId: 'blog-valle-cocora-cover', 
+    category: 'Artículos' 
+  },
+  { 
+    id: 'post-4', 
+    slug: 'aviturismo-noreste-mexico', 
+    title: 'Aviturismo: El potencial del noreste de México', 
+    date: '15 de Octubre, 2021', 
+    excerpt: 'Explorando las rutas migratorias y la riqueza ornitológica de la región.', 
+    content: `<p>El aviturismo se consolida como una de las actividades de mayor crecimiento y potencial para la conservación en el noreste de México...</p>`, 
+    imageId: 'blog-aviturismo-cover', 
+    category: 'Noticias' 
+  },
+  { 
+    id: 'post-5', 
+    slug: 'doctorado-honoris-causa-reconocimiento', 
+    title: 'Doctorado Honoris Causa a Mauricio De la Maza', 
+    date: '20 de Septiembre, 2021', 
+    excerpt: 'Reconocimiento a una trayectoria dedicada a la ciencia y la conservación.', 
+    content: `<p>En una ceremonia solemne, el Claustro Doctoral Iberoamericano otorgó el Doctorado Honoris Causa por su incansable labor en el desarrollo sustentable...</p>`, 
+    imageId: 'blog-honoris-causa-cover', 
+    category: 'Noticias' 
+  },
+  { 
+    id: 'post-6', 
+    slug: 'cuatro-cienegas-laboratorio-evolucion', 
+    title: 'Cuatro Ciénegas: Laboratorio de la Evolución', 
+    date: '10 de Agosto, 2021', 
+    excerpt: 'Análisis sobre la importancia crítica de este ecosistema único en el mundo.', 
+    content: `<p>Cuatro Ciénegas no es solo un oasis en el desierto; es un portal a los orígenes de la vida en la Tierra que requiere protección inmediata...</p>`, 
+    imageId: 'blog-cuatro-cienegas-cover', 
+    category: 'Artículos' 
+  },
+  { 
+    id: 'post-7', 
+    slug: 'discriminacion-ongs-retos-actuales', 
+    title: 'Discriminación a ONGs: Retos del tercer sector', 
+    date: '05 de Julio, 2021', 
+    excerpt: 'Reflexión sobre los obstáculos políticos y sociales que enfrentan las organizaciones ambientales.', 
+    content: `<p>Las organizaciones de la sociedad civil enfrentan un panorama complejo donde la discriminación y la falta de apoyos limitan su impacto real...</p>`, 
+    imageId: 'blog-discriminacion-ongs-cover-new', 
+    category: 'Artículos' 
+  },
+  { 
+    id: 'post-8', 
+    slug: 'decreto-sierra-picachos-victoria', 
+    title: 'El decreto de Sierra Picachos: Una victoria ambiental', 
+    date: '28 de Junio, 2021', 
+    excerpt: 'Análisis del impacto legal y ecológico del nuevo decreto de protección.', 
+    content: `<p>La ampliación de la protección de Sierra Picachos representa un hito histórico para la política ambiental de Nuevo León...</p>`, 
+    imageId: 'blog-decreto-picachos-cover', 
+    category: 'Noticias' 
+  },
+  { 
+    id: 'post-9', 
+    slug: 'tenencia-tierra-conservacion', 
+    title: 'Tenencia de la Tierra y Conservación', 
+    date: '12 de Mayo, 2021', 
+    excerpt: 'La seguridad jurídica como base para proyectos de conservación a largo plazo.', 
+    content: `<p>Sin una tenencia de la tierra clara y legal, los esfuerzos de conservación enfrentan una vulnerabilidad constante ante intereses externos...</p>`, 
+    imageId: 'blog-tenencia-tierra', 
+    category: 'Artículos' 
+  },
+  { 
+    id: 'post-10', 
+    slug: 'etica-cine-naturaleza', 
+    title: 'Ética en el cine de naturaleza', 
+    date: '01 de Abril, 2021', 
+    excerpt: '¿Hasta dónde debe llegar un cineasta para capturar la imagen perfecta?', 
+    content: `<p>La producción de documentales de naturaleza exige un compromiso ético que priorice el bienestar de los ecosistemas sobre el impacto visual...</p>`, 
+    imageId: 'blog-etica-documental-cover-new', 
     category: 'Artículos' 
   },
 ];
