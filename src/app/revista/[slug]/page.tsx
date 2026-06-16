@@ -1,25 +1,28 @@
-'use client';
-
-import { notFound, usePathname, useParams } from 'next/navigation';
+import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { posts } from '@/lib/data';
+import { posts, siteConfig } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { FacebookIcon, LinkedinIcon } from '@/components/icons';
-import { siteConfig } from '@/lib/data';
 
-export default function PostPage() {
-  const params = useParams();
-  const slug = typeof params.slug === 'string' ? params.slug : '';
-  const post = posts.find((post) => post.slug === slug);
-  const pathname = usePathname();
+type PageProps = {
+  params: Promise<{ slug: string }>;
+};
+
+/**
+ * Página de artículo individual de la revista.
+ * Se ha convertido a Server Component para evitar errores de hidratación y optimizar el rendimiento.
+ */
+export default async function PostPage({ params }: PageProps) {
+  const { slug } = await params;
+  const post = posts.find((p) => p.slug === slug);
 
   if (!post) {
     notFound();
   }
 
   const postImage = PlaceHolderImages.find((p) => p.id === post.imageId);
-  const postUrl = `${siteConfig.url}${pathname}`;
+  const postUrl = `${siteConfig.url}/revista/${slug}`;
 
   const shareLinks = {
     facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(postUrl)}`,
@@ -31,18 +34,18 @@ export default function PostPage() {
       <section className="relative h-[50vh] min-h-[400px] w-full text-white">
         {postImage && (
             <Image
-            src={postImage.imageUrl}
-            alt={post.title}
-            fill
-            className="object-cover"
-            priority
-            data-ai-hint={postImage.imageHint}
+              src={postImage.imageUrl}
+              alt={post.title}
+              fill
+              className="object-cover"
+              priority
+              data-ai-hint={postImage.imageHint}
             />
         )}
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center text-center p-4">
             <h1 className="font-headline text-4xl md:text-6xl font-bold max-w-4xl">
-            {post.title}
+              {post.title}
             </h1>
             <p className="mt-4 text-lg text-gray-300">
                 Por: De la Maza Team / {post.date}
