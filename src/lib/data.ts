@@ -1,11 +1,11 @@
 import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo, Collaborator, Movie } from './types';
-import { Facebook, Instagram, Linkedin, Youtube, Globe, Film, Award, BookOpen } from 'lucide-react';
-import { TheatreIcon, VimeoIcon, WhatsAppIcon, IMDbIcon, WikipediaIcon, SpotifyIcon, AppleMusicIcon, BandcampIcon } from '@/components/icons';
+import { Facebook, Instagram, Linkedin, Youtube, Globe, Film } from 'lucide-react';
+import { WhatsAppIcon, IMDbIcon, WikipediaIcon, SpotifyIcon, AppleMusicIcon, BandcampIcon } from '@/components/icons';
 
 export const siteConfig = {
   name: 'Mauricio de la Maza Benignos',
-  url: 'https://terravision.example.com',
-  ogImage: 'https://terravision.example.com/og.jpg',
+  url: 'https://mauriciodelamaza.com',
+  ogImage: 'https://mauriciodelamaza.com/og.jpg',
   description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos.',
   links: {
     twitter: 'https://twitter.com/example',
@@ -116,7 +116,7 @@ export const featuredMovies: Movie[] = [
   },
   {
     id: 'dialogos-2023',
-    title: 'DIALOGOS DE LA MUERTE / Dialogues of Death',
+    title: 'DIALOGOS DE LA MUERTE',
     year: '2023',
     subtitle: 'Basada en obra del Marqués de Sade',
     genre: 'Drama filosófico',
@@ -130,7 +130,7 @@ export const featuredMovies: Movie[] = [
   },
   {
     id: 'zapato-2025',
-    title: 'EL ZAPATO / The Shoe',
+    title: 'EL ZAPATO',
     year: '2025',
     subtitle: 'Codirección con Sofía Alejandra Díaz Garza',
     genre: 'Comedia / Horror / Thriller',
@@ -165,31 +165,31 @@ export const services: Service[] = [
   {
     title: 'Composición y Diseño Sonoro',
     imageId: 'service-editing',
-    summary: 'La música no acompaña la imagen: la completa. Mauricio compone desde la tensión emocional y la atmósfera narrativa, combinando escritura orquestal minimalista, ambient y exploración experimental. Su doble rol como director y compositor permite construir una arquitectura dramática unificada desde la concepción misma del proyecto.',
+    summary: 'La música no acompaña la imagen: la completa. Mauricio compone desde la tensión emocional y la atmósfera narrativa, combinando escritura orquestal minimalista, ambient y exploración experimental.',
     details: []
   },
   {
     title: 'Fotografía Contemplativa',
     imageId: 'service-photography',
-    summary: 'Una mirada que se detiene donde otras pasan de largo. La fotografía comparte el mismo temple del cine: la búsqueda de lo que late bajo la superficie. Ecosistemas, paisajes y retratos tratados con una sensibilidad que conjuga rigor científico y visión artística.',
+    summary: 'Una mirada que se detiene donde otras pasan de largo. La fotografía comparte el mismo temple del cine: la búsqueda de lo que late bajo la superficie.',
     details: []
   },
   {
     title: 'Gestión Cultural y Ética',
     imageId: 'service-culture',
-    summary: 'Más de tres décadas vinculando el arte, la ciencia y la sociedad. Como Director General del Wildlife Conservation Film Festival (WCFF) desde 2023, y con trayectoria en dirección de ONG y proyectos culturales binacionales, se ofrece asesoría y liderazgo en iniciativas de alto impacto: festivales, programas educativos, producción institucional y estrategia cultural con propósito ambiental.',
+    summary: 'Más de tres décadas vinculando el arte, la ciencia y la sociedad. Como Director General del Wildlife Conservation Film Festival (WCFF).',
     details: []
   },
   {
     title: 'Consultoría Ambiental Estratégica',
     imageId: 'service-consulting',
-    summary: 'Sustentada en una trayectoria científica y de gestión de primer nivel —WWF, Pronatura Noreste, Sistema Nacional de Investigadores—, esta consultoría conbina análisis técnico, visión estratégica y experiencia en política pública. Especialidad en ecosistemas de agua dulce, biodiversidad del norte de México y desarrollo sustentable transfronterizo.',
+    summary: 'Sustentada en una trayectoria científica y de gestión de primer nivel —WWF, Pronatura Noreste, Sistema Nacional de Investigadores.',
     details: []
   },
   {
     title: 'Dirección Creativa Narrativa',
     imageId: 'service-digital',
-    summary: 'Para proyectos que necesitan encontrar su voz. Acompañamiento a equipos creativos, productoras y organizaciones en el desarrollo de proyectos audiovisuales: desde la concepción de la idea y el guion hasta las decisiones estéticas y narrativas durante la producción.',
+    summary: 'Para proyectos que necesitan encontrar su voz. Acompañamiento a equipos creativos, productoras y organizaciones.',
     details: []
   },
 ];
@@ -363,25 +363,25 @@ export const collaborators: Collaborator[] = [
   {
     name: 'José Pablo Acevedo',
     title: 'Cineasta y docente',
-    bio: 'Ha publicado su trabajo de crítica en diversos medios como Doble Rodada, Vocanova, Correspondencias y el Festival de cine Transcinema. Fue becario del Centro de Escritores Cinematográficos de CONARTE en 2018 y su documental “El Barrio de la Luz” fue uno de los ganadores en el concurso A QuedArte en Casa 2020 organizado por la UANL.',
+    bio: 'Ha publicado su trabajo de crítica en diversos medios como Doble Rodada, Vocanova, Correspondencias y el Festival de cine Transcinema.',
     image: '/images/jose.jpg'
   },
   {
     name: 'David Jaramillo',
     title: 'Realizador Audiovisual',
-    bio: 'Realizó su ópera prima titulada: “Cuatro Ciénegas”, exhibida en la FIL de Guadalajara, en el FICG33 y ECOZINE, Zaragoza España, 2019. Editó y realizó la fotografía el libro titulado ¨Parpadeo Cósmico-Cuatro Ciénegas¨ con investigadores del Instituto de Ecología de la UNAM, investigación de más de 5 años donde reitera su compromiso por la conservación del medio ambiente a través del arte y la ciencia.',
+    bio: 'Realizó su ópera prima titulada: “Cuatro Ciénegas”, exhibida en la FIL de Guadalajara, en el FICG33 y ECOZINE, Zaragoza España, 2019.',
     image: '/images/david.jpeg'
   },
   {
     name: 'Claudia Luna Fuentes',
     title: 'Comunicóloga y escritora',
-    bio: 'Comunicóloga, maestra en Historia de la Sociedad Contemporánea y directora de Divulgación Científica en el Museo del Desierto. Publicó Donde la piel, Las flores desenfundan sus espinas, Carne para las flores, Casa de sol, entre muchos otros libros. Ha sido traducida al inglés, alemán, francés, portugués y árabe. Parte de sus videopoemas, exploraciones sonoras y fotografías se mostraron en la Galería Mohammed Drissi, en Tánger, Marruecos de julio a agosto de 2021.',
+    bio: 'Comunicóloga, maestra en Historia de la Sociedad Contemporánea y directora de Divulgación Científica en el Museo del Desierto.',
     image: '/images/claudia.jpeg'
   },
   {
     name: 'Kenia Álvarez Rentería',
     title: 'Abogada y consultora',
-    bio: 'Licenciada en Derecho con mención especial y Maestra en Derecho por la Universidad Autónoma de Chihuahua, con especialidad en Amparo por el Instituto de la Judicatura Federal extensión Coahuila. Actualmente se desempeña como Directora General de “LEVKA, Consultoría técnica y legal, S.C.”, y dirige el área de Derecho ambiental a través de litigios, proyectos y estudios, con el sector público y organizaciones de la sociedad civil, en los estados de Nuevo León, San Luis Potosí, Coahuila, Chihuahua y Durango.',
+    bio: 'Licenciada en Derecho con mención especial y Maestra en Derecho por la Universidad Autónoma de Chihuahua.',
     image: '/images/kenia.png'
   }
 ];

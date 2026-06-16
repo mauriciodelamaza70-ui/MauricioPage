@@ -3,7 +3,7 @@ import Image from "next/image";
 import PageHero from "@/components/common/PageHero";
 import { posts } from "@/lib/data";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Search, ArrowRight, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -23,7 +23,7 @@ export default function RevistaPage() {
                             {posts.map((post) => {
                                 const postImage = PlaceHolderImages.find(p => p.id === post.imageId);
                                 return (
-                                <Card key={post.id} className="overflow-hidden group flex flex-col">
+                                <Card key={post.id} className="overflow-hidden group flex flex-col h-full bg-card">
                                     {postImage && (
                                     <div className="aspect-video overflow-hidden">
                                         <Image
@@ -37,11 +37,14 @@ export default function RevistaPage() {
                                     </div>
                                     )}
                                     <div className="p-6 flex flex-col flex-grow">
-                                        <p className="text-sm text-muted-foreground">{post.date}</p>
-                                        <CardTitle className="font-headline text-xl mt-1">{post.title}</CardTitle>
-                                        <p className="text-muted-foreground mt-2 flex-grow">{post.excerpt}</p>
-                                        <Button asChild variant="link" className="text-accent p-0 h-auto mt-4 self-start">
-                                            <Link href={`/revista/${post.slug}`}>Leer más <ArrowRight className="ml-2 h-5 w-5" /></Link>
+                                        <div className="flex items-center justify-between mb-2">
+                                            <span className="text-xs uppercase tracking-widest text-accent font-bold">{post.category}</span>
+                                            <p className="text-xs text-muted-foreground">{post.date}</p>
+                                        </div>
+                                        <CardTitle className="font-headline text-xl mt-1 leading-snug">{post.title}</CardTitle>
+                                        <p className="text-muted-foreground mt-4 text-sm line-clamp-3 flex-grow">{post.excerpt}</p>
+                                        <Button asChild variant="link" className="text-accent p-0 h-auto mt-6 self-start text-sm font-bold uppercase tracking-wider">
+                                            <Link href={`/revista/${post.slug}`}>Leer artículo completo <ArrowRight className="ml-2 h-4 w-4" /></Link>
                                         </Button>
                                     </div>
                                 </Card>
@@ -51,48 +54,50 @@ export default function RevistaPage() {
                     </div>
 
                     {/* Sidebar */}
-                    <aside className="lg:col-span-4 space-y-8">
+                    <aside className="lg:col-span-4 space-y-12">
                         {/* Search */}
-                        <div className="p-6 bg-secondary rounded-lg">
-                            <h3 className="font-headline text-xl font-semibold mb-4">Buscar</h3>
+                        <div className="p-8 bg-secondary rounded-xl border border-border/50">
+                            <h3 className="font-headline text-2xl font-bold mb-6">Explorar</h3>
                             <div className="relative">
-                                <Input placeholder="Escribe aquí..." className="pr-10" />
+                                <Input placeholder="Buscar artículos..." className="pr-10 bg-background" />
                                 <Search className="absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
                             </div>
                         </div>
 
                          {/* Collaborators Link */}
-                        <div className="p-6 bg-secondary rounded-lg">
-                            <h3 className="font-headline text-xl font-semibold mb-4">Nuestros Colaboradores</h3>
-                            <p className="text-muted-foreground mb-4">Conoce a los expertos que hacen posible nuestra revista.</p>
-                            <Button asChild className="w-full bg-accent hover:bg-accent/90">
+                        <div className="p-8 bg-secondary rounded-xl border border-border/50">
+                            <h3 className="font-headline text-2xl font-bold mb-6">Colaboradores</h3>
+                            <p className="text-muted-foreground mb-6 text-sm leading-relaxed">Conoce a los expertos y autores que dan vida a nuestra revista con sus conocimientos.</p>
+                            <Button asChild className="w-full bg-accent hover:bg-accent/90 text-primary-foreground font-bold">
                                 <Link href="/revista/colaboradores">
-                                    <Users className="mr-2 h-4 w-4" /> Ver Colaboradores
+                                    <Users className="mr-2 h-4 w-4" /> Ver Perfiles
                                 </Link>
                             </Button>
                         </div>
 
-                        {/* Recent Posts */}
-                        <div className="p-6 bg-secondary rounded-lg">
-                            <h3 className="font-headline text-xl font-semibold mb-4">Artículos Recientes</h3>
-                            <ul className="space-y-4">
-                                {posts.slice(0, 3).map(post => (
-                                    <li key={post.id}>
-                                        <Link href={`/revista/${post.slug}`} className="font-semibold hover:text-accent transition-colors">{post.title}</Link>
-                                        <p className="text-sm text-muted-foreground">{post.date}</p>
+                        {/* Recent Posts Sidebar */}
+                        <div className="p-8 bg-secondary rounded-xl border border-border/50">
+                            <h3 className="font-headline text-2xl font-bold mb-6">Lo más reciente</h3>
+                            <ul className="space-y-6">
+                                {posts.slice(0, 4).map(post => (
+                                    <li key={post.id} className="group">
+                                        <Link href={`/revista/${post.slug}`} className="block">
+                                            <h4 className="font-bold text-sm group-hover:text-accent transition-colors leading-tight mb-1">{post.title}</h4>
+                                            <p className="text-[10px] uppercase tracking-widest text-muted-foreground">{post.date}</p>
+                                        </Link>
                                     </li>
                                 ))}
                             </ul>
                         </div>
                         
                         {/* Categories */}
-                        <div className="p-6 bg-secondary rounded-lg">
-                            <h3 className="font-headline text-xl font-semibold mb-4">Categorías</h3>
-                            <ul className="space-y-2">
+                        <div className="p-8 bg-secondary rounded-xl border border-border/50">
+                            <h3 className="font-headline text-2xl font-bold mb-6">Categorías</h3>
+                            <ul className="space-y-3">
                                 {categories.map(category => (
                                      <li key={category}>
-                                        <Link href="#" className="flex items-center text-muted-foreground hover:text-accent transition-colors">
-                                           <ArrowRight className="h-4 w-4 mr-2"/> {category}
+                                        <Link href="#" className="flex items-center text-sm text-muted-foreground hover:text-accent transition-colors font-medium">
+                                           <ArrowRight className="h-4 w-4 mr-2 text-accent"/> {category}
                                         </Link>
                                     </li>
                                 ))}
