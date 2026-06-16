@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { posts, siteConfig } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { FacebookIcon, LinkedinIcon } from '@/components/icons';
+import { PostContent } from '@/components/common/PostContent';
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -55,10 +56,7 @@ export default async function PostPage({ params }: PageProps) {
 
       <article className="py-24">
         <div className="container mx-auto px-4">
-            <div 
-                className="prose prose-lg lg:prose-xl max-w-4xl mx-auto text-foreground/80"
-                dangerouslySetInnerHTML={{ __html: post.content }}
-            />
+            <PostContent html={post.content} />
 
             <div className="max-w-4xl mx-auto mt-16 border-t pt-8">
               <div className="flex items-center justify-between">
