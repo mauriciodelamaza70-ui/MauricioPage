@@ -70,7 +70,7 @@ export default function HeroSlider() {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M0,0 C360,120 1080,120 1440,0 L1440,120 L0,120 Z"
+            d="M0,0 C360,50 1080,50 1440,0 L1440,120 L0,120 Z"
             className="fill-background"
           />
         </svg>
