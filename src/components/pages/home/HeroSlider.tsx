@@ -21,7 +21,7 @@ export default function HeroSlider() {
   ]);
 
   return (
-    <section className="relative h-[85vh] w-full overflow-hidden text-white">
+    <section className="relative h-screen w-full overflow-hidden text-white">
       <div className="overflow-hidden h-full" ref={emblaRef}>
         <div className="flex h-full">
           {heroImages.map((heroImage, index) => {

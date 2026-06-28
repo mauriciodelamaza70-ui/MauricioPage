@@ -38,7 +38,7 @@ export default function Home() {
       <main className="flex-grow">
         <HeroSlider />
 
-        <section className="py-24">
+        <section className="flex items-center py-20">
             <div className="container mx-auto px-4 text-center">
                 <Quote className="h-12 w-12 text-accent mx-auto mb-6" />
                 <blockquote className="font-headline text-3xl md:text-5xl font-bold max-w-4xl mx-auto leading-tight italic">
