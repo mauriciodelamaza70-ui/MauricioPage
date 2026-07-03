@@ -217,6 +217,7 @@ export const posts: Post[] = [
     date: '3 de Julio, 2026',
     excerpt: 'Un ensayo íntimo sobre las razones detrás del oficio de filmar, entre el absurdo de Camus, el poder cotidiano de Foucault y la biología de Nietzsche.',
     content: `<p><em>Por: Mauricio de la Maza-Benignos</em></p>
+<p><strong>English below</strong></p>
 
 <h2>Por qué filmo</h2>
 <p>Filmo porque no hacerlo sería una forma de traicionarme.</p>
