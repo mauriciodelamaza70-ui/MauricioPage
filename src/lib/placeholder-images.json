@@ -50,9 +50,15 @@
     },
     {
       "id": "bio-intro",
-      "description": "Mauricio de la Maza con su cámara",
-      "imageUrl": "/images/nosotros2.jpg",
-      "imageHint": "filmmaker camera"
+      "description": "Mauricio de la Maza rodeado de arte en una cantina",
+      "imageUrl": "/images/mauricio-cantina-arte.jpg",
+      "imageHint": "portrait art bar"
+    },
+    {
+      "id": "blog-por-que-filmo-cover",
+      "description": "Retrato de Mauricio de la Maza-Benignos rodeado de arte",
+      "imageUrl": "/images/mauricio-cantina-arte.jpg",
+      "imageHint": "portrait art bar"
     },
     {
       "id": "production-video-poster",

@@ -51,7 +51,7 @@ export default function NosotrosPage() {
                             src={bioIntroImage.imageUrl}
                             alt="Mauricio de la Maza"
                             fill
-                            className="object-cover object-right rounded-lg shadow-2xl"
+                            className="object-cover object-center rounded-lg shadow-2xl"
                             data-ai-hint={bioIntroImage.imageHint}
                          />
                          <div className="absolute -bottom-8 -right-8 bg-accent text-primary-foreground p-8 rounded-lg hidden lg:block shadow-xl">
