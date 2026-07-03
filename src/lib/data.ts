@@ -211,6 +211,76 @@ export const projects: Project[] = [
 
 export const posts: Post[] = [
   {
+    id: 'post-por-que-filmo',
+    slug: 'por-que-filmo',
+    title: 'Por qué filmo',
+    date: '3 de Julio, 2026',
+    excerpt: 'Un ensayo íntimo sobre las razones detrás del oficio de filmar, entre el absurdo de Camus, el poder cotidiano de Foucault y la biología de Nietzsche.',
+    content: `<p><em>Por: Mauricio de la Maza-Benignos</em></p>
+
+<h2>Por qué filmo</h2>
+<p>Filmo porque no hacerlo sería una forma de traicionarme.</p>
+<p>Entendí que el cine, para mí, no es una acumulación de historias, sino una forma de estar en el mundo.</p>
+<p>En la escuela de cine me enseñaron que hacer cine consistía, sobre todo, en aprender a contar bien una historia. Había métodos, estructuras, reglas. Supongo que todo eso tiene su lugar. La escuela es, después de todo, un espacio importante —casi sagrado— para el aprendizaje, especialmente cuando se trata del oficio y de la técnica.</p>
+<p>La escuela, en un sentido más amplio, también me puso en contacto con muchos de los pensadores que hoy reconozco como interlocutores: filósofos que han reflexionado con profundidad sobre el absurdo, el poder o la condición humana. Ese contacto con la tradición intelectual tiene un valor enorme.</p>
+<p>Aun así, la cuestión para mí siempre fue otra.</p>
+<p>Mi relación con el cine nunca pasó realmente por el aprendizaje en ese sentido. El aprendizaje supone transmisión: alguien enseña, alguien recibe. Lo que me ocurrió fue distinto. No aprendí; descubrí.</p>
+<p>Descubrí que el mundo rara vez se deja ordenar con la claridad que quisiéramos. No afirmo haber encontrado ninguna verdad. De hecho, desconfío de esa pretensión. Pero de algo sí estoy seguro: de la experiencia que me llevó a mirar el mundo de esta manera.</p>
+<p>Reconozco esa intuición formulada con claridad por Albert Camus: el absurdo no se resuelve, se sostiene. No llegué a esa idea leyendo filosofía. Solo lo reconocí.</p>
+<p>Esa forma de mirar también me lleva a prestar atención a algo más: la manera en que el poder se infiltra en lo cotidiano. No hablo del poder en su forma más visible —los grandes discursos, las instituciones, las figuras de autoridad— sino de algo mucho más discreto. Pequeños gestos, normas aparentemente inocentes, comportamientos que aceptamos sin pensar demasiado.</p>
+<p>Esa sospecha también fue pensada con profundidad por Michel Foucault. Pero mi relación con esa idea tampoco nace en la teoría. Nace observando. Observando cómo lo que llamamos normalidad suele contener, ya desde dentro, una forma de violencia silenciosa.</p>
+<p>Por eso no me interesa construir villanos evidentes ni discursos programáticos. Prefiero observar cómo esas estructuras aparecen en la vida ordinaria. La cámara, al menos para mí, no debería adoctrinar. Debería acompañar lo suficiente como para que esas tensiones se vuelvan visibles.</p>
+<p>Hay otra intuición que se vuelve inevitable: antes que sujetos morales o racionales, somos cuerpos. Organismos. Animales con una biología compleja tratando de construir sentido dentro de ella.</p>
+<p>Reconozco esa sospecha formulada con brutal claridad por Friedrich Nietzsche. Pero, como en otros casos, no llegué a ella desde la teoría. Solo lo reconocí.</p>
+<p>Tal vez por eso me interesa mostrar momentos en los que esa estructura se resquebraja: gestos absurdos, impulsos que desestabilizan la lógica, situaciones donde la racionalidad deja de ser el centro. No lo concibo como provocación ni como efecto estético. Lo entiendo más bien como un recordatorio antropológico.</p>
+<p>A veces basta con recordar algo sencillo: somos primates.</p>
+<p>Nuestra conciencia no está fuera de la vida. Surge dentro de ella.</p>
+<p>El valor humano no se mide por parámetros cuantificables. Tampoco por logros o desempeños.</p>
+<p>Hay algo más simple y más difícil de aceptar al mismo tiempo: la dignidad no depende del rendimiento. Depende de la existencia.</p>
+<p>A veces me han preguntado si mi forma de trabajar dialoga con el extrañamiento de Bertolt Brecht. Entiendo la pregunta. También desconfío de las narraciones demasiado cómodas y de la identificación emocional que adormece el pensamiento.</p>
+<p>Pero mi camino es distinto. No me interesa romper la cuarta pared ni exponer el artificio para instruir al espectador. No quiero interrumpir la experiencia para explicarla.</p>
+<p>Prefiero algo más sencillo y, quizá, más incómodo: sostener la tensión dentro de la propia experiencia. Que la incomodidad no venga de un gesto pedagógico, sino de la fricción entre lo que vemos y lo que creemos comprender.</p>
+<p>No concibo el cine como herramienta de redención ni como aparato pedagógico. Tampoco me interesa ofrecer respuestas demasiado limpias a preguntas que el mundo mismo parece incapaz de resolver.</p>
+<p>Quizá mi trabajo se acerque, sin proponérselo del todo, a una forma de humanismo crítico. Una manera de mirar la fragilidad humana sin romantizarla y sin pretender que el mundo pueda ordenarse plenamente mediante conceptos tranquilizadores.</p>
+<p>No estoy seguro de que ese sea el nombre correcto. Tal vez no importe demasiado.</p>
+<p>Lo único que sé: filmo para sostener la grieta.</p>
+<p><strong>Mauricio de la Maza-Benignos</strong></p>
+
+<hr class="my-12" />
+
+<h2>On Filming</h2>
+<p><em>English version</em></p>
+<p>I film because not doing so would feel like a form of betrayal.</p>
+<p>I came to understand that cinema, for me, is not an accumulation of stories but a way of being in the world.</p>
+<p>In film school I was taught that filmmaking was mainly about learning how to tell a story well. There were methods, structures, rules. All of that certainly has its place. School is, after all, an important—almost sacred—space for learning, especially when it comes to craft and technique.</p>
+<p>School in a broader sense also brought me into contact with many of the thinkers I now recognize as interlocutors: philosophers who have reflected deeply on the absurd, power, and the human condition. That encounter with intellectual tradition has enormous value.</p>
+<p>Even so, the real question for me was always elsewhere.</p>
+<p>My relationship with cinema never truly passed through learning in that sense. Learning assumes transmission: someone teaches, someone receives. What happened to me was different. I did not learn; I discovered.</p>
+<p>I discovered that the world rarely allows itself to be ordered with the clarity we would like. I do not claim to have found any truth. In fact, I distrust that ambition. But there is something I am certain of: the experience that led me to look at the world in this way.</p>
+<p>I recognize that intuition clearly formulated by Albert Camus: the absurd is not resolved; it is sustained. I did not arrive at that idea through philosophy. I simply recognized it.</p>
+<p>That way of looking also leads me to pay attention to something else: how power infiltrates everyday life. I am not speaking about power in its most visible forms—grand discourses, institutions, figures of authority—but something much quieter. Small gestures, seemingly harmless norms, behaviors we accept without thinking too much about them.</p>
+<p>That suspicion was also explored with great depth by Michel Foucault. Yet my relationship to that idea does not originate in theory. It comes from observation—seeing how what we call normality often contains, within it, a subtle form of violence.</p>
+<p>That is why I am not interested in constructing obvious villains or programmatic messages. I prefer to observe how these structures appear within ordinary life. The camera, at least for me, should not indoctrinate. It should accompany reality long enough for these tensions to become visible.</p>
+<p>Another intuition eventually becomes unavoidable: before we are moral or rational subjects, we are bodies. Organisms. Animals with a complex biology trying to construct meaning within it.</p>
+<p>I recognize that suspicion expressed with brutal clarity by Friedrich Nietzsche. But, as with the others, I did not arrive there through theory. I simply recognized it.</p>
+<p>Perhaps that is why I am drawn to moments when that structure fractures—absurd gestures, impulses that disrupt logic, situations where rationality is no longer at the center. I do not see this as provocation or aesthetic effect, but as an anthropological reminder.</p>
+<p>Sometimes it is enough to remember something simple: we are primates.</p>
+<p>Our consciousness does not stand outside life. It emerges within it.</p>
+<p>Human worth cannot be measured through quantifiable parameters. Nor through achievements or performance.</p>
+<p>There is something simpler, and harder to accept: dignity does not depend on productivity. It depends on existence.</p>
+<p>Sometimes I am asked whether my approach relates to the estrangement of Bertolt Brecht. I understand the question. I also distrust narratives that are too comfortable, or emotional identification that dulls thought.</p>
+<p>But my path is different. I am not interested in breaking the fourth wall or exposing artifice in order to instruct the viewer. I do not want to interrupt the experience to explain it.</p>
+<p>What interests me is something simpler, and perhaps more unsettling: sustaining tension within the experience itself. Let the discomfort arise from the friction between what we see and what we believe we understand.</p>
+<p>I do not conceive cinema as a tool of redemption or a pedagogical apparatus. Nor am I interested in offering neat answers to questions the world itself seems unable to resolve.</p>
+<p>Perhaps my work approaches, without quite intending to, a form of critical humanism—a way of looking at human fragility without romanticizing it, and without assuming that the world can be fully ordered through concepts or comforting narratives.</p>
+<p>I am not sure that is the right name. Perhaps it does not matter very much.</p>
+<p>The only thing I know: I film to hold the crack open.</p>
+<p><strong>Mauricio de la Maza-Benignos</strong></p>
+`,
+    imageId: 'blog-por-que-filmo-cover',
+    category: 'Artículos'
+  },
+  {
     id: 'post-1',
     slug: 'prologo-de-la-loca-del-maniqui',
     title: 'Prólogo de “La loca del maniquí”',

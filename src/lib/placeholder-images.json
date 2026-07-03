@@ -55,6 +55,12 @@
       "imageHint": "portrait art bar"
     },
     {
+      "id": "blog-por-que-filmo-cover",
+      "description": "Retrato de Mauricio de la Maza-Benignos rodeado de arte",
+      "imageUrl": "/images/mauricio-cantina-arte.jpg",
+      "imageHint": "portrait art bar"
+    },
+    {
       "id": "production-video-poster",
       "description": "Poster image for the main production video",
       "imageUrl": "/images/Cape-Maclear-2.jpg",
