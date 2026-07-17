@@ -38,11 +38,18 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: 'Mauricio de la Maza Benignos',
     description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
+    images: [
+      {
+        url: siteConfig.ogImage,
+        alt: 'Mauricio de la Maza-Benignos',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Mauricio de la Maza Benignos',
     description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
+    images: [siteConfig.ogImage],
   },
 };
 

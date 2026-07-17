@@ -40,7 +40,7 @@ function toIsoDate(date: string): string {
 
 /** Devuelve la URL absoluta de la imagen destacada del artículo. */
 function getAbsoluteImageUrl(imageUrl?: string): string {
-  if (!imageUrl) return `${siteConfig.url}/og.jpg`;
+  if (!imageUrl) return siteConfig.ogImage;
   return imageUrl.startsWith('http') ? imageUrl : `${siteConfig.url}${imageUrl}`;
 }
 
@@ -73,8 +73,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       images: [
         {
           url: imageUrl,
-          width: 1200,
-          height: 630,
           alt: post.title,
         },
       ],

@@ -5,7 +5,7 @@ import { WhatsAppIcon, IMDbIcon, WikipediaIcon, SpotifyIcon, AppleMusicIcon, Ban
 export const siteConfig = {
   name: 'Mauricio de la Maza Benignos',
   url: 'https://www.mauriciodelamazabenignos.com',
-  ogImage: 'https://www.mauriciodelamazabenignos.com/og.jpg',
+  ogImage: 'https://www.mauriciodelamazabenignos.com/images/Mauricio.png',
   description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos.',
   links: {
     twitter: 'https://twitter.com/example',
