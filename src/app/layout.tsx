@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Montserrat, Playfair_Display } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/lib/utils';
+import { siteConfig } from '@/lib/data';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { Toaster } from "@/components/ui/toaster";
@@ -17,7 +18,11 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Mauricio de la Maza Benignos',
+  metadataBase: new URL(siteConfig.url),
+  title: {
+    default: 'Mauricio de la Maza Benignos',
+    template: `%s | ${siteConfig.name}`,
+  },
   description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
   icons: {
     icon: [
@@ -25,6 +30,19 @@ export const metadata: Metadata = {
       { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
     ],
     apple: '/icon-180.png',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'es_MX',
+    url: siteConfig.url,
+    siteName: siteConfig.name,
+    title: 'Mauricio de la Maza Benignos',
+    description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mauricio de la Maza Benignos',
+    description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
   },
 };
 

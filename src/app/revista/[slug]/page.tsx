@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,6 +10,87 @@ import { PostContent } from '@/components/common/PostContent';
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
+
+const AUTHOR_NAME = 'Mauricio de la Maza-Benignos';
+
+const SPANISH_MONTHS: Record<string, string> = {
+  enero: '01',
+  febrero: '02',
+  marzo: '03',
+  abril: '04',
+  mayo: '05',
+  junio: '06',
+  julio: '07',
+  agosto: '08',
+  septiembre: '09',
+  octubre: '10',
+  noviembre: '11',
+  diciembre: '12',
+};
+
+/** Convierte una fecha en español ("16 de Julio, 2026") a formato ISO 8601 (2026-07-16). */
+function toIsoDate(date: string): string {
+  const match = date.match(/(\d{1,2})\s+de\s+([A-Za-zÁÉÍÓÚáéíóú]+),?\s+(\d{4})/);
+  if (!match) return date;
+  const [, day, monthName, year] = match;
+  const month = SPANISH_MONTHS[monthName.toLowerCase()];
+  if (!month) return date;
+  return `${year}-${month}-${day.padStart(2, '0')}`;
+}
+
+/** Devuelve la URL absoluta de la imagen destacada del artículo. */
+function getAbsoluteImageUrl(imageUrl?: string): string {
+  if (!imageUrl) return `${siteConfig.url}/og.jpg`;
+  return imageUrl.startsWith('http') ? imageUrl : `${siteConfig.url}${imageUrl}`;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const post = posts.find((p) => p.slug === slug);
+
+  if (!post) {
+    return { title: 'Artículo no encontrado' };
+  }
+
+  const postImage = PlaceHolderImages.find((p) => p.id === post.imageId);
+  const imageUrl = getAbsoluteImageUrl(postImage?.imageUrl);
+  const postUrl = `${siteConfig.url}/revista/${slug}`;
+
+  return {
+    title: post.title,
+    description: post.excerpt,
+    alternates: {
+      canonical: postUrl,
+    },
+    openGraph: {
+      type: 'article',
+      url: postUrl,
+      siteName: siteConfig.name,
+      title: post.title,
+      description: post.excerpt,
+      publishedTime: toIsoDate(post.date),
+      authors: [AUTHOR_NAME],
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.title,
+      description: post.excerpt,
+      images: [imageUrl],
+    },
+  };
+}
+
+export function generateStaticParams() {
+  return posts.map((post) => ({ slug: post.slug }));
+}
 
 /**
  * Página de artículo individual de la revista.
@@ -24,14 +106,47 @@ export default async function PostPage({ params }: PageProps) {
 
   const postImage = PlaceHolderImages.find((p) => p.id === post.imageId);
   const postUrl = `${siteConfig.url}/revista/${slug}`;
+  const imageUrl = getAbsoluteImageUrl(postImage?.imageUrl);
 
   const shareLinks = {
     facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(postUrl)}`,
     linkedin: `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(postUrl)}&title=${encodeURIComponent(post.title)}&summary=${encodeURIComponent(post.excerpt)}`,
   };
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    image: [imageUrl],
+    datePublished: toIsoDate(post.date),
+    dateModified: toIsoDate(post.date),
+    author: {
+      '@type': 'Person',
+      name: AUTHOR_NAME,
+      url: siteConfig.url,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: siteConfig.name,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteConfig.url}/icon-512.png`,
+      },
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': postUrl,
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <section className="relative h-[50vh] min-h-[400px] w-full text-white">
         {postImage && (
             <Image
