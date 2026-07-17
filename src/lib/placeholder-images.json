@@ -61,6 +61,12 @@
       "imageHint": "portrait art bar"
     },
     {
+      "id": "blog-por-que-compongo-cover",
+      "description": "Mauricio de la Maza-Benignos componiendo música",
+      "imageUrl": "/images/porque-compongo-foto.png",
+      "imageHint": "composer synthesizer music"
+    },
+    {
       "id": "production-video-poster",
       "description": "Poster image for the main production video",
       "imageUrl": "/images/Cape-Maclear-2.jpg",
