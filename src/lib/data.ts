@@ -28,7 +28,7 @@ export const musicCategories: MusicCategory[] = [
     id: 'quantum',
     title: 'Quantum',
     description: 'Composición electrónica y diseño sonoro',
-    image: '/images/musica-quantum-cover.png',
+    image: '/images/quantum-poster.jpg',
     href: '/musica/quantum',
   },
 ];
