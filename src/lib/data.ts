@@ -18,6 +18,7 @@ export const navLinks: NavLink[] = [
   { href: '/nosotros', label: 'Nosotros' },
   { href: '/servicios', label: 'Servicios' },
   { href: '/galerias', label: 'Galerías' },
+  { href: '/musica', label: 'Música' },
   { href: '/revista', label: 'Revista' },
   { href: '/contacto', label: 'Contacto' },
 ];
