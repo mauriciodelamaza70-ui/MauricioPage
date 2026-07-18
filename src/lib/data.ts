@@ -31,6 +31,13 @@ export const musicCategories: MusicCategory[] = [
     image: '/images/quantum-poster.jpg',
     href: '/musica/quantum',
   },
+  {
+    id: 'sonogramas',
+    title: 'Sonogramas',
+    description: 'El método detrás de Erótica y Guerra',
+    image: '/images/erotica-cover.jpg',
+    href: '/musica/sonogramas',
+  },
 ];
 
 export const socialLinks: SocialLink[] = [
