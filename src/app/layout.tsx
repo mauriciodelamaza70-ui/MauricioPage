@@ -20,6 +20,7 @@ const playfair = Playfair_Display({
 });
 
 const FB_PIXEL_ID = '1058364733419218';
+const GA_MEASUREMENT_ID = 'G-RHPFKGZDVK';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -70,6 +71,21 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
       </head>
       <body className={cn('antialiased', montserrat.variable, playfair.variable)}>
+        {/* Google Analytics (GA4) */}
+        <Script
+          id="ga4-src"
+          strategy="afterInteractive"
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+        />
+        <Script id="ga4-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
+        {/* End Google Analytics */}
         {/* Meta Pixel */}
         <Script id="facebook-pixel" strategy="afterInteractive">
           {`
