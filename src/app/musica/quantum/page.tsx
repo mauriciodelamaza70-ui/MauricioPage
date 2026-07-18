@@ -43,7 +43,13 @@ type Block =
   | { type: 'p'; text: string }
   | { type: 'beat'; text: string }
   | { type: 'quote'; text: string }
-  | { type: 'image' };
+  | { type: 'image' }
+  | { type: 'videos' };
+
+const videos = [
+  { id: 'iS9aQd9KpoM', title: 'Quantum 1 · El Viaje' },
+  { id: 'wFhogRjLi04', title: 'Quantum 2 · El Regreso' },
+];
 
 const essay: Block[] = [
   {
@@ -60,6 +66,7 @@ const essay: Block[] = [
     text: 'El hombre que aparece en la portada soy yo. No representa una versión imaginaria del futuro. Soy yo, tal como soy hoy, sentado frente a un escritorio observando una escena que sólo existe porque la recuerdo. Los dos jóvenes representan una versión de mí mismo y a una mujer que realmente existió en mi vida.',
   },
   { type: 'image' },
+  { type: 'videos' },
   {
     type: 'p',
     text: 'Quantum 1 y Quantum 2 nacieron como una única idea partida en dos. No son piezas distintas que comparten un tema: son la misma historia observada desde dos marcos de referencia diferentes. Casi todo permanece igual: el punto de partida, los personajes, la despedida, la promesa de un regreso breve. Lo único que cambia es quién carga con el peso del tiempo.',
@@ -213,6 +220,29 @@ export default function QuantumPage() {
                       />
                     </div>
                   </figure>
+                );
+              }
+              if (block.type === 'videos') {
+                return (
+                  <div key={i} className="my-12 grid grid-cols-1 gap-6 md:grid-cols-2">
+                    {videos.map((video) => (
+                      <figure key={video.id}>
+                        <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-xl">
+                          <iframe
+                            className="absolute inset-0 h-full w-full"
+                            src={`https://www.youtube.com/embed/${video.id}`}
+                            title={video.title}
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen
+                            loading="lazy"
+                          />
+                        </div>
+                        <figcaption className="mt-3 text-center font-headline text-lg font-medium text-accent">
+                          {video.title}
+                        </figcaption>
+                      </figure>
+                    ))}
+                  </div>
                 );
               }
               if (block.type === 'quote') {
