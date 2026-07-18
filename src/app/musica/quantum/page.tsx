@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Music } from 'lucide-react';
 import { siteConfig } from '@/lib/data';
 
 const TITLE = 'Quantum';
@@ -47,8 +47,16 @@ type Block =
   | { type: 'videos' };
 
 const videos = [
-  { id: 'iS9aQd9KpoM', title: 'Quantum 1 · El Viaje' },
-  { id: 'wFhogRjLi04', title: 'Quantum 2 · El Regreso' },
+  {
+    id: 'iS9aQd9KpoM',
+    title: 'Quantum 1 · El Viaje',
+    platformsUrl: 'https://distrokid.com/hyperfollow/mauriciodelamaza/quantum-3',
+  },
+  {
+    id: 'wFhogRjLi04',
+    title: 'Quantum 2 · El Regreso',
+    platformsUrl: 'https://distrokid.com/hyperfollow/mauriciodelamaza/quantum-2-2',
+  },
 ];
 
 const essay: Block[] = [
@@ -240,6 +248,17 @@ export default function QuantumPage() {
                         <figcaption className="mt-3 text-center font-headline text-lg font-medium text-accent">
                           {video.title}
                         </figcaption>
+                        <div className="mt-1 text-center">
+                          <Link
+                            href={video.platformsUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 text-xs text-muted-foreground underline-offset-4 transition-colors hover:text-accent hover:underline"
+                          >
+                            <Music className="h-3.5 w-3.5" aria-hidden="true" />
+                            Escuchar en todas las plataformas
+                          </Link>
+                        </div>
                       </figure>
                     ))}
                   </div>
