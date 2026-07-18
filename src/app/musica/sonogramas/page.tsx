@@ -44,9 +44,50 @@ type Block =
   | { type: 'quote'; text: string };
 
 const essay: Block[] = [
+  {
+    type: 'beat',
+    text: 'Hay instantes humanos que no necesitan ser contados. Necesitan ser sentidos.',
+  },
+  {
+    type: 'p',
+    text: 'Un acto erótico. Una batalla real, grabada en Nueva Guinea. Dos eventos que, en su forma original, pertenecen al mundo de la anécdota: algo que ocurrió, a alguien, en algún lugar. Si los hubiera representado tal cual, habría hecho ilustración. Habría contado una historia.',
+  },
+  { type: 'beat', text: 'No fue eso lo que busqué.' },
+  {
+    type: 'p',
+    text: 'Tomé la grabación de cada instante y la convertí en un sonograma: una traducción matemática de sus frecuencias, su ritmo y su textura. A partir de ahí comenzó el verdadero trabajo. Deshice la voz, el grito, el jadeo, el paso. Deshice el lugar, el rostro y el nombre. Eliminé todo aquello que permitiera reconocer el acontecimiento del que provenía.',
+  },
   { type: 'quote', text: 'Lo que sobrevivió fue el patrón.' },
+  {
+    type: 'p',
+    text: 'Porque debajo de cualquier evento humano existe una organización física del tiempo: una manera en que el cuerpo acumula tensión, acelera, contiene y libera energía. Esa organización no pertenece a la anécdota. Pertenece a la biología. Y es lo único que permanece cuando todo lo demás desaparece.',
+  },
+  {
+    type: 'p',
+    text: 'Eso es lo que se escucha en Guerra y en Erótica: no una batalla, no un encuentro, sino la dinámica de un cuerpo real atravesando uno de sus momentos de mayor intensidad, despojado de su historia y convertido en un patrón sonoro.',
+  },
+  {
+    type: 'p',
+    text: 'Por eso Guerra genera tensión sin representar violencia alguna. El oyente no sabe que detrás existe una escaramuza real, pero su cuerpo responde como si reconociera esa organización interna.',
+  },
+  {
+    type: 'p',
+    text: 'Por eso Erótica parece avanzar hacia un punto que se resiste a llegar, hasta que finalmente ocurre. El oyente nunca contempla el acto. Sin embargo, atraviesa su arquitectura temporal.',
+  },
   { type: 'quote', text: 'No pretendo que reconozcan la fuente. Pretendo que hereden el estado.' },
+  {
+    type: 'p',
+    text: 'Mi trabajo no consiste en representar acontecimientos, sino en traducirlos. En llevarlos de la experiencia al patrón, del patrón al sonido y del sonido nuevamente a la experiencia. Allí donde desaparecen los nombres, permanecen las formas del cuerpo. Y quizá sea ahí donde comienza la música.',
+  },
+  {
+    type: 'p',
+    text: 'Ambas piezas nacen de la misma convicción que atraviesa el resto de mi trabajo: hay fuerzas —el deseo, el conflicto, el poder, la memoria— que son anteriores a cualquier forma de contarlas. Cambian los lenguajes. Cambian las épocas.',
+  },
   { type: 'quote', text: 'Los acontecimientos desaparecen. Los patrones permanecen.' },
+  {
+    type: 'p',
+    text: 'Y es en esos patrones donde la música encuentra su materia.',
+  },
 ];
 
 const albums = [
@@ -57,6 +98,8 @@ const albums = [
     imageAlt: 'Erótica — portada del álbum de Mauricio de la Maza',
     videoId: 'YAPxzoRX1_o',
     platformsUrl: 'https://distrokid.com/hyperfollow/mauriciodelamaza/ertica',
+    description:
+      'Erótica es una obra instrumental contemporánea construida sobre una arquitectura híbrida que combina elementos de orquesta de cámara y síntesis electrónica. La pieza se desarrolla a partir de un fundamento grave continuo donde sintetizadores, contrabajo y bajo melódico forman una única estructura de soporte. Sobre esta base se despliegan violas, cuernos, marimbas, xilófonos y mazos sintetizados que dialogan entre sí mediante patrones de repetición, variación y respuesta. La energía de la obra no surge de cambios abruptos ni de explosiones percusivas. Su movimiento proviene de la acumulación gradual de densidad, timbre y tensión interna. Los ciclos armónicos generan aproximaciones a la resolución sin agotarla por completo. La percusión cumple una función orgánica más que rítmica: el pulso permanece presente como una referencia fisiológica constante, cercana a la respiración o al latido. La imagen del álbum dialoga con el realismo intimista de finales del siglo XIX y principios del XX. Tres personajes. Una vela. Un instante suspendido que no termina de resolverse.',
   },
   {
     id: 'guerra',
@@ -65,6 +108,8 @@ const albums = [
     imageAlt: 'Guerra — portada del álbum de Mauricio de la Maza',
     videoId: '7oKX4PS1A24',
     platformsUrl: 'https://distrokid.com/hyperfollow/mauriciodelamaza/guerrawar',
+    description:
+      'Guerra es una exploración sonora del estado de preparación colectiva que precede al conflicto, más que del conflicto mismo. A partir de la grabación documental de una escaramuza tribal, la pieza transforma voces humanas reales en una masa armónica y rítmica que funciona, simultáneamente, como memoria, territorio e identidad. Lejos de representar violencia o victoria, la música habita una tensión suspendida donde coexisten la confrontación y el respeto, la alerta y la calma, la competencia y la pertenencia. El resultado es un paisaje ritual contemporáneo que no narra una batalla, sino la conciencia compartida de una comunidad que conoce la guerra, convive con ella y encuentra en esa posibilidad una forma de cohesión y reconocimiento mutuo.',
   },
 ];
 
@@ -171,7 +216,11 @@ export default function SonogramasPage() {
                     {album.title}
                   </h2>
 
-                  <div className="relative mt-4 aspect-video w-full overflow-hidden rounded-xl shadow-xl">
+                  <p className="mt-4 text-base leading-relaxed text-foreground/80 text-pretty">
+                    {album.description}
+                  </p>
+
+                  <div className="relative mt-6 aspect-video w-full overflow-hidden rounded-xl shadow-xl">
                     <iframe
                       className="absolute inset-0 h-full w-full"
                       src={`https://www.youtube.com/embed/${album.videoId}`}
