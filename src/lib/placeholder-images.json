@@ -1,6 +1,12 @@
 {
   "placeholderImages": [
     {
+      "id": "musica-hero",
+      "description": "Estudio de música con sintetizador analógico",
+      "imageUrl": "/images/musica-hero.png",
+      "imageHint": "music studio synthesizer"
+    },
+    {
       "id": "hero-cora-1",
       "description": "Escena de la película Cora",
       "imageUrl": "/images/cora.webp",

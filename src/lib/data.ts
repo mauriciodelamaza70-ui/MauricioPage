@@ -1,4 +1,4 @@
-import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo, Collaborator, Movie } from './types';
+import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo, Collaborator, Movie, MusicCategory } from './types';
 import { Facebook, Instagram, Linkedin, Youtube, Globe, Film } from 'lucide-react';
 import { WhatsAppIcon, IMDbIcon, WikipediaIcon, SpotifyIcon, AppleMusicIcon, BandcampIcon } from '@/components/icons';
 
@@ -21,6 +21,16 @@ export const navLinks: NavLink[] = [
   { href: '/musica', label: 'Música' },
   { href: '/revista', label: 'Revista' },
   { href: '/contacto', label: 'Contacto' },
+];
+
+export const musicCategories: MusicCategory[] = [
+  {
+    id: 'quantum',
+    title: 'Quantum',
+    description: 'Composición electrónica y diseño sonoro',
+    image: '/images/musica-quantum-cover.png',
+    href: '/musica/quantum',
+  },
 ];
 
 export const socialLinks: SocialLink[] = [

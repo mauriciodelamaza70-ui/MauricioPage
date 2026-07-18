@@ -79,6 +79,14 @@ export type Collaborator = {
   image: string | null;
 };
 
+export type MusicCategory = {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  href: string;
+};
+
 export type Movie = {
   id: string;
   title: string;
