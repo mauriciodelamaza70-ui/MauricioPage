@@ -45,7 +45,32 @@ type Block =
   | { type: 'beat'; text: string }
   | { type: 'quote'; text: string };
 
-const intro: Block[] = [];
+const intro: Block[] = [
+  {
+    type: 'p',
+    text: 'Un pequeño grupo de hombres y mujeres del Paleolítico observa una manada de uros pastando. No hay persecución ni amenaza; solo una distancia respetuosa y un tiempo compartido. Los seres humanos siguieron siendo seres humanos. Los uros, con el paso de los milenios, se transformaron en el ganado doméstico que conocemos hoy.',
+  },
+  {
+    type: 'p',
+    text: 'Como biólogo evolutivo, sé que esa distancia entre los observadores y los animales no era únicamente espacial: era también temporal. Aquellos hombres y mujeres contemplaban, sin saberlo, una especie cuyo destino terminaría entrelazándose con el suyo a través de la domesticación. Al mismo tiempo, llevaban en su propio genoma la huella de otra desaparición: la del neandertal, cuya herencia continúa viviendo en nosotros. En evolución, casi nada desaparece por completo; las formas cambian, pero sus rastros permanecen.',
+  },
+  {
+    type: 'p',
+    text: 'Lidia toma su nombre del modo lidio, uno de los modos musicales más antiguos de la tradición occidental, cuya sonoridad suspendida transmite una sensación de amplitud y serenidad. Sobre esa base armónica se desarrolla una composición que no busca conducir al oyente hacia un clímax, sino invitarlo a habitar un mismo paisaje emocional.',
+  },
+  {
+    type: 'p',
+    text: 'Las percusiones funcionan como péndulos. Sus pequeñas oscilaciones generan un movimiento constante que nunca rompe el equilibrio general de la obra. En lugar de grandes contrastes, la música evoluciona mediante variaciones casi imperceptibles: ligeros cambios de densidad, color y textura que transforman el paisaje sonoro sin abandonar nunca su identidad.',
+  },
+  {
+    type: 'p',
+    text: 'Más que contar una historia, Lidia propone una experiencia de contemplación. No es la quietud de la meditación trascendental, sino la serenidad que nace al observar una naturaleza inmensamente poderosa cuando no necesita demostrar su fuerza. Es una calma llena de energía contenida, donde cada pequeño movimiento adquiere significado precisamente porque todo lo demás permanece en equilibrio.',
+  },
+  {
+    type: 'p',
+    text: 'La pieza imagina un instante remoto en el que humanos y animales simplemente compartían el mundo, antes de que existieran las ideas de dominio o conquista. Un momento en el que el tiempo parecía avanzar con la lentitud de un péndulo y la naturaleza aún podía contemplarse sin otra intención que estar presente.',
+  },
+];
 
 export default function LidiaPage() {
   const jsonLd = {
