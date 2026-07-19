@@ -45,6 +45,13 @@ export const musicCategories: MusicCategory[] = [
     image: '/images/lidia-cover.jpg',
     href: '/musica/lidia',
   },
+  {
+    id: 'pinceladas-mexicanas',
+    title: 'Pinceladas Mexicanas',
+    description: 'Algunas obras nacen del lugar donde uno nació',
+    image: '/images/campanas-cover.jpg',
+    href: '/musica/pinceladas-mexicanas',
+  },
 ];
 
 export const socialLinks: SocialLink[] = [
