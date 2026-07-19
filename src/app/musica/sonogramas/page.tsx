@@ -96,7 +96,7 @@ const albums = [
     title: 'Erótica',
     image: '/images/erotica-cover.jpg',
     imageAlt: 'Erótica — portada del álbum de Mauricio de la Maza',
-    videoId: 'YAPxzoRX1_o',
+    videoId: '7oKX4PS1A24',
     platformsUrl: 'https://distrokid.com/hyperfollow/mauriciodelamaza/ertica',
     description:
       'Erótica es una obra instrumental contemporánea construida sobre una arquitectura híbrida que combina elementos de orquesta de cámara y síntesis electrónica. La pieza se desarrolla a partir de un fundamento grave continuo donde sintetizadores, contrabajo y bajo melódico forman una única estructura de soporte. Sobre esta base se despliegan violas, cuernos, marimbas, xilófonos y mazos sintetizados que dialogan entre sí mediante patrones de repetición, variación y respuesta. La energía de la obra no surge de cambios abruptos ni de explosiones percusivas. Su movimiento proviene de la acumulación gradual de densidad, timbre y tensión interna. Los ciclos armónicos generan aproximaciones a la resolución sin agotarla por completo. La percusión cumple una función orgánica más que rítmica: el pulso permanece presente como una referencia fisiológica constante, cercana a la respiración o al latido. La imagen del álbum dialoga con el realismo intimista de finales del siglo XIX y principios del XX. Tres personajes. Una vela. Un instante suspendido que no termina de resolverse.',
@@ -106,7 +106,7 @@ const albums = [
     title: 'Guerra',
     image: '/images/guerra-cover.jpg',
     imageAlt: 'Guerra — portada del álbum de Mauricio de la Maza',
-    videoId: '7oKX4PS1A24',
+    videoId: 'YAPxzoRX1_o',
     platformsUrl: 'https://distrokid.com/hyperfollow/mauriciodelamaza/guerrawar',
     description:
       'Guerra es una exploración sonora del estado de preparación colectiva que precede al conflicto, más que del conflicto mismo. A partir de la grabación documental de una escaramuza tribal, la pieza transforma voces humanas reales en una masa armónica y rítmica que funciona, simultáneamente, como memoria, territorio e identidad. Lejos de representar violencia o victoria, la música habita una tensión suspendida donde coexisten la confrontación y el respeto, la alerta y la calma, la competencia y la pertenencia. El resultado es un paisaje ritual contemporáneo que no narra una batalla, sino la conciencia compartida de una comunidad que conoce la guerra, convive con ella y encuentra en esa posibilidad una forma de cohesión y reconocimiento mutuo.',
