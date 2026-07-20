@@ -10,6 +10,8 @@ const SUBTITLE =
 const DESCRIPTION =
   'Asia: una evocación artística del mundo que un macedonio pudo descubrir durante las campañas de Alejandro Magno, por Mauricio de la Maza-Benignos.';
 const COVER = '/images/asia-cover.jpg';
+// Imagen usada al compartir el enlace en redes sociales (Facebook, X, etc.)
+const SOCIAL_IMAGE = '/images/asia-gallery-2.jpg';
 const PLATFORMS_URL = 'https://distrokid.com/hyperfollow/mauriciodelamaza/asia';
 
 const videos = [
@@ -37,13 +39,13 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: TITLE,
     description: DESCRIPTION,
-    images: [{ url: `${siteConfig.url}${COVER}`, alt: 'Asia — Mauricio de la Maza' }],
+    images: [{ url: `${siteConfig.url}${SOCIAL_IMAGE}`, alt: 'Asia — Mauricio de la Maza' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: TITLE,
     description: DESCRIPTION,
-    images: [`${siteConfig.url}${COVER}`],
+    images: [`${siteConfig.url}${SOCIAL_IMAGE}`],
   },
 };
 
