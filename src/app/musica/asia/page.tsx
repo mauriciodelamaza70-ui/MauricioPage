@@ -12,21 +12,6 @@ const DESCRIPTION =
 const COVER = '/images/asia-cover.jpg';
 const PLATFORMS_URL = 'https://distrokid.com/hyperfollow/mauriciodelamaza/asia';
 
-const gallery = [
-  {
-    src: '/images/asia-gallery-1.jpg',
-    alt: 'Una pastora con su rebaño en las montañas mientras avanza la columna macedonia',
-  },
-  {
-    src: '/images/asia-gallery-2.jpg',
-    alt: 'Una bailarina danza junto a la fogata y la caravana de camellos al atardecer',
-  },
-  {
-    src: '/images/asia-gallery-3.jpg',
-    alt: 'La llegada al valle del Indo, con un elefante y el río a lo lejos',
-  },
-];
-
 const videos = [
   {
     id: 'GKEr0SGhvoQ',
@@ -71,7 +56,8 @@ export const metadata: Metadata = {
 type Block =
   | { type: 'p'; text: string }
   | { type: 'beat'; text: string }
-  | { type: 'quote'; text: string };
+  | { type: 'quote'; text: string }
+  | { type: 'image'; src: string; alt: string };
 
 const essay: Block[] = [
   {
@@ -87,8 +73,18 @@ const essay: Block[] = [
     text: 'En esta obra, Asia se entiende en el sentido geográfico del mundo antiguo. Aunque Plinio el Viejo escribió más de cuatro siglos después de Alejandro, la concepción de Asia que presenta en su Historia Natural conserva una visión muy cercana a la que inspira este proyecto: el gran corredor que se extiende desde Asia Menor hasta el valle del Indo, donde durante siglos convergieron las tradiciones mediterráneas, persas, centroasiáticas e indias.',
   },
   {
+    type: 'image',
+    src: '/images/asia-gallery-1.jpg',
+    alt: 'Una pastora con su rebaño en las montañas mientras avanza la columna macedonia',
+  },
+  {
     type: 'p',
     text: 'La música propone un recorrido por ese mismo corredor. La orquesta occidental dialoga con instrumentos de la India, mantras, sonoridades inspiradas en las antiguas rutas caravaneras, una flauta de jazz e incluso ritmos contemporáneos. No pretende reconstruir el sonido del siglo IV antes de nuestra era. Busca imaginar el encuentro entre un viajero del mundo mediterráneo y las culturas que iba descubriendo a medida que avanzaba hacia Oriente. Como toda tradición viva, aquellas culturas se transformaban continuamente mediante el intercambio, y esa misma idea de encuentro constituye el eje de esta obra.',
+  },
+  {
+    type: 'image',
+    src: '/images/asia-gallery-2.jpg',
+    alt: 'Una bailarina danza junto a la fogata y la caravana de camellos al atardecer',
   },
   {
     type: 'p',
@@ -177,6 +173,22 @@ export default function AsiaPage() {
                   </p>
                 );
               }
+              if (block.type === 'image') {
+                return (
+                  <div
+                    key={i}
+                    className="relative my-12 aspect-[4/3] w-full overflow-hidden rounded-xl shadow-lg"
+                  >
+                    <Image
+                      src={block.src}
+                      alt={block.alt}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 768px"
+                      className="object-cover"
+                    />
+                  </div>
+                );
+              }
               return (
                 <p
                   key={i}
@@ -187,22 +199,15 @@ export default function AsiaPage() {
               );
             })}
 
-            {/* Galería de imágenes del recorrido */}
-            <div className="my-12 grid grid-cols-1 gap-4 md:grid-cols-3">
-              {gallery.map((img) => (
-                <div
-                  key={img.src}
-                  className="relative aspect-[4/3] w-full overflow-hidden rounded-xl shadow-lg"
-                >
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover"
-                  />
-                </div>
-              ))}
+            {/* Imagen final del recorrido: llegada al valle del Indo */}
+            <div className="relative my-12 aspect-[4/3] w-full overflow-hidden rounded-xl shadow-lg">
+              <Image
+                src="/images/asia-gallery-3.jpg"
+                alt="La llegada al valle del Indo, con un elefante y el río a lo lejos"
+                fill
+                sizes="(max-width: 768px) 100vw, 768px"
+                className="object-cover"
+              />
             </div>
 
             {/* Reproductores de YouTube lado a lado */}
