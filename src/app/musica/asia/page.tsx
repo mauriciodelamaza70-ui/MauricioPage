@@ -12,6 +12,21 @@ const DESCRIPTION =
 const COVER = '/images/asia-cover.jpg';
 const PLATFORMS_URL = 'https://distrokid.com/hyperfollow/mauriciodelamaza/asia';
 
+const gallery = [
+  {
+    src: '/images/asia-gallery-1.jpg',
+    alt: 'Una pastora con su rebaño en las montañas mientras avanza la columna macedonia',
+  },
+  {
+    src: '/images/asia-gallery-2.jpg',
+    alt: 'Una bailarina danza junto a la fogata y la caravana de camellos al atardecer',
+  },
+  {
+    src: '/images/asia-gallery-3.jpg',
+    alt: 'La llegada al valle del Indo, con un elefante y el río a lo lejos',
+  },
+];
+
 const videos = [
   {
     id: 'GKEr0SGhvoQ',
@@ -171,6 +186,24 @@ export default function AsiaPage() {
                 </p>
               );
             })}
+
+            {/* Galería de imágenes del recorrido */}
+            <div className="my-12 grid grid-cols-1 gap-4 md:grid-cols-3">
+              {gallery.map((img) => (
+                <div
+                  key={img.src}
+                  className="relative aspect-[4/3] w-full overflow-hidden rounded-xl shadow-lg"
+                >
+                  <Image
+                    src={img.src}
+                    alt={img.alt}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 33vw"
+                    className="object-cover"
+                  />
+                </div>
+              ))}
+            </div>
 
             {/* Reproductores de YouTube lado a lado */}
             <div className="my-12 grid grid-cols-1 gap-6 md:grid-cols-2">
