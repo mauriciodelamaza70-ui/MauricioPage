@@ -13,8 +13,16 @@ const COVER = '/images/asia-cover.jpg';
 const PLATFORMS_URL = 'https://distrokid.com/hyperfollow/mauriciodelamaza/asia';
 
 const videos = [
-  { id: 'GKEr0SGhvoQ', title: 'Asia Menor' },
-  { id: 'VlrxPxyfudY', title: 'Manisha' },
+  {
+    id: 'GKEr0SGhvoQ',
+    title: 'Asia Menor',
+    note: 'Asia Menor abre el recorrido con el primer paso hacia Oriente. Sobre un pulso rítmico que evoca el movimiento constante de caravanas y viajeros, la obra reúne lenguajes musicales separados por siglos. Una flauta de lenguaje jazzístico dialoga con escalas orientales, mientras mantras, ululaciones y los rugidos de camellos se integran al paisaje sonoro de las antiguas rutas caravaneras. La pieza no pretende reconstruir la música del siglo IV a. C.; propone una evocación contemporánea del encuentro entre un viajero del mundo mediterráneo y las culturas que iba descubriendo a medida que avanzaba hacia Oriente.',
+  },
+  {
+    id: 'VlrxPxyfudY',
+    title: 'Manisha',
+    note: 'Manisha representa el momento en que el viaje alcanza el subcontinente indio. Su nombre, de origen sánscrito, significa sabiduría o entendimiento profundo. A diferencia del impulso de Asia Menor, esta obra propone una pausa. El ritmo adquiere un carácter sereno, mientras los mantras, las escalas inspiradas en la tradición india y una instrumentación de influencia contemporánea construyen un espacio de contemplación. No es una recreación histórica, sino una evocación de la India como lugar de encuentro entre la espiritualidad, la música y la memoria. Más que continuar el viaje, la pieza invita a habitarlo.',
+  },
 ];
 
 export const metadata: Metadata = {
@@ -178,7 +186,10 @@ export default function AsiaPage() {
                       loading="lazy"
                     />
                   </div>
-                  <figcaption className="mt-3 text-center font-headline text-lg font-medium text-accent">
+                  <p className="mt-4 text-base leading-relaxed text-foreground/80 text-pretty">
+                    {video.note}
+                  </p>
+                  <figcaption className="mt-3 text-center font-headline text-lg font-medium italic text-accent">
                     {video.title}
                   </figcaption>
                 </figure>
