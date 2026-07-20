@@ -52,6 +52,13 @@ export const musicCategories: MusicCategory[] = [
     image: '/images/campanas-cover.jpg',
     href: '/musica/pinceladas-mexicanas',
   },
+  {
+    id: 'asia',
+    title: 'Asia',
+    description: 'El mundo que un macedonio descubrió con Alejandro Magno',
+    image: '/images/asia-cover.jpg',
+    href: '/musica/asia',
+  },
 ];
 
 export const socialLinks: SocialLink[] = [
