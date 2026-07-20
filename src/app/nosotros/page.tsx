@@ -184,12 +184,12 @@ export default function NosotrosPage() {
                             {/* Left Column */}
                             <div className="col-span-1 space-y-4">
                                 {scienceImage && (
-                                    <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
+                                    <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
                                         <Image
                                             src={scienceImage.imageUrl}
                                             alt={scienceImage.description}
                                             fill
-                                            className="object-cover object-right"
+                                            className="object-cover object-center"
                                             data-ai-hint={scienceImage.imageHint}
                                         />
                                     </div>
