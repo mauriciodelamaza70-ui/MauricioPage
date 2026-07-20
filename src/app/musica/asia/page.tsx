@@ -50,7 +50,32 @@ type Block =
   | { type: 'beat'; text: string }
   | { type: 'quote'; text: string };
 
-const essay: Block[] = [];
+const essay: Block[] = [
+  {
+    type: 'beat',
+    text: 'Algunas obras nacen de un lugar. Otras, de un momento de la historia.',
+  },
+  {
+    type: 'p',
+    text: 'Asia nació de una pregunta sencilla: ¿qué habría ofrecido el Asia del mundo clásico a un visitante macedonio durante las campañas de Alejandro Magno?',
+  },
+  {
+    type: 'p',
+    text: 'En esta obra, Asia se entiende en el sentido geográfico del mundo antiguo. Aunque Plinio el Viejo escribió más de cuatro siglos después de Alejandro, la concepción de Asia que presenta en su Historia Natural conserva una visión muy cercana a la que inspira este proyecto: el gran corredor que se extiende desde Asia Menor hasta el valle del Indo, donde durante siglos convergieron las tradiciones mediterráneas, persas, centroasiáticas e indias.',
+  },
+  {
+    type: 'p',
+    text: 'La música propone un recorrido por ese mismo corredor. La orquesta occidental dialoga con instrumentos de la India, mantras, sonoridades inspiradas en las antiguas rutas caravaneras, una flauta de jazz e incluso ritmos contemporáneos. No pretende reconstruir el sonido del siglo IV antes de nuestra era. Busca imaginar el encuentro entre un viajero del mundo mediterráneo y las culturas que iba descubriendo a medida que avanzaba hacia Oriente. Como toda tradición viva, aquellas culturas se transformaban continuamente mediante el intercambio, y esa misma idea de encuentro constituye el eje de esta obra.',
+  },
+  {
+    type: 'p',
+    text: 'La portada nació de la misma convicción. Fue realizada íntegramente en Photoshop, antes de la aparición de la inteligencia artificial, y construida a partir de elementos cuya continuidad histórica permite evocar aquel paisaje humano: camellos bactrianos, un paisaje árido y el horizonte de las antiguas caravanas. El rostro que preside la portada evoca a los pueblos del Hindu Kush, la región montañosa situada entre los actuales Afganistán y Pakistán que Alejandro atravesó antes de llegar al valle del Indo. No retrata a nadie en particular; es una evocación de ese territorio y de quienes lo habitaron hace más de dos mil años.',
+  },
+  {
+    type: 'p',
+    text: 'Asia es, en última instancia, una evocación artística del mundo que un macedonio pudo descubrir durante las campañas de Alejandro Magno: un espacio donde el Mediterráneo, Persia, Asia Central y la India entraron en contacto de una manera que transformó profundamente la historia de esas regiones. Como la propia ruta que inspira esta obra, la música también es un viaje: una conversación entre culturas, entre épocas y entre memorias que continúan dialogando hasta el presente.',
+  },
+];
 
 export default function AsiaPage() {
   const jsonLd = {
