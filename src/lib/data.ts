@@ -89,7 +89,7 @@ export const musicLinks: SocialLink[] = [
 ];
 
 export const biography = {
-  role: "Cineasta y compositor",
+  role: "Cineasta, compositor y biólogo evolutivo",
   short: "Explorando aquello que no siempre es visible: la culpa, la memoria, el miedo, el deseo y la conciencia moral.",
   intro: "El trabajo de Mauricio de la Maza-Benignos nace de una inquietud esencial: explorar aquello que no siempre es visible, pero que determina nuestras decisiones — la culpa, la memoria, el miedo, el deseo y la conciencia moral.",
   content: [
