@@ -65,6 +65,7 @@ export const musicCategories: MusicCategory[] = [
     description: 'Una alegría que no necesitó ser fabricada',
     image: '/images/nacieron-los-perritos-cover.jpg',
     href: '/musica/nacieron-los-perritos',
+    objectPosition: '25% center',
   },
 ];
 

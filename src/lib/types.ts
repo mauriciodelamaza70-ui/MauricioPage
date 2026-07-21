@@ -85,6 +85,7 @@ export type MusicCategory = {
   description: string;
   image: string;
   href: string;
+  objectPosition?: string;
 };
 
 export type Movie = {
