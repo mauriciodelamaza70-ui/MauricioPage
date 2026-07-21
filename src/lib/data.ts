@@ -59,6 +59,14 @@ export const musicCategories: MusicCategory[] = [
     image: '/images/asia-cover.jpg',
     href: '/musica/asia',
   },
+  {
+    id: 'nacieron-los-perritos',
+    title: 'Nacieron los perritos',
+    description: 'Una alegría que no necesitó ser fabricada',
+    image: '/images/nacieron-los-perritos-cover.jpg',
+    href: '/musica/nacieron-los-perritos',
+    objectPosition: '25% center',
+  },
 ];
 
 export const socialLinks: SocialLink[] = [
@@ -409,7 +417,7 @@ export const posts: Post[] = [
 <img src="/images/eco2.jpg" alt="Miembros del Consejo Técnico" class="my-6 rounded-lg shadow-md" />
 <p><em>Imagen: Asociación Ecológica de la Sierra de Picachos</em></p>
 <p>Durante la ceremonia, se reconoció la importancia de cuidar la reserva de bosques, flora y fauna de esta Área Natural Protegida, así como la gran aportación de recursos naturales que provee al estado de Nuevo León, puesto que su superficie de 99,432 hectáreas, sumadas a las 75,872.55 hectáreas que se decretaron anteriormente, abarca los municipios de Doctor González, Agualeguas, Cerralvo, Higueras, Marín, Zuazua, Sabinas Hidalgo y Salinas Victoria.</p>
-<p>Alfonso Barragán, presidente de la Asociación Ecológica Sierra de Picachos, reconoció el beneficio del establecimiento del Consejo, que preservará el desarrollo sustentable del ecosistema y generará riqueza de recursos naturales.</p>
+<p>Alfonso Barragán, presidente de la Asociaci��n Ecológica Sierra de Picachos, reconoció el beneficio del establecimiento del Consejo, que preservará el desarrollo sustentable del ecosistema y generará riqueza de recursos naturales.</p>
 <img src="/images/eco3.jpg" alt="Alfonso Barragán" class="my-6 rounded-lg shadow-md" />
 <p><em>Imagen: Asociación Ecológica de la Sierra de Picachos</em></p>
 <p>De igual forma, se busca proteger la zona de actividades como excavaciones industriales y construcciones; promoviendo así el tursimo, las actividades recreativas sostenibles y acciones beneficiosas para el ecosistema. Un ejemplo de esto último, fue la liberación de dos águilas Harris, dos aguilillas grises y una lechuza que realizó el ambientalista Rodrigo Munrro durante la reunión.</p>

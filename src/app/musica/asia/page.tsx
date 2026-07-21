@@ -226,6 +226,17 @@ export default function AsiaPage() {
                       loading="lazy"
                     />
                   </div>
+                  <div className="mt-4 text-center">
+                    <Link
+                      href={PLATFORMS_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 text-xs text-muted-foreground underline-offset-4 transition-colors hover:text-accent hover:underline"
+                    >
+                      <Music className="h-3.5 w-3.5" aria-hidden="true" />
+                      Escuchar en todas las plataformas
+                    </Link>
+                  </div>
                   <p className="mt-4 text-base leading-relaxed text-foreground/80 text-pretty">
                     {video.note}
                   </p>
@@ -234,19 +245,6 @@ export default function AsiaPage() {
                   </figcaption>
                 </figure>
               ))}
-            </div>
-
-            {/* Botón único de plataformas */}
-            <div className="text-center">
-              <Link
-                href={PLATFORMS_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 text-xs text-muted-foreground underline-offset-4 transition-colors hover:text-accent hover:underline"
-              >
-                <Music className="h-3.5 w-3.5" aria-hidden="true" />
-                Escuchar en todas las plataformas
-              </Link>
             </div>
 
             {/* Volver a Música */}
