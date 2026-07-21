@@ -29,6 +29,7 @@ export default function MusicaPage() {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {musicCategories.map((category) => (
+            // Cada tarjeta usa category.image definido en data.ts
             <Link
               key={category.id}
               href={category.href}
