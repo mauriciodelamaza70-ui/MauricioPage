@@ -70,8 +70,9 @@ const tracks: Track[] = [
     imageAlt: 'Pinche Punk — portada del sencillo de Mauricio de la Maza feat. Ana González',
     videoId: '8hqyaiI2EGk',
     platformsUrl: 'https://distrokid.com/hyperfollow/mauriciodelamaza/pinche-punk-feat-ana-gonzlez',
-    featuring: 'Featuring Ana González',
-    reviewQuote: '',
+    featuring: 'Con la participación de Ana González',
+    reviewQuote:
+      '«Pinche Punk, de Mauricio de la Maza, ofrece una combinación convincente de letras afiladas y una producción pulida que captura la atención del oyente de inmediato. El intrincado juego de palabras y las imágenes evocadoras de la pieza están a la altura de un paisaje sonoro seguro de sí mismo que invita a escuchas repetidas...»',
     essayBeforeVideo: false,
   },
   {
