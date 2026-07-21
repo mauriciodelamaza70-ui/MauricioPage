@@ -47,7 +47,28 @@ type Block =
   | { type: 'beat'; text: string }
   | { type: 'quote'; text: string };
 
-const essay: Block[] = [];
+const essay: Block[] = [
+  {
+    type: 'quote',
+    text: 'Alguien cercano me hizo una pregunta que se quedó rondando: con todo ese talento, ¿por qué nunca haces algo bonito?',
+  },
+  {
+    type: 'p',
+    text: 'Mi primera respuesta fue técnica: claro que puedo. Entiendo las estructuras; puedo replicar cualquiera de ellas, incluida la de la alegría convencional. Pero enseguida entendí que eso habría sido una ilustración, no una obra. Repetir el código de la felicidad no es lo mismo que sentirla.',
+  },
+  {
+    type: 'p',
+    text: 'Así que hice algo que no suelo hacer: en vez de reflejar una emoción que ya estaba viviendo, salí a buscar una, deliberadamente. Pensé en los pocos momentos que despiertan en mí una felicidad legítima, sin reservas — y llegué a lo que más respeto en este mundo: un ser vivo incorporándose a él.',
+  },
+  {
+    type: 'p',
+    text: 'No hubo análisis esta vez. No hubo sonograma, ni fuente que destilar, ni estructura que reconstruir. Solo una perra con su camada, y la certeza de que ese instante no necesitaba nada más.',
+  },
+  {
+    type: 'beat',
+    text: 'Es, quizás, la pieza más simple de todo mi catálogo. Y por eso mismo, la más honesta.',
+  },
+];
 
 export default function NacieronLosPerritosPage() {
   const jsonLd = {
