@@ -67,6 +67,13 @@ export const musicCategories: MusicCategory[] = [
     href: '/musica/nacieron-los-perritos',
     objectPosition: '25% center',
   },
+  {
+    id: 'post-punk',
+    title: 'Post-Punk',
+    description: 'Pinche Punk y Dulce Sensación',
+    image: '/images/pinche-punk-cover.jpg',
+    href: '/musica/post-punk',
+  },
 ];
 
 export const socialLinks: SocialLink[] = [
