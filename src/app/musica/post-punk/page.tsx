@@ -43,8 +43,13 @@ type Block =
   | { type: 'beat'; text: string }
   | { type: 'quote'; text: string };
 
-// Texto introductorio conjunto de la sección (pendiente de recibir).
-const intro: Block[] = [];
+// Texto introductorio conjunto de la sección.
+const intro: Block[] = [
+  {
+    type: 'p',
+    text: 'Pinche Punk y Dulce Sensación parten del vocabulario del post-punk —bajos melódicos, repetición hipnótica y tensión sostenida—, pero lo trasladan a una producción dominada por sintetizadores. Más que reconstruir un sonido histórico, ambas piezas exploran los mecanismos que hicieron del post-punk un lenguaje expresivo, desplazando sus funciones tradicionales: en Pinche Punk, la voz dialoga con el bajo como eje narrativo; en Dulce Sensación, esa misma función vocal es asumida por un órgano Hammond. En ambos casos, el resultado busca una relectura contemporánea de ese lenguaje.',
+  },
+];
 
 type Track = {
   id: string;
@@ -82,7 +87,28 @@ const tracks: Track[] = [
     imageAlt: 'Dulce Sensación — portada del sencillo de Mauricio de la Maza',
     videoId: '6Ii2-JAcJWs',
     platformsUrl: 'https://distrokid.com/hyperfollow/mauriciodelamaza/dulce-sensacin',
-    essay: [],
+    essay: [
+      {
+        type: 'p',
+        text: 'Dulce Sensación es una pieza instrumental construida sobre un pulso de synth bass constante y una batería con gated reverb, en clave de Mi menor, a 122 pulsaciones por minuto. Su textura pertenece a un lenguaje synthwave de tonalidad oscura: sintetizadores atmosféricos, un ritmo propulsivo y sostenido, y una energía que no estalla sino que se acumula por capas, como una tensión que crece sin descargarse del todo.',
+      },
+      {
+        type: 'p',
+        text: 'La pieza nació con letra y melodía vocal, escrita originalmente para una escena de antro —cuerpo, mirada, cesión— bajo el título Mera Tentación. La urgencia de la producción impidió grabar la voz. En su lugar, un órgano Hammond, configurado deliberadamente en su registro más alejado de lo coral, ocupó el espacio que la voz debía habitar. Lo que iba a cantarse quedó tocado: la melodía persiste, pero despojada de su cuerpo humano, sustituida por un instrumento históricamente asociado a lo litúrgico y lo comunitario, ahora vaciado de esa función y puesto al servicio de algo más frío, más nocturno, más solitario.',
+      },
+      {
+        type: 'p',
+        text: 'La letra —que nunca se cantó, pero que sigue ahí, debajo, dictando el fraseo del Hammond— describe una progresión precisa: ruido lento sobre la piel, roce, sugestión, la mirada que primero nadie da y luego todos dan, el fuego que sube, la cesión, la caída. Es una coreografía verbal del cuerpo ante el deseo colectivo, escrita para el espacio físico de un club, con una métrica pensada para el pulso antes que para el oído.',
+      },
+      {
+        type: 'p',
+        text: 'Dulce Sensación es, entonces, una canción que se negó a sí misma la voz. No por censura ni por accidente, sino por la misma lógica que atraviesa el resto de mi trabajo: un fundamento riguroso —composición, letra, arreglo y teoría— seguido siempre de una torsión deliberada que lo desvía de su forma esperada. Lo que debía cantarse, se toca. Lo que debía ser coral, se vuelve íntimo. Lo que debía resolverse, permanece en tensión.',
+      },
+      {
+        type: 'p',
+        text: 'La imagen que acompaña la pieza sigue la misma lógica que su construcción sonora. Su referencia no es la iconografía del post-punk, sino un registro pictórico contemporáneo a la misma época: la carnalidad cruda y sin idealizar de Lucian Freud, esa pincelada densa que trata el cuerpo como materia antes que como representación. Esa fidelidad al gesto pictórico, a la textura y a la mirada frontal queda, sin embargo, atravesada por una herramienta que no pertenece ni a ese tiempo ni a ese oficio. La imagen no pretende ser un cuadro de Freud ni una reconstrucción documental de los años ochenta; pretende comportarse como uno, del mismo modo en que el Hammond se comporta como una voz que nunca llegó a sonar. En ambos casos, la sustitución no busca ocultar una ausencia, sino convertirla en parte de la obra. La ausencia de voz es, por ahora, la forma que tomó la pieza; no necesariamente su forma definitiva.',
+      },
+    ],
     essayBeforeVideo: true,
   },
 ];
