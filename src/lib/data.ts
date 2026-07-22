@@ -268,6 +268,75 @@ export const projects: Project[] = [
 
 export const posts: Post[] = [
   {
+    id: 'post-del-enjambre-y-la-sed',
+    slug: 'del-enjambre-y-la-sed',
+    title: 'Del enjambre y la sed',
+    date: '21 de Julio, 2026',
+    excerpt:
+      'Un diálogo entre Arturo e Indalecio sobre el juicio, la velocidad y la diferencia entre pensar como sociedad y reaccionar como enjambre.',
+    category: 'Artículos',
+    author: 'Mauricio de la Maza-Benignos',
+    imageId: 'blog-enjambre-cover',
+    heroImageId: 'blog-enjambre-hero',
+    content: `
+<p><em>Jardín, tarde. Una mesa, dos sillas, un vaso de agua entre ambos que ninguno ha tocado todavía.</em></p>
+
+<p><strong>ARTURO:</strong> Me preocupa algo, Indalecio. Las nuevas generaciones no están desarrollando bien el juicio. Actúan por impulso. Todo es a favor o en contra. No hay término medio.</p>
+
+<p><strong>INDALECIO:</strong> Cuidado, Arturo. Esa misma objeción aparece ya en Platón, cuando pone en boca de Sócrates sus reparos sobre la escritura: dijo que debilitaría la memoria y el pensamiento genuino de los jóvenes. Cada generación cree descubrir la decadencia de la que sigue. Antes de darte la razón, tengo que sospechar de la forma de tu queja.</p>
+
+<p><strong>ARTURO:</strong> Sospecha, entonces. Pero no me retires el fondo tan rápido. Yo no digo que no puedan pensar bien. Digo que las estructuras que habitan les limitan la ocasión de ejercitarlo. No es un defecto de la persona. Es un defecto del terreno donde camina.</p>
+
+<p><strong>INDALECIO:</strong> Ah. Eso es distinto, y en eso te doy la razón sin pelear. Un <em>like</em>, un <em>trending topic</em>, una reacción binaria en una pantalla: son señales que premian la postura inmediata sobre la duda sostenida. Y sostener la duda —decir «todavía no sé»— es, literalmente, el músculo central del pensamiento crítico. Si el entorno entero castiga ese músculo por desuso, no es extraño que se atrofie. No por incapacidad. Por falta de práctica.</p>
+
+<p><strong>ARTURO:</strong> Entonces estamos de acuerdo en el diagnóstico. Pero hay algo más fino todavía: el problema no es la rapidez en sí. Decidir si vas por un vaso de agua no necesita deliberación. Decidir una postura que va a marcar el resto de tu vida, sí. El fallo no es pensar rápido. Es no saber cuándo corresponde actuar rápido y cuándo corresponde pensar.</p>
+
+<p><strong>INDALECIO:</strong> La calibración de la proporción. Eso no se aprende leyendo; se aprende pagando el precio de una mala decisión tomada por impulso. Y ese precio, Arturo, tú ya lo pagaste hace décadas. Es posible que confundas la falta de kilometraje ajeno con la falta de capacidad. No es lo mismo no haber recorrido el camino que ser incapaz de recorrerlo.</p>
+
+<p><strong>ARTURO:</strong> Concedido. Pero entonces dime tú: si no es cuestión de capacidad ni de generación, ¿qué somos, Indalecio? ¿Sociedad o enjambre de abejas?</p>
+
+<p><strong>INDALECIO:</strong> Formúlalo bien antes de que te responda, porque la pregunta esconde una trampa: asume que hay que elegir.</p>
+
+<p><strong>ARTURO:</strong> Formúlalo tú, entonces.</p>
+
+<p><strong>INDALECIO:</strong> Una sociedad delibera. Tiene instituciones, cortes, contratos y tiempo de procesamiento entre el estímulo y la acción colectiva. Ese tiempo no es un defecto de diseño: es la fricción que hace posible el disenso, y el disenso es lo que hace posible la libertad. Un enjambre, en cambio, no delibera nada. Cada abeja reacciona a una feromona que dejó otra abeja y, de miles de reacciones locales, sin que nadie lo decida, emerge una forma. Nadie vota la forma del enjambre. Surge sola.</p>
+
+<p><strong>ARTURO:</strong> El <em>like</em> es la feromona.</p>
+
+<p><strong>INDALECIO:</strong> El <em>like</em> es la feromona. El algoritmo es el viento que la dispersa. Y la postura sin matices —a favor, en contra— es la reacción química de la abeja al rastro, no el veredicto razonado de la colmena entera.</p>
+
+<img src="/images/colmenas.png" alt="Colmenas al atardecer junto a un campo de melones, con abejas entrando y saliendo" class="my-6 rounded-lg shadow-md" />
+
+<p><strong>ARTURO:</strong> ¿Entonces dejamos de ser sociedad?</p>
+
+<p><strong>INDALECIO:</strong> No. Las cortes siguen ahí. Los contratos se siguen firmando. La maquinaria deliberativa no ha desaparecido: sigue funcionando por debajo. Lo que ha cambiado es que se le montó encima una capa de comportamiento de enjambre, mucho más veloz, que decide cada vez más cosas antes de que la maquinaria lenta tenga tiempo de intervenir. No hemos dejado de ser sociedad. Pero la proporción de nuestras decisiones que pasan por deliberación real, frente a las que pasan por reacción de enjambre, se está inclinando.</p>
+
+<p><strong>ARTURO:</strong> Entonces te doy mi respuesta completa, Indalecio, y no es «ni una cosa ni la otra» por cobardía de no elegir bando. Es esto: la idea de la eficiencia absoluta conduce, sin excepción, al enjambre. La idea de la libertad conduce, sin excepción, a la sociedad. Y el problema no es cuál de las dos elegimos de una vez y para siempre. El problema es si el individuo tiene la conciencia de saber, en cada momento, en cuál de las dos está parado.</p>
+
+<p><strong>INDALECIO:</strong> ¿Qué traes guardado?</p>
+
+<p><strong>ARTURO:</strong> Si me peleo con el agua y la veto por completo, muero de sed. Si la abrazo sin crítica, me ahogo en ella.</p>
+
+<p><strong>INDALECIO:</strong> Esa es la respuesta entera, Arturo, y no admite mejora teórica. No es un punto medio cómodo entre dos extremos, que sería otra forma de pereza disfrazada de sabiduría. Es preguntar, cada vez, cuánta agua, en qué momento, con qué propósito; sin que ninguna respuesta anterior te ahorre la pregunta la próxima vez.</p>
+
+<p><strong>ARTURO:</strong> Es agotador vivir así.</p>
+
+<p><strong>INDALECIO:</strong> Es agotador. La abeja no se cansa: reacciona y ya. Solo lo que delibera se cansa de deliberar. Pero es la única forma humana de existir y estar despierto, que no termina, tarde o temprano, en la muerte por sed o en el ahogo.</p>
+
+<p><em>(Indalecio toma el vaso de agua. Bebe, esta vez, la mitad. Deja la otra mitad sobre la mesa.)</em></p>
+
+<p><strong>INDALECIO:</strong> Para después.</p>
+
+<hr />
+
+<p><strong>Nota al pie —</strong> El <em>Fedro</em> de Platón advierte contra la escritura por boca de Sócrates, y nos llega solo porque Platón la fijó por escrito. Este texto incurre en la misma contradicción, a sabiendas: un diálogo escrito que advierte contra la fijación, valiéndose de la forma fija para hacerlo. No es un desliz que corregir ni una paradoja que resolver aquí. Es, con toda intención, la misma que enfrentamos cualquiera de nosotros: las cuotas que deciden antes de que el caso llegue, las funas que ejecutan sin proceso, el rechazo o la adopción de una tecnología por doctrina y no por examen. Ninguno de esos casos se resuelve en este texto, porque resolverlos de antemano sería la misma pereza que aquí se señala. El gesto de Indalecio —beber la mitad, dejar la otra «para después»— es también el del texto: no describe qué hacer con el resto del agua.</p>
+
+<img src="/images/vaso-abejas.png" alt="Un vaso de agua bebido hasta la mitad con una abeja flotando, junto a tres abejas bebiendo de un charco al atardecer" class="my-6 rounded-lg shadow-md" />
+
+<p><em>Mauricio de la Maza-Benignos</em></p>
+`,
+  },
+  {
     id: 'post-por-que-compongo',
     slug: 'por-que-compongo',
     title: 'Por qué compongo',

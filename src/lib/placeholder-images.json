@@ -409,6 +409,18 @@
       "imageHint": "filmmaker in action"
     },
     {
+      "id": "blog-enjambre-cover",
+      "description": "Un vaso de agua bebido hasta la mitad con una abeja flotando, junto a tres abejas bebiendo de un charco al atardecer",
+      "imageUrl": "/images/vaso-abejas.png",
+      "imageHint": "glass water bees"
+    },
+    {
+      "id": "blog-enjambre-hero",
+      "description": "Dos hombres conversando en una mesa rústica bajo un árbol, con un campo de melones y colmenas al fondo",
+      "imageUrl": "/images/mesa-agora.png",
+      "imageHint": "two men conversation"
+    },
+    {
       "id": "science-mauricio",
       "description": "Mauricio de la Maza-Benignos junto a sus coautoras al recibir el Premio de Investigación UANL 2015",
       "imageUrl": "/images/premio-investigacion-uanl-2015.jpg",
