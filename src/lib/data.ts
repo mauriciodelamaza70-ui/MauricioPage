@@ -327,11 +327,11 @@ export const posts: Post[] = [
 
 <p><strong>INDALECIO:</strong> Para después.</p>
 
+<img src="/images/vaso-abejas.png" alt="Un vaso de agua bebido hasta la mitad con una abeja flotando, junto a tres abejas bebiendo de un charco al atardecer" class="my-6 rounded-lg shadow-md" />
+
 <hr />
 
 <p><strong>Nota al pie —</strong> El <em>Fedro</em> de Platón advierte contra la escritura por boca de Sócrates, y nos llega solo porque Platón la fijó por escrito. Este texto incurre en la misma contradicción, a sabiendas: un diálogo escrito que advierte contra la fijación, valiéndose de la forma fija para hacerlo. No es un desliz que corregir ni una paradoja que resolver aquí. Es, con toda intención, la misma que enfrentamos cualquiera de nosotros: las cuotas que deciden antes de que el caso llegue, las funas que ejecutan sin proceso, el rechazo o la adopción de una tecnología por doctrina y no por examen. Ninguno de esos casos se resuelve en este texto, porque resolverlos de antemano sería la misma pereza que aquí se señala. El gesto de Indalecio —beber la mitad, dejar la otra «para después»— es también el del texto: no describe qué hacer con el resto del agua.</p>
-
-<img src="/images/vaso-abejas.png" alt="Un vaso de agua bebido hasta la mitad con una abeja flotando, junto a tres abejas bebiendo de un charco al atardecer" class="my-6 rounded-lg shadow-md" />
 
 <p><em>Mauricio de la Maza-Benignos</em></p>
 `,
