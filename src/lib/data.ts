@@ -279,6 +279,8 @@ export const posts: Post[] = [
     imageId: 'blog-enjambre-cover',
     heroImageId: 'blog-enjambre-hero',
     content: `
+<p><strong>English below</strong></p>
+
 <p><em>Jardín, tarde. Una mesa, dos sillas, un vaso de agua entre ambos que ninguno ha tocado todavía.</em></p>
 
 <p><strong>ARTURO:</strong> Me preocupa algo, Indalecio. Las nuevas generaciones no están desarrollando bien el juicio. Actúan por impulso. Todo es a favor o en contra. No hay término medio.</p>
@@ -332,6 +334,68 @@ export const posts: Post[] = [
 <hr />
 
 <p><strong>Nota al pie —</strong> El <em>Fedro</em> de Platón advierte contra la escritura por boca de Sócrates, y nos llega solo porque Platón la fijó por escrito. Este texto incurre en la misma contradicción, a sabiendas: un diálogo escrito que advierte contra la fijación, valiéndose de la forma fija para hacerlo. No es un desliz que corregir ni una paradoja que resolver aquí. Es, con toda intención, la misma que enfrentamos cualquiera de nosotros: las cuotas que deciden antes de que el caso llegue, las funas que ejecutan sin proceso, el rechazo o la adopción de una tecnología por doctrina y no por examen. Ninguno de esos casos se resuelve en este texto, porque resolverlos de antemano sería la misma pereza que aquí se señala. El gesto de Indalecio —beber la mitad, dejar la otra «para después»— es también el del texto: no describe qué hacer con el resto del agua.</p>
+
+<p><em>Mauricio de la Maza-Benignos</em></p>
+
+<hr class="my-12" />
+
+<h2>Of the Swarm and Thirst</h2>
+<p><em>English version</em></p>
+<p><em>A Dialogue Between Arturo and Indalecio</em></p>
+
+<p><em>A garden, late afternoon. A table, two chairs, a glass of water between them that neither has touched yet.</em></p>
+
+<p><strong>ARTURO:</strong> Something worries me, Indalecio. The younger generations aren't developing good judgment. They act on impulse. Everything is for or against. There's no middle ground.</p>
+
+<p><strong>INDALECIO:</strong> Careful, Arturo. That same objection already appears in Plato, when he puts his misgivings about writing into Socrates' mouth: he said it would weaken memory and the genuine thought of the young. Every generation believes it has discovered the decline of the one that follows. Before I grant you the point, I have to be suspicious of the shape of your complaint.</p>
+
+<p><strong>ARTURO:</strong> Be suspicious, then. But don't pull the substance out from under me so fast. I'm not saying they can't think well. I'm saying the structures they inhabit limit their occasion to exercise it. It's not a defect of the person. It's a defect of the ground they walk on.</p>
+
+<p><strong>INDALECIO:</strong> Ah. That's different, and there I concede without a fight. A <em>like</em>, a <em>trending topic</em>, a binary reaction on a screen: these are signals that reward the immediate stance over sustained doubt. And sustaining doubt —saying "I still don't know"— is, literally, the central muscle of critical thought. If the whole environment punishes that muscle through disuse, it's no surprise it atrophies. Not from incapacity. From lack of practice.</p>
+
+<p><strong>ARTURO:</strong> So we agree on the diagnosis. But there's something even finer here: the problem isn't speed itself. Deciding whether to get a glass of water doesn't need deliberation. Deciding a position that will mark the rest of your life does. The failure isn't thinking fast. It's not knowing when it's right to act fast and when it's right to think.</p>
+
+<p><strong>INDALECIO:</strong> Calibrating the proportion. You don't learn that by reading; you learn it by paying the price of a bad decision made on impulse. And that price, Arturo, you already paid decades ago. It's possible you're confusing someone else's lack of mileage with a lack of capacity. Not having walked the road yet isn't the same as being incapable of walking it.</p>
+
+<p><strong>ARTURO:</strong> Granted. But then tell me: if it's not a matter of capacity or generation, what are we, Indalecio? Society, or a swarm of bees?</p>
+
+<p><strong>INDALECIO:</strong> Word it carefully before I answer, because the question hides a trap: it assumes you have to choose.</p>
+
+<p><strong>ARTURO:</strong> You word it, then.</p>
+
+<p><strong>INDALECIO:</strong> A society deliberates. It has institutions, courts, contracts, and processing time between the stimulus and the collective action. That time isn't a design flaw: it's the friction that makes dissent possible, and dissent is what makes freedom possible. A swarm, on the other hand, deliberates nothing. Each bee reacts to a pheromone another bee left behind, and out of thousands of local reactions, with no one deciding it, a shape emerges. No one votes on the shape of the swarm. It arises on its own.</p>
+
+<p><strong>ARTURO:</strong> The <em>like</em> is the pheromone.</p>
+
+<p><strong>INDALECIO:</strong> The <em>like</em> is the pheromone. The algorithm is the wind that disperses it. And the stance without nuance —for, against— is the bee's chemical reaction to the trail, not the reasoned verdict of the whole hive.</p>
+
+<img src="/images/colmenas.png" alt="Beehives at sunset beside a melon field, with bees flying in and out" class="my-6 rounded-lg shadow-md" />
+
+<p><strong>ARTURO:</strong> So have we stopped being a society?</p>
+
+<p><strong>INDALECIO:</strong> No. The courts are still there. Contracts are still being signed. The deliberative machinery hasn't disappeared: it keeps running underneath. What's changed is that a layer of swarm behavior has been mounted on top of it, far faster, deciding more and more things before the slow machinery has time to step in. We haven't stopped being a society. But the proportion of our decisions that pass through real deliberation, versus those that pass through swarm reaction, is tipping.</p>
+
+<p><strong>ARTURO:</strong> Then I'll give you my full answer, Indalecio, and it isn't "neither one nor the other" out of cowardice, out of refusing to pick a side. It's this: the idea of absolute efficiency leads, without exception, to the swarm. The idea of freedom leads, without exception, to society. And the problem isn't which of the two we choose once and for all. The problem is whether the individual has the awareness to know, in each moment, which of the two they're standing in.</p>
+
+<p><strong>INDALECIO:</strong> What are you holding back?</p>
+
+<p><strong>ARTURO:</strong> If I fight the water and reject it entirely, I die of thirst. If I embrace it without judgment, I drown in it.</p>
+
+<p><strong>INDALECIO:</strong> That's the whole answer, Arturo, and it admits no theoretical improvement. It isn't a comfortable middle point between two extremes, which would just be another form of laziness dressed up as wisdom. It's asking, every time, how much water, at what moment, for what purpose; with no previous answer sparing you the question the next time.</p>
+
+<p><strong>ARTURO:</strong> It's exhausting to live like that.</p>
+
+<p><strong>INDALECIO:</strong> It's exhausting. The bee doesn't get tired: it reacts, and that's it. Only what deliberates grows tired of deliberating. But it's the only human way to exist and stay awake, one that doesn't end, sooner or later, in death by thirst or in drowning.</p>
+
+<p><em>(Indalecio picks up the glass of water. This time, he drinks half. He leaves the other half on the table.)</em></p>
+
+<p><strong>INDALECIO:</strong> For later.</p>
+
+<img src="/images/vaso-abejas.png" alt="A glass of water drunk to the halfway point with a bee floating in it, beside three bees drinking from a puddle at sunset" class="my-6 rounded-lg shadow-md" />
+
+<hr />
+
+<p><strong>Footnote —</strong> Plato's <em>Phaedrus</em> warns against writing through the mouth of Socrates, and it reaches us only because Plato fixed it in writing. This text falls into the same contradiction, knowingly: a written dialogue warning against fixation, relying on fixed form to do it. That isn't a slip to correct or a paradox to resolve here. It is, quite deliberately, the same one each of us faces: the quotas that decide before the case arrives, the pile-ons that execute without process, the rejection or adoption of a technology by doctrine rather than by examination. None of those cases gets resolved in this text, because resolving them in advance would be the very laziness this text points to. Indalecio's gesture —drinking half, leaving the other half "for later"— is also the text's own: it doesn't tell you what to do with the rest of the water.</p>
 
 <p><em>Mauricio de la Maza-Benignos</em></p>
 `,
