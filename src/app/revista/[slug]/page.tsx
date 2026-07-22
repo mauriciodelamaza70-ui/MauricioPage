@@ -103,6 +103,7 @@ export default async function PostPage({ params }: PageProps) {
   }
 
   const postImage = PlaceHolderImages.find((p) => p.id === post.imageId);
+  const heroImage = PlaceHolderImages.find((p) => p.id === (post.heroImageId ?? post.imageId));
   const postUrl = `${siteConfig.url}/revista/${slug}`;
   const imageUrl = getAbsoluteImageUrl(postImage?.imageUrl);
 
@@ -146,14 +147,14 @@ export default async function PostPage({ params }: PageProps) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <section className="relative h-[50vh] min-h-[400px] w-full text-white">
-        {postImage && (
+        {heroImage && (
             <Image
-              src={postImage.imageUrl}
+              src={heroImage.imageUrl}
               alt={post.title}
               fill
               className="object-cover"
               priority
-              data-ai-hint={postImage.imageHint}
+              data-ai-hint={heroImage.imageHint}
             />
         )}
         <div className="absolute inset-0 bg-black/60" />
@@ -162,7 +163,7 @@ export default async function PostPage({ params }: PageProps) {
               {post.title}
             </h1>
             <p className="mt-4 text-lg text-gray-300">
-                Por: De la Maza Team / {post.date}
+                Por: {post.author ?? 'De la Maza Team'} / {post.date}
             </p>
         </div>
       </section>

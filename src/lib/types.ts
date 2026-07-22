@@ -43,6 +43,10 @@ export type Post = {
   excerpt: string;
   content: string;
   imageId: string;
+  /** Imagen del hero del artículo; si no se define, se usa imageId. */
+  heroImageId?: string;
+  /** Autor mostrado en el byline; si no se define, se usa "De la Maza Team". */
+  author?: string;
   category: 'Artículos' | 'Colaboradores' | 'Entrevistas' | 'Noticias';
 };
 
