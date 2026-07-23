@@ -95,6 +95,7 @@ export default function NosotrosPage() {
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-8">
+                  {/* Tarjetas de cine de ficción desde featuredMovies */}
                   {featuredMovies.map((movie) => (
                     <Card key={movie.id} className="bg-background border-none shadow-none group">
                       <CardContent className="p-0 space-y-4">
