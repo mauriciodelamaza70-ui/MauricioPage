@@ -199,6 +199,19 @@ export const featuredMovies: Movie[] = [
     website: 'theshoe.info',
     imdb: 'https://www.imdb.com/title/tt36605107/',
     poster: '/images/El zapato.png'
+  },
+  {
+  id: 'makhaira-2026',
+  title: 'EL GRAN MAKHAIRA',
+  year: '2026',
+  genre: 'Drama / Thriller / Tragedia / Noir',
+  format: 'largometraje',
+  synopsis: 'En un circo underground donde la violencia y el morbo forman parte del espectáculo, Eitán, un célebre lanzador de cuchillos, parece dominar cada aspecto de su mundo...',
+  awards: '',
+  streaming: '',
+  website: 'makhaira.mauriciodelamazabenignos.com',
+  imdb: '',
+  poster: '/images/El gran Makhaira.png'
   }
 ];
 
@@ -763,7 +776,7 @@ export const posts: Post[] = [
 <p>Equipararlo sería atribuir cualidades humanas, como el derecho a la privacidad a una forma de vida tan básica, cuya dignidad no está siendo afectada, pues carece de conciencia moral. Y partiendo de este ejemplo, tal vez absurdo, vale cuestionarse: ¿qué es la privacidad en términos de los seres vivos otros que humanos?</p>
 <p>Y si, conforme a la Real Academia Española, privacidad significa en su segunda acepción: “ámbito de la vida privada que se tiene derecho a proteger de cualquier intromisión”. ¿De qué ámbito estamos hablando cuando nos referimos a los seres vivos otros que humanos?</p>
 <p>El derecho mexicano no reconoce personalidad jurídica ni a la naturaleza ni a los seres vivos otros que humanos; no obstante, estos sí son sujetos de derecho en sí mismos. Sucede algo así como los romanos que tampoco reconocían el carácter de persona (sujeto de derechos y obligaciones) a todos los seres humanos, pues el goce de la personalidad distinguía a los esclavos y las personas libres que se subdividían en ciudadanos y no ciudadanos, así como en ingenuos y libertinos, solo por mencionar algunos ejemplos. También separaba las alieni juris, o sometidas a la autoridad de un jefe, de las sui juris que dependían de ellas mismas.</p>
-<p>Hoy existen en México leyes que buscan resguardar el equilibrio ecológico, así como leyes que procuran la protección y bienestar de los animales que, aunque substancialmente antropocéntricas, tienen como fin proteger a la biodiversidad, brindarle alojamiento, desarrollo natural, salud y evitarle el maltrato, la crueldad, el sufrimiento y la zoofilia, por mencionar algunas. No obstante, por ejemplo, las peleas de gallos o las corridas de toros siguen siendo legales. Vemos nuevamente que, más allá de los citados distingos, dichas leyes de observancia general y sus disposiciones son de orden público e interés social, otorgando la obligación a los seres humanos de “cuidar” a ciertos animales (generalmente se refieren a los domésticos y en menor grado a los de granja), más no les brindan a estos derechos en sentido estricto. Dicha situación, en el campo de la comunicación y la cinematografía nos remite por default a los campos de la deontología y la ética ambiental.</p>
+<p>Hoy existen en México leyes que buscan resguardar el equilibrio ecológico, así como leyes que procuran la protecci��n y bienestar de los animales que, aunque substancialmente antropocéntricas, tienen como fin proteger a la biodiversidad, brindarle alojamiento, desarrollo natural, salud y evitarle el maltrato, la crueldad, el sufrimiento y la zoofilia, por mencionar algunas. No obstante, por ejemplo, las peleas de gallos o las corridas de toros siguen siendo legales. Vemos nuevamente que, más allá de los citados distingos, dichas leyes de observancia general y sus disposiciones son de orden público e interés social, otorgando la obligación a los seres humanos de “cuidar” a ciertos animales (generalmente se refieren a los domésticos y en menor grado a los de granja), más no les brindan a estos derechos en sentido estricto. Dicha situación, en el campo de la comunicación y la cinematografía nos remite por default a los campos de la deontología y la ética ambiental.</p>
 <img src="/images/etica1.jpg" alt="Fotografía por Mauricio de la Maza-Benignos" class="my-6 rounded-lg shadow-md" />
 <p>La ética ambiental es una rama de la filosofía, la cual se refiere a la extensión del constructo ético social hacia el resto de los seres vivos y sus hábitats. Fue inicialmente abordado en la década de los setenta en escritos de pensadores como Aldo Leopold, Garrett Hardin y Lynn White Jr., el último aseverado que la raíz de nuestra crisis ecológica es filosófica.</p>
 <p>Existen corrientes deontológicas de la ética ambiental que limitan a los procesos y elementos naturales de manera independiente al valor utilitario que los seres humanos podemos tener sobre los mismos; y dentro de ésta, corrientes holísticas, as�� como corrientes individualistas, dependiendo de si se coloca a la especie como la unidad fundamental de la vida o de si el valor intrínseco de los seres vivos otros que humanos buscan, como lo hacemos nosotros, su bienestar individual.</p>
