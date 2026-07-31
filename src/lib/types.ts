@@ -122,6 +122,8 @@ export type PressArticle = {
   imagen?: string;
   /** La imagen es una portada de revista vertical: se muestra completa sin recortar. */
   esPortada?: boolean;
+  /** Galería de páginas (portada + interiores) que se despliega al hacer clic en la tarjeta destacada. */
+  galeria?: string[];
   /** Pertenece a la cronología de Cuatro Ciénegas (2018-2023). */
   cuatroCienegas?: boolean;
 };
