@@ -106,3 +106,20 @@ export type Movie = {
   poster: string;
   subtitle?: string;
 };
+
+export type PressCategory = 'Cine' | 'Conservación' | 'Trayectoria';
+
+export type PressArticle = {
+  fuente: string;
+  titulo: string;
+  tipo: string;
+  categoria: PressCategory;
+  anio: number | null;
+  url: string;
+  /** Marca las 3 piezas destacadas fijas que se muestran en la parte superior. */
+  destacado?: boolean;
+  /** Imagen/thumbnail para las piezas destacadas. */
+  imagen?: string;
+  /** Pertenece a la cronología de Cuatro Ciénegas (2018-2023). */
+  cuatroCienegas?: boolean;
+};
