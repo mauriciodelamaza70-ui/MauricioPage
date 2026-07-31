@@ -251,7 +251,7 @@ export const pressArticles: PressArticle[] = [
     url: 'https://florencefilmawards.com/interview8#41ef5368-b37f-4029-8d51-3950f001117d',
     rutaInterna: '/prensa/florence-film-awards',
     destacado: true,
-    imagen: '/images/prensa/florence/imagen1-dirigiendo.png',
+    imagen: '/images/prensa/florence/card-cover.png',
   },
   {
     fuente: 'La Jornada',
