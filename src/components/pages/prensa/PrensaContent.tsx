@@ -32,10 +32,16 @@ export default function PrensaContent() {
   const [filter, setFilter] = useState<Filter>('todos');
   const [visibleCount, setVisibleCount] = useState(INITIAL_VISIBLE);
   const [ccExpanded, setCcExpanded] = useState(false);
+  const [expandedGallery, setExpandedGallery] = useState<string | null>(null);
 
   const featured = useMemo(
     () => pressArticles.filter((a) => a.destacado),
     []
+  );
+
+  const expandedArticle = useMemo(
+    () => featured.find((a) => a.url === expandedGallery) ?? null,
+    [featured, expandedGallery]
   );
 
   const cuatroCienegas = useMemo(
@@ -72,41 +78,118 @@ export default function PrensaContent() {
       {/* Destacados */}
       <section>
         <h2 className="font-headline text-3xl md:text-4xl font-bold mb-8">Destacados</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {featured.map((article) => (
-            <a
-              key={article.url}
-              href={article.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group flex flex-col overflow-hidden rounded-lg bg-secondary border border-border transition-colors hover:border-accent/60"
-            >
-              <div className="relative aspect-[16/10] w-full overflow-hidden">
-                {article.imagen && (
-                  <Image
-                    src={article.imagen}
-                    alt={`${article.fuente} — ${article.titulo}`}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                )}
-              </div>
-              <div className="flex flex-1 flex-col p-6">
-                <span className="text-accent text-xs tracking-[0.2em] uppercase font-medium">
-                  {article.fuente}
-                </span>
-                <h3 className="font-headline text-xl font-bold mt-2 leading-snug text-pretty">
-                  {article.titulo}
-                </h3>
-                <div className="mt-auto flex items-center justify-between pt-6">
-                  <span className="text-muted-foreground text-sm">{article.anio}</span>
-                  <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-accent" />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {featured.map((article) => {
+            const hasGallery = !!article.galeria?.length;
+            const isExpanded = expandedGallery === article.url;
+
+            const inner = (
+              <>
+                <div
+                  className={`relative aspect-[16/10] w-full overflow-hidden ${
+                    article.esPortada ? 'bg-background' : ''
+                  }`}
+                >
+                  {article.imagen && (
+                    <Image
+                      src={article.imagen}
+                      alt={`${article.fuente} — ${article.titulo}`}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      className={`transition-transform duration-500 group-hover:scale-105 ${
+                        article.esPortada ? 'object-contain' : 'object-cover'
+                      }`}
+                    />
+                  )}
                 </div>
-              </div>
-            </a>
-          ))}
+                <div className="flex flex-1 flex-col p-6">
+                  <span className="text-accent text-xs tracking-[0.2em] uppercase font-medium">
+                    {article.fuente}
+                  </span>
+                  <h3 className="font-headline text-xl font-bold mt-2 leading-snug text-pretty">
+                    {article.titulo}
+                  </h3>
+                  <div className="mt-auto flex items-center justify-between pt-6">
+                    <span className="text-muted-foreground text-sm">{article.anio}</span>
+                    {hasGallery ? (
+                      <ChevronDown
+                        className={cn(
+                          'h-4 w-4 text-muted-foreground transition-all group-hover:text-accent',
+                          isExpanded && 'rotate-180'
+                        )}
+                      />
+                    ) : (
+                      <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-accent" />
+                    )}
+                  </div>
+                </div>
+              </>
+            );
+
+            const cardClass =
+              'group flex flex-col overflow-hidden rounded-lg bg-secondary border transition-colors text-left ' +
+              (isExpanded ? 'border-accent/60' : 'border-border hover:border-accent/60');
+
+            return hasGallery ? (
+              <button
+                key={article.url}
+                type="button"
+                onClick={() => setExpandedGallery((cur) => (cur === article.url ? null : article.url))}
+                aria-expanded={isExpanded}
+                className={cardClass}
+              >
+                {inner}
+              </button>
+            ) : (
+              <a
+                key={article.url}
+                href={article.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cardClass}
+              >
+                {inner}
+              </a>
+            );
+          })}
         </div>
+
+        {/* Galería expandible de la pieza destacada de FilmmakerLife */}
+        {expandedArticle?.galeria && (
+          <div className="mt-6 rounded-lg bg-secondary p-4 md:p-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {expandedArticle.galeria.map((src, i) => (
+                <a
+                  key={src}
+                  href={expandedArticle.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative block overflow-hidden rounded-md bg-background"
+                >
+                  <Image
+                    src={src}
+                    alt={`${expandedArticle.fuente} — página ${i + 1}`}
+                    width={960}
+                    height={1242}
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="h-auto w-full object-contain"
+                  />
+                  <span
+                    className="absolute inset-0 flex items-center justify-center bg-background/0 opacity-0 transition-all duration-300 group-hover:bg-background/40 group-hover:opacity-100"
+                    aria-hidden="true"
+                  >
+                    <span className="flex h-12 w-12 items-center justify-center rounded-full bg-background/70 text-foreground">
+                      <ArrowUpRight className="h-6 w-6" />
+                    </span>
+                  </span>
+                </a>
+              ))}
+            </div>
+            <p className="mt-4 text-xs text-muted-foreground">
+              Páginas de la edición impresa, reproducidas con autorización de FilmmakerLife Magazine.
+            </p>
+          </div>
+        )}
       </section>
 
       {/* Filtro de pestañas */}

@@ -225,7 +225,14 @@ export const pressArticles: PressArticle[] = [
     anio: 2026,
     url: 'https://www.filmmakerlife.com/mauricio-de-la-maza-benignos-cinema-as-risk-not-as-a-comfort/',
     destacado: true,
-    imagen: '/images/prensa/filmmakerlife.png',
+    imagen: '/images/prensa/filmmakerlife-issue119.png',
+    esPortada: true,
+    galeria: [
+      '/images/prensa/filmmakerlife-issue119.png',
+      '/images/prensa/filmmakerlife-pagina-04.png',
+      '/images/prensa/filmmakerlife-pagina-05.png',
+      '/images/prensa/filmmakerlife-pagina-06.png',
+    ],
   },
   {
     fuente: 'ABC Noticias',
@@ -490,6 +497,8 @@ export const pressArticles: PressArticle[] = [
     categoria: 'Trayectoria',
     anio: null,
     url: 'https://www.lancaster.ac.uk/alumni/news/artist-activist-scientist-and-entrepreneur',
+    destacado: true,
+    imagen: '/images/prensa/lancaster-university.png',
   },
 ];
 
@@ -606,7 +615,7 @@ export const posts: Post[] = [
 
 <p><strong>INDALECIO:</strong> No. Las cortes siguen ahí. Los contratos se siguen firmando. La maquinaria deliberativa no ha desaparecido: sigue funcionando por debajo. Lo que ha cambiado es que se le montó encima una capa de comportamiento de enjambre, mucho más veloz, que decide cada vez más cosas antes de que la maquinaria lenta tenga tiempo de intervenir. No hemos dejado de ser sociedad. Pero la proporción de nuestras decisiones que pasan por deliberación real, frente a las que pasan por reacción de enjambre, se está inclinando.</p>
 
-<p><strong>ARTURO:</strong> Entonces te doy mi respuesta completa, Indalecio, y no es «ni una cosa ni la otra» por cobardía de no elegir bando. Es esto: la idea de la eficiencia absoluta conduce, sin excepción, al enjambre. La idea de la libertad conduce, sin excepción, a la sociedad. Y el problema no es cuál de las dos elegimos de una vez y para siempre. El problema es si el individuo tiene la conciencia de saber, en cada momento, en cuál de las dos está parado.</p>
+<p><strong>ARTURO:</strong> Entonces te doy mi respuesta completa, Indalecio, y no es «ni una cosa ni la otra» por cobardía de no elegir bando. Es esto: la idea de la eficiencia absoluta conduce, sin excepción, al enjambre. La idea de la libertad conduce, sin excepción, a la sociedad. Y el problema no es cuál de las dos elegimos de una vez y para siempre. El problema es si el individuo tiene la conciencia de saber, en cada momento, en cu��l de las dos está parado.</p>
 
 <p><strong>INDALECIO:</strong> ¿Qué traes guardado?</p>
 
@@ -814,7 +823,7 @@ export const posts: Post[] = [
   {
     id: 'post-1',
     slug: 'prologo-de-la-loca-del-maniqui',
-    title: 'Prólogo de “La loca del maniquí”',
+    title: 'Prólogo de “La loca del maniquí���',
     date: '26 de Mayo, 2022',
     excerpt: 'Un vistazo al prólogo del libro, explorando sus temas centrales y el estilo narrativo.',
     content: `<p>Por: Aarón Coré</p>
