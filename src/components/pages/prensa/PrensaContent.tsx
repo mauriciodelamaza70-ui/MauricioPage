@@ -35,7 +35,7 @@ export default function PrensaContent() {
   const [expandedGallery, setExpandedGallery] = useState<string | null>(null);
 
   const featured = useMemo(
-    () => pressArticles.filter((a) => a.destacado),
+    () => pressArticles.filter((a) => a.destacado).sort(byYearDesc),
     []
   );
 
