@@ -120,6 +120,8 @@ export type PressArticle = {
   destacado?: boolean;
   /** Imagen/thumbnail para las piezas destacadas. */
   imagen?: string;
+  /** La imagen es una portada de revista vertical: se muestra completa sin recortar. */
+  esPortada?: boolean;
   /** Pertenece a la cronología de Cuatro Ciénegas (2018-2023). */
   cuatroCienegas?: boolean;
 };

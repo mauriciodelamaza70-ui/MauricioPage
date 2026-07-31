@@ -81,14 +81,20 @@ export default function PrensaContent() {
               rel="noopener noreferrer"
               className="group flex flex-col overflow-hidden rounded-lg bg-secondary border border-border transition-colors hover:border-accent/60"
             >
-              <div className="relative aspect-[16/10] w-full overflow-hidden">
+              <div
+                className={`relative aspect-[16/10] w-full overflow-hidden ${
+                  article.esPortada ? 'bg-background' : ''
+                }`}
+              >
                 {article.imagen && (
                   <Image
                     src={article.imagen}
                     alt={`${article.fuente} — ${article.titulo}`}
                     fill
                     sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    className={`transition-transform duration-500 group-hover:scale-105 ${
+                      article.esPortada ? 'object-contain' : 'object-cover'
+                    }`}
                   />
                 )}
               </div>
