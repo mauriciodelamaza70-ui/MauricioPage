@@ -79,7 +79,7 @@ export default function PrensaContent() {
       {/* Destacados */}
       <section>
         <h2 className="font-headline text-3xl md:text-4xl font-bold mb-8">Destacados</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {featured.map((article) => {
             const hasGallery = !!article.galeria?.length;
             const isExpanded = expandedGallery === article.url;
@@ -96,7 +96,7 @@ export default function PrensaContent() {
                       src={article.imagen}
                       alt={`${article.fuente} — ${article.titulo}`}
                       fill
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       className={`transition-transform duration-500 group-hover:scale-105 ${
                         article.esPortada ? 'object-contain' : 'object-cover'
                       }`}
@@ -131,17 +131,29 @@ export default function PrensaContent() {
               'group flex flex-col overflow-hidden rounded-lg bg-secondary border transition-colors text-left ' +
               (isExpanded ? 'border-accent/60' : 'border-border hover:border-accent/60');
 
-            return hasGallery ? (
-              <button
-                key={article.url}
-                type="button"
-                onClick={() => setExpandedGallery((cur) => (cur === article.url ? null : article.url))}
-                aria-expanded={isExpanded}
-                className={cardClass}
-              >
-                {inner}
-              </button>
-            ) : (
+            if (hasGallery) {
+              return (
+                <button
+                  key={article.url}
+                  type="button"
+                  onClick={() => setExpandedGallery((cur) => (cur === article.url ? null : article.url))}
+                  aria-expanded={isExpanded}
+                  className={cardClass}
+                >
+                  {inner}
+                </button>
+              );
+            }
+
+            if (article.rutaInterna) {
+              return (
+                <Link key={article.url} href={article.rutaInterna} className={cardClass}>
+                  {inner}
+                </Link>
+              );
+            }
+
+            return (
               <a
                 key={article.url}
                 href={article.url}
