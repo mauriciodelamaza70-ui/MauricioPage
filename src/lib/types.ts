@@ -126,4 +126,6 @@ export type PressArticle = {
   galeria?: string[];
   /** Pertenece a la cronología de Cuatro Ciénegas (2018-2023). */
   cuatroCienegas?: boolean;
+  /** Si existe, la tarjeta navega a esta ruta interna en vez de al enlace externo. */
+  rutaInterna?: string;
 };
