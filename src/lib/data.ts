@@ -224,15 +224,10 @@ export const pressArticles: PressArticle[] = [
     categoria: 'Cine',
     anio: 2026,
     url: 'https://www.filmmakerlife.com/mauricio-de-la-maza-benignos-cinema-as-risk-not-as-a-comfort/',
+    rutaInterna: '/prensa/filmmakerlife',
     destacado: true,
     imagen: '/images/prensa/filmmakerlife-issue119.png',
     esPortada: true,
-    galeria: [
-      '/images/prensa/filmmakerlife-issue119.png',
-      '/images/prensa/filmmakerlife-pagina-04.png',
-      '/images/prensa/filmmakerlife-pagina-05.png',
-      '/images/prensa/filmmakerlife-pagina-06.png',
-    ],
   },
   {
     fuente: 'ABC Noticias',
