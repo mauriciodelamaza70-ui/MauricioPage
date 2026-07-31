@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { ArrowUpRight, ChevronDown } from 'lucide-react';
 import { pressArticles } from '@/lib/data';
 import type { PressArticle } from '@/lib/types';
@@ -288,34 +289,48 @@ export default function PrensaContent() {
           <p className="text-muted-foreground">No hay artículos en esta categoría.</p>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {visibleArchive.map((article) => (
-              <a
-                key={article.url}
-                href={article.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-start justify-between gap-4 rounded-lg bg-card border border-border p-5 transition-colors hover:border-accent/60"
-              >
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 flex-wrap">
-                    <span className="text-accent text-xs tracking-[0.2em] uppercase font-medium">
-                      {article.fuente}
-                    </span>
-                    <span className="text-muted-foreground/60 text-xs">·</span>
-                    <span className="text-muted-foreground text-xs">{article.tipo}</span>
+            {visibleArchive.map((article) => {
+              const cardClass =
+                'group flex items-start justify-between gap-4 rounded-lg bg-card border border-border p-5 transition-colors hover:border-accent/60';
+              const cardInner = (
+                <>
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="text-accent text-xs tracking-[0.2em] uppercase font-medium">
+                        {article.fuente}
+                      </span>
+                      <span className="text-muted-foreground/60 text-xs">·</span>
+                      <span className="text-muted-foreground text-xs">{article.tipo}</span>
+                    </div>
+                    <h3 className="font-headline text-lg font-semibold mt-1.5 leading-snug text-pretty group-hover:text-accent transition-colors">
+                      {article.titulo}
+                    </h3>
+                    {article.anio != null && (
+                      <span className="text-muted-foreground text-sm mt-2 inline-block">
+                        {article.anio}
+                      </span>
+                    )}
                   </div>
-                  <h3 className="font-headline text-lg font-semibold mt-1.5 leading-snug text-pretty group-hover:text-accent transition-colors">
-                    {article.titulo}
-                  </h3>
-                  {article.anio != null && (
-                    <span className="text-muted-foreground text-sm mt-2 inline-block">
-                      {article.anio}
-                    </span>
-                  )}
-                </div>
-                <ArrowUpRight className="h-4 w-4 mt-1 text-muted-foreground transition-colors group-hover:text-accent shrink-0" />
-              </a>
-            ))}
+                  <ArrowUpRight className="h-4 w-4 mt-1 text-muted-foreground transition-colors group-hover:text-accent shrink-0" />
+                </>
+              );
+
+              return article.rutaInterna ? (
+                <Link key={article.url} href={article.rutaInterna} className={cardClass}>
+                  {cardInner}
+                </Link>
+              ) : (
+                <a
+                  key={article.url}
+                  href={article.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={cardClass}
+                >
+                  {cardInner}
+                </a>
+              );
+            })}
           </div>
         )}
 

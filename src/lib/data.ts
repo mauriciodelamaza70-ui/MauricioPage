@@ -249,6 +249,7 @@ export const pressArticles: PressArticle[] = [
     categoria: 'Cine',
     anio: 2024,
     url: 'https://florencefilmawards.com/interview8#41ef5368-b37f-4029-8d51-3950f001117d',
+    rutaInterna: '/prensa/florence-film-awards',
   },
   {
     fuente: 'La Jornada',
@@ -858,7 +859,7 @@ export const posts: Post[] = [
 <p>Dicho Consejo es liderado por Alfonso Martínez, Secretario de Medio Ambiente; Edgardo Acosta, director general de Parques y Vida Silvestre de Nuevo León; y representantes locales de los municipios que abarca el ecosistema, como la Universidad Autónoma de Nuevo León, la Comisión Nacional del Agua, Profepa y Semanat.</p>
 <img src="/images/eco2.jpg" alt="Miembros del Consejo Técnico" class="my-6 rounded-lg shadow-md" />
 <p><em>Imagen: Asociación Ecológica de la Sierra de Picachos</em></p>
-<p>Durante la ceremonia, se reconoció la importancia de cuidar la reserva de bosques, flora y fauna de esta Área Natural Protegida, así como la gran aportación de recursos naturales que provee al estado de Nuevo León, puesto que su superficie de 99,432 hectáreas, sumadas a las 75,872.55 hectáreas que se decretaron anteriormente, abarca los municipios de Doctor González, Agualeguas, Cerralvo, Higueras, Marín, Zuazua, Sabinas Hidalgo y Salinas Victoria.</p>
+<p>Durante la ceremonia, se reconoci�� la importancia de cuidar la reserva de bosques, flora y fauna de esta Área Natural Protegida, así como la gran aportación de recursos naturales que provee al estado de Nuevo León, puesto que su superficie de 99,432 hectáreas, sumadas a las 75,872.55 hectáreas que se decretaron anteriormente, abarca los municipios de Doctor González, Agualeguas, Cerralvo, Higueras, Marín, Zuazua, Sabinas Hidalgo y Salinas Victoria.</p>
 <p>Alfonso Barragán, presidente de la Asociaci��n Ecológica Sierra de Picachos, reconoció el beneficio del establecimiento del Consejo, que preservará el desarrollo sustentable del ecosistema y generará riqueza de recursos naturales.</p>
 <img src="/images/eco3.jpg" alt="Alfonso Barragán" class="my-6 rounded-lg shadow-md" />
 <p><em>Imagen: Asociación Ecológica de la Sierra de Picachos</em></p>
