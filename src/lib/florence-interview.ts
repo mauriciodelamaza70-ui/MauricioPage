@@ -8,10 +8,10 @@ export type InterviewBlock =
 export const florenceInterview: InterviewBlock[] = [
   {
     type: 'image',
-    src: '/images/prensa/florence/bts-directing.png',
+    src: '/images/prensa/florence/imagen1-dirigiendo.png',
     caption: {
-      es: 'En el set, dirigiendo una escena',
-      en: 'On set, directing a scene',
+      es: 'En el Wildlife Conservation Film Festival',
+      en: 'At the Wildlife Conservation Film Festival',
     },
   },
   {
@@ -68,7 +68,7 @@ export const florenceInterview: InterviewBlock[] = [
   },
   {
     type: 'image',
-    src: '/images/prensa/florence/bts-behind.png',
+    src: '/images/prensa/florence/imagen2-detras-camaras.png',
     caption: {
       es: 'Detrás de cámaras',
       en: 'Behind the scenes',
@@ -164,7 +164,7 @@ export const florenceInterview: InterviewBlock[] = [
   },
   {
     type: 'image',
-    src: '/images/prensa/florence/bts-cast.png',
+    src: '/images/prensa/florence/imagen3-con-elenco.png',
     caption: {
       es: 'En el set con el elenco',
       en: 'On set with the cast',
@@ -288,6 +288,14 @@ export const florenceInterview: InterviewBlock[] = [
       en: [
         'I wish there were more opportunities to market independently made films. The monopoly that exists in my country only serves the interests of a few and creates a vicious cycle that hinders cinematographic culture in favor of mainstream and/or shallow comedies with very low canonic, aesthetical, and philosophical value. I wish that the country that has one of the highest numbers of cinema theaters per capita opened its doors to its filmmakers, actors, and writers. I also want to take the opportunity to thank you, the Florence Film Awards and your audience for the opportunity. I wish you all the best!',
       ],
+    },
+  },
+  {
+    type: 'image',
+    src: '/images/prensa/florence/imagen4-extra.png',
+    caption: {
+      es: 'Detrás de cámaras durante el rodaje',
+      en: 'Behind the scenes during filming',
     },
   },
 ];
