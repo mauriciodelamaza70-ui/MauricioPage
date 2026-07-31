@@ -139,6 +139,34 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="py-12">
+          <div className="container mx-auto px-4">
+            <Link
+              href="/prensa"
+              className="group mx-auto flex max-w-md items-center gap-4 rounded-lg border border-border bg-card p-3 shadow-sm transition-colors hover:border-accent/60"
+            >
+              <div className="relative h-24 w-16 shrink-0 overflow-hidden rounded-md bg-secondary">
+                <Image
+                  src="/images/prensa/filmmakerlife-issue119.png"
+                  alt="Portada de FilmmakerLife Magazine"
+                  fill
+                  sizes="64px"
+                  className="object-cover"
+                />
+              </div>
+              <div className="min-w-0">
+                <p className="text-accent text-xs font-medium uppercase tracking-[0.15em]">
+                  Recién destacado en FilmmakerLife Magazine
+                </p>
+                <h3 className="font-headline text-lg font-semibold leading-snug mt-1 text-pretty group-hover:text-accent transition-colors">
+                  Cinema as risk, not as a comfort
+                </h3>
+              </div>
+              <ArrowRight className="ml-auto h-4 w-4 shrink-0 text-muted-foreground transition-colors group-hover:text-accent" />
+            </Link>
+          </div>
+        </section>
+
         <section id="blog" className="py-24">
           <div className="container mx-auto px-4">
             <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12">Nuestro Blog</h2>
