@@ -497,6 +497,8 @@ export const pressArticles: PressArticle[] = [
     categoria: 'Trayectoria',
     anio: null,
     url: 'https://www.lancaster.ac.uk/alumni/news/artist-activist-scientist-and-entrepreneur',
+    destacado: true,
+    imagen: '/images/prensa/lancaster-university.png',
   },
 ];
 
