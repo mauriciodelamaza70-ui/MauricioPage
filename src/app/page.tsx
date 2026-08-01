@@ -66,7 +66,7 @@ export default function Home() {
                 </Button>
               </div>
               <div className="order-1 md:order-2 flex flex-col items-center justify-center">
-                 <div className="flex flex-wrap justify-center items-center gap-8 mb-8">
+                 <div className="flex flex-wrap justify-center items-center gap-8 mb-3">
                   {recognitionLogos.map((logo) => (
                     <Link key={logo.name} href={logo.url} target="_blank" rel="noopener noreferrer" className="transition-all hover:scale-105">
                        <Image
@@ -78,7 +78,26 @@ export default function Home() {
                       />
                     </Link>
                   ))}
+                  <Link
+                    href="https://edurank.org/uni/monterrey-institute-of-technology/alumni/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Incluido por EduRank entre los 100 exalumnos más notables del Tecnológico de Monterrey, en un ranking basado en reconocimiento académico y prominencia pública — junto con exgobernadores, empresarios y científicos reconocidos internacionalmente."
+                    className="flex h-12 flex-col items-center justify-center text-center text-muted-foreground grayscale transition-all hover:scale-105 hover:text-foreground"
+                  >
+                    <span className="font-headline text-base font-bold leading-none tracking-tight">EduRank</span>
+                    <span className="mt-1 text-[0.65rem] uppercase leading-tight tracking-[0.15em]">
+                      Top 100 Alumni
+                      <br />
+                      Tec de Monterrey
+                    </span>
+                  </Link>
                 </div>
+                <p className="mb-8 max-w-md text-center text-xs leading-relaxed text-muted-foreground">
+                  Incluido por EduRank entre los 100 exalumnos más notables del Tecnológico de Monterrey, en un ranking
+                  basado en reconocimiento académico y prominencia pública — junto con exgobernadores, empresarios y
+                  científicos reconocidos internacionalmente.
+                </p>
                 {bioImage && (
                   <Image
                     src={bioImage.imageUrl}
