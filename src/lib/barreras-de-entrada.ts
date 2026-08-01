@@ -1,0 +1,412 @@
+export type EssayBlock =
+  | { type: 'p'; text: { es: string; en: string } }
+  | { type: 'image'; src: string; caption: { es: string; en: string } };
+
+/**
+ * Ensayo bilingüe "Barreras de entrada" / "Barriers to Entry".
+ * Los párrafos en español e inglés están alineados 1:1; las imágenes
+ * se intercalan en los mismos puntos en ambos idiomas.
+ */
+export const barrerasDeEntrada: EssayBlock[] = [
+  {
+    type: 'p',
+    text: {
+      es: `Jamás me meto en la fila de las tortillas.`,
+      en: `I never cut the tortilla line.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `No porque crea que el mundo funcione así, sino porque creo que yo debo funcionar así.`,
+      en: `Not because I think that's how the world works, but because I believe that's how I should work.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Tampoco me sorprende cuando alguien se mete. La realidad no consulta mis principios antes de existir. Si alguien decide hacerlo, confirma una realidad sobre el mundo, no necesariamente una obligación para mí.`,
+      en: `It doesn't surprise me either when someone else does. Reality doesn't consult my principles before existing. If someone decides to cut, it confirms something about the world, not necessarily an obligation for me.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Pero supongamos que un día descubro que la fila está tan descompuesta que quien la respeta se queda sin tortillas.`,
+      en: `But suppose one day I discover the line is so broken that whoever respects it goes home without tortillas.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Mi conclusión tampoco sería que debo convertirme en el siguiente que se mete.`,
+      en: `My conclusion still wouldn't be that I should become the next one to cut.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Simplemente entendería que necesito otra estrategia.`,
+      en: `I'd simply understand that I need another strategy.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Tal vez llevar repelente anti-metiche.`,
+      en: `Maybe carry line-cutter repellent.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Tal vez comprar pan.`,
+      en: `Maybe buy bread instead.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Con los años descubrí que casi toda mi vida opera bajo esa misma lógica.`,
+      en: `Over the years I discovered that almost my entire life runs on that same logic.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Cuando comencé mi carrera cinematográfica hice lo mismo que hacen miles de cineastas independientes: pagar por intentar entrar a un festival. En aquel momento no me parecía extraño. Simplemente entendía que, además de hacer una película, había que encontrar la manera de que alguien la viera.`,
+      en: `When I started my career in film, I did what thousands of independent filmmakers do: pay to try to get into a festival. At the time it didn't strike me as strange. I simply understood that, beyond making a film, you had to find a way for someone to see it.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Con el tiempo descubrí que ese acto aparentemente simple —pagar una cuota de inscripción— contenía una pregunta mucho más profunda de lo que imaginaba.`,
+      en: `In time I discovered that this seemingly simple act — paying an entry fee — contained a much deeper question than I'd imagined.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `¿Existe realmente una forma justa de entrar a una industria creativa?`,
+      en: `Is there really a fair way to enter a creative industry?`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Durante años pensé que la respuesta consistía en encontrar el festival correcto, la plataforma correcta o el modelo correcto.`,
+      en: `For years I thought the answer was finding the right festival, the right platform, the right model.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Hoy creo que esa búsqueda parte de una premisa equivocada.`,
+      en: `Today I think that search starts from a flawed premise.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `No existe un modelo de entrada completamente justo.`,
+      en: `There is no entry model that is completely fair.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Toda institución establece una barrera. A veces es económica. A veces es geográfica. A veces es técnica. A veces es simplemente una consecuencia inevitable de la escala.`,
+      en: `Every institution sets up a barrier. Sometimes it's economic. Sometimes geographic. Sometimes technical. Sometimes it's simply an unavoidable consequence of scale.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `La pregunta honesta no es cuál sistema es puro.`,
+      en: `The honest question isn't which system is pure.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `La pregunta es otra:`,
+      en: `The question is a different one:`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `¿Qué haces cuando descubres que el sistema dentro del cual operas no coincide con el sistema en el que crees?`,
+      en: `What do you do when you discover that the system you're operating inside doesn't match the system you believe in?`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Ésa fue la verdadera pregunta que terminé aprendiendo en el cine.`,
+      en: `That turned out to be the real question I learned from cinema.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Y con el tiempo comprendí que nunca trató realmente sobre el cine.`,
+      en: `And in time I understood it was never really about cinema.`,
+    },
+  },
+  {
+    type: 'image',
+    src: '/images/revista/barreras/festival.png',
+    caption: {
+      es: `Alfombra roja, festival internacional de cine.`,
+      en: `Red carpet, international film festival.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Los festivales de cine son, en el fondo, un filtro. Alguien decide qué se ve y qué no. Ese filtro cuesta dinero operarlo, así que casi siempre cuesta dinero también participar en él.`,
+      en: `Film festivals are, at bottom, a filter. Someone decides what gets seen and what doesn't. That filter costs money to run, so it almost always costs money to enter it too.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `La cifra varía enormemente según el festival. Lo que no varía es la lógica: hay una puerta, y la puerta tiene un precio, y ese precio no siempre corresponde a lo que cada quien puede pagar.`,
+      en: `The figure varies enormously from festival to festival. What doesn't vary is the logic: there's a door, the door has a price, and that price doesn't always match what each person can pay.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Las estadísticas que sí existen, documentadas, son elocuentes por sí solas. El promedio de aceptación en festivales de cine ronda el 13%. En los más codiciados del mundo —los que uno imagina cuando piensa en "llegar"— la cifra cae muy por debajo del 1%. Sundance, por ejemplo, ha hecho pública en distintos años la relación entre sumisiones recibidas y películas seleccionadas: miles contra un puñado. SXSW recibe alrededor de ocho mil sumisiones al año y programa apenas un par de cientos.`,
+      en: `The statistics that do exist, documented ones, speak for themselves. The average acceptance rate across film festivals hovers around 13%. At the most coveted ones in the world — the ones you picture when you think of "making it" — the figure drops well below 1%. Sundance, for instance, has made public in various years the ratio between submissions received and films selected: thousands against a handful. SXSW receives around eight thousand submissions a year and programs barely a couple hundred.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Cannes ni siquiera necesita estas cifras para pertenecer a esa conversación. Es, junto a otro puñado de nombres, uno de los cinco festivales más relevantes del planeta —y como tal, opera con una lógica de escasez que no requiere explicación adicional: cuanto más codiciada la puerta, más gente se queda del otro lado, casi por definición.`,
+      en: `Cannes doesn't even need these numbers to belong in this conversation. It is, along with a small handful of names, one of the five most relevant festivals on the planet — and as such, it operates on a logic of scarcity that needs no further explanation: the more coveted the door, the more people are left on the other side, almost by definition.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Y aquí está lo que tardé años en aceptar: esas probabilidades formales ya son la versión optimista del problema. Asumen que todos compiten desde el mismo punto de partida. No contemplan que, dentro del mismo lote de sumisiones, alguien puede tener un apellido, un contacto, una historia previa que lo acerca más a la conversación antes de que su película se haya proyectado una sola vez. La estadística no mide eso. Solo mide lo que sí se puede contar.`,
+      en: `And here's what took me years to accept: those formal odds are already the optimistic version of the problem. They assume everyone competes from the same starting point. They don't account for the fact that, within the same batch of submissions, someone might carry a last name, a connection, a prior story that brings them closer to the conversation before their film has screened even once. The statistic doesn't measure that. It only measures what can be counted.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Durante un tiempo pensé que la solución era indignarme. Después entendí que la indignación no cambia una fila. Solo la mira desde lejos.`,
+      en: `For a while I thought the answer was outrage. Then I understood that outrage doesn't change a line. It only watches it from a distance.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Lo que sí cambia algo es lo que decidí hacer cuando, años después, tuve la oportunidad de construir un sistema propio.`,
+      en: `What does change something is what I decided to do, years later, when I had the chance to build a system of my own.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `No hablo aquí para señalar a nadie. Hablo para describir una elección.`,
+      en: `I'm not saying this to point fingers at anyone. I'm saying it to describe a choice.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `No fundé el festival de conservación al que hoy dedico buena parte de mi tiempo. Lo fundó Christopher Gervaise, un amigo. Peleó contra el cáncer durante años, y un día perdió esa pelea. La responsabilidad de que el proyecto sobreviviera —y de que sobreviviera bien— pasó a mis manos, casi sin aviso previo. No llegué con un plan propio. Llegué con la obligación de tomar decisiones rápido, sabiendo que ya no había margen para pedirle su opinión a quien lo había empezado todo.`,
+      en: `I didn't found the conservation festival to which I now devote a good part of my time. It was founded by Christopher Gervaise, a friend. He fought cancer for years, and one day he lost that fight. The responsibility of keeping the project alive — and alive in the right way — landed in my hands, almost without warning. I didn't arrive with a plan of my own. I arrived with the obligation to make decisions fast, knowing there was no longer any way to ask the person who'd started it all what he thought.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Si hoy ese festival sigue de pie, en su decimosexta edición, y es referencia en su nicho a nivel mundial, no es mérito mío. Es la visión de Christopher sostenida por un equipo que decidió, junto conmigo, que el proyecto merecía seguir existiendo. Yo solo compartí una de las decisiones que nos tocó tomar juntos: qué tipo de puerta queríamos construir para que otros entraran a lo que él había imaginado. No vendemos nada más allá de la inscripción: ningún paquete para "mejorar" una selección, ninguna publicidad para destacar una película sobre otra después de haber pagado la entrada. Una vez adentro, el resultado no se compra.`,
+      en: `If that festival is still standing today, in its sixteenth edition, and stands as a reference in its niche worldwide, that's not to my credit. It's Christopher's vision, carried forward by a team that decided, alongside me, that the project deserved to keep existing. I only shared in one of the decisions we had to make together: what kind of door we wanted to build for others to walk through into what he had imagined. We don't sell anything beyond the entry fee: no package to "boost" a selection, no advertising to highlight one film over another after the entry has already been paid. Once you're in, the outcome isn't for sale.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Tampoco entregamos premios en efectivo. Lo que se ofrece es visibilidad —un sello, la posibilidad de que una plataforma de distribución catalogue esa película como reconocida— no un cheque que perseguir. Existe una categoría reservada para producciones de presupuesto mínimo, porque un documental filmado con tres mil dólares y uno filmado con varios millones no deberían medirse con la misma vara solo porque pagaron la misma cuota. Y no se cobra inscripción a quienes vienen de países atravesando sanciones o crisis, ni a quienes filman en las comunidades donde el festival tiene sede: quien ya carga una barrera estructural para llegar hasta la puerta no debería, además, pagar por cruzarla.`,
+      en: `We don't hand out cash prizes either. What's offered is visibility — a seal, the chance that a distribution platform will catalogue that film as recognized — not a check to chase. There's a category reserved for minimal-budget productions, because a documentary shot for three thousand dollars and one shot for several million shouldn't be measured by the same yardstick just because they paid the same fee. And we don't charge an entry fee to filmmakers coming from countries under sanctions or in crisis, nor to filmmakers shooting in the communities where the festival is based: whoever is already carrying a structural barrier to reach the door shouldn't also have to pay to cross it.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Ninguna de estas decisiones resuelve el problema del todo. Sigue habiendo una cuota estándar para quien no cae en ninguna categoría de excepción. Sigo sin poder ofrecer, a cada una de las cientos de películas que llegan, la misma atención personal que sí puedo darle a un puñado que busco activamente porque vienen de lugares que el circuito suele ignorar. El tiempo no alcanza. Nunca alcanza. Y prefiero decir esto con claridad, en vez de fingir un sistema perfectamente objetivo que no existe: hay un sesgo deliberado en cómo reparto mi atención, y no pretendo que sea neutral.`,
+      en: `None of these decisions solves the problem entirely. There's still a standard fee for whoever doesn't fall into any exception category. I still can't offer, to each of the hundreds of films that arrive, the same personal attention I can give to a handful I actively seek out because they come from places the circuit tends to ignore. There isn't enough time. There's never enough time. And I'd rather say this plainly than pretend a perfectly objective system exists: there's a deliberate bias in how I distribute my attention, and I don't pretend it's neutral.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Lo que sí puedo decir es que ninguna de esas reglas nació de la indignación hacia otros modelos. Nacieron de una pregunta distinta: si algún día tengo el poder de decidir las reglas, ¿qué tipo de puerta quiero construir?`,
+      en: `What I can say is that none of these rules were born out of outrage at other models. They were born from a different question: if I ever had the power to decide the rules, what kind of door would I want to build?`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Esa pregunta, con el tiempo, resultó ser más grande que el cine.`,
+      en: `That question, in time, turned out to be bigger than cinema.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Si esta forma de pensar sirve para algo, no es porque resuelva festivales. Es porque se puede aplicar a cualquier institución, cualquier fila, cualquier puerta. El mismo ejercicio —entender primero cómo funciona el sistema, después decidir si quiero funcionar igual— no se queda en el cine. Lo aplico también en el terreno más incómodo que conozco.`,
+      en: `If this way of thinking is good for anything, it's not because it solves festivals. It's because it can be applied to any institution, any line, any door. The same exercise — understand first how the system works, then decide whether I want to operate the same way — doesn't stay confined to film. I apply it in the most uncomfortable territory I know.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Hay una barrera de la que no he hablado todavía, y es probablemente la más dolorosa de todas: la discriminación. Y su contraparte, casi nunca nombrada en la misma frase: la cuota.`,
+      en: `There's a barrier I haven't spoken about yet, and it's probably the most painful of all: discrimination. And its counterpart, almost never named in the same breath: the quota.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Son dos extremos del mismo problema, aunque parezcan opuestos.`,
+      en: `They're two extremes of the same problem, even though they look like opposites.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `La discriminación decide quién entra según algo que no tiene relación con el mérito de la obra —el origen, el color, el apellido, el género de quien la hizo—, y ese acto, en sí mismo, es real y es terrible, porque no solo cierra una puerta: atenta contra la dignidad de quien la enfrenta. De eso no tengo duda alguna.`,
+      en: `Discrimination decides who gets in based on something that has nothing to do with the merit of the work — the origin, the color, the last name, the gender of whoever made it — and that act, in itself, is real and it is terrible, because it doesn't just close a door: it violates the dignity of whoever faces it. I have no doubt about that.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `La cuota nace, casi siempre, como respuesta a esa misma herida. Y ahí es donde el problema se vuelve más difícil de nombrar, porque cuestionar el remedio se confunde fácilmente con negar la herida. No es lo mismo. Se puede sostener, al mismo tiempo, que la discriminación es innegable y que no toda cuota, aplicada sin cuidado, cura lo que se propone curar. Una institución que decide priorizar cierto perfil para corregir una ausencia histórica —pienso, por ejemplo, en el tipo de criterios que instituciones como IMCINE han incorporado en sus convocatorias— puede estar respondiendo a algo real. Pero el mérito de la intención no garantiza la precisión del remedio. Vacunar contra el parvovirus no cura la rabia, aunque ambas sean enfermedades reales y ambas merezcan una vacuna.`,
+      en: `The quota is born, almost always, as a response to that very wound. And that's where the problem becomes harder to name, because questioning the remedy gets confused, too easily, with denying the wound. It isn't the same thing. One can hold, at the same time, that discrimination is undeniable and that not every quota, applied carelessly, cures what it sets out to cure. An institution that decides to prioritize a certain profile to correct a historical absence — I think, for instance, of the kind of criteria institutions like IMCINE have built into their calls for submissions — may well be responding to something real. But the merit of the intention doesn't guarantee the precision of the remedy. A parvo vaccine doesn't cure rabies, even though both are real diseases and both deserve a vaccine.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `No creo tener la solución universal a esto. Sospecho que nadie la tiene, y desconfío de quien la ofrece con demasiada seguridad.`,
+      en: `I don't think I have the universal solution to this. I suspect no one does, and I distrust whoever offers one with too much certainty.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Lo que sí tengo es la misma brújula de siempre, la de la fila de las tortillas.`,
+      en: `What I do have is the same compass as always, the one from the tortilla line.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `No discrimino. No porque crea que el mundo dejará de hacerlo si yo no lo hago, sino porque yo debo funcionar así.`,
+      en: `I don't discriminate. Not because I believe the world will stop doing it if I don't, but because that's how I believe I should operate.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Tampoco exijo que una cuota me garantice un lugar que no gané compitiendo. No porque las cuotas no respondan a algo real, sino porque prefiero que mi lugar, cuando lo tengo, no cargue esa duda.`,
+      en: `Nor do I demand that a quota guarantee me a place I didn't win by competing. Not because quotas don't respond to something real, but because I'd rather my place, when I have one, not carry that doubt.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Y cuando veo que el sistema —de un lado o del otro— está descompuesto, mi respuesta sigue sin ser convertirme en el siguiente que se mete en la fila, del lado que sea. Sigue siendo buscar otra estrategia. Llevar repelente. Comprar pan.`,
+      en: `And when I see that the system — on either side — is broken, my response still isn't to become the next one who cuts the line, whichever side it's on. It's still to look for another strategy. Carry repellent. Buy bread.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Sé que esto suena contraintuitivo. Circula mucho, con mucha seguridad, una sabiduría popular que dice lo contrario: no pierdas tu tiempo en lo pequeño, apuesta todo a lo grande, lo demás es conformismo. Creo que esa seguridad ignora la aritmética. Apostar todo a la probabilidad más baja del planeta, mientras se descarta cualquier opción intermedia solo porque es menos vistosa, no es la estrategia más ambiciosa. Es, casi siempre, la más ingenua.`,
+      en: `I know this sounds counterintuitive. There's a popular wisdom circulating, spoken with a great deal of confidence, that says the opposite: don't waste your time on the small stuff, bet everything on the big leagues, anything else is settling. I think that confidence ignores the math. Betting everything on the lowest probability on the planet, while dismissing any middle ground just because it's less glamorous, isn't the boldest strategy. It's almost always the most naïve one.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Prefiero pensarlo como se piensa una cartera de inversión. No se apuesta todo el capital a un solo instrumento de rendimiento improbable. Se construye una mezcla: algo de riesgo alto, algo de probabilidad razonable, algo seguro. Con los festivales aprendí a hacer lo mismo. No dejo de intentar los más grandes. Tampoco desprecio los que, sin ese prestigio máximo, sí ofrecen algo real: una curaduría honesta, una puerta que no excluye por dinero ni por escala, un sello que efectivamente abre algo del otro lado.`,
+      en: `I prefer to think of it the way one thinks about an investment portfolio. You don't bet all your capital on a single instrument with improbable returns. You build a mix: some high risk, some reasonable probability, some safety. With festivals I learned to do the same. I don't stop trying for the biggest ones. Nor do I dismiss the ones that, without that top-tier prestige, do offer something real: honest curation, a door that doesn't exclude by money or by scale, a seal that actually opens something on the other side.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Con los años até estas piezas sueltas —las tortillas, los festivales, el dinero, la identidad— y finalmente entendí que compartían un mismo eje, más profundo que cualquiera de ellas por separado.`,
+      en: `Over the years I tied these loose pieces together — the tortillas, the festivals, the money, the identity — and finally understood they shared a single axis, deeper than any of them on their own.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Hay sistemas dentro de los que decido entrar, sabiendo que no son míos. Un procedimiento judicial. Un examen. El reglamento de un festival al que someto mi trabajo. Ahí opero bajo reglas que no escribí, y no pretendo que sean distintas de lo que son.`,
+      en: `There are systems I choose to enter, knowing they aren't mine. A legal proceeding. An exam. The rulebook of a festival I submit my work to. There, I operate under rules I didn't write, and I don't pretend they're different from what they are.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Y hay sistemas que, cuando tengo la oportunidad, me toca ayudar a sostener junto a otros. Un festival que no fundé, pero que un equipo y yo nos negamos a dejar morir. Un ensayo. Una película. Una manera de tratar a las personas que dependen de una decisión mía. Ahí sí soy responsable de que las reglas se parezcan a lo que creo que deberían ser.`,
+      en: `And there are systems that, when I have the chance, it falls to me to help hold up alongside others. A festival I didn't found, but that a team and I refused to let die. An essay. A film. A way of treating the people who depend on a decision of mine. There, I am responsible for making the rules resemble what I believe they should be.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `No confundo los dos planos. No exijo que el mundo entero funcione como creo que debería, ni renuncio a que, donde depende de mí, se acerque a eso.`,
+      en: `I don't confuse the two planes. I don't demand that the whole world work the way I believe it should, nor do I give up on bringing it closer to that, wherever it depends on me.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Comencé pensando en hablar sobre festivales de cine. Los festivales fueron la excusa. Terminé aprendiendo algo más amplio: cómo se conserva la coherencia cuando se vive, al mismo tiempo, dentro de sistemas que uno no eligió y sistemas que uno sí construyó.`,
+      en: `I started out thinking I was writing about film festivals. The festivals were the excuse. I ended up learning something broader: how a person holds on to their coherence while living, at the same time, inside systems they didn't choose and systems they did build.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `Sé que operar así, en esa zona intermedia, tiene un riesgo. La claridad no es automática. Sin ella, la corriente jala —casi siempre hacia el lado oscuro, no hacia el virtuoso—, y lo que parecía criterio se convierte en excusa. Por eso esta forma de pensar exige más disciplina interna, no menos. No es un permiso amplio. Es una vigilancia constante sobre uno mismo.`,
+      en: `I know that operating this way, in that middle zone, carries a risk. Clarity isn't automatic. Without it, the current pulls — almost always toward the dark side, not the virtuous one — and what looked like judgment turns into an excuse. That's why this way of thinking demands more internal discipline, not less. It isn't a broad permission. It's constant vigilance over oneself.`,
+    },
+  },
+  {
+    type: 'image',
+    src: '/images/revista/barreras/grillo.png',
+    caption: {
+      es: `El escritorio de trabajo, al final del día.`,
+      en: `The writing desk, at the end of the day.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `En mi última película, "El gran Makhaira", escribí una línea que he vuelto a pensar más de lo que esperaba: la conciencia no te da el poder de elegir el mundo; te quita el derecho de fingir que no lo ves.`,
+      en: `In my latest film, "El Gran Makhaira," I wrote a line I've found myself returning to more than I expected: conscience doesn't give you the power to choose the world; it takes away your right to pretend you don't see it.`,
+    },
+  },
+  {
+    type: 'p',
+    text: {
+      es: `No creo que el mundo vaya a volverse más justo porque yo entienda esto. Pero ya no puedo actuar como si no lo entendiera.`,
+      en: `I don't think the world is going to become more just because I understand this. But I can no longer act as if I didn't.`,
+    },
+  },
+];

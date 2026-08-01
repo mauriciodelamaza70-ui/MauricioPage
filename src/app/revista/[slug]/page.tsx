@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import type { ComponentType } from 'react';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -6,6 +7,12 @@ import { posts, siteConfig } from '@/lib/data';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { FacebookIcon, LinkedinIcon } from '@/components/icons';
 import { PostContent } from '@/components/common/PostContent';
+import BarrerasEssay from '@/components/pages/revista/BarrerasEssay';
+
+/** Ensayos bilingües con selector de idioma que se renderizan con un componente propio. */
+const BILINGUAL_ESSAYS: Record<string, ComponentType> = {
+  'barreras-de-entrada': BarrerasEssay,
+};
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -104,6 +111,7 @@ export default async function PostPage({ params }: PageProps) {
 
   const postImage = PlaceHolderImages.find((p) => p.id === post.imageId);
   const heroImage = PlaceHolderImages.find((p) => p.id === (post.heroImageId ?? post.imageId));
+  const BilingualEssay = BILINGUAL_ESSAYS[slug];
   const postUrl = `${siteConfig.url}/revista/${slug}`;
   const imageUrl = getAbsoluteImageUrl(postImage?.imageUrl);
 
@@ -170,7 +178,7 @@ export default async function PostPage({ params }: PageProps) {
 
       <article className="py-24">
         <div className="container mx-auto px-4">
-            <PostContent html={post.content} />
+            {BilingualEssay ? <BilingualEssay /> : <PostContent html={post.content} />}
 
             <div className="max-w-4xl mx-auto mt-16 border-t pt-8">
               <div className="flex items-center justify-between">

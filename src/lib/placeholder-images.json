@@ -1,6 +1,12 @@
 {
   "placeholderImages": [
     {
+      "id": "blog-barreras-cover",
+      "description": "Fila en una tortillería con un letrero que pide hacer fila",
+      "imageUrl": "/images/revista/barreras/tortilleria.png",
+      "imageHint": "tortilla shop line"
+    },
+    {
       "id": "musica-hero",
       "description": "Estudio de música con sintetizador analógico",
       "imageUrl": "/images/musica-hero.png",
