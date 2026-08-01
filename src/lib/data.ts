@@ -568,6 +568,19 @@ export const projects: Project[] = [
 
 export const posts: Post[] = [
   {
+    id: 'post-barreras-de-entrada',
+    slug: 'barreras-de-entrada',
+    title: 'Barreras de entrada',
+    date: '31 de Julio, 2026',
+    excerpt:
+      'Sobre festivales de cine, filas de tortillas, y cómo se construyen las reglas cuando a uno le toca decidirlas.',
+    category: 'Artículos',
+    author: 'Mauricio de la Maza-Benignos',
+    imageId: 'blog-barreras-cover',
+    heroImageId: 'blog-barreras-cover',
+    content: `<p>Sobre festivales de cine, filas de tortillas, y cómo se construyen las reglas cuando a uno le toca decidirlas.</p>`,
+  },
+  {
     id: 'post-del-enjambre-y-la-sed',
     slug: 'del-enjambre-y-la-sed',
     title: 'Del enjambre y la sed',
