@@ -4,7 +4,9 @@
       "id": "blog-barreras-cover",
       "description": "Fila en una tortillería con un letrero que pide hacer fila",
       "imageUrl": "/images/revista/barreras/tortilleria.png",
-      "imageHint": "tortilla shop line"
+      "imageHint": "tortilla shop line",
+      "width": 1024,
+      "height": 559
     },
     {
       "id": "musica-hero",
