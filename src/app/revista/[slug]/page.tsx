@@ -62,6 +62,20 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const postImage = PlaceHolderImages.find((p) => p.id === post.imageId);
   const imageUrl = getAbsoluteImageUrl(postImage?.imageUrl);
   const postUrl = `${siteConfig.url}/revista/${slug}`;
+  const imageType = imageUrl.endsWith('.png')
+    ? 'image/png'
+    : imageUrl.endsWith('.jpg') || imageUrl.endsWith('.jpeg')
+      ? 'image/jpeg'
+      : undefined;
+
+  const ogImage = {
+    url: imageUrl,
+    secureUrl: imageUrl,
+    alt: post.title,
+    ...(postImage?.width ? { width: postImage.width } : {}),
+    ...(postImage?.height ? { height: postImage.height } : {}),
+    ...(imageType ? { type: imageType } : {}),
+  };
 
   return {
     title: post.title,
@@ -77,12 +91,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       description: post.excerpt,
       publishedTime: toIsoDate(post.date),
       authors: [AUTHOR_NAME],
-      images: [
-        {
-          url: imageUrl,
-          alt: post.title,
-        },
-      ],
+      images: [ogImage],
     },
     twitter: {
       card: 'summary_large_image',
