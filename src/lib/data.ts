@@ -47,6 +47,13 @@ export const musicCategories: MusicCategory[] = [
     href: '/musica/lidia',
   },
   {
+    id: 'locus',
+    title: 'Locus',
+    description: 'La arquitectura de un sistema',
+    image: '/images/locus-cover.jpg',
+    href: '/musica/locus',
+  },
+  {
     id: 'pinceladas-mexicanas',
     title: 'Pinceladas Mexicanas',
     description: 'Algunas obras nacen del lugar donde uno nació',
@@ -1036,7 +1043,7 @@ export const posts: Post[] = [
 <img src="/images/tenencia3.png" alt="Tabla 3 reglamentos de la LGEEPA" class="my-6 rounded-lg shadow-md" />
 <p>Es importante señalar que la LGEEPA y su reglamento no distinguen entre las distintas categorías de áreas naturales protegidas para efectos de la tenencia de la tierra. Así, un parque nacional es tratado de la misma manera que un área de protección de flora y fauna, o una reserva de la biosfera. Sin embargo, en la práctica, no todos los tipos de área natural protegida requieren de la misma aproximación para el manejo del tema de la tenencia. Los parques nacionales, por ejemplo, al ser por lo general zonas núcleo que, de acuerdo con la Unión Mundial para la Conservación de la Naturaleza (UICN), deberían de ser propiedad de la nación (Vargas 2000), tendrían que ser objeto de una política de adquisición de tierras mucho más proactiva que la de otras categorías, como las reservas de la biosfera, en donde las actividades productivas de bajo impacto, incluyendo la agricultura y la ganadería, son permitidas en ciertas zonas de amortiguamiento (SEMARNAT 2016).</p>
 <img src="/images/tenencia2.png" alt="Tabla de implicaciones" class="my-6 rounded-lg shadow-md" />
-<p>Actualmente, de los 77 parques nacionales de México, por lo menos 37 de ellos (casi la mitad) presentan algún tipo de conflicto relacionado con la tenencia de la tierra. Dichos conflictos van desde invasiones y asentamientos humanos irregulares, hasta la tenencia legítima de la tierra por parte de particulares (CONANP 2018). Ello quiere decir que en más de la mitad de los parques nacionales de México, el gobierno federal no tiene la certeza jurídica que le permita invertir en su conservación y manejo, con el riesgo de que dichas inversiones se pierdan o no tengan el efecto deseado, al no ser el gobierno federal el propietario legítimo de las tierras.</p>
+<p>Actualmente, de los 77 parques nacionales de México, por lo menos 37 de ellos (casi la mitad) presentan algún tipo de conflicto relacionado con la tenencia de la tierra. Dichos conflictos van desde invasiones y asentamientos humanos irregulares, hasta la tenencia legítima de la tierra por parte de particulares (CONANP 2018). Ello quiere decir que en más de la mitad de los parques nacionales de M��xico, el gobierno federal no tiene la certeza jurídica que le permita invertir en su conservación y manejo, con el riesgo de que dichas inversiones se pierdan o no tengan el efecto deseado, al no ser el gobierno federal el propietario legítimo de las tierras.</p>
 <p>Ante esta problemática, es indispensable que la CONANP, y la SEMARNAT en general, diseñen e implementen una estrategia de adquisición de tierras en parques nacionales que incluya, entre otros, los siguientes elementos: a) un diagnóstico preciso sobre la tenencia de la tierra en cada uno de los 77 parques nacionales de México; b) un plan de adquisición de tierras a corto, mediano y largo plazos, con metas claras y un presupuesto asignado para tal efecto; y c) un programa de monitoreo y evaluación de los avances y resultados del plan de adquisición.  Sin una estrategia clara y un presupuesto asignado para tal efecto, difícilmente se podrá avanzar en la consolidación de los parques nacionales de México, los cuales seguirán siendo, en muchos casos, “parques de papel”, con un futuro incierto en cuanto a su conservación a largo plazo.</p>
 <img src="/images/tenencia1.jpg" alt="Recomendación" class="my-6 rounded-lg shadow-md" />
 <h4>Referencias</h4>
