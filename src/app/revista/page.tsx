@@ -84,6 +84,9 @@ export default function RevistaPage() {
                                                 <span className="text-xs uppercase tracking-widest text-accent font-bold">{post.category}</span>
                                                 <p className="text-xs text-muted-foreground">{post.date}</p>
                                             </div>
+                                            {post.author && (
+                                                <p className="text-xs tracking-widest text-accent font-bold">Por: {post.author}</p>
+                                            )}
                                             <CardTitle className="font-headline text-xl mt-1 leading-snug">{post.title}</CardTitle>
                                             <p className="text-muted-foreground mt-4 text-sm line-clamp-3 flex-grow">{post.excerpt}</p>
                                             <Button asChild variant="link" className="text-accent p-0 h-auto mt-6 self-start text-sm font-bold uppercase tracking-wider">
