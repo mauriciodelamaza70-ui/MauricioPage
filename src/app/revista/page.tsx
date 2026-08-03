@@ -71,7 +71,7 @@ export default function RevistaPage() {
                                         <div className="aspect-video overflow-hidden">
                                             <Image
                                                 src={postImage.imageUrl}
-                                                alt={post.title}
+                                                alt={postImage.description || post.title}
                                                 width={600}
                                                 height={400}
                                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
