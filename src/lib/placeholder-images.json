@@ -2,8 +2,8 @@
   "placeholderImages": [
     {
       "id": "blog-entes-eco-cover",
-      "description": "Multitud reflejada infinitamente en un corredor de espejos; una mujer camina en sentido contrario, rompiendo el patrón.",
-      "imageUrl": "/images/revista/entes-eco/hero-ecos.png",
+      "description": "Multitud caminando en un pasillo de espejos infinitos, todos en la misma dirección",
+      "imageUrl": "/images/revista/entes-eco/el-mundo-de-los-entes-eco-portada.png",
       "imageHint": "mirror corridor crowd",
       "width": 1023,
       "height": 1537
