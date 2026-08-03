@@ -9,7 +9,7 @@ const SUBTITLE = 'La arquitectura de un sistema';
 const DESCRIPTION =
   'Locus: una composición sobre la arquitectura de los sistemas biológicos y musicales, por Mauricio de la Maza-Benignos.';
 const COVER = '/images/locus-cover.jpg';
-const VIDEO_ID = 'PENDIENTE_URL_YOUTUBE';
+const VIDEO_ID = '2SdPLghPswA';
 const PLATFORMS_URL = 'https://distrokid.com/hyperfollow/mauriciodelamaza/locus';
 
 // Mientras VIDEO_ID siga en el placeholder, no renderizamos el iframe para no romper el layout.
