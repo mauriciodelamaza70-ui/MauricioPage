@@ -1,6 +1,14 @@
 {
   "placeholderImages": [
     {
+      "id": "blog-entes-eco-cover",
+      "description": "Multitud reflejada infinitamente en un corredor de espejos; una mujer camina en sentido contrario, rompiendo el patrón.",
+      "imageUrl": "/images/revista/entes-eco/hero-ecos.png",
+      "imageHint": "mirror corridor crowd",
+      "width": 1023,
+      "height": 1537
+    },
+    {
       "id": "blog-barreras-cover",
       "description": "Fila en una tortillería con un letrero que pide hacer fila",
       "imageUrl": "/images/revista/barreras/tortilleria.png",
