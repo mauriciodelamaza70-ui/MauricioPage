@@ -10,7 +10,10 @@ const DESCRIPTION =
   'Locus: una composición sobre la arquitectura de los sistemas biológicos y musicales, por Mauricio de la Maza-Benignos.';
 const COVER = '/images/locus-cover.jpg';
 const VIDEO_ID = 'PENDIENTE_URL_YOUTUBE';
-const PLATFORMS_URL = 'PENDIENTE_URL_DISTROKID';
+const PLATFORMS_URL = 'https://distrokid.com/hyperfollow/mauriciodelamaza/locus';
+
+// Mientras VIDEO_ID siga en el placeholder, no renderizamos el iframe para no romper el layout.
+const HAS_VIDEO = VIDEO_ID !== 'PENDIENTE_URL_YOUTUBE';
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -283,19 +286,21 @@ export default function LocusPage() {
               );
             })}
 
-            {/* Reproductor de YouTube */}
+            {/* Reproductor de YouTube — oculto hasta reemplazar el placeholder de URL */}
             <figure className="my-12">
-              <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-xl">
-                <iframe
-                  className="absolute inset-0 h-full w-full"
-                  src={`https://www.youtube.com/embed/${VIDEO_ID}`}
-                  title="Locus — Mauricio de la Maza"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowFullScreen
-                  loading="lazy"
-                />
-              </div>
-              <figcaption className="mt-3 text-center">
+              {HAS_VIDEO && (
+                <div className="relative aspect-video w-full overflow-hidden rounded-xl shadow-xl">
+                  <iframe
+                    className="absolute inset-0 h-full w-full"
+                    src={`https://www.youtube.com/embed/${VIDEO_ID}`}
+                    title="Locus — Mauricio de la Maza"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                    loading="lazy"
+                  />
+                </div>
+              )}
+              <figcaption className={HAS_VIDEO ? 'mt-3 text-center' : 'text-center'}>
                 <Link
                   href={PLATFORMS_URL}
                   target="_blank"
