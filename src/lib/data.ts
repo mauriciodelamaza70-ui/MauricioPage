@@ -575,6 +575,19 @@ export const projects: Project[] = [
 
 export const posts: Post[] = [
   {
+    id: 'post-el-mundo-de-los-entes-eco',
+    slug: 'el-mundo-de-los-entes-eco',
+    title: 'El mundo de los entes-eco',
+    date: '3 de Agosto, 2026',
+    excerpt:
+      'Sobre por qué una generación calculó bien el silencio, la arquitectura del castigo sin juez ni cierre, y qué significa sostener una posición propia en el mundo de los entes-eco.',
+    category: 'Artículos',
+    author: 'Mauricio de la Maza-Benignos',
+    imageId: 'blog-entes-eco-cover',
+    heroImageId: 'blog-entes-eco-cover',
+    content: `<p>Sobre por qué una generación calculó bien el silencio, la arquitectura del castigo sin juez ni cierre, y qué significa sostener una posición propia en el mundo de los entes-eco.</p>`,
+  },
+  {
     id: 'post-barreras-de-entrada',
     slug: 'barreras-de-entrada',
     title: 'Barreras de entrada',

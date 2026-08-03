@@ -8,10 +8,12 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { FacebookIcon, LinkedinIcon } from '@/components/icons';
 import { PostContent } from '@/components/common/PostContent';
 import BarrerasEssay from '@/components/pages/revista/BarrerasEssay';
+import EntesEcoEssay from '@/components/pages/revista/EntesEcoEssay';
 
 /** Ensayos bilingües con selector de idioma que se renderizan con un componente propio. */
 const BILINGUAL_ESSAYS: Record<string, ComponentType> = {
   'barreras-de-entrada': BarrerasEssay,
+  'el-mundo-de-los-entes-eco': EntesEcoEssay,
 };
 
 type PageProps = {
