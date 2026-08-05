@@ -367,6 +367,27 @@ export default function SigiloLocusPage() {
             Volver a Música
           </Link>
 
+          <div className="mx-auto mb-12 grid max-w-3xl grid-cols-1 gap-6 sm:grid-cols-2">
+            <div className="relative aspect-square w-full overflow-hidden rounded-xl shadow-2xl">
+              <Image
+                src={SIGILO_COVER}
+                alt="Sigilo — portada de la composición de Mauricio de la Maza"
+                fill
+                sizes="(max-width: 640px) 100vw, 384px"
+                className="object-cover"
+              />
+            </div>
+            <div className="relative aspect-square w-full overflow-hidden rounded-xl shadow-2xl">
+              <Image
+                src={LOCUS_COVER}
+                alt="Locus — portada del álbum de Mauricio de la Maza"
+                fill
+                sizes="(max-width: 640px) 100vw, 384px"
+                className="object-cover"
+              />
+            </div>
+          </div>
+
           <h1 className="text-center font-headline text-4xl md:text-6xl font-bold text-foreground text-balance">
             {TITLE}
           </h1>
