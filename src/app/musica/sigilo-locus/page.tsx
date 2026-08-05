@@ -14,7 +14,7 @@ const LOCUS_COVER = '/images/locus-cover.jpg';
 
 // Videos por álbum. Mientras el ID siga en el placeholder, el iframe permanece oculto
 // para no romper el layout con un reproductor vacío.
-const SIGILO_VIDEO_ID = 'PENDIENTE_URL_YOUTUBE_SIGILO';
+const SIGILO_VIDEO_ID = 'vzLeRGdb3lw';
 const SIGILO_HAS_VIDEO = SIGILO_VIDEO_ID !== 'PENDIENTE_URL_YOUTUBE_SIGILO';
 const SIGILO_PLATFORMS_URL = 'PENDIENTE_URL_DISTROKID_SIGILO';
 
