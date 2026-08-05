@@ -88,6 +88,7 @@ export type MusicCategory = {
   title: string;
   description: string;
   image: string;
+  imageAlt?: string;
   href: string;
   objectPosition?: string;
 };

@@ -38,7 +38,7 @@ export default function MusicaPage() {
             >
               <Image
                 src={category.image}
-                alt={category.title}
+                alt={category.imageAlt ?? category.title}
                 fill
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 style={{ objectPosition: category.objectPosition ?? 'center' }}
