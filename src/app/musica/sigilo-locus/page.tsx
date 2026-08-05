@@ -7,7 +7,7 @@ import { siteConfig } from '@/lib/data';
 const TITLE = 'Sigilo y Locus';
 const DESCRIPTION =
   'Sigilo y Locus: dos composiciones nacidas de la misma arquitectura rítmica, por Mauricio de la Maza-Benignos.';
-const OG_COVER = '/images/sigilo-locus-cover.png';
+const OG_COVER = '/images/sigilo-cover.png';
 
 const SIGILO_COVER = '/images/sigilo-cover.png';
 const LOCUS_COVER = '/images/locus-cover.jpg';

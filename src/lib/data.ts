@@ -47,11 +47,12 @@ export const musicCategories: MusicCategory[] = [
     href: '/musica/lidia',
   },
   {
-    id: 'locus',
-    title: 'Locus',
-    description: 'La arquitectura de un sistema',
-    image: '/images/locus-cover.jpg',
-    href: '/musica/locus',
+    id: 'sigilo-locus',
+    title: 'Sigilo / Locus',
+    description: 'Dos piezas, un mismo pulso',
+    image: '/images/sigilo-cover.png',
+    imageAlt: 'Sigilo / Locus — Mauricio de la Maza',
+    href: '/musica/sigilo-locus',
   },
   {
     id: 'pinceladas-mexicanas',
