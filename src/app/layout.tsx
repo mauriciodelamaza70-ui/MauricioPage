@@ -107,6 +107,7 @@ export default function RootLayout({
         { "@id": "https://www.mauriciodelamazabenignos.com/#organization-dlmcf" },
         { "@id": "https://www.mauriciodelamazabenignos.com/#organization-wcff" }
       ],
+      "subjectOf": { "@id": "https://youtu.be/MtvDLkDufCg#video" },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos",
         "https://www.imdb.com/es/name/nm14485536/",
@@ -385,6 +386,31 @@ export default function RootLayout({
           "addressCountry": "MX"
         }
       }
+    },
+
+    {
+      "@type": "Organization",
+      "@id": "https://www.youtube.com/@AventurTitasRR#organization",
+      "name": "AventurTitasRR",
+      "description": "Canal de YouTube enfocado en naturaleza y exploración familiar."
+    },
+
+    {
+      "@type": "VideoObject",
+      "@id": "https://youtu.be/MtvDLkDufCg#video",
+      "name": "¿Puede una película ayudar a la naturaleza? | Entrevista con Mauricio de la Maza-Benignos",
+      "description": "Entrevista con Mauricio de la Maza-Benignos, director del Wildlife Conservation Film Festival (WCFF) en México, sobre el poder del cine como herramienta para inspirar la conservación de la naturaleza.",
+      "uploadDate": "2026-08-05",
+      "duration": "PT26M40S",
+      "url": "https://youtu.be/MtvDLkDufCg",
+      "embedUrl": "https://www.youtube.com/embed/MtvDLkDufCg",
+      "inLanguage": "es-MX",
+      "publisher": { "@id": "https://www.youtube.com/@AventurTitasRR#organization" },
+      "creator": { "@id": "https://www.youtube.com/@AventurTitasRR#organization" },
+      "about": [
+        { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
+        { "@id": "https://www.mauriciodelamazabenignos.com/#organization-wcff" }
+      ]
     },
 
     {
