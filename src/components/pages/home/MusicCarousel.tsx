@@ -1,5 +1,6 @@
 "use client"
 
+import * as React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import Autoplay from "embla-carousel-autoplay"
@@ -24,7 +25,54 @@ const orderedCategories = [
   ...musicCategories.filter((c) => !FEATURED_ORDER.includes(c.id)),
 ]
 
+// Tarjeta reutilizada por el carrusel y por el estado estático previo al montaje.
+function MusicCard({ category }: { category: (typeof musicCategories)[number] }) {
+  return (
+    <Link href={category.href} className="group block h-full" aria-label={`Ver ${category.title}`}>
+      <Card className="overflow-hidden h-full">
+        <div className="aspect-video overflow-hidden">
+          <Image
+            src={category.image || "/placeholder.svg"}
+            alt={category.imageAlt ?? category.title}
+            width={600}
+            height={400}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            style={category.objectPosition ? { objectPosition: category.objectPosition } : undefined}
+          />
+        </div>
+        <CardHeader>
+          <CardTitle className="font-headline text-xl group-hover:text-accent transition-colors">
+            {category.title}
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-muted-foreground">{category.description}</p>
+        </CardContent>
+      </Card>
+    </Link>
+  )
+}
+
 export default function MusicCarousel() {
+  // El carrusel de embla muta el DOM al inicializarse; renderizamos un fallback
+  // estático idéntico hasta el montaje para evitar desajustes de hidratación.
+  const [mounted, setMounted] = React.useState(false)
+  React.useEffect(() => setMounted(true), [])
+
+  if (!mounted) {
+    return (
+      <div className="w-full max-w-6xl mx-auto overflow-hidden">
+        <div className="flex gap-4">
+          {orderedCategories.map((category) => (
+            <div key={category.id} className="min-w-0 shrink-0 grow-0 basis-full sm:basis-1/2 lg:basis-1/3">
+              <MusicCard category={category} />
+            </div>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
   return (
     <Carousel
       opts={{
@@ -43,28 +91,7 @@ export default function MusicCarousel() {
       <CarouselContent>
         {orderedCategories.map((category) => (
           <CarouselItem key={category.id} className="sm:basis-1/2 lg:basis-1/3">
-            <Link href={category.href} className="group block h-full" aria-label={`Ver ${category.title}`}>
-              <Card className="overflow-hidden h-full">
-                <div className="aspect-video overflow-hidden">
-                  <Image
-                    src={category.image || "/placeholder.svg"}
-                    alt={category.imageAlt ?? category.title}
-                    width={600}
-                    height={400}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                    style={category.objectPosition ? { objectPosition: category.objectPosition } : undefined}
-                  />
-                </div>
-                <CardHeader>
-                  <CardTitle className="font-headline text-xl group-hover:text-accent transition-colors">
-                    {category.title}
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">{category.description}</p>
-                </CardContent>
-              </Card>
-            </Link>
+            <MusicCard category={category} />
           </CarouselItem>
         ))}
       </CarouselContent>
