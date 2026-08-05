@@ -47,10 +47,10 @@ export default function Header() {
       <div className="container mx-auto flex h-full items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
           <div className={cn("h-auto transition-opacity duration-300", isHome && !isScrolled ? "opacity-100" : "opacity-0")}>
-            <Image src="/images/logo-white.png" alt="Terra Vision Logo" width={140} height={30} priority className="h-auto w-28" />
+            <Image src="/images/logo-delamaza-blanco-transparente.png" alt="De la Maza Consulting and Films" width={140} height={30} priority className="h-auto w-28" />
           </div>
            <div className={cn("h-auto transition-opacity duration-300 absolute", isHome && !isScrolled ? "opacity-0" : "opacity-100")}>
-             <Image src="/images/Logo_color.png" alt="Terra Vision Logo" width={140} height={30} priority className="h-auto w-28" />
+             <Image src="/images/logo-delamaza-blanco-transparente.png" alt="De la Maza Consulting and Films" width={140} height={30} priority className="h-auto w-28" />
           </div>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
@@ -77,7 +77,7 @@ export default function Header() {
             <SheetContent side="right" className="w-[300px] bg-background">
               <div className="flex flex-col space-y-6 p-6">
                 <Link href="/" className="flex items-center gap-2 self-start">
-                   <Image src="/images/Logo_color.png" alt="Terra Vision Logo" width={140} height={30} className="h-auto w-28" />
+                   <Image src="/images/logo-delamaza-blanco-transparente.png" alt="De la Maza Consulting and Films" width={140} height={30} className="h-auto w-28" />
                 </Link>
                 <nav className="flex flex-col space-y-4">
                   {navLinks.map((link) => (

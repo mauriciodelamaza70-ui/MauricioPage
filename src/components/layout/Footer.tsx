@@ -10,7 +10,7 @@ export default function Footer() {
           {/* Col 1: Logo and description */}
           <div className="lg:col-span-2 space-y-6">
             <Link href="/" className="flex items-center gap-2">
-              <Image src="/images/logo-white.png" alt="Terra Vision Logo" width={170} height={40} />
+              <Image src="/images/logo-delamaza-blanco-transparente.png" alt="De la Maza Consulting and Films" width={170} height={40} />
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-sm">
               Explorando aquello que no siempre es visible: la culpa, la memoria, el miedo, el deseo y la conciencia moral a través del cine y la ciencia.
