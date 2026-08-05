@@ -11,6 +11,7 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { TheatreIcon } from "@/components/icons";
 import HistoryTimeline from "@/components/pages/home/HistoryTimeline";
 import ProductionsCarousel from "@/components/pages/home/ProductionsCarousel";
+import MusicCarousel from "@/components/pages/home/MusicCarousel";
 
 export default function Home() {
   const bioImage = PlaceHolderImages.find(p => p.id === 'biography-mauricio');
@@ -183,6 +184,18 @@ export default function Home() {
               </div>
               <ArrowRight className="ml-auto h-4 w-4 shrink-0 text-muted-foreground transition-colors group-hover:text-accent" />
             </Link>
+          </div>
+        </section>
+
+        <section id="musica" className="py-24 bg-secondary">
+          <div className="container mx-auto px-4">
+            <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12">Nuestra Música</h2>
+            <MusicCarousel />
+            <div className="text-center mt-12">
+              <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
+                <Link href="/musica">Visita nuestro catálogo</Link>
+              </Button>
+            </div>
           </div>
         </section>
 
