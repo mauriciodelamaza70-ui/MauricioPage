@@ -1,14 +1,31 @@
 import type { Metadata } from 'next';
-import { BookOpen, Microscope, PenLine } from 'lucide-react';
-
-import { scienceBooks } from '@/lib/data';
-import BookCard from '@/components/pages/libros/BookCard';
+import Link from 'next/link';
+import Image from 'next/image';
+import { BookOpen, Microscope, PenLine, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Libros | Mauricio de la Maza Benignos',
   description:
     'Obra escrita de Mauricio de la Maza-Benignos: publicaciones científicas sobre ictiofauna y conservación de humedales desérticos, y narrativa en desarrollo.',
 };
+
+const categories = [
+  {
+    href: '/libros/ciencia',
+    label: 'Ciencia',
+    description:
+      'Publicaciones sobre ictiofauna y conservación de humedales desérticos del norte de México.',
+    image: '/images/libros/categoria-ciencia.png',
+    Icon: Microscope,
+  },
+  {
+    href: '/libros/novela',
+    label: 'Novela',
+    description: 'Narrativa en desarrollo: los territorios interiores de la ficción.',
+    image: '/images/libros/categoria-novela.png',
+    Icon: PenLine,
+  },
+];
 
 export default function LibrosPage() {
   return (
@@ -27,43 +44,41 @@ export default function LibrosPage() {
         </div>
       </section>
 
-      {/* Ciencia */}
+      {/* Categorías */}
       <section className="bg-background py-24">
         <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl">
-            <div className="mb-12 flex items-center gap-4">
-              <Microscope className="h-9 w-9 text-accent" aria-hidden="true" />
-              <h2 className="font-headline text-4xl font-bold text-foreground md:text-5xl">Ciencia</h2>
-            </div>
-            <div className="space-y-10">
-              {scienceBooks.map((book) => (
-                <BookCard key={book.id} book={book} />
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Novela */}
-      <section className="bg-secondary py-24">
-        <div className="container mx-auto px-4">
-          <div className="mx-auto max-w-5xl">
-            <div className="mb-12 flex items-center gap-4">
-              <PenLine className="h-9 w-9 text-accent" aria-hidden="true" />
-              <h2 className="font-headline text-4xl font-bold text-foreground md:text-5xl">Novela</h2>
-            </div>
-
-            <article className="relative flex flex-col items-center justify-center rounded-xl border border-dashed border-border bg-card px-6 py-20 text-center shadow-sm">
-              <span className="mb-6 inline-flex items-center rounded-full border border-accent/40 bg-accent/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-accent">
-                Próximamente
-              </span>
-              <h3 className="font-headline text-3xl font-bold text-card-foreground md:text-4xl">
-                La Caverna
-              </h3>
-              <p className="mt-4 max-w-md text-muted-foreground leading-relaxed">
-                Una novela en desarrollo. Pronto compartiremos más sobre este proyecto.
-              </p>
-            </article>
+          <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 md:grid-cols-2">
+            {categories.map(({ href, label, description, image, Icon }) => (
+              <Link
+                key={href}
+                href={href}
+                className="group relative flex aspect-[4/5] flex-col justify-end overflow-hidden rounded-xl border border-border shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-accent hover:shadow-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+                aria-label={`Ver libros de ${label}`}
+              >
+                <Image
+                  src={image || '/placeholder.svg'}
+                  alt=""
+                  fill
+                  sizes="(max-width: 768px) 100vw, 512px"
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10 transition-colors duration-300 group-hover:from-black/95" />
+                <div className="relative z-10 p-8">
+                  <Icon className="mb-4 h-9 w-9 text-accent" aria-hidden="true" />
+                  <h2 className="font-headline text-4xl font-bold text-white md:text-5xl">{label}</h2>
+                  <p className="mt-3 max-w-sm text-sm leading-relaxed text-gray-300 text-pretty">
+                    {description}
+                  </p>
+                  <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.2em] text-accent">
+                    Explorar
+                    <ArrowRight
+                      className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
+                      aria-hidden="true"
+                    />
+                  </span>
+                </div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
