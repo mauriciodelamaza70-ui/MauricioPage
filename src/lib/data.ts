@@ -1,5 +1,5 @@
-import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo, Collaborator, Movie, MusicCategory, PressArticle } from './types';
-import { Facebook, Instagram, Linkedin, Youtube, Globe, Film } from 'lucide-react';
+import type { NavLink, SocialLink, Service, Project, Post, GalleryImage, Achievement, TimelineEvent, Video, ProductionLogo, BookCategory, Collaborator, Movie, MusicCategory, PressArticle } from './types';
+  import { Facebook, Instagram, Linkedin, Youtube, Globe, Film, Microscope, PenLine } from 'lucide-react';
 import { WhatsAppIcon, IMDbIcon, WikipediaIcon, SpotifyIcon, AppleMusicIcon, BandcampIcon } from '@/components/icons';
 
 export const siteConfig = {
@@ -626,6 +626,26 @@ export const productionLogos: ProductionLogo[] = [
   { src: '/images/El Bonito.png', alt: 'El Bonito Poster', width: 500, height: 750, url: 'https://elbonito.mauriciodelamazabenignos.com' },
   { src: '/images/Wildligeconservation.png', alt: 'Wildlife Conservation Film Festival Poster', width: 500, height: 750, url: 'https://wcff.org/' },
     { src: '/images/PPPanterra-1.png', alt: 'Pantera Cine Fest Poster', width: 500, height: 750, url: 'https://panterracinefest.org/' },
+];
+
+export const bookCategories: BookCategory[] = [
+  {
+    slug: 'ciencia',
+    title: 'Ciencia',
+    coverImage: '/images/libros/categoria-ciencia.png',
+    href: '/libros/ciencia',
+    description:
+      'Publicaciones sobre ictiofauna y conservación de humedales desérticos del norte de México.',
+    icon: Microscope,
+  },
+  {
+    slug: 'novela',
+    title: 'Novela',
+    coverImage: '/images/libros/categoria-novela.png',
+    href: '/libros/novela',
+    description: 'Narrativa en desarrollo: los territorios interiores de la ficción.',
+    icon: PenLine,
+  },
 ];
 
 export const projects: Project[] = [
