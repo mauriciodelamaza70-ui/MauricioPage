@@ -221,6 +221,19 @@ export const featuredMovies: Movie[] = [
   website: 'makhaira.mauriciodelamazabenignos.com',
   imdb: '',
     poster: '/images/El gran Makhaira.png'
+  },
+  {
+    id: 'bonito-2024',
+    title: 'EL BONITO',
+    year: '2024',
+    genre: 'Acción / Crimen / Musical',
+    format: 'largometraje',
+    synopsis: 'El infame prestamista y narcotraficante local, El Bonito, controla la ciudad. Pantera, su amor imposible, se convierte en su talón de Aquiles: ella desaprueba sus métodos y protege a sus víctimas. Mientras tanto, sus propios hombres empiezan a ver en esa debilidad una amenaza a su autoridad.',
+    awards: '',
+    streaming: '',
+    website: 'elbonito.mauriciodelamazabenignos.com',
+    imdb: '',
+    poster: '/images/El Bonito.png'
   }
 ];
 
