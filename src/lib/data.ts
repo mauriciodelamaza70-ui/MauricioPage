@@ -563,6 +563,7 @@ export const productionLogos: ProductionLogo[] = [
     { src: '/images/Dialogos de la muerte.png', alt: 'Diálogos de la Muerte Poster', width: 500, height: 750, url: 'https://dialogosdelamuerte.com/' },
   { src: '/images/El zapato.png', alt: 'El Zapato Poster', width: 500, height: 750, url: 'https://theshoe.info/' },
   { src: '/images/El gran Makhaira.png', alt: 'El Gran Makhaira Poster', width: 500, height: 750, url: 'https://makhaira.mauriciodelamazabenignos.com' },
+  { src: '/images/El Bonito.png', alt: 'El Bonito Poster', width: 500, height: 750, url: 'https://elbonito.mauriciodelamazabenignos.com' },
   { src: '/images/Wildligeconservation.png', alt: 'Wildlife Conservation Film Festival Poster', width: 500, height: 750, url: 'https://wcff.org/' },
     { src: '/images/PPPanterra-1.png', alt: 'Pantera Cine Fest Poster', width: 500, height: 750, url: 'https://panterracinefest.org/' },
 ];
