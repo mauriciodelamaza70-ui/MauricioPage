@@ -28,6 +28,17 @@ export type ProductionLogo = {
   url?: string;
 };
 
+export type BookCategory = {
+  slug: string;
+  title: string;
+  coverImage: string;
+  href: string;
+  /** Descripción corta opcional mostrada en la tarjeta. */
+  description?: string;
+  /** Icono opcional (componente lucide-react) mostrado en la tarjeta. */
+  icon?: React.ElementType;
+};
+
 export type Project = {
   id: string;
   title: string;
