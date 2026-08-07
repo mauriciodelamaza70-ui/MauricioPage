@@ -242,7 +242,7 @@ export const scienceBooks = [
   {
     id: 'peces-rio-conchos',
     title: 'Los Peces del Río Conchos',
-    cover: '/images/libros/los-peces-del-rio-conchos.png',
+    cover: '/images/libros/los-peces-del-rio-conchos-cover.jpg',
     date: 'Septiembre 2009',
     editor: 'M. de la Maza-Benignos',
     publisher: 'Alianza WWF-FGRA y Gobierno del Estado de Chihuahua',
