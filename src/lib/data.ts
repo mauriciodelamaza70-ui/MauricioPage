@@ -639,9 +639,9 @@ export const bookCategories: BookCategory[] = [
     icon: Microscope,
   },
   {
-    slug: 'novela',
-    title: 'Novela',
-    coverImage: '/images/libros/categoria-novela.png',
+  slug: 'novela',
+  title: 'Novela',
+  coverImage: '/images/mauricio-autor-portrait.jpg',
     href: '/libros/novela',
     description: 'Narrativa en desarrollo: los territorios interiores de la ficción.',
     icon: PenLine,
@@ -880,7 +880,7 @@ export const posts: Post[] = [
 <p>Mi relación con el cine nunca pasó realmente por el aprendizaje en ese sentido. El aprendizaje supone transmisión: alguien enseña, alguien recibe. Lo que me ocurrió fue distinto. No aprendí; descubrí.</p>
 <p>Descubrí que el mundo rara vez se deja ordenar con la claridad que quisiéramos. No afirmo haber encontrado ninguna verdad. De hecho, desconfío de esa pretensión. Pero de algo sí estoy seguro: de la experiencia que me llevó a mirar el mundo de esta manera.</p>
 <p>Reconozco esa intuición formulada con claridad por Albert Camus: el absurdo no se resuelve, se sostiene. No llegué a esa idea leyendo filosofía. Solo lo reconocí.</p>
-<p>Esa forma de mirar también me lleva a prestar atención a algo más: la manera en que el poder se infiltra en lo cotidiano. No hablo del poder en su forma más visible —los grandes discursos, las instituciones, las figuras de autoridad— sino de algo mucho más discreto. Pequeños gestos, normas aparentemente inocentes, comportamientos que aceptamos sin pensar demasiado.</p>
+<p>Esa forma de mirar también me lleva a prestar atención a algo más: la manera en que el poder se infiltra en lo cotidiano. No hablo del poder en su forma más visible —los grandes discursos, las instituciones, las figuras de autoridad— sino de algo mucho m��s discreto. Pequeños gestos, normas aparentemente inocentes, comportamientos que aceptamos sin pensar demasiado.</p>
 <p>Esa sospecha también fue pensada con profundidad por Michel Foucault. Pero mi relación con esa idea tampoco nace en la teoría. Nace observando. Observando cómo lo que llamamos normalidad suele contener, ya desde dentro, una forma de violencia silenciosa.</p>
 <p>Por eso no me interesa construir villanos evidentes ni discursos programáticos. Prefiero observar cómo esas estructuras aparecen en la vida ordinaria. La cámara, al menos para mí, no debería adoctrinar. Debería acompañar lo suficiente como para que esas tensiones se vuelvan visibles.</p>
 <p>Hay otra intuición que se vuelve inevitable: antes que sujetos morales o racionales, somos cuerpos. Organismos. Animales con una biología compleja tratando de construir sentido dentro de ella.</p>
