@@ -643,7 +643,6 @@ export const bookCategories: BookCategory[] = [
   title: 'Novela',
   coverImage: '/images/mauricio-autor-portrait.jpg',
     href: '/libros/novela',
-    description: 'Narrativa en desarrollo: los territorios interiores de la ficción.',
     icon: PenLine,
   },
 ];
