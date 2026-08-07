@@ -632,10 +632,10 @@ export const bookCategories: BookCategory[] = [
   {
     slug: 'ciencia',
     title: 'Ciencia',
-    coverImage: '/images/libros/categoria-ciencia.png',
+    coverImage: '/images/libros-hero-waterfall.jpg',
     href: '/libros/ciencia',
     description:
-      'Publicaciones sobre ictiofauna y conservación de humedales desérticos del norte de México.',
+      'Décadas de investigación en biodiversidad acuática, taxonomía y gobernanza ambiental.',
     icon: Microscope,
   },
   {
