@@ -242,7 +242,7 @@ export const scienceBooks = [
   {
     id: 'peces-rio-conchos',
     title: 'Los Peces del Río Conchos',
-    cover: '/images/libros/los-peces-del-rio-conchos.png',
+    cover: '/images/libros/los-peces-del-rio-conchos-cover.jpg',
     date: 'Septiembre 2009',
     editor: 'M. de la Maza-Benignos',
     publisher: 'Alianza WWF-FGRA y Gobierno del Estado de Chihuahua',
@@ -256,7 +256,7 @@ export const scienceBooks = [
   {
     id: 'cuatro-cienegas',
     title: 'Cuatro Ciénegas y su Estado de Conservación a Través de sus Peces',
-    cover: '/images/libros/cuatro-cienegas.png',
+    cover: '/images/libros/cuatro-cienegas-cover.jpg',
     date: '',
     editor: 'Mauricio de la Maza Benignos',
     publisher: 'Pronatura Noreste',
@@ -271,7 +271,7 @@ export const scienceBooks = [
   {
     id: 'desert-wetlands',
     title: 'Conservation of Desert Wetlands and their Biotas / Conservación de Humedales Desérticos y su Biota',
-    cover: '/images/libros/conservation-desert-wetlands.png',
+    cover: '/images/libros/conservation-desert-wetlands-cover.jpg',
     date: '2014',
     editor: 'Mauricio De la Maza-Benignos, Ma. de Lourdes Lozano-Vilano & Evan W. Carson',
     publisher: 'Museum of Southwestern Biology, Pronatura Noreste, y Universidad Autónoma de Nuevo León',
