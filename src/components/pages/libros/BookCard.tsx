@@ -115,16 +115,18 @@ export default function BookCard({ book }: { book: ScienceBook }) {
           </Button>
         </div>
 
-        {/* PDF preview */}
+        {/* PDF preview — toggled purely by showPdf state; no download here */}
         {showPdf && (
           <div className="mt-6 overflow-hidden rounded-lg border border-border bg-background">
             <iframe
               src={`${book.pdf}#toolbar=0`}
               title={`Vista previa del PDF de ${book.title}`}
-              className="h-[480px] w-full"
+              width="100%"
+              height="600px"
+              className="block w-full border-0"
             />
             <div className="border-t border-border p-3 text-center text-xs text-muted-foreground">
-              ¿No se muestra el PDF?{' '}
+              ¿No se muestra el PDF aquí?{' '}
               <a href={book.pdf} className="text-accent underline" target="_blank" rel="noopener noreferrer">
                 Ábrelo en una pestaña nueva
               </a>
