@@ -14,8 +14,16 @@ export default function LibrosPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative flex min-h-[45vh] items-center justify-center overflow-hidden bg-black py-32 text-white">
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-neutral-900 to-background" />
+      <section className="relative flex min-h-[60vh] items-center justify-center overflow-hidden bg-black py-32 text-white">
+        <Image
+          src="/images/libros-hero-waterfall.jpg"
+          alt="Cascada de Tamul entre paredes de roca verde y aguas turquesa de la Huasteca"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-background" />
         <div className="relative z-10 flex flex-col items-center px-4 text-center">
           <BookOpen className="mb-6 h-10 w-10 text-accent" aria-hidden="true" />
           <p className="mb-4 text-sm uppercase tracking-[0.4em] text-accent">Obra escrita</p>
