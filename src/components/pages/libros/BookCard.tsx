@@ -118,20 +118,18 @@ export default function BookCard({ book }: { book: ScienceBook }) {
         {/* PDF preview */}
         {showPdf && (
           <div className="mt-6 overflow-hidden rounded-lg border border-border bg-background">
-            <object data={book.pdf} type="application/pdf" className="h-[480px] w-full">
-              <iframe
-                src={book.pdf}
-                title={`Vista previa del PDF de ${book.title}`}
-                className="h-[480px] w-full"
-              />
-              <div className="p-6 text-center text-sm text-muted-foreground">
-                Tu navegador no puede mostrar el PDF integrado.{' '}
-                <a href={book.pdf} className="text-accent underline" target="_blank" rel="noopener noreferrer">
-                  Ábrelo en una pestaña nueva
-                </a>
-                .
-              </div>
-            </object>
+            <iframe
+              src={`${book.pdf}#toolbar=0`}
+              title={`Vista previa del PDF de ${book.title}`}
+              className="h-[480px] w-full"
+            />
+            <div className="border-t border-border p-3 text-center text-xs text-muted-foreground">
+              ¿No se muestra el PDF?{' '}
+              <a href={book.pdf} className="text-accent underline" target="_blank" rel="noopener noreferrer">
+                Ábrelo en una pestaña nueva
+              </a>
+              .
+            </div>
           </div>
         )}
       </div>
