@@ -16,12 +16,12 @@ export const siteConfig = {
 export const navLinks: NavLink[] = [
   { href: '/', label: 'Inicio' },
   { href: '/nosotros', label: 'Nosotros' },
-  { href: '/servicios', label: 'Servicios' },
-  { href: '/galerias', label: 'Galerías' },
   { href: '/musica', label: 'Música' },
   { href: '/libros', label: 'Libros' },
   { href: '/revista', label: 'Revista' },
   { href: '/prensa', label: 'Prensa' },
+  { href: '/galerias', label: 'Galerías' },
+  { href: '/servicios', label: 'Servicios' },
   { href: '/contacto', label: 'Contacto' },
 ];
 
@@ -1084,7 +1084,7 @@ export const posts: Post[] = [
 <p><em>mohammed_hassan en Pixaby</em></p>
 <p>El problema que se genera anualmente, es el trato diferenciado que reciben las organizaciones caracterizadas, frente a las personas morales, en el acceso a recursos públicos, en aras de determinar si las normas aplicables son discriminatorias o no.</p>
 <p>En los encuentros con periodistas y el Presidente de la República, en ruedas de prensa o conferencias matutinas, donde además de anunciar programas sociales, surgen participaciones de funcionarios públicos y se atienden preguntas de la prensa. Distintas iniciativas han analizado la repetición de frases, afirmaciones, señalamientos frecuentes y el impacto de los mensajes políticos, así como la exposición de temas de coyuntura. El lic. Andrés Manuel López Obrador, ya había utilizado la capacidad de los medios de comunicación y de otras formas de comunicación pública para establecer una agenda pública, informar a la ciudadanía y coordinar acciones cuando fue Jefe de Gobierno del DF ( (Pérez Cristino & Cuna Pérez, 2020). Actualmente, las redes sociales también han replicado sus mensajes; por ejemplo, nueve de cada 10 tuits de la cuenta oficial de comunicación social del gobierno federal, contienen el hashtag #ConferenciaPresidente, citándolo o parafraseándolo. Con estos actos asume personalmente la comunicación social de la actual administración diariamente (Estrada, 2019), y a través de dichas fuentes, se da a conocer a la percepción pública su opinión respecto a las organizaciones, para posteriormente modificar no solo su retórica, sino su actuación consecuente.</p>
-<p>Al respecto, diversos periodistas, han documentado el discurso presidencial, que transitó de un contenido positivo o neutral, a uno negativo, al tiempo que se posicionaban y justificaban programas sociales (Fernández & Moreno, 2019), y dejaba de fomentarse la participación de organizaciones en actividades a que refiere la LFFAOSC. Incluso, Fernández y Moreno (2019) generaron el dato de que de 57 conferencias matutinas que refieren al tema de estudio, el 91% de las ocasiones dirigió descalificaciones sin fundamento administrativo o penal a las organizaciones, y sin referir concretamente a alguna en particular. Y citan como ejemplo, el 28 de enero de 2019, fecha en la que tuvo lugar el siguiente señalamiento:</p>
+<p>Al respecto, diversos periodistas, han documentado el discurso presidencial, que transitó de un contenido positivo o neutral, a uno negativo, al tiempo que se posicionaban y justificaban programas sociales (Fernández & Moreno, 2019), y dejaba de fomentarse la participaci��n de organizaciones en actividades a que refiere la LFFAOSC. Incluso, Fernández y Moreno (2019) generaron el dato de que de 57 conferencias matutinas que refieren al tema de estudio, el 91% de las ocasiones dirigió descalificaciones sin fundamento administrativo o penal a las organizaciones, y sin referir concretamente a alguna en particular. Y citan como ejemplo, el 28 de enero de 2019, fecha en la que tuvo lugar el siguiente señalamiento:</p>
 <blockquote>”El gobierno es un cuerpo de avance lento, entonces por eso estamos procurando que los programas sociales le lleguen de manera directa a la gente, sin pasar por el gobierno, sin pasar por las organizaciones. Era increíble el manejo de moches en todo. Organizaciones ciudadanas, organizaciones campesinas, organizaciones de la llamada sociedad civil, que recibían dinero del presupuesto. Y para todo era dinero, todo lo resolvían repartiendo dinero y no le llegaba nada a la gente. Entonces eso es lo que estamos atendiendo”.</blockquote>
 <img src="/images/discriminación2.jpg" alt="Congreso" class="my-6 rounded-lg shadow-md" />
 <p><em>Fotografía: Mauricio de la Maza-Benignos</em></p>
