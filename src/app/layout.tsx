@@ -207,6 +207,7 @@ export default function RootLayout({
       "@id": "https://corafilm.com/#movie",
       "name": "Cora",
       "url": "https://corafilm.com",
+      "image": ["https://www.mauriciodelamazabenignos.com/images/Cora.png"],
       "director": { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
       "musicBy": { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
       "productionCompany": { "@id": "https://www.mauriciodelamazabenignos.com/#organization-dlmcf" },
@@ -218,6 +219,7 @@ export default function RootLayout({
       "@id": "https://dialogosdelamuerte.com/#movie",
       "name": "Diálogos de la muerte",
       "url": "https://dialogosdelamuerte.com",
+      "image": ["https://www.mauriciodelamazabenignos.com/images/Dialogos%20de%20la%20muerte.png"],
       "director": { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
       "musicBy": { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
       "productionCompany": { "@id": "https://www.mauriciodelamazabenignos.com/#organization-dlmcf" }
@@ -228,6 +230,7 @@ export default function RootLayout({
       "@id": "https://theshoe.info/#movie",
       "name": "El Zapato",
       "url": "https://theshoe.info",
+      "image": ["https://www.mauriciodelamazabenignos.com/images/El%20zapato.png"],
       "director": { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
       "productionCompany": { "@id": "https://www.mauriciodelamazabenignos.com/#organization-dlmcf" }
     },
@@ -237,6 +240,7 @@ export default function RootLayout({
       "@id": "https://makhaira.mauriciodelamazabenignos.com/#movie",
       "name": "El Gran Makhaira",
       "url": "https://makhaira.mauriciodelamazabenignos.com",
+      "image": ["https://www.mauriciodelamazabenignos.com/images/El%20gran%20Makhaira.png"],
       "director": { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
       "productionCompany": { "@id": "https://www.mauriciodelamazabenignos.com/#organization-dlmcf" }
     },
@@ -371,9 +375,12 @@ export default function RootLayout({
       "@type": "Event",
       "@id": "https://wcff.org/#event-2026",
       "name": "Wildlife Conservation Film Festival 2026",
+      "description": "Edición 2026 del Wildlife Conservation Film Festival (WCFF), festival internacional de cine de naturaleza y conservación, con funciones presenciales en Monterrey, Nuevo León, México.",
+      "image": ["https://www.mauriciodelamazabenignos.com/images/Wildligeconservation.png"],
       "url": "https://wcff.org",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
       "organizer": { "@id": "https://www.mauriciodelamazabenignos.com/#organization-wcff" },
-      "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode",
       "startDate": "2026-09-18",
       "endDate": "2026-09-20",
       "location": {
@@ -400,13 +407,16 @@ export default function RootLayout({
       "@id": "https://youtu.be/MtvDLkDufCg#video",
       "name": "¿Puede una película ayudar a la naturaleza? | Entrevista con Mauricio de la Maza-Benignos",
       "description": "Entrevista con Mauricio de la Maza-Benignos, director del Wildlife Conservation Film Festival (WCFF) en México, sobre el poder del cine como herramienta para inspirar la conservación de la naturaleza.",
-      "uploadDate": "2026-08-05",
+      "thumbnailUrl": ["https://i.ytimg.com/vi/MtvDLkDufCg/maxresdefault.jpg"],
+      "uploadDate": "2026-08-05T00:00:00-06:00",
       "duration": "PT26M40S",
       "url": "https://youtu.be/MtvDLkDufCg",
+      "contentUrl": "https://youtu.be/MtvDLkDufCg",
       "embedUrl": "https://www.youtube.com/embed/MtvDLkDufCg",
       "inLanguage": "es-MX",
       "publisher": { "@id": "https://www.youtube.com/@AventurTitasRR#organization" },
       "creator": { "@id": "https://www.youtube.com/@AventurTitasRR#organization" },
+      "author": { "@id": "https://www.youtube.com/@AventurTitasRR#organization" },
       "about": [
         { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
         { "@id": "https://www.mauriciodelamazabenignos.com/#organization-wcff" }
