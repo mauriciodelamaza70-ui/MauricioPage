@@ -271,7 +271,7 @@ export const scienceBooks = [
   {
     id: 'desert-wetlands',
     title: 'Conservation of Desert Wetlands and their Biotas / Conservación de Humedales Desérticos y su Biota',
-    cover: '/images/libros/conservation-desert-wetlands.png',
+    cover: '/images/libros/conservation-desert-wetlands-cover.jpg',
     date: '2014',
     editor: 'Mauricio De la Maza-Benignos, Ma. de Lourdes Lozano-Vilano & Evan W. Carson',
     publisher: 'Museum of Southwestern Biology, Pronatura Noreste, y Universidad Autónoma de Nuevo León',
