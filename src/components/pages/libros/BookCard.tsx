@@ -32,6 +32,10 @@ export default function BookCard({ book }: { book: ScienceBook }) {
   const synopsisText =
     isLong && !expanded ? `${book.synopsis.slice(0, SYNOPSIS_LIMIT).trimEnd()}…` : book.synopsis;
 
+  // Inline-viewing URL: served with Content-Disposition: inline so it renders
+  // in the iframe / new tab instead of forcing a download like the static path.
+  const inlinePdfUrl = `/api/pdf/${book.pdf.split('/').pop() ?? ''}`;
+
   const meta: { label: string; value?: string }[] = [
     { label: 'Editor', value: book.editor },
     { label: 'Editorial', value: book.publisher },
@@ -119,7 +123,7 @@ export default function BookCard({ book }: { book: ScienceBook }) {
         {showPdf && (
           <div className="mt-6 overflow-hidden rounded-lg border border-border bg-background">
             <iframe
-              src={`${book.pdf}#toolbar=0`}
+              src={`${inlinePdfUrl}#toolbar=0`}
               title={`Vista previa del PDF de ${book.title}`}
               width="100%"
               height="600px"
@@ -127,7 +131,7 @@ export default function BookCard({ book }: { book: ScienceBook }) {
             />
             <div className="border-t border-border p-3 text-center text-xs text-muted-foreground">
               ¿No se muestra el PDF aquí?{' '}
-              <a href={book.pdf} className="text-accent underline" target="_blank" rel="noopener noreferrer">
+              <a href={inlinePdfUrl} className="text-accent underline" target="_blank" rel="noopener noreferrer">
                 Ábrelo en una pestaña nueva
               </a>
               .
