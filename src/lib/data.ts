@@ -256,7 +256,7 @@ export const scienceBooks = [
   {
     id: 'cuatro-cienegas',
     title: 'Cuatro Ciénegas y su Estado de Conservación a Través de sus Peces',
-    cover: '/images/libros/cuatro-cienegas.png',
+    cover: '/images/libros/cuatro-cienegas-cover.jpg',
     date: '',
     editor: 'Mauricio de la Maza Benignos',
     publisher: 'Pronatura Noreste',
