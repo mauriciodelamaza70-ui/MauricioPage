@@ -37,15 +37,16 @@ export default function LibrosNovelaPage() {
               Volver a Libros
             </Link>
 
-            <article className="grid grid-cols-1 gap-10 rounded-xl border border-white/10 bg-white/[0.03] p-6 shadow-xl md:grid-cols-[minmax(0,300px)_1fr] md:gap-12 md:p-10">
-              {/* Cover */}
-              <div className="relative mx-auto w-full max-w-[300px] overflow-hidden rounded-lg border border-white/10 shadow-2xl">
+            <article className="flex flex-col gap-10 rounded-xl border border-white/10 bg-white/[0.03] p-6 shadow-xl md:gap-12 md:p-10">
+              {/* Cover — full wraparound (back · spine · front), shown uncropped */}
+              <div className="relative w-full overflow-hidden rounded-lg border border-white/10 shadow-2xl">
                 <Image
                   src="/images/libros/la-caverna-cover.png"
-                  alt="Portada de La Caverna, novela corta de Mauricio de la Maza-Benignos"
-                  width={600}
-                  height={900}
-                  className="h-auto w-full object-cover"
+                  alt="Portada completa de La Caverna, novela corta de Mauricio de la Maza-Benignos"
+                  width={2023}
+                  height={777}
+                  className="h-auto w-full object-contain"
+                  priority
                 />
               </div>
 
