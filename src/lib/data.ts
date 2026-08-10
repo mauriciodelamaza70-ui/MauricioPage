@@ -286,6 +286,17 @@ export const scienceBooks = [
 
 export const pressArticles: PressArticle[] = [
   {
+    fuente: 'Lovet Magazine',
+    titulo: 'El Gran Makhaira: la película noir hecha en Nuevo León con un elenco 100% regio',
+    tipo: 'Artículo',
+    categoria: 'Cine',
+    anio: 2026,
+    url: 'https://lovet.com.es/el-gran-makhaira/',
+    destacado: true,
+    imagen: '/images/prensa/lovet-magazine.png',
+    esPortada: true,
+  },
+  {
     fuente: 'FilmmakerLife',
     titulo: 'Cinema as risk, not as a comfort',
     tipo: 'Perfil editorial',
