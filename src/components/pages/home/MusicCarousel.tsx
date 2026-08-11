@@ -1,10 +1,18 @@
 "use client"
 
-import dynamic from "next/dynamic"
+import { useEffect, useState } from "react"
+import Autoplay from "embla-carousel-autoplay"
 
 import { orderedMusicCategories, MusicCard } from "./MusicCarouselShared"
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
 
-// Fallback estático mostrado durante SSR y hasta que el carrusel interactivo carga en el cliente.
+// Fallback estático mostrado durante SSR y hasta que el carrusel interactivo monta en el cliente.
 function StaticFallback() {
   return (
     <div className="w-full max-w-6xl mx-auto overflow-hidden">
@@ -22,13 +30,35 @@ function StaticFallback() {
   )
 }
 
-// El carrusel de embla muta el DOM al inicializarse, por lo que nunca se renderiza en el
-// servidor: se carga solo en el cliente para evitar cualquier desajuste de hidratación.
-const MusicCarouselClient = dynamic(() => import("./MusicCarouselClient"), {
-  ssr: false,
-  loading: () => <StaticFallback />,
-})
-
 export default function MusicCarousel() {
-  return <MusicCarouselClient />
+  // El carrusel de embla muta el DOM al inicializarse, por lo que solo se renderiza tras
+  // montar en el cliente. El primer render (servidor + cliente) muestra el fallback estático,
+  // evitando cualquier desajuste de hidratación sin depender de next/dynamic.
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return <StaticFallback />
+  }
+
+  return (
+    <Carousel
+      opts={{ align: "start", loop: true }}
+      plugins={[Autoplay({ delay: 5000, stopOnInteraction: true, stopOnMouseEnter: true })]}
+      className="w-full max-w-6xl mx-auto"
+    >
+      <CarouselContent>
+        {orderedMusicCategories.map((category) => (
+          <CarouselItem key={category.id} className="sm:basis-1/2 lg:basis-1/3">
+            <MusicCard category={category} />
+          </CarouselItem>
+        ))}
+      </CarouselContent>
+      <CarouselPrevious className="text-accent border-accent hover:bg-accent hover:text-white" />
+      <CarouselNext className="text-accent border-accent hover:bg-accent hover:text-white" />
+    </Carousel>
+  )
 }
