@@ -609,16 +609,28 @@ export const pressArticles: PressArticle[] = [
     url: 'https://www.youtube.com/watch?v=yfqNWQl8cW4',
   },
   {
-    fuente: 'Lancaster University',
-    titulo: 'Artist, Activist, Scientist and Entrepreneur',
-    tipo: 'Perfil de exalumno',
-    categoria: 'Trayectoria',
-    anio: 2021,
-    url: 'https://www.lancaster.ac.uk/alumni/news/artist-activist-scientist-and-entrepreneur',
-    destacado: true,
-    imagen: '/images/prensa/lancaster-university.png',
+  fuente: 'Lancaster University',
+  titulo: 'Artist, Activist, Scientist and Entrepreneur',
+  tipo: 'Perfil de exalumno',
+  categoria: 'Trayectoria',
+  anio: 2021,
+  url: 'https://www.lancaster.ac.uk/alumni/news/artist-activist-scientist-and-entrepreneur',
+  destacado: true,
+  imagen: '/images/prensa/lancaster-university.png',
   },
-];
+  {
+  fuente: 'The Nature Conservancy (TNC)',
+  titulo:
+  'Agua dulce, conservación de la biodiversidad, protección de los servicios ambientales y restauración ecológica en México',
+  tipo: 'Informe técnico',
+  categoria: 'Conservación',
+  anio: 2017,
+  url: 'https://www.nature.org/content/dam/tnc/nature/en/documents/mexico/agua_dulce_mexico_Juan_Bezaury_et_al.pdf',
+  destacado: true,
+  imagen: '/images/prensa/the-nature-conservancy.png',
+  esPortada: true,
+  },
+  ];
 
 export const services: Service[] = [
   {
