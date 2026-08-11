@@ -61,15 +61,14 @@ export default function NarrativaRazonEssay() {
           if (block.type === 'image') {
             return (
               <figure key={i} className="my-12">
-                <div className="relative aspect-[16/9] w-full overflow-hidden rounded-lg bg-secondary">
-                  <Image
-                    src={block.src}
-                    alt={block.caption[lang]}
-                    fill
-                    sizes="(max-width: 768px) 100vw, 768px"
-                    className="object-cover"
-                  />
-                </div>
+                <Image
+                  src={block.src}
+                  alt={block.caption[lang]}
+                  width={1600}
+                  height={1200}
+                  sizes="(max-width: 768px) 100vw, 768px"
+                  className="h-auto w-full rounded-lg bg-secondary"
+                />
                 <figcaption className="mt-3 text-sm italic text-muted-foreground">
                   {block.caption[lang]}
                 </figcaption>
