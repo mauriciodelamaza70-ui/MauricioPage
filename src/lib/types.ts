@@ -132,6 +132,8 @@ export type PressArticle = {
   destacado?: boolean;
   /** Imagen/thumbnail para las piezas destacadas. */
   imagen?: string;
+  /** Descripción documental breve, se muestra bajo el título en las tarjetas destacadas (acotada a 3 líneas). */
+  descripcion?: string;
   /** La imagen es una portada de revista vertical: se muestra completa sin recortar. */
   esPortada?: boolean;
   /** Galería de páginas (portada + interiores) que se despliega al hacer clic en la tarjeta destacada. */

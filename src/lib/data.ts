@@ -609,16 +609,30 @@ export const pressArticles: PressArticle[] = [
     url: 'https://www.youtube.com/watch?v=yfqNWQl8cW4',
   },
   {
-    fuente: 'Lancaster University',
-    titulo: 'Artist, Activist, Scientist and Entrepreneur',
-    tipo: 'Perfil de exalumno',
-    categoria: 'Trayectoria',
-    anio: 2021,
-    url: 'https://www.lancaster.ac.uk/alumni/news/artist-activist-scientist-and-entrepreneur',
-    destacado: true,
-    imagen: '/images/prensa/lancaster-university.png',
+  fuente: 'Lancaster University',
+  titulo: 'Artist, Activist, Scientist and Entrepreneur',
+  tipo: 'Perfil de exalumno',
+  categoria: 'Trayectoria',
+  anio: 2021,
+  url: 'https://www.lancaster.ac.uk/alumni/news/artist-activist-scientist-and-entrepreneur',
+  destacado: true,
+  imagen: '/images/prensa/lancaster-university.png',
   },
-];
+  {
+  fuente: 'The Nature Conservancy (TNC)',
+  titulo:
+  'Agua dulce, conservación de la biodiversidad, protección de los servicios ambientales y restauración ecológica en México',
+  descripcion:
+  'Informe especializado sobre conservación de agua dulce en México que documenta la primera concesión de agua para uso ambiental en el país, otorgada en Cuatro Ciénegas, Coahuila. Documenta el caso de Pozas Azules y reconoce la colaboración de Mauricio de la Maza-Benignos, entonces director general de Pronatura Noreste, en la integración de ese apartado.',
+  tipo: 'Informe técnico',
+  categoria: 'Conservación',
+  anio: 2017,
+  url: 'https://www.nature.org/content/dam/tnc/nature/en/documents/mexico/agua_dulce_mexico_Juan_Bezaury_et_al.pdf',
+  destacado: true,
+  imagen: '/images/prensa/the-nature-conservancy.png',
+  esPortada: true,
+  },
+  ];
 
 export const services: Service[] = [
   {
@@ -886,7 +900,7 @@ export const posts: Post[] = [
 <p>Composición y ejecución nunca me han parecido la misma competencia, aunque casi todo el mundo las confunde. Puedo sentarme frente al piano de un lugar público y tocar Las Ma��anitas sin un solo adorno, y eso no le resta nada a lo que sucede cuando compongo: ahí la música ya está completa en mi cabeza, con capas, con forma, contrastada con la teoría después de sentirla, no antes. Mi capacidad como ejecutante y mi capacidad como compositor no dependen de la misma inteligencia ni responden al mismo entrenamiento. Son dos sistemas que apenas se cruzan. Más tarde supe que esto también tiene nombre: Edwin Gordon lo llamó audiation, la capacidad de escuchar y organizar música por dentro, sin sonido físico presente, como una inteligencia distinta de la destreza neuromuscular de ejecutar un instrumento. Y hay un precedente que me resultó especialmente revelador: Berlioz orquestó parte del repertorio más influyente del romanticismo sin ser un pianista competente, escuchando la obra completa en su imaginación antes de escribirla. No lo cito para que me valide. Lo cito porque, una vez más, resultó que llevaba tiempo conversando con alguien sin saber su nombre.</p>
 <p>Por eso, cuando compongo, no desconfío de mi propia percepción; simplemente la calibro. No parto de una receta de género ni de una teoría que dicte la forma antes de que exista. Hago lo que se me da la gana y, después, recurro al análisis para saber con exactitud qué estoy torciendo y por qué. Igual que sé que un color es técnicamente gris antes de decidir dejarlo morado. La herramienta no me ata a la norma. Me da la libertad de desviarme de ella con conocimiento de causa, no por ignorancia.</p>
 <p>Ese gesto aparece una y otra vez en mi música: una voz escrita que nunca se graba y termina convertida en un órgano; un vals de salón que comienza a insinuar un mambo y acaba suspendido sobre una atmósfera electrónica; unas campanas reales grabadas en un pueblo que dejan de ser documento para convertirse en otra cosa. Nunca busco resolver la tensión. Prefiero sostenerla.</p>
-<p>Curiosamente, las referencias filosóficas llegaron después. Casi siempre escribí primero y leí después. Cuando más tarde encontré a Stravinsky hablando del poder creativo de las restricciones, a Pierre Schaeffer transformando sonidos cotidianos en objetos musicales o a Wittgenstein pensando el lenguaje como una forma de habitar el mundo, no sentí que ellos legitimaran mis intuiciones. Sentí algo mucho más interesante: había encontrado interlocutores. A veces coincidimos. Otras no. Pero la conversación ya existía antes de que yo conociera sus nombres.</p>
+<p>Curiosamente, las referencias filosóficas llegaron después. Casi siempre escribí primero y leí después. Cuando más tarde encontré a Stravinsky hablando del poder creativo de las restricciones, a Pierre Schaeffer transformando sonidos cotidianos en objetos musicales o a Wittgenstein pensando el lenguaje como una forma de habitar el mundo, no sentí que ellos legitimaran mis intuiciones. Sentí algo mucho más interesante: había encontrado interlocutores. A veces coincidimos. Otras no. Pero la conversación ya exist��a antes de que yo conociera sus nombres.</p>
 <p>Estoy convencido de que casi toda idea importante ha sido pensada antes por alguien. Lo interesante no es reclamar su propiedad, sino descubrir con quién llevábamos años conversando sin saberlo. Pensar no consiste en llegar primero. Consiste en aportar una variación honesta a una conversación que empezó mucho antes de nosotros y continuará cuando ya no estemos.</p>
 <p>Por eso nunca he sentido la obligación de pertenecer a una escuela, a un instrumento o a una época. Si una pieza termina pareciéndose al post-punk, al jazz, a un himno prehistórico, a una cumbia psicodélica, a un vals porfiriano, al hip-hop, al reguetón o a una música que todavía no tiene nombre, me resulta secundario. Los géneros nunca fueron una casa; fueron un lenguaje. La obra siempre fue la idea.</p>
 <p><strong>Mauricio de la Maza-Benignos</strong></p>
@@ -1131,7 +1145,7 @@ export const posts: Post[] = [
 <p>Artículos / Colaboradores</p>
 <p>Poco se ha indagado sobre el trato diferenciado hacia organizaciones defensoras del medio ambiente sano, a pesar de que resulta trascendente en la medida de que cada programa de fomento, tiene una normatividad propia en el ámbito administrativo, y a nivel nacional, prevalece una visión excluyente generalizada. Poco, a pesar de que bajo un punto de vista financiero, es imposible deslindar la perspectiva de justiciabilidad de los DESCA, en la medida de que las organizaciones, los promueven y defienden. Sin embargo, cada inicio de año fiscal, puede analizarse argumentación jurídica en un mecanismo de control de constitucionalidad concentrado, a través de las vías dispuestas para tal efecto, para que quienes se estiman agraviados, accionen el juicio de amparo, con la finalidad de proteger intereses difusos y colectivos de los derechos humanos y generar referencias jurisdiccionales de mandatos de optimización -principios-.</p>
 <p>Las organizaciones de la sociedad civil nacen ante la necesidad de buscar soluciones a problemas socialmente relevantes; son “el resultado de la presión ciudadana por participar en las decisiones públicas que afectan su vida” (Morera & Quintana, 2019). Según la normatividad civil, se constituyen a través de un conjunto de personas que se dan un marco legal de actividades para regularse de acuerdo con un propósito; además, la Ley Federal de Fomento a las Actividades realizadas por las organizaciones de la sociedad civil (LFFAOSC), instituye cuáles son sus derechos, entre los que destaca, el acceso a los apoyos y estímulos públicos para fomento de las actividades; además de precisar como una de las actividades objeto de fomento, la protección del ambiente, la flora y la fauna, la preservación y restauración del equilibrio ecológico (Diputados, 2018).</p>
-<p>En ese orden de ideas, en determinadas circunstancias, cualquier organización ambientalista, cuyo objeto social conlleve actividades de fomento, está en aptitud de ser considerada como promotora y defensora del derecho humano al medio ambiente sano. Son estas organizaciones, las que actualmente están inmersas en una política pública que incide de forma negativa en el desarrollo de su objeto social, el goce y ejercicio de sus derechos, y su participación activa en la agenda pública, y reciben además, un trato desigual. Al respecto, el ordenamiento jurídico en nuestro pa��s, permite el trato diferenciado porque en sí mismo no es contrario a la igualdad y a la no discriminación; no obstante, cuando deriva en la vulneración de los derechos del grupo diferenciado, se violenta el derecho a la no discriminación (Vázquez, 2018).</p>
+<p>En ese orden de ideas, en determinadas circunstancias, cualquier organización ambientalista, cuyo objeto social conlleve actividades de fomento, está en aptitud de ser considerada como promotora y defensora del derecho humano al medio ambiente sano. Son estas organizaciones, las que actualmente están inmersas en una política pública que incide de forma negativa en el desarrollo de su objeto social, el goce y ejercicio de sus derechos, y su participación activa en la agenda pública, y reciben además, un trato desigual. Al respecto, el ordenamiento jurídico en nuestro pa����s, permite el trato diferenciado porque en sí mismo no es contrario a la igualdad y a la no discriminación; no obstante, cuando deriva en la vulneración de los derechos del grupo diferenciado, se violenta el derecho a la no discriminación (Vázquez, 2018).</p>
 <img src="/images/discriminación1.jpg" alt="Protesta ambiental" class="my-6 rounded-lg shadow-md" />
 <p><em>mohammed_hassan en Pixaby</em></p>
 <p>El problema que se genera anualmente, es el trato diferenciado que reciben las organizaciones caracterizadas, frente a las personas morales, en el acceso a recursos públicos, en aras de determinar si las normas aplicables son discriminatorias o no.</p>

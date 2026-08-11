@@ -101,6 +101,11 @@ export default function PrensaContent() {
                   <h3 className="font-headline text-xl font-bold mt-2 leading-snug text-pretty">
                     {article.titulo}
                   </h3>
+                  {article.descripcion && (
+                    <p className="mt-3 text-sm leading-relaxed text-muted-foreground line-clamp-3">
+                      {article.descripcion}
+                    </p>
+                  )}
                   <div className="mt-auto flex items-center justify-between pt-6">
                     <span className="text-muted-foreground text-sm">{article.anio}</span>
                     <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-accent" />
