@@ -1,6 +1,14 @@
 {
   "placeholderImages": [
     {
+      "id": "blog-narrativa-razon-cover",
+      "description": "Fotografía retocada donde una figura ha sido borrada del registro oficial: la narrativa cubriendo la evidencia",
+      "imageUrl": "/images/revista/narrativa-razon/portada.jpg",
+      "imageHint": "erased archival photograph",
+      "width": 1024,
+      "height": 683
+    },
+    {
       "id": "blog-entes-eco-cover",
       "description": "Multitud caminando en un pasillo de espejos infinitos, todos en la misma dirección",
       "imageUrl": "/images/revista/entes-eco/el-mundo-de-los-entes-eco-portada.png",
