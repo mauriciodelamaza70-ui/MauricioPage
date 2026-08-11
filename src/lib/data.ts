@@ -723,6 +723,19 @@ export const projects: Project[] = [
 
 export const posts: Post[] = [
   {
+    id: 'post-narrativa-como-sustituto-de-la-razon',
+    slug: 'narrativa-como-sustituto-de-la-razon',
+    title: 'La narrativa como sustituto de la razón',
+    date: '11 de Agosto, 2026',
+    excerpt:
+      'Notas sobre reconocimiento, atribución y el mecanismo que las corrompe: qué le pasa a una sociedad cuando deja de preguntar quién hizo algo y empieza a preguntar solo quién lo paga.',
+    category: 'Artículos',
+    author: 'Mauricio de la Maza-Benignos',
+    imageId: 'blog-narrativa-razon-cover',
+    heroImageId: 'blog-narrativa-razon-cover',
+    content: `<p>Notas sobre reconocimiento, atribución y el mecanismo que las corrompe: qué le pasa a una sociedad cuando deja de preguntar quién hizo algo y empieza a preguntar solo quién lo paga.</p>`,
+  },
+  {
     id: 'post-el-mundo-de-los-entes-eco',
     slug: 'el-mundo-de-los-entes-eco',
     title: 'El mundo de los entes-eco',
