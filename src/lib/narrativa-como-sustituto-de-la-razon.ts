@@ -470,4 +470,12 @@ export const narrativaComoSustitutoDeLaRazon: EssayBlock[] = [
       en: `What began as a minor episode — a film credit reassigned with no new fact to justify it — turned out to be, looked at closely enough, the entry point to a problem that is anything but minor: what happens to any system of recognition once it stops asking who did it, and starts asking only who pays for the harm.`,
     },
   },
+  {
+    type: 'image',
+    src: '/images/revista/narrativa-razon/14.jpg',
+    caption: {
+      es: `La evidencia no siempre desaparece cuando la narrativa la cubre. A veces solo espera, debajo, a que alguien esté dispuesto a raspar.`,
+      en: `Evidence does not always vanish when narrative covers it. Sometimes it just waits underneath, for someone willing to scrape it away.`,
+    },
+  },
 ];
