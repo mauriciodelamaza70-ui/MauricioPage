@@ -142,4 +142,6 @@ export type PressArticle = {
   cuatroCienegas?: boolean;
   /** Si existe, la tarjeta navega a esta ruta interna en vez de al enlace externo. */
   rutaInterna?: string;
+  /** Ruta local a un PDF alojado en el sitio. Si existe, la tarjeta muestra acciones "Leer en línea" y "Descargar PDF" en vez de un enlace externo. */
+  pdfLocal?: string;
 };

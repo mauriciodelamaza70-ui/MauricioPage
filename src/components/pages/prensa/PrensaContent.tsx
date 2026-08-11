@@ -3,7 +3,7 @@
 import { useMemo, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowUpRight, ChevronDown } from 'lucide-react';
+import { ArrowUpRight, ChevronDown, Download } from 'lucide-react';
 import { pressArticles } from '@/lib/data';
 import type { PressArticle } from '@/lib/types';
 import { Button } from '@/components/ui/button';
@@ -106,16 +106,47 @@ export default function PrensaContent() {
                       {article.descripcion}
                     </p>
                   )}
-                  <div className="mt-auto flex items-center justify-between pt-6">
-                    <span className="text-muted-foreground text-sm">{article.anio}</span>
-                    <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-accent" />
-                  </div>
+                  {article.pdfLocal ? (
+                    <div className="mt-auto flex flex-wrap items-center gap-3 pt-6">
+                      <a
+                        href={article.pdfLocal}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 rounded-full bg-accent px-4 py-2 text-sm font-medium text-accent-foreground transition-opacity hover:opacity-90"
+                      >
+                        Leer en línea
+                        <ArrowUpRight className="h-4 w-4" />
+                      </a>
+                      <a
+                        href={article.pdfLocal}
+                        download
+                        className="inline-flex items-center gap-1.5 rounded-full border border-border px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-accent/60 hover:text-accent"
+                      >
+                        Descargar PDF
+                        <Download className="h-4 w-4" />
+                      </a>
+                      <span className="ml-auto text-muted-foreground text-sm">{article.anio}</span>
+                    </div>
+                  ) : (
+                    <div className="mt-auto flex items-center justify-between pt-6">
+                      <span className="text-muted-foreground text-sm">{article.anio}</span>
+                      <ArrowUpRight className="h-4 w-4 text-muted-foreground transition-colors group-hover:text-accent" />
+                    </div>
+                  )}
                 </div>
               </>
             );
 
             const cardClass =
               'group flex flex-col overflow-hidden rounded-lg bg-secondary border border-border transition-colors text-left hover:border-accent/60';
+
+            if (article.pdfLocal) {
+              return (
+                <div key={article.url} className={cardClass}>
+                  {inner}
+                </div>
+              );
+            }
 
             if (article.rutaInterna) {
               return (
