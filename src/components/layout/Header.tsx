@@ -70,8 +70,17 @@ export default function Header() {
         <div className="md:hidden">
           <Sheet>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className={cn(isHome && !isScrolled ? 'text-white hover:bg-white/10' : 'text-foreground')}>
-                <Menu />
+              <Button
+                variant="ghost"
+                size="icon"
+                aria-label="Abrir menú de navegación"
+                className={cn(
+                  isHome && !isScrolled
+                    ? 'text-white bg-black/20 hover:bg-black/30'
+                    : 'text-foreground hover:bg-accent/10'
+                )}
+              >
+                <Menu className="size-6" />
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] bg-background">
