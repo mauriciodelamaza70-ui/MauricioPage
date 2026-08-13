@@ -86,8 +86,11 @@ h1, h2, h3, h4, h5, h6 {
   * {
     @apply border-border;
   }
+  html,
   body {
     @apply bg-background text-foreground;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   .footer-dark {
     --background: 0 0% 10.6%;
