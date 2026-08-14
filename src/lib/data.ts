@@ -309,6 +309,14 @@ export const pressArticles: PressArticle[] = [
     esPortada: true,
   },
   {
+    fuente: 'Tec Sounds Radio 94.9 XHTEC-FM',
+    titulo: 'Desde el Campus — entrevista en vivo',
+    tipo: 'Entrevista de radio (en vivo)',
+    categoria: 'Trayectoria',
+    anio: 2026,
+    url: 'https://www.youtube.com/watch?v=AwOkRxwT04I&t=2700s',
+  },
+  {
     fuente: 'Sector Nostalgia',
     titulo:
       'El Gran Makhaira, llega a la pantalla grande con una historia sobre el poder, la violencia y los límites del espectáculo',
