@@ -309,6 +309,15 @@ export const pressArticles: PressArticle[] = [
     esPortada: true,
   },
   {
+    fuente: 'Sector Nostalgia',
+    titulo:
+      'El Gran Makhaira, llega a la pantalla grande con una historia sobre el poder, la violencia y los límites del espectáculo',
+    tipo: 'Nota de estreno',
+    categoria: 'Cine',
+    anio: 2026,
+    url: 'https://www.sectornostalgia.com/2026/08/el-gran-makhaira-llega-la-pantalla.html',
+  },
+  {
     fuente: 'ABC Noticias',
     titulo: 'El Zapato, película regiomontana que muestra una reflexión social',
     tipo: 'Entrevista',
@@ -906,7 +915,7 @@ export const posts: Post[] = [
 <h2>Por qué compongo</h2>
 <p>Compongo porque me gusta, porque quiero y porque puedo. El límite existe —no leo una partitura como quien lee un libro, nunca aprendí a tocar con mis manos todo lo que soy capaz de imaginar. No tengo el oficio de un concertista. Tengo el oficio de componer. Ese límite no es la razón de la música. Es solo el terreno donde ocurre.</p>
 <p>Hay una diferencia que me importa sostener con precisión: no es lo mismo un límite real que una limitación que uno se cuenta a sí mismo para no intentar algo. En teoría podría aprender saxofón. En la práctica, nadie domina todos los instrumentos en una sola vida. Cada músico decide dónde invertir su tiempo. Algunos eligen la profundidad sobre un instrumento. Yo elegí la amplitud de un medio: el sintetizador, la programación y el diseño sonoro. No porque sean superiores, sino porque me permiten pensar el sonido antes que ejecutarlo. El teclado es apenas una interfaz. La verdadera ejecución ocurre en la cabeza. No escribo partituras; dibujo lo que escucho ahí adentro.</p>
-<p>De niño, en los años setenta, veía a un baterista con maquillaje de gato y soñaba con tocar así. En retrospectiva, creo que mi memoria mezcló la vibra irreverente de Peter Criss con la precisión de Steve Gadd. Pero el sueño nunca fue la batería. Era poder obtener cualquier sonido que pudiera imaginar. Décadas después comprend�� que el sintetizador hacía posible exactamente esa fantasía, aunque por un camino que el niño nunca habría podido anticipar. No reemplazaba la destreza física; cambiaba la naturaleza del problema. Ya no se trataba de dominar un instrumento, sino de organizar una idea.</p>
+<p>De niño, en los años setenta, veía a un baterista con maquillaje de gato y soñaba con tocar así. En retrospectiva, creo que mi memoria mezcló la vibra irreverente de Peter Criss con la precisión de Steve Gadd. Pero el sueño nunca fue la batería. Era poder obtener cualquier sonido que pudiera imaginar. Décadas después comprend��� que el sintetizador hacía posible exactamente esa fantasía, aunque por un camino que el niño nunca habría podido anticipar. No reemplazaba la destreza física; cambiaba la naturaleza del problema. Ya no se trataba de dominar un instrumento, sino de organizar una idea.</p>
 <p>Con el tiempo entendí también que nunca aprendí sintetizadores para hacer música electrónica. Me interesaron porque son un instrumento abierto. Pueden evocar una flauta medieval, un órgano barroco, una sección de metales, un paisaje sonoro imposible o un timbre que jamás ha existido. No sustituyen a la orquesta; sustituyen la obligación de pertenecer a una.</p>
 <p>Quizá por eso mi música recorre territorios muy distintos. He compuesto desde un himno imaginado para la prehistoria hasta piezas inspiradas en el mundo prebarroco; del vals porfiriano al post-punk; de la electrónica ambiental al jazz; de sonoridades del Medio Oriente a colaboraciones con raperos o músicos de reguetón. Nunca he sentido que esas obras se contradigan.</p>
 <p>Con frecuencia me preguntan qué tipo de músico soy. Nunca he sabido responder porque la pregunta supone que un creador debe pertenecer a un género. Yo nunca lo he entendido así. Pienso primero; después cada obra encuentra el lenguaje que necesita. A veces ese lenguaje pertenece a un siglo remoto; otras parece venir del futuro. La cronología nunca me ha parecido una jerarquía estética. Un canto ritual, Frescobaldi, un vals decimonónico, un sintetizador analógico o un beat contemporáneo son materiales distintos, pero ninguno posee un privilegio artístico sobre los demás.</p>
@@ -946,7 +955,7 @@ export const posts: Post[] = [
     slug: 'por-que-filmo',
     title: 'Por qué filmo',
     date: '3 de Julio, 2026',
-    excerpt: 'Un ensayo íntimo sobre las razones detrás del oficio de filmar, entre el absurdo de Camus, el poder cotidiano de Foucault y la biología de Nietzsche.',
+    excerpt: 'Un ensayo ��ntimo sobre las razones detrás del oficio de filmar, entre el absurdo de Camus, el poder cotidiano de Foucault y la biología de Nietzsche.',
     content: `<p><em>Por: Mauricio de la Maza-Benignos</em></p>
 <p><strong>English below</strong></p>
 
@@ -1158,7 +1167,7 @@ export const posts: Post[] = [
 <p>by kenia Alvarez Renteria/ septiembre 25, 2021 1159 Views  No Comments</p>
 <p>Artículos / Colaboradores</p>
 <p>Poco se ha indagado sobre el trato diferenciado hacia organizaciones defensoras del medio ambiente sano, a pesar de que resulta trascendente en la medida de que cada programa de fomento, tiene una normatividad propia en el ámbito administrativo, y a nivel nacional, prevalece una visión excluyente generalizada. Poco, a pesar de que bajo un punto de vista financiero, es imposible deslindar la perspectiva de justiciabilidad de los DESCA, en la medida de que las organizaciones, los promueven y defienden. Sin embargo, cada inicio de año fiscal, puede analizarse argumentación jurídica en un mecanismo de control de constitucionalidad concentrado, a través de las vías dispuestas para tal efecto, para que quienes se estiman agraviados, accionen el juicio de amparo, con la finalidad de proteger intereses difusos y colectivos de los derechos humanos y generar referencias jurisdiccionales de mandatos de optimización -principios-.</p>
-<p>Las organizaciones de la sociedad civil nacen ante la necesidad de buscar soluciones a problemas socialmente relevantes; son “el resultado de la presión ciudadana por participar en las decisiones públicas que afectan su vida” (Morera & Quintana, 2019). Según la normatividad civil, se constituyen a través de un conjunto de personas que se dan un marco legal de actividades para regularse de acuerdo con un propósito; además, la Ley Federal de Fomento a las Actividades realizadas por las organizaciones de la sociedad civil (LFFAOSC), instituye cuáles son sus derechos, entre los que destaca, el acceso a los apoyos y estímulos públicos para fomento de las actividades; además de precisar como una de las actividades objeto de fomento, la protección del ambiente, la flora y la fauna, la preservación y restauración del equilibrio ecológico (Diputados, 2018).</p>
+<p>Las organizaciones de la sociedad civil nacen ante la necesidad de buscar soluciones a problemas socialmente relevantes; son “el resultado de la presión ciudadana por participar en las decisiones públicas que afectan su vida” (Morera & Quintana, 2019). Según la normatividad civil, se constituyen a trav��s de un conjunto de personas que se dan un marco legal de actividades para regularse de acuerdo con un propósito; además, la Ley Federal de Fomento a las Actividades realizadas por las organizaciones de la sociedad civil (LFFAOSC), instituye cuáles son sus derechos, entre los que destaca, el acceso a los apoyos y estímulos públicos para fomento de las actividades; además de precisar como una de las actividades objeto de fomento, la protección del ambiente, la flora y la fauna, la preservación y restauración del equilibrio ecológico (Diputados, 2018).</p>
 <p>En ese orden de ideas, en determinadas circunstancias, cualquier organización ambientalista, cuyo objeto social conlleve actividades de fomento, está en aptitud de ser considerada como promotora y defensora del derecho humano al medio ambiente sano. Son estas organizaciones, las que actualmente están inmersas en una política pública que incide de forma negativa en el desarrollo de su objeto social, el goce y ejercicio de sus derechos, y su participación activa en la agenda pública, y reciben además, un trato desigual. Al respecto, el ordenamiento jurídico en nuestro pa����s, permite el trato diferenciado porque en sí mismo no es contrario a la igualdad y a la no discriminación; no obstante, cuando deriva en la vulneración de los derechos del grupo diferenciado, se violenta el derecho a la no discriminación (Vázquez, 2018).</p>
 <img src="/images/discriminación1.jpg" alt="Protesta ambiental" class="my-6 rounded-lg shadow-md" />
 <p><em>mohammed_hassan en Pixaby</em></p>
@@ -1305,7 +1314,7 @@ export const posts: Post[] = [
 <li>McKeown B. (1981). Cruel camera. A documentary about animals in movies. TV Series: “The Fifth Estate” (1981). Original Air Date 5 May 1982. https://www.youtube.com/watch?v=DG4jnhrSukQ</li>
 <li>Palmer, C. (2011). Salvaje: Documentalistas de la Naturaleza Necesitan un Codigo de Conducta. International Documentary Association. https://www.documentary.org/feature/la-etica-dentro-de-la-vida-salvaje-documentalistas-de-la-naturaleza-necesitan-un-codigo-de</li>
 <li>Taylor, P.W. (1986). Respect for Nature: A Theory of Environmental Ethics. Princeton University Press, 329 pp.</li>
-<li>Universidad de Sevilla. (2011) La ética de la comunicación a comienzo del siglo XXI. Libro de actas I congreso internacional de ética de la comunicación. Facultad de Comunicación.</li>
+<li>Universidad de Sevilla. (2011) La ética de la comunicación a comienzo del siglo XXI. Libro de actas I congreso internacional de ��tica de la comunicación. Facultad de Comunicación.</li>
 </ul>
 `,
     imageId: 'blog-etica-documental-cover-new',
