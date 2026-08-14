@@ -1,8 +1,9 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft, Play } from 'lucide-react';
 
-const posterImage = '/images/El gran Makhaira.png';
+const interviewImage = '/images/prensa/tec-sounds-radio.jpg';
 const videoUrl = 'https://www.youtube.com/watch?v=AwOkRxwT04I&t=2700s';
 
 export const metadata: Metadata = {
@@ -15,8 +16,10 @@ export const metadata: Metadata = {
       'Mauricio de la Maza habla sobre El Gran Makhaira en entrevista en vivo con Sandra Canales, Tec Sounds Radio 94.9',
     images: [
       {
-        url: posterImage,
-        alt: 'Póster oficial de El Gran Makhaira',
+        url: interviewImage,
+        width: 1303,
+        height: 733,
+        alt: 'Mauricio de la Maza en entrevista en vivo con Sandra Canales en Tec Sounds Radio 94.9',
       },
     ],
   },
@@ -25,7 +28,7 @@ export const metadata: Metadata = {
     title: 'Entrevista en vivo — Tec Sounds Radio 94.9',
     description:
       'Mauricio de la Maza habla sobre El Gran Makhaira en entrevista en vivo con Sandra Canales, Tec Sounds Radio 94.9',
-    images: [posterImage],
+    images: [interviewImage],
   },
 };
 
@@ -50,6 +53,23 @@ export default function TecSoundsRadioPage() {
             Tec Sounds Radio 94.9 XHTEC-FM
           </h1>
         </header>
+
+        {/* Foto de la entrevista */}
+        <figure className="mt-12 max-w-3xl">
+          <Image
+            src={interviewImage}
+            alt="Mauricio de la Maza en entrevista en vivo con Sandra Canales en Tec Sounds Radio 94.9"
+            width={1303}
+            height={733}
+            priority
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="h-auto w-full rounded-lg bg-secondary"
+          />
+          <figcaption className="mt-3 text-sm italic text-muted-foreground">
+            Mauricio de la Maza-Benignos (Cineasta) y Sandra Canales (Conductora) durante la
+            transmisión en vivo. Tec Sounds Radio 94.9 XHTEC-FM.
+          </figcaption>
+        </figure>
 
         {/* Nota de contexto */}
         <div className="mt-12 max-w-3xl">
