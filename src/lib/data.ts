@@ -286,6 +286,18 @@ export const scienceBooks = [
 
 export const pressArticles: PressArticle[] = [
   {
+    fuente: 'Passpartout',
+    titulo: 'El gran Makhaira: una grieta para mirar lo que somos',
+    descripcion:
+      'Un perfil sobre el cine de Mauricio de la Maza-Benignos: “mi cine explora, no juzga”. El circo clandestino como metáfora de la sociedad y la observación como método heredado de la ciencia.',
+    tipo: 'Perfil editorial',
+    categoria: 'Cine',
+    anio: 2026,
+    url: 'https://passpartout.com.mx/post/el-gran-makhaira-una-grieta-para-mirar-lo-que-somos',
+    destacado: true,
+    imagen: '/images/prensa/passpartout-makhaira.png',
+  },
+  {
     fuente: 'Lovet Magazine',
     titulo: 'El Gran Makhaira: la película noir hecha en Nuevo León con un elenco 100% regio',
     tipo: 'Artículo',
