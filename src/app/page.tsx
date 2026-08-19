@@ -25,9 +25,10 @@ export default function Home() {
   };
 
   const recognitionLogos = [
-    { name: "IMDb", src: "/images/imdb.png", url: "https://www.imdb.com/es/name/nm14485536/" },
-    { name: "FilmFreeway", src: "/images/filmlogo.png", url: "https://filmfreeway.com/MauriciodelaMazaBenignos" },
-    { name: "Wikipedia", src: "https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg", url: "https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos" },
+    { name: "IMDb", src: "/images/imdb.png", url: "https://www.imdb.com/es/name/nm14485536/", alt: "IMDb logo" },
+    { name: "FilmFreeway", src: "/images/filmlogo.png", url: "https://filmfreeway.com/MauriciodelaMazaBenignos", alt: "FilmFreeway logo" },
+    { name: "Wikipedia", src: "https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg", url: "https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos", alt: "Wikipedia logo" },
+    { name: "Tubi", src: "/images/tubi.png", url: "https://tubitv.com/person/cc8851/mauricio-de-la-maza-benignos", alt: "Tubi" },
   ];
 
   const displayedServices = services.filter(service => 
@@ -72,7 +73,7 @@ export default function Home() {
                     <Link key={logo.name} href={logo.url} target="_blank" rel="noopener noreferrer" className="transition-all hover:scale-105">
                        <Image
                         src={logo.src}
-                        alt={`${logo.name} logo`}
+                        alt={logo.alt}
                         width={100}
                         height={50}
                         className="object-contain h-12 w-auto"
@@ -94,10 +95,14 @@ export default function Home() {
                     </span>
                   </Link>
                 </div>
-                <p className="mb-8 max-w-md text-center text-xs leading-relaxed text-muted-foreground">
+                <p className="mb-3 max-w-md text-center text-xs leading-relaxed text-muted-foreground">
                   Incluido por EduRank entre los 100 exalumnos más notables del Tecnológico de Monterrey, en un ranking
                   basado en reconocimiento académico y prominencia pública — junto con exgobernadores, empresarios y
                   científicos reconocidos internacionalmente.
+                </p>
+                <p className="mb-8 max-w-md text-center text-xs leading-relaxed text-muted-foreground">
+                  Distribución activa en Tubi, la plataforma de streaming gratuito más vista en Estados Unidos, con más
+                  de 100 millones de usuarios mensuales.
                 </p>
                 {bioImage && (
                   <Image
