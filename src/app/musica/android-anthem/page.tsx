@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowLeft, Video } from 'lucide-react';
+import { ArrowLeft, PlayCircle, Video } from 'lucide-react';
 import { siteConfig } from '@/lib/data';
 
 const TITLE = 'Android Anthem';
@@ -13,6 +13,9 @@ const POSTER = '/images/android-anthem-cover.jpg';
 
 // Cuando el video esté disponible en YouTube, coloca aquí su ID (por ejemplo 'dQw4w9WgXcQ').
 const VIDEO_ID: string | null = null;
+
+// Enlace provisional al video mientras se publica en YouTube.
+const PROVISIONAL_VIDEO_URL: string | null = 'https://distrokid.com/videos/watch/dv-8CnZ5o5hK';
 
 export const metadata: Metadata = {
   title: TITLE,
@@ -127,6 +130,34 @@ export default function AndroidAnthemPage() {
                     />
                   </div>
                 </figure>
+              ) : PROVISIONAL_VIDEO_URL ? (
+                <a
+                  href={PROVISIONAL_VIDEO_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group relative flex aspect-video w-full flex-col items-center justify-center gap-4 overflow-hidden rounded-xl shadow-xl"
+                  aria-label="Ver el video de Android Anthem en DistroKid"
+                >
+                  <Image
+                    src={POSTER}
+                    alt=""
+                    fill
+                    sizes="(max-width: 768px) 100vw, 768px"
+                    className="object-cover opacity-40 transition-opacity duration-300 group-hover:opacity-50"
+                  />
+                  <div className="relative z-10 flex flex-col items-center gap-3 text-center">
+                    <PlayCircle
+                      className="h-16 w-16 text-foreground transition-transform duration-300 group-hover:scale-110"
+                      aria-hidden="true"
+                    />
+                    <span className="font-headline text-lg font-medium text-foreground text-balance">
+                      Ver el video en DistroKid
+                    </span>
+                    <span className="text-sm text-muted-foreground">
+                      Disponible próximamente en YouTube
+                    </span>
+                  </div>
+                </a>
               ) : (
                 <div className="flex aspect-video w-full flex-col items-center justify-center gap-3 rounded-xl border border-dashed border-border bg-secondary/40 text-center">
                   <Video className="h-10 w-10 text-muted-foreground" aria-hidden="true" />
