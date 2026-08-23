@@ -27,6 +27,15 @@ export const navLinks: NavLink[] = [
 
 export const musicCategories: MusicCategory[] = [
   {
+    id: 'android-anthem',
+    title: 'Android Anthem',
+    description: 'Un futuro imaginado desde el pasado, experimentado en el presente',
+    image: '/images/android-anthem-cover.jpg',
+    imageAlt: 'Android Anthem — Mauricio de la Maza',
+    href: '/musica/android-anthem',
+    objectPosition: 'center top',
+  },
+  {
     id: 'quantum',
     title: 'Quantum',
     description: 'Composición electrónica y diseño sonoro',
