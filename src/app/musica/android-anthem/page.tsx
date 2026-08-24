@@ -12,7 +12,7 @@ const DESCRIPTION =
 const POSTER = '/images/android-anthem-cover.jpg';
 
 // Cuando el video esté disponible en YouTube, coloca aquí su ID (por ejemplo 'dQw4w9WgXcQ').
-const VIDEO_ID: string | null = null;
+const VIDEO_ID: string | null = 'reJnLwjl2oE';
 
 // Enlace provisional al video mientras se publica en YouTube.
 const PROVISIONAL_VIDEO_URL: string | null = 'https://distrokid.com/videos/watch/dv-8CnZ5o5hK';
