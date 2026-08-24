@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowLeft, PlayCircle, Video } from 'lucide-react';
+import { ArrowLeft, Headphones, PlayCircle, Video } from 'lucide-react';
 import { siteConfig } from '@/lib/data';
 
 const TITLE = 'Android Anthem';
@@ -10,6 +10,9 @@ const SUBTITLE =
 const DESCRIPTION =
   'Android Anthem: un imaginario retrofuturista donde sintetizadores, cuerpos, máquinas, agua y naturaleza forman un mismo lenguaje audiovisual, por Mauricio de la Maza-Benignos.';
 const POSTER = '/images/android-anthem-cover.jpg';
+
+// Enlace de HyperFollow para escuchar / guardar el álbum en las plataformas de streaming.
+const HYPERFOLLOW_URL = 'https://distrokid.com/hyperfollow/mauriciodelamaza/android-anthem-2';
 
 // Cuando el video esté disponible en YouTube, coloca aquí su ID (por ejemplo 'dQw4w9WgXcQ').
 const VIDEO_ID: string | null = 'reJnLwjl2oE';
@@ -96,6 +99,18 @@ export default function AndroidAnthemPage() {
           <p className="mx-auto mt-10 max-w-3xl text-center font-headline text-2xl md:text-3xl italic text-accent text-balance">
             {SUBTITLE}
           </p>
+
+          <div className="mt-8 flex justify-center">
+            <a
+              href={HYPERFOLLOW_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3 font-headline text-base font-medium text-accent-foreground shadow-lg transition-transform duration-300 hover:scale-105"
+            >
+              <Headphones className="h-5 w-5" aria-hidden="true" />
+              Escuchar en tu plataforma
+            </a>
+          </div>
         </div>
       </section>
 
