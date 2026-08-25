@@ -5,7 +5,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import PageHero from "@/components/common/PageHero";
-import { posts } from "@/lib/data";
+import { postsMeta } from "@/lib/data/posts-meta";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Card, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -20,7 +20,7 @@ export default function RevistaPage() {
     const categories = ['Noticias', 'Artículos', 'Entrevistas'];
 
     const filteredPosts = useMemo(() => {
-        return posts.filter(post => {
+        return postsMeta.filter(post => {
             const matchesCategory = selectedCategory ? post.category === selectedCategory : true;
             const matchesSearch = post.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
                                  post.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
@@ -146,7 +146,7 @@ export default function RevistaPage() {
                         <div className="p-8 bg-secondary rounded-xl border border-border/50">
                             <h3 className="font-headline text-2xl font-bold mb-6">Lo más reciente</h3>
                             <ul className="space-y-6">
-                                {posts.slice(0, 4).map(post => (
+                                {postsMeta.slice(0, 4).map(post => (
                                     <li key={post.id} className="group">
                                         <Link href={`/revista/${post.slug}`} className="block">
                                             <h4 className="font-bold text-sm group-hover:text-accent transition-colors leading-tight mb-1">{post.title}</h4>
