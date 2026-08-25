@@ -2,6 +2,14 @@ import type { MusicCategory } from '../types';
 
 export const musicCategories: MusicCategory[] = [
   {
+    id: 'krakatoa',
+    title: 'Krakatoa',
+    description: 'El rugido de un volcán transformado en música',
+    image: '/images/krakatoa-cover.png',
+    imageAlt: 'Krakatoa — Mauricio de la Maza-Benignos',
+    href: '/musica/krakatoa',
+  },
+  {
     id: 'elegance',
     title: 'Elegance',
     description: 'Chamber music for synthetic orchestra',
