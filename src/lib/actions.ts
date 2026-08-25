@@ -4,8 +4,6 @@
 import { z } from "zod";
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 const contactSchema = z.object({
   name: z.string().min(2, "El nombre es demasiado corto"),
   email: z.string().email("El email no es válido"),
@@ -42,7 +40,20 @@ export async function submitContactForm(
 
   const { name, email, phone, company, service, message } = validatedFields.data;
 
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    console.error("RESEND_API_KEY no está configurada.");
+    return {
+      message: "El servicio de correo no está configurado. Por favor, intenta más tarde.",
+      success: false,
+    };
+  }
+
   try {
+    // Instanciación lazy: se crea el cliente solo al enviar, no al importar el módulo.
+    // Así el prerender del build no falla cuando RESEND_API_KEY no está presente.
+    const resend = new Resend(apiKey);
+
     // Envío del correo usando Resend
     // Nota: onboarding@resend.dev solo funciona para enviar correos a tu propia cuenta verificada.
     // Para producción, deberás verificar tu dominio en Resend.
