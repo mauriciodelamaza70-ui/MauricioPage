@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowLeft, Music } from 'lucide-react';
+import { ArrowLeft, Headphones } from 'lucide-react';
 import { siteConfig } from '@/lib/data';
 
 const TITLE = 'Krakatoa';
@@ -130,6 +130,18 @@ export default function KrakatoaPage() {
           <p className="mx-auto mt-10 max-w-3xl text-center font-headline text-2xl md:text-3xl italic text-accent text-balance">
             {SUBTITLE}
           </p>
+
+          <div className="mt-8 flex justify-center">
+            <a
+              href={PLATFORMS_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-accent px-8 py-3 font-headline text-base font-medium text-accent-foreground shadow-lg transition-transform duration-300 hover:scale-105"
+            >
+              <Headphones className="h-5 w-5" aria-hidden="true" />
+              Escuchar en tu plataforma
+            </a>
+          </div>
         </div>
       </section>
 
@@ -170,17 +182,6 @@ export default function KrakatoaPage() {
                   loading="lazy"
                 />
               </div>
-              <figcaption className="mt-3 text-center">
-                <Link
-                  href={PLATFORMS_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-xs text-muted-foreground underline-offset-4 transition-colors hover:text-accent hover:underline"
-                >
-                  <Music className="h-3.5 w-3.5" aria-hidden="true" />
-                  Escuchar en todas las plataformas
-                </Link>
-              </figcaption>
             </figure>
 
             {/* Volver a Música */}
