@@ -61,6 +61,9 @@ export type Post = {
   category: 'Artículos' | 'Colaboradores' | 'Entrevistas' | 'Noticias';
 };
 
+/** Metadata de un post sin el HTML pesado de `content`. Se usa en listados (revista, home). */
+export type PostMeta = Omit<Post, 'content'>;
+
 export type GalleryImage = {
   id: string;
   title: string;
