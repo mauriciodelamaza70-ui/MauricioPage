@@ -2,6 +2,11 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   /* config options here */
+  // [v0-diag] prueba temporal: desactivar minificación para aislar OOM
+  webpack: (config) => {
+    config.optimization.minimize = false;
+    return config;
+  },
   typescript: {
     ignoreBuildErrors: true,
   },
