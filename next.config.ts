@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
     // Con contenido pesado, 4 workers simultáneos disparan el pico de memoria del build.
     // Con 2 se reduce ese pico a costa de algo más de tiempo de generación estática.
     cpus: 2,
+    // [TEMP-DIAGNOSTIC] Corre la compilación de webpack en el proceso principal
+    // (no en un worker hijo) para poder capturar un heap snapshot controlado del
+    // proceso que revienta. REVERTIR tras el diagnóstico.
+    webpackBuildWorker: false,
   },
   productionBrowserSourceMaps: false,
   // El contenido de los ensayos vive en `content/essays/*.json` y se lee con `fs`
