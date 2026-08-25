@@ -5,7 +5,9 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { ArrowRight, Camera, FileText, Aperture, Quote, Music, Film } from "lucide-react";
-import { services, posts, biography } from "@/lib/data";
+import { services } from "@/lib/data/services-data";
+import { biography } from "@/lib/data/about-data";
+import { postsMeta } from "@/lib/data/posts-meta";
 import HeroSlider from "@/components/pages/home/HeroSlider";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { TheatreIcon } from "@/components/icons";
@@ -208,7 +210,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12">Nuestro Blog</h2>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {posts.slice(0, 3).map((post) => {
+              {postsMeta.slice(0, 3).map((post) => {
                 const postImage = PlaceHolderImages.find(p => p.id === post.imageId);
                 return (
                   <Card key={post.id} className="overflow-hidden group">
