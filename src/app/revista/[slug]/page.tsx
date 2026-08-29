@@ -10,12 +10,14 @@ import { PostContent } from '@/components/common/PostContent';
 import BarrerasEssay from '@/components/pages/revista/BarrerasEssay';
 import EntesEcoEssay from '@/components/pages/revista/EntesEcoEssay';
 import NarrativaRazonEssay from '@/components/pages/revista/NarrativaRazonEssay';
+import RiesgoArriesgarEssay from '@/components/pages/revista/RiesgoArriesgarEssay';
 
 /** Ensayos bilingües con selector de idioma que se renderizan con un componente propio. */
 const BILINGUAL_ESSAYS: Record<string, ComponentType> = {
   'barreras-de-entrada': BarrerasEssay,
   'el-mundo-de-los-entes-eco': EntesEcoEssay,
   'narrativa-como-sustituto-de-la-razon': NarrativaRazonEssay,
+  'el-riesgo-de-no-arriesgar': RiesgoArriesgarEssay,
 };
 
 type PageProps = {

@@ -1,6 +1,22 @@
 {
   "placeholderImages": [
     {
+      "id": "blog-riesgo-arriesgar-cover",
+      "description": "Un niño con sombrero de paja intenta arrear con una vara a decenas de gatos que se dispersan por una ladera al atardecer: la imposibilidad de arrear gatos",
+      "imageUrl": "/images/revista/riesgo-arriesgar/portada.png",
+      "imageHint": "boy herding scattering cats",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "blog-riesgo-arriesgar-card",
+      "description": "Un pastor niño observa dos corrales al atardecer: uno de borregos ordenados y otro de gatos libres bajo un letrero que dice 'Gatos libres por naturaleza'",
+      "imageUrl": "/images/revista/riesgo-arriesgar/ficha.png",
+      "imageHint": "sheep pen versus cats",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "blog-narrativa-razon-cover",
       "description": "Fotografía retocada donde una figura ha sido borrada del registro oficial: la narrativa cubriendo la evidencia",
       "imageUrl": "/images/revista/narrativa-razon/portada.jpg",
