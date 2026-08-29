@@ -145,6 +145,14 @@
       }
     },
     {
+      "type": "image",
+      "src": "/images/revista/riesgo-arriesgar/portada.png",
+      "caption": {
+        "es": "Arrear gatos: la tarea imposible de dirigir a quienes, por naturaleza, no obedecen.",
+        "en": "Herding cats: the impossible task of directing those who, by nature, do not obey."
+      }
+    },
+    {
       "type": "p",
       "text": {
         "es": "Los borregos son más controlables que los gatos.",
