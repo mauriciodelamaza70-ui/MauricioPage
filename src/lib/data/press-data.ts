@@ -2,6 +2,19 @@ import type { PressArticle } from '../types';
 
 export const pressArticles: PressArticle[] = [
   {
+    fuente: 'Reforma',
+    titulo: 'Busca provocar con su cine',
+    descripcion:
+      'Por Paula Ruiz (sección Gente). Perfil sobre el cine de Mauricio de la Maza-Benignos y su nueva película El Gran Makhaira: “estoy en contra de salir a explicarle a la gente qué es lo que acaba de ver”. Edición impresa del 28 de agosto de 2026.',
+    tipo: 'Perfil editorial (edición impresa)',
+    categoria: 'Cine',
+    anio: 2026,
+    url: 'https://www.reforma.com/busca-mauricio-de-la-maza-benignos-provocar-con-su-cine/ar3265829',
+    rutaInterna: '/prensa/reforma',
+    destacado: true,
+    imagen: '/images/prensa/reforma/recorte.png',
+  },
+  {
     fuente: 'Passpartout',
     titulo: 'El gran Makhaira: una grieta para mirar lo que somos',
     descripcion:
