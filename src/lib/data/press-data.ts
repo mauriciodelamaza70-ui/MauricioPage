@@ -2,6 +2,19 @@ import type { PressArticle } from '../types';
 
 export const pressArticles: PressArticle[] = [
   {
+    fuente: 'Reforma',
+    titulo: 'Busca provocar con su cine',
+    descripcion:
+      'Por Paula Ruiz (sección Gente). Perfil sobre el cine de Mauricio de la Maza-Benignos y su nueva película El Gran Makhaira: “estoy en contra de salir a explicarle a la gente qué es lo que acaba de ver”. Edición impresa del 28 de agosto de 2026.',
+    tipo: 'Perfil editorial (edición impresa)',
+    categoria: 'Cine',
+    anio: 2026,
+    url: 'https://www.reforma.com/busca-mauricio-de-la-maza-benignos-provocar-con-su-cine/ar3265829',
+    rutaInterna: '/prensa/reforma',
+    destacado: true,
+    imagen: '/images/prensa/reforma/recorte.png',
+  },
+  {
     fuente: 'Passpartout',
     titulo: 'El gran Makhaira: una grieta para mirar lo que somos',
     descripcion:
@@ -378,5 +391,37 @@ export const pressArticles: PressArticle[] = [
   destacado: true,
   imagen: '/images/prensa/the-nature-conservancy.png',
   esPortada: true,
+  },
+  {
+    fuente: 'El Norte (Grupo Reforma)',
+    titulo: 'Llevan teatro a la pantalla',
+    tipo: 'Nota — trilogía cine-teatro',
+    categoria: 'Cine',
+    anio: 2023,
+    url: 'https://www.elnorte.com/llevan-teatro-a-la-pantalla/ar2622353',
+  },
+  {
+    fuente: 'Poder y Belleza',
+    titulo: 'La Loca del Maniquí a través de la cámara de cine',
+    tipo: 'Crítica de cine dedicada',
+    categoria: 'Cine',
+    anio: 2022,
+    url: 'http://www.poderybelleza.com/opinion/la-loca-del-maniqui-a-traves-de-la-camara-de-cine/',
+  },
+  {
+    fuente: 'Milenio',
+    titulo: 'Advierten por falta de obras de previsión para incendios',
+    tipo: 'Declaraciones — voz experta',
+    categoria: 'Conservación',
+    anio: 2022,
+    url: 'https://www.milenio.com/politica/advierten-por-falta-de-obras-de-prevision-para-incendios',
+  },
+  {
+    fuente: 'El Diario de Chihuahua',
+    titulo: 'Busca Mauricio de la Maza Benignos provocar con su cine',
+    tipo: 'Republicación',
+    categoria: 'Cine',
+    anio: 2026,
+    url: 'https://www.eldiariodechihuahua.mx/espectaculos/2026/aug/28/busca-mauricio-de-la-maza-benignos-provocar-con-su-cine-832104.html',
   },
   ];
