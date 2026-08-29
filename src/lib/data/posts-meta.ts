@@ -3,6 +3,17 @@ import type { PostMeta } from '../types';
 // Metadata de posts SIN content. Importar esto (no el barrel) desde listados/home mantiene el HTML fuera de su bundle.
 export const postsMeta: PostMeta[] = [
   {
+    "id": "post-el-riesgo-de-no-arriesgar",
+    "slug": "el-riesgo-de-no-arriesgar",
+    "title": "El riesgo de no arriesgar",
+    "date": "28 de Agosto, 2026",
+    "excerpt": "Sobre por qué buena parte del cine local no es mediocre por falta de talento sino porque un sistema premia al borrego sobre el gato, y qué significa el acotamiento digno cuando el miedo empieza a gobernar la decisión.",
+    "category": "Artículos",
+    "author": "Mauricio de la Maza-Benignos",
+    "imageId": "blog-riesgo-arriesgar-card",
+    "heroImageId": "blog-riesgo-arriesgar-cover"
+  },
+  {
     "id": "post-narrativa-como-sustituto-de-la-razon",
     "slug": "narrativa-como-sustituto-de-la-razon",
     "title": "La narrativa como sustituto de la razón",
