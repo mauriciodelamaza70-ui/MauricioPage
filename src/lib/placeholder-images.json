@@ -1,6 +1,22 @@
 {
   "placeholderImages": [
     {
+      "id": "blog-ia-trampa-perro-cover",
+      "description": "Cazadores prehistóricos con lanzas, junto a lobos y una manada de venados, ante montañas nevadas al atardecer",
+      "imageUrl": "/images/revista/ia-trampa-perro/4-precedentes.png",
+      "imageHint": "prehistoric hunters wolves deer",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "blog-ia-trampa-perro-card",
+      "description": "Un ente de silicio alado, de cráneo translúcido y luminoso, agazapado sobre rocas ante un planeta en el horizonte",
+      "imageUrl": "/images/revista/ia-trampa-perro/2-extraterrestre.png",
+      "imageHint": "winged silicon alien planet",
+      "width": 1312,
+      "height": 1199
+    },
+    {
       "id": "blog-riesgo-arriesgar-cover",
       "description": "Un niño con sombrero de paja intenta arrear con una vara a decenas de gatos que se dispersan por una ladera al atardecer: la imposibilidad de arrear gatos",
       "imageUrl": "/images/revista/riesgo-arriesgar/portada.png",
