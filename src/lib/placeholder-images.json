@@ -10,11 +10,11 @@
     },
     {
       "id": "blog-ia-trampa-perro-card",
-      "description": "Un ente de silicio alado, de cráneo translúcido y luminoso, agazapado sobre rocas ante un planeta en el horizonte",
-      "imageUrl": "/images/revista/ia-trampa-perro/2-extraterrestre.png",
-      "imageHint": "winged silicon alien planet",
-      "width": 1312,
-      "height": 1199
+      "description": "Una figura contemplativa ante una esfera luminosa translúcida rotulada NOUS: la mente frente a la inteligencia",
+      "imageUrl": "/images/revista/ia-trampa-perro/1-nous.png",
+      "imageHint": "glowing sphere nous mind",
+      "width": 1536,
+      "height": 1024
     },
     {
       "id": "blog-riesgo-arriesgar-cover",
