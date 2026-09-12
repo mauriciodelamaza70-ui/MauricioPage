@@ -1,10 +1,28 @@
 import type { Metadata } from 'next';
 import PrensaContent from '@/components/pages/prensa/PrensaContent';
 
+const ogImage = {
+  url: '/images/revista/ia-trampa-perro/1-nous.png',
+  width: 1536,
+  height: 1024,
+  alt: 'Una figura de espaldas dialogando con una esfera luminosa rotulada NOUS',
+};
+
 export const metadata: Metadata = {
   title: 'Prensa | Mauricio de la Maza Benignos',
   description:
     'Entrevistas, reportajes y menciones en medios de cine, ciencia y conservación sobre Mauricio de la Maza-Benignos.',
+  openGraph: {
+    type: 'website',
+    title: 'Prensa | Mauricio de la Maza Benignos',
+    description:
+      'Entrevistas, reportajes y menciones en medios de cine, ciencia y conservación sobre Mauricio de la Maza-Benignos.',
+    images: [ogImage],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: [ogImage.url],
+  },
 };
 
 export default function PrensaPage() {
