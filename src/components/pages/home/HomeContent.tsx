@@ -1,0 +1,275 @@
+'use client';
+
+import Image from "next/image";
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
+import { ArrowRight, Camera, FileText, Aperture, Quote, Music, Film } from "lucide-react";
+import { services } from "@/lib/data/services-data";
+import { biography } from "@/lib/data/about-data";
+import { postsMeta } from "@/lib/data/posts-meta";
+import HeroSlider from "@/components/pages/home/HeroSlider";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
+import { TheatreIcon } from "@/components/icons";
+import HistoryTimeline from "@/components/pages/home/HistoryTimeline";
+import ProductionsCarousel from "@/components/pages/home/ProductionsCarousel";
+import MusicCarousel from "@/components/pages/home/MusicCarousel";
+
+export default function HomeContent() {
+  const bioImage = PlaceHolderImages.find(p => p.id === 'biography-mauricio');
+  const ctaImage = PlaceHolderImages.find(p => p.id === 'cta-bg');
+
+  const serviceIcons = {
+    'Cine de Ficción y Documental': <Film className="h-10 w-10 text-accent" />,
+    'Composición y Diseño Sonoro': <Music className="h-10 w-10 text-accent" />,
+    'Fotografía Contemplativa': <Aperture className="h-10 w-10 text-accent" />,
+    'Consultoría Ambiental Estratégica': <FileText className="h-10 w-10 text-accent" />,
+  };
+
+  const recognitionLogos = [
+    { name: "IMDb", src: "/images/imdb.png", url: "https://www.imdb.com/es/name/nm14485536/", alt: "IMDb logo" },
+    { name: "FilmFreeway", src: "/images/filmlogo.png", url: "https://filmfreeway.com/MauriciodelaMazaBenignos", alt: "FilmFreeway logo" },
+    { name: "Wikipedia", src: "https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg", url: "https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos", alt: "Wikipedia logo" },
+    { name: "Tubi", src: "/images/tubi.png", url: "https://tubitv.com/person/cc8851/mauricio-de-la-maza-benignos", alt: "Tubi" },
+  ];
+
+  const displayedServices = services.filter(service => 
+    ['Cine de Ficción y Documental', 'Composición y Diseño Sonoro', 'Fotografía Contemplativa', 'Consultoría Ambiental Estratégica'].includes(service.title)
+  );
+
+  return (
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow">
+        <HeroSlider />
+
+        <section className="flex items-center py-20">
+            <div className="container mx-auto px-4 text-center">
+                <Quote className="h-12 w-12 text-accent mx-auto mb-6" />
+                <blockquote className="font-headline text-3xl md:text-5xl font-bold max-w-4xl mx-auto leading-tight italic">
+                    Las imágenes no solo narran: interrogan.<br className="hidden md:block" /> Los silencios no solo contienen: revelan.
+                </blockquote>
+                <p className="mt-8 text-lg font-medium text-muted-foreground uppercase tracking-widest">- Mauricio de la Maza-Benignos</p>
+            </div>
+        </section>
+
+        <section id="nosotros" className="py-24 bg-secondary">
+          <div className="container mx-auto px-4">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="order-2 md:order-1">
+                <p className="text-accent uppercase tracking-[0.2em] font-medium mb-2">{biography.role}</p>
+                <h2 className="font-headline text-4xl font-bold mb-6">Mauricio De la Maza-Benignos</h2>
+                <div className="text-muted-foreground space-y-4 text-lg">
+                  <p>{biography.intro}</p>
+                  <p>Su cine transita entre el documental ambiental de tono poético y educativo y la ficción de carácter introspectivo.</p>
+                </div>
+                <div className="mt-8">
+                    <Image src="/images/FirmaNegro-1.png" alt="Firma de Mauricio De la Maza" width={200} height={100} />
+                </div>
+                <Button asChild variant="link" className="text-accent text-lg p-0 h-auto mt-8">
+                  <Link href="/nosotros">Explorar su obra <ArrowRight className="ml-2 h-5 w-5" /></Link>
+                </Button>
+              </div>
+              <div className="order-1 md:order-2 flex flex-col items-center justify-center">
+                 <div className="flex flex-wrap justify-center items-center gap-8 mb-3">
+                  {recognitionLogos.map((logo) => (
+                    <Link key={logo.name} href={logo.url} target="_blank" rel="noopener noreferrer" className="transition-all hover:scale-105">
+                       <Image
+                        src={logo.src}
+                        alt={logo.alt}
+                        width={100}
+                        height={50}
+                        className="object-contain h-12 w-auto"
+                      />
+                    </Link>
+                  ))}
+                  <Link
+                    href="https://edurank.org/uni/monterrey-institute-of-technology/alumni/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Incluido por EduRank entre los 100 exalumnos más notables del Tecnológico de Monterrey, en un ranking basado en reconocimiento académico y prominencia pública — junto con exgobernadores, empresarios y científicos reconocidos internacionalmente."
+                    className="flex h-12 flex-col items-center justify-center text-center text-muted-foreground grayscale transition-all hover:scale-105 hover:text-foreground"
+                  >
+                    <span className="font-headline text-base font-bold leading-none tracking-tight">EduRank</span>
+                    <span className="mt-1 text-[0.65rem] uppercase leading-tight tracking-[0.15em]">
+                      Top 100 Alumni
+                      <br />
+                      Tec de Monterrey
+                    </span>
+                  </Link>
+                </div>
+                <p className="mb-3 max-w-md text-center text-xs leading-relaxed text-muted-foreground">
+                  Incluido por EduRank entre los 100 exalumnos más notables del Tecnológico de Monterrey, en un ranking
+                  basado en reconocimiento académico y prominencia pública — junto con exgobernadores, empresarios y
+                  científicos reconocidos internacionalmente.
+                </p>
+                <p className="mb-8 max-w-md text-center text-xs leading-relaxed text-muted-foreground">
+                  Distribución activa en Tubi, la plataforma de streaming gratuito más vista en Estados Unidos, con más
+                  de 100 millones de usuarios mensuales.
+                </p>
+                {bioImage && (
+                  <Image
+                    src={bioImage.imageUrl}
+                    alt="Mauricio De la Maza-Benignos"
+                    width={500}
+                    height={500}
+                    className="rounded-lg object-cover shadow-2xl"
+                    data-ai-hint={bioImage.imageHint}
+                  />
+                )}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="portfolio" className="py-12 bg-black text-white">
+          <div className="container mx-auto px-4">
+            <div className="text-center mb-12">
+                <p className="text-sm uppercase tracking-widest text-gray-400 mb-2">Filmografía</p>
+                <h2 className="font-headline text-4xl md:text-5xl font-bold text-white">
+                Nuestras Producciones
+                </h2>
+            </div>
+            <ProductionsCarousel />
+          </div>
+        </section>
+
+
+        <section id="servicios" className="py-24">
+          <div className="container mx-auto px-4">
+            <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12">Nuestros Servicios</h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+              {displayedServices.map((service) => (
+                <Card key={service.title} className="text-center p-8 border-2 border-transparent hover:border-accent hover:shadow-xl transition-all duration-300">
+                  <div className="flex justify-center mb-4">
+                    {serviceIcons[service.title as keyof typeof serviceIcons]}
+                  </div>
+                  <h3 className="font-headline text-2xl font-semibold mb-2">{service.title}</h3>
+                </Card>
+              ))}
+            </div>
+             <div className="text-center mt-12">
+              <Button asChild size="lg" variant="outline" className="border-accent text-accent hover:bg-accent hover:text-white">
+                <Link href="/servicios">Conoce todos los servicios</Link>
+              </Button>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-secondary py-24">
+          <div className="container mx-auto px-4 text-center">
+            <p className="text-sm uppercase tracking-widest text-accent mb-2">DESDE 1994</p>
+            <h2 className="font-headline text-4xl md:text-5xl font-bold mb-12">Nuestra Historia</h2>
+            <HistoryTimeline />
+            <Button asChild variant="link" className="text-accent text-lg p-0 h-auto mt-12">
+              <Link href="/nosotros">Conoce la historia completa <ArrowRight className="ml-2 h-5 w-5" /></Link>
+            </Button>
+          </div>
+        </section>
+
+        <section className="py-12">
+          <div className="container mx-auto px-4">
+            <Link
+              href="/prensa"
+              className="group mx-auto flex max-w-md items-center gap-4 rounded-lg border border-border bg-card p-3 shadow-sm transition-colors hover:border-accent/60"
+            >
+              <div className="relative h-24 w-16 shrink-0 overflow-hidden rounded-md bg-secondary">
+                <Image
+                  src="/images/prensa/filmmakerlife-issue119.png"
+                  alt="Portada de FilmmakerLife Magazine"
+                  fill
+                  sizes="64px"
+                  className="object-cover"
+                />
+              </div>
+              <div className="min-w-0">
+                <p className="text-accent text-xs font-medium uppercase tracking-[0.15em]">
+                  Recién destacado en FilmmakerLife Magazine
+                </p>
+                <h3 className="font-headline text-lg font-semibold leading-snug mt-1 text-pretty group-hover:text-accent transition-colors">
+                  Cinema as risk, not as a comfort
+                </h3>
+              </div>
+              <ArrowRight className="ml-auto h-4 w-4 shrink-0 text-muted-foreground transition-colors group-hover:text-accent" />
+            </Link>
+          </div>
+        </section>
+
+        <section id="musica" className="py-24 bg-secondary">
+          <div className="container mx-auto px-4">
+            <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12">Nuestra Música</h2>
+            <MusicCarousel />
+            <div className="text-center mt-12">
+              <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
+                <Link href="/musica">Visita nuestro catálogo</Link>
+              </Button>
+            </div>
+          </div>
+        </section>
+
+        <section id="blog" className="py-24">
+          <div className="container mx-auto px-4">
+            <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12">Nuestro Blog</h2>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+              {postsMeta.slice(0, 3).map((post) => {
+                const postImage = PlaceHolderImages.find(p => p.id === post.imageId);
+                return (
+                  <Card key={post.id} className="overflow-hidden group">
+                    {postImage && (
+                       <div className="aspect-video overflow-hidden">
+                        <Image
+                          src={postImage.imageUrl}
+                          alt={post.title}
+                          width={600}
+                          height={400}
+                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                           data-ai-hint={postImage.imageHint}
+                        />
+                      </div>
+                    )}
+                    <CardHeader>
+                      <p className="text-sm text-muted-foreground">{post.date}</p>
+                      <CardTitle className="font-headline text-xl">{post.title}</CardTitle>
+                    </CardHeader>
+                    <CardContent>
+                      <p className="text-muted-foreground">{post.excerpt}</p>
+                      <Button asChild variant="link" className="text-accent p-0 h-auto mt-4">
+                        <Link href={`/revista/${post.slug}`}>Leer más <ArrowRight className="ml-2 h-5 w-5" /></Link>
+                      </Button>
+                    </CardContent>
+                  </Card>
+                );
+              })}
+            </div>
+             <div className="text-center mt-12">
+              <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
+                <Link href="/revista">Visita la revista</Link>
+              </Button>
+            </div>
+          </div>
+        </section>
+
+        <section className="relative py-20">
+          {ctaImage && (
+            <Image
+              src={ctaImage.imageUrl}
+              alt={ctaImage.description}
+              fill
+              className="object-cover"
+              data-ai-hint={ctaImage.imageHint}
+            />
+          )}
+          <div className="absolute inset-0 bg-black/60" />
+          <div className="relative z-10 container mx-auto px-4 text-center text-white">
+            <h2 className="font-headline text-3xl md:text-4xl font-bold max-w-2xl mx-auto">
+              ¿Listo para explorar aquello que no siempre es visible?
+            </h2>
+            <Button asChild size="lg" className="mt-8 bg-accent text-primary-foreground hover:bg-accent/90">
+              <Link href="/contacto">Contáctanos</Link>
+            </Button>
+          </div>
+        </section>
+
+      </main>
+    </div>
+  );
+}
