@@ -3,6 +3,17 @@ import type { PostMeta } from '../types';
 // Metadata de posts SIN content. Importar esto (no el barrel) desde listados/home mantiene el HTML fuera de su bundle.
 export const postsMeta: PostMeta[] = [
   {
+    "id": "post-la-ia-y-la-trampa-del-perro",
+    "slug": "la-ia-y-la-trampa-del-perro",
+    "title": "La IA y la trampa del perro",
+    "date": "11 de Septiembre, 2026",
+    "excerpt": "Sobre teleología sin conciencia, la zona gris de la agencia y por qué —ante una incertidumbre irreductible— conviene acordar las reglas del juego antes de saber quién llega: del neandertal y el venado al gato, el perro y la superinteligencia.",
+    "category": "Artículos",
+    "author": "Mauricio de la Maza-Benignos",
+    "imageId": "blog-ia-trampa-perro-card",
+    "heroImageId": "blog-ia-trampa-perro-cover"
+  },
+  {
     "id": "post-el-riesgo-de-no-arriesgar",
     "slug": "el-riesgo-de-no-arriesgar",
     "title": "El riesgo de no arriesgar",

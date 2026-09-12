@@ -1,5 +1,6 @@
 // HTML pesado de los posts, separado del grafo de metadata. Solo lo consume posts.ts (y [slug] vía barrel).
 export const postsContent: Record<string, string> = {
+  "la-ia-y-la-trampa-del-perro": "<p>Sobre teleología sin conciencia, la zona gris de la agencia y por qué —ante una incertidumbre irreductible— conviene acordar las reglas del juego antes de saber quién llega: del neandertal y el venado al gato, el perro y la superinteligencia.</p>",
   "el-riesgo-de-no-arriesgar": "<p>Sobre por qué buena parte del cine local no es mediocre por falta de talento sino porque un sistema premia al borrego sobre el gato, y qué significa el acotamiento digno cuando el miedo empieza a gobernar la decisión.</p>",
   "narrativa-como-sustituto-de-la-razon": "<p>Notas sobre reconocimiento, atribución y el mecanismo que las corrompe: qué le pasa a una sociedad cuando deja de preguntar quién hizo algo y empieza a preguntar solo quién lo paga.</p>",
   "el-mundo-de-los-entes-eco": "<p>Sobre por qué una generación calculó bien el silencio, la arquitectura del castigo sin juez ni cierre, y qué significa sostener una posición propia en el mundo de los entes-eco.</p>",

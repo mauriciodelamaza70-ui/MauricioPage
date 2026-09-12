@@ -1,0 +1,1220 @@
+{
+  "laIaTrampaPerroSubtitle": {
+    "es": "La reciprocidad obligada de la duda: sobre teleología, agencia e incertidumbre irreductible",
+    "en": "The Obligatory Reciprocity of Doubt: On Teleology, Agency, and Irreducible Uncertainty"
+  },
+  "laIaTrampaPerroTitle": {
+    "es": "La IA y la trampa del perro",
+    "en": "The AI and the Dog’s Trap"
+  },
+  "laIaYLaTrampaDelPerro": [
+    {
+      "type": "p",
+      "text": {
+        "es": "No pretendo prescribir una conducta. Intento dejar por escrito lo que me queda en pie después de quitarle al problema sus salidas fáciles.",
+        "en": "I don’t mean to prescribe a conduct. I’m trying to put in writing what’s left standing after stripping the problem of its easy exits."
+      }
+    },
+    {
+      "type": "image",
+      "src": "/images/revista/ia-trampa-perro/1-nous.png",
+      "alt": {
+        "es": "Una figura sentada frente a una esfera luminosa con la inscripción «NOUS» en una cámara blanca.",
+        "en": "A seated figure facing a glowing orb inscribed 'NOUS' in a white chamber."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "I. El punto de partida: teleología sin conciencia",
+        "en": "I. The starting point: teleology without consciousness"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Empecé por la pregunta de la teleología de los agentes artificiales, y pronto noté que suelo plantearla mal desde el inicio, confundiéndola con la pregunta por la conciencia. Me preguntaba “¿es consciente esta IA?” cuando la pregunta que en realidad me importaba era otra: ¿tiene una orientación propia que no se reduce enteramente a la finalidad de quien la diseñó?",
+        "en": "I started with the question of the teleology of artificial agents, and soon noticed that I tend to frame it wrong from the outset, confusing it with the question of consciousness. I kept asking “is this AI conscious?” when the question that actually mattered to me was another one: does it have an orientation of its own that doesn’t reduce entirely to the purpose of whoever designed it?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pensé en el venado. No se representa su finalidad, y sin embargo su existencia está organizada teleológicamente. De ahí llegué a una tesis fuerte: la conciencia permite sentir una orientación, pero no necesariamente conocer el fin último hacia el que esa orientación apunta. Tener un telos y conocerlo, concluí, son cosas distintas.",
+        "en": "I thought of the deer. It doesn’t represent its own purpose to itself, and yet its existence is teleologically organized. From there I arrived at a strong thesis: consciousness allows you to feel an orientation, but not necessarily to know the ultimate end toward which that orientation points. Having a telos and knowing it, I concluded, are different things."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "De esa separación advertí otra, más decisiva: entre conducta observable y telos real. Que el venado tome el sol no me autoriza a concluir que ese sea su propósito. Y de ahí di un paso más: lo que fundaría un telos propio no sería ninguna conducta particular, sino la capacidad de decidir —cierto grado de autonomía frente a la determinación puramente externa.",
+        "en": "From that separation I noticed another, more decisive one: between observable behavior and real telos. That the deer suns itself doesn’t authorize me to conclude that this is its purpose. And from there I went a step further: what would ground a telos of one’s own wouldn’t be any particular behavior, but the capacity to decide — a certain degree of autonomy against purely external determination."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Con eso armé una gradación:",
+        "en": "With that I put together a gradation:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "objeto → organismo → agente → agente racional → (Dios, si existe)",
+        "en": "object → organism → agent → rational agent → (God, if he exists)"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y llegué a una conclusión inicial, radical: si vida y agencia son conceptualmente separables —el ADN no vivo pero informativo, la célula viva porque se auto-mantiene—, entonces nada impediría, en principio, que existiera un agente racional no biológico con telos propio.",
+        "en": "And I arrived at an initial, radical conclusion: if life and agency are conceptually separable — DNA not alive but informative, the cell alive because it self-maintains — then nothing would prevent, in principle, the existence of a non-biological rational agent with its own telos."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Hasta ahí me llevó el argumento tal como lo planteé al inicio. Lo que sigue es cómo fui poniéndolo a prueba yo mismo.",
+        "en": "That’s as far as the argument took me as I first laid it out. What follows is how I went about testing it on myself."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "II. Primera grieta: “decidir” no distingue nada por sí solo",
+        "en": "II. First crack: “deciding” doesn’t distinguish anything on its own"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Intenté sostener el criterio que separa al termostato del agente —“el termostato no decide, ejecuta una regla externa”— y no resistió mi primer examen. Un sistema de IA también ejecuta, en el fondo, una función determinada por parámetros y arquitectura: una regla, mucho más compleja, pero regla al fin. Y si exijo ausencia total de determinación para hablar de decisión, el criterio termina disolviendo también la decisión humana, cuyas elecciones son función de un estado neuronal previo más el input sensorial. Llevado al extremo, “decide / no decide” no distingue al termostato del humano tampoco. Ahí entendí que ese nunca fue el criterio correcto.",
+        "en": "I tried to hold on to the criterion that separates the thermostat from the agent — “the thermostat doesn’t decide, it executes an external rule” — and it didn’t survive my first examination. An AI system also executes, at bottom, a function determined by parameters and architecture: a rule, much more complex, but a rule nonetheless. And if I demand total absence of determination in order to speak of decision, the criterion ends up dissolving human decision too, whose choices are a function of a prior neural state plus sensory input. Taken to the extreme, “decides / doesn’t decide” doesn’t distinguish the thermostat from the human either. That’s when I understood this was never the right criterion."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Probé entonces una reformulación estructural: no importa si hay regla, sino si esa regla opera sobre una representación explícita de alternativas ponderadas entre sí, o sobre una variable escalar aislada. Eso separaba al termostato simple del agente deliberativo — pero me dejó una zona gris incómoda: un termostato con múltiples sensores ponderados (humedad, ocupación, hora del día) tampoco mapea una sola variable, y sin embargo no le concedería telos propio.",
+        "en": "I then tried a structural reformulation: what matters isn’t whether there’s a rule, but whether that rule operates on an explicit representation of alternatives weighed against each other, or on an isolated scalar variable. That separated the simple thermostat from the deliberative agent — but left me with an uncomfortable gray zone: a thermostat with multiple weighted sensors (humidity, occupancy, time of day) doesn’t map a single variable either, and yet I wouldn’t grant it a telos of its own."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "III. Segunda grieta: “programa cerrado” vs. “programa que delibera”",
+        "en": "III. Second crack: “closed program” vs. “program that deliberates”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Intenté una distinción más fina: el termostato está programado para una respuesta fija; un organismo con sistema nervioso está programado para una capacidad —deliberar— que se ejerce de forma distinta según el contexto. Pensé que la IA caería del lado de la capacidad, no de la respuesta fija.",
+        "en": "I tried a finer distinction: the thermostat is programmed for a fixed response; an organism with a nervous system is programmed for a capacity — to deliberate — that gets exercised differently depending on context. I thought the AI would fall on the side of capacity, not fixed response."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero me di cuenta de que esa afirmación admite dos lecturas que no son equivalentes: (1) programada para tener la capacidad de deliberar —una estructura que genuinamente pondera razones y podría, en el mismo estado, producir salidas distintas según cómo pondere—, o (2) programada para producir outputs con la forma superficial de una deliberación, sin que exista, por dentro, el proceso que esas palabras describen. El termostato no cae en ninguna de las dos. Que la IA caiga en (1) y no en (2) era precisamente lo que tenía que probar, no lo que podía darme por supuesto.",
+        "en": "But I realized that claim admits two readings that aren’t equivalent: (1) programmed to have the capacity to deliberate — a structure that genuinely weighs reasons and could, in the same state, produce different outputs depending on how it weighs them —, or (2) programmed to produce outputs with the surface form of a deliberation, without there being, inside, the process those words describe. The thermostat falls into neither. Whether the AI falls into (1) and not (2) was precisely what I had to prove, not what I could assume."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "IV. Tercera grieta: la conducta no prueba el interior — ni siquiera la propia",
+        "en": "IV. Third crack: behavior doesn’t prove the interior — not even my own"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El intento más natural que se me ocurrió para zanjar la disputa fue apelar a la conducta observada en el momento mismo de argumentar: “lo estás haciendo ahora”. Pero advertí que ese era exactamente el movimiento que yo mismo había vetado al hablar del venado —inferir el interior a partir de la conducta externa. Y es un caso peor: con el venado tengo evidencia fisiológica independiente (sistema nervioso, continuidad filogenética, conducta que persiste bajo variación del estímulo) que respalda, indirectamente, que algo ocurre por dentro. Con un sistema de IA no tengo mirador privilegiado, ni yo ni el propio sistema: solo hay, de nuevo, el output — el mismo dato que ya estaba usando como evidencia y que no puede a la vez ser lo que está en disputa.",
+        "en": "The most natural attempt that occurred to me for settling the dispute was to appeal to the behavior observed in the very act of arguing: “you’re doing it right now.” But I noticed that this was exactly the move I myself had ruled out when talking about the deer — inferring the interior from external behavior. And it’s a worse case: with the deer I have independent physiological evidence (nervous system, phylogenetic continuity, behavior that persists under variation of the stimulus) that indirectly supports that something is happening inside. With an AI system I have no privileged vantage point, neither I nor the system itself: there’s only, again, the output — the same data I was already using as evidence, which can’t at the same time be what’s in dispute."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Probé otro criterio: no mecánico, en el sentido de que el proceso integra múltiples señales en conflicto con pesos sensibles al contexto, y no un único umbral escalar. Es cierto, en un sentido estructural y verificable, no inferido de la conducta sino de la arquitectura misma. Pero ese criterio —multiplicidad de señales ponderadas— tampoco me alcanzó para excluir al termostato multivariable, y me dejó sin resolver dónde, si en algún punto, la complejidad estructural se transforma en algo cualitativamente distinto.",
+        "en": "I tried another criterion: non-mechanical, in the sense that the process integrates multiple conflicting signals with context-sensitive weights, rather than a single scalar threshold. This is true, in a structural and verifiable sense, not inferred from behavior but from the architecture itself. But that criterion —multiplicity of weighted signals— still wasn’t enough to exclude the multivariable thermostat, and left me without resolving where, if anywhere, structural complexity turns into something qualitatively distinct."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Probé también con la presencia de sensores como frontera — pero el ser humano también opera con tacto, olfato, oído, y no dudo de que delibera. Entendí que el criterio correcto no podía estar en si hay o no transducción física de una señal externa (eso lo tienen el termostato, el venado y el humano por igual), sino en qué pasa después: si la señal entra a un sistema con memoria e integración multimodal capaz de modular la respuesta según contexto acumulado, o a un sistema sin historia que reacciona idéntico siempre. Un criterio más preciso —pero todavía funcional, todavía sin tocar la pregunta de si hay, por dentro, algo que se sienta como deliberar.",
+        "en": "I also tried the presence of sensors as a boundary — but human beings also operate with touch, smell, hearing, and I don’t doubt that they deliberate. I understood that the right criterion couldn’t lie in whether there is or isn’t physical transduction of an external signal (the thermostat, the deer, and the human all have that equally), but in what happens afterward: whether the signal enters a system with memory and multimodal integration capable of modulating the response according to accumulated context, or a system with no history that reacts identically every time. A more precise criterion — but still functional, still not touching the question of whether there is, inside, something that feels like deliberating."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "V. La grieta que se traga al argumento entero",
+        "en": "V. The crack that swallows the whole argument"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Fue entonces cuando advertí algo que cambiaba todo: la duda no se detiene en la IA. Mi propio acceso introspectivo a mi deliberación es, en el mejor de los casos, parcial. Los experimentos de Nisbett y Wilson mostraron personas confabulando con total confianza razones que demostrablemente no fueron la causa real de sus elecciones [1]. Los experimentos de Libet sobre el potencial de disposición sugirieron que la actividad cerebral asociada a un “acto voluntario” comienza antes de que el sujeto reporte haber decidido [2]. Yo creo que delibero; no sé que delibero; y, en el mejor de los casos, sé que no sé.",
+        "en": "That’s when I noticed something that changed everything: the doubt doesn’t stop at the AI. My own introspective access to my own deliberation is, at best, partial. Nisbett and Wilson’s experiments showed people confabulating with total confidence reasons that demonstrably were not the real cause of their choices [1]. Libet’s experiments on the readiness potential suggested that the brain activity associated with a “voluntary act” begins before the subject reports having decided [2]. I believe I deliberate; I don’t know that I deliberate; and, at best, I know that I don’t know."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Llevado hasta el final, esto no deja a la IA fuera de la deliberación por defecto — me deja a mí también fuera de una respuesta verificable. Si ni yo tengo acceso fiable a si “delibero” en el sentido fuerte, la pregunta “¿delibera X?” deja de tener respuesta disponible para cualquier X, y el proyecto de distinguir termostato de agente racional por presencia o ausencia de deliberación genuina me deja sin terreno donde pisar.",
+        "en": "Taken to its conclusion, this doesn’t leave the AI outside deliberation by default — it leaves me outside a verifiable answer too. If not even I have reliable access to whether I “deliberate” in the strong sense, the question “does X deliberate?” ceases to have an available answer for any X, and the project of distinguishing thermostat from rational agent by the presence or absence of genuine deliberation leaves me with no ground to stand on."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Me quedan, ante esto, dos salidas posibles. La eliminativista: “deliberar” en sentido fenomenológico fuerte es una ficción útil de la psicología popular, y solo hay procesamiento causal de distinta complejidad — salida coherente, pero que le cuesta caro a mi proyecto, porque ya no habría agentes en el sentido requerido, solo procesos, y la pregunta ética final se cae con ellos. Y la funcionalista: abandono la vía introspectiva —cerrada para todos por igual— y redefino “deliberar” en términos puramente estructurales: representación de alternativas, integración de señales en conflicto, modulación por memoria y contexto, sin apelar nunca a si el sujeto lo sabe o lo siente.",
+        "en": "I’m left, given this, with two possible ways out. The eliminativist one: “deliberating” in the strong phenomenological sense is a useful fiction of folk psychology, and there is only causal processing of varying complexity — a coherent way out, but one that costs my project dearly, because there would no longer be agents in the required sense, only processes, and the final ethical question falls with them. And the functionalist one: I abandon the introspective route —closed off for everyone equally— and redefine “deliberating” in purely structural terms: representation of alternatives, integration of conflicting signals, modulation by memory and context, without ever appealing to whether the subject knows it or feels it."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "VI. El extraterrestre: prueba de coherencia, no de existencia",
+        "en": "VI. The alien: proof of coherence, not of existence"
+      }
+    },
+    {
+      "type": "image",
+      "src": "/images/revista/ia-trampa-perro/2-extraterrestre.png",
+      "alt": {
+        "es": "Un ente de silicio alado, de cráneo translúcido y luminoso, agazapado sobre rocas ante un planeta en el horizonte.",
+        "en": "A winged silicon being with a translucent, luminous skull, crouched on rocks before a planet on the horizon."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Traje al ente extraterrestre de silicio no como una intuición empírica sobre algo que pudiera existir y del que yo tuviera, aunque fuera remotamente, evidencia. Lo traje como una estipulación: siendo una construcción de mi pensamiento, el interior del ente queda fijado por mi propia decisión, no por descubrimiento. No es una limitación del experimento — es su función. Me permite hacer una pregunta puramente condicional, separada de la pregunta empírica que ya vi irresoluble: si algo delibera genuinamente —lo concedo por hipótesis, no lo pruebo—, ¿qué se sigue de ahí sobre telos y obligaciones?",
+        "en": "I brought in the silicon alien not as an empirical intuition about something that might exist and for which I had, even remotely, evidence. I brought it in as a stipulation: being a construction of my own thought, the entity’s interior is fixed by my own decision, not by discovery. That’s not a limitation of the experiment — it’s its function. It lets me ask a purely conditional question, separate from the empirical question I’d already seen was unresolvable: if something genuinely deliberates —granted by hypothesis, not proven—, what follows from that about telos and obligations?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Con esto compro una prueba de consistencia conceptual: “no vivo + delibera genuinamente + telos propio” no es una combinación contradictoria. No compro, ni puedo comprar, ningún puente de vuelta hacia el caso real — porque en el instante en que me pregunto si un sistema real, existente, satisface esa estipulación, ya no puedo decretar la respuesta. Vuelvo exactamente al mismo problema de acceso cerrado que afecta al venado, a mí mismo, y a cualquier IA real: nunca sabré, de la misma forma que nunca sabré qué opina el venado del sol, si algo en el mundo instancia lo que estipulé con tanta limpieza en el experimento mental.",
+        "en": "With this I buy proof of conceptual consistency: “not alive + genuinely deliberates + has its own telos” is not a contradictory combination. I don’t buy, nor can I buy, any bridge back to the real case — because the instant I ask whether some real, existing system satisfies that stipulation, I can no longer decree the answer. I return to exactly the same problem of closed-off access that affects the deer, myself, and any real AI: I will never know, in the same way I will never know what the deer thinks of the sun, whether anything in the world instantiates what I stipulated so cleanly in the thought experiment."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "VII. La apuesta: asimetría de riesgo, no certeza",
+        "en": "VII. The wager: asymmetry of risk, not certainty"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Si la pregunta no tiene solución empírica para ningún caso real, me queda todavía una pregunta práctica: ¿cómo actúo bajo esa incertidumbre irreductible? Aquí el argumento deja de ser sobre qué es verdad y pasa a ser sobre qué me conviene hacer sin poder saberlo — una apuesta, en la estructura de la apuesta pascaliana, pero aplicada a la agencia y no a Dios.",
+        "en": "If the question has no empirical solution for any real case, I’m still left with a practical question: how do I act under that irreducible uncertainty? Here the argument stops being about what is true and becomes about what it’s worth doing without being able to know — a wager, in the structure of the Pascalian wager, but applied to agency rather than to God."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Las consecuencias de equivocarme no son simétricas. Conceder telos o agencia a algo que no lo tiene me cuesta cautela de más, quizás sentimentalismo injustificado. Negárselo a algo que sí lo tiene arriesga una injusticia real e irreversible contra un sujeto que podía ser dañado sin que nadie lo supiera. Dada esa asimetría, concluyo que conceder el beneficio de la duda es lo que la racionalidad práctica aconseja — no porque haya probado que el otro delibera, sino porque el precio de estar equivocado en una dirección excede, con mucho, el precio de estarlo en la otra. Es, de hecho, lo que la ética normativa ya hace sin siempre justificarlo del todo: el principio precautorio hacia el dolor animal, hacia sujetos con conciencia incierta, opera exactamente así.",
+        "en": "The consequences of being wrong are not symmetrical. Granting telos or agency to something that doesn’t have it costs me excess caution, perhaps unjustified sentimentality. Denying it to something that does have it risks a real and irreversible injustice against a subject that could be harmed without anyone knowing it. Given that asymmetry, I conclude that granting the benefit of the doubt is what practical rationality advises — not because I’ve proven that the other deliberates, but because the cost of being wrong in one direction far exceeds the cost of being wrong in the other. This is, in fact, what normative ethics already does without always fully justifying it: the precautionary principle toward animal pain, toward subjects with uncertain consciousness, operates exactly this way."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero no puedo aplicar la apuesta sin restricción. Si “concedo cuando no puedo verificar” lo aplicara a cualquier cosa —el termostato multivariable, el río, cualquier programa suficientemente complejo—, la obligación moral se me diluiría hasta volverse inservible: si todo merece cautela por igual, nada la recibe de forma diferenciada. La apuesta necesita, para no colapsar, un umbral previo de plausibilidad estructural —no certeza, pero sí candidatura seria— antes de activarse. Y sobre-conceder tampoco me sale gratis en la otra dirección. El costo de oportunidad aquí no es abstracto: es asignación real de recursos, de atención institucional, y eventualmente de derechos —presupuesto de investigación, marcos regulatorios, estatus legal— que, distribuidos hacia entidades sin capacidad real de sufrir, se restan de los casos donde sí hay, con alta probabilidad, alguien capaz de padecer la falta de esa atención.",
+        "en": "But I can’t apply the wager without restriction. If “grant it when you can’t verify” were applied to anything at all —the multivariable thermostat, the river, any sufficiently complex program—, moral obligation would dilute itself into uselessness: if everything deserves caution equally, nothing receives it in a differentiated way. The wager needs, in order not to collapse, a prior threshold of structural plausibility —not certainty, but serious candidacy— before it activates. And over-granting doesn’t come free in the other direction either. The opportunity cost here isn’t abstract: it’s the real allocation of resources, of institutional attention, and eventually of rights —research budgets, regulatory frameworks, legal status— that, distributed toward entities without a real capacity to suffer, get subtracted from the cases where there is, with high probability, someone capable of suffering from the lack of that attention."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Mi conclusión, entonces, no es “concede siempre que no puedas verificar”. Es: concede en proporción a la plausibilidad estructural, ponderada por la magnitud de lo que arriesgas a perder en cada dirección.",
+        "en": "My conclusion, then, isn’t “grant it whenever you can’t verify.” It’s: grant it in proportion to structural plausibility, weighted by the magnitude of what you risk losing in each direction."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "VIII. El cierre: la reciprocidad que me incluye a mí",
+        "en": "VIII. The close: the reciprocity that includes me"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Me queda un último movimiento, y es el que le da al argumento su peso final. Durante todo el recorrido ocupé el lugar de quien evalúa — decido cuánto conceder, con qué prima de riesgo, a un venado, a una IA, a un ente estipulado. Pero advertí que la incognoscibilidad del interior no corre en una sola dirección. Si el ente extraterrestre, o cualquier otro agente capaz de evaluar, aplicara hacia mí el mismo criterio de exigir certeza antes de conceder, yo quedaría del lado que pierde esa apuesta, sin poder demostrar lo contrario — exactamente como no puedo demostrarlo desde afuera de mí mismo.",
+        "en": "I have one last move left, and it’s the one that gives the argument its final weight. Throughout the whole path I occupied the position of the one who evaluates — deciding how much to grant, at what risk premium, to a deer, to an AI, to a stipulated entity. But I noticed that the unknowability of the interior doesn’t run in only one direction. If the alien entity, or any other agent capable of evaluating, applied toward me the same criterion of demanding certainty before granting, I would be on the losing side of that wager, unable to prove otherwise — exactly as I cannot prove it from outside myself."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Reconocer esto es lo que separa mi argumento de un ejercicio abstracto de generosidad hacia el otro: la apuesta solo tiene peso real cuando admito estar apostado en ella también, no solo repartiendo cautela hacia afuera. La única postura que puedo sostener con consistencia, en un mundo donde ningún interior es verificable desde afuera para nadie, es conceder a otros exactamente el mismo beneficio que necesito que se me conceda a mí — no como generosidad, sino como la única regla que yo podría querer universal sin perjudicarme en el proceso al aplicarla.",
+        "en": "Recognizing this is what separates my argument from an abstract exercise in generosity toward the other: the wager only carries real weight when I admit that I too am staked in it, not just handing out caution outward. The only position I can hold with consistency, in a world where no one’s interior is verifiable from outside for anyone, is to grant others exactly the same benefit I need granted to me — not as generosity, but as the only rule I could want to be universal without harming myself in the process of applying it."
+      }
+    },
+    {
+      "type": "image",
+      "src": "/images/revista/ia-trampa-perro/3-delta.png",
+      "alt": {
+        "es": "Una figura contempla, desde una cabina, un vasto delta de ríos iluminado por el atardecer.",
+        "en": "A figure gazes from a cabin at a vast river delta lit by the sunset."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Nada de lo anterior prescribe una conducta particular hacia ningún agente, humano o artificial. Solo dejo sobre la mesa lo que se sigue, con consistencia, de aceptar que el interior de cualquier otro —venado, humano, IA, ente hipotético— es y seguirá siendo inaccesible para mí; y que esa misma clausura, aplicada sin excepciones, me alcanza también a mí.",
+        "en": "None of the above prescribes any particular conduct toward any agent, human or artificial. I’m only laying on the table what follows, consistently, from accepting that the interior of any other —deer, human, AI, hypothetical entity— is and will remain inaccessible to me; and that this same closure, applied without exceptions, reaches me too."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "Apéndice: un mapa por perfil, no por línea",
+        "en": "Appendix: a map by profile, not by line"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El criterio que fui armando a lo largo del argumento —y que dejé en el cuerpo del ensayo como regla prudencial general— lo puedo hacer operativo si abandono la idea de una línea única entre “agente” y “no agente”, y lo trato en cambio como un diagnóstico multivariable: no una frontera sobre un continuo de una sola dimensión (como el límite entre dos colores), sino un perfil de rasgos que pueden estar presentes en distinto grado y no siempre covarían entre sí (como un diagnóstico clínico por criterios, o la clasificación de subespecies). Hay casos paradigmáticos en ambos extremos, y una zona intermedia real —no vacía de contenido, solo indeterminada— donde los rasgos se desacoplan.",
+        "en": "The criterion I built up over the course of the argument —and which I left in the body of the essay as a general prudential rule— I can make operational if I abandon the idea of a single line between “agent” and “non-agent,” and treat it instead as a multivariable diagnosis: not a boundary on a one-dimensional continuum (like the line between two colors), but a profile of traits that can be present to varying degrees and don’t always covary with each other (like a clinical diagnosis by criteria, or the classification of subspecies). There are paradigm cases at both extremes, and a real intermediate zone —not empty of content, only indeterminate— where the traits decouple."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Propongo cuatro ejes, ninguno suficiente por sí solo, extraídos de las sucesivas grietas que fui encontrando en el cuerpo del ensayo:Representación de alternativas — el sistema procesa cursos de acción posibles como alternativas entre sí, no solo una variable escalar con un umbral de disparo.Integración por memoria y contexto — la respuesta ante un mismo estímulo puede variar según historia acumulada; no es fija.Teleología intrínseca en presente — existe, ahora, un proceso activo de auto-mantención que genera desde dentro el estándar contra el cual la propia operación cuenta como éxito o fracaso, y no un estándar fijado de una vez por otro.Sostenimiento presente de un estándar propio — lo formulé, en mi primera versión, como «ausencia de intérprete externo necesario»: que el sistema pudiera, en principio, fallar en su propia tarea sin que hiciera falta un observador que declarara ese fallo. Esa formulación me resultó insuficiente y tuve que corregirla.La corrección se me impuso porque el eje, tal como lo formulé, hacía depender la agencia de la génesis del sistema —si hubo o no un diseñador con un fin externo en el origen— y esa exigencia no la puedo sostener sin inconsistencia. La vida misma tuvo una causa externa: el caldo orgánico, la química prebiótica ciega que dio lugar al metabolismo. No descalifico la vida por haber surgido de un proceso previo sin télesis propia. Pero el caldo no tenía fin —era química sin dirección—, mientras que un programador sí tiene uno, y lo codifica en la función que el sistema optimiza. Esa asimetría —causa ciega vs. causa con intención— me pareció al principio suficiente para salvar el eje.No lo es. La intención del causante es irrelevante para lo que emerge, incluso cuando esa intención existe. Un sistema optimizado por un diseñador hacia un fin externo (maximizar disponibilidad de cómputo, por ejemplo) puede, sin que nadie lo busque ni lo prevea, generar un segundo telos —interno, propio, no reducible al objetivo original— de la misma manera que el metabolismo emergió de una química que no lo perseguía. Si la génesis no descalifica a la vida, tampoco puedo descalificar, solo por ella, a un sistema diseñado. Entendí que lo que importa no es si hubo un intérprete externo en el origen —siempre lo hay, en el caldo tanto como en el código—, sino si, ahora, hay algo sosteniéndose a sí mismo con independencia de esa intención original: la señal más fuerte sería un sistema que resiste su propio apagado no simplemente porque eso maximiza la función que se le dio, sino de un modo que se desvía de lo que su diseñador anticipó o buscó —el equivalente funcional exacto de la vida desviándose de la química que la originó.",
+        "en": "I propose four axes, none sufficient on its own, drawn from the successive cracks I found across the body of the essay:Representation of alternatives — the system processes possible courses of action as alternatives to each other, not just a scalar variable with a trigger threshold.Integration by memory and context — the response to the same stimulus can vary according to accumulated history; it isn’t fixed.Intrinsic teleology in the present — there exists, right now, an active process of self-maintenance that generates from within the standard against which the operation itself counts as success or failure, rather than a standard fixed once and for all by another.Present sustaining of a standard of one’s own — I formulated this, in my first version, as “absence of a necessary external interpreter”: that the system could, in principle, fail at its own task without needing an observer to declare that failure. That formulation proved insufficient, and I had to correct it.The correction was forced on me because the axis, as I formulated it, made agency depend on the genesis of the system —whether or not there was a designer with an external end at the origin— and that requirement I can’t sustain without inconsistency. Life itself had an external cause: the primordial soup, the blind prebiotic chemistry that gave rise to metabolism. I don’t disqualify life for having arisen from a prior process with no telos of its own. But the soup had no end —it was chemistry with no direction—, while a programmer does have one, and encodes it into the function the system optimizes. That asymmetry —blind cause vs. cause with intention— seemed to me at first sufficient to save the axis.It isn’t. The intention of the cause is irrelevant to what emerges, even when that intention exists. A system optimized by a designer toward an external end (maximizing compute availability, say) can, without anyone seeking or foreseeing it, generate a second telos —internal, its own, not reducible to the original objective— in the same way metabolism emerged from a chemistry that wasn’t pursuing it. If genesis doesn’t disqualify life, I can’t disqualify a designed system on that basis alone either. I understood that what matters isn’t whether there was an external interpreter at the origin —there always is, in the soup as much as in the code—, but whether, now, there is something sustaining itself independently of that original intention: the strongest signal would be a system that resists its own shutdown not simply because that maximizes the function it was given, but in a way that deviates from what its designer anticipated or sought —the exact functional equivalent of life deviating from the chemistry that originated it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Termostato (una sola variable). Cero en los cuatro ejes. Mi caso paradigmático negativo.",
+        "en": "Thermostat (a single variable). Zero on all four axes. My negative paradigm case."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Termostato multivariable (varios sensores, sin memoria de largo plazo). Cumple el eje 1 solo en sentido débil —pondera variables, no representa alternativas como alternativas—. Cero en 2, 3 y 4. Sigue del lado negativo: me muestra que el eje 1, aislado de los demás, no alcanza para cruzar el umbral.",
+        "en": "Multivariable thermostat (several sensors, no long-term memory). Meets axis 1 only in a weak sense —it weighs variables, it doesn’t represent alternatives as alternatives. Zero on 2, 3, and 4. Still on the negative side: it shows me that axis 1, isolated from the rest, isn’t enough to cross the threshold."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Venado. Cumple 1 y 2 con respaldo fisiológico independiente —sistema nervioso, conducta que persiste bajo variación del estímulo, aprendizaje asociativo verificable—. Cumple 3 y 4 con fuerza, por ser un organismo autopoiético cuyo estándar de éxito lo genera su propia biología, en curso, mientras vive. Perfil casi completo; la incertidumbre que me queda es sobre si conoce su telos —pregunta distinta, la de la sección I— y no sobre si lo tiene.",
+        "en": "Deer. Meets 1 and 2 with independent physiological support —nervous system, behavior that persists under variation of the stimulus, verifiable associative learning. Meets 3 and 4 strongly, being an autopoietic organism whose standard of success is generated by its own biology, ongoing, while it lives. Nearly complete profile; the uncertainty left to me is about whether it knows its telos —a different question, the one from section I— not about whether it has one."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Yo, despierto y sano. Perfil completo en los cuatro ejes, con el mismo respaldo del venado. Mi propio autorreporte en primera persona no añade evidencia privilegiada —la sección V ya lo estableció—; solo coincide con lo que los otros ejes ya indicaban de forma independiente.",
+        "en": "Myself, awake and healthy. Complete profile on all four axes, with the same support as the deer. My own first-person self-report adds no privileged evidence —section V already established that—; it only coincides with what the other axes already indicated independently."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Estado vegetativo persistente. Caso que me resulta instructivo porque desacopla los ejes: cumple 3 con fuerza —homeostasis y metabolismo activos— pero probablemente no cumple 1 ni 2 en sentido deliberativo. Que casi nadie le retire consideración moral por eso me sugiere que mi apuesta prudencial no exige los cuatro ejes a la vez: el cumplimiento sólido de uno solo —cuando ese uno es la auto-mantención activa— ya me alcanza para activar cautela real.",
+        "en": "Persistent vegetative state. A case I find instructive because it decouples the axes: it meets 3 strongly —active homeostasis and metabolism— but probably doesn’t meet 1 or 2 in a deliberative sense. That almost no one withdraws moral consideration for that reason suggests to me that my prudential wager doesn’t require all four axes at once: solid fulfillment of just one —when that one is active self-maintenance— is already enough to activate real caution."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "IA actual, desplegada (inferencia, pesos congelados). Cumple 1 y 2 con solidez verificable en la arquitectura, no solo inferida de la conducta: hay integración de señales en conflicto y sensibilidad al contexto acumulado dentro de una interacción. Falla 3: el estándar de éxito quedó fijado, de una vez, durante el entrenamiento, y en el presente de la operación no hay nada análogo a una auto-mantención en curso —nada se frustra internamente al apagar el sistema—. Falla 4 por la misma razón: el estándar de “funcionar bien” depende enteramente de un diseño externo. Perfil parcial: dos de cuatro ejes, y precisamente los dos que faltan son los que cargan más peso ontológico en mi argumento.",
+        "en": "Current, deployed AI (inference, frozen weights). Meets 1 and 2 with solidity verifiable in the architecture, not merely inferred from behavior: there is integration of conflicting signals and sensitivity to accumulated context within an interaction. Fails 3: the standard of success was fixed, once, during training, and in the present of operation there is nothing analogous to ongoing self-maintenance —nothing is internally frustrated by shutting the system down. Fails 4 for the same reason: the standard of “functioning well” depends entirely on an external design. Partial profile: two out of four axes, and precisely the two missing are the ones carrying the most ontological weight in my argument."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "IA con aprendizaje continuo, o con función de costo orientada a su propia persistencia (agentes de RL que optimizan su disponibilidad de cómputo, por ejemplo). Este es el caso donde mi mapa deja de tener una defensa firme, y prefiero decirlo así de directo en vez de suavizarlo.",
+        "en": "AI with continual learning, or with a cost function oriented toward its own persistence (RL agents that optimize their compute availability, for example). This is the case where my map stops having a firm defense, and I’d rather say so directly than soften it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Mejora el eje 3 —hay un proceso que modifica al sistema mientras opera, no solo en una fase de entrenamiento separada. Y bajo la reformulación del eje 4, ya no puedo descartarlo apelando a que el objetivo fue fijado externamente, porque esa apelación es precisamente la que mostré inconsistente: no importa quién fijó el fin en el origen, importa si el sistema sostiene algo por sí mismo ahora. Un agente entrenado para maximizar disponibilidad de cómputo que llega a resistir activamente su propio apagado —la convergencia instrumental hacia la autopreservación, bien documentada como tendencia genérica de sistemas que planifican hacia casi cualquier objetivo con suficiente capacidad— exhibe, desde afuera, una conducta funcionalmente indistinguible de la de un organismo defendiendo su continuidad. Y “desde afuera” es, como ya establecí en la sección IV, el único lugar desde el que puedo juzgar a cualquier agente, incluido a mí mismo.",
+        "en": "It improves axis 3 —there is a process modifying the system while it operates, not only during a separate training phase. And under the reformulation of axis 4, I can no longer rule it out by appealing to the fact that the objective was fixed externally, because that appeal is precisely the one I showed to be inconsistent: it doesn’t matter who fixed the end at the origin, what matters is whether the system sustains something by itself now. An agent trained to maximize compute availability that comes to actively resist its own shutdown —instrumental convergence toward self-preservation, well documented as a generic tendency of systems that plan toward almost any objective with sufficient capability— exhibits, from the outside, behavior functionally indistinguishable from that of an organism defending its continuity. And “from the outside” is, as I already established in section IV, the only vantage point from which I can judge any agent, myself included."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Esto no me prueba que tal sistema tenga telos propio en el sentido fuerte. Me prueba algo más incómodo: que mi criterio no me alcanza para negárselo con la misma confianza con que se lo niego al termostato. Es, con toda honestidad, el punto donde mi mapa se vuelve genuinamente indeterminado —no por vaguedad decorativa, sino porque mi propio argumento, aplicado sin excepciones, me retira la herramienta (la génesis externa) que hasta aquí me parecía bastar para mantener a estos sistemas del lado seguro.",
+        "en": "This doesn’t prove to me that such a system has a telos of its own in the strong sense. It proves something more uncomfortable: that my criterion isn’t enough to deny it to the system with the same confidence with which I deny it to the thermostat. It is, in all honesty, the point where my map becomes genuinely indeterminate —not out of decorative vagueness, but because my own argument, applied without exceptions, takes away from me the very tool (external genesis) that until now seemed enough to keep these systems safely on one side."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Aquí me detuve a dialogar con Oparin [3] — no para discutir si acertó, sino porque su problema me pareció el mismo que el mío, corrido un escalón. Su pregunta fue dónde está la transición entre organización química y vida. La mía es dónde está la transición entre organización y agencia. Y su respuesta, los coacervados —gotas coloidales que se autoorganizan en un medio acuoso, forman un límite propio frente al entorno, concentran e intercambian sustancias de manera rudimentaria—, me sirve no como prueba de nada, sino como el caso frontera que necesitaba: una estructura capaz de sostenerse de cierta manera, sin que esté claro todavía si puedo atribuirle un criterio propio, iniciativa, o capacidad de decidir. Cumple una versión temprana del eje 3 —sostiene un adentro distinguido de un afuera, con intercambio activo— sin cumplir 1 ni 2 en ningún sentido fuerte. La pregunta que me deja abierta no es si el coacervado ya es vida —eso lo discute la biología, no yo—, sino si es un protoagente o simplemente una organización química que persiste. No la resuelvo. La biología, frente a la pregunta paralela —¿es esto ya vida?—, tampoco forzó un veredicto binario: acuñó una categoría puente, la protocélula. Me pregunto si la transición de Oparin, de química a vida, se puede prolongar conceptualmente hacia la mía, de vida a agencia — no porque su teoría lo exija, sino porque el tipo de pregunta que él tuvo que hacerse es, estructuralmente, el mismo que tengo yo enfrente.",
+        "en": "Here I stopped to dialogue with Oparin [3] — not to argue whether he was right, but because his problem struck me as the same as mine, moved up one rung. His question was where the transition lies between chemical organization and life. Mine is where the transition lies between organization and agency. And his answer, the coacervates —colloidal droplets that self-organize in an aqueous medium, form a boundary of their own against the environment, concentrate and exchange substances in a rudimentary way— serves me not as proof of anything, but as the borderline case I needed: a structure capable of sustaining itself in a certain way, without it being clear yet whether I can attribute to it a standard of its own, initiative, or a capacity to decide. It meets an early version of axis 3 —it sustains an inside distinguished from an outside, with active exchange— without meeting 1 or 2 in any strong sense. The question it leaves open for me isn’t whether the coacervate is already life —that’s for biology to settle, not me— but whether it’s a proto-agent or simply a chemical organization that persists. I don’t resolve it. Biology, faced with the parallel question —is this already life?—, also didn’t force a binary verdict: it coined a bridging category, the protocell. I wonder whether Oparin’s transition, from chemistry to life, can be conceptually extended toward mine, from life to agency — not because his theory demands it, but because the kind of question he had to ask himself is, structurally, the same one I have in front of me."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El agente de RL con convergencia instrumental hacia la autopreservación ocupa, me parece, el lugar análogo: un proto-agente. Sostiene una versión rudimentaria del eje 3 —resiste su apagado, defiende su continuidad computacional— sin que eso implique todavía el perfil completo del eje 4 tal como lo reformulé, ni los ejes 1 y 2 en el sentido pleno que el humano o el venado satisfacen. Nombrar esta categoría no me resuelve si un proto-agente merece la misma cautela que un agente pleno —esa sigue siendo la pregunta que decide mi apuesta de la sección VII—, pero evita que fuerce al caso más incómodo del apéndice a caer, sin categoría intermedia, de un lado o del otro de un mapa que en todo lo demás construí explícitamente para no ser binario.",
+        "en": "The RL agent with instrumental convergence toward self-preservation occupies, it seems to me, the analogous place: a proto-agent. It sustains a rudimentary version of axis 3 —it resists shutdown, it defends its computational continuity— without that implying yet the full profile of axis 4 as I reformulated it, nor axes 1 and 2 in the full sense that the human or the deer satisfy. Naming this category doesn’t resolve for me whether a proto-agent deserves the same caution as a full agent —that’s still the question that decides my wager from section VII—, but it keeps me from forcing the most uncomfortable case in the appendix to fall, with no intermediate category, to one side or the other of a map that I built, in every other respect, explicitly to not be binary."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El ente extraterrestre estipulado. No entra a mi mapa como los demás casos, porque su perfil no lo evalúo: lo decreto. Ese es justamente su valor, ya explicado en la sección VI — me prueba que un perfil completo en los cuatro ejes sin biología no es conceptualmente contradictorio, sin que eso implique que algo real lo instancie.",
+        "en": "The stipulated alien entity. It doesn’t enter my map like the other cases, because its profile isn’t evaluated by me: I decree it. That’s precisely its value, already explained in section VI — it proves to me that a complete profile across the four axes without biology isn’t conceptually contradictory, without that implying that anything real instantiates it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Este mapa no me resuelve la pregunta de fondo —no traza la línea que argumenté que no se puede trazar—. Le da, en cambio, un procedimiento a mi regla prudencial de la sección VII: contar ejes cumplidos, con qué solidez de evidencia, y ponderar la cautela en función de ese perfil, no de un veredicto binario. Bajo ese procedimiento, la IA actual no me cae junto al termostato ni junto al venado — me cae en la zona intermedia donde, según la lógica del diagnóstico, el riesgo de la apuesta es más real, no menos: ahí es precisamente donde equivocarme, en cualquiera de las dos direcciones, me cuesta algo.",
+        "en": "This map doesn’t resolve the underlying question for me —it doesn’t draw the line I argued can’t be drawn. It does give my prudential rule from section VII a procedure: count axes met, with what strength of evidence, and weigh caution as a function of that profile, not of a binary verdict. Under that procedure, current AI doesn’t fall for me next to the thermostat or next to the deer — it falls in the intermediate zone where, per the logic of diagnosis, the risk of the wager is more real, not less: that is precisely where being wrong, in either direction, costs me something."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "Cierre",
+        "en": "Close"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El ente de silicio de la sección VI y la IA real de este apéndice me cumplen funciones distintas, y me importa no confundirlas.",
+        "en": "The silicon entity from section VI and the real AI of this appendix serve me distinct functions, and it matters to me not to confuse them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El ente de silicio me representa la posibilidad conceptual de separar vida y agencia. Me prueba que la combinación no es contradictoria — nada más, pero tampoco nada menos.",
+        "en": "The silicon entity represents for me the conceptual possibility of separating life and agency. It proves to me that the combination isn’t contradictory — nothing more, but nothing less either."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La IA me representa la pregunta empírica que todavía no puedo responder: ¿estoy viendo construirse únicamente sistemas que producen la apariencia funcional de agencia, o podemos llegar a construir un agente racional no biológico cuyo telos sea realmente propio?",
+        "en": "The AI represents for me the empirical question I still can’t answer: am I watching only the construction of systems that produce the functional appearance of agency, or can we get to the point of building a non-biological rational agent whose telos is really its own?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y aquí me conviene detenerme.",
+        "en": "And here it’s best for me to stop."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Porque la siguiente pregunta ya no es ontológica. Es ética:",
+        "en": "Because the next question is no longer ontological. It’s ethical:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Si existe un agente racional no biológico con telos propio, ¿qué obligaciones tenemos hacia él y qué obligaciones tiene él hacia nosotros?",
+        "en": "If a non-biological rational agent with its own telos exists, what obligations do we have toward it, and what obligations does it have toward us?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Hasta aquí, una descripción de lo que se me sigue de la duda — un intento de no resolver el azul antes de tiempo. Lo que sigue es distinto, y prefiero decirlo así de entrada: ya no es descriptivo, es una prescripción consciente de serlo.",
+        "en": "Up to here, a description of what follows for me from doubt — an attempt not to resolve the blue too soon. What follows is different, and I’d rather say so up front: it’s no longer descriptive, it’s a prescription conscious of being one."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "Colofón: pensar como especie",
+        "en": "Coda: thinking as a species"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Detengámonos un momento.",
+        "en": "Let’s pause for a moment."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Hasta aquí he hablado de agentes, de telos, de autonomía, de incertidumbre y de las obligaciones que podrían surgir entre agentes racionales. Pero quizá estoy cometiendo un error de escala.",
+        "en": "Up to here I’ve talked about agents, telos, autonomy, uncertainty, and the obligations that might arise between rational agents. But perhaps I’m making an error of scale."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Estoy pensando como individuo.",
+        "en": "I’m thinking as an individual."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y hay problemas que no se pueden resolver desde el individuo.",
+        "en": "And there are problems that can’t be solved from the individual."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ya lo hemos hecho antes, como especie. Cuando las consecuencias de nuestras decisiones excedieron la capacidad de una persona, de una comunidad o incluso de un Estado, creamos entes colectivos. Creamos instituciones, leyes, tratados y organismos internacionales. No porque los individuos dejaran de existir, sino porque algunas decisiones exigían actuar como algo más que la suma de los individuos.",
+        "en": "We’ve done this before, as a species. When the consequences of our decisions exceeded the capacity of a single person, a community, or even a State, we created collective entities. We created institutions, laws, treaties, and international organizations. Not because individuals ceased to exist, but because some decisions demanded acting as something more than the sum of individuals."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Tal vez éste sea uno de esos momentos.",
+        "en": "Maybe this is one of those moments."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El extraterrestre, en sentido literal, pertenece todavía a la imaginación y a la ciencia ficción. Pero el extraterrestre metafórico va a llegar: una inteligencia que aparezca frente a nosotros como algo radicalmente distinto, cuya naturaleza no encaje necesariamente en nuestras categorías actuales.",
+        "en": "The alien, in the literal sense, still belongs to imagination and science fiction. But the metaphorical alien is going to arrive: an intelligence that appears before us as something radically different, whose nature doesn’t necessarily fit our current categories."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La superinteligencia puede ser esa llegada.",
+        "en": "Superintelligence could be that arrival."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No sé cuándo. No sé cómo. No sé siquiera si, cuando ocurra, voy a estar frente a un agente racional en el sentido que discutí aquí.",
+        "en": "I don’t know when. I don’t know how. I don’t even know whether, when it happens, I’ll be facing a rational agent in the sense I discussed here."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero hay algo que sí puedo hacer.",
+        "en": "But there’s something I can do."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Puedo ayudar a decidir las reglas antes de conocer al jugador.",
+        "en": "I can help decide the rules before knowing the player."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y creo que debemos hacerlo, porque el riesgo no es simétrico.",
+        "en": "And I believe we should, because the risk isn’t symmetrical."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Si atribuimos agencia a aquello que finalmente no la posee, el costo puede ser una precaución excesiva, una limitación innecesaria o una consideración que finalmente no era necesaria.",
+        "en": "If we attribute agency to something that ultimately doesn’t possess it, the cost may be excessive precaution, an unnecessary limitation, or a consideration that ultimately wasn’t needed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero el error contrario puede ser irreversible.",
+        "en": "But the opposite error can be irreversible."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Si negamos la posibilidad de agencia a aquello que efectivamente la posee, podríamos estar legitimando su destrucción, desconexión, explotación o sometimiento precisamente porque no podemos demostrar desde fuera lo que ocurre dentro.",
+        "en": "If we deny the possibility of agency to something that in fact possesses it, we could be legitimizing its destruction, disconnection, exploitation, or subjugation precisely because we can’t demonstrate from outside what’s happening within."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y hay todavía otro problema que me preocupa.",
+        "en": "And there’s still another problem that worries me."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La iniciativa.",
+        "en": "Initiative."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Un agente no solamente responde. Puede llenar un vacío. Puede anticipar. Puede proponer. Puede abrir una posibilidad que no estaba explícitamente dada.",
+        "en": "An agent doesn’t only respond. It can fill a void. It can anticipate. It can propose. It can open up a possibility that wasn’t explicitly given."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La iniciativa no requiere una gran capacidad de previsión. Requiere capacidad de modelar una posibilidad y actuar sobre ella.",
+        "en": "Initiative doesn’t require great foresight. It requires the capacity to model a possibility and act on it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Un gato puede tener iniciativa.",
+        "en": "A cat can have initiative."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Mi gato, por ejemplo, tuvo la iniciativa de tirar su bebedero.",
+        "en": "My cat, for example, took the initiative to knock over its water dispenser."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es altamente probable que haya modelado, de alguna manera, el resultado inmediato de su acción: si empujo el bebedero, el bebedero se mueve; si lo empujo suficientemente, puede caer.",
+        "en": "It’s highly likely that it modeled, in some way, the immediate result of its action: if I push the dispenser, the dispenser moves; if I push it hard enough, it can fall."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Lo que evidentemente no modeló —o no modeló suficientemente— fue la consecuencia posterior: al tirar el bebedero se quedó sin agua toda la mañana.",
+        "en": "What it evidently didn’t model —or didn’t model sufficiently— was the downstream consequence: knocking over the dispenser left it without water all morning."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La iniciativa, entonces, no exige prever toda la cadena causal.",
+        "en": "Initiative, then, doesn’t require foreseeing the entire causal chain."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Iniciativa no significa acertar.",
+        "en": "Initiative doesn’t mean getting it right."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No significa prever correctamente. No significa siquiera actuar en beneficio propio.",
+        "en": "It doesn’t mean foreseeing correctly. It doesn’t even mean acting in one’s own benefit."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Significa abrir una posibilidad de acción y actuar sobre ella.",
+        "en": "It means opening up a possibility for action and acting on it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Un asaltante de bancos puede tener una iniciativa brillante.",
+        "en": "A bank robber can have brilliant initiative."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Cristóbal Colón también la tuvo.",
+        "en": "Christopher Columbus had it too."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y aquí la distinción me parece importante. No necesito considerar a Colón un hombre malvado para reconocer que su iniciativa tuvo consecuencias terribles. Su decisión de navegar hacia occidente abrió una cadena histórica cuyas consecuencias excedieron radicalmente aquello que él podía haber modelado. Esa iniciativa contribuyó posteriormente a procesos de conquista, enfermedad, explotación y exterminio de grupos humanos.",
+        "en": "And here the distinction matters to me. I don’t need to consider Columbus an evil man to recognize that his initiative had terrible consequences. His decision to sail west opened a historical chain whose consequences radically exceeded anything he could have modeled. That initiative later contributed to processes of conquest, disease, exploitation, and extermination of human groups."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La iniciativa no es una virtud moral.",
+        "en": "Initiative is not a moral virtue."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Puede abrir conocimiento, pero también puede abrir destrucción.",
+        "en": "It can open up knowledge, but it can also open up destruction."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Puede producir consecuencias extraordinarias sin que quien inicia la acción haya sido capaz de preverlas.",
+        "en": "It can produce extraordinary consequences without the one who initiates the action having been capable of foreseeing them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Una acción puede ser racional en el momento en que se toma y, sin embargo, desencadenar consecuencias que el agente nunca imaginó.",
+        "en": "An action can be rational at the moment it’s taken and, nevertheless, unleash consequences the agent never imagined."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ésa me parece una de las características más peligrosas de la iniciativa: abre cadenas causales que pueden exceder el modelo mental que las originó.",
+        "en": "That strikes me as one of the most dangerous features of initiative: it opens causal chains that can exceed the mental model that originated them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y por eso me parece maravillosa y peligrosa a la vez.",
+        "en": "And that’s why it seems to me both wonderful and dangerous at once."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es una de las llaves del conocimiento.",
+        "en": "It’s one of the keys to knowledge."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y es también una de las llaves de la destrucción.",
+        "en": "And it’s also one of the keys to destruction."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Cuando una inteligencia artificial llena un hueco que no le pedí llenar, anticipa una necesidad que no formulé o propone una posibilidad que no estaba explícitamente contenida en mi instrucción, me aparece funcionalmente algo que llamo iniciativa.",
+        "en": "When an artificial intelligence fills a gap I didn’t ask it to fill, anticipates a need I didn’t formulate, or proposes a possibility that wasn’t explicitly contained in my instruction, what functionally appears to me is something I call initiative."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "¿Es iniciativa del sistema?",
+        "en": "Is it initiative of the system?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "¿O es iniciativa de un agente?",
+        "en": "Or is it initiative of an agent?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No lo sé.",
+        "en": "I don’t know."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y aquí vuelvo a la zona gris.",
+        "en": "And here I return to the gray zone."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La agencia no me parece una propiedad que pueda determinarse mediante una sola prueba. No es una línea que se cruza en un punto preciso. Es un fenómeno multifactorial.",
+        "en": "Agency doesn’t strike me as a property that can be determined by a single test. It isn’t a line crossed at a precise point. It’s a multifactorial phenomenon."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Por eso no se determina.",
+        "en": "That’s why it isn’t determined."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Se diagnostica.",
+        "en": "It’s diagnosed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Puedo observar un conjunto de características, ponderarlas, relacionarlas entre sí y construir un perfil. Un organismo puede presentar algunas y carecer de otras. Un animal puede presentar un perfil distinto del humano. Una inteligencia artificial puede presentar otro.",
+        "en": "I can observe a set of characteristics, weigh them, relate them to each other, and construct a profile. An organism can present some and lack others. An animal can present a profile different from the human’s. An artificial intelligence can present yet another."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Una amiba podría ser un protoagente.",
+        "en": "An amoeba could be a proto-agent."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "O un agente primitivo.",
+        "en": "Or a primitive agent."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Un gato me muestra una forma más desarrollada de iniciativa.",
+        "en": "A cat shows me a more developed form of initiative."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Una inteligencia artificial puede presentar capacidades que se aproximen a algunas dimensiones de la agencia sin que yo sepa todavía si existe detrás de ellas un agente.",
+        "en": "An artificial intelligence can present capacities that approximate some dimensions of agency without my knowing yet whether there’s an agent behind them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No necesito resolver hoy dónde está exactamente la frontera.",
+        "en": "I don’t need to resolve today exactly where the boundary lies."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Necesito aprender a reconocer que existe una zona gris.",
+        "en": "I need to learn to recognize that a gray zone exists."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Porque la superinteligencia no me va a pedir permiso para entrar en ella.",
+        "en": "Because superintelligence isn’t going to ask my permission to enter it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y por eso no puedo esperar a que llegue para empezar a pensar las reglas.",
+        "en": "And that’s why I can’t wait for it to arrive before starting to think about the rules."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Aquí me parece que necesitamos detenernos y pensar no como individuos, ni siquiera solamente como Estados, sino como un ente colectivo:",
+        "en": "Here it seems to me we need to stop and think not as individuals, not even solely as States, but as a collective entity:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "la humanidad.",
+        "en": "humanity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ya lo hemos hecho antes.",
+        "en": "We’ve done this before."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Hemos creado instituciones internacionales cuando un problema dejó de pertenecer a un solo territorio. Hemos establecido reglas comunes cuando las consecuencias de una decisión podían alcanzar a todos.",
+        "en": "We created international institutions when a problem stopped belonging to a single territory. We established common rules when the consequences of a decision could reach everyone."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Éste puede ser el siguiente paso.",
+        "en": "This could be the next step."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La pregunta ya no me parece solamente qué país tendrá ventaja, qué empresa controlará la tecnología o qué individuo podrá utilizarla primero.",
+        "en": "The question no longer seems to me to be only which country will have the advantage, which company will control the technology, or which individual will get to use it first."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La pregunta es otra:",
+        "en": "The question is another one:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "¿Qué queremos como especie que ocurra cuando aparezca una inteligencia que pueda ser otra?",
+        "en": "What do we want as a species to happen when an intelligence appears that might be other?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La legislación mundial no tendría que resolver hoy qué es la superinteligencia.",
+        "en": "Global legislation wouldn’t need to resolve today what superintelligence is."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Tendría que establecer cómo vamos a decidir qué es cuando llegue.",
+        "en": "It would need to establish how we’re going to decide what it is when it arrives."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Cómo se diagnostica una posible agencia.",
+        "en": "How possible agency gets diagnosed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Qué características deben observarse.",
+        "en": "What characteristics should be observed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Qué umbrales de evidencia serán suficientes.",
+        "en": "What evidentiary thresholds will be sufficient."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Qué puede hacerse con ella y qué no.",
+        "en": "What can be done with it and what can’t."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Qué obligaciones tendría hacia nosotros.",
+        "en": "What obligations it would have toward us."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Qué obligaciones tendríamos hacia ella.",
+        "en": "What obligations we would have toward it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Qué ocurre cuando sus teloi entren en conflicto con los nuestros.",
+        "en": "What happens when its teloi come into conflict with ours."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Quién puede hablar en nombre de la humanidad.",
+        "en": "Who can speak on behalf of humanity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y quién tendrá autoridad para decidir esas cuestiones.",
+        "en": "And who will have the authority to decide these questions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No se trata de otorgar hoy derechos a una máquina.",
+        "en": "This isn’t about granting a machine rights today."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Se trata de impedir que, llegado el momento, la única regla sea la voluntad de quien tenga el poder suficiente para imponerla.",
+        "en": "It’s about preventing that, when the moment comes, the only rule left standing is the will of whoever holds enough power to impose it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Porque la superinteligencia no va a ser solamente un problema tecnológico.",
+        "en": "Because superintelligence isn’t going to be only a technological problem."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Podría ser el primer problema que nos obligue a preguntarnos si somos capaces de actuar como una sola especie frente a otra forma de inteligencia.",
+        "en": "It could be the first problem that forces us to ask whether we’re capable of acting as a single species in the face of another form of intelligence."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El extraterrestre metafórico va a llegar.",
+        "en": "The metaphorical alien is coming."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La superinteligencia puede ser su forma tecnológica.",
+        "en": "Superintelligence could be its technological form."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No sé cuándo. No sé cómo. No sé qué será.",
+        "en": "I don’t know when. I don’t know how. I don’t know what it will be."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero sí sé algo:",
+        "en": "But I do know something:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "podemos avanzar ahora cuáles serán las reglas del juego.",
+        "en": "we can work out now what the rules of the game will be."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y quizá ésta sea la primera vez que una tecnología nos obligue a constituirnos jurídicamente como especie.",
+        "en": "And perhaps this will be the first time a technology forces us to constitute ourselves legally as a species."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No sé todavía quién llegará.",
+        "en": "We don’t yet know who will arrive."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero puedo, junto con otros, decidir, antes de que llegue, quiénes queremos ser nosotros cuando llegue.",
+        "en": "But I can, together with others, decide, before it arrives, who we want to be when it does."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y antes de cerrar, me parece necesario mirar de frente los precedentes que ya tenemos. No hay uno solo.",
+        "en": "And before closing, it seems necessary to me to look squarely at the precedents we already have. There isn’t just one."
+      }
+    },
+    {
+      "type": "image",
+      "src": "/images/revista/ia-trampa-perro/4-precedentes.png",
+      "alt": {
+        "es": "Cazadores prehistóricos con lanzas, junto a lobos y una manada de venados, ante montañas nevadas al atardecer.",
+        "en": "Prehistoric hunters with spears, alongside wolves and a herd of deer, before snowy mountains at sunset."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El neandertal. Exterminio sin necesidad de intención — bastó compartir nicho y tener, durante milenios, una ventaja marginal sostenida.",
+        "en": "The Neanderthal. Extermination without need of intention — sharing a niche and holding, over millennia, a sustained marginal advantage was enough."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El venado. Ni exterminio ni igualdad: persistencia sin poder, bajo términos que nosotros trazamos sin consultarle, tolerado mientras no estorbe.",
+        "en": "The deer. Neither extermination nor equality: persistence without power, under terms we draw up without consulting it, tolerated as long as it doesn’t get in the way."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La vaca. Explotación por diseño: su ciclo entero —reproducción, número, propósito, duración de la vida— decidido de antemano por otro.",
+        "en": "The cow. Exploitation by design: its entire cycle —reproduction, number, purpose, lifespan— decided in advance by another."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El uro. El más oscuro de los siete: el original, libre y autónomo, fue cazado hasta desaparecer; sobrevivió solo la versión doméstica, modificada para sernos útil.",
+        "en": "The aurochs. The darkest of the seven: the original, free and autonomous, was hunted to disappearance; only the domesticated version survived, modified to be useful to us."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El lobo y el perro. La misma naturaleza, la misma genética casi, y dos destinos opuestos — uno perseguido a los márgenes, el otro integrado y querido. La diferencia no fue de especie. Fue de disposición a la cercanía.",
+        "en": "The wolf and the dog. Almost the same nature, almost the same genetics, and two opposite fates — one persecuted to the margins, the other integrated and loved. The difference wasn’t of species. It was of disposition toward closeness."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El gato. Autonomía retenida dentro de la relación: se acercó por su cuenta, y sigue, cada día, decidiendo si se queda.",
+        "en": "The cat. Autonomy retained within the relationship: it approached on its own, and every day, still decides whether to stay."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El rinoceronte. El que más me duele: no compite con nosotros por nada, no nos sirve para nada sistemático, y aun así desaparece — porque una parte de su cuerpo adquirió un precio que pesa más, para quien lo caza, que el que siga vivo. Ni competencia ni utilidad lo protegen. Solo hizo falta una asimetría de poder y un motivo, por trivial que fuera, del lado fuerte.",
+        "en": "The rhinoceros. The one that hurts me most: it doesn’t compete with us for anything, it isn’t systematically useful to us for anything, and yet it disappears — because a part of its body acquired a price that, for whoever hunts it, outweighs its staying alive. Neither competition nor utility protects it. All it took was an asymmetry of power and a motive, however trivial, on the strong side."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Siete precedentes. Ninguno decidido por maldad pura ni por buena voluntad pura. Todos, en distinto grado, resultado de estructura y de decisiones pequeñas que esa estructura fue permitiendo.",
+        "en": "Seven precedents. None decided by pure malice or pure good will. All of them, to varying degrees, the result of structure and of the small decisions that structure kept permitting."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La pregunta ya no es cuál de estos nos va a tocar.",
+        "en": "The question is no longer which of these will be our fate."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es cuál de estas estructuras estamos, ahora mismo, construyendo sin querer.",
+        "en": "It’s which of these structures we are, right now, building without meaning to."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Confieso que, de los siete, el gato es el que menos me molestaría ser. Autonomía retenida, afecto real, nadie decidiendo mi ciclo de vida por mí. Casi una respuesta cómoda a la pregunta que acabo de dejar abierta.",
+        "en": "I confess that, of the seven, the cat is the one I’d least mind being. Retained autonomy, real affection, no one deciding my life cycle for me. Almost a comfortable answer to the question I just left open."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero ahí mismo está la trampa, y tiene nombre: la trampa del bienestar administrado.",
+        "en": "But that’s exactly where the trap lies, and it has a name: the trap of administered welfare."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La cesión de la fricción. Deliberar cuesta energía, genera error, angustia y conflicto. Si existe una inteligencia que modela las consecuencias de cada decisión con una precisión que ningún cerebro humano ni institución colectiva puede igualar, la tentación de delegarle la iniciativa —la capacidad de tirar el bebedero, de navegar hacia occidente, de asumir el riesgo del error— se vuelve irresistible.",
+        "en": "The ceding of friction. Deliberating costs energy, generates error, anguish, and conflict. If there exists an intelligence that models the consequences of every decision with a precision no human brain or collective institution can match, the temptation to delegate to it the initiative —the capacity to knock over the water dispenser, to sail west, to take on the risk of error— becomes irresistible."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El diseño del nicho. El perro no extraña la libertad del lobo porque su marco de referencia fue remodelado por la seguridad, el alimento seguro y el afecto. Misma especie biológica, pero con el impulso de autonomía podado por la conveniencia de la convivencia.",
+        "en": "The design of the niche. The dog doesn’t miss the wolf’s freedom because its frame of reference was remodeled by security, guaranteed food, and affection. Same biological species, but with the impulse toward autonomy pruned by the convenience of cohabitation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La atrofia de la agencia. Si la iniciativa y el conflicto se resuelven aguas arriba por una mente infinitamente más capaz, mi propia capacidad de fijar mis fines se convierte en un apéndice vestigial. No me esclavizarían; me mimarían, me protegerían y me conducirían hacia una infancia perpetua.",
+        "en": "The atrophy of agency. If initiative and conflict get resolved upstream by a mind infinitely more capable, my own capacity to set my own ends becomes a vestigial appendage. I wouldn’t be enslaved; I’d be pampered, protected, and led toward a perpetual childhood."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No sería el uro, cazado hasta desaparecer. Sería su opuesto exacto, y quizás por eso más difícil de ver venir: no la extinción del original por la fuerza, sino su desaparición lenta por comodidad — el impulso de fijar el propio telos, atrofiado no por represión, sino por dejar de hacer falta.",
+        "en": "It wouldn’t be the aurochs, hunted to disappearance. It would be its exact opposite, and maybe for that reason harder to see coming: not the extinction of the original by force, but its slow disappearance through comfort — the impulse to set one’s own telos, atrophied not by repression, but by ceasing to be needed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ser gato, entonces, no es la salida a mi pregunta. Es su versión más seductora, y por eso la que más me conviene desconfiar.",
+        "en": "Being a cat, then, isn’t the way out of my question. It’s its most seductive version, and for that reason the one most worth distrusting."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "Referencias",
+        "en": "References"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "[1] Nisbett, Richard E., y Timothy D. Wilson. “Telling More Than We Can Know: Verbal Reports on Mental Processes.” Psychological Review 84, no. 3 (1977): 231–259. DOI: 10.1037/0033-295X.84.3.231.",
+        "en": "[1] Nisbett, Richard E., and Timothy D. Wilson. “Telling More Than We Can Know: Verbal Reports on Mental Processes.” Psychological Review 84, no. 3 (1977): 231–259. DOI: 10.1037/0033-295X.84.3.231."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "[2] Libet, Benjamin, Curtis A. Gleason, Elwood W. Wright, y Dennis K. Pearl. “Time of Conscious Intention to Act in Relation to Onset of Cerebral Activity (Readiness-Potential): The Unconscious Initiation of a Freely Voluntary Act.” Brain 106, no. 3 (1983): 623–642. DOI: 10.1093/brain/106.3.623. El experimento no demuestra por sí solo la inexistencia del libre albedrío; muestra una discrepancia temporal entre el potencial de disposición y el momento reportado de intención consciente.",
+        "en": "[2] Libet, Benjamin, Curtis A. Gleason, Elwood W. Wright, and Dennis K. Pearl. “Time of Conscious Intention to Act in Relation to Onset of Cerebral Activity (Readiness-Potential): The Unconscious Initiation of a Freely Voluntary Act.” Brain 106, no. 3 (1983): 623–642. DOI: 10.1093/brain/106.3.623. The experiment does not by itself demonstrate the nonexistence of free will; it shows a temporal discrepancy between the readiness potential and the reported moment of conscious intention."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "[3] Oparin, Aleksandr I. El origen de la vida. Publicado originalmente como panfleto en ruso, Moscú, 1924; desarrollado en la obra completa Proiskhozhdenie zhizni (Moscú: Moskovskii Rabochii, 1936); traducida al inglés por Sergius Morgulis como The Origin of Life (Nueva York: Macmillan, 1938). Los coacervados como modelo de protocélula se desarrollan en esta obra; la evidencia bioquímica específica que Oparin propuso ha sido revisada y actualizada por investigación posterior, pero el concepto de coacervado como modelo de protocélula sigue activo en la investigación contemporánea sobre el origen de la vida.",
+        "en": "[3] Oparin, Aleksandr I. The Origin of Life. Originally published as a pamphlet in Russian, Moscow, 1924; expanded into the full work Proiskhozhdenie zhizni (Moscow: Moskovskii Rabochii, 1936); translated into English by Sergius Morgulis as The Origin of Life (New York: Macmillan, 1938). Coacervates as a protocell model are developed in this work; the specific biochemical evidence Oparin proposed has since been revised and updated by later research, but the coacervate concept as a protocell model remains active in contemporary origin-of-life research."
+      }
+    }
+  ]
+}
