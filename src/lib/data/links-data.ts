@@ -14,7 +14,7 @@ export const professionalLinks: SocialLink[] = [
     { name: 'IMDb', href: 'https://www.imdb.com/es/name/nm14485536/', icon: Globe },
     { name: 'FilmFreeway', href: 'https://filmfreeway.com/MauriciodelaMazaBenignos', icon: Film },
     { name: 'Wikipedia', href: 'https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos', icon: Globe },
-    { name: 'WCFF', href: 'https://wcff.org', icon: Globe },
+    { name: 'WCFF', href: 'https://wcff.org/meet-the-team/', icon: Globe },
     { name: 'Google Scholar', href: 'https://scholar.google.com.mx/citations?user=55cWcTAAAAAJ&hl=es&oi=ao', icon: Globe },
     { name: 'Academia.edu', href: 'https://independentscholar.academia.edu/MauricioDelaMazaBenignos', icon: Globe },
     { name: 'ResearchGate', href: 'https://www.researchgate.net/profile/Mauricio-De-La-Maza-Benignos', icon: Globe },
