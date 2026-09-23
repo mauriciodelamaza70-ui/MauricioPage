@@ -88,7 +88,9 @@ export type Achievement = {
 export type TimelineEvent = {
   year: string;
   description: string;
-};
+  linkText?: string;
+  href?: string;
+  };
 
 export type Collaborator = {
   name: string;

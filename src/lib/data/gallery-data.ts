@@ -44,7 +44,8 @@ export const timelineEvents: TimelineEvent[] = [
   { year: '2020', description: 'Recibe el Premio a la Conservación de AZGFD.' },
   { year: '2021', description: 'Recibe el Doctorado Honoris Causa por su trayectoria.' },
   { year: '2022', description: 'Produce el documental "Ad memoriam rei perpetuam".' },
-];
+  { year: '2023', description: 'CEO del Wildlife Conservation Film Festival (WCFF)', linkText: 'Wildlife Conservation Film Festival (WCFF)', href: 'https://wcff.org/meet-the-team/' },
+  ];
 
 export const collaborators: Collaborator[] = [
   {
