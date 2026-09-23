@@ -29,7 +29,7 @@ export default function HomeContent() {
   const recognitionLogos = [
     { name: "IMDb", src: "/images/imdb.png", url: "https://www.imdb.com/es/name/nm14485536/", alt: "IMDb logo" },
     { name: "FilmFreeway", src: "/images/filmlogo.png", url: "https://filmfreeway.com/MauriciodelaMazaBenignos", alt: "FilmFreeway logo" },
-    { name: "WCFF", src: "/images/wcff.png", url: "https://wcff.org", alt: "Wildlife Conservation Film Festival logo" },
+    { name: "WCFF", src: "/images/wcff.png", url: "https://wcff.org/meet-the-team/", alt: "Wildlife Conservation Film Festival logo" },
     { name: "Wikipedia", src: "https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg", url: "https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos", alt: "Wikipedia logo" },
     { name: "Tubi", src: "/images/tubi.png", url: "https://tubitv.com/person/cc8851/mauricio-de-la-maza-benignos", alt: "Tubi" },
   ];
