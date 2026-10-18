@@ -1,6 +1,14 @@
 {
   "placeholderImages": [
     {
+      "id": "blog-teleologia-friso",
+      "description": "Friso sudarábigo en alabastro: un leopardo moteado ataca a un íbice de largos cuernos (siglo V a. C., Museo de Arte Walters)",
+      "imageUrl": "/images/revista/teleologia/friso-leopardo-ibice.jpeg",
+      "imageHint": "ancient frieze leopard ibex",
+      "width": 1800,
+      "height": 1205
+    },
+    {
       "id": "blog-ia-trampa-perro-cover",
       "description": "Cazadores prehistóricos con lanzas, junto a lobos y una manada de venados, ante montañas nevadas al atardecer",
       "imageUrl": "/images/revista/ia-trampa-perro/4-precedentes.png",

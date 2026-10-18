@@ -68,13 +68,13 @@ export default function RevistaPage() {
                                     return (
                                     <Card key={post.id} className="overflow-hidden group flex flex-col h-full bg-card">
                                         {postImage && (
-                                        <div className="aspect-video overflow-hidden">
+                                        <div className={`aspect-video overflow-hidden ${post.imageFit === 'contain' ? 'bg-secondary' : ''}`}>
                                             <Image
                                                 src={postImage.imageUrl}
                                                 alt={postImage.description || post.title}
                                                 width={600}
                                                 height={400}
-                                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                                                className={`w-full h-full ${post.imageFit === 'contain' ? 'object-contain' : 'object-cover'} group-hover:scale-105 transition-transform duration-300`}
                                                 data-ai-hint={postImage.imageHint}
                                             />
                                         </div>
