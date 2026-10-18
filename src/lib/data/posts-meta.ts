@@ -3,6 +3,17 @@ import type { PostMeta } from '../types';
 // Metadata de posts SIN content. Importar esto (no el barrel) desde listados/home mantiene el HTML fuera de su bundle.
 export const postsMeta: PostMeta[] = [
   {
+    "id": "post-teleologia-conciencia-y-sentido",
+    "slug": "teleologia-conciencia-y-sentido",
+    "title": "Teleología, conciencia y sentido",
+    "date": "10 de Octubre, 2026",
+    "excerpt": "Un diálogo interior: ¿a qué precio puede quien no hereda una teleología natural desarrollar su propio sentido y sostener una brújula moral sin causa superior?",
+    "category": "Artículos",
+    "author": "Mauricio de la Maza-Benignos",
+    "imageId": "blog-teleologia-friso",
+    "imageFit": "contain"
+  },
+  {
     "id": "post-la-ia-y-la-trampa-del-perro",
     "slug": "la-ia-y-la-trampa-del-perro",
     "title": "La IA y la trampa del perro",

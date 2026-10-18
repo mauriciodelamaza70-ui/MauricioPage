@@ -56,6 +56,8 @@ export type Post = {
   imageId: string;
   /** Imagen del hero del artículo; si no se define, se usa imageId. */
   heroImageId?: string;
+  /** 'contain' muestra la imagen completa (sin recorte) en las tarjetas del índice. */
+  imageFit?: 'cover' | 'contain';
   /** Autor mostrado en el byline; si no se define, se usa "De la Maza Team". */
   author?: string;
   category: 'Artículos' | 'Colaboradores' | 'Entrevistas' | 'Noticias';
