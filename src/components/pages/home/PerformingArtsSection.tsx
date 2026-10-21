@@ -10,7 +10,7 @@ export default function PerformingArtsSection() {
     <section id="artes-escenicas" className="py-12 bg-black text-white scroll-mt-16">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <p className="text-sm uppercase tracking-widest text-gray-400 mb-2">Obra escénica</p>
+          <p className="text-sm uppercase tracking-widest text-gray-400 mb-2">TEATRO, MÚSICA Y DANZA</p>
           <h2 className="font-headline text-4xl md:text-5xl font-bold text-white">Artes escénicas</h2>
         </div>
         <ul className="mx-auto flex max-w-6xl flex-wrap justify-center gap-8">
