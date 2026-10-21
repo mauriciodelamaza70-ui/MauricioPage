@@ -12,7 +12,7 @@ export const stageWorks: StageWork[] = [
   {
     id: 'maktub',
     title: 'MAKTUB',
-    subtitle: 'Obra escénica · Música original y partituras de movimiento',
+    subtitle: 'TEATRO, MÚSICA Y DANZA · Música original y partituras de movimiento',
     description:
       'Diecisiete piezas y casi una hora de música original, del Egipto de Isis, Osiris y Seth al camino de los pueblos rom. Texto de Jaime Palacios.',
     ctaLabel: 'Ver la obra',
