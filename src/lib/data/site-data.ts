@@ -14,6 +14,7 @@ export const siteConfig = {
 export const navLinks: NavLink[] = [
   { href: '/', label: 'Inicio' },
   { href: '/nosotros', label: 'Nosotros' },
+  { href: '/#artes-escenicas', label: 'Artes escénicas' },
   { href: '/musica', label: 'Música' },
   { href: '/libros', label: 'Libros' },
   { href: '/revista', label: 'Revista' },
