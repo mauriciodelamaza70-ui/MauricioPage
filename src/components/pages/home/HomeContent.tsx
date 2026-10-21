@@ -14,6 +14,7 @@ import { TheatreIcon } from "@/components/icons";
 import HistoryTimeline from "@/components/pages/home/HistoryTimeline";
 import ProductionsCarousel from "@/components/pages/home/ProductionsCarousel";
 import MusicCarousel from "@/components/pages/home/MusicCarousel";
+import PerformingArtsSection from "@/components/pages/home/PerformingArtsSection";
 
 export default function HomeContent() {
   const bioImage = PlaceHolderImages.find(p => p.id === 'biography-mauricio');
@@ -133,6 +134,8 @@ export default function HomeContent() {
             <ProductionsCarousel />
           </div>
         </section>
+
+        <PerformingArtsSection />
 
 
         <section id="servicios" className="py-24">
