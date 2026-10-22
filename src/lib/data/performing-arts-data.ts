@@ -11,12 +11,12 @@ export type StageWork = {
 export const stageWorks: StageWork[] = [
   {
     id: 'maktub',
-    title: 'MAKTUB',
+    title: 'DROM',
     subtitle: 'TEATRO, MÚSICA Y DANZA · Música original y partituras de movimiento',
     description:
-      'Diecisiete piezas y casi una hora de música original, del Egipto de Isis, Osiris y Seth al camino de los pueblos rom. Texto de Jaime Palacios.',
+      'Diecisiete piezas y casi una hora de música original que siguen el camino de los pueblos rom, de Asia Central y Egipto hasta Andalucía.',
     ctaLabel: 'Ver la obra',
-    url: 'https://maktub.mauriciodelamazabenignos.com',
+    url: 'https://drom.mauriciodelamazabenignos.com',
     image: {
       src: '/images/maktub-horus.png',
       alt: 'Estatuilla de bronce de Horus en forma de halcón con la doble corona, sobre fondo oscuro',
