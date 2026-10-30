@@ -13,6 +13,7 @@ import NarrativaRazonEssay from '@/components/pages/revista/NarrativaRazonEssay'
 import RiesgoArriesgarEssay from '@/components/pages/revista/RiesgoArriesgarEssay';
 import IaTrampaPerroEssay from '@/components/pages/revista/IaTrampaPerroEssay';
 import TeleologiaEssay from '@/components/pages/revista/TeleologiaEssay';
+import NiTantoSantoEssay from '@/components/pages/revista/NiTantoSantoEssay';
 
 /** Ensayos bilingües con selector de idioma que se renderizan con un componente propio. */
 const BILINGUAL_ESSAYS: Record<string, ComponentType> = {
@@ -22,6 +23,7 @@ const BILINGUAL_ESSAYS: Record<string, ComponentType> = {
   'el-riesgo-de-no-arriesgar': RiesgoArriesgarEssay,
   'la-ia-y-la-trampa-del-perro': IaTrampaPerroEssay,
   'teleologia-conciencia-y-sentido': TeleologiaEssay,
+  'ni-tanto-que-queme-al-santo': NiTantoSantoEssay,
 };
 
 type PageProps = {
