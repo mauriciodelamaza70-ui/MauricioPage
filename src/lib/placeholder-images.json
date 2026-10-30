@@ -1,6 +1,14 @@
 {
   "placeholderImages": [
     {
+      "id": "blog-ni-tanto-santo",
+      "description": "Fotografía que abre el ensayo «Ni tanto que queme al santo, ni tanto que no lo alumbre» (foto por Master Wen en Unsplash)",
+      "imageUrl": "/images/revista/ni-tanto-santo/foto-1.jpeg",
+      "imageHint": "renewable energy landscape",
+      "width": 484,
+      "height": 363
+    },
+    {
       "id": "blog-teleologia-friso",
       "description": "Friso sudarábigo en alabastro: un leopardo moteado ataca a un íbice de largos cuernos (siglo V a. C., Museo de Arte Walters)",
       "imageUrl": "/images/revista/teleologia/friso-leopardo-ibice.jpeg",

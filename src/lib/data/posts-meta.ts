@@ -3,6 +3,17 @@ import type { PostMeta } from '../types';
 // Metadata de posts SIN content. Importar esto (no el barrel) desde listados/home mantiene el HTML fuera de su bundle.
 export const postsMeta: PostMeta[] = [
   {
+    "id": "post-ni-tanto-que-queme-al-santo",
+    "slug": "ni-tanto-que-queme-al-santo",
+    "title": "Ni tanto que queme al santo, ni tanto que no lo alumbre",
+    "date": "30 de Octubre, 2026",
+    "excerpt": "De los combustibles fósiles a las energías renovables: nada justifica obstaculizar la transición, pero existe un deber moral de considerar sus impactos en la biodiversidad.",
+    "category": "Artículos",
+    "author": "Mauricio de la Maza-Benignos",
+    "imageId": "blog-ni-tanto-santo",
+    "imageFit": "contain"
+  },
+  {
     "id": "post-teleologia-conciencia-y-sentido",
     "slug": "teleologia-conciencia-y-sentido",
     "title": "Teleología, conciencia y sentido",
