@@ -9,7 +9,6 @@ export default function NosotrosPage() {
   const heroImage = PlaceHolderImages.find((p) => p.id === 'nosotros-hero');
   const bioIntroImage = PlaceHolderImages.find((p) => p.id === 'bio-intro');
   const scienceImage = PlaceHolderImages.find((p) => p.id === 'science-mauricio');
-  const scienceImage2 = PlaceHolderImages.find((p) => p.id === 'blog-honoris-causa-cover');
   const mauricioPortrait = PlaceHolderImages.find((p) => p.id === 'mauricio-portrait-science');
   const fishImage = PlaceHolderImages.find((p) => p.id === 'gallery-new-6');
   const colibriImage = PlaceHolderImages.find((p) => p.id === 'service-digital');
@@ -240,17 +239,6 @@ export default function NosotrosPage() {
                                             fill
                                             className="object-cover"
                                             data-ai-hint={fishImage.imageHint}
-                                        />
-                                    </div>
-                                )}
-                                {scienceImage2 && (
-                                    <div className="relative aspect-[3/4] rounded-xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
-                                        <Image
-                                            src={scienceImage2.imageUrl}
-                                            alt={scienceImage2.description}
-                                            fill
-                                            className="object-cover"
-                                            data-ai-hint={scienceImage2.imageHint}
                                         />
                                     </div>
                                 )}
