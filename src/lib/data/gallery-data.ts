@@ -27,7 +27,6 @@ export const videoGallery: Video[] = [
 ];
 
 export const achievements: Achievement[] = [
-  { year: 2021, title: 'Doctorado Honoris Causa', organization: 'Claustro Doctoral Iberoamericano' },
   { year: 2020, title: 'Premio a la Conservación', organization: 'Programa Internacional y Fronterizo del Departamento de Caza y Pesca de Arizona' },
   { year: 2015, title: 'Premio de Investigación UANL', organization: 'Universidad Autónoma de Nuevo León' },
   { year: 2014, title: 'Premio "Dr. José Álvarez del Villar"', organization: 'Sociedad Mexicana de Ictiología' },
@@ -42,7 +41,6 @@ export const timelineEvents: TimelineEvent[] = [
   { year: '2015', description: 'Gana el Premio de Investigación UANL en Ciencias Naturales.' },
   { year: '2019', description: 'Lidera la defensa de El Llano de la Soledad.' },
   { year: '2020', description: 'Recibe el Premio a la Conservación de AZGFD.' },
-  { year: '2021', description: 'Recibe el Doctorado Honoris Causa por su trayectoria.' },
   { year: '2022', description: 'Produce el documental "Ad memoriam rei perpetuam".' },
   { year: '2023', description: 'CEO del Wildlife Conservation Film Festival (WCFF)', linkText: 'Wildlife Conservation Film Festival (WCFF)', href: 'https://wcff.org/meet-the-team/' },
   ];
