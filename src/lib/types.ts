@@ -72,6 +72,10 @@ export type Post = {
   license?: { name: string; url: string };
   /** Referencia en formato "Cómo citar". */
   citation?: string;
+  /** Línea opcional de historial editorial, mostrada bajo la cita. */
+  history?: { es: string; en: string };
+  /** Título completo para `citation_title`; si no se define, se usa `title`. */
+  citationTitle?: string;
 };
 
 export type AcademicFields = Pick<
@@ -85,6 +89,8 @@ export type AcademicFields = Pick<
   | 'keywordsEn'
   | 'license'
   | 'citation'
+  | 'history'
+  | 'citationTitle'
 >;
 
 /** Metadata de un post sin el HTML pesado de `content`. Se usa en listados (revista, home). */

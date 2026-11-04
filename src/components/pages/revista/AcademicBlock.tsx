@@ -72,6 +72,11 @@ export function AcademicBlock({ data, lang }: { data?: AcademicFields; lang: Lan
         <div className="flex flex-col gap-1 text-sm">
           <span className="font-semibold text-foreground">{t.cite}:</span>
           <p className="break-words leading-relaxed text-muted-foreground">{data.citation}</p>
+          {data.history && (
+            <p className="mt-1 text-xs leading-relaxed text-muted-foreground">
+              {data.history[lang]}
+            </p>
+          )}
         </div>
       )}
 

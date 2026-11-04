@@ -68,7 +68,7 @@ function getAbsoluteImageUrl(imageUrl?: string): string {
 function getScholarMeta(post: Post, postUrl: string): Record<string, string> | undefined {
   if (!post.doi) return undefined;
   const meta: Record<string, string> = {
-    citation_title: post.title,
+    citation_title: post.citationTitle ?? post.title,
     citation_author: 'De la Maza-Benignos, Mauricio',
     citation_publication_date: toIsoDate(post.date).replaceAll('-', '/'),
     citation_doi: post.doi,
