@@ -61,7 +61,31 @@ export type Post = {
   /** Autor mostrado en el byline; si no se define, se usa "De la Maza Team". */
   author?: string;
   category: 'Artículos' | 'Colaboradores' | 'Entrevistas' | 'Noticias';
+  /** Campos académicos opcionales. Si hay `doi`, se muestra el bloque académico y los metadatos de Google Scholar. */
+  doi?: string;
+  zenodoUrl?: string;
+  pdfUrl?: string;
+  abstractEs?: string;
+  abstractEn?: string;
+  keywordsEs?: string[];
+  keywordsEn?: string[];
+  license?: { name: string; url: string };
+  /** Referencia en formato "Cómo citar". */
+  citation?: string;
 };
+
+export type AcademicFields = Pick<
+  Post,
+  | 'doi'
+  | 'zenodoUrl'
+  | 'pdfUrl'
+  | 'abstractEs'
+  | 'abstractEn'
+  | 'keywordsEs'
+  | 'keywordsEn'
+  | 'license'
+  | 'citation'
+>;
 
 /** Metadata de un post sin el HTML pesado de `content`. Se usa en listados (revista, home). */
 export type PostMeta = Omit<Post, 'content'>;
