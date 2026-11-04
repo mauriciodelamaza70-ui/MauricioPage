@@ -4,14 +4,18 @@ import {
   laIaTrampaPerroSubtitle,
 } from '@/lib/la-ia-y-la-trampa-del-perro';
 import { LangArticle, type Lang } from '@/components/pages/lang-article';
+import { AcademicBlock } from '@/components/pages/revista/AcademicBlock';
+import type { AcademicFields } from '@/lib/types';
 
-function IaTrampaPerroBody({ lang }: { lang: Lang }) {
+function IaTrampaPerroBody({ lang, academic }: { lang: Lang; academic?: AcademicFields }) {
   return (
     <>
       {/* Subtítulo del ensayo */}
       <p className="mt-10 text-center font-serif text-xl italic text-muted-foreground text-balance">
         {laIaTrampaPerroSubtitle[lang]}
       </p>
+
+      <AcademicBlock data={academic} lang={lang} />
 
       {/* Cuerpo del ensayo */}
       <article className="mt-10 space-y-6">
@@ -66,12 +70,12 @@ function IaTrampaPerroBody({ lang }: { lang: Lang }) {
   );
 }
 
-export default function IaTrampaPerroEssay() {
+export default function IaTrampaPerroEssay({ academic }: { academic?: AcademicFields }) {
   return (
     <div className="max-w-3xl mx-auto">
       <LangArticle
-        es={<IaTrampaPerroBody lang="es" />}
-        en={<IaTrampaPerroBody lang="en" />}
+        es={<IaTrampaPerroBody lang="es" academic={academic} />}
+        en={<IaTrampaPerroBody lang="en" academic={academic} />}
       />
     </div>
   );
