@@ -80,4 +80,48 @@ export const postsAcademic: Record<string, AcademicFields> = {
     abstractEn:
       'Written as an inner dialogue, this essay asks whether someone who does not believe in a higher cause can develop a meaning of their own and sustain a moral compass without a transcendent authority. It distinguishes teleonomy, the functional orientation shared by all living beings, from the classical natural teleology of Aristotle and Aquinas, and argues that consciousness does not reveal an ultimate purpose but imposes the burden of setting one. Against both finding a given meaning and creating an arbitrary one, it proposes developing meaning from a real substrate —biology, memory, environment and bonds— which makes it fallible and open to examination. It defines morality as the norm that withstands universalization, universalizable in its criterion but situated in its application, and defends autonomous morality as the highest form of ethics: conscience extending in-group empathy to the stranger. The essay acknowledges the fragility of a morality without external backing and the exclusion of the non-believer from communities bound by a shared story; answers objections from Anscombe and Nietzsche, using the ozone layer and climate morality as cases of norms born from science and conscience; and concludes that belief and unbelief are both wagers: one is consoled but asleep, the other screwed but awake.',
   },
+  'ni-tanto-que-queme-al-santo': {
+    doi: '10.5281/zenodo.23963803',
+    zenodoUrl: 'https://doi.org/10.5281/zenodo.23963803',
+    pdfUrl:
+      'https://zenodo.org/records/23963803/files/Neither_Burn_the_Saint_Ni_tanto_que_queme_al_santo.pdf?download=1',
+    license: {
+      name: 'CC BY-NC-ND 4.0',
+      url: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
+    },
+    citationTitle:
+      'Ni tanto que queme al santo, ni tanto que no lo alumbre: de los combustibles fósiles a las energías renovables',
+    citation:
+      'De la Maza-Benignos, M. (2026). Neither Burn the Saint nor Leave Him in the Dark / Ni tanto que queme al santo, ni tanto que no lo alumbre (3.ª rev. / 3rd rev.) [Ensayo / Essay]. https://doi.org/10.5281/zenodo.23963803',
+    history: {
+      es: 'Escrito el 24 de mayo de 2020; publicado en línea en mayo de 2020 y posteriormente censurado y retirado; revisado en enero de 2022 y publicado en HOMINIS, año 2, núm. 7, 6 de marzo de 2022, pp. 12–13; tercera revisión, 2026.',
+      en: 'Written 24 May 2020; first published online in May 2020 and subsequently censored and taken down; revised in January 2022 and published in HOMINIS, year 2, no. 7, 6 March 2022, pp. 12–13; third revision, 2026.',
+    },
+    keywordsEs: [
+      'transición energética',
+      'energías renovables',
+      'biodiversidad',
+      'cambio climático',
+      'ética ambiental',
+      'energía eólica',
+      'energía solar',
+      'política energética',
+      'México',
+    ],
+    keywordsEn: [
+      'energy transition',
+      'renewable energy',
+      'biodiversity',
+      'climate change',
+      'environmental ethics',
+      'wind energy',
+      'solar energy',
+      'energy policy',
+      'Mexico',
+    ],
+    abstractEs:
+      "Escrito en mayo de 2020 a raíz de las medidas de política energética emitidas por el gobierno de México durante la emergencia por COVID-19, y revisado en 2022, el ensayo sostiene que nada justifica obstaculizar la transición de los combustibles fósiles hacia las energías renovables, pero que existe un deber moral, como obligación de la razón sobre la voluntad, de considerar sus impactos en la biodiversidad. Con base en los informes del IPCC y en cifras oficiales de la época, examina los argumentos ofrecidos para privilegiar la generación con combustóleo sobre las energías limpias y los caracteriza como falacias argumentativas. Critica también la visión positivista que acepta la pérdida de biodiversidad como daño colateral del progreso, y señala los efectos de parques eólicos mal planeados sobre murciélagos y aves migratorias, de las grandes extensiones solares sobre la conectividad ecosistémica y de las hidroeléctricas sobre las especies acuáticas. Con referencia a la modernidad como proyecto inacabado de Habermas, a Laudato si' y a la ética de la tierra, propone ubicar la infraestructura renovable en ciudades, techos y zonas degradadas, conforme a los criterios de costo de oportunidad y adicionalidad, y pide políticas que incorporen la biodiversidad como variable de la transición energética. Se reproduce como documento histórico; las cifras y el marco normativo no se han actualizado.",
+    abstractEn:
+      "Written in May 2020 in response to the Mexican government's energy-policy measures issued during the COVID-19 emergency, and revised in 2022, this essay argues that nothing justifies obstructing the transition from fossil fuels to renewable energy, but that there is a moral duty, as an obligation of reason over will, to consider its impacts on biodiversity. Drawing on IPCC assessments and official energy figures of the time, it examines the arguments offered for favoring fuel-oil generation over clean energy and characterizes them as argumentative fallacies. It also criticizes the positivist view that accepts biodiversity loss as collateral damage of progress, pointing to the effects of poorly planned wind farms on bats and migratory birds, of large solar installations on ecosystem connectivity, and of hydropower on aquatic species. Invoking Habermas's notion of modernity as an unfinished project, Laudato si' and the land ethic, it proposes siting renewable infrastructure in cities, rooftops and degraded areas, guided by opportunity cost and additionality, and calls for policies that incorporate biodiversity as a variable in the energy transition. It is reproduced as a historical document; figures and the regulatory framework have not been updated.",
+  },
 };

@@ -1,13 +1,17 @@
 import Image from 'next/image';
 import { santoBody, santoSubtitle } from '@/lib/ni-tanto-que-queme-al-santo';
 import { LangArticle, type Lang } from '@/components/pages/lang-article';
+import { AcademicBlock } from '@/components/pages/revista/AcademicBlock';
+import type { AcademicFields } from '@/lib/types';
 
-function SantoBody({ lang }: { lang: Lang }) {
+function SantoBody({ lang, academic }: { lang: Lang; academic?: AcademicFields }) {
   return (
     <>
       <p className="mt-10 text-center font-serif text-xl italic text-muted-foreground text-balance">
         {santoSubtitle[lang]}
       </p>
+
+      <AcademicBlock data={academic} lang={lang} />
 
       <article className="mt-10 space-y-6">
         {santoBody.map((block, i) => {
@@ -74,10 +78,13 @@ function SantoBody({ lang }: { lang: Lang }) {
   );
 }
 
-export default function NiTantoSantoEssay() {
+export default function NiTantoSantoEssay({ academic }: { academic?: AcademicFields }) {
   return (
     <div className="max-w-3xl mx-auto">
-      <LangArticle es={<SantoBody lang="es" />} en={<SantoBody lang="en" />} />
+      <LangArticle
+        es={<SantoBody lang="es" academic={academic} />}
+        en={<SantoBody lang="en" academic={academic} />}
+      />
     </div>
   );
 }
