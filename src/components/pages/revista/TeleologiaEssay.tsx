@@ -1,13 +1,17 @@
 import Image from 'next/image';
 import { teleologiaBody, teleologiaSubtitle } from '@/lib/teleologia-conciencia-y-sentido';
 import { LangArticle, type Lang } from '@/components/pages/lang-article';
+import { AcademicBlock } from '@/components/pages/revista/AcademicBlock';
+import type { AcademicFields } from '@/lib/types';
 
-function TeleologiaBody({ lang }: { lang: Lang }) {
+function TeleologiaBody({ lang, academic }: { lang: Lang; academic?: AcademicFields }) {
   return (
     <>
       <p className="mt-10 text-center font-serif text-xl italic text-muted-foreground text-balance">
         {teleologiaSubtitle[lang]}
       </p>
+
+      <AcademicBlock data={academic} lang={lang} />
 
       <article className="mt-10 space-y-6">
         {teleologiaBody.map((block, i) => {
@@ -72,10 +76,13 @@ function TeleologiaBody({ lang }: { lang: Lang }) {
   );
 }
 
-export default function TeleologiaEssay() {
+export default function TeleologiaEssay({ academic }: { academic?: AcademicFields }) {
   return (
     <div className="max-w-3xl mx-auto">
-      <LangArticle es={<TeleologiaBody lang="es" />} en={<TeleologiaBody lang="en" />} />
+      <LangArticle
+        es={<TeleologiaBody lang="es" academic={academic} />}
+        en={<TeleologiaBody lang="en" academic={academic} />}
+      />
     </div>
   );
 }
