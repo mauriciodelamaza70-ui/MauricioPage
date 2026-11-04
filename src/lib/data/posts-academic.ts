@@ -124,4 +124,44 @@ export const postsAcademic: Record<string, AcademicFields> = {
     abstractEn:
       "Written in May 2020 in response to the Mexican government's energy-policy measures issued during the COVID-19 emergency, and revised in 2022, this essay argues that nothing justifies obstructing the transition from fossil fuels to renewable energy, but that there is a moral duty, as an obligation of reason over will, to consider its impacts on biodiversity. Drawing on IPCC assessments and official energy figures of the time, it examines the arguments offered for favoring fuel-oil generation over clean energy and characterizes them as argumentative fallacies. It also criticizes the positivist view that accepts biodiversity loss as collateral damage of progress, pointing to the effects of poorly planned wind farms on bats and migratory birds, of large solar installations on ecosystem connectivity, and of hydropower on aquatic species. Invoking Habermas's notion of modernity as an unfinished project, Laudato si' and the land ethic, it proposes siting renewable infrastructure in cities, rooftops and degraded areas, guided by opportunity cost and additionality, and calls for policies that incorporate biodiversity as a variable in the energy transition. It is reproduced as a historical document; figures and the regulatory framework have not been updated.",
   },
+  'el-mundo-de-los-entes-eco': {
+    doi: '10.5281/zenodo.23964591',
+    zenodoUrl: 'https://doi.org/10.5281/zenodo.23964591',
+    pdfUrl:
+      'https://zenodo.org/records/23964591/files/The_World_of_Echo-Beings_El_mundo_de_los_entes-eco.pdf?download=1',
+    license: {
+      name: 'CC BY-NC-ND 4.0',
+      url: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
+    },
+    citation:
+      'De la Maza-Benignos, M. (2026). The World of Echo-Beings / El mundo de los entes-eco [Ensayo / Essay]. https://doi.org/10.5281/zenodo.23964591',
+    keywordsEs: [
+      'autocensura',
+      'linchamiento social',
+      'cultura de la cancelación',
+      'ente-eco',
+      'posmodernidad',
+      'Lyotard',
+      'puritanismo',
+      'frontera moral',
+      'democracia liberal',
+      'autoritarismo',
+    ],
+    keywordsEn: [
+      'self-censorship',
+      'public shaming',
+      'cancel culture',
+      'echo-being',
+      'postmodernism',
+      'Lyotard',
+      'puritanism',
+      'moral boundary',
+      'liberal democracy',
+      'authoritarianism',
+    ],
+    abstractEs:
+      'A partir de patrones observados entre generaciones, el ensayo pregunta qué tipo de peligro produce cautela sin guerra ni teología detrás. Descarta las comparaciones habituales con la Generación Silenciosa y con los victorianos y rastrea, en los casos de Wilde, Galileo, la recriminalización soviética de la homosexualidad, la Revolución Cultural y los jemeres rojos, un mecanismo recurrente: la necesidad social de una frontera visible entre lo puro y lo impuro. Lo propio del presente no es el juicio público, que es antiguo, sino la pérdida de toda institución capaz de cerrarlo: una vigilancia sin territorio, un juez sin nombre y un régimen sin cierre. En esas condiciones, la autocensura se vuelve una estrategia racional, un cálculo que se repite en los jóvenes, en los modelos de lenguaje, en los árbitros de revistas y en los debates sobre genética de poblaciones humanas. El ensayo distingue entre objetar un método y negar una verdad, y sitúa el vacío que ocuparon las plataformas en el diagnóstico posmoderno de Lyotard, Foucault y Derrida, cuyas reconstrucciones —Rorty, Mouffe y Laclau, Habermas— nunca alcanzaron la misma escala cultural. Llama al resultado ente-eco: una forma sin posición que solo amplifica lo que resuena más fuerte, y que favorece al autoritarismo sobre la democracia deliberativa. Cierra con una posición personal declarada como tal: que es preferible perder jugando, y que el ensayo se escribe para que exista el lenguaje cuando alguien decida salir del eco.',
+    abstractEn:
+      "Starting from patterns observed across generations, this essay asks what kind of danger produces caution without war or theology behind it. It sets aside the usual comparisons with the Silent Generation and the Victorians and traces, through the cases of Wilde, Galileo, the Soviet recriminalization of homosexuality, the Cultural Revolution and the Khmer Rouge, a recurring mechanism: a society's need for a visible boundary between the pure and the impure. What distinguishes the present is not the public trial, which is ancient, but the loss of any institution able to close it: surveillance without territory, a judge with no name and a regime with no closure. Under those conditions, self-censorship becomes a rational strategy, a calculation that recurs among young people, language models, journal referees and debates on human population genetics. The essay distinguishes objecting to a method from denying a truth, and traces the vacancy that the platforms came to occupy to the postmodern diagnosis of Lyotard, Foucault and Derrida, whose reconstructions by Rorty, Mouffe and Laclau, and Habermas never reached the same cultural scale. It names the result the echo-being: a form without position that only amplifies whatever resonates loudest, and that favors authoritarianism over deliberative democracy. It closes with a declared personal position: that it is better to lose while playing, and that the essay is written so that the language exists when someone decides to step outside the echo.",
+  },
 };
