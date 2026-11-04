@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import type { ComponentType } from 'react';
+import { Fragment, type ComponentType } from 'react';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -15,6 +15,10 @@ import RiesgoArriesgarEssay from '@/components/pages/revista/RiesgoArriesgarEssa
 import IaTrampaPerroEssay from '@/components/pages/revista/IaTrampaPerroEssay';
 import TeleologiaEssay from '@/components/pages/revista/TeleologiaEssay';
 import NiTantoSantoEssay from '@/components/pages/revista/NiTantoSantoEssay';
+import { AcademicBlock } from '@/components/pages/revista/AcademicBlock';
+
+/** En ensayos HTML, marca dónde va el bloque académico: el primero en español, el segundo en inglés. */
+const ACADEMIC_MARKER = '<!--academic-->';
 
 /** Ensayos bilingües con selector de idioma que se renderizan con un componente propio. */
 const BILINGUAL_ESSAYS: Record<string, ComponentType<{ academic?: AcademicFields }>> = {
@@ -222,7 +226,22 @@ export default async function PostPage({ params }: PageProps) {
 
       <article className="py-24">
         <div className="container mx-auto px-4">
-            {BilingualEssay ? <BilingualEssay academic={post.doi ? post : undefined} /> : <PostContent html={post.content} />}
+            {BilingualEssay ? (
+              <BilingualEssay academic={post.doi ? post : undefined} />
+            ) : post.doi && post.content.includes(ACADEMIC_MARKER) ? (
+              post.content.split(ACADEMIC_MARKER).map((html, i) => (
+                <Fragment key={i}>
+                  {i > 0 && (
+                    <div className="max-w-4xl mx-auto">
+                      <AcademicBlock data={post} lang={i === 1 ? 'es' : 'en'} />
+                    </div>
+                  )}
+                  <PostContent html={html} />
+                </Fragment>
+              ))
+            ) : (
+              <PostContent html={post.content} />
+            )}
 
             <div className="max-w-4xl mx-auto mt-16 border-t pt-8">
               <div className="flex items-center justify-between">
