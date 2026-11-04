@@ -10,6 +10,9 @@ const LABELS = {
     pdf: 'Descargar PDF',
     zenodo: 'Ver en Zenodo',
     license: 'Licencia',
+    replyBefore: 'Las réplicas razonadas son bienvenidas: escribe a ',
+    replyAfter: '. Las que se publiquen formalmente se enlazarán a este ensayo.',
+    replySubject: 'Réplica',
   },
   en: {
     abstract: 'Abstract',
@@ -18,8 +21,23 @@ const LABELS = {
     pdf: 'Download PDF',
     zenodo: 'View on Zenodo',
     license: 'License',
+    replyBefore: 'Reasoned replies are welcome: write to ',
+    replyAfter: '. Those published formally will be linked to this essay.',
+    replySubject: 'Reply',
   },
 } as const;
+
+const REPLY_EMAIL = 'mauriciodelamaza70@gmail.com';
+
+/**
+ * Título del ensayo en el idioma activo, tomado de la cita
+ * ("Autor (año). Title EN / Título ES [Tipo]…"); si no se puede leer, usa `citationTitle`.
+ */
+function essayTitle(data: AcademicFields, lang: Lang): string {
+  const match = data.citation?.match(/\)\.\s(.+?)\s\/\s(.+?)\s[[(]/);
+  if (match) return lang === 'en' ? match[1] : match[2];
+  return data.citationTitle ?? '';
+}
 
 /** Recuadro académico (resumen, palabras clave, DOI, cita, PDF, licencia). No se renderiza sin DOI. */
 export function AcademicBlock({ data, lang }: { data?: AcademicFields; lang: Lang }) {
@@ -116,6 +134,19 @@ export function AcademicBlock({ data, lang }: { data?: AcademicFields; lang: Lan
           </a>
         </p>
       )}
+
+      <p className="text-xs text-muted-foreground">
+        {t.replyBefore}
+        <a
+          href={`mailto:${REPLY_EMAIL}?subject=${encodeURIComponent(
+            `${t.replySubject}: ${essayTitle(data, lang)}`.trim(),
+          )}`}
+          className="underline underline-offset-4 hover:text-foreground"
+        >
+          {REPLY_EMAIL}
+        </a>
+        {t.replyAfter}
+      </p>
     </aside>
   );
 }
