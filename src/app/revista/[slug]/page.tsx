@@ -81,7 +81,8 @@ function getScholarMeta(post: Post, postUrl: string): Record<string, string> | u
     citation_publisher: 'Zenodo',
     'DC.identifier': `doi:${post.doi}`,
   };
-  if (post.pdfUrl) meta.citation_pdf_url = post.pdfUrl.split('?')[0];
+  if (post.localPdfUrl) meta.citation_pdf_url = `${siteConfig.url}${post.localPdfUrl}`;
+  else if (post.pdfUrl) meta.citation_pdf_url = post.pdfUrl.split('?')[0];
   if (post.keywordsEs?.length) meta.citation_keywords = post.keywordsEs.join('; ');
   if (post.license) meta['DC.rights'] = post.license.name;
   return meta;

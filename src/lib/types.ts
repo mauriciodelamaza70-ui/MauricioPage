@@ -65,6 +65,8 @@ export type Post = {
   doi?: string;
   zenodoUrl?: string;
   pdfUrl?: string;
+  /** Copia del PDF alojada en el sitio (ruta bajo /pdf/); Google Scholar no indexa Zenodo. */
+  localPdfUrl?: string;
   abstractEs?: string;
   abstractEn?: string;
   keywordsEs?: string[];
@@ -83,6 +85,7 @@ export type AcademicFields = Pick<
   | 'doi'
   | 'zenodoUrl'
   | 'pdfUrl'
+  | 'localPdfUrl'
   | 'abstractEs'
   | 'abstractEn'
   | 'keywordsEs'

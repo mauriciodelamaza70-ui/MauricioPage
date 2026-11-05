@@ -99,9 +99,9 @@ export function AcademicBlock({ data, lang }: { data?: AcademicFields; lang: Lan
       )}
 
       <div className="flex flex-col gap-3 sm:flex-row">
-        {data.pdfUrl && (
+        {(data.localPdfUrl ?? data.pdfUrl) && (
           <a
-            href={data.pdfUrl}
+            href={data.localPdfUrl ?? data.pdfUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-2 rounded-full bg-accent px-5 py-2 text-sm font-medium text-accent-foreground transition-opacity hover:opacity-90"
