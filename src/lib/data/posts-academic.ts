@@ -7,6 +7,7 @@ export const postsAcademic: Record<string, AcademicFields> = {
     zenodoUrl: 'https://doi.org/10.5281/zenodo.23941449',
     pdfUrl:
       'https://zenodo.org/records/23941449/files/AI_and_the_Dog_Trap_La_IA_y_la_trampa_del_perro.pdf?download=1',
+    localPdfUrl: '/pdf/la-ia-y-la-trampa-del-perro.pdf',
     license: {
       name: 'CC BY-NC-ND 4.0',
       url: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
@@ -45,6 +46,7 @@ export const postsAcademic: Record<string, AcademicFields> = {
     zenodoUrl: 'https://doi.org/10.5281/zenodo.23962969',
     pdfUrl:
       'https://zenodo.org/records/23962969/files/Teleology_Consciousness_and_Meaning_Teleologia_conciencia_y_sentido.pdf?download=1',
+    localPdfUrl: '/pdf/teleologia-conciencia-y-sentido.pdf',
     license: {
       name: 'CC BY-NC-ND 4.0',
       url: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
@@ -85,6 +87,7 @@ export const postsAcademic: Record<string, AcademicFields> = {
     zenodoUrl: 'https://doi.org/10.5281/zenodo.23963803',
     pdfUrl:
       'https://zenodo.org/records/23963803/files/Neither_Burn_the_Saint_Ni_tanto_que_queme_al_santo.pdf?download=1',
+    localPdfUrl: '/pdf/ni-tanto-que-queme-al-santo.pdf',
     license: {
       name: 'CC BY-NC-ND 4.0',
       url: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
@@ -129,6 +132,7 @@ export const postsAcademic: Record<string, AcademicFields> = {
     zenodoUrl: 'https://doi.org/10.5281/zenodo.23964591',
     pdfUrl:
       'https://zenodo.org/records/23964591/files/The_World_of_Echo-Beings_El_mundo_de_los_entes-eco.pdf?download=1',
+    localPdfUrl: '/pdf/el-mundo-de-los-entes-eco.pdf',
     license: {
       name: 'CC BY-NC-ND 4.0',
       url: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
@@ -169,6 +173,7 @@ export const postsAcademic: Record<string, AcademicFields> = {
     zenodoUrl: 'https://doi.org/10.5281/zenodo.23965534',
     pdfUrl:
       'https://zenodo.org/records/23965534/files/Of_the_Swarm_and_Thirst_Del_enjambre_y_la_sed.pdf?download=1',
+    localPdfUrl: '/pdf/del-enjambre-y-la-sed.pdf',
     license: {
       name: 'CC BY-NC-ND 4.0',
       url: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
