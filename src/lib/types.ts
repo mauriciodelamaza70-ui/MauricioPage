@@ -164,6 +164,7 @@ export type FilmCredit = { roleEs: string; roleEn: string; value: string };
 export type Film = Movie & {
   slug: string;
   footerName: string;
+  titleEn?: string;
   genreEn?: string;
   formatEn?: string;
   synopsisEn?: string;

@@ -57,6 +57,51 @@ const documentaries: Film[] = [
     youtubeId: 'djeW8vmA_L4',
   },
   {
+    id: 'el-ciudadano-2021',
+    slug: 'el-ciudadano',
+    footerName: 'El ciudadano',
+    title: 'Apocalipsis de Esdras (o para fines prácticos), El ciudadano',
+    titleEn: 'Apocalypse of Ezra (or, for All Practical Purposes), the Citizen',
+    year: '2021',
+    genre: 'Cortometraje de ficción • Noir urbano',
+    genreEn: 'Short fiction film • Urban noir',
+    format: '30 min',
+    formatEn: '30 min',
+    synopsis:
+      'Un ciudadano desprevenido y no muy escrupuloso acepta verse con su joven amante por la noche. De camino a la cita, después de asistir a un espectáculo de danza contemporánea en el centro de la ciudad, se da cuenta de que olvidó dónde estacionó su auto. Mientras lo busca, se aleja de la zona segura de la ciudad. Muy pronto, la oscuridad de la noche lo envuelve y la ciudad empieza a transformarse, a medida que el distraído ciudadano se adentra en la zona de tolerancia. Pronto descubre que le robaron el auto y queda frente a frente con el ladrón.',
+    synopsisEn:
+      'An unsuspecting and not-very-scrupulous citizen agrees to meet his young lover in the evening. On his way to the date, after attending a contemporary dance performance in the city center, he realizes that he forgot where he had parked his car. As he searches for it, he begins to move away from the safe area of the city. Very soon, the darkness of the night envelops him, and the city begins to transform, as the absent-minded citizen enters the zone of tolerance. Soon, he realizes that his car was stolen and comes face-to-face with the thief.',
+    credits: [
+      {
+        roleEs: 'Dirección, guion, producción, fotografía y edición',
+        roleEn: 'Directed, written, produced, photographed and edited by',
+        value: 'Mauricio De la Maza-Benignos',
+      },
+      { roleEs: 'Producción', roleEn: 'Production', value: 'De la Maza Consulting and Films' },
+      {
+        roleEs: 'Reparto',
+        roleEn: 'Cast',
+        value: 'Mauricio De la Maza-Benignos (El ciudadano), Jennifer López (Jefa del narco)',
+      },
+    ],
+    awards: '',
+    festivalsHeadingEs: 'Reconocimientos y premios',
+    festivalsHeadingEn: 'Awards and Recognition',
+    festivalsEs: [
+      'Award of Merit, categorías Experimental y Art-house Film, Depth of Field International Film Festival Competition, EE. UU. (2023)',
+      'Ganador, Best Shorts Competition, La Jolla, California, EE. UU. (2021)',
+    ],
+    festivalsEn: [
+      'Award of Merit, Experimental and Art-house Film categories, Depth of Field International Film Festival Competition, USA (2023)',
+      'Winner, Best Shorts Competition, La Jolla, California, USA (2021)',
+    ],
+    streaming: '',
+    website: '',
+    imdb: '',
+    poster: '',
+    youtubeId: 'UQS_1eDJoPE',
+  },
+  {
     id: 'cuatro-cienegas-2021',
     slug: 'cuatro-cienegas-tragedia-de-los-comunes',
     footerName: 'Cuatro Ciénegas y la "Tragedia de los comunes"',
@@ -137,4 +182,18 @@ const documentaries: Film[] = [
   },
 ];
 
-export const filmography: Film[] = [...features, ...documentaries];
+const displayOrder = [
+  'el-gran-makhaira',
+  'el-zapato',
+  'cora',
+  'el-bonito',
+  'dialogos-de-la-muerte',
+  'el-ciudadano',
+  'cuatro-cienegas-tragedia-de-los-comunes',
+  'la-voz-del-silencio',
+  'ad-memoriam-rei-perpetuam',
+];
+
+export const filmography: Film[] = [...features, ...documentaries].sort(
+  (a, b) => displayOrder.indexOf(a.slug) - displayOrder.indexOf(b.slug),
+);
