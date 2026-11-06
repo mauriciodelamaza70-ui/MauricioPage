@@ -10,6 +10,13 @@ const featureSlugs: Record<string, { slug: string; footerName: string }> = {
 };
 
 const featureOverrides: Record<string, Partial<Film>> = {
+  'dialogos-2023': {
+    review: {
+      href: '/artes-escenicas/teatro-araiza#dialogo-sacerdote-moribundo',
+      labelEs: 'Ver también: Diálogo entre un sacerdote y un moribundo (teatro)',
+      labelEn: 'See also: Dialogue Between a Priest and a Dying Man (theater)',
+    },
+  },
   'zapato-2025': {
     synopsis:
       'Un grupo de amigos, con marcadas diferencias entre sí, se reúne para convivir durante varios días. Sus planes se frustran cuando un elemento externo desata el rechazo a lo diferente, llevado al extremo.',
