@@ -12,6 +12,26 @@ import { Input } from "@/components/ui/input";
 import { Search, ArrowRight, Users, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { postsAcademic } from "@/lib/data/posts-academic";
+
+const normalize = (text: string) =>
+    text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
+const searchIndex = new Map(
+    postsMeta.map(post => {
+        const academic = postsAcademic[post.slug];
+        const fields = [
+            post.title,
+            post.excerpt,
+            post.author,
+            academic?.abstractEs,
+            academic?.abstractEn,
+            ...(academic?.keywordsEs ?? []),
+            ...(academic?.keywordsEn ?? []),
+        ];
+        return [post.slug, normalize(fields.filter(Boolean).join(" "))];
+    }),
+);
 
 export default function RevistaPage() {
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -20,10 +40,10 @@ export default function RevistaPage() {
     const categories = ['Noticias', 'Artículos', 'Entrevistas'];
 
     const filteredPosts = useMemo(() => {
+        const query = normalize(searchQuery.trim());
         return postsMeta.filter(post => {
             const matchesCategory = selectedCategory ? post.category === selectedCategory : true;
-            const matchesSearch = post.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-                                 post.excerpt.toLowerCase().includes(searchQuery.toLowerCase());
+            const matchesSearch = query === '' || searchIndex.get(post.slug)?.includes(query);
             return matchesCategory && matchesSearch;
         });
     }, [selectedCategory, searchQuery]);
@@ -44,6 +64,19 @@ export default function RevistaPage() {
                 <div className="grid lg:grid-cols-12 gap-12">
                     {/* Main content - posts */}
                     <div className="lg:col-span-8">
+                        <div className="relative mb-8">
+                            <label htmlFor="revista-search" className="sr-only">Buscar en la revista</label>
+                            <Input
+                                id="revista-search"
+                                type="search"
+                                placeholder="Buscar en la revista…"
+                                className="h-12 pr-10 bg-background text-base"
+                                value={searchQuery}
+                                onChange={(e) => setSearchQuery(e.target.value)}
+                                suppressHydrationWarning
+                            />
+                            <Search aria-hidden="true" className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+                        </div>
                         <div className="mb-8 flex flex-wrap items-center justify-between gap-4">
                             <h2 className="font-headline text-3xl font-bold">
                                 {selectedCategory ? `Categoría: ${selectedCategory}` : 'Todas las publicaciones'}
@@ -99,7 +132,7 @@ export default function RevistaPage() {
                             </div>
                         ) : (
                             <div className="text-center py-20 bg-secondary rounded-xl">
-                                <p className="text-xl text-muted-foreground">No se encontraron artículos que coincidan con tu búsqueda.</p>
+                                <p className="text-xl text-muted-foreground">No se encontraron publicaciones</p>
                                 <Button 
                                     variant="outline" 
                                     className="mt-4 border-accent text-accent"
@@ -116,21 +149,6 @@ export default function RevistaPage() {
 
                     {/* Sidebar */}
                     <aside className="lg:col-span-4 space-y-12">
-                        {/* Search */}
-                        <div className="p-8 bg-secondary rounded-xl border border-border/50">
-                            <h3 className="font-headline text-2xl font-bold mb-6">Explorar</h3>
-                            <div className="relative">
-                                <Input 
-                                    placeholder="Buscar artículos..." 
-                                    className="pr-10 bg-background" 
-                                    value={searchQuery}
-                                    onChange={(e) => setSearchQuery(e.target.value)}
-                                    suppressHydrationWarning
-                                />
-                                <Search className="absolute right-3 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" />
-                            </div>
-                        </div>
-
                          {/* Collaborators Link */}
                         <div className="p-8 bg-secondary rounded-xl border border-border/50">
                             <h3 className="font-headline text-2xl font-bold mb-6">Colaboradores</h3>
