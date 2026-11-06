@@ -19,18 +19,32 @@ const professionalGroups = [
 function FooterLinkList({ links }: { links: SocialLink[] }) {
   return (
     <ul className="space-y-3">
-      {links.map((link) => (
-        <li key={link.name}>
-          <a
-            href={link.href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm hover:text-accent transition-colors"
-          >
-            {link.name}
-          </a>
-        </li>
-      ))}
+      {links.map((link) => {
+        const isOrcid = link.name === 'ORCID';
+        return (
+          <li key={link.name}>
+            <a
+              href={link.href}
+              target="_blank"
+              rel={isOrcid ? 'me noopener noreferrer' : 'noopener noreferrer'}
+              className="text-sm hover:text-accent transition-colors"
+            >
+              {isOrcid && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+                  alt="ORCID iD icon"
+                  width={16}
+                  height={16}
+                  className="inline-block mr-1 align-[-0.125em]"
+                  style={{ width: '1em', height: '1em' }}
+                />
+              )}
+              {link.name}
+            </a>
+          </li>
+        );
+      })}
     </ul>
   );
 }
