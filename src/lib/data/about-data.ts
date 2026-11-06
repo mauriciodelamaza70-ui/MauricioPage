@@ -67,7 +67,7 @@ export const featuredMovies: Movie[] = [
   },
   {
     id: 'dialogos-2023',
-    title: 'DIALOGOS DE LA MUERTE',
+    title: 'DIÁLOGOS DE LA MUERTE',
     year: '2023',
     subtitle: 'Basada en obra del Marqués de Sade',
     genre: 'Drama filosófico',

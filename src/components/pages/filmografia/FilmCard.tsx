@@ -39,6 +39,8 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
   const note = lang === "en" ? film.noteEn : film.noteEs;
   const yearNote = lang === "en" ? film.yearNoteEn : film.yearNoteEs;
   const isDocumentary = Boolean(film.youtubeId);
+  const title = lang === "en" && film.titleEn ? film.titleEn : film.title;
+  const hasAwards = Boolean(festivals?.length) || Boolean(film.awards);
 
   return (
     <article id={film.slug} className="grid lg:grid-cols-12 gap-12 items-center scroll-mt-28">
@@ -50,7 +52,7 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
         {isDocumentary ? (
           <iframe
             src={`https://www.youtube-nocookie.com/embed/${film.youtubeId}`}
-            title={film.title}
+            title={title}
             loading="lazy"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -77,7 +79,7 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
       <div className="lg:col-span-7 space-y-8">
         <div>
           <h3 className="font-headline text-4xl font-bold text-foreground leading-tight mb-2 text-balance">
-            {film.title} ({film.year})
+            {title} ({film.year})
           </h3>
           <p className="text-accent font-bold uppercase tracking-widest text-sm mb-2">
             {[genre, format].filter(Boolean).join(" • ")}
@@ -112,6 +114,7 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
           </div>
         )}
 
+        {hasAwards && (
         <div className="bg-secondary p-6 rounded-xl border border-border">
           <div className="flex items-center gap-3 mb-4">
             <Award className="h-6 w-6 text-accent" />
@@ -130,6 +133,7 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
             <p className="text-muted-foreground leading-relaxed italic">{film.awards}</p>
           )}
         </div>
+        )}
 
         {isDocumentary ? (
           <div>
@@ -158,13 +162,15 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
           </div>
         ) : (
           <div className="grid sm:grid-cols-2 gap-8">
-            <div>
-              <h4 className="font-bold mb-3 flex items-center gap-2">
-                <Globe className="h-5 w-5 text-accent" />
-                {t.whereToWatch}
-              </h4>
-              <p className="text-muted-foreground">{film.streaming}</p>
-            </div>
+            {film.streaming && (
+              <div>
+                <h4 className="font-bold mb-3 flex items-center gap-2">
+                  <Globe className="h-5 w-5 text-accent" />
+                  {t.whereToWatch}
+                </h4>
+                <p className="text-muted-foreground">{film.streaming}</p>
+              </div>
+            )}
             <div>
               <h4 className="font-bold mb-3 flex items-center gap-2">
                 <ExternalLink className="h-5 w-5 text-accent" />
@@ -176,11 +182,13 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
                     {t.website}
                   </Link>
                 </Button>
-                <Button asChild variant="link" className="p-0 h-auto text-accent">
-                  <Link href={film.imdb} target="_blank" rel="noopener noreferrer">
-                    IMDb
-                  </Link>
-                </Button>
+                {film.imdb && (
+                  <Button asChild variant="link" className="p-0 h-auto text-accent">
+                    <Link href={film.imdb} target="_blank" rel="noopener noreferrer">
+                      IMDb
+                    </Link>
+                  </Button>
+                )}
               </div>
             </div>
           </div>
