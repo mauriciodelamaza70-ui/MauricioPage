@@ -10,14 +10,29 @@ export const socialLinks: SocialLink[] = [
     { name: 'WhatsApp', href: 'https://wa.me/528110165108', icon: WhatsAppIcon },
 ];
 
-export const professionalLinks: SocialLink[] = [
+export const filmProfessionalLinks: SocialLink[] = [
     { name: 'IMDb', href: 'https://www.imdb.com/es/name/nm14485536/', icon: Globe },
     { name: 'FilmFreeway', href: 'https://filmfreeway.com/MauriciodelaMazaBenignos', icon: Film },
-    { name: 'Wikipedia', href: 'https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos', icon: Globe },
     { name: 'WCFF', href: 'https://wcff.org/meet-the-team/', icon: Globe },
+];
+
+export const academicProfessionalLinks: SocialLink[] = [
+    { name: 'ORCID', href: 'https://orcid.org/0009-0004-3880-161X', icon: Globe },
     { name: 'Google Scholar', href: 'https://scholar.google.com.mx/citations?user=55cWcTAAAAAJ&hl=es&oi=ao', icon: Globe },
-    { name: 'Academia.edu', href: 'https://independentscholar.academia.edu/MauricioDelaMazaBenignos', icon: Globe },
+    { name: 'Zenodo', href: 'https://zenodo.org/communities/delamaza-benignos-revista', icon: Globe },
+    { name: 'PhilPeople', href: 'https://philpeople.org/profiles/mauricio-de-la-maza-benignos', icon: Globe },
     { name: 'ResearchGate', href: 'https://www.researchgate.net/profile/Mauricio-De-La-Maza-Benignos', icon: Globe },
+    { name: 'Academia.edu', href: 'https://independentscholar.academia.edu/MauricioDelaMazaBenignos', icon: Globe },
+];
+
+export const otherProfessionalLinks: SocialLink[] = [
+    { name: 'Wikipedia', href: 'https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos', icon: Globe },
+];
+
+export const professionalLinks: SocialLink[] = [
+    ...filmProfessionalLinks,
+    ...academicProfessionalLinks,
+    ...otherProfessionalLinks,
 ];
 
 export const productionLinks = [

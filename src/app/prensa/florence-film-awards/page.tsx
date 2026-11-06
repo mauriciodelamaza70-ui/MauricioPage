@@ -4,7 +4,7 @@ import { ArrowLeft } from 'lucide-react';
 import FlorenceInterview from '@/components/pages/prensa/FlorenceInterview';
 
 export const metadata: Metadata = {
-  title: 'Entrevista — Florence Film Awards | Mauricio de la Maza Benignos',
+  title: 'Entrevista — Florence Film Awards | Mauricio De la Maza-Benignos',
   description:
     'Entrevista completa a Mauricio De la Maza-Benignos publicada por Florence Film Awards (13 de marzo de 2024), reproducida en versión bilingüe español–inglés.',
 };

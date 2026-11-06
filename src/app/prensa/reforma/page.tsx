@@ -12,7 +12,7 @@ const ONLINE_URL =
   'https://www.reforma.com/busca-mauricio-de-la-maza-benignos-provocar-con-su-cine/ar3265829';
 
 export const metadata: Metadata = {
-  title: `${TITLE} | Mauricio de la Maza Benignos`,
+  title: `${TITLE} | Mauricio De la Maza-Benignos`,
   description: DESCRIPTION,
   alternates: {
     canonical: `${siteConfig.url}/prensa/reforma`,

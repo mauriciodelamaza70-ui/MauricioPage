@@ -9,12 +9,12 @@ const ogImage = {
 };
 
 export const metadata: Metadata = {
-  title: 'Prensa | Mauricio de la Maza Benignos',
+  title: 'Prensa | Mauricio De la Maza-Benignos',
   description:
     'Entrevistas, reportajes y menciones en medios de cine, ciencia y conservación sobre Mauricio de la Maza-Benignos.',
   openGraph: {
     type: 'website',
-    title: 'Prensa | Mauricio de la Maza Benignos',
+    title: 'Prensa | Mauricio De la Maza-Benignos',
     description:
       'Entrevistas, reportajes y menciones en medios de cine, ciencia y conservación sobre Mauricio de la Maza-Benignos.',
     images: [ogImage],

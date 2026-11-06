@@ -1,7 +1,7 @@
 import type { NavLink } from '../types';
 
 export const siteConfig = {
-  name: 'Mauricio de la Maza Benignos',
+  name: 'Mauricio De la Maza-Benignos',
   url: 'https://www.mauriciodelamazabenignos.com',
   ogImage: 'https://www.mauriciodelamazabenignos.com/images/Mauricio.png',
   description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos.',
