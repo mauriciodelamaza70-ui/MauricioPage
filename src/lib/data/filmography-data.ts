@@ -20,10 +20,10 @@ const documentaries: Film[] = [
     slug: 'ad-memoriam-rei-perpetuam',
     footerName: 'Ad memoriam rei perpetuam',
     title: 'Ad memoriam rei perpetuam: pastizales mexicanos en vía de extinción',
-    year: '2019',
+    year: '2020',
     genre: 'Largometraje documental',
     genreEn: 'Feature documentary',
-    format: '',
+    format: '93 min',
     synopsis:
       'La pérdida del agua, los ecosistemas y la biodiversidad en los pastizales del Desierto Chihuahuense, y la compleja relación histórica entre este bioma y el desarrollo humano que lo empuja a su extinción.',
     synopsisEn:
