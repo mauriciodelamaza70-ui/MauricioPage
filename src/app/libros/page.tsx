@@ -5,7 +5,7 @@ import { BookOpen, ArrowRight } from 'lucide-react';
 import { bookCategories } from '@/lib/data';
 
 export const metadata: Metadata = {
-  title: 'Libros | Mauricio de la Maza Benignos',
+  title: 'Libros | Mauricio De la Maza-Benignos',
   description:
     'Obra escrita de Mauricio de la Maza-Benignos: publicaciones científicas sobre ictiofauna y conservación de humedales desérticos, y narrativa en desarrollo.',
 };

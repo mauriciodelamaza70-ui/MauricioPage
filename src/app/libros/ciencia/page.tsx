@@ -6,7 +6,7 @@ import { scienceBooks } from '@/lib/data';
 import BookCard from '@/components/pages/libros/BookCard';
 
 export const metadata: Metadata = {
-  title: 'Ciencia | Libros | Mauricio de la Maza Benignos',
+  title: 'Ciencia | Libros | Mauricio De la Maza-Benignos',
   description:
     'Publicaciones científicas de Mauricio de la Maza-Benignos sobre ictiofauna y conservación de humedales desérticos del norte de México.',
 };
