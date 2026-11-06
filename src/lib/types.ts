@@ -159,6 +159,25 @@ export type Movie = {
   subtitle?: string;
 };
 
+export type FilmCredit = { roleEs: string; roleEn: string; value: string };
+
+export type Film = Movie & {
+  slug: string;
+  footerName: string;
+  genreEn?: string;
+  formatEn?: string;
+  synopsisEn?: string;
+  credits?: FilmCredit[];
+  festivalsHeadingEs?: string;
+  festivalsHeadingEn?: string;
+  festivalsEs?: string[];
+  festivalsEn?: string[];
+  noteEs?: string;
+  noteEn?: string;
+  youtubeId?: string;
+  review?: { href: string; labelEs: string; labelEn: string };
+};
+
 export type PressCategory = 'Cine' | 'Conservación' | 'Trayectoria';
 
 export type PressArticle = {
