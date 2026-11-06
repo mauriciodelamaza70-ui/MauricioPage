@@ -102,6 +102,7 @@ export const pressArticles: PressArticle[] = [
     categoria: 'Cine',
     anio: 2022,
     url: 'https://www.milenio.com/espectaculos/cine/realizaran-nl-festival-cine-conservacion-vida-silvestre',
+    ancla: 'milenio-festival-cine-conservacion-nl',
   },
   {
     fuente: 'UNAM — El Aleph',
