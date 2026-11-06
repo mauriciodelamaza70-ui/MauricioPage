@@ -207,6 +207,13 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
                     </Link>
                   </Button>
                 )}
+                {film.review && (
+                  <Button asChild variant="link" className="p-0 h-auto text-accent whitespace-normal text-left">
+                    <Link href={film.review.href}>
+                      {lang === "en" ? film.review.labelEn : film.review.labelEs}
+                    </Link>
+                  </Button>
+                )}
               </div>
             </div>
           </div>

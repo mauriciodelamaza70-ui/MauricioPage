@@ -9,6 +9,7 @@ const staticRoutes = [
   '/galerias',
   '/filmografia',
   '/cortos-documentales',
+  '/artes-escenicas/teatro-araiza',
   '/libros',
   '/libros/ciencia',
   '/libros/novela',
