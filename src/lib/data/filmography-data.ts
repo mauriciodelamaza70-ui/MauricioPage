@@ -9,9 +9,31 @@ const featureSlugs: Record<string, { slug: string; footerName: string }> = {
   'bonito-2024': { slug: 'el-bonito', footerName: 'El Bonito' },
 };
 
+const featureOverrides: Record<string, Partial<Film>> = {
+  'zapato-2025': {
+    synopsis:
+      'Un grupo de amigos, con marcadas diferencias entre sí, se reúne para convivir durante varios días. Sus planes se frustran cuando un elemento externo desata el rechazo a lo diferente, llevado al extremo.',
+    synopsisEn:
+      'A group of friends, sharply different from one another, gather to spend a few days together. Their plans fall apart when an outside element unleashes a rejection of difference, taken to the extreme.',
+    reviewsIntroEs: 'Una propuesta original e ingeniosa que desafía las convenciones del género.',
+    reviewsIntroEn: 'An original, clever film that defies genre conventions.',
+    reviews: [
+      {
+        quote: 'Every once in a while, a film comes along that sort of knocks me on my ass…',
+        source: 'Brian Lutes',
+      },
+      {
+        quote: 'Original, clever, and a true celebration of diversity',
+        source: 'Dr. Daniel Widdowson, Salt House Creative',
+      },
+    ],
+  },
+};
+
 const features: Film[] = featuredMovies.map((movie) => ({
   ...movie,
   ...featureSlugs[movie.id],
+  ...featureOverrides[movie.id],
 }));
 
 const documentaries: Film[] = [

@@ -8,6 +8,7 @@ import type { Lang } from "@/components/pages/lang-article";
 const LABELS = {
   es: {
     synopsis: "Sinopsis",
+    reviews: "Reseñas",
     awards: "Reconocimientos y Premios",
     credits: "Créditos",
     whereToWatch: "Dónde verla",
@@ -18,6 +19,7 @@ const LABELS = {
   },
   en: {
     synopsis: "Synopsis",
+    reviews: "Reviews",
     awards: "Awards and Recognition",
     credits: "Credits",
     whereToWatch: "Where to watch",
@@ -34,6 +36,7 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
   const genre = lang === "en" && film.genreEn ? film.genreEn : film.genre;
   const format = lang === "en" && film.formatEn ? film.formatEn : film.format;
   const synopsis = lang === "en" && film.synopsisEn ? film.synopsisEn : film.synopsis;
+  const reviewsIntro = lang === "en" ? film.reviewsIntroEn : film.reviewsIntroEs;
   const festivals = lang === "en" ? film.festivalsEn ?? film.festivalsEs : film.festivalsEs;
   const festivalsHeading = lang === "en" ? film.festivalsHeadingEn : film.festivalsHeadingEs;
   const note = lang === "en" ? film.noteEn : film.noteEs;
@@ -94,6 +97,21 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
             <p className="text-lg text-muted-foreground leading-relaxed">{synopsis}</p>
           </div>
         )}
+
+        {film.reviews?.length ? (
+          <div className="space-y-4">
+            <h4 className="font-bold text-xl border-l-4 border-accent pl-4">{t.reviews}</h4>
+            {reviewsIntro && <p className="text-muted-foreground leading-relaxed">{reviewsIntro}</p>}
+            {film.reviews.map((review) => (
+              <figure key={review.source} className="space-y-1">
+                <blockquote className="text-lg text-muted-foreground leading-relaxed italic">
+                  {`“${review.quote}”`}
+                </blockquote>
+                <figcaption className="text-sm font-semibold text-foreground">{`— ${review.source}`}</figcaption>
+              </figure>
+            ))}
+          </div>
+        ) : null}
 
         {film.credits && (
           <div className="space-y-3">

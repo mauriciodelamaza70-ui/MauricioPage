@@ -179,6 +179,9 @@ export type Film = Movie & {
   yearNoteEn?: string;
   youtubeId?: string;
   review?: { href: string; labelEs: string; labelEn: string };
+  reviewsIntroEs?: string;
+  reviewsIntroEn?: string;
+  reviews?: { quote: string; source: string }[];
 };
 
 export type PressCategory = 'Cine' | 'Conservación' | 'Trayectoria';
