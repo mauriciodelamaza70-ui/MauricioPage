@@ -104,14 +104,14 @@ export const postsMeta: PostMeta[] = [
     "slug": "por-que-filmo",
     "title": "Por qué filmo",
     "date": "3 de Julio, 2026",
-    "excerpt": "Un ensayo ��ntimo sobre las razones detrás del oficio de filmar, entre el absurdo de Camus, el poder cotidiano de Foucault y la biología de Nietzsche.",
+    "excerpt": "Un ensayo íntimo sobre las razones detrás del oficio de filmar, entre el absurdo de Camus, el poder cotidiano de Foucault y la biología de Nietzsche.",
     "imageId": "blog-por-que-filmo-cover",
     "category": "Artículos"
   },
   {
     "id": "post-1",
     "slug": "prologo-de-la-loca-del-maniqui",
-    "title": "Prólogo de “La loca del maniquí���",
+    "title": "Prólogo de “La loca del maniquí”",
     "date": "26 de Mayo, 2022",
     "excerpt": "Un vistazo al prólogo del libro, explorando sus temas centrales y el estilo narrativo.",
     "imageId": "blog-prologo-cover-new",
