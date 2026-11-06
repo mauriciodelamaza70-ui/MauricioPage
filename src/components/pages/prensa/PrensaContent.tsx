@@ -268,8 +268,11 @@ export default function PrensaContent() {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {visibleArchive.map((article) => {
-              const cardClass =
-                'group flex items-start justify-between gap-4 rounded-lg bg-card border border-border p-5 transition-colors hover:border-accent/60';
+              const cardClass = cn(
+                'group flex items-start justify-between gap-4 rounded-lg bg-card border border-border p-5 transition-colors hover:border-accent/60',
+                article.ancla && 'scroll-mt-28'
+              );
+              const anchorId = article.ancla;
               const cardInner = (
                 <>
                   <div className="flex-1">
@@ -294,12 +297,13 @@ export default function PrensaContent() {
               );
 
               return article.rutaInterna ? (
-                <Link key={article.url} href={article.rutaInterna} className={cardClass}>
+                <Link key={article.url} id={anchorId} href={article.rutaInterna} className={cardClass}>
                   {cardInner}
                 </Link>
               ) : (
                 <a
                   key={article.url}
+                  id={anchorId}
                   href={article.url}
                   target="_blank"
                   rel="noopener noreferrer"

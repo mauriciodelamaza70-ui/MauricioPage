@@ -203,6 +203,8 @@ export type PressArticle = {
   esPortada?: boolean;
   /** Galería de páginas (portada + interiores) que se despliega al hacer clic en la tarjeta destacada. */
   galeria?: string[];
+  /** id HTML de la tarjeta, para enlazar directamente a ella con /prensa#ancla. */
+  ancla?: string;
   /** Pertenece a la cronología de Cuatro Ciénegas (2018-2023). */
   cuatroCienegas?: boolean;
   /** Si existe, la tarjeta navega a esta ruta interna en vez de al enlace externo. */
