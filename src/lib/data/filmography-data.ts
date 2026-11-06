@@ -98,6 +98,40 @@ const documentaries: Film[] = [
       labelEn: 'Read the review in the magazine',
     },
   },
+  {
+    id: 'voz-del-silencio-2021',
+    slug: 'la-voz-del-silencio',
+    footerName: 'La voz del silencio',
+    title: 'La voz del silencio',
+    year: '2021',
+    yearNoteEs: 'Rodada en 2017.',
+    yearNoteEn: 'Filmed in 2017.',
+    genre: 'Cortometraje documental',
+    genreEn: 'Short documentary',
+    format: '13 min',
+    formatEn: '13 min',
+    synopsis:
+      'Documental de naturaleza inspirado en el spaghetti western, sobre la Zona del Silencio, en el Bolsón de Mapimí: sus paisajes, su riqueza faunística y sociocultural, sus leyendas de visitantes de otros mundos y la caída, en julio de 1970, del cohete de prueba Athena con contenedores de cobalto 57.',
+    synopsisEn:
+      'A nature documentary inspired by the spaghetti western, set in the Zone of Silence in the Bolsón de Mapimí: its landscapes, its faunal and sociocultural richness, its legends of visitors from other worlds, and the July 1970 crash of the Athena test rocket carrying cobalt-57 containers.',
+    credits: [
+      { roleEs: 'Producción y dirección', roleEn: 'Produced and directed by', value: 'Mauricio De la Maza-Benignos' },
+    ],
+    awards: '',
+    festivalsHeadingEs: 'Festivales',
+    festivalsHeadingEn: 'Festivals',
+    festivalsEs: [
+      'Selección oficial, Wildlife Conservation Film Festival 2024 (Naples, Florida, EE. UU.). Exhibida fuera de competencia a petición del autor, por formar parte del consejo del festival.',
+    ],
+    festivalsEn: [
+      "Official Selection, Wildlife Conservation Film Festival 2024 (Naples, Florida, USA). Screened out of competition at the author's request, as a member of the festival's board.",
+    ],
+    streaming: '',
+    website: '',
+    imdb: '',
+    poster: '',
+    youtubeId: 'fdrx88MxsTA',
+  },
 ];
 
 export const filmography: Film[] = [...features, ...documentaries];

@@ -174,6 +174,8 @@ export type Film = Movie & {
   festivalsEn?: string[];
   noteEs?: string;
   noteEn?: string;
+  yearNoteEs?: string;
+  yearNoteEn?: string;
   youtubeId?: string;
   review?: { href: string; labelEs: string; labelEn: string };
 };
