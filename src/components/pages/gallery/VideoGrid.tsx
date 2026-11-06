@@ -9,9 +9,10 @@ import { PlayCircle } from 'lucide-react';
 
 type VideoGridProps = {
   videos: Video[];
+  lang?: 'es' | 'en';
 };
 
-export default function VideoGrid({ videos }: VideoGridProps) {
+export default function VideoGrid({ videos, lang = 'es' }: VideoGridProps) {
   return (
     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {videos.map((video) => {
@@ -20,7 +21,7 @@ export default function VideoGrid({ videos }: VideoGridProps) {
         return (
           <Dialog key={video.id}>
             <DialogTrigger asChild>
-              <Card className="overflow-hidden cursor-pointer group flex flex-col">
+              <Card id={video.anchorId} className="overflow-hidden cursor-pointer group flex flex-col scroll-mt-28">
                 <div className="relative aspect-video overflow-hidden">
                   <Image
                     src={thumbnail.imageUrl}
@@ -35,7 +36,15 @@ export default function VideoGrid({ videos }: VideoGridProps) {
                 </div>
                 <div className="p-4 flex-grow flex flex-col">
                   <h3 className="font-headline text-xl font-bold">{video.title}</h3>
-                  <p className="text-sm text-muted-foreground mt-1">{video.type}</p>
+                  <p className="text-sm text-muted-foreground mt-1">
+                    {[video.type, video.year, video.duration].filter(Boolean).join(' · ')}
+                  </p>
+                  {video.credits && (
+                    <p className="text-sm text-muted-foreground mt-1">{video.credits[lang]}</p>
+                  )}
+                  {video.description && (
+                    <p className="text-sm leading-relaxed mt-3 text-pretty">{video.description[lang]}</p>
+                  )}
                 </div>
               </Card>
             </DialogTrigger>

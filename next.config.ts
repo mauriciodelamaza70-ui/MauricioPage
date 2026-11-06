@@ -23,6 +23,7 @@ const nextConfig: NextConfig = {
       ['/video/historias-del-septentrion-la-batalla-del-carrizal-y-el-cachorrito-carbonero', '/cortos-documentales'],
       ['/2021/09/10/ad-memoriam-rei-perpetuam-pastizales-mexicanos-en-via-de-extincion', '/filmografia#ad-memoriam-rei-perpetuam'],
       ['/eventorufinotamayo', '/prensa#milenio-festival-cine-conservacion-nl'],
+      ['/2021/08/11/el-jubilo-por-la-vida', '/cortos-documentales#celebrando-la-vida-otra-que-humana'],
     ];
     const legacyRedirects = legacy.flatMap(([source, destination]) =>
       (source.endsWith('/') ? [source] : [source, `${source}/`]).map((s) => ({
