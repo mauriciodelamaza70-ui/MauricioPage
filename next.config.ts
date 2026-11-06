@@ -19,6 +19,8 @@ const nextConfig: NextConfig = {
       ['/category/colaboradores', '/revista/colaboradores'],
       ['/category/noticias', '/revista'],
       ['/cultura', '/revista'],
+      ['/video/en-busca-del-aguila-elegante', '/galerias'],
+      ['/video/historias-del-septentrion-la-batalla-del-carrizal-y-el-cachorrito-carbonero', '/galerias'],
     ];
     const legacyRedirects = legacy.flatMap(([source, destination]) =>
       (source.endsWith('/') ? [source] : [source, `${source}/`]).map((s) => ({
