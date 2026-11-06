@@ -40,11 +40,11 @@ const documentaries: Film[] = [
     festivalsHeadingEn: 'Festivals',
     festivalsEs: [
       'Selección oficial, Wildlife Conservation Film Festival 2020; proyectada en el Cinema Village, Nueva York, EE. UU., el 16 de octubre de 2021 (estreno en EE. UU.).',
-      'Selección oficial, SUNCINE Environmental Film Festival, Barcelona, España (2021).',
+      'Selección oficial, SUNCINE Festival Internacional de Cine del Medio Ambiente 2021, Sección Especial México-España (Barcelona, España).',
     ],
     festivalsEn: [
       'Official Selection, Wildlife Conservation Film Festival 2020; screened at Cinema Village, New York, USA, on October 16, 2021 (US premiere).',
-      'Official Selection, SUNCINE Environmental Film Festival, Barcelona, Spain (2021).',
+      'Official Selection, SUNCINE International Environmental Film Festival 2021, Special Section Mexico-Spain (Barcelona, Spain).',
     ],
     noteEs:
       'La relación del autor con el WCFF comenzó a raíz de esta selección; se incorporó después a su consejo asesor y, más tarde, a la dirección del festival.',
