@@ -24,6 +24,8 @@ const searchIndex = new Map(
             post.title,
             post.excerpt,
             post.author,
+            academic?.abstractEs,
+            academic?.abstractEn,
             ...(academic?.keywordsEs ?? []),
             ...(academic?.keywordsEn ?? []),
         ];
