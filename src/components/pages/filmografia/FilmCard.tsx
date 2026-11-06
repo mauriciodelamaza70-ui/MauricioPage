@@ -37,6 +37,7 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
   const festivals = lang === "en" ? film.festivalsEn ?? film.festivalsEs : film.festivalsEs;
   const festivalsHeading = lang === "en" ? film.festivalsHeadingEn : film.festivalsHeadingEs;
   const note = lang === "en" ? film.noteEn : film.noteEs;
+  const yearNote = lang === "en" ? film.yearNoteEn : film.yearNoteEs;
   const isDocumentary = Boolean(film.youtubeId);
 
   return (
@@ -81,6 +82,7 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
           <p className="text-accent font-bold uppercase tracking-widest text-sm mb-2">
             {[genre, format].filter(Boolean).join(" • ")}
           </p>
+          {yearNote && <p className="text-sm text-muted-foreground mb-2">{yearNote}</p>}
           {film.subtitle && <p className="text-muted-foreground italic text-lg">{film.subtitle}</p>}
         </div>
 
