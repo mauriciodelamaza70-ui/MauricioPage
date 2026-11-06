@@ -111,7 +111,7 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-1",
     "slug": "prologo-de-la-loca-del-maniqui",
-    "title": "Prólogo de “La loca del maniquí���",
+    "title": "Prólogo de “La loca del maniquí”",
     "date": "26 de Mayo, 2022",
     "excerpt": "Un vistazo al prólogo del libro, explorando sus temas centrales y el estilo narrativo.",
     "imageId": "blog-prologo-cover-new",
