@@ -21,27 +21,30 @@ const documentaries: Film[] = [
     footerName: 'Ad memoriam rei perpetuam',
     title: 'Ad memoriam rei perpetuam: pastizales mexicanos en vía de extinción',
     year: '2020',
-    genre: 'Documental',
-    genreEn: 'Documentary',
-    format: '',
+    genre: 'Largometraje documental',
+    genreEn: 'Feature documentary',
+    format: '93 min',
     synopsis:
       'La pérdida del agua, los ecosistemas y la biodiversidad en los pastizales del Desierto Chihuahuense, y la compleja relación histórica entre este bioma y el desarrollo humano que lo empuja a su extinción.',
     synopsisEn:
       'The loss of water, ecosystems and biodiversity in the grasslands of the Chihuahuan Desert, and the complex historical relationship between this biome and the human development pushing it toward extinction.',
     credits: [
-      { roleEs: 'Producción y dirección', roleEn: 'Produced and directed by', value: 'Mauricio De la Maza-Benignos' },
+      { roleEs: 'Dirección', roleEn: 'Directed by', value: 'Mauricio De la Maza-Benignos' },
+      { roleEs: 'Guion', roleEn: 'Screenplay', value: 'Claudia Luna Fuentes y Mauricio De la Maza-Benignos' },
+      { roleEs: 'Producción', roleEn: 'Production', value: 'De la Maza Films' },
       { roleEs: 'Voz', roleEn: 'Voice', value: 'Claudia Luna Fuentes' },
+      { roleEs: 'Entrevistas', roleEn: 'Interviews', value: 'Andrea Ayala Luna' },
     ],
     awards: '',
     festivalsHeadingEs: 'Festivales',
     festivalsHeadingEn: 'Festivals',
     festivalsEs: [
-      'Wildlife Conservation Film Festival, Nueva York, EE. UU. (selección oficial, edición 2020)',
-      'SUNCINE Environmental Film Festival, Barcelona, España (3 de noviembre de 2021)',
+      'Selección oficial, Wildlife Conservation Film Festival 2020; proyectada en el Cinema Village, Nueva York, EE. UU., el 16 de octubre de 2021 (estreno en EE. UU.).',
+      'Selección oficial, SUNCINE Festival Internacional de Cine del Medio Ambiente 2021, Sección Especial México-España (Barcelona, España).',
     ],
     festivalsEn: [
-      'Wildlife Conservation Film Festival, New York, USA (Official Selection, 2020 edition)',
-      'SUNCINE Environmental Film Festival, Barcelona, Spain (November 3, 2021)',
+      'Official Selection, Wildlife Conservation Film Festival 2020; screened at Cinema Village, New York, USA, on October 16, 2021 (US premiere).',
+      'Official Selection, SUNCINE International Environmental Film Festival 2021, Special Section Mexico-Spain (Barcelona, Spain).',
     ],
     noteEs:
       'La relación del autor con el WCFF comenzó a raíz de esta selección; se incorporó después a su consejo asesor y, más tarde, a la dirección del festival.',
