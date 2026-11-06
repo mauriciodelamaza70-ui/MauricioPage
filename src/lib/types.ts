@@ -112,6 +112,11 @@ export type Video = {
   type: 'Mediometraje' | 'Cortometraje';
   youtubeId: string;
   thumbnailId: string;
+  anchorId?: string;
+  year?: number;
+  duration?: string;
+  credits?: { es: string; en: string };
+  description?: { es: string; en: string };
 };
 
 export type Achievement = {

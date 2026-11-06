@@ -465,6 +465,12 @@
       "imageHint": "grassland documentary"
     },
     {
+      "id": "video-thumb-7",
+      "description": "Thumbnail for Celebrando la vida otra que humana",
+      "imageUrl": "/images/celebrando-la-vida-otra-que-humana.jpg",
+      "imageHint": "neotropical wildlife"
+    },
+    {
       "id": "blog-prologo-cover-new",
       "description": "Detalle de la escenografía de la obra La Loca del Maniquí",
       "imageUrl": "/images/prologo4.jpeg",

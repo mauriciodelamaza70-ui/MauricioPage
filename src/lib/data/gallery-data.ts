@@ -24,6 +24,24 @@ export const videoGallery: Video[] = [
     { id: 'vid-4', title: 'Historias del septentrión', type: 'Mediometraje', youtubeId: 'HE7A1PyqPZo', thumbnailId: 'video-thumb-4'},
     { id: 'vid-5', title: 'Los murciélagos de la cueva de la boca', type: 'Cortometraje', youtubeId: 'suiOUN8zl18', thumbnailId: 'video-thumb-5'},
     { id: 'vid-6', title: 'Praderas del Tokio', type: 'Mediometraje', youtubeId: 'I7StbzrZAlU', thumbnailId: 'video-thumb-6'},
+    {
+      id: 'vid-7',
+      anchorId: 'celebrando-la-vida-otra-que-humana',
+      title: 'Celebrando la vida otra que humana: el reino biogeográfico neotropical',
+      type: 'Cortometraje',
+      year: 2021,
+      duration: '18 min',
+      youtubeId: 'Mq8fInj8l_w',
+      thumbnailId: 'video-thumb-7',
+      credits: {
+        es: 'Producción y dirección: Mauricio De la Maza-Benignos',
+        en: 'Produced and directed by Mauricio De la Maza-Benignos',
+      },
+      description: {
+        es: 'Un recorrido por la bioregión centroamericana del reino neotropical, de México a Panamá, entre selvas tropicales, bosques de niebla y bosques de pino-encino. Colibríes, ranas venenosas, la rana de hoja espléndida, el cocodrilo americano, lagartijas Anolis, monos ardilla y capuchinos, y perezosos de tres y de dos dedos muestran su comportamiento y sus adaptaciones. El cierre recuerda el surgimiento del istmo de Panamá y el Gran Intercambio Biótico Americano, y hace un llamado a valorar, respetar y amar la vida otra que humana.',
+        en: 'A journey through the Central American bioregion of the Neotropical realm, from Mexico to Panama, across tropical rainforests, cloud forests and pine-oak forests. Hummingbirds, poison dart frogs, the splendid leaf frog, the American crocodile, Anolis lizards, squirrel and capuchin monkeys, and three- and two-toed sloths reveal their behavior and adaptations. The film closes with the rise of the Isthmus of Panama and the Great American Biotic Interchange, and a call to value, respect and love non-human life.',
+      },
+    },
 ];
 
 export const achievements: Achievement[] = [

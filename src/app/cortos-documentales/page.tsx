@@ -25,13 +25,18 @@ export default function CortosDocumentalesPage() {
       <div className="container mx-auto px-4 py-24">
         <LangArticle
           es={
-            <Intro text="Cortos documentales sobre la naturaleza y la conservación del noreste de México. Producción y dirección: Mauricio De la Maza-Benignos." />
+            <>
+              <Intro text="Cortos documentales sobre la naturaleza y la conservación del noreste de México. Producción y dirección: Mauricio De la Maza-Benignos." />
+              <VideoGrid videos={videoGallery} lang="es" />
+            </>
           }
           en={
-            <Intro text="Short documentaries on nature and conservation in northeastern Mexico. Produced and directed by Mauricio De la Maza-Benignos." />
+            <>
+              <Intro text="Short documentaries on nature and conservation in northeastern Mexico. Produced and directed by Mauricio De la Maza-Benignos." />
+              <VideoGrid videos={videoGallery} lang="en" />
+            </>
           }
         />
-        <VideoGrid videos={videoGallery} />
       </div>
     </>
   );
