@@ -19,6 +19,8 @@ export const navLinks: NavLink[] = [
   { href: '/libros', label: 'Libros' },
   { href: '/revista', label: 'Revista' },
   { href: '/prensa', label: 'Prensa' },
+  { href: '/filmografia', label: 'Filmografía' },
+  { href: '/cortos-documentales', label: 'Cortos documentales' },
   { href: '/galerias', label: 'Galerías' },
   { href: '/servicios', label: 'Servicios' },
   { href: '/contacto', label: 'Contacto' },

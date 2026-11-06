@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { navLinks, socialLinks, professionalLinks, productionLinks, musicLinks } from '@/lib/data';
+import { navLinks, socialLinks, professionalLinks, filmography, musicLinks } from '@/lib/data';
 
 export default function Footer() {
   return (
@@ -34,14 +34,16 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Col 2: Películas */}
+          {/* Col 2: Filmografía */}
           <div className="space-y-6">
-            <h3 className="font-headline text-xl font-semibold text-white">Películas</h3>
+            <h3 className="font-headline text-xl font-semibold text-white">
+              <Link href="/filmografia" className="hover:text-accent transition-colors">Filmografía</Link>
+            </h3>
             <ul className="space-y-3">
-              {productionLinks.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href} target="_blank" rel="noopener noreferrer" className="text-sm hover:text-accent transition-colors">
-                    {link.name}
+              {filmography.map((film) => (
+                <li key={film.slug}>
+                  <Link href={`/filmografia#${film.slug}`} className="text-sm hover:text-accent transition-colors">
+                    {film.footerName}
                   </Link>
                 </li>
               ))}

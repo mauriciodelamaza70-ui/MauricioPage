@@ -7,6 +7,8 @@ const staticRoutes = [
   '/servicios',
   '/contacto',
   '/galerias',
+  '/filmografia',
+  '/cortos-documentales',
   '/libros',
   '/libros/ciencia',
   '/libros/novela',
