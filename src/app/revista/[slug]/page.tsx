@@ -15,6 +15,7 @@ import RiesgoArriesgarEssay from '@/components/pages/revista/RiesgoArriesgarEssa
 import IaTrampaPerroEssay from '@/components/pages/revista/IaTrampaPerroEssay';
 import TeleologiaEssay from '@/components/pages/revista/TeleologiaEssay';
 import NiTantoSantoEssay from '@/components/pages/revista/NiTantoSantoEssay';
+import PlataformasDigitalesEssay from '@/components/pages/revista/PlataformasDigitalesEssay';
 import { AcademicBlock } from '@/components/pages/revista/AcademicBlock';
 
 /** En ensayos HTML, marca dónde va el bloque académico: el primero en español, el segundo en inglés. */
@@ -29,6 +30,7 @@ const BILINGUAL_ESSAYS: Record<string, ComponentType<{ academic?: AcademicFields
   'la-ia-y-la-trampa-del-perro': IaTrampaPerroEssay,
   'teleologia-conciencia-y-sentido': TeleologiaEssay,
   'ni-tanto-que-queme-al-santo': NiTantoSantoEssay,
+  'plataformas-digitales': PlataformasDigitalesEssay,
 };
 
 type PageProps = {

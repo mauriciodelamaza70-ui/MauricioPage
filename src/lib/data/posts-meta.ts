@@ -3,6 +3,16 @@ import type { PostMeta } from '../types';
 // Metadata de posts SIN content. Importar esto (no el barrel) desde listados/home mantiene el HTML fuera de su bundle.
 export const postsMeta: PostMeta[] = [
   {
+    "id": "post-plataformas-digitales",
+    "slug": "plataformas-digitales",
+    "title": "Plataformas digitales: un poder sin rostro y sin rendición de cuentas",
+    "date": "14 de Noviembre, 2026",
+    "excerpt": "Un ensayo sobre el poder sin rostro de las plataformas digitales, el ciudadano sin garantías frente a ellas y por qué deben volverse alcanzables para el derecho.",
+    "category": "Artículos",
+    "author": "Mauricio de la Maza-Benignos",
+    "imageId": "blog-plataformas-digitales"
+  },
+  {
     "id": "post-ni-tanto-que-queme-al-santo",
     "slug": "ni-tanto-que-queme-al-santo",
     "title": "Ni tanto que queme al santo, ni tanto que no lo alumbre",

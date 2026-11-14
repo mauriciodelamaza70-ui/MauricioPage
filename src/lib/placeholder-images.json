@@ -1,6 +1,14 @@
 {
   "placeholderImages": [
     {
+      "id": "blog-plataformas-digitales",
+      "description": "Asteroide Bennu, imagen de portada del ensayo «Plataformas digitales: un poder sin rostro y sin rendición de cuentas» (crédito: NASA/Goddard/University of Arizona)",
+      "imageUrl": "/images/revista/plataformas-digitales/bennu.png",
+      "imageHint": "asteroid Bennu",
+      "width": 1024,
+      "height": 968
+    },
+    {
       "id": "blog-ni-tanto-santo",
       "description": "Fotografía que abre el ensayo «Ni tanto que queme al santo, ni tanto que no lo alumbre» (foto por Master Wen en Unsplash)",
       "imageUrl": "/images/revista/ni-tanto-santo/foto-1.jpeg",
