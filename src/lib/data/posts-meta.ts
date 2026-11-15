@@ -3,6 +3,60 @@ import type { PostMeta } from '../types';
 // Metadata de posts SIN content. Importar esto (no el barrel) desde listados/home mantiene el HTML fuera de su bundle.
 export const postsMeta: PostMeta[] = [
   {
+    "id": "post-plataformas-digitales",
+    "slug": "plataformas-digitales",
+    "title": "Plataformas digitales: un poder sin rostro y sin rendición de cuentas",
+    "date": "14 de Noviembre, 2026",
+    "excerpt": "Un ensayo sobre el poder sin rostro de las plataformas digitales, el ciudadano sin garantías frente a ellas y por qué deben volverse alcanzables para el derecho.",
+    "category": "Artículos",
+    "author": "Mauricio de la Maza-Benignos",
+    "imageId": "blog-plataformas-digitales"
+  },
+  {
+    "id": "post-ni-tanto-que-queme-al-santo",
+    "slug": "ni-tanto-que-queme-al-santo",
+    "title": "Ni tanto que queme al santo, ni tanto que no lo alumbre",
+    "date": "30 de Octubre, 2026",
+    "excerpt": "De los combustibles fósiles a las energías renovables: nada justifica obstaculizar la transición, pero existe un deber moral de considerar sus impactos en la biodiversidad.",
+    "category": "Artículos",
+    "author": "Mauricio de la Maza-Benignos",
+    "imageId": "blog-ni-tanto-santo",
+    "imageFit": "contain"
+  },
+  {
+    "id": "post-teleologia-conciencia-y-sentido",
+    "slug": "teleologia-conciencia-y-sentido",
+    "title": "Teleología, conciencia y sentido",
+    "date": "10 de Octubre, 2026",
+    "excerpt": "Un diálogo interior: ¿a qué precio puede quien no hereda una teleología natural desarrollar su propio sentido y sostener una brújula moral sin causa superior?",
+    "category": "Artículos",
+    "author": "Mauricio de la Maza-Benignos",
+    "imageId": "blog-teleologia-friso",
+    "imageFit": "contain"
+  },
+  {
+    "id": "post-la-ia-y-la-trampa-del-perro",
+    "slug": "la-ia-y-la-trampa-del-perro",
+    "title": "La IA y la trampa del perro",
+    "date": "11 de Septiembre, 2026",
+    "excerpt": "Sobre teleología sin conciencia, la zona gris de la agencia y por qué —ante una incertidumbre irreductible— conviene acordar las reglas del juego antes de saber quién llega: del neandertal y el venado al gato, el perro y la superinteligencia.",
+    "category": "Artículos",
+    "author": "Mauricio de la Maza-Benignos",
+    "imageId": "blog-ia-trampa-perro-card",
+    "heroImageId": "blog-ia-trampa-perro-cover"
+  },
+  {
+    "id": "post-el-riesgo-de-no-arriesgar",
+    "slug": "el-riesgo-de-no-arriesgar",
+    "title": "El riesgo de no arriesgar",
+    "date": "28 de Agosto, 2026",
+    "excerpt": "Sobre por qué buena parte del cine local no es mediocre por falta de talento sino porque un sistema premia al borrego sobre el gato, y qué significa el acotamiento digno cuando el miedo empieza a gobernar la decisión.",
+    "category": "Artículos",
+    "author": "Mauricio de la Maza-Benignos",
+    "imageId": "blog-riesgo-arriesgar-card",
+    "heroImageId": "blog-riesgo-arriesgar-cover"
+  },
+  {
     "id": "post-narrativa-como-sustituto-de-la-razon",
     "slug": "narrativa-como-sustituto-de-la-razon",
     "title": "La narrativa como sustituto de la razón",
@@ -60,14 +114,14 @@ export const postsMeta: PostMeta[] = [
     "slug": "por-que-filmo",
     "title": "Por qué filmo",
     "date": "3 de Julio, 2026",
-    "excerpt": "Un ensayo ��ntimo sobre las razones detrás del oficio de filmar, entre el absurdo de Camus, el poder cotidiano de Foucault y la biología de Nietzsche.",
+    "excerpt": "Un ensayo íntimo sobre las razones detrás del oficio de filmar, entre el absurdo de Camus, el poder cotidiano de Foucault y la biología de Nietzsche.",
     "imageId": "blog-por-que-filmo-cover",
     "category": "Artículos"
   },
   {
     "id": "post-1",
     "slug": "prologo-de-la-loca-del-maniqui",
-    "title": "Prólogo de “La loca del maniquí���",
+    "title": "Prólogo de “La loca del maniquí”",
     "date": "26 de Mayo, 2022",
     "excerpt": "Un vistazo al prólogo del libro, explorando sus temas centrales y el estilo narrativo.",
     "imageId": "blog-prologo-cover-new",

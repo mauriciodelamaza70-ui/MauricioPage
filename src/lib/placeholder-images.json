@@ -1,6 +1,62 @@
 {
   "placeholderImages": [
     {
+      "id": "blog-plataformas-digitales",
+      "description": "Asteroide Bennu, imagen de portada del ensayo «Plataformas digitales: un poder sin rostro y sin rendición de cuentas» (crédito: NASA/Goddard/University of Arizona)",
+      "imageUrl": "/images/revista/plataformas-digitales/bennu.png",
+      "imageHint": "asteroid Bennu",
+      "width": 1024,
+      "height": 968
+    },
+    {
+      "id": "blog-ni-tanto-santo",
+      "description": "Fotografía que abre el ensayo «Ni tanto que queme al santo, ni tanto que no lo alumbre» (foto por Master Wen en Unsplash)",
+      "imageUrl": "/images/revista/ni-tanto-santo/foto-1.jpeg",
+      "imageHint": "renewable energy landscape",
+      "width": 484,
+      "height": 363
+    },
+    {
+      "id": "blog-teleologia-friso",
+      "description": "Friso sudarábigo en alabastro: un leopardo moteado ataca a un íbice de largos cuernos (siglo V a. C., Museo de Arte Walters)",
+      "imageUrl": "/images/revista/teleologia/friso-leopardo-ibice.jpeg",
+      "imageHint": "ancient frieze leopard ibex",
+      "width": 1800,
+      "height": 1205
+    },
+    {
+      "id": "blog-ia-trampa-perro-cover",
+      "description": "Cazadores prehistóricos con lanzas, junto a lobos y una manada de venados, ante montañas nevadas al atardecer",
+      "imageUrl": "/images/revista/ia-trampa-perro/4-precedentes.png",
+      "imageHint": "prehistoric hunters wolves deer",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "blog-ia-trampa-perro-card",
+      "description": "Una figura contemplativa ante una esfera luminosa translúcida rotulada NOUS: la mente frente a la inteligencia",
+      "imageUrl": "/images/revista/ia-trampa-perro/1-nous.png",
+      "imageHint": "glowing sphere nous mind",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "blog-riesgo-arriesgar-cover",
+      "description": "Un niño con sombrero de paja intenta arrear con una vara a decenas de gatos que se dispersan por una ladera al atardecer: la imposibilidad de arrear gatos",
+      "imageUrl": "/images/revista/riesgo-arriesgar/portada.png",
+      "imageHint": "boy herding scattering cats",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "id": "blog-riesgo-arriesgar-card",
+      "description": "Un pastor niño observa dos corrales al atardecer: uno de borregos ordenados y otro de gatos libres bajo un letrero que dice 'Gatos libres por naturaleza'",
+      "imageUrl": "/images/revista/riesgo-arriesgar/ficha.png",
+      "imageHint": "sheep pen versus cats",
+      "width": 1536,
+      "height": 1024
+    },
+    {
       "id": "blog-narrativa-razon-cover",
       "description": "Fotografía retocada donde una figura ha sido borrada del registro oficial: la narrativa cubriendo la evidencia",
       "imageUrl": "/images/revista/narrativa-razon/portada.jpg",
@@ -415,6 +471,12 @@
       "description": "Thumbnail for Praderas del Tokio",
       "imageUrl": "/images/trailer-de-la-maza-Pradera-del-Tokio.png",
       "imageHint": "grassland documentary"
+    },
+    {
+      "id": "video-thumb-7",
+      "description": "Thumbnail for Celebrando la vida otra que humana",
+      "imageUrl": "/images/celebrando-la-vida-otra-que-humana.jpg",
+      "imageHint": "neotropical wildlife"
     },
     {
       "id": "blog-prologo-cover-new",

@@ -1,0 +1,1283 @@
+{
+  "riesgoArriesgarSubtitle": {
+    "es": "Toda posición humana implica riesgo, y la única variable real es quién gobierna la respuesta a ese riesgo.",
+    "en": "Every human position entails risk, and the only real variable is who governs the response to that risk."
+  },
+  "elRiesgoDeNoArriesgar": [
+    {
+      "type": "p",
+      "text": {
+        "es": "Hay una pregunta que aparece con frecuencia en las entrevistas a cineastas: ¿qué se piensa del cine local? ¿Qué se piensa de las fórmulas del cine mexicano?",
+        "en": "There's a question that comes up often in interviews with filmmakers: what do you think of local cinema? What do you think of the formulas of Mexican film?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La respuesta suele ser diplomática. Se habla de talento, de dificultades presupuestales, de falta de apoyos, de centralización, de distribución. Se señalan excepciones y se evita generalizar.",
+        "en": "The answer is usually diplomatic. People talk about talent, budget constraints, lack of support, centralization, distribution. Exceptions are pointed out, and generalizing is avoided."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero existe otra posibilidad de lectura.",
+        "en": "But there's another way to read this."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Salvo excepciones, buena parte del cine local es mediocre.",
+        "en": "With exceptions, much of local cinema is mediocre."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y no necesariamente porque esté mal hecho.",
+        "en": "Not necessarily because it's badly made."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El problema es que no arriesga nada.",
+        "en": "The problem is that it risks nothing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Hablo de cine porque es donde estoy parado ahora.",
+        "en": "I'm talking about film because that's where I happen to be standing right now."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No porque el cine sea mi esencia. Domino otras disciplinas —la ciencia, el derecho, otras más— y el argumento sería el mismo parado en cualquiera de ellas.",
+        "en": "Not because film is my essence. I work in other disciplines — science, law, others — and the argument would be the same standing in any of them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es cuestión de locus, no de naturaleza.",
+        "en": "It's a matter of locus, not nature."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El cine, aquí, es método. No es destino.",
+        "en": "Film, here, is method. Not destiny."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y esto no es un juicio contra quienes hacen ese cine.",
+        "en": "And this isn't a judgment against those who make that kind of cinema."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es un diagnóstico del sistema en el que lo hacen.",
+        "en": "It's a diagnosis of the system in which they make it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Porque el sistema no castiga la mediocridad.",
+        "en": "Because the system doesn't punish mediocrity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La premia.",
+        "en": "It rewards it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Premia el titubeo, premia no incomodar a nadie, premia la obra que no le debe una explicación a nadie porque no arriesgó nada que hubiera que explicar.",
+        "en": "It rewards hesitation, rewards not disturbing anyone, rewards the work that owes no one an explanation because it never risked anything that would require one."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El cineasta que no arriesga no compite contra el que sí arriesga. Compite contra un sistema que le paga mejor por no hacerlo.",
+        "en": "The filmmaker who doesn't take risks isn't competing against the one who does. He's competing against a system that pays him better for not doing it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "En ese juego, quedarse en el centro, no destacar, no incomodar, es una jugada racional.",
+        "en": "In that game, staying in the middle, not standing out, not making anyone uncomfortable, is a rational move."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El problema no es que los jugadores jueguen bien el juego que tienen enfrente.",
+        "en": "The problem isn't that the players play the game in front of them well."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El problema es el juego.",
+        "en": "The problem is the game."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y el juego tiene una razón de ser, aunque nadie la diga en voz alta.",
+        "en": "And the game has a reason for being, even if no one says it out loud."
+      }
+    },
+    {
+      "type": "image",
+      "src": "/images/revista/riesgo-arriesgar/portada.png",
+      "caption": {
+        "es": "Arrear gatos: la tarea imposible de dirigir a quienes, por naturaleza, no obedecen.",
+        "en": "Herding cats: the impossible task of directing those who, by nature, do not obey."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Los borregos son más controlables que los gatos.",
+        "en": "Sheep are easier to control than cats."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Un rebaño se mueve en bloque. No sorprende. No cuestiona al pastor. Un gato no se deja arrear: decide su propio recorrido, y eso, para quien administra el sistema, no es una virtud. Es un costo.",
+        "en": "A flock moves as a block. It doesn't surprise. It doesn't question the shepherd. A cat can't be herded: it decides its own path, and that, for whoever administers the system, isn't a virtue. It's a cost."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El sistema no premia al borrego porque lo confunda con calidad.",
+        "en": "The system doesn't reward the sheep because it mistakes it for quality."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Lo premia porque es manejable.",
+        "en": "It rewards it because it's manageable."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y lo más triste no es que desincentive el riesgo.",
+        "en": "And the saddest part isn't that it discourages risk."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es que lo hace sin prometer nada a cambio.",
+        "en": "It's that it does so without promising anything in return."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No hay pacto. No hay garantía. No hay un lugar seguro esperando a quien decide no arriesgar.",
+        "en": "There's no pact. No guarantee. No safe place waiting for whoever decides not to take the risk."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Solo hay un sistema que castiga el riesgo y no premia su ausencia.",
+        "en": "There's only a system that punishes risk and doesn't reward its absence."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El cineasta que se queda en el centro no gana estabilidad.",
+        "en": "The filmmaker who stays in the middle doesn't gain stability."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Gana, cuando mucho, no perder.",
+        "en": "At most, he gains not losing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y no perder no es lo mismo que ganar algo.",
+        "en": "And not losing isn't the same as winning something."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El cine de bajo presupuesto no tiene posibilidades reales de competir con Hollywood si pretende hacerlo en la misma cancha, bajo las mismas reglas y utilizando como criterio de éxito aquello en lo que Hollywood tiene una ventaja estructural enorme.",
+        "en": "Low-budget cinema has no real chance of competing with Hollywood if it tries to play on the same field, under the same rules, using as its measure of success the very thing in which Hollywood holds an enormous structural advantage."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La comparación sería absurda: es como poner a jugar a la Prepa 2x contra el América en el Estadio Azteca y exigirle a la Prepa 2x que juegue exactamente como el América.",
+        "en": "The comparison would be absurd: it's like putting a neighborhood high-school team up against a top professional club in a full stadium and demanding that the small team play exactly like the giant."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El problema no es que la Prepa 2x tenga menos dinero.",
+        "en": "The problem isn't that the small team has less money."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El problema sería que, teniendo otras posibilidades, decidiera jugar exactamente el mismo partido.",
+        "en": "The problem would be if, having other possibilities available, it decided to play exactly the same match anyway."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Hollywood posee una cantidad de capital financiero, tecnológico, industrial y comercial que el cine independiente no puede igualar. Tiene dinero, infraestructura, estrellas, efectos, distribución, marketing y una maquinaria diseñada para producir y vender entretenimiento a una escala extraordinaria.",
+        "en": "Hollywood possesses an amount of financial, technological, industrial, and commercial capital that independent cinema cannot match. It has money, infrastructure, stars, effects, distribution, marketing, and a machine built to produce and sell entertainment at an extraordinary scale."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El cine independiente no puede competir con eso en igualdad de condiciones.",
+        "en": "Independent cinema cannot compete with that on equal terms."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero posee una ventaja que el cine industrial no tiene en la misma medida:",
+        "en": "But it has an advantage that industrial cinema doesn't hold to the same degree:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No está acotado.",
+        "en": "It isn't bounded."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y esa libertad constituye un tipo de capital.",
+        "en": "And that freedom constitutes a kind of capital."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El cineasta independiente puede experimentar donde una producción de cientos de millones tiene que justificar cada decisión. Puede ser extraño. Puede incomodar. Puede romper el ritmo. Puede sostener un silencio durante minutos. Puede utilizar el desenfoque como percepción subjetiva. Puede introducir lo absurdo. Puede negarse a explicar.",
+        "en": "The independent filmmaker can experiment where a hundred-million-dollar production has to justify every decision. He can be strange. He can make people uncomfortable. He can break the rhythm. He can hold a silence for minutes. He can use blur as subjective perception. He can bring in the absurd. He can refuse to explain."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No porque no sepa hacer otra cosa.",
+        "en": "Not because he doesn't know how to do otherwise."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Precisamente porque puede saber hacerla y decidir no hacerlo.",
+        "en": "Precisely because he can know how and choose not to."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La transgresión sin conocimiento es accidente.",
+        "en": "Transgression without knowledge is accident."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La transgresión con conocimiento de causa es autoría.",
+        "en": "Transgression with full knowledge is authorship."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ése es uno de los grandes capitales del creador independiente.",
+        "en": "That's one of the great forms of capital the independent creator holds."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Sin embargo, buena parte del cine independiente parece empeñada en ocultarlo.",
+        "en": "And yet, much of independent cinema seems determined to hide it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Se intenta tener la fotografía de Hollywood, el sonido de Hollywood, las estructuras narrativas de Hollywood, los actores que permitan aproximarse a Hollywood y, en general, una apariencia de producción grande.",
+        "en": "There's an effort to have Hollywood's cinematography, Hollywood's sound, Hollywood's narrative structures, actors who bring it closer to Hollywood, and, in general, the appearance of a big production."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El problema es evidente: si el objetivo es parecerse al grande, el pequeño siempre será una versión pequeña del grande.",
+        "en": "The problem is obvious: if the goal is to resemble the giant, the small one will always be a small version of the giant."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y ésa es una competencia que no puede ganar.",
+        "en": "And that's a competition it cannot win."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Puede gastar una cantidad desproporcionada de su presupuesto intentando que el sonido se aproxime al de una superproducción. Puede conseguir un resultado técnicamente impecable.",
+        "en": "It can spend a disproportionate share of its budget trying to get the sound close to that of a blockbuster. It can achieve a technically flawless result."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El espectador, sin embargo, probablemente no saldrá diciendo:",
+        "en": "The audience, however, probably won't walk out saying:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "“Qué extraordinaria mezcla.”",
+        "en": "“What an extraordinary mix.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Saldrá diciendo:",
+        "en": "They'll walk out saying:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "“Qué mala fotografía.”",
+        "en": "“What bad cinematography.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "“No hay actores conocidos.”",
+        "en": "“No recognizable actors.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "“Se ve barato.”",
+        "en": "“It looks cheap.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Porque ésa es la comparación que el propio cineasta decidió provocar.",
+        "en": "Because that's the comparison the filmmaker himself chose to invite."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La excelencia técnica tiene valor. Naturalmente.",
+        "en": "Technical excellence has value. Of course it does."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero excelencia técnica y ventaja competitiva no son sinónimos.",
+        "en": "But technical excellence and competitive advantage aren't the same thing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Una producción pequeña puede alcanzar un nivel profesional suficiente y, a partir de ahí, invertir sus recursos en aquello que el dinero no puede comprar: una propuesta singular.",
+        "en": "A small production can reach a sufficient professional standard and, from there, invest its resources in what money can't buy: a singular vision."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El problema aparece cuando el criterio rector se convierte en darle gusto al espectador.",
+        "en": "The problem arises when the guiding criterion becomes pleasing the audience."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ese criterio es prácticamente imposible desde la trinchera independiente.",
+        "en": "That criterion is nearly impossible to meet from the independent trench."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "¿A qué espectador?",
+        "en": "Which audience?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Uno quiere acción; otro, contemplación.",
+        "en": "One wants action; another, contemplation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Uno quiere actores conocidos; otro, rostros nuevos.",
+        "en": "One wants recognizable actors; another, new faces."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Uno quiere que todo quede explicado; otro quiere ambigüedad.",
+        "en": "One wants everything explained; another wants ambiguity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Uno quiere una fotografía impecable; otro prefiere crudeza.",
+        "en": "One wants flawless cinematography; another prefers rawness."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Uno quiere una narrativa convencional; otro quiere ser sorprendido.",
+        "en": "One wants a conventional narrative; another wants to be surprised."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No existe “el espectador”.",
+        "en": "There's no such thing as “the audience.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Existen espectadores.",
+        "en": "There are audiences."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y, además, existe un espectador formado durante décadas por Hollywood.",
+        "en": "And, in addition, there's an audience shaped over decades by Hollywood."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ese espectador llega esperando determinadas convenciones.",
+        "en": "That audience arrives expecting certain conventions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Tiene derecho a esperarlas.",
+        "en": "It has every right to expect them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero de ahí no se desprende que el cine independiente tenga que satisfacerlas.",
+        "en": "But it doesn't follow that independent cinema has to satisfy them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Aquí aparece una confusión especialmente dañina:",
+        "en": "Here a particularly damaging confusion appears:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "no molestar al espectador no es lo mismo que darle gusto.",
+        "en": "not bothering the audience isn't the same as pleasing it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No molestar puede ser una consideración de cortesía.",
+        "en": "Not bothering can be a matter of courtesy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Darle gusto es convertir la satisfacción del receptor en criterio de construcción de la obra.",
+        "en": "Pleasing turns the audience's satisfaction into the criterion for building the work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Una cosa es no introducir obstáculos gratuitos a la experiencia.",
+        "en": "It's one thing not to introduce gratuitous obstacles to the experience."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Otra es modificar la obra para evitar cualquier posibilidad de rechazo.",
+        "en": "It's another to alter the work to avoid any possibility of rejection."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Cuando esto último ocurre, el miedo comienza a gobernar.",
+        "en": "When the second happens, fear starts to govern."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Existe además una resistencia que no discute la obra.",
+        "en": "There's also a kind of resistance that doesn't argue with the work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No pregunta si es buena.",
+        "en": "It doesn't ask whether it's good."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pregunta de dónde salió la autoridad para hacerla.",
+        "en": "It asks where the authority to make it came from."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es la pregunta más antigua de cualquier gremio: ¿pasó por el ritual que los demás tuvieron que pasar?",
+        "en": "It's the oldest question of any guild: did you go through the ritual the rest of us had to go through?"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "A veces esa pregunta busca calidad, o profesionalización, o simplemente cuidar un oficio.",
+        "en": "Sometimes that question is really about quality, or professionalization, or simply protecting a craft."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero a veces deja de ser sobre la obra y se convierte en una pregunta sobre la legitimidad de quien se atrevió a hacerla.",
+        "en": "But sometimes it stops being about the work and becomes a question about the legitimacy of whoever dared to make it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ahí ya no busca mejorar nada. Busca restaurar un orden: el de que nadie llegue a ningún lado sin pasar por donde otros ya pasaron.",
+        "en": "At that point it's no longer trying to improve anything. It's trying to restore an order: that no one gets anywhere without passing through where others already passed."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Lo curioso es que las credenciales casi nunca son el problema real.",
+        "en": "The curious thing is that credentials are almost never the real problem."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El problema aparece cuando, aun teniéndolas, el ritual se redefine sobre la marcha para que la respuesta siga siendo no.",
+        "en": "The problem appears when, even with them in hand, the ritual gets redefined on the fly so the answer can keep being no."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "“Sí, pero es independiente.”",
+        "en": "“Yes, but it's independent.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Esa frase no describe un hecho. Describe un ritual que encontró, justo a tiempo, la siguiente puerta que cerrar.",
+        "en": "That phrase doesn't describe a fact. It describes a ritual that found, just in time, the next door to close."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ante eso, mi respuesta ha sido siempre la misma.",
+        "en": "Faced with that, my answer has always been the same."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El sistema se resiste. Yo lo rebaso por la derecha.",
+        "en": "The system resists. I pass it on the right."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No por romper la regla. Por usar el carril que el sistema, sin querer, dejó abierto.",
+        "en": "Not by breaking the rule. By using the lane the system, without meaning to, left open."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La libertad de creación no se pide: se ejerce.",
+        "en": "Creative freedom isn't asked for: it's exercised."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y el miedo lleva a la autocensura.",
+        "en": "And fear leads to self-censorship."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "“Autocensurarme y vender las nalgas en Madero son lo mismo”, dije alguna vez a un reportero que me preguntaba si no había tomado demasiados riesgos.",
+        "en": "“Self-censoring and selling my body on the corner are the same thing,” I once told a reporter who asked whether I hadn't taken too many risks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No por la actividad. Por quién gobierna la decisión. Vender el cuerpo por decisión propia puede ser digno. Vender el arte por miedo, no.",
+        "en": "Not because of the act itself. Because of who governs the decision. Selling your body by your own choice can be dignified. Selling your art out of fear cannot."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La autocensura parece prudencia porque evita ciertos riesgos.",
+        "en": "Self-censorship looks like prudence because it avoids certain risks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero solamente evita algunos.",
+        "en": "But it only avoids some of them."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El cineasta que elimina todo aquello que puede disgustar al espectador también elimina aquello que puede sorprenderlo, incomodarlo o permanecer en su memoria.",
+        "en": "The filmmaker who eliminates everything that might displease the audience also eliminates everything that might surprise it, unsettle it, or stay in its memory."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Así aparece una paradoja:",
+        "en": "And so a paradox appears:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El intento de reducir el riesgo puede producir el mayor riesgo posible para un creador: la irrelevancia.",
+        "en": "the attempt to reduce risk can produce the greatest risk a creator can face: irrelevance."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Un autor dominado por el miedo probablemente no se equivocará demasiado.",
+        "en": "An author ruled by fear will probably not make too many mistakes."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y ése es precisamente el problema.",
+        "en": "And that's exactly the problem."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Puede hacer una obra correcta, profesional, razonable, comprensible y aceptable.",
+        "en": "He can make a correct, professional, reasonable, understandable, acceptable work."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "También puede hacer una obra que nadie recuerde.",
+        "en": "He can also make a work no one remembers."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El autor que arriesga tiene dos posibilidades:",
+        "en": "The author who takes risks has two possible outcomes:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "puede hundirse en la mierda o puede ser memorable.",
+        "en": "he can sink into failure, or he can become memorable."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El que no arriesga puede evitar ambas cosas.",
+        "en": "The one who doesn't take risks can avoid both."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Puede simplemente permanecer en el montón.",
+        "en": "He can simply stay in the pile."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La diferencia tampoco está en la imprudencia.",
+        "en": "The difference isn't about recklessness either."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Un creador no necesita hacer cualquier cosa para demostrar que tiene libertad. Puede ejercer su libertad precisamente decidiendo no hacerla.",
+        "en": "A creator doesn't need to do just anything to prove he has freedom. He can exercise that freedom precisely by choosing not to."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La cuestión es quién gobierna esa decisión.",
+        "en": "The question is who governs that decision."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Si un creador decide:",
+        "en": "If a creator decides:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "“No quiero hacer esto.”",
+        "en": "“I don't want to do this.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Hay autonomía.",
+        "en": "There is autonomy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Si decide:",
+        "en": "If he decides:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "“Quería hacerlo, pero no me atrevo porque temo lo que van a decir.”",
+        "en": "“I wanted to do it, but I don't dare, because I'm afraid of what people will say.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La situación es distinta.",
+        "en": "The situation is different."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El miedo no le quitó formalmente la libertad.",
+        "en": "Fear didn't formally take away his freedom."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Consiguió que la entregara.",
+        "en": "It got him to hand it over."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y ahí aparece una cuestión más profunda: la dignidad.",
+        "en": "And here a deeper question appears: dignity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La dignidad humana se funda en la autonomía: en la capacidad de gobernar los propios grados de libertad dentro del ámbito en que se es libre.",
+        "en": "Human dignity is grounded in autonomy: in the capacity to govern one's own degrees of freedom within the sphere in which one is free."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Reducir voluntariamente esos grados de libertad no disminuye la autonomía. Cuando la reducción es una decisión propia, es exactamente lo contrario: un ejercicio de autonomía.",
+        "en": "Voluntarily narrowing those degrees of freedom doesn't diminish autonomy. When the narrowing is one's own decision, it's exactly the opposite: an exercise of autonomy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Hay acotamientos que son dignos.",
+        "en": "Some forms of self-limitation are dignified."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La generosidad acota. El sacrificio acota. La compasión, la responsabilidad, el amor, la disciplina, incluso la renuncia: todos acotan.",
+        "en": "Generosity limits. Sacrifice limits. Compassion, responsibility, love, discipline, even renunciation: all of them limit."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Una persona puede tener la libertad de hacer algo y decidir no hacerlo, precisamente porque reconoce algo que considera superior a su interés inmediato.",
+        "en": "A person can have the freedom to do something and decide not to do it, precisely because they recognize something they consider more important than their immediate interest."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Eso no disminuye su dignidad.",
+        "en": "That doesn't diminish their dignity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La expresa.",
+        "en": "It expresses it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero hay otro tipo de acotamiento, que se le parece por fuera y es su opuesto por dentro.",
+        "en": "But there's another kind of limitation, one that looks the same from the outside and is its opposite on the inside."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es el que ocurre cuando otra voluntad consigue gobernar la decisión, aunque lo haga desde adentro: por coerción, por miedo, por presión social internalizada.",
+        "en": "It's what happens when another will manages to govern the decision, even if it does so from within: through coercion, through fear, through internalized social pressure."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ahí la persona puede incluso creer que está eligiendo libremente.",
+        "en": "There, a person may even believe they're choosing freely."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La pregunta no es si cree que elige.",
+        "en": "The question isn't whether they believe they're choosing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es qué está gobernando realmente la decisión.",
+        "en": "It's what is actually governing the decision."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El acotamiento digno dice: “Podría hacer esto, pero elijo no hacerlo.”",
+        "en": "Dignified self-limitation says: “I could do this, but I choose not to.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El indigno dice: “Podría hacer esto, pero no me atrevo, porque temo lo que otro puede imponerme.”",
+        "en": "The undignified kind says: “I could do this, but I don't dare, because I'm afraid of what someone else might impose on me.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La diferencia puede parecer pequeña desde afuera.",
+        "en": "The difference may look small from outside."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es enorme.",
+        "en": "It's enormous."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y hay que decir esto con toda claridad, porque la conclusión contraria sería perversa: la dignidad no exige ejercer siempre el máximo de libertad disponible.",
+        "en": "And this has to be said with total clarity, because the opposite conclusion would be perverse: dignity doesn't require always exercising the maximum freedom available."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Eso convertiría la libertad en obligación, y terminaría destruyendo la misma autonomía que se pretende proteger.",
+        "en": "That would turn freedom into an obligation, and would end up destroying the very autonomy it claims to protect."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La autonomía incluye el derecho a limitarse a uno mismo.",
+        "en": "Autonomy includes the right to limit oneself."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Lo incompatible con la dignidad no es limitarse.",
+        "en": "What's incompatible with dignity isn't self-limitation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es que el gobierno de esa limitación sea arrebatado por una voluntad ajena.",
+        "en": "It's having the governance of that limitation seized by a will that isn't one's own."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La cuestión, entonces, no está en el resultado de la decisión.",
+        "en": "The issue, then, isn't the outcome of the decision."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Está en quién conserva su gobierno.",
+        "en": "It's who retains governance over it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No es lo mismo callar por miedo que callar por elección.",
+        "en": "Staying silent out of fear isn't the same as staying silent by choice."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "A lo segundo lo llamo: acotamiento digno.",
+        "en": "I call the second one: dignified self-limitation."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El cineasta ya no necesita que alguien le diga:",
+        "en": "The filmmaker no longer needs someone to tell him:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "“No hagas eso.”",
+        "en": "“Don't do that.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Él mismo empieza a decirlo.",
+        "en": "He starts saying it to himself."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y entonces deja de utilizar la libertad que constituye su principal ventaja estructural.",
+        "en": "And at that point he stops using the very freedom that constitutes his main structural advantage."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La imagen puede extenderse a cualquier creador.",
+        "en": "The image can extend to any creator."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El cantante.",
+        "en": "The singer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El pintor.",
+        "en": "The painter."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El músico.",
+        "en": "The musician."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El escritor.",
+        "en": "The writer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El científico.",
+        "en": "The scientist."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El problema es el mismo cuando alguien con poco capital financiero intenta competir con quienes poseen mucho más capital utilizando como referencia aquello que los grandes pueden comprar.",
+        "en": "The problem is the same whenever someone with little financial capital tries to compete against those who hold far more capital, using as the benchmark what the big players can afford to buy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El creador pequeño no es necesariamente pobre.",
+        "en": "The small creator isn't necessarily poor."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Tiene otro tipo de capital.",
+        "en": "He has another kind of capital."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La libertad es capital.",
+        "en": "Freedom is capital."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La autonomía es capital.",
+        "en": "Autonomy is capital."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La capacidad de experimentar es capital.",
+        "en": "The capacity to experiment is capital."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La posibilidad de equivocarse es capital.",
+        "en": "The possibility of being wrong is capital."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La posibilidad de hacer algo que nadie más está dispuesto a hacer es capital.",
+        "en": "The possibility of doing something no one else is willing to do is capital."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero existe un botón de autodestrucción:",
+        "en": "But there's a self-destruct button:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El miedo.",
+        "en": "Fear."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Si alguien permanece sentado en una esquina, efectivamente no lo atropellará un camión.",
+        "en": "If someone stays sitting on a corner, it's true a truck won't run him over."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero tampoco conocerá la ciudad.",
+        "en": "But he won't know the city either."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Por eso el problema del cine independiente no es que sea pequeño.",
+        "en": "That's why the problem with independent cinema isn't that it's small."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es que demasiadas veces actúa como si ser pequeño significara tener poco que ofrecer.",
+        "en": "It's that too often it acts as if being small meant having little to offer."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Tengo una opinión sobre esto, y la digo sin diplomacia.",
+        "en": "I have an opinion about this, and I'll say it without diplomacy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Si los cineastas independientes se atrevieran a arriesgar juntos, como se atrevió la generación de Godard, no estaríamos discutiendo si el cine local es mediocre.",
+        "en": "If independent filmmakers dared to take risks together, the way Godard's generation dared to, we wouldn't be arguing over whether local cinema is mediocre."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Estaríamos discutiendo por qué el mundo empezó a mirar hacia acá.",
+        "en": "We'd be arguing over why the world started looking this way."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Conquistar el mundo siempre empieza en lo local.",
+        "en": "Conquering the world always starts locally."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y quizá ésa sea la verdadera tragedia:",
+        "en": "And maybe that's the real tragedy:"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No que el cineasta independiente no pueda competir con Hollywood,",
+        "en": "not that the independent filmmaker can't compete with Hollywood,"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "sino que pueda competir en otra cosa y tenga miedo de hacerlo.",
+        "en": "but that he could compete at something else, and is afraid to."
+      }
+    }
+  ]
+}

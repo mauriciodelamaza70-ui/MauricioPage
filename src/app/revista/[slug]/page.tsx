@@ -1,21 +1,36 @@
 import type { Metadata } from 'next';
-import type { ComponentType } from 'react';
+import { Fragment, type ComponentType } from 'react';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { posts, siteConfig } from '@/lib/data';
+import type { AcademicFields, Post } from '@/lib/types';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { FacebookIcon, LinkedinIcon } from '@/components/icons';
 import { PostContent } from '@/components/common/PostContent';
 import BarrerasEssay from '@/components/pages/revista/BarrerasEssay';
 import EntesEcoEssay from '@/components/pages/revista/EntesEcoEssay';
 import NarrativaRazonEssay from '@/components/pages/revista/NarrativaRazonEssay';
+import RiesgoArriesgarEssay from '@/components/pages/revista/RiesgoArriesgarEssay';
+import IaTrampaPerroEssay from '@/components/pages/revista/IaTrampaPerroEssay';
+import TeleologiaEssay from '@/components/pages/revista/TeleologiaEssay';
+import NiTantoSantoEssay from '@/components/pages/revista/NiTantoSantoEssay';
+import PlataformasDigitalesEssay from '@/components/pages/revista/PlataformasDigitalesEssay';
+import { AcademicBlock } from '@/components/pages/revista/AcademicBlock';
+
+/** En ensayos HTML, marca dónde va el bloque académico: el primero en español, el segundo en inglés. */
+const ACADEMIC_MARKER = '<!--academic-->';
 
 /** Ensayos bilingües con selector de idioma que se renderizan con un componente propio. */
-const BILINGUAL_ESSAYS: Record<string, ComponentType> = {
+const BILINGUAL_ESSAYS: Record<string, ComponentType<{ academic?: AcademicFields }>> = {
   'barreras-de-entrada': BarrerasEssay,
   'el-mundo-de-los-entes-eco': EntesEcoEssay,
   'narrativa-como-sustituto-de-la-razon': NarrativaRazonEssay,
+  'el-riesgo-de-no-arriesgar': RiesgoArriesgarEssay,
+  'la-ia-y-la-trampa-del-perro': IaTrampaPerroEssay,
+  'teleologia-conciencia-y-sentido': TeleologiaEssay,
+  'ni-tanto-que-queme-al-santo': NiTantoSantoEssay,
+  'plataformas-digitales': PlataformasDigitalesEssay,
 };
 
 type PageProps = {
@@ -55,6 +70,26 @@ function getAbsoluteImageUrl(imageUrl?: string): string {
   return imageUrl.startsWith('http') ? imageUrl : `${siteConfig.url}${imageUrl}`;
 }
 
+/** Metaetiquetas Highwire/Dublin Core para Google Scholar. Solo si el artículo tiene DOI. */
+function getScholarMeta(post: Post, postUrl: string): Record<string, string> | undefined {
+  if (!post.doi) return undefined;
+  const meta: Record<string, string> = {
+    citation_title: post.citationTitle ?? post.title,
+    citation_author: 'De la Maza-Benignos, Mauricio',
+    citation_publication_date: toIsoDate(post.date).replaceAll('-', '/'),
+    citation_doi: post.doi,
+    citation_abstract_html_url: postUrl,
+    citation_language: 'es',
+    citation_publisher: 'Zenodo',
+    'DC.identifier': `doi:${post.doi}`,
+  };
+  if (post.localPdfUrl) meta.citation_pdf_url = `${siteConfig.url}${post.localPdfUrl}`;
+  else if (post.pdfUrl) meta.citation_pdf_url = post.pdfUrl.split('?')[0];
+  if (post.keywordsEs?.length) meta.citation_keywords = post.keywordsEs.join('; ');
+  if (post.license) meta['DC.rights'] = post.license.name;
+  return meta;
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
   const post = posts.find((p) => p.slug === slug);
@@ -81,9 +116,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ...(imageType ? { type: imageType } : {}),
   };
 
+  const scholarMeta = getScholarMeta(post, postUrl);
+
   return {
     title: post.title,
     description: post.excerpt,
+    ...(scholarMeta ? { other: scholarMeta } : {}),
     alternates: {
       canonical: postUrl,
     },
@@ -191,7 +229,22 @@ export default async function PostPage({ params }: PageProps) {
 
       <article className="py-24">
         <div className="container mx-auto px-4">
-            {BilingualEssay ? <BilingualEssay /> : <PostContent html={post.content} />}
+            {BilingualEssay ? (
+              <BilingualEssay academic={post.doi ? post : undefined} />
+            ) : post.doi && post.content.includes(ACADEMIC_MARKER) ? (
+              post.content.split(ACADEMIC_MARKER).map((html, i) => (
+                <Fragment key={i}>
+                  {i > 0 && (
+                    <div className="max-w-4xl mx-auto">
+                      <AcademicBlock data={post} lang={i === 1 ? 'es' : 'en'} />
+                    </div>
+                  )}
+                  <PostContent html={html} />
+                </Fragment>
+              ))
+            ) : (
+              <PostContent html={post.content} />
+            )}
 
             <div className="max-w-4xl mx-auto mt-16 border-t pt-8">
               <div className="flex items-center justify-between">

@@ -1,6 +1,53 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { navLinks, socialLinks, professionalLinks, productionLinks, musicLinks } from '@/lib/data';
+import {
+  navLinks,
+  socialLinks,
+  filmProfessionalLinks,
+  academicProfessionalLinks,
+  otherProfessionalLinks,
+  filmography,
+  musicLinks,
+} from '@/lib/data';
+import type { SocialLink } from '@/lib/types';
+
+const professionalGroups = [
+  { title: 'Cine', links: filmProfessionalLinks },
+  { title: 'Académico', links: academicProfessionalLinks },
+];
+
+function FooterLinkList({ links }: { links: SocialLink[] }) {
+  return (
+    <ul className="space-y-3">
+      {links.map((link) => {
+        const isOrcid = link.name === 'ORCID';
+        return (
+          <li key={link.name}>
+            <a
+              href={link.href}
+              target="_blank"
+              rel={isOrcid ? 'me noopener noreferrer' : 'noopener noreferrer'}
+              className="text-sm hover:text-accent transition-colors"
+            >
+              {isOrcid && (
+                // eslint-disable-next-line @next/next/no-img-element
+                <img
+                  src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+                  alt="ORCID iD icon"
+                  width={16}
+                  height={16}
+                  className="inline-block mr-1 align-[-0.125em]"
+                  style={{ width: '1em', height: '1em' }}
+                />
+              )}
+              {link.name}
+            </a>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
 
 export default function Footer() {
   return (
@@ -34,14 +81,16 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Col 2: Películas */}
+          {/* Col 2: Filmografía */}
           <div className="space-y-6">
-            <h3 className="font-headline text-xl font-semibold text-white">Películas</h3>
+            <h3 className="font-headline text-xl font-semibold text-white">
+              <Link href="/filmografia" className="hover:text-accent transition-colors">Filmografía</Link>
+            </h3>
             <ul className="space-y-3">
-              {productionLinks.map((link) => (
-                <li key={link.href}>
-                  <Link href={link.href} target="_blank" rel="noopener noreferrer" className="text-sm hover:text-accent transition-colors">
-                    {link.name}
+              {filmography.map((film) => (
+                <li key={film.slug}>
+                  <Link href={`/filmografia#${film.slug}`} className="text-sm hover:text-accent transition-colors">
+                    {film.footerName}
                   </Link>
                 </li>
               ))}
@@ -52,21 +101,13 @@ export default function Footer() {
           <div className="space-y-8">
             <div className="space-y-6">
               <h3 className="font-headline text-xl font-semibold text-white">Profesional</h3>
-              <ul className="space-y-3">
-                {professionalLinks.map((social) => (
-                  <li key={social.name}>
-                    <a
-                      href={social.href}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm hover:text-accent transition-colors"
-                      aria-label={social.name}
-                    >
-                      {social.name}
-                    </a>
-                  </li>
-                ))}
-              </ul>
+              {professionalGroups.map((group) => (
+                <div key={group.title} className="space-y-4">
+                  <h4 className="text-xs uppercase tracking-[0.2em] text-accent font-bold">{group.title}</h4>
+                  <FooterLinkList links={group.links} />
+                </div>
+              ))}
+              <FooterLinkList links={otherProfessionalLinks} />
             </div>
             
             <div className="space-y-4">

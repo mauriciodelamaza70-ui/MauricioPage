@@ -42,7 +42,27 @@ export default function HistoryTimeline() {
                 <div className="absolute top-0 left-0 w-full h-px bg-border -z-10"></div>
                 <div className="absolute top-0 left-0 -translate-y-1/2 w-3 h-3 bg-accent rounded-full"></div>
                 <p className="font-bold text-lg mb-2 pt-5">{event.year}</p>
-                <p className="text-sm text-muted-foreground">{event.description}</p>
+                <p className="text-sm text-muted-foreground">
+                  {event.href && event.linkText && event.description.includes(event.linkText)
+                    ? (() => {
+                        const [before, after] = event.description.split(event.linkText);
+                        return (
+                          <>
+                            {before}
+                            <a
+                              href={event.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="underline underline-offset-2 hover:text-foreground transition-colors"
+                            >
+                              {event.linkText}
+                            </a>
+                            {after}
+                          </>
+                        );
+                      })()
+                    : event.description}
+                </p>
               </div>
             </div>
           ))}

@@ -1,0 +1,630 @@
+{
+  "es": {
+    "title": "Plataformas digitales: un poder sin rostro y sin rendición de cuentas",
+    "subtitle": "Que dejen de ser asteroides",
+    "disclaimer": "Los casos de este ensayo se plantean como hipótesis. Ninguno está fuera de lo que sucede con regularidad.",
+    "body": [
+      {
+        "type": "h",
+        "html": "I. El asteroide"
+      },
+      {
+        "type": "p",
+        "html": "Supongamos que filmo una obra de teatro en la que matan a alguien y la subo a YouTube. No es una obra que celebre la violencia: la cuestiona, la desarma, la pone frente al espectador para que no pueda mirar hacia otro lado. La plataforma decide que incita a la violencia."
+      },
+      {
+        "type": "p",
+        "html": "No hay un juez. No hay expediente, ni plazo, ni un argumento que pueda contestar. Hay un aviso, un botón de apelación y una respuesta que, como la primera, no viene firmada por nadie. La empresa que me acusa es la misma que resuelve mi defensa. Juez y parte."
+      },
+      {
+        "type": "p",
+        "html": "Una decisión de moderación no se siente como una resolución legal, sino como un meteorito que te cayó encima sin que puedas reclamarle a la gravedad."
+      },
+      {
+        "type": "p",
+        "html": "Tampoco hace falta imaginar mucho. Cualquier músico que publica en la plataforma conoce los reclamos de Content ID contra su propia música: música que compuso, grabó y publicó. Un sistema automático le informa que lo suyo quizá no sea suyo, y lo invita a demostrarlo ante el mismo sistema."
+      },
+      {
+        "type": "p",
+        "html": "No escribo esto como queja de creador. Lo escribo como abogado que no sabe a quién demandar."
+      },
+      {
+        "type": "p",
+        "html": "Las decisiones de las plataformas llegan como llegan los fenómenos naturales: sin interlocutor, sin razones, sin apelación externa. Como un asteroide. Detrás hay voluntad, personas, políticas e intereses, pero para el ciudadano y para el Estado es como si no los hubiera. Lo que convierte a una empresa en asteroide no es su tamaño. Es que nadie la puede obligar."
+      },
+      {
+        "type": "p",
+        "html": "Y sin embargo, a diferencia de un asteroide, a una plataforma sí se le puede obligar. Basta con hacerla alcanzable."
+      },
+      {
+        "type": "p",
+        "html": "Mi tesis es sencilla: hemos construido un sistema jurídico que reconoce derechos frente al poder público, pero que no ha desarrollado mecanismos equivalentes frente a poderes privados que ejercen funciones materialmente públicas. Las plataformas dominantes son de interés público como hecho; la doctrina las clasifica como empresas privadas sin obligaciones de interés público. Eso no es su naturaleza. Es una decisión. Y lo que una decisión clasifica, otra puede reclasificarlo. El problema no es una empresa en particular, sino un poder que no rinde cuentas."
+      },
+      {
+        "type": "h",
+        "html": "II. Fuera de alcance"
+      },
+      {
+        "type": "p",
+        "html": "Planteo un caso como hipótesis, aunque cualquiera que haya litigado en esto lo reconocerá. Un comunicador argentino, radicado en Miami, publica en YouTube una serie de programas sobre un personaje famoso en México y sus supuestas amantes. Las nombra. Publica sus fotografías."
+      },
+      {
+        "type": "p",
+        "html": "Una de ellas reclama a la plataforma. La plataforma no responde. Acude a la justicia mexicana, donde vive y donde se produce el daño. El procedimiento puede avanzar, pero el responsable está en Miami y hacerlo comparecer exige recurrir a mecanismos de cooperación internacional: solicitudes a autoridades extranjeras, traducciones, meses de trámite y un costo que ella no puede pagar. Conseguir que una autoridad mexicana intervenga no significa que pueda hacer efectiva su decisión al otro lado de la frontera. Litigar en Estados Unidos tampoco parece una opción: no tiene visa y, aunque un abogado pudiera representarla allá, el costo, los estándares de la Primera Enmienda y la protección que la ley estadounidense da a las plataformas convierten esa vía en una puerta pintada en la pared."
+      },
+      {
+        "type": "p",
+        "html": "Al final lo deja. No pierde el juicio: nunca consigue llevarlo a una instancia donde pueda obtener una respuesta efectiva. Y mientras tanto, el programa sigue en línea."
+      },
+      {
+        "type": "p",
+        "html": "Si esa misma serie la hubiera transmitido un canal local, la historia sería otra. El canal tiene domicilio, concesión y responsables con nombre. Existe el derecho de réplica. El emplazamiento es un actuario tocando una puerta. Mismo contenido, mismo daño, mismas víctimas. Lo único que cambió fue el medio, y con él desapareció toda posibilidad de rendición de cuentas."
+      },
+      {
+        "type": "p",
+        "html": "El patrón se repite en cualquier dirección que se mire. Si mañana demandara a YouTube México por violar una ley mexicana, aunque fuera una ley absurda, me responderían que la filial solo vende publicidad y que el servicio lo opera Google LLC, en California, conforme a sus términos. No es una excusa geográfica: es una arquitectura corporativa. Suecia castiga desde el 1 de julio de 2025 a quien paga por actos sexuales en línea y a quien lucra con ellos como intermediario, nunca a quien los realiza;<sup><a href=\"#es-nota-1\" id=\"es-ref-1\" aria-label=\"Nota 1\">1</a></sup> en el papel, eso alcanza a la plataforma, pero en la práctica solo alcanza a su propio ciudadano, que con un VPN se le escapa, mientras Dinamarca, al otro lado del puente, no castiga a quien paga. El contenido es el mismo, la plataforma es la misma y la creadora puede ser la misma; lo único que cambia al cruzar el puente es si quien paga comete un delito. Corea del Sur, en cambio, optó por bloquear el acceso a sitios extranjeros completos desde su propia red, cuando no podía actuar eficazmente sobre sus operadores. En 2019 llegó a bloquear 895 sitios, incluso en conexiones cifradas. Lo hizo con el costo de ser acusada de censura.<sup><a href=\"#es-nota-2\" id=\"es-ref-2\" aria-label=\"Nota 2\">2</a></sup> Texas, por su parte, logró imponer su ley de verificación de edad a los sitios pornográficos: puede hacerlo porque el peso de su mercado y de su sistema jurídico hace que a las empresas que operan en él les resulte más conveniente cumplir, o incluso retirarse, que enfrentarse al Estado.<sup><a href=\"#es-nota-3\" id=\"es-ref-3\" aria-label=\"Nota 3\">3</a></sup> Un estado de la Unión Americana tiene más poder real sobre una plataforma que un país de 130 millones de habitantes."
+      },
+      {
+        "type": "p",
+        "html": "Conviene no confundir el problema. El muro jurisdiccional, en sí mismo, es legítimo. Si contrato a una actriz de dieciocho años para filmar una película en Jalisco y le sirvo tequila, ella no puede demandarme en Los Ángeles porque allá la edad para beber es de 21. El acto fue legal donde ocurrió. Eso es soberanía en su forma más sana. El problema no es el muro. El problema es que la plataforma lo atraviesa en un solo sentido: la ley de California no puede alcanzarme por servir tequila en Jalisco, pero los criterios de una empresa californiana sí deciden qué pueden ver los mexicanos, en México."
+      },
+      {
+        "type": "p",
+        "html": "Por eso la solución no pasa por la extraterritorialidad, sino por algo mucho más antiguo: la territorialidad. México no necesita perseguir a los dueños extranjeros ni aplicar su ley fuera de sus fronteras. Le basta con regular la actividad que se explota y produce efectos en su territorio. Quien administra legalmente un burdel en un condado rural de Nevada no puede abrir otro en Jordania, y Jordania puede cerrarlo sin tener que detenerlo en Nevada. Si importamos carne contaminada de Australia, el consumidor no demanda al rastro australiano: hay un importador que responde aquí. La legalidad de una actividad en el país de origen no determina su legalidad en el territorio donde se explota."
+      },
+      {
+        "type": "p",
+        "html": "Hoy ocurre lo contrario. Lo que publicamos pasa primero el filtro de la ley estadounidense, que la empresa respeta porque la obliga. Después, el de sus políticas internas, que responden a anunciantes y reputación. Al final, si el asunto no es grave y casi siempre solo bajo presión política, el de la ley mexicana. Es una pirámide de Kelsen invertida. No formalmente —ningún juez diría que los términos de servicio están por encima del artículo 133<sup><a href=\"#es-nota-4\" id=\"es-ref-4\" aria-label=\"Nota 4\">4</a></sup>—, sino en la experiencia del ciudadano, que es donde los derechos se viven o se pierden. Dicho sin tecnicismos: en la práctica, lo que decide la empresa pesa más que lo que dice la Constitución."
+      },
+      {
+        "type": "h",
+        "html": "III. Fuera de evaluación"
+      },
+      {
+        "type": "p",
+        "html": "Los derechos fundamentales no son absolutos. Están garantizados, pero pueden restringirse: el artículo 1o. constitucional dice que solo en los casos y condiciones que la propia Constitución establezca.<sup><a href=\"#es-nota-5\" id=\"es-ref-5\" aria-label=\"Nota 5\">5</a></sup> Lo que los protege no es estar fuera del alcance del Estado, sino que toda restricción tiene que pasar una evaluación: legalidad, fin legítimo, idoneidad, necesidad, proporcionalidad. Y un juez que revisa."
+      },
+      {
+        "type": "p",
+        "html": "Una ley que prohibiera mostrar las uñas en público se evaluaría y no pasaría la prueba. La decisión de YouTube sobre mi obra no la evalúa nadie. El problema no es que la plataforma esté por encima del Estado. Es que está fuera del sistema de evaluación. Las garantías de los artículos 6o. y 7o. se diseñaron para mirar al Estado; la censura se mudó a un particular, y las garantías se quedaron mirando al Estado."
+      },
+      {
+        "type": "p",
+        "html": "En medicina se toleran los falsos positivos, pero por una razón precisa: no se actúa sobre ellos sin confirmar. A quien da un falso positivo de cáncer no se le amputa la pierna; se le hace una segunda prueba. La sospecha activa la verificación, no la sanción. En las plataformas ocurre al revés: el algoritmo sospecha, la sanción se ejecuta y la verificación, si llega, corre por cuenta del afectado."
+      },
+      {
+        "type": "p",
+        "html": "Pensemos en Pedro. Alguien lo golpea porque, por su apariencia, cree que va a asaltar a una anciana. La buena fe de quien golpea puede graduar su responsabilidad, pero no convierte la sospecha en hecho ni borra el daño. Y aunque Pedro sí tuviera esa intención, no se le puede romper la cara preventivamente por una predicción. El derecho conoce la legítima defensa frente a una agresión real, actual o inminente; no conoce la sanción por sospecha. La vieja fórmula de Blackstone —mejor que escapen diez culpables a que sufra un inocente—<sup><a href=\"#es-nota-6\" id=\"es-ref-6\" aria-label=\"Nota 6\">6</a></sup> no es sentimentalismo: es una decisión de diseño. Un sistema que acepta sacrificar inocentes en nombre de la eficiencia no es más seguro; es menos justo. Quien elige automatizar decisiones que afectan derechos debería asumir el riesgo del error, en lugar de trasladarlo al ciudadano inocente."
+      },
+      {
+        "type": "p",
+        "html": "Los falsos positivos, además, no se reparten al azar. Los derechos tienen una función contramayoritaria: existen para proteger al que queda fuera. Una plataforma está diseñada para lo contrario: optimiza para el promedio y para lo que tolera el anunciante. Y su lectura del lenguaje no es neutral: los sistemas de moderación aprendieron sobre todo en inglés, con la historia racial de otro país."
+      },
+      {
+        "type": "p",
+        "html": "Mi perro se llama Negrito. “Negrito” es pura descripción: el perro es negro. “Esto está en chino” no alude a ningún chino; significa que algo es dificilísimo. “Oye, pinche negro, vamos a cenar”, entre dos amigos de Minatitlán, es un apodo de cariño, con un matiz que en México sí se discute y que vale la pena discutir. Una mujer en Mississippi que le grita esa palabra a un hombre negro reproduce siglos de violencia. En los cuatro casos aparece una palabra que un filtro puede marcar. Solo el último es claramente un agravio. Un juez distingue los cuatro sin esfuerzo, porque su oficio es leer el contexto; nuestra Suprema Corte lo ha hecho, con argumentos públicos, al decidir cuándo ciertas palabras son expresiones de odio.<sup><a href=\"#es-nota-7\" id=\"es-ref-7\" aria-label=\"Nota 7\">7</a></sup> Un clasificador corre el riesgo de tratarlos igual, porque su oficio es encontrar patrones. Y si el debate sobre un apodo le corresponde a alguien, es a la sociedad mexicana, no a un modelo entrenado en California."
+      },
+      {
+        "type": "p",
+        "html": "Entonces llega lo más grave: la gente empieza a hablar para el algoritmo. Nadie va a hacer tres apelaciones porque el perro se llama Negrito. Mejor le pone Prietito. Pero Prietito está a un ajuste del algoritmo de volverse sospechoso, y luego viene Oscurito, y a la vuelta de cinco años termina llamándose Sombrita. Ninguna ley prohibió nada. Apelar cuesta tiempo y monetización; renombrar no cuesta nada. La autocensura no se detiene en un cambio, porque quien la ejerce nunca sabe dónde está la línea y se aleja cada vez más de ella. El perro sigue igual de negro. Lo único que se borró fue la palabra."
+      },
+      {
+        "type": "p",
+        "html": "El derecho ya conoce ese daño. Lo llama efecto inhibidor, y basta para declarar inconstitucional una ley vaga aunque no haya sancionado a nadie. Pero solo lo reconoce cuando lo causa el Estado. Cuando lo causa una política corporativa, el daño es el mismo y nadie lo atiende. Lo mismo vale para la protección más elemental: si en aquella serie de Miami una de las mujeres nombradas fuera menor de edad, la ley mexicana la protegería expresamente; en la plataforma, esa protección dependería de la buena disposición de una empresa extranjera."
+      },
+      {
+        "type": "h",
+        "html": "IV. ¿Quién es?"
+      },
+      {
+        "type": "p",
+        "html": "La ley obliga porque, en teoría, la escribe quien la obedece. Es una ficción —el constituyente es el pueblo a través de sus representantes—, pero una ficción que sostiene la legitimidad de todo el sistema. Detrás de las reglas de una plataforma no hay un pueblo, sino accionistas. Los usuarios no somos constituyentes; somos adherentes. Las reglas cambian con un correo que nos avisa que, si seguimos usando el servicio, aceptamos. Y el accionista tiene como primer fin lucrar: la ley le resulta obligatoria, pero secundaria; un costo de operación. Frente a la plataforma, además, el ciudadano ocupa tres lugares a la vez: es consumidor, es proveedor de contenido y es producto. El Estado apenas lo protege en el primero."
+      },
+      {
+        "type": "p",
+        "html": "Pero la pregunta de fondo es otra: ¿qué es una plataforma?"
+      },
+      {
+        "type": "p",
+        "html": "El derecho conoce dos posiciones coherentes. El editor —un periódico— decide qué publica y, por eso, responde por lo que publica. El portador común —la compañía telefónica— no responde por lo que se dice en sus líneas, pero a cambio no puede decidir quién habla ni qué dice. Las plataformas tienen la inmunidad del portador y el poder del editor. Se quedan con lo mejor de cada papel y con las obligaciones de ninguno."
+      },
+      {
+        "type": "p",
+        "html": "No se puede ser o no ser a medias. Hacer a las plataformas responsables de todo lo que publican sus usuarios me parece un error de diseño: las convertiría en censoras por miedo. Pero si no responden por el contenido, ¿bajo qué lógica deciden qué circula? Estados Unidos resolvió esa tensión de la peor manera posible: les reconoció la libertad editorial y les conservó la inmunidad. Son editores sin la responsabilidad de un editor. México asumió un arreglo semejante en el T-MEC: el artículo 19.17 incorporó protecciones equivalentes a las del escudo estadounidense, incluida la idea de que restringir contenido de buena fe no genera responsabilidad.<sup><a href=\"#es-nota-8\" id=\"es-ref-8\" aria-label=\"Nota 8\">8</a></sup> Sostengo que la buena fe no basta. Y el propio tratado no cierra la puerta. El artículo 32.1 incorpora las excepciones generales de orden público del AGCS;<sup><a href=\"#es-nota-9\" id=\"es-ref-9\" aria-label=\"Nota 9\">9</a></sup> el anexo 19-A dispone que México cumplirá el escudo de buena fe de manera consistente con su Constitución,<sup><a href=\"#es-nota-10\" id=\"es-ref-10\" aria-label=\"Nota 10\">10</a></sup> y el artículo 32.2 permite a cada Parte adoptar las medidas que considere necesarias para proteger sus intereses esenciales de seguridad.<sup><a href=\"#es-nota-11\" id=\"es-ref-11\" aria-label=\"Nota 11\">11</a></sup> Esa última cláusula es autojuzgable frente a los socios comerciales, pero no frente al ciudadano. Invocarla no crea un estado de excepción interno: es política internacional, y los Estados la practican todo el tiempo para protegerse de externalidades. En Estados Unidos, fueron los propios importadores quienes llevaron a la Suprema Corte los aranceles que Trump impuso invocando una emergencia nacional, y la Corte los anuló.<sup><a href=\"#es-nota-12\" id=\"es-ref-12\" aria-label=\"Nota 12\">12</a></sup> Una medida de seguridad blinda al Estado frente al tratado; no lo blinda frente a sus tribunales."
+      },
+      {
+        "type": "p",
+        "html": "Lo más revelador es que las plataformas ya practican la separación de personas, solo que para evadir. Google México y Google LLC son personas distintas cuando conviene —“nosotros solo vendemos publicidad”— y una sola cuando conviene —“nuestras políticas son globales”—. Meta elige Irlanda como sede europea, y el domicilio decide quién la vigila. Son medio cuando hay que responder y editor cuando hay que decidir. Llamémoslo por su nombre: desorden disociativo de la personalidad jurídica."
+      },
+      {
+        "type": "p",
+        "html": "Técnicamente no es simulación: la filial existe y sí vende publicidad. Es algo más fino. Es fraude a la ley: el uso de formas jurídicas válidas para obtener el resultado que la ley quiere impedir. Cada pieza es lícita; el conjunto sirve para no responder. Dicho en mexicano: se hacen pendejos para hacernos pendejos. Y México ya sabe responder a eso en otro terreno: el Código Fiscal permite a la autoridad recalificar los actos que carecen de razón de negocios.<sup><a href=\"#es-nota-13\" id=\"es-ref-13\" aria-label=\"Nota 13\">13</a></sup> Si el fisco puede ignorar una estructura armada solo para no pagar impuestos, no veo por qué el ciudadano no pueda hacer lo mismo cuando la estructura sirve para no responder."
+      },
+      {
+        "type": "h",
+        "html": "V. La terapia"
+      },
+      {
+        "type": "p",
+        "html": "Lo que una cosa es para el derecho lo decide el Estado. En Estados Unidos, el petróleo puede ser de propiedad pública o privada; en México, pertenece a la Nación. No por su naturaleza: durante el porfiriato, el petróleo era del dueño de la superficie, y fue el constituyente de 1917 quien decidió otra cosa.<sup><a href=\"#es-nota-14\" id=\"es-ref-14\" aria-label=\"Nota 14\">14</a></sup> El petróleo siguió siendo el mismo; cambió la decisión. YouTube tampoco es nada “por naturaleza”. Hoy es una empresa privada sin obligaciones públicas por omisión, y la omisión también es una decisión."
+      },
+      {
+        "type": "p",
+        "html": "Propongo reclasificar a las plataformas dominantes como servicios de interés general. No hace falta que la Nación sea dueña de nada: el transporte público se concesiona sin que el Estado sea dueño de los autobuses, y el artículo 6o. ya declara servicios públicos de interés general a las telecomunicaciones y a la radiodifusión sin que el Estado sea dueño de las empresas.<sup><a href=\"#es-nota-15\" id=\"es-ref-15\" aria-label=\"Nota 15\">15</a></sup> Lo que se declara de interés general no es una cosa, es una función: administrar el espacio donde ocurre la conversación pública. No la infraestructura, ni la red humana que se forma sobre ella, sino el poder de decidir qué circula, qué se ve y qué desaparece."
+      },
+      {
+        "type": "p",
+        "html": "Esa reclasificación tiene una consecuencia procesal que la vuelve concreta. Hoy el amparo solo procede contra autoridades, y por eso no sirve frente a YouTube. Pero la Ley de Amparo ya admite señalar a un particular como autoridad responsable cuando realiza actos equivalentes a los de una autoridad, afecta derechos de manera unilateral y sus funciones están determinadas por una norma general.<sup><a href=\"#es-nota-16\" id=\"es-ref-16\" aria-label=\"Nota 16\">16</a></sup> Las plataformas cumplen las dos primeras condiciones: deciden solas qué existe y qué desaparece, y esa decisión afecta la expresión, el trabajo y el patrimonio de las personas. Les falta la tercera: ninguna norma define sus funciones. La reclasificación es esa norma. Por eso es la pieza que abre la puerta del amparo."
+      },
+      {
+        "type": "p",
+        "html": "El núcleo de la propuesta es la separación. Una plataforma dominante tendría que operar con dos personalidades distintas, separadas y obligatorias. El medio aloja todo lo que sea legal, como portador común: no responde por el contenido, pero no puede retirarlo sin orden legal o sin un procedimiento con garantías. El editor recomienda, posiciona y amplifica: es el algoritmo que decide qué vemos. Esa sí es una decisión editorial, y quien la toma responde por ella. Al final, el daño rara vez está en que un video exista; está en que se lleve a millones de personas."
+      },
+      {
+        "type": "p",
+        "html": "Ya sé lo que se dirá: antes de 1996, un tribunal estadounidense hizo responsable a Prodigy precisamente porque moderaba,<sup><a href=\"#es-nota-17\" id=\"es-ref-17\" aria-label=\"Nota 17\">17</a></sup> y lo racional se volvió no moderar nada. La diferencia es que aquí no se trata de la misma empresa decidiendo caso por caso qué papel le conviene, sino de dos funciones separadas por ley. El medio no tiene incentivo para censurar, porque no responde. El editor no tiene incentivo para amplificar cualquier cosa, porque sí responde. Y si el editor contamina al medio —si el medio retira contenido para proteger el negocio del editor—, la separación se revela como lo que era y se levanta el velo: la sanción alcanza a los dos. Editas, asumes responsabilidad. ¿Te cuesta la edición? Pierdes el medio."
+      },
+      {
+        "type": "p",
+        "html": "No es una ocurrencia sin precedentes. Nuestro propio regulador ordenó en su momento la separación funcional de Telmex respecto de su red mayorista,<sup><a href=\"#es-nota-18\" id=\"es-ref-18\" aria-label=\"Nota 18\">18</a></sup> y en 1948, con el caso <em>United States v. Paramount Pictures</em>, la Suprema Corte estadounidense abrió el camino para separar a los grandes estudios de sus salas de exhibición, porque la integración vertical estaba acompañada de prácticas que distorsionaban la competencia.<sup><a href=\"#es-nota-19\" id=\"es-ref-19\" aria-label=\"Nota 19\">19</a></sup> Separar la función que transporta de la que decide ya se ha hecho antes."
+      },
+      {
+        "type": "p",
+        "html": "El resto es arquitectura conocida. Un responsable con domicilio en México, con facultades y consecuencias reales, no un representante de papel. Tribunales y una defensoría digital capaces de ordenar restituciones y multas que no se paguen como quien paga un café. Un criterio de dominancia explícito, basado no solo en la participación de mercado, sino también en la dependencia de los usuarios y en el poder de intermediación sobre la conversación pública, para que la reclasificación no dependa de simpatías. La facultad de cerrar una actividad ilícita concreta en el territorio y, solo ante un incumplimiento sistemático, de suspender a la plataforma completa, siempre como último recurso y con control judicial. Lo contrario es el modelo coreano: bloquear primero y por vía administrativa. Y un regulador verdaderamente independiente, que es hoy el punto más débil de México tras la reforma constitucional de diciembre de 2024, que extinguió al IFT como órgano constitucional autónomo, y la ley de julio de 2025, que trasladó sus funciones regulatorias a una comisión desconcentrada del Ejecutivo.<sup><a href=\"#es-nota-20\" id=\"es-ref-20\" aria-label=\"Nota 20\">20</a></sup>"
+      },
+      {
+        "type": "p",
+        "html": "A quien diga que esto es censura estatal, le respondo que la concesión no es arbitrariedad: tiene requisitos, plazos, causales de revocación y debido proceso. Protege al ciudadano en dos direcciones: frente al Estado, con el amparo y un regulador independiente; frente a la plataforma, con obligaciones de interés público. Hoy no cuenta con un régimen análogo de garantías frente al poder de las plataformas. Y a quien diga que el concesionario también lucra, le respondo que sí: la concesión no elimina el lucro, cambia el cálculo. Convierte la obligación secundaria en condición de existencia. No se trata de que las plataformas no ganen dinero, sino de que ganar dinero sin cumplir deje de ser rentable."
+      },
+      {
+        "type": "p",
+        "html": "Queda la objeción más seria, la que en América Latina no es retórica: regular así abriría la puerta a la tiranía. La entiendo. Pero un tirano gubernamental tiene cara, tiene un despacho, un palacio al que se le puede marchar, un nombre propio y, al menos en teoría, un marco constitucional que lo limita o un proceso electoral para removerlo. Incluso los regímenes más autoritarios de la historia tenían rostros, estatuas y responsables visibles. Había a quién mirar a los ojos para exigirle cuentas, contra quién alzar la voz. Nuestro constitucionalismo lleva dos siglos aprendiendo a contener a ese tirano, y a veces falla, pero tiene herramientas. El tirano corporativo, en cambio, es una atmósfera. No te cae encima: te envuelve. No tiene palacio al cual marchar ni estatua que derribar."
+      },
+      {
+        "type": "p",
+        "html": "Y esa atmósfera tampoco es libre. Estas empresas están sujetas a gobiernos con intereses propios, unas en occidente y otras en oriente, y en ocasiones dependen de ellos no solo jurídicamente, sino también económicamente: mediante subsidios, contratos públicos y otras formas de apoyo estatal. En general, atienden a gobiernos por los que no voté. Ucrania lo aprendió en plena guerra. A partir del 14 de octubre de 2026, SpaceX impuso restricciones a la versión militar de su sistema satelital, Starshield, de la que dependen operaciones con drones y comunicaciones en el frente. Durante más de una semana, esas restricciones afectaron operaciones militares ucranianas. Musk sostuvo que Ucrania había violado los términos de servicio; la empresa y el gobierno estadounidense ofrecieron versiones distintas sobre quién tenía el control de la decisión.<sup><a href=\"#es-nota-21\" id=\"es-ref-21\" aria-label=\"Nota 21\">21</a></sup> <em>The Wall Street Journal</em> reportó que la orden vino de él, pero sus fuentes no coinciden sobre si actuó solo o después de consultar a la Casa Blanca.<sup><a href=\"#es-nota-22\" id=\"es-ref-22\" aria-label=\"Nota 22\">22</a></sup> Un mes después, Zelenski denunció nuevas restricciones; esta vez nadie asumió la decisión, y la empresa negó cualquier cambio.<sup><a href=\"#es-nota-23\" id=\"es-ref-23\" aria-label=\"Nota 23\">23</a></sup> Más allá de quién apagó el botón, lo que quedó expuesto es otra cosa: un país en guerra descubrió que un sistema vital para su defensa no le pertenecía. El enemigo estaba enfrente, como en toda guerra; lo que dejó a Ucrania a merced de una decisión ajena fue la dependencia ciega de una tecnología que no controla. Y que ni siquiera pueda saber quién decidió lo confirma."
+      },
+      {
+        "type": "p",
+        "html": "La alternativa, entonces, no es entre el Estado mexicano y la libertad, sino entre un gobierno por el que voto y gobiernos por los que no voto. Prefiero un mal gobierno por el que voté que uno magnífico donde mi voto no cuenta. Al primero lo puedo cambiar, y si me censura, puedo acudir al amparo y a los tribunales. Del segundo solo puedo esperar su buena voluntad."
+      },
+      {
+        "type": "p",
+        "html": "El problema no es la tecnología. Es la tecnología no democratizada: la que concentra en unas cuantas manos, privadas o extranjeras, el poder de decidir quién habla, quién se conecta y quién desaparece, sin que los afectados tengan voz ni voto en esa decisión."
+      },
+      {
+        "type": "h",
+        "html": "VI. Cierre"
+      },
+      {
+        "type": "p",
+        "html": "La historia del constitucionalismo es, en buena medida, la historia de cómo la sociedad ha intentado impedir que el poder se concentre en una sola mano. Primero fue el poder del monarca; después, el del Estado. La Constitución de 1917 dio un paso que pocas se habían atrevido a dar: reconoció que el poder privado también podía oprimir, y por eso sometió la propiedad al interés público y protegió al trabajador frente al patrón. Lo que propongo es extender esa misma conquista al poder corporativo de nuestro tiempo."
+      },
+      {
+        "type": "p",
+        "html": "Durante décadas, en México, peleamos contra un enemigo con rostro: los medios concesionados que concentraban la palabra pública. Creímos haberlo derrotado, y surgió otro igual o peor, sin rostro. La televisión podía ser monopólica, pero era alcanzable. La plataforma no es ni siquiera eso. El problema nunca fue Televisa ni YouTube: fue el poder concentrado sobre la comunicación pública sin rendición de cuentas. Por eso lo que propongo no regula a una empresa, sino una función. Si dentro de veinte años la tiene otra, la regla debería servir igual."
+      },
+      {
+        "type": "p",
+        "html": "La frontera no separa naturalezas, separa decisiones. Lo prueba el petróleo a ambos lados del Bravo: en México, los hidrocarburos del subsuelo pertenecen a la Nación; en Estados Unidos, pueden ser propiedad pública o privada. Lo prueban Suecia y Dinamarca a ambos lados de un puente. Lo que el constituyente clasificó, puede reclasificarlo."
+      },
+      {
+        "type": "p",
+        "html": "No pretendo detener a las plataformas. Pretendo que dejen de ser asteroides."
+      },
+      {
+        "type": "p",
+        "html": "Tienen demasiado poder. Y yo, como ciudadano, no le quiero dar a un ente privado facultades que solo le concedo al Estado de derecho."
+      }
+    ],
+    "notes": [
+      {
+        "n": 1,
+        "html": "Gobierno de Suecia, “A stronger protection against sexual violations”, julio de 2025. La reforma al Código Penal (Proposición 2024/25:124) entró en vigor el 1 de julio de 2025 y extendió el delito de compra de servicios sexuales a los actos realizados a distancia, así como el de promover esos actos o lucrar con ellos. Conforme al modelo nórdico, quien los realiza no comete delito. Ley SFS 2025:586, de modificación del Código Penal sueco (<em>Brottsbalken</em>), capítulo 6, §§ 11 (compra de actos sexuales) y 12 (proxenetismo), publicada el 3 de junio de 2025. En Dinamarca, la compra y la venta de servicios sexuales entre adultos no son delito desde la reforma al Código Penal (<em>Straffeloven</em>) del 17 de marzo de 1999; sí se castigan el proxenetismo (<em>rufferi</em>) y la compra de servicios sexuales a menores de 18 años."
+      },
+      {
+        "n": 2,
+        "html": "Jung Min-ho, “Gov’t under fire for ‘China-style’ internet censorship”, <em>The Korea Times</em>, 19 de febrero de 2019. La Comisión de Estándares de Comunicaciones de Corea bloqueó 895 sitios extranjeros mediante la inspección del campo SNI."
+      },
+      {
+        "n": 3,
+        "html": "<em>Free Speech Coalition, Inc. v. Paxton</em>, 606 U.S. 461 (2025), resuelto el 27 de junio de 2025."
+      },
+      {
+        "n": 4,
+        "html": "Constitución Política de los Estados Unidos Mexicanos, artículo 133: la Constitución, las leyes del Congreso de la Unión que emanen de ella y los tratados que estén de acuerdo con la misma son la Ley Suprema de toda la Unión."
+      },
+      {
+        "n": 5,
+        "html": "Constitución Política de los Estados Unidos Mexicanos, artículo 1o., párrafo primero."
+      },
+      {
+        "n": 6,
+        "html": "William Blackstone, <em>Commentaries on the Laws of England</em>, libro IV, capítulo 27 (1769)."
+      },
+      {
+        "n": 7,
+        "html": "Suprema Corte de Justicia de la Nación, Primera Sala, amparo directo en revisión 2806/2012, resuelto el 6 de marzo de 2013, sobre los términos “maricones” y “puñal” como discurso homófobo excluido de la protección constitucional."
+      },
+      {
+        "n": 8,
+        "html": "Tratado entre México, Estados Unidos y Canadá (T-MEC), artículo 19.17 (Servicios informáticos interactivos); cf. 47 U.S.C. § 230."
+      },
+      {
+        "n": 9,
+        "html": "T-MEC, artículo 32.1, párrafo 2, que incorpora los incisos (a), (b) y (c) del artículo XIV del Acuerdo General sobre el Comercio de Servicios para, entre otros, el capítulo 19 (Comercio Digital)."
+      },
+      {
+        "n": 10,
+        "html": "T-MEC, anexo 19-A, párrafo 3."
+      },
+      {
+        "n": 11,
+        "html": "T-MEC, artículo 32.2 (Seguridad esencial)."
+      },
+      {
+        "n": 12,
+        "html": "<em>Learning Resources, Inc. v. Trump</em>, resuelto por la Suprema Corte de Estados Unidos el 20 de febrero de 2026, junto con <em>Trump v. V.O.S. Selections, Inc.</em> La Corte resolvió que la International Emergency Economic Powers Act no autoriza al presidente a imponer aranceles."
+      },
+      {
+        "n": 13,
+        "html": "Código Fiscal de la Federación, artículo 5o.-A."
+      },
+      {
+        "n": 14,
+        "html": "Constitución Política de los Estados Unidos Mexicanos de 1917, artículo 27, párrafo cuarto, que atribuyó a la Nación el dominio directo del petróleo. El Código de Minería de 1884 lo reconocía como propiedad exclusiva del dueño de la superficie, criterio que la Ley Minera de 1892 mantuvo en lo sustancial."
+      },
+      {
+        "n": 15,
+        "html": "Constitución Política de los Estados Unidos Mexicanos, artículo 6o., apartado B, fracciones II y III."
+      },
+      {
+        "n": 16,
+        "html": "Ley de Amparo, Reglamentaria de los Artículos 103 y 107 de la Constitución, artículo 5o., fracción II, párrafo segundo."
+      },
+      {
+        "n": 17,
+        "html": "<em>Stratton Oakmont, Inc. v. Prodigy Services Co.</em>, 1995 WL 323710 (N.Y. Sup. Ct., 24 de mayo de 1995). La Sección 230 de la Communications Decency Act de 1996 (47 U.S.C. § 230) se aprobó en buena medida para revertir ese criterio."
+      },
+      {
+        "n": 18,
+        "html": "Instituto Federal de Telecomunicaciones, resolución de 2017 derivada de la revisión bienal de las medidas impuestas al agente económico preponderante, que ordenó la separación funcional de Telmex y Telnor; los estatutos de las nuevas empresas mayoristas se aprobaron en 2018."
+      },
+      {
+        "n": 19,
+        "html": "<em>United States v. Paramount Pictures, Inc.</em>, 334 U.S. 131 (1948), resuelto el 3 de mayo de 1948."
+      },
+      {
+        "n": 20,
+        "html": "Decreto por el que se reforman, adicionan y derogan diversas disposiciones de la Constitución Política de los Estados Unidos Mexicanos, en materia de simplificación orgánica, <em>Diario Oficial de la Federación</em>, 20 de diciembre de 2024. Extinguió, entre otros, al Instituto Federal de Telecomunicaciones y a la Comisión Federal de Competencia Económica. La Ley en Materia de Telecomunicaciones y Radiodifusión, publicada en julio de 2025, creó la Comisión Reguladora de Telecomunicaciones como órgano desconcentrado de la Agencia de Transformación Digital y Telecomunicaciones; su pleno fue ratificado por el Senado en octubre de 2025."
+      },
+      {
+        "n": 21,
+        "html": "Associated Press, “Ukraine’s Starlink satellite speeds restored after a week of front-line disruption”, 24 de octubre de 2026."
+      },
+      {
+        "n": 22,
+        "html": "<em>The Wall Street Journal</em>, 20 de octubre de 2026, según lo reportado por CNBC y UNITED24 Media."
+      },
+      {
+        "n": 23,
+        "html": "<em>The Moscow Times</em>, “Zelensky Says Starshield Speed Limited Again, Hampering Ukraine’s Defenses”, 12 de noviembre de 2026; <em>The War Zone</em>, “Ukraine Says Starshield Disruptions Are Back as U.S. Negotiators Meet With Putin”, 12 de noviembre de 2026."
+      }
+    ],
+    "doi": "Versión con DOI: https://doi.org/10.5281/zenodo.24234672"
+  },
+  "en": {
+    "title": "Digital Platforms: Faceless Power Without Accountability",
+    "subtitle": "So They Stop Being Asteroids",
+    "disclaimer": "The cases in this essay are presented as hypotheticals. None of them is outside what happens regularly.",
+    "body": [
+      {
+        "type": "h",
+        "html": "I. The Asteroid"
+      },
+      {
+        "type": "p",
+        "html": "Suppose I film a stage play in which someone is killed and upload it to YouTube. It is not a play that celebrates violence: it questions it, dismantles it, sets it in front of the viewer so that there is no looking away. The platform decides that it incites violence."
+      },
+      {
+        "type": "p",
+        "html": "There is no judge. There is no case file, no deadline, no argument I can answer. There is a notice, an appeal button and a reply that, like the first decision, is signed by no one. The company that accuses me is the same one that rules on my defense. Judge and party at once."
+      },
+      {
+        "type": "p",
+        "html": "A moderation decision does not feel like a legal ruling. It feels like a meteorite that has fallen on you, with no way to file a complaint against gravity."
+      },
+      {
+        "type": "p",
+        "html": "Nor does one need much imagination. Any musician who publishes on the platform knows the Content ID claims against his own music: music he composed, recorded and released. An automated system informs him that what is his may not be his, and invites him to prove it before the same system."
+      },
+      {
+        "type": "p",
+        "html": "I do not write this as a creator’s complaint. I write it as a lawyer who does not know whom to sue."
+      },
+      {
+        "type": "p",
+        "html": "Platform decisions arrive the way natural phenomena do: with no one to talk to, no reasons, no outside appeal. Like an asteroid. Behind them there is will, people, policies and interests, but for the citizen and for the State it is as if there were none. What turns a company into an asteroid is not its size. It is that no one can compel it."
+      },
+      {
+        "type": "p",
+        "html": "And yet, unlike an asteroid, a platform can be compelled. It only has to be made reachable."
+      },
+      {
+        "type": "p",
+        "html": "My thesis is simple: we have built a legal system that recognizes rights against public power, but that has not developed equivalent mechanisms against private powers that perform materially public functions. Dominant platforms are of public interest as a matter of fact; legal doctrine classifies them as private companies without public-interest obligations. That is not their nature. It is a decision. And what one decision classifies, another can reclassify. The problem is not any particular company, but a power that answers to no one."
+      },
+      {
+        "type": "h",
+        "html": "II. Out of Reach"
+      },
+      {
+        "type": "p",
+        "html": "I present a case as a hypothetical, though anyone who has litigated in this field will recognize it. An Argentine broadcaster living in Miami publishes on YouTube a series of programs about a celebrity in Mexico and his alleged lovers. He names them. He publishes their photographs."
+      },
+      {
+        "type": "p",
+        "html": "One of them complains to the platform. The platform does not respond. She turns to the Mexican courts, where she lives and where the harm occurs. The proceedings can move forward, but the person responsible is in Miami, and bringing him before the court requires international cooperation mechanisms: requests to foreign authorities, translations, months of paperwork and a cost she cannot pay. Getting a Mexican authority to act does not mean it can enforce its decision on the other side of the border. Litigating in the United States does not seem to be an option either: she has no visa, and even if a lawyer could represent her there, the cost, First Amendment standards and the protection that U.S. law gives platforms turn that route into a door painted on a wall."
+      },
+      {
+        "type": "p",
+        "html": "In the end she drops it. She does not lose the case: she never manages to bring it before a forum where she can obtain an effective answer. And meanwhile, the program stays online."
+      },
+      {
+        "type": "p",
+        "html": "Had a local channel broadcast that same series, the story would be different. The channel has an address, a broadcasting concession and named people in charge. There is a right of reply. Service of process is a court officer knocking on a door. Same content, same harm, same victims. The only thing that changed was the medium, and with it every possibility of accountability vanished."
+      },
+      {
+        "type": "p",
+        "html": "The pattern repeats in whichever direction one looks. If I sued YouTube México tomorrow for violating a Mexican law, even an absurd one, I would be told that the subsidiary only sells advertising and that the service is operated by Google LLC, in California, under its terms of service. It is not a geographic excuse: it is a corporate architecture. Since July 1, 2025, Sweden has punished those who pay for sexual acts performed online and those who profit from them as intermediaries, never those who perform them;<sup><a href=\"#en-nota-1\" id=\"en-ref-1\" aria-label=\"Note 1\">1</a></sup> on paper, that reaches the platform, but in practice it reaches only its own citizen, who slips away with a VPN, while Denmark, on the other side of the bridge, does not punish the person who pays. The content is the same, the platform is the same, and the creator may be the same; the only thing that changes when you cross the bridge is whether the person paying commits a crime. South Korea, by contrast, chose to block access to entire foreign sites from its own network, when it could not act effectively against their operators. In 2019 it went as far as blocking 895 sites, even on encrypted connections. It did so at the cost of being accused of censorship.<sup><a href=\"#en-nota-2\" id=\"en-ref-2\" aria-label=\"Note 2\">2</a></sup> Texas, for its part, managed to impose its age-verification law on pornography sites: it can do so because the weight of its market and of its legal system makes it more convenient for the companies operating there to comply, or even to withdraw, than to confront the State.<sup><a href=\"#en-nota-3\" id=\"en-ref-3\" aria-label=\"Note 3\">3</a></sup> A single U.S. state has more real power over a platform than a country of 130 million people."
+      },
+      {
+        "type": "p",
+        "html": "It is important not to misstate the problem. The jurisdictional wall, in itself, is legitimate. If I hire an eighteen-year-old actress to shoot a film in Jalisco and pour her a tequila, she cannot sue me in Los Angeles because the drinking age there is 21. The act was legal where it took place. That is sovereignty in its healthiest form. The problem is not the wall. The problem is that the platform crosses it in only one direction: California law cannot reach me for serving tequila in Jalisco, but the criteria of a Californian company do decide what Mexicans may see, in Mexico."
+      },
+      {
+        "type": "p",
+        "html": "That is why the solution does not lie in extraterritoriality, but in something much older: territoriality. Mexico does not need to pursue foreign owners or apply its law beyond its borders. It is enough to regulate the activity that is exploited, and that produces effects, within its territory. Someone who legally runs a brothel in a rural Nevada county cannot open another one in Jordan, and Jordan can shut it down without having to arrest him in Nevada. If we import contaminated beef from Australia, the consumer does not sue the Australian slaughterhouse: there is an importer who answers here. The legality of an activity in its country of origin does not determine its legality in the territory where it is exploited."
+      },
+      {
+        "type": "p",
+        "html": "Today the opposite happens. What we publish first passes the filter of U.S. law, which the company respects because it is bound by it. Then the filter of its internal policies, which answer to advertisers and reputation. Last of all, if the matter is not serious and almost always only under political pressure, the filter of Mexican law. It is an inverted Kelsenian pyramid. Not formally —no judge would say that terms of service rank above Article 133 of the Constitution<sup><a href=\"#en-nota-4\" id=\"en-ref-4\" aria-label=\"Note 4\">4</a></sup>—, but in the citizen’s experience, which is where rights are lived or lost. Put plainly: in practice, what the company decides weighs more than what the Constitution says."
+      },
+      {
+        "type": "h",
+        "html": "III. Beyond Review"
+      },
+      {
+        "type": "p",
+        "html": "Fundamental rights are not absolute. They are guaranteed, but they may be restricted: Article 1 of the Mexican Constitution says only in the cases and under the conditions that the Constitution itself establishes.<sup><a href=\"#en-nota-5\" id=\"en-ref-5\" aria-label=\"Note 5\">5</a></sup> What protects them is not being beyond the State’s reach, but the requirement that every restriction pass a review: legality, legitimate aim, suitability, necessity, proportionality. And a judge who checks."
+      },
+      {
+        "type": "p",
+        "html": "A law forbidding people to show their fingernails in public would be reviewed and would fail the test. YouTube’s decision about my play is reviewed by no one. The problem is not that the platform stands above the State. It is that it stands outside the system of review. The guarantees of Articles 6 and 7 of the Constitution were designed to watch the State; censorship moved to a private party, and the guarantees kept watching the State."
+      },
+      {
+        "type": "p",
+        "html": "In medicine, false positives are tolerated, but for a precise reason: no one acts on them without confirmation. A patient with a false positive for cancer does not have a leg amputated; he gets a second test. Suspicion triggers verification, not punishment. On platforms it works the other way around: the algorithm suspects, the sanction is executed, and verification, if it comes at all, is the burden of the person affected."
+      },
+      {
+        "type": "p",
+        "html": "Consider Pedro. Someone beats him up because, judging by his appearance, he believes Pedro is about to rob an old woman. The good faith of the attacker may bear on the degree of his liability, but it does not turn suspicion into fact or erase the harm. And even if Pedro did intend to rob her, no one may break his face preemptively on the strength of a prediction. The law recognizes self-defense against a real, present or imminent aggression; it does not recognize punishment for suspicion. Blackstone’s old formula —better that ten guilty persons escape than that one innocent suffer—<sup><a href=\"#en-nota-6\" id=\"en-ref-6\" aria-label=\"Note 6\">6</a></sup> is not sentimentality: it is a design decision. A system that accepts sacrificing the innocent in the name of efficiency is not safer; it is less just. Whoever chooses to automate decisions that affect rights should bear the risk of error, instead of shifting it onto the innocent citizen."
+      },
+      {
+        "type": "p",
+        "html": "False positives, moreover, are not distributed at random. Rights have a counter-majoritarian function: they exist to protect those left out. A platform is designed for the opposite: it optimizes for the average and for what advertisers will tolerate. And its reading of language is not neutral: moderation systems learned mostly in English, with another country’s racial history."
+      },
+      {
+        "type": "p",
+        "html": "My dog is called Negrito, “little black one.” “Negrito” is pure description: the dog is black. “<em>Esto está en chino</em>,” literally “this is in Chinese,” alludes to no Chinese person; it means something is fiendishly hard, much like “it’s all Greek to me.” “<em>Oye, pinche negro, vamos a cenar</em>,” between two friends from Minatitlán, is an affectionate nickname, roughly “hey, blackie, let’s go eat,” with an undertone that is indeed debated in Mexico and is worth debating. A woman in Mississippi who hurls the English slur at a Black man reproduces centuries of violence. In all four cases a word appears that a filter might flag. Only the last is clearly an offense. A judge tells the four apart effortlessly, because reading context is his craft; our Supreme Court has done so, with public reasoning, when deciding which words amount to hate speech.<sup><a href=\"#en-nota-7\" id=\"en-ref-7\" aria-label=\"Note 7\">7</a></sup> A classifier runs the risk of treating them all alike, because finding patterns is its craft. And if the debate over a nickname belongs to anyone, it belongs to Mexican society, not to a model trained in California."
+      },
+      {
+        "type": "p",
+        "html": "Then comes the gravest part: people begin to speak for the algorithm. No one is going to file three appeals because the dog is called Negrito. Better to call him Prietito, “little dark one.” But Prietito is one algorithm update away from becoming suspect, and then comes Oscurito, “little dusky one,” and five years later the dog ends up being called Sombrita, “little shadow.” No law prohibited anything. Appealing costs time and monetization; renaming costs nothing. Self-censorship does not stop at one change, because whoever practices it never knows where the line is and keeps moving farther away from it. The dog is just as black as ever. The only thing erased was the word."
+      },
+      {
+        "type": "p",
+        "html": "The law already knows this harm. It calls it the chilling effect, and it is enough to strike down a vague statute as unconstitutional even if no one has been punished under it. But the law recognizes it only when the State causes it. When a corporate policy causes it, the harm is the same and no one attends to it. The same holds for the most elementary protection: if one of the women named in that Miami series were a minor, Mexican law would expressly protect her; on the platform, that protection would depend on the goodwill of a foreign company."
+      },
+      {
+        "type": "h",
+        "html": "IV. What Is It?"
+      },
+      {
+        "type": "p",
+        "html": "The law binds because, in theory, it is written by those who obey it. It is a fiction —the constituent power is the people acting through their representatives—, but a fiction that sustains the legitimacy of the whole system. Behind a platform’s rules there is no people, only shareholders. We users are not constituents; we are adherents to a contract we did not negotiate. The rules change with an email informing us that, if we keep using the service, we accept. And the shareholder’s first aim is profit: the law is binding, but secondary; an operating cost. Before the platform, moreover, the citizen occupies three roles at once: consumer, content provider and product. The State barely protects him in the first."
+      },
+      {
+        "type": "p",
+        "html": "But the underlying question is a different one: what is a platform?"
+      },
+      {
+        "type": "p",
+        "html": "The law knows two coherent positions. The publisher —a newspaper— decides what it publishes and, for that very reason, answers for what it publishes. The common carrier —the telephone company— does not answer for what is said on its lines, but in exchange it cannot decide who speaks or what is said. Platforms have the carrier’s immunity and the publisher’s power. They keep the best of each role and the obligations of neither."
+      },
+      {
+        "type": "p",
+        "html": "One cannot be and not be by halves. Making platforms liable for everything their users publish seems to me a design error: it would turn them into censors out of fear. But if they do not answer for content, by what logic do they decide what circulates? The United States resolved that tension in the worst possible way: it recognized their editorial freedom and preserved their immunity. They are publishers without a publisher’s responsibility. Mexico accepted a similar arrangement in the USMCA: Article 19.17 incorporated protections equivalent to those of the American shield, including the idea that restricting content in good faith creates no liability.<sup><a href=\"#en-nota-8\" id=\"en-ref-8\" aria-label=\"Note 8\">8</a></sup> I maintain that good faith is not enough. And the treaty itself does not close the door. Article 32.1 incorporates the general public-order exceptions of the GATS;<sup><a href=\"#en-nota-9\" id=\"en-ref-9\" aria-label=\"Note 9\">9</a></sup> Annex 19-A provides that Mexico will comply with the good-faith shield in a manner consistent with its Constitution;<sup><a href=\"#en-nota-10\" id=\"en-ref-10\" aria-label=\"Note 10\">10</a></sup> and Article 32.2 allows each Party to adopt the measures it considers necessary to protect its essential security interests.<sup><a href=\"#en-nota-11\" id=\"en-ref-11\" aria-label=\"Note 11\">11</a></sup> That last clause is self-judging vis-à-vis trading partners, but not vis-à-vis the citizen. Invoking it does not create a domestic state of exception: it is international politics, and States practice it all the time to protect themselves from externalities. In the United States, it was importers themselves who took to the Supreme Court the tariffs Trump imposed by invoking a national emergency, and the Court struck them down.<sup><a href=\"#en-nota-12\" id=\"en-ref-12\" aria-label=\"Note 12\">12</a></sup> A security measure shields the State against the treaty; it does not shield it against its own courts."
+      },
+      {
+        "type": "p",
+        "html": "Most revealing is that platforms already practice the separation of legal persons, only to evade. Google México and Google LLC are distinct persons when it suits them —“we only sell advertising”— and a single one when it suits them —“our policies are global.” Meta chooses Ireland as its European headquarters, and the address decides who supervises it. They are a carrier when they must answer and a publisher when they must decide. Let us call it by its name: a dissociative disorder of legal personality."
+      },
+      {
+        "type": "p",
+        "html": "Technically, it is not sham: the subsidiary exists and does sell advertising. It is something subtler. It is fraud on the law, <em>fraus legis</em>: the use of valid legal forms to obtain the result the law seeks to prevent. Each piece is lawful; the whole serves to avoid answering. In plain Mexican Spanish: <em>se hacen pendejos para hacernos pendejos</em>; they play dumb in order to play us for fools. And Mexico already knows how to respond to this in another field: the Federal Tax Code allows the authority to recharacterize transactions that lack a business purpose.<sup><a href=\"#en-nota-13\" id=\"en-ref-13\" aria-label=\"Note 13\">13</a></sup> If the tax authority can disregard a structure set up only to avoid paying taxes, I see no reason why the citizen cannot do the same when the structure serves only to avoid answering."
+      },
+      {
+        "type": "h",
+        "html": "V. The Therapy"
+      },
+      {
+        "type": "p",
+        "html": "What a thing is in law is decided by the State. In the United States, oil may be publicly or privately owned; in Mexico, it belongs to the Nation. Not by nature: under Porfirio Díaz, oil belonged to the owner of the surface land, and it was the Constituent Congress of 1917 that decided otherwise.<sup><a href=\"#en-nota-14\" id=\"en-ref-14\" aria-label=\"Note 14\">14</a></sup> The oil stayed the same; the decision changed. YouTube is not anything “by nature” either. Today it is a private company without public obligations by omission, and omission is also a decision."
+      },
+      {
+        "type": "p",
+        "html": "I propose reclassifying dominant platforms as services of general interest. The Nation need not own anything: public transport is operated under concession without the State owning the buses, and Article 6 of the Constitution already declares telecommunications and broadcasting to be public services of general interest without the State owning the companies.<sup><a href=\"#en-nota-15\" id=\"en-ref-15\" aria-label=\"Note 15\">15</a></sup> What is declared of general interest is not a thing but a function: administering the space where public conversation takes place. Not the infrastructure, nor the human network that forms over it, but the power to decide what circulates, what is seen and what disappears."
+      },
+      {
+        "type": "p",
+        "html": "That reclassification has a procedural consequence that makes it concrete. Today the <em>amparo</em>, Mexico’s constitutional action for the protection of fundamental rights, lies only against authorities, which is why it is useless against YouTube. But the Amparo Act already allows a private party to be named as the responsible authority when it performs acts equivalent to those of an authority, unilaterally affects rights, and has functions determined by a general norm.<sup><a href=\"#en-nota-16\" id=\"en-ref-16\" aria-label=\"Note 16\">16</a></sup> Platforms meet the first two conditions: they alone decide what exists and what disappears, and that decision affects people’s expression, work and property. They lack the third: no norm defines their functions. Reclassification is that norm. That is why it is the piece that opens the door to <em>amparo</em>."
+      },
+      {
+        "type": "p",
+        "html": "The core of the proposal is separation. A dominant platform would have to operate with two distinct personalities, separate and mandatory. The carrier hosts everything that is lawful, as a common carrier: it does not answer for content, but it may not remove it without a legal order or a procedure with due-process guarantees. The publisher recommends, ranks and amplifies: it is the algorithm that decides what we see. That is indeed an editorial decision, and whoever makes it answers for it. In the end, the harm rarely lies in a video existing; it lies in the video being carried to millions of people."
+      },
+      {
+        "type": "p",
+        "html": "I know what will be said: before 1996, a U.S. court held Prodigy liable precisely because it moderated,<sup><a href=\"#en-nota-17\" id=\"en-ref-17\" aria-label=\"Note 17\">17</a></sup> and the rational course became not moderating at all. The difference is that here we are not dealing with one company deciding case by case which role suits it, but with two functions separated by law. The carrier has no incentive to censor, because it does not answer. The publisher has no incentive to amplify just anything, because it does answer. And if the publisher contaminates the carrier —if the carrier removes content to protect the publisher’s business—, the separation is revealed for what it was and the corporate veil is pierced: the sanction reaches both. You edit, you bear responsibility. Does editing cost you? You lose the carrier."
+      },
+      {
+        "type": "p",
+        "html": "This is not an unprecedented whim. Our own regulator once ordered the functional separation of Telmex from its wholesale network,<sup><a href=\"#en-nota-18\" id=\"en-ref-18\" aria-label=\"Note 18\">18</a></sup> and in 1948, in <em>United States v. Paramount Pictures</em>, the U.S. Supreme Court opened the way to separating the major studios from their theaters, because vertical integration was accompanied by practices that distorted competition.<sup><a href=\"#en-nota-19\" id=\"en-ref-19\" aria-label=\"Note 19\">19</a></sup> Separating the function that carries from the function that decides has been done before."
+      },
+      {
+        "type": "p",
+        "html": "The rest is familiar architecture. A responsible party domiciled in Mexico, with real powers and real consequences, not a paper representative. Courts and a digital ombudsman able to order reinstatements and impose fines that are not paid the way one pays for a coffee. An explicit dominance standard, based not only on market share but also on users’ dependence and on the platform’s power of intermediation over public conversation, so that reclassification does not depend on sympathies. The power to shut down a specific unlawful activity within the territory and, only in the face of systematic non-compliance, to suspend the entire platform, always as a last resort and under judicial control. The opposite is the Korean model: block first, and do it administratively. And a truly independent regulator, which is today Mexico’s weakest point after the constitutional reform of December 2024, which abolished the IFT as an autonomous constitutional body, and the law of July 2025, which transferred its regulatory functions to a commission decentralized within the Executive branch.<sup><a href=\"#en-nota-20\" id=\"en-ref-20\" aria-label=\"Note 20\">20</a></sup>"
+      },
+      {
+        "type": "p",
+        "html": "To those who say this is state censorship, I answer that a concession is not arbitrariness: it has requirements, terms, grounds for revocation and due process. It protects the citizen in two directions: against the State, through <em>amparo</em> and an independent regulator; against the platform, through public-interest obligations. Today the citizen has no comparable system of guarantees against the power of platforms. And to those who say the concessionaire also seeks profit, I answer yes: the concession does not eliminate profit, it changes the calculation. It turns a secondary obligation into a condition of existence. The point is not that platforms should stop making money, but that making money without complying should stop being profitable."
+      },
+      {
+        "type": "p",
+        "html": "The most serious objection remains, the one that in Latin America is not rhetorical: regulating this way would open the door to tyranny. I understand it. But a governmental tyrant has a face, an office, a palace one can march on, a proper name and, at least in theory, a constitutional framework that limits him or an electoral process to remove him. Even the most authoritarian regimes in history had faces, statues and visible people in charge. There was someone to look in the eye and demand an accounting from, someone to raise one’s voice against. Our constitutionalism has spent two centuries learning to contain that tyrant, and sometimes it fails, but it has tools. The corporate tyrant, by contrast, is an atmosphere. It does not fall on you: it surrounds you. It has no palace to march on and no statue to topple."
+      },
+      {
+        "type": "p",
+        "html": "Nor is that atmosphere free. These companies are subject to governments with interests of their own, some in the West and others in the East, and at times they depend on them not only legally but also economically: through subsidies, public contracts and other forms of state support. By and large, they answer to governments I did not vote for. Ukraine learned this in the middle of a war. Starting on October 14, 2026, SpaceX imposed restrictions on the military version of its satellite system, Starshield, on which drone operations and front-line communications depend. For more than a week, those restrictions affected Ukrainian military operations. Musk claimed that Ukraine had violated the terms of service; the company and the U.S. government gave differing accounts of who controlled the decision.<sup><a href=\"#en-nota-21\" id=\"en-ref-21\" aria-label=\"Note 21\">21</a></sup> <em>The Wall Street Journal</em> reported that the order came from him, but its sources disagree on whether he acted alone or after consulting the White House.<sup><a href=\"#en-nota-22\" id=\"en-ref-22\" aria-label=\"Note 22\">22</a></sup> A month later, Zelensky denounced new restrictions; this time no one took responsibility for the decision, and the company denied any change.<sup><a href=\"#en-nota-23\" id=\"en-ref-23\" aria-label=\"Note 23\">23</a></sup> Whoever flipped the switch, what was exposed is something else: a country at war discovered that a system vital to its defense did not belong to it. The enemy was in front of it, as in every war; what left Ukraine at the mercy of someone else’s decision was blind dependence on a technology it does not control. And the fact that it cannot even know who decided confirms it."
+      },
+      {
+        "type": "p",
+        "html": "The alternative, then, is not between the Mexican State and freedom, but between a government I vote for and governments I do not. I prefer a bad government I voted for to a magnificent one where my vote does not count. The first I can change, and if it censors me, I can turn to <em>amparo</em> and the courts. From the second I can only hope for goodwill."
+      },
+      {
+        "type": "p",
+        "html": "The problem is not technology. It is undemocratized technology: technology that concentrates in a few hands, private or foreign, the power to decide who speaks, who connects and who disappears, without those affected having any voice or vote in that decision."
+      },
+      {
+        "type": "h",
+        "html": "VI. Closing"
+      },
+      {
+        "type": "p",
+        "html": "The history of constitutionalism is, to a great extent, the history of society’s efforts to keep power from being concentrated in a single hand. First it was the monarch’s power; then, the State’s. The Mexican Constitution of 1917 took a step few had dared to take: it recognized that private power could also oppress, and so it subjected property to the public interest and protected workers against employers. What I propose is to extend that same achievement to the corporate power of our time."
+      },
+      {
+        "type": "p",
+        "html": "For decades in Mexico we fought an enemy with a face: the media operating under concessions that concentrated the public word. We believed we had defeated it, and another one rose up, just as powerful or worse, and faceless. Television could be a monopoly, but it was reachable. The platform is not even that. The problem was never Televisa or YouTube: it was concentrated power over public communication without accountability. That is why what I propose regulates not a company but a function. If in twenty years another company holds it, the rule should work just the same."
+      },
+      {
+        "type": "p",
+        "html": "Borders do not separate natures; they separate decisions. Oil on both banks of the Rio Grande proves it: in Mexico, subsoil hydrocarbons belong to the Nation; in the United States, they may be publicly or privately owned. Sweden and Denmark on either end of a bridge prove it. What the constituent power classified, it can reclassify."
+      },
+      {
+        "type": "p",
+        "html": "I do not aim to stop the platforms. I aim for them to stop being asteroids."
+      },
+      {
+        "type": "p",
+        "html": "They have too much power. And I, as a citizen, do not wish to grant a private entity powers that I grant only to the rule of law."
+      }
+    ],
+    "notes": [
+      {
+        "n": 1,
+        "html": "Government of Sweden, “A stronger protection against sexual violations,” July 2025. The amendment to the Criminal Code (Government Bill 2024/25:124) entered into force on July 1, 2025, and extended the offense of purchasing sexual services to acts performed remotely, as well as the offense of promoting or profiting from such acts. Under the Nordic model, those who perform them commit no offense. Act SFS 2025:586 amending the Swedish Criminal Code (<em>Brottsbalken</em>), chapter 6, sections 11 (purchase of a sexual act) and 12 (procuring), published June 3, 2025. In Denmark, buying and selling sexual services between adults has not been a crime since the amendment to the Criminal Code (<em>Straffeloven</em>) of March 17, 1999; procuring (<em>rufferi</em>) and buying sexual services from persons under 18 remain offenses."
+      },
+      {
+        "n": 2,
+        "html": "Jung Min-ho, “Gov’t under fire for ‘China-style’ internet censorship,” <em>The Korea Times</em>, February 19, 2019. The Korea Communications Standards Commission blocked 895 overseas sites by inspecting the SNI field."
+      },
+      {
+        "n": 3,
+        "html": "<em>Free Speech Coalition, Inc. v. Paxton</em>, 606 U.S. 461 (2025), decided June 27, 2025."
+      },
+      {
+        "n": 4,
+        "html": "Political Constitution of the United Mexican States, Article 133: the Constitution, the laws of the Congress of the Union that emanate from it, and the treaties in accordance with it are the Supreme Law of the whole Union."
+      },
+      {
+        "n": 5,
+        "html": "Political Constitution of the United Mexican States, Article 1, first paragraph."
+      },
+      {
+        "n": 6,
+        "html": "William Blackstone, <em>Commentaries on the Laws of England</em>, Book IV, chapter 27 (1769)."
+      },
+      {
+        "n": 7,
+        "html": "Supreme Court of Justice of the Nation (Mexico), First Chamber, <em>amparo directo en revisión</em> 2806/2012, decided March 6, 2013, holding the terms “maricones” and “puñal” to be homophobic speech outside constitutional protection."
+      },
+      {
+        "n": 8,
+        "html": "United States-Mexico-Canada Agreement (USMCA), Article 19.17 (Interactive Computer Services); cf. 47 U.S.C. § 230."
+      },
+      {
+        "n": 9,
+        "html": "USMCA, Article 32.1, paragraph 2, incorporating subparagraphs (a), (b) and (c) of Article XIV of the General Agreement on Trade in Services for, among others, Chapter 19 (Digital Trade)."
+      },
+      {
+        "n": 10,
+        "html": "USMCA, Annex 19-A, paragraph 3."
+      },
+      {
+        "n": 11,
+        "html": "USMCA, Article 32.2 (Essential Security)."
+      },
+      {
+        "n": 12,
+        "html": "<em>Learning Resources, Inc. v. Trump</em>, decided by the U.S. Supreme Court on February 20, 2026, together with <em>Trump v. V.O.S. Selections, Inc.</em> The Court held that the International Emergency Economic Powers Act does not authorize the President to impose tariffs."
+      },
+      {
+        "n": 13,
+        "html": "Federal Tax Code (Código Fiscal de la Federación), Article 5-A."
+      },
+      {
+        "n": 14,
+        "html": "Political Constitution of the United Mexican States of 1917, Article 27, fourth paragraph, which vested direct ownership of oil in the Nation. The Mining Code of 1884 had recognized oil as the exclusive property of the surface owner, a position the Mining Law of 1892 largely maintained."
+      },
+      {
+        "n": 15,
+        "html": "Political Constitution of the United Mexican States, Article 6, Section B, items II and III."
+      },
+      {
+        "n": 16,
+        "html": "Amparo Act (Ley de Amparo), Article 5, item II, second paragraph."
+      },
+      {
+        "n": 17,
+        "html": "<em>Stratton Oakmont, Inc. v. Prodigy Services Co.</em>, 1995 WL 323710 (N.Y. Sup. Ct., May 24, 1995). Section 230 of the Communications Decency Act of 1996 (47 U.S.C. § 230) was enacted largely to reverse that holding."
+      },
+      {
+        "n": 18,
+        "html": "Federal Telecommunications Institute (IFT), 2017 resolution following the biennial review of the measures imposed on the preponderant economic agent, ordering the functional separation of Telmex and Telnor; the bylaws of the new wholesale companies were approved in 2018."
+      },
+      {
+        "n": 19,
+        "html": "<em>United States v. Paramount Pictures, Inc.</em>, 334 U.S. 131 (1948), decided May 3, 1948."
+      },
+      {
+        "n": 20,
+        "html": "Decree amending, adding and repealing various provisions of the Political Constitution of the United Mexican States regarding organic simplification, <em>Diario Oficial de la Federación</em>, December 20, 2024. Among others, it abolished the Federal Telecommunications Institute and the Federal Economic Competition Commission. The Telecommunications and Broadcasting Law, published in July 2025, created the Telecommunications Regulatory Commission as a decentralized body of the Agency for Digital Transformation and Telecommunications; its board was ratified by the Senate in October 2025."
+      },
+      {
+        "n": 21,
+        "html": "Associated Press, “Ukraine’s Starlink satellite speeds restored after a week of front-line disruption,” October 24, 2026."
+      },
+      {
+        "n": 22,
+        "html": "<em>The Wall Street Journal</em>, October 20, 2026, as reported by CNBC and UNITED24 Media."
+      },
+      {
+        "n": 23,
+        "html": "<em>The Moscow Times</em>, “Zelensky Says Starshield Speed Limited Again, Hampering Ukraine’s Defenses,” November 12, 2026; <em>The War Zone</em>, “Ukraine Says Starshield Disruptions Are Back as U.S. Negotiators Meet With Putin,” November 12, 2026."
+      }
+    ],
+    "doi": "DOI version: https://doi.org/10.5281/zenodo.24234672"
+  }
+}

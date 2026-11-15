@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { ArrowLeft, PenLine } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Novela | Libros | Mauricio de la Maza Benignos',
+  title: 'Novela | Libros | Mauricio De la Maza-Benignos',
   description:
     'La Caverna, novela corta de Mauricio de la Maza-Benignos. Próximamente.',
 };

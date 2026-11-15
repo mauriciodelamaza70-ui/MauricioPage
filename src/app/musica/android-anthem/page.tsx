@@ -32,7 +32,20 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: TITLE,
     description: DESCRIPTION,
-    images: [{ url: `${siteConfig.url}${POSTER}`, alt: 'Android Anthem — Mauricio de la Maza' }],
+    // Imagen oficial de las tres androides (portada del álbum). Se declaran
+    // dimensiones y tipo de forma explícita para que Facebook use SIEMPRE esta
+    // portada y no sustituya la tarjeta por un frame del videoclip (Vevo/YouTube)
+    // embebido más abajo en la página.
+    images: [
+      {
+        url: `${siteConfig.url}${POSTER}`,
+        secureUrl: `${siteConfig.url}${POSTER}`,
+        width: 2917,
+        height: 2917,
+        type: 'image/jpeg',
+        alt: 'Android Anthem — portada oficial con las tres figuras androides, de Mauricio de la Maza-Benignos',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

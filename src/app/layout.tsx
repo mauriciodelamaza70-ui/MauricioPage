@@ -24,7 +24,7 @@ const FB_PIXEL_ID = '1506864467415170';
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'Mauricio de la Maza Benignos',
+    default: 'Mauricio De la Maza-Benignos',
     template: `%s | ${siteConfig.name}`,
   },
   description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     locale: 'es_MX',
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: 'Mauricio de la Maza Benignos',
+    title: 'Mauricio De la Maza-Benignos',
     description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
     images: [
       {
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mauricio de la Maza Benignos',
+    title: 'Mauricio De la Maza-Benignos',
     description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
     images: [siteConfig.ogImage],
   },

@@ -56,10 +56,45 @@ export type Post = {
   imageId: string;
   /** Imagen del hero del artículo; si no se define, se usa imageId. */
   heroImageId?: string;
+  /** 'contain' muestra la imagen completa (sin recorte) en las tarjetas del índice. */
+  imageFit?: 'cover' | 'contain';
   /** Autor mostrado en el byline; si no se define, se usa "De la Maza Team". */
   author?: string;
   category: 'Artículos' | 'Colaboradores' | 'Entrevistas' | 'Noticias';
+  /** Campos académicos opcionales. Si hay `doi`, se muestra el bloque académico y los metadatos de Google Scholar. */
+  doi?: string;
+  zenodoUrl?: string;
+  pdfUrl?: string;
+  /** Copia del PDF alojada en el sitio (ruta bajo /pdf/); Google Scholar no indexa Zenodo. */
+  localPdfUrl?: string;
+  abstractEs?: string;
+  abstractEn?: string;
+  keywordsEs?: string[];
+  keywordsEn?: string[];
+  license?: { name: string; url: string };
+  /** Referencia en formato "Cómo citar". */
+  citation?: string;
+  /** Línea opcional de historial editorial, mostrada bajo la cita. */
+  history?: { es: string; en: string };
+  /** Título completo para `citation_title`; si no se define, se usa `title`. */
+  citationTitle?: string;
 };
+
+export type AcademicFields = Pick<
+  Post,
+  | 'doi'
+  | 'zenodoUrl'
+  | 'pdfUrl'
+  | 'localPdfUrl'
+  | 'abstractEs'
+  | 'abstractEn'
+  | 'keywordsEs'
+  | 'keywordsEn'
+  | 'license'
+  | 'citation'
+  | 'history'
+  | 'citationTitle'
+>;
 
 /** Metadata de un post sin el HTML pesado de `content`. Se usa en listados (revista, home). */
 export type PostMeta = Omit<Post, 'content'>;
@@ -77,6 +112,11 @@ export type Video = {
   type: 'Mediometraje' | 'Cortometraje';
   youtubeId: string;
   thumbnailId: string;
+  anchorId?: string;
+  year?: number;
+  duration?: string;
+  credits?: { es: string; en: string };
+  description?: { es: string; en: string };
 };
 
 export type Achievement = {
@@ -88,7 +128,9 @@ export type Achievement = {
 export type TimelineEvent = {
   year: string;
   description: string;
-};
+  linkText?: string;
+  href?: string;
+  };
 
 export type Collaborator = {
   name: string;
@@ -122,6 +164,31 @@ export type Movie = {
   subtitle?: string;
 };
 
+export type FilmCredit = { roleEs: string; roleEn: string; value: string };
+
+export type Film = Movie & {
+  slug: string;
+  footerName: string;
+  titleEn?: string;
+  genreEn?: string;
+  formatEn?: string;
+  synopsisEn?: string;
+  credits?: FilmCredit[];
+  festivalsHeadingEs?: string;
+  festivalsHeadingEn?: string;
+  festivalsEs?: string[];
+  festivalsEn?: string[];
+  noteEs?: string;
+  noteEn?: string;
+  yearNoteEs?: string;
+  yearNoteEn?: string;
+  youtubeId?: string;
+  review?: { href: string; labelEs: string; labelEn: string };
+  reviewsIntroEs?: string;
+  reviewsIntroEn?: string;
+  reviews?: { quote: string; source: string }[];
+};
+
 export type PressCategory = 'Cine' | 'Conservación' | 'Trayectoria';
 
 export type PressArticle = {
@@ -141,6 +208,8 @@ export type PressArticle = {
   esPortada?: boolean;
   /** Galería de páginas (portada + interiores) que se despliega al hacer clic en la tarjeta destacada. */
   galeria?: string[];
+  /** id HTML de la tarjeta, para enlazar directamente a ella con /prensa#ancla. */
+  ancla?: string;
   /** Pertenece a la cronología de Cuatro Ciénegas (2018-2023). */
   cuatroCienegas?: boolean;
   /** Si existe, la tarjeta navega a esta ruta interna en vez de al enlace externo. */

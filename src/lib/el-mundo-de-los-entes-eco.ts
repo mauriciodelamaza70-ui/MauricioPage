@@ -2,6 +2,7 @@ import { loadEssayContent } from '@/lib/load-essay-content';
 
 export type EssayBlock =
   | { type: 'p'; text: { es: string; en: string } }
+  | { type: 'h'; text: { es: string; en: string } }
   | {
       type: 'image';
       src: string;

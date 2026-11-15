@@ -24,10 +24,27 @@ export const videoGallery: Video[] = [
     { id: 'vid-4', title: 'Historias del septentrión', type: 'Mediometraje', youtubeId: 'HE7A1PyqPZo', thumbnailId: 'video-thumb-4'},
     { id: 'vid-5', title: 'Los murciélagos de la cueva de la boca', type: 'Cortometraje', youtubeId: 'suiOUN8zl18', thumbnailId: 'video-thumb-5'},
     { id: 'vid-6', title: 'Praderas del Tokio', type: 'Mediometraje', youtubeId: 'I7StbzrZAlU', thumbnailId: 'video-thumb-6'},
+    {
+      id: 'vid-7',
+      anchorId: 'celebrando-la-vida-otra-que-humana',
+      title: 'Celebrando la vida otra que humana: el reino biogeográfico neotropical',
+      type: 'Cortometraje',
+      year: 2021,
+      duration: '18 min',
+      youtubeId: 'Mq8fInj8l_w',
+      thumbnailId: 'video-thumb-7',
+      credits: {
+        es: 'Producción y dirección: Mauricio De la Maza-Benignos',
+        en: 'Produced and directed by Mauricio De la Maza-Benignos',
+      },
+      description: {
+        es: 'Un recorrido por la bioregión centroamericana del reino neotropical, de México a Panamá, entre selvas tropicales, bosques de niebla y bosques de pino-encino. Colibríes, ranas venenosas, la rana de hoja espléndida, el cocodrilo americano, lagartijas Anolis, monos ardilla y capuchinos, y perezosos de tres y de dos dedos muestran su comportamiento y sus adaptaciones. El cierre recuerda el surgimiento del istmo de Panamá y el Gran Intercambio Biótico Americano, y hace un llamado a valorar, respetar y amar la vida otra que humana.',
+        en: 'A journey through the Central American bioregion of the Neotropical realm, from Mexico to Panama, across tropical rainforests, cloud forests and pine-oak forests. Hummingbirds, poison dart frogs, the splendid leaf frog, the American crocodile, Anolis lizards, squirrel and capuchin monkeys, and three- and two-toed sloths reveal their behavior and adaptations. The film closes with the rise of the Isthmus of Panama and the Great American Biotic Interchange, and a call to value, respect and love non-human life.',
+      },
+    },
 ];
 
 export const achievements: Achievement[] = [
-  { year: 2021, title: 'Doctorado Honoris Causa', organization: 'Claustro Doctoral Iberoamericano' },
   { year: 2020, title: 'Premio a la Conservación', organization: 'Programa Internacional y Fronterizo del Departamento de Caza y Pesca de Arizona' },
   { year: 2015, title: 'Premio de Investigación UANL', organization: 'Universidad Autónoma de Nuevo León' },
   { year: 2014, title: 'Premio "Dr. José Álvarez del Villar"', organization: 'Sociedad Mexicana de Ictiología' },
@@ -42,9 +59,9 @@ export const timelineEvents: TimelineEvent[] = [
   { year: '2015', description: 'Gana el Premio de Investigación UANL en Ciencias Naturales.' },
   { year: '2019', description: 'Lidera la defensa de El Llano de la Soledad.' },
   { year: '2020', description: 'Recibe el Premio a la Conservación de AZGFD.' },
-  { year: '2021', description: 'Recibe el Doctorado Honoris Causa por su trayectoria.' },
   { year: '2022', description: 'Produce el documental "Ad memoriam rei perpetuam".' },
-];
+  { year: '2023', description: 'CEO del Wildlife Conservation Film Festival (WCFF)', linkText: 'Wildlife Conservation Film Festival (WCFF)', href: 'https://wcff.org/meet-the-team/' },
+  ];
 
 export const collaborators: Collaborator[] = [
   {

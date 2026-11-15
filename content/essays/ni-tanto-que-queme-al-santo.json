@@ -1,0 +1,379 @@
+{
+  "santoTitle": {
+    "es": "Ni tanto que queme al santo, ni tanto que no lo alumbre",
+    "en": "Neither So Close It Burns the Saint, Nor So Far It Leaves Him in the Dark"
+  },
+  "santoSubtitle": {
+    "es": "De los combustibles fósiles a las energías renovables",
+    "en": "From Fossil Fuels to Renewable Energy"
+  },
+  "santoBody": [
+    {
+      "type": "p",
+      "text": {
+        "es": "<em>24 de mayo de 2020; revisado en enero de 2022</em>",
+        "en": "<em>May 24, 2020; revised January 2022</em>"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Publicación posterior: revista HOMINIS, 6 de marzo de 2022, pp. 12–13; segunda parte de una serie de tres entregas.",
+        "en": "Subsequently published in HOMINIS magazine, March 6, 2022, pp. 12–13; second installment of a three-part series."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<em>Nota del autor: este ensayo se escribió en mayo de 2020, se revisó en enero de 2022 y se reproduce como documento histórico. Las cifras y el marco normativo corresponden a esas fechas y no se han actualizado.</em>",
+        "en": "<em>Author’s note: this essay was written in May 2020, revised in January 2022, and is reproduced here as a historical document. Figures and the regulatory framework reflect those dates and have not been updated.</em>"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>Hemos rebasado la capacidad de regeneración en nuestro planeta.</strong>",
+        "en": "<strong>We have exceeded our planet's regenerative capacity.</strong>"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Nada justifica obstaculizar la transición de los combustibles fósiles hacia las energías renovables.",
+        "en": "Nothing justifies obstructing the transition from fossil fuels to renewable energy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>Existe un deber moral, como obligación de la razón sobre la voluntad, de considerar los impactos a la biodiversidad</strong>.",
+        "en": "<strong>There is a moral duty, as an obligation of reason over will, to consider impacts on biodiversity</strong>."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Apelar a una reducción del consumo energético de las industrias debido a la pandemia; anteponer los ideales de seguridad y autosuficiencia energética al bien mayor que representa la mitigación climática; disfrazar la ineficacia operativa de medidas correctivas para atender el aumento «preexistente» del desbalance entre la capacidad de generación eléctrica y la demanda, culpando al pasado por las ineficacias del presente; y plantear falsas dicotomías frente a vicios como la corrupción: todo ello constituye demagogia en su máxima expresión, sustentada en falacias argumentativas.",
+        "en": "Invoking reduced industrial energy consumption due to the pandemic; placing the ideals of energy security and self-sufficiency above the greater good of climate mitigation; disguising operational inefficiency as corrective measures to address the “pre-existing” increase in the imbalance between electricity generation capacity and demand, blaming the past for the inefficiencies of the present; and posing false dichotomies in the face of vices such as corruption: all of this is demagoguery in its purest form, built on argumentative fallacies."
+      }
+    },
+    {
+      "type": "image",
+      "src": "/images/revista/ni-tanto-santo/foto-1.jpeg",
+      "width": 484,
+      "height": 323,
+      "alt": {
+        "es": "Foto por Master Wen en Unsplash",
+        "en": "Photo by Master Wen on Unsplash"
+      },
+      "caption": {
+        "es": "Foto por Master Wen en Unsplash",
+        "en": "Photo by Master Wen on Unsplash"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Es un hecho que, in statu quo ante, hemos rebasado la capacidad de regeneración en nuestro planeta. Expertos en la materia estimaban que nuestra demanda de recursos y servicios ecosistémicos excedía en aproximadamente un 70% la capacidad de regeneración de nuestro planeta. Lo hemos perturbado e impactado de maneras duraderas y, en muchos casos, irremediables; verbigracia, hemos alterado el ciclo climático natural, detonado la extinción masiva de especies y ocasionado la pérdida de algunos ecosistemas.",
+        "en": "It is a fact that, in statu quo ante, we have exceeded our planet's regenerative capacity. Experts estimated that our demand for resources and ecosystem services exceeded the planet's regenerative capacity by roughly 70%. We have disturbed and impacted it in lasting and, in many cases, irreparable ways; to wit, we have altered the natural climate cycle, triggered the mass extinction of species, and caused the loss of some ecosystems."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "De acuerdo con el IPCC, en 2010 la producción de electricidad y calor representó el 25% de las emisiones antropogénicas mundiales de gases de efecto invernadero, mientras que los sectores industrial y de transporte fueron responsables del 21% y el 14%, respectivamente.",
+        "en": "According to the IPCC, in 2010 electricity and heat production accounted for 25% of global anthropogenic greenhouse gas emissions, while the industrial and transport sectors were responsible for 21% and 14%, respectively."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Según cifras oficiales de la Secretaría de Energía (SENER), el sistema integrado de energía abastecía a 128 millones de mexicanos que habitaban en dos millones de kilómetros cuadrados y había alcanzado el 98.7% de cobertura del servicio. La capacidad instalada de generación era de 80,000 MW. Esta cifra superaba en 30,000 MW la demanda máxima instantánea del Sistema Eléctrico Nacional, que en la semana 26 de 2019 alcanzó un total de 50,000 MW. La capacidad instalada y la demanda máxima son indicadores distintos; la diferencia entre ambas no representa necesariamente una reserva efectiva disponible.",
+        "en": "According to official figures from Mexico's Ministry of Energy (SENER), the integrated energy system supplied 128 million Mexicans living across two million square kilometers and had reached 98.7% service coverage. Installed generation capacity was 80,000 MW. This figure exceeded by 30,000 MW the maximum instantaneous demand of the National Electric System, which peaked at 50,000 MW in week 26 of 2019. Installed capacity and peak demand are different indicators; the difference between them does not necessarily represent an effectively available reserve."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Según cifras oficiales de la Secretaría de Energía (SENER), al 31 de diciembre de 2019, la capacidad instalada de generación eólica y fotovoltaica en operación representaba el 11.86% de la capacidad instalada total. Al 26 de enero de 2020, la dependencia reportaba un avance de instalación del 67% en los proyectos correspondientes a las Subastas de Largo Plazo.",
+        "en": "According to SENER's official figures, as of December 31, 2019, installed wind and photovoltaic generation capacity in operation accounted for 11.86% of total installed capacity. As of January 26, 2020, the ministry reported 67% installation progress on the projects awarded in the Long-Term Auctions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El 27 de abril de 2020, el Centro Nacional de Control de Energía (CENACE) emitió el «Acuerdo para garantizar la eficiencia, calidad, confiabilidad, continuidad y seguridad del Sistema Eléctrico Nacional (SEN), con motivo del reconocimiento de la epidemia de enfermedad por el virus SARS-CoV-2 (COVID-19)», publicado en el Diario Oficial de la Federación (DOF) el 29 de abril de 2020. Posteriormente, el 15 de mayo de 2020, la Secretaría de Energía (SENER) publicó en el DOF la Política de Confiabilidad, Seguridad, Continuidad y Calidad en el Sistema Eléctrico Nacional.",
+        "en": "On April 27, 2020, the National Energy Control Center (CENACE) issued the “Agreement to guarantee the efficiency, quality, reliability, continuity, and security of the National Electric System (SEN), in light of the recognition of the epidemic of disease caused by the SARS-CoV-2 virus (COVID-19),” published in the Official Gazette of the Federation (DOF) on April 29, 2020. Subsequently, on May 15, 2020, the Ministry of Energy (SENER) published in the DOF the Policy on Reliability, Security, Continuity, and Quality in the National Electric System."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ahora bien, sin entrar al fondo de las fallas argumentativas de dicho acuerdo, que invitan al estudio de las falacias argumentativas —desde el <em>argumentum ex silentio</em> (argumento basado en ausencia de evidencia), que aparece en la motivación del título— y que evidencian las fuertes dosis de demagogia que nos vienen recetando, ya desde tiempos muy anteriores a la Cuarta Transformación (4T), el acto invita a una seria reflexión acerca de los riesgos reales de lo que significa la —riesgosa, pero necesaria— transición de las energías fósiles a las renovables, en este péndulo oscilante que llamamos historia de la humanidad.",
+        "en": "Now, without going into the substance of the argumentative flaws of that agreement—which invite the study of argumentative fallacies, starting with the <em>argumentum ex silentio</em> (an argument based on the absence of evidence) that appears in the rationale behind its title—and which reveal the heavy doses of demagoguery we have been prescribed since long before the Fourth Transformation (4T), the act invites serious reflection on the real risks of what the—risky, but necessary—transition from fossil to renewable energy entails, in this oscillating pendulum we call human history."
+      }
+    },
+    {
+      "type": "image",
+      "src": "/images/revista/ni-tanto-santo/foto-2.jpeg",
+      "width": 484,
+      "height": 323,
+      "alt": {
+        "es": "Foto por Roman Khripkov en Unsplash",
+        "en": "Photo by Roman Khripkov on Unsplash"
+      },
+      "caption": {
+        "es": "Foto por Roman Khripkov en Unsplash",
+        "en": "Photo by Roman Khripkov on Unsplash"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC) considera que la mayor influencia humana al calentamiento global ha sido la emisión de gases de efecto invernadero como el dióxido de carbono, el metano y el óxido nitroso (N₂O).",
+        "en": "The Intergovernmental Panel on Climate Change (IPCC) considers that the greatest human influence on global warming has been the emission of greenhouse gases such as carbon dioxide, methane, and nitrous oxide (N₂O)."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "De acuerdo con el «Informe especial del IPCC sobre los impactos del calentamiento global de 1.5 °C con respecto a los niveles preindustriales y las trayectorias correspondientes que deberían seguir las emisiones mundiales de gases de efecto invernadero, en el contexto del reforzamiento de la respuesta mundial a la amenaza del cambio climático, el desarrollo sostenible y los esfuerzos por erradicar la pobreza», publicado originalmente en 2018 —cuya versión en español se difundió en 2019—, para 2017 el calentamiento global de origen antropogénico había alcanzado aproximadamente 1 °C (entre 0.8 °C y 1.2 °C) por encima de los niveles preindustriales, mostrando un incremento de 0.2 °C (entre 0.1 °C y 0.3 °C) por década.",
+        "en": "According to the IPCC “Special Report on the impacts of global warming of 1.5 °C above pre-industrial levels and related global greenhouse gas emission pathways, in the context of strengthening the global response to the threat of climate change, sustainable development, and efforts to eradicate poverty,” published in 2018, by 2017 human-induced global warming had reached approximately 1 °C (likely between 0.8 °C and 1.2 °C) above pre-industrial levels, increasing at 0.2 °C (likely between 0.1 °C and 0.3 °C) per decade."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El fenómeno es palpable. Muchos ecosistemas terrestres y oceánicos, así como algunos de los servicios ambientales que proveen, han sido alterados debido al calentamiento global. El mismo informe del IPCC —elaborado a solicitud de la Conferencia de las Partes de la Convención Marco de las Naciones Unidas sobre el Cambio Climático, en la decisión de su 21.er período de sesiones por la que se aprobó el Acuerdo de París— señala que el calentamiento causado por las emisiones antropogénicas desde el período preindustrial hasta la actualidad persistirá durante siglos o milenios, y seguirá provocando cambios a largo plazo en el sistema climático, como el aumento del nivel del mar. Si bien es improbable que las emisiones realizadas hasta la fecha (incluidos los gases de efecto invernadero, los aerosoles y sus precursores) causen por sí solas un calentamiento global de 1.5 °C, o uno adicional superior a 0.5 °C en los próximos dos o tres decenios o en una escala temporal de un siglo, que crucemos o no ese umbral dependerá de lo que emitamos de aquí en adelante.",
+        "en": "The phenomenon is palpable. Many terrestrial and ocean ecosystems, as well as some of the services they provide, have been altered by global warming. The same IPCC report—prepared at the request of the Conference of the Parties to the United Nations Framework Convention on Climate Change, in the decision of its 21st session adopting the Paris Agreement—states that warming caused by anthropogenic emissions from the pre-industrial period to the present will persist for centuries to millennia and will continue to cause further long-term changes in the climate system, such as sea level rise. Although emissions to date (including greenhouse gases, aerosols and their precursors) are unlikely on their own to cause global warming of 1.5 °C, or further warming of more than 0.5 °C over the next two to three decades or on a century time scale, whether or not we cross that threshold will depend on what we emit from here on."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Los efectos y sus riesgos dependen de la magnitud y el ritmo del calentamiento, la ubicación geográfica y los niveles de desarrollo y vulnerabilidad, así como de las opciones de adaptación y mitigación que se elijan y de su implementación.",
+        "en": "Impacts and their risks depend on the magnitude and rate of warming, geographic location, and levels of development and vulnerability, as well as on the adaptation and mitigation options chosen and how they are implemented."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El mismo informe advierte que «el calentamiento global en escalas de tiempo multidecenales se detendría si se alcanzaran y mantuvieran emisiones globales netas de CO₂ iguales a cero y se redujera el forzamiento radiativo neto distinto del CO₂ [...]. Por consiguiente, la temperatura máxima que se alcanzará estará determinada por las emisiones globales netas de CO₂ acumuladas hasta el momento en que éstas sean iguales a cero, y por el nivel de forzamiento radiativo distinto del CO₂ en los decenios inmediatamente anteriores al momento en que se alcancen esas temperaturas máximas».",
+        "en": "The same report warns that “reaching and sustaining net zero global anthropogenic CO₂ emissions and declining net non-CO₂ radiative forcing would halt anthropogenic global warming on multi-decadal time scales [...]. The maximum temperature reached is then determined by cumulative net global anthropogenic CO₂ emissions up to the time of net zero CO₂ emissions [...] and the level of non-CO₂ radiative forcing in the decades prior to the time that maximum temperatures are reached.”"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Estas conclusiones han sido respaldadas por las principales academias nacionales de ciencias y por una amplia mayoría de las organizaciones científicas de prestigio nacional e internacional, existiendo un sólido consenso científico sobre el origen antropogénico del cambio climático.",
+        "en": "These conclusions have been endorsed by the leading national academies of science and by a broad majority of prestigious national and international scientific organizations; there is a solid scientific consensus on the anthropogenic origin of climate change."
+      }
+    },
+    {
+      "type": "image",
+      "src": "/images/revista/ni-tanto-santo/foto-3.jpeg",
+      "width": 484,
+      "height": 363,
+      "alt": {
+        "es": "Foto por Mauricio De la Maza-Benignos",
+        "en": "Photo by Mauricio De la Maza-Benignos"
+      },
+      "caption": {
+        "es": "Foto por Mauricio De la Maza-Benignos",
+        "en": "Photo by Mauricio De la Maza-Benignos"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El cambio climático ya está provocando sequías más severas y huracanes más intensos, hambre, pobreza y destrucción. Debemos transitar de los combustibles fósiles a las energías renovables si pretendemos alcanzar el estado de bienestar.",
+        "en": "Climate change is already causing more severe droughts and more intense hurricanes, hunger, poverty, and destruction. We must transition from fossil fuels to renewable energy if we are to achieve a state of well-being."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y si bien son hechos indubitablemente ciertos la emergencia del COVID-19, la prevalencia de actos de corrupción y su tasa de incidencia, tanto antes como después del inicio de la 4T —como lo documenta el INEGI en su Encuesta Nacional de Calidad e Impacto Gubernamental (ENCIG) 2019—, así como las limitaciones estructurales de la Red Nacional de Transmisión en cuanto a su capacidad de diseño y los riesgos de afectar el rendimiento sistémico al tener que recurrir asiduamente a Esquemas de Protección de Sistema (EPS) y Esquemas de Acción Remedial (EAR) para preservar la integridad de la red eléctrica, también es indubitable que las medidas tomadas por parte del Ejecutivo desmotivan la inversión pública y privada en energías limpias e incentivan la producción de energía eléctrica a partir del combustóleo que produce PEMEX —el cual genera mayores emisiones de CO₂ y dióxido de azufre (SO₂) a la atmósfera—, contribuyendo incivilmente a acrecentar los efectos nocivos del cambio climático y a desmejorar la salud de los mexicanos, provocando muertes prematuras y enfermedades respiratorias, entre muchas otras afectaciones.",
+        "en": "And while the COVID-19 emergency, the prevalence of corruption and its incidence rate both before and after the start of the 4T—as documented by INEGI in its 2019 National Survey of Government Quality and Impact (ENCIG)—and the structural limitations of the National Transmission Grid in terms of design capacity, along with the risk to systemic performance of having to rely frequently on System Protection Schemes (EPS) and Remedial Action Schemes (EAR) to preserve grid integrity, are all indisputably true, it is equally indisputable that the Executive's measures discourage public and private investment in clean energy and encourage electricity generation from the fuel oil produced by PEMEX—which releases more carbon dioxide (CO₂) and sulfur dioxide (SO₂) into the atmosphere—thereby uncivilly contributing to worsening the harmful effects of climate change and to the deterioration of Mexicans' health, causing premature deaths and respiratory illnesses, among many other harms."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Dicho lo anterior, es fundamental reconocer que, aunque el acuerdo no hubiera surgido, en materia de biodiversidad, durante el llamado «periodo neoliberal» que impulsó y promovió las subastas para adquisición de energía por parte de la Comisión Federal de Electricidad, no todo fue miel sobre hojuelas. Pues tal y como lo es ahora, las voces de los ambientalistas que nos preocupamos por la diversidad de la vida resonaban poco más que gritos en el desierto; tachados de «radicales» por no «comprender» que, ante el apremio del calentamiento global, debemos «aceptar» la pérdida de biodiversidad como efecto colateral del progreso: una concepción positivista <em>sensu Comte</em>, que presupone el sacrificio como condición necesaria de la modernidad y que se enmascara bajo el supuesto de una urgente transición evolutiva hacia las energías limpias; sin importar que, por ejemplo, las turbinas de los generadores eólicos actúen como auténticas «aspas de licuadora» contra murciélagos y aves migratorias; estas últimas, cuyas parvadas aprovechan, en sus migraciones milenarias, las mismas corrientes de aire que pretendemos transformar en energía eléctrica; o que vastas extensiones de celdas solares interrumpan la interconectividad ecosistémica que requieren las diversas especies para perpetuarse; o que, como bien observó reiteradamente nuestro presidente de la República, plaguemos el paisaje con grandes obras de infraestructura que lo contaminan visualmente.",
+        "en": "That said, it is essential to recognize that, although the agreement did not originate during the so-called “neoliberal period” that drove and promoted the Federal Electricity Commission's energy procurement auctions, not everything was a bed of roses in matters of biodiversity during that time. For then, as now, the voices of those of us environmentalists who care about the diversity of life rang out as little more than cries in the wilderness; we were branded “radicals” for failing to “understand” that, given the urgency of global warming, we must “accept” the loss of biodiversity as collateral damage of progress: a positivist conception <em>sensu Comte</em>, which presupposes sacrifice as a necessary condition of modernity and hides behind the premise of an urgent evolutionary transition toward clean energy; never mind that, for example, wind turbines act as veritable “blender blades” against bats and migratory birds—the latter, whose flocks ride, in their age-old migrations, the very air currents we aim to turn into electricity; or that vast expanses of solar panels disrupt the ecosystem connectivity that different species need to survive; or that, as the President of the Republic has rightly and repeatedly observed, we blight the landscape with large infrastructure works that pollute it visually."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Toda nueva tecnología conlleva riesgos y tiene efectos colaterales desconocidos, y las energías renovables no son la excepción. Hay aspectos que no se han tomado suficientemente en cuenta. Las energías renovables con la tecnología actual ocupan demasiado espacio, deslucen el paisaje, y su mala planificación significa una trampa mortal para especies voladoras y terrestres; y también para especies acuáticas en el caso de las hidroeléctricas.",
+        "en": "Every new technology carries risks and has unknown side effects, and renewable energy is no exception. There are aspects that have not been sufficiently taken into account. With current technology, renewable energy takes up too much space, mars the landscape, and, when poorly planned, becomes a death trap for flying and terrestrial species—and also for aquatic species in the case of hydropower plants."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No se trata de desprenderse, así porque sí, de los ideales del mundo moderno —el progreso continuo del conocimiento, el perfeccionamiento de la técnica, el mejoramiento social y moral, o sus teleologías emancipadoras—, pues, como sostiene Jürgen Habermas, la modernidad es un proyecto inacabado; se trata más bien de buscar comprender los fenómenos para encontrar el justo medio, reconociendo el valor intrínseco y extrínseco de todas las formas de vida como una obligación moral de la razón sobre la voluntad. Pues solo si desde la planeación mitigamos estos elementos podremos evitar más mermas a nuestro capital natural y alcanzar el tan anhelado estado de bienestar.",
+        "en": "This is not about casting aside, just like that, the ideals of the modern world—the continuous progress of knowledge, the improvement of technique, social and moral betterment, or its emancipatory teleologies—for, as Jürgen Habermas argues, modernity is an unfinished project; rather, it is about seeking to understand phenomena in order to find the golden mean, recognizing the intrinsic and extrinsic value of all forms of life as a moral obligation of reason over will. For only if we mitigate these elements from the planning stage can we prevent further losses to our natural capital and achieve the long-awaited state of well-being."
+      }
+    },
+    {
+      "type": "image",
+      "src": "/images/revista/ni-tanto-santo/foto-4.jpeg",
+      "width": 484,
+      "height": 298,
+      "alt": {
+        "es": "Foto por Mauricio De la Maza-Benignos",
+        "en": "Photo by Mauricio De la Maza-Benignos"
+      },
+      "caption": {
+        "es": "Foto por Mauricio De la Maza-Benignos",
+        "en": "Photo by Mauricio De la Maza-Benignos"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Citando la encíclica <em>Laudato si’</em> del papa Francisco: «Cada año desaparecen miles de especies vegetales y animales que ya no podremos conocer, que nuestros hijos ya no podrán ver. [...] Por nuestra causa, miles de especies ya no darán gloria a Dios con su existencia [...]. No tenemos derecho». Y si bien es cierto que la teleología del derecho es el bien común, y no la santidad del ciudadano, también lo es que el problema epistemológico, axiológico, deontológico y jurídico que plantea la separación entre derecho y moral (p. ej., la ética de la tierra) es más bien uno de forma y no de fondo, pues la separación absoluta entre ambos deriva del fundamentalismo que pretende divorciar lo lógico de lo metafísico so pretexto de la ciencia, bajo el argumento de que lo abstracto no se puede precisar objetivamente y de que los valores universales se encuentran principalmente fundamentados en juicios subjetivos de valor.",
+        "en": "Quoting Pope Francis's encyclical <em>Laudato si’</em>: “Each year sees the disappearance of thousands of plant and animal species which we will never know, which our children will never see [...]. Because of us, thousands of species will no longer give glory to God by their very existence [...]. We have no right.” And while it is true that the teleology of law is the common good and not the holiness of the citizen, it is also true that the epistemological, axiological, deontological, and legal problem posed by the separation between law and morality (e.g., the land ethic) is one of form rather than substance, since the absolute separation of the two stems from a fundamentalism that seeks to divorce the logical from the metaphysical on the pretext of science, arguing that the abstract cannot be specified objectively and that universal values rest mainly on subjective value judgments."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Aquí hay una oportunidad. Nuestra visión actual de las energías limpias está desarticulada. Por ejemplo, como me expresó Steve Holmer, experto en energías renovables de la ONG American Bird Conservancy: «…en los Estados Unidos se está viendo una transición hacia ambas energías [solar y eólica]. México tiene un excelente sol, así que hay mucho potencial ahí. Yo pensaría en promover la generación de energía solar, pues se ha visto que, entre las dos, la solar es económicamente más competitiva». Aunque cada caso en concreto debe analizarse de forma independiente, la ubicación y la cercanía a la red de conducción son, de hecho, elementos importantes que deben tomarse en cuenta.",
+        "en": "Here lies an opportunity. Our current vision of clean energy is disjointed. For example, as Steve Holmer, a renewable energy expert at the NGO American Bird Conservancy, told me: “…in the United States we are seeing a transition toward both [solar and wind]. Mexico has excellent sun, so there is a lot of potential there. I would think about promoting solar generation, since between the two, solar has proven to be more economically competitive.” Although each specific case must be analyzed on its own merits, location and proximity to the transmission grid are, in fact, important factors to take into account."
+      }
+    },
+    {
+      "type": "image",
+      "src": "/images/revista/ni-tanto-santo/foto-5.jpeg",
+      "width": 484,
+      "height": 363,
+      "alt": {
+        "es": "Foto por Roman Khripkov en Unsplash",
+        "en": "Photo by Roman Khripkov on Unsplash"
+      },
+      "caption": {
+        "es": "Foto por Roman Khripkov en Unsplash",
+        "en": "Photo by Roman Khripkov on Unsplash"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La instalación de celdas solares en ciudades, estacionamientos y techos ofrece importantes perspectivas para contribuir a una solución. Aun así, el desarrollo de ambas energías acarrea retos: la degradación y desconexión del paisaje, el impacto a la biodiversidad, su incompatibilidad espacial con la agricultura y la ganadería, los elementos sociales asociados a la tenencia de la tierra y el cambio de uso de suelo, por mencionar algunos. No obstante, la ubicación de estas instalaciones puede plantearse —atendiendo a los conceptos de costo de oportunidad y adicionalidad— en zonas urbanas y zonas altamente degradadas, cuya restauración puede representar un costo considerablemente mayor que la conservación de áreas de más alto valor biológico; proyectándolas de manera que se minimicen los daños colaterales.",
+        "en": "Installing solar panels in cities, parking lots, and rooftops offers important prospects for contributing to a solution. Even so, the development of both energies poses challenges: landscape degradation and fragmentation, impacts on biodiversity, spatial incompatibility with agriculture and livestock, and the social issues associated with land tenure and land-use change, to name a few. Nevertheless, these facilities can be sited—following the concepts of opportunity cost and additionality—in urban areas and highly degraded areas whose restoration may cost considerably more than conserving areas of higher biological value, and designed so as to minimize collateral damage."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "En suma, apelar a una reducción del consumo energético de las industrias debido a la pandemia; anteponer los ideales de seguridad y autosuficiencia energética al bien mayor que representa la mitigación climática; disfrazar la ineficacia operativa de medidas correctivas para atender el aumento «preexistente» del desbalance entre la capacidad de generación eléctrica y la demanda, culpando al pasado por las ineficacias del presente; plantear falsas dicotomías, como la «necesidad» de detener los avances en materia de energía renovable —frente a vicios como la corrupción—, para poder garantizar un ordenamiento eficaz del sistema de energía, o la necesidad de una regulación económica racional para poder comenzar a reincorporar de forma acelerada y progresiva las energías limpias, como<em> conditio sine qua non</em> para alcanzar la autosuficiencia energética, mediante el uso óptimo y sustentable de todos sus recursos de energías primarias; o tener que esperar al planteamiento de una política integral de desarrollo de capacidades científicas, tecnológicas e industriales, orientada al aumento de la productividad del sector energético, para poder mantener bajas tarifas a los usuarios finales; es demagogia en su máxima expresión, sustentada en falacias argumentativas.",
+        "en": "In short, invoking reduced industrial energy consumption due to the pandemic; placing the ideals of energy security and self-sufficiency above the greater good of climate mitigation; disguising operational inefficiency as corrective measures to address the “pre-existing” increase in the imbalance between generation capacity and demand, blaming the past for the inefficiencies of the present; posing false dichotomies, such as the “need” to halt progress on renewable energy—in the face of vices such as corruption—in order to ensure an efficient ordering of the energy system, or the need for rational economic regulation before clean energy can begin to be reincorporated in an accelerated and progressive manner, as a<em> conditio sine qua non</em> for achieving energy self-sufficiency through the optimal and sustainable use of all its primary energy resources; or having to wait for a comprehensive policy to develop scientific, technological, and industrial capabilities, aimed at increasing the energy sector's productivity, in order to keep end-user rates low: this is demagoguery in its purest form, built on argumentative fallacies."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El reto es analizar, comenzar a entender e informarse de lo que el cambio implica. Nada justifica obstaculizar la transición de las energías fósiles hacia las renovables, pues ello es contrario al interés público y, por lo tanto, antijurídico. Las explicaciones planteadas por el Ejecutivo no representan condiciones sin las cuales no se deba o no se pueda continuar con la transición. Mientras los argumentos caen por su propio peso, los daños que se están causando a la confianza, la reputación y la economía de México, so pretexto de la autosuficiencia energética, son definitivos.",
+        "en": "The challenge is to analyze, begin to understand, and learn what this change entails. Nothing justifies obstructing the transition from fossil to renewable energy, since doing so runs counter to the public interest and is therefore unlawful. The explanations put forward by the Executive are not conditions without which the transition should not or cannot continue. While the arguments collapse under their own weight, the damage being done to Mexico's credibility, reputation, and economy, on the pretext of energy self-sufficiency, is permanent."
+      }
+    },
+    {
+      "type": "image",
+      "src": "/images/revista/ni-tanto-santo/foto-6.jpeg",
+      "width": 484,
+      "height": 323,
+      "alt": {
+        "es": "Foto por Mauricio De la Maza-Benignos",
+        "en": "Photo by Mauricio De la Maza-Benignos"
+      },
+      "caption": {
+        "es": "Foto por Mauricio De la Maza-Benignos",
+        "en": "Photo by Mauricio De la Maza-Benignos"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Debemos apostar por el uso de las energías renovables bajo una gestión regulatoria y con leyes eficaces para mitigar las emisiones y salvaguardar los ecosistemas y su diversidad biológica, atendiendo al derecho humano a un medio ambiente sano para nuestro desarrollo y bienestar; planear el abandono paulatino, pero acelerado, del uso de las energías fósiles, como elemento garante del derecho humano a la salud; y armonizar y desarrollar estructuras y políticas que permitan a los tomadores de decisiones hacerlo con fuerte sustento científico, de forma integral, informada y armonizada, incorporando la variable biodiversidad.",
+        "en": "We must commit to renewable energy under sound regulatory management and effective laws that mitigate emissions and safeguard ecosystems and their biological diversity, upholding the human right to a healthy environment for our development and well-being; plan the gradual but accelerated phase-out of fossil fuels as a guarantee of the human right to health; and harmonize and develop structures and policies that enable decision-makers to do so on a strong scientific footing, in a comprehensive, informed, and coordinated way that incorporates biodiversity as a variable."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La filosofía, la política y las ciencias son algunos de los mayores y más sorprendentes triunfos del intelecto humano, pero hay que tener cuidado. Gran parte de los problemas y conflictos históricos surgieron de una desvirtuación política de las ciencias, la filosofía, la religión o la moral. Es por ello que, en materia de autosuficiencia energética, como diría mi abuela: ni tanto que queme al santo, ni tanto que no lo alumbre.",
+        "en": "Philosophy, politics, and the sciences are among the greatest and most remarkable triumphs of the human intellect, but we must be careful. Many historical problems and conflicts arose from the political distortion of science, philosophy, religion, or morality. That is why, when it comes to energy self-sufficiency, as my grandmother used to say: ni tanto que queme al santo, ni tanto que no lo alumbre—don't hold the candle so close that it burns the saint, nor so far that it leaves him in the dark."
+      }
+    },
+    {
+      "type": "hr"
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Mauricio De la Maza-Benignos es ingeniero agrónomo zootecnista y licenciado en Derecho; cuenta con un MBA internacional, una maestría en Arte Cinematográfico y Multimedia y es doctor en Ciencias Biológicas, con acentuación en Manejo de Vida Silvestre y Desarrollo Sostenible.",
+        "en": "Mauricio De la Maza-Benignos is an agricultural engineer specializing in animal science and holds a law degree; he also has an international MBA, a master's degree in Film and Multimedia Arts, and a PhD in Biological Sciences with a concentration in Wildlife Management and Sustainable Development."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "Fuentes de referencia",
+        "en": "References"
+      }
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "es": "Global Footprint Network. National Footprint Accounts 2019 Edition. Estimación de la huella ecológica mundial (1.7 planetas; datos globales hasta 2016).",
+          "en": "Global Footprint Network. National Footprint Accounts 2019 Edition. Global ecological footprint estimate (1.7 planets; global data through 2016)."
+        },
+        {
+          "es": "IPCC (2014). Climate Change 2014: Mitigation of Climate Change. Working Group III, Summary for Policymakers, figura SPM.2.",
+          "en": "IPCC (2014). Climate Change 2014: Mitigation of Climate Change. Working Group III, Summary for Policymakers, figura SPM.2."
+        },
+        {
+          "es": "Secretaría de Energía (SENER). «El Gobierno de México fortalece el Sistema Eléctrico Nacional», mayo de 2020. Cifras de cobertura, capacidad instalada, demanda máxima, capacidad eólica y fotovoltaica, y avance de las Subastas de Largo Plazo.",
+          "en": "Secretaría de Energía (SENER). “El Gobierno de México fortalece el Sistema Eléctrico Nacional” [The Government of Mexico strengthens the National Electric System], May 2020. Figures on coverage, installed capacity, peak demand, wind and photovoltaic capacity, and Long-Term Auction progress."
+        },
+        {
+          "es": "IPCC (2018). Global Warming of 1.5°C. Summary for Policymakers, apartados A.2 y A.2.1. Versión en español publicada en 2019.",
+          "en": "IPCC (2018). Global Warming of 1.5°C. Summary for Policymakers, sections A.1 and A.2."
+        },
+        {
+          "es": "INEGI (2020). Encuesta Nacional de Calidad e Impacto Gubernamental (ENCIG) 2019. Resultados principales.",
+          "en": "INEGI (2020). Encuesta Nacional de Calidad e Impacto Gubernamental (ENCIG) 2019 [National Survey of Government Quality and Impact]. Main results."
+        },
+        {
+          "es": "Comisión Federal de Electricidad (CFE). Guía técnica SPA00-55, especificaciones del combustóleo y su contenido de azufre.",
+          "en": "Comisión Federal de Electricidad (CFE). Technical guide SPA00-55, fuel oil specifications and sulfur content."
+        },
+        {
+          "es": "Centro Nacional de Control de Energía (CENACE). «Acuerdo para garantizar la eficiencia, calidad, confiabilidad, continuidad y seguridad del Sistema Eléctrico Nacional, con motivo del reconocimiento de la epidemia de enfermedad por el virus SARS-CoV-2 (COVID-19)». Diario Oficial de la Federación, 29 de abril de 2020.",
+          "en": "Centro Nacional de Control de Energía (CENACE). “Acuerdo para garantizar la eficiencia, calidad, confiabilidad, continuidad y seguridad del Sistema Eléctrico Nacional, con motivo del reconocimiento de la epidemia de enfermedad por el virus SARS-CoV-2 (COVID-19).” Diario Oficial de la Federación, April 29, 2020."
+        },
+        {
+          "es": "Secretaría de Energía (SENER). «Acuerdo por el que se emite la Política de Confiabilidad, Seguridad, Continuidad y Calidad en el Sistema Eléctrico Nacional». Diario Oficial de la Federación, 15 de mayo de 2020.",
+          "en": "Secretaría de Energía (SENER). “Acuerdo por el que se emite la Política de Confiabilidad, Seguridad, Continuidad y Calidad en el Sistema Eléctrico Nacional.” Diario Oficial de la Federación, May 15, 2020."
+        },
+        {
+          "es": "Francisco (2015). <em>Laudato si’. Carta encíclica sobre el cuidado de la casa común</em>, n. 33. Ciudad del Vaticano: Libreria Editrice Vaticana.",
+          "en": "Francis (2015). <em>Laudato si’: On Care for Our Common Home</em>, no. 33. Vatican City: Libreria Editrice Vaticana."
+        },
+        {
+          "es": "Habermas, J. (1980). «La modernidad, un proyecto incompleto». Discurso de aceptación del Premio Theodor W. Adorno, Fráncfort del Meno.",
+          "en": "Habermas, J. (1980). “Modernity—An Incomplete Project.” Acceptance speech for the Theodor W. Adorno Prize, Frankfurt am Main."
+        },
+        {
+          "es": "Holmer, S. American Bird Conservancy. Comunicación personal con el autor, s. f.",
+          "en": "Holmer, S. American Bird Conservancy. Personal communication with the author, n.d."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,656 @@
+{
+  "teleologiaTitle": {
+    "es": "Teleología, conciencia y sentido",
+    "en": "Teleology, Conscience and Meaning"
+  },
+  "teleologiaSubtitle": {
+    "es": "Un diálogo interior: ¿a qué precio puede quien no hereda una teleología natural desarrollar su propio sentido y sostener una brújula moral sin causa superior?",
+    "en": "An inner dialogue: at what price can someone who inherits no natural teleology develop their own meaning and hold a moral compass without a higher cause?"
+  },
+  "teleologiaBody": [
+    {
+      "type": "image",
+      "src": "/images/revista/teleologia/friso-leopardo-ibice.jpeg",
+      "width": 1800,
+      "height": 1205,
+      "alt": {
+        "es": "Friso sudarábigo en alabastro: un leopardo moteado ataca a un íbice de largos cuernos",
+        "en": "South Arabian alabaster frieze: a spotted leopard attacking a long-horned ibex"
+      },
+      "caption": {
+        "es": "Leopardo atacando un íbice. Detalle de un friso del sur de Arabia, siglo V a. C. Museo de Arte Walters, Baltimore. Donación de Giraud y Carolyn Foster, 2008. Dominio público.",
+        "en": "A leopard attacking an ibex. Detail of a South Arabian frieze, 5th century BC. Walters Art Museum, Baltimore. Gift of Giraud and Carolyn Foster, 2008. Public domain."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "Punto de partida: reconocer la moral",
+        "en": "Starting point: recognizing morality"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Un leopardo que caza una gacela en peligro de extinción para alimentarse no es, por ese solo hecho, un depredador inmoral. Un ser humano que realiza una conducta semejante, en cambio, puede ser objeto de un juicio moral. La diferencia no está necesariamente en el acto material, sino en la agencia a la que atribuimos responsabilidad y en el marco desde el cual evaluamos su conducta. Esto no significa que todas las personas juzguen del mismo modo, que sus juicios sean infalibles o que exista una moral absoluta. Significa que reconocemos un ámbito de la experiencia humana en el que distinguimos entre conductas buenas, malas o moralmente neutras, y en el que hablamos de responsabilidad, injusticia, culpa, transgresión y perdón. A ese ámbito lo llamo moral. No pretendo comenzar por una definición exhaustiva ni resolver aquí todas las disputas filosóficas acerca de su naturaleza: parto de su reconocimiento como fenómeno. La falta de una definición consensuada no demuestra su inexistencia, del mismo modo que las dificultades para definir plenamente la democracia no hacen que esta desaparezca como realidad política. Tampoco debemos confundir la moral con la legalidad, la intención o el sentimiento de quien recibe una acción: entrar ilegalmente en una casa para dejar flores puede no ofender a su propietario, pero ninguna de esas circunstancias resuelve por sí sola el juicio moral. Entiendo la moral como una brújula de principios, y la conciencia como nuestro tribunal interior, que los examina y los aplica a situaciones concretas, aunque ambos puedan estar condicionados por la biología, la cultura, la educación y la experiencia. Podemos discrepar sobre los principios, equivocarnos al aplicarlos e incluso reconocer la injusticia de un acto sin cuestionar el sistema que lo hace posible. Nada de ello elimina el fenómeno que intentamos comprender. Por tanto, no necesito demostrar una moral absoluta para plantear la pregunta que guía este ensayo: ¿podemos sostener una moral sin recurrir necesariamente a una autoridad trascendente?",
+        "en": "A leopard that hunts an endangered gazelle for food is not, by that fact alone, an immoral predator. A human being who does something similar, on the other hand, can be the object of moral judgment. The difference does not necessarily lie in the physical act, but in the agency to which we attribute responsibility and in the framework from which we evaluate the conduct. This does not mean that everyone judges in the same way, that their judgments are infallible, or that an absolute morality exists. It means that we recognize a realm of human experience in which we distinguish between good, bad and morally neutral conduct, and in which we speak of responsibility, injustice, guilt, transgression and forgiveness. That realm is what I call morality. I do not intend to begin with an exhaustive definition, nor to settle here every philosophical dispute about its nature: I start from its recognition as a phenomenon. The lack of an agreed definition does not prove that it does not exist, just as the difficulty of fully defining democracy does not make it vanish as a political reality. Nor should we confuse morality with legality, with intention, or with the feelings of whoever receives an action: breaking into a house to leave flowers may not offend the owner, but none of those circumstances settles the moral judgment on its own. I understand morality as a compass of principles, and conscience as our inner tribunal, which examines those principles and applies them to concrete situations, even though both may be conditioned by biology, culture, education and experience. We can disagree about the principles, make mistakes in applying them, and even recognize the injustice of an act without questioning the system that makes it possible. None of this does away with the phenomenon we are trying to understand. Therefore, I do not need to prove an absolute morality in order to ask the question that guides this essay: can we sustain a morality without necessarily appealing to a transcendent authority?"
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "1. La finalidad como problema",
+        "en": "1. Purpose as a problem"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La teleología se ocupa de las razones de existir o de ser: aquello hacia lo que algo se orienta, la finalidad que se le atribuye. Dentro de ella conviene distinguir la teleonomía, la orientación funcional propia de los seres vivos: los procesos que conservan la vida, permiten la reproducción y perpetúan las especies.",
+        "en": "Teleology deals with the reasons for existing or being: that toward which something is oriented, the purpose attributed to it. Within it, it is worth distinguishing teleonomy, the functional orientation proper to living beings: the processes that preserve life, allow reproduction and perpetuate species."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La teleonomía no requiere intención. Un organismo no necesita saber por qué vive para ejecutar los procesos que lo sostienen. La biología explica la vida por mecanismos que no requieren un propósito diseñado por una inteligencia superior.",
+        "en": "Teleonomy does not require intention. An organism does not need to know why it lives in order to carry out the processes that sustain it. Biology explains life through mechanisms that do not require a purpose designed by a higher intelligence."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La teleología natural en sentido clásico, la de Aristóteles y Tomás de Aquino, es otra cosa: un fin inscrito en la naturaleza humana por una causa que lo puso ahí. Para que ese fin exista, tiene que existir esa causa. En mi lógica no existe. Esa teleología solo opera para quien cree en una causa superior; quien no cree se queda sin ese fundamento y con un problema existencial.",
+        "en": "Natural teleology in the classical sense, that of Aristotle and Thomas Aquinas, is something else: an end inscribed in human nature by a cause that placed it there. For that end to exist, that cause must exist. In my logic, it does not. That teleology works only for those who believe in a higher cause; whoever does not believe is left without that foundation, and with an existential problem."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La teleonomía tampoco resuelve el problema. Es la misma del perro, la planta y la amiba. No le dice nada a un ser con consciencia, autoconciencia y metaconciencia que se pregunta cómo quiere vivir.",
+        "en": "Teleonomy does not solve the problem either. It is the same for the dog, the plant and the amoeba. It says nothing to a being with consciousness, self-awareness and meta-awareness who asks how they want to live."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "2. La consciencia y la posibilidad de cuestionar la finalidad",
+        "en": "2. Consciousness and the possibility of questioning purpose"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Conviene distinguir dos palabras que el español confunde: la consciencia, que permite conocer una situación, y la conciencia, que juzga qué hacer ante ella. Parto de que la consciencia surge de procesos biológicos, pero permite examinar esos mismos procesos. La autoconciencia y la metacognición hacen posible observar los propios estados, reconocer impulsos, cuestionar motivaciones y reflexionar sobre las decisiones.",
+        "en": "It is worth distinguishing two words that Spanish tends to conflate and English keeps apart: consciousness, which lets us know a situation, and conscience, which judges what to do about it. I start from the premise that consciousness arises from biological processes, yet it allows us to examine those very processes. Self-awareness and metacognition make it possible to observe our own states, recognize impulses, question motivations and reflect on decisions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La consciencia no revela una finalidad última. Permite plantear la pregunta, buscar y examinar respuestas, pero eso no equivale a conocer el propósito último de vivir.",
+        "en": "Consciousness does not reveal an ultimate purpose. It allows us to ask the question, to seek and examine answers, but that is not the same as knowing the ultimate purpose of living."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Un organismo responde a sus disposiciones biológicas sin cuestionarlas. Un ser consciente puede oponerse a ellas: renunciar a reproducirse, arriesgar la vida por una convicción, anteponer un principio al impulso de supervivencia. La autoconciencia es justo lo que permite romper la teleonomía.",
+        "en": "An organism responds to its biological dispositions without questioning them. A conscious being can oppose them: give up reproducing, risk its life for a conviction, put a principle before the drive to survive. Self-awareness is precisely what makes it possible to break with teleonomy."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Esto no saca a la consciencia de la biología. Significa que las disposiciones biológicas no determinan por sí solas las decisiones conscientes. Teleonomía y teleología consciente son niveles distintos que entran en tensión: el impulso de sobrevivir contra la decisión de arriesgarse por una causa.",
+        "en": "This does not take consciousness out of biology. It means that biological dispositions do not, on their own, determine conscious decisions. Teleonomy and conscious teleology are different levels that come into tension: the drive to survive against the decision to take a risk for a cause."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La consciencia no elimina esa tensión. Hace posible reconocerla y actuar frente a ella. Y no trae un fin incluido: trae la carga de tener que ponerlo.",
+        "en": "Consciousness does not eliminate that tension. It makes it possible to recognize it and act in the face of it. And it does not come with a built-in end: it comes with the burden of having to set one."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "3. Encontrar, crear o desarrollar un sentido",
+        "en": "3. Finding, creating or developing meaning"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Cuando una persona se pregunta por el sentido de su existencia, el verbo importa.",
+        "en": "When a person asks about the meaning of their existence, the verb matters."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>Encontrar</strong> presupone que el sentido ya existe y espera ser descubierto. Es el verbo del creyente. Para quien no cree en una causa superior es una trampa: lo devuelve a la ley natural, a un fin dado sin que haya quien lo dé.",
+        "en": "<strong>Finding</strong> presupposes that meaning already exists and is waiting to be discovered. It is the believer's verb. For someone who does not believe in a higher cause, it is a trap: it sends them back to natural law, to an end given without anyone to give it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>Crear</strong> tiene el problema opuesto: la arbitrariedad. Un sentido inventado de la nada, por capricho, no tiene por qué ser este y no otro. Se puede cambiar mañana como se cambia de camisa. Un sentido así es frágil y poco serio; no resiste el primer golpe.",
+        "en": "<strong>Creating</strong> has the opposite problem: arbitrariness. A meaning invented out of nothing, on a whim, has no reason to be this one rather than another. It can be changed tomorrow, like a shirt. Such a meaning is fragile and unserious; it does not survive the first blow."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Esta es la objeción clásica al existencialismo de Sartre. Si la existencia precede a la esencia y el ser humano se inventa a sí mismo sin ningún criterio previo, toda elección vale lo mismo, y entonces ninguna vale nada. Sartre intentó responder en <em>El existencialismo es un humanismo</em>: al elegirme, decía, elijo una imagen del ser humano para todos, y eso me obliga. Pero esa obligación también es elegida, así que la respuesta no sale del círculo. Un sentido sin suelo queda a merced del humor del día.",
+        "en": "This is the classic objection to Sartre's existentialism. If existence precedes essence and human beings invent themselves without any prior criterion, every choice is worth the same, and then none is worth anything. Sartre tried to answer in <em>Existentialism Is a Humanism</em>: in choosing myself, he said, I choose an image of the human being for everyone, and that binds me. But that obligation is also chosen, so the answer does not escape the circle. A meaning without ground is at the mercy of the day's mood."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Llevado hasta el final, ese camino termina en lo que Nietzsche llamó nihilismo pasivo: no la rebeldía de quien derriba valores para levantar otros, sino el cansancio de quien concluye que, si todo sentido es intercambiable, nada importa. El sentido arbitrario no salva del nihilismo; lo pospone.",
+        "en": "Taken to its end, that path leads to what Nietzsche called passive nihilism: not the rebellion of those who tear down values to raise others, but the weariness of those who conclude that, if every meaning is interchangeable, nothing matters. Arbitrary meaning does not save us from nihilism; it postpones it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Sostengo que <strong>desarrollar</strong> es el verbo preciso, porque exige un sustrato. Nadie empieza de cero: hay una biología que dispone, una memoria que acumula, un entorno que limita y unos vínculos que obligan. Ese material no lo elegí, pero es mío. El sentido se desarrolla a partir de él, como una planta a partir de su semilla y su suelo, no como una figura dibujada en el aire. Es lo que Nietzsche resumía en llegar a ser el que se es.",
+        "en": "I hold that <strong>developing</strong> is the precise verb, because it requires a substrate. No one starts from zero: there is a biology that disposes, a memory that accumulates, an environment that limits and bonds that oblige. I did not choose that material, but it is mine. Meaning develops from it, like a plant from its seed and its soil, not like a figure drawn in the air. It is what Nietzsche summed up as becoming who one is."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El sustrato es lo que separa esta postura de un relativismo superficial, el de \"cada quien su verdad\". Un sentido desarrollado puede estar equivocado: puede contradecir lo que uno ha vivido, traicionar los vínculos que uno tiene o ignorar lo que uno es. Que pueda equivocarse, y que se reconozca esa posibilidad, es justamente lo que lo separa de lo arbitrario. Lo que se inventa por capricho no se puede refutar; lo que se desarrolla sobre materia real, sí.",
+        "en": "The substrate is what separates this position from a shallow relativism, the \"to each their own truth\" kind. A developed meaning can be wrong: it can contradict what one has lived, betray the bonds one has, or ignore what one is. That it can be wrong, and that this possibility is acknowledged, is precisely what sets it apart from the arbitrary. What is invented on a whim cannot be refuted; what is developed on real material can."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Así, el sentido desarrollado no es encontrado, porque nadie lo puso ahí, ni inventado, porque no sale de la nada. Tampoco es impuesto, porque el trabajo es propio. Es subjetivo, porque compete al sujeto: nadie más puede ponerlo por él. Pero no es arbitrario, porque tiene fuente: una biología compartida, una memoria, un entorno y unos vínculos que no dependen de su capricho. Por eso no responde a quien le exige valor objetivo. Nunca lo prometió. Promete algo más modesto y más honesto: un sentido propio que puede someterse a examen.",
+        "en": "Thus, developed meaning is not found, because no one put it there, nor invented, because it does not come from nothing. Nor is it imposed, because the work is one's own. It is subjective, because it belongs to the subject: no one else can set it for them. But it is not arbitrary, because it has a source: a shared biology, a memory, an environment and bonds that do not depend on one's whim. That is why it does not answer to those who demand objective value from it. It never promised that. It promises something more modest and more honest: a meaning of one's own that can be submitted to examination."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ese es el reto real para quien no cree: desarrollar un sentido sin una causa superior que lo garantice, o caer en el nihilismo. No veo una tercera vía cómoda.",
+        "en": "That is the real challenge for the non-believer: to develop a meaning without a higher cause to guarantee it, or to fall into nihilism. I do not see a comfortable third way."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Le pongo dos condiciones al sentido desarrollado: debe ser coherente con la realidad que se vive y congruente con las creencias que se sostienen. Y nunca se termina; se revisa con cada experiencia y cada examen. Desarrollar un sentido no es conocer la finalidad última de la existencia. Es orientarse sin fingir que se resolvió el misterio.",
+        "en": "I set two conditions for developed meaning: it must be consistent with the reality one lives and congruent with the beliefs one holds. And it is never finished; it is revised with every experience and every examination. Developing a meaning is not knowing the ultimate purpose of existence. It is finding one's bearings without pretending to have solved the mystery."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "4. Una brújula moral sin causa superior",
+        "en": "4. A moral compass without a higher cause"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "No reconocer una finalidad trascendente no implica carecer de principios. Opero con una brújula moral y quiero dejar un legado: es la teleología que me impuse. Nunca tendré claridad absoluta sobre ese legado, porque no tengo claridad absoluta de nada, y eso no lo invalida.",
+        "en": "Not recognizing a transcendent purpose does not imply lacking principles. I operate with a moral compass and I want to leave a legacy: that is the teleology I have imposed on myself. I will never have absolute clarity about that legacy, because I have absolute clarity about nothing, and that does not invalidate it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Quien recibe su sentido de una autoridad superior suele encontrar propósito y moral en un mismo paquete, ya amarrados. En su marco, una moral sin fundamento trascendente debería colapsar. A buena parte de ellos les cuesta comprender que no colapse.",
+        "en": "Those who receive their meaning from a higher authority tend to find purpose and morality in a single package, already tied together. Within their framework, a morality without a transcendent foundation ought to collapse. Many of them find it hard to understand that it does not."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La diferencia se ve en una imagen. Quien hereda una casa la encuentra hecha y no necesita pensarla. Quien la construye conoce cada muro y cada viga, porque los puso. Lo heredado es más cómodo; lo construido ya fue puesto a prueba. Cuando llega un temblor, quien nunca examinó los cimientos no sabe si aguantan.",
+        "en": "The difference can be seen in an image. Whoever inherits a house finds it built and does not need to think about it. Whoever builds it knows every wall and every beam, because they put them there. What is inherited is more comfortable; what is built has already been tested. When an earthquake comes, whoever never examined the foundations does not know whether they will hold."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "5. La autonomía moral y sus raíces biológicas",
+        "en": "5. Moral autonomy and its biological roots"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Primero, una precisión de términos, porque cada filósofo los usa a su manera y las traducciones lo empeoran. Aquí llamo <strong>ética</strong> a los códigos de conducta, que admiten grados, y <strong>moral</strong> a la norma que resiste la universalización. Un código puede proteger a más o a menos; moral solo es el que protege a todos. La moral no es un grado de la ética: es su límite. La mafia tiene un código estricto de lealtad y silencio, pero solo protege a los de dentro; al de fuera se le puede extorsionar o matar. Es ética de grupo, no moral. Lo que hace moral a una norma no es cómo la llama la institución que la sostiene, sino si resiste la universalización.",
+        "en": "First, a clarification of terms, because every philosopher uses them in their own way and translations make it worse. Here I call <strong>ethics</strong> the codes of conduct, which admit of degrees, and <strong>morality</strong> the norm that withstands universalization. A code can protect more people or fewer; only the one that protects everyone is moral. Morality is not a degree of ethics: it is its limit. The mafia has a strict code of loyalty and silence, but it protects only insiders; outsiders can be extorted or killed. That is group ethics, not morality. What makes a norm moral is not what the institution that upholds it calls it, but whether it withstands universalization."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Universal y universalizable no son lo mismo. Lo universal, una norma que todos aceptan o cumplen, no existe: ni siquiera \"no matarás\", la prohibición más grave, rige en todas partes. Y si la más grave no es universal, ninguna lo es. En North Sentinel matan al intruso, y su regla se parece a la legítima defensa de un pueblo que cualquier visitante puede extinguir con una enfermedad. Lo universalizable no describe un hecho: es una prueba que la norma pasa o no pasa. Y la prueba también afina: \"no matarás\" a secas no la pasa; \"no matarás al inocente\" sí. En ese caso, además, quien la falla es el turista que se cuela.",
+        "en": "Universal and universalizable are not the same. The universal, a norm that everyone accepts or obeys, does not exist: not even \"thou shalt not kill\", the gravest prohibition, holds everywhere. And if the gravest is not universal, none is. On North Sentinel Island they kill intruders, and their rule resembles the self-defense of a people whom any visitor could wipe out with a disease. The universalizable does not describe a fact: it is a test that a norm passes or fails. And the test also refines: \"thou shalt not kill\", unqualified, does not pass it; \"thou shalt not kill the innocent\" does. In that case, moreover, the one who fails it is the tourist who sneaks in."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Sostengo que la moral es universalizable en su criterio, pero situada en su aplicación. Imaginemos un planeta donde una sola zanahoria gigante produce todo el oxígeno. Allí, comerla sería el peor crimen. Si sus habitantes llegaran a la Tierra y nos vieran comiendo zanahorias, se horrorizarían, y se equivocarían: el principio es no destruir lo que sostiene la vida de todos; la zanahoria es solo cómo se aplica en su mundo. Si nos vieran destruyendo la atmósfera, en cambio, tendrían razón. Nuestra zanahoria sagrada es el aire.",
+        "en": "I hold that morality is universalizable in its criterion but situated in its application. Imagine a planet where a single giant carrot produces all the oxygen. There, eating it would be the worst crime. If its inhabitants came to Earth and saw us eating carrots, they would be horrified, and they would be wrong: the principle is not to destroy what sustains everyone's life; the carrot is only how it applies in their world. If they saw us destroying the atmosphere, on the other hand, they would be right. Our sacred carrot is the air."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "De ahí dos riesgos simétricos. El dogma conserva el detalle y pierde la razón: congela la zanahoria de un lugar y una época como si fuera la ley misma, y no distingue particularidades. El relativismo conserva la razón de cada caso y pierde el principio: cada quien encuentra la excepción que le conviene. La moral autónoma sostiene el principio y examina cada aplicación. Las circunstancias pueden cambiar cómo se aplica; nadie puede inventarse una excepción solo para sí.",
+        "en": "Hence two symmetrical risks. Dogma keeps the detail and loses the reason: it freezes the carrot of one place and time as if it were the law itself, and fails to distinguish particulars. Relativism keeps the reason of each case and loses the principle: everyone finds the exception that suits them. Autonomous morality holds the principle and examines each application. Circumstances can change how it applies; no one can invent an exception just for themselves."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Hay dos maneras de llegar a la misma conducta. La moral heterónoma obedece por miedo al castigo o por esperanza de recompensa. La moral autónoma actúa porque reconoce que algo es correcto.",
+        "en": "There are two ways of arriving at the same conduct. Heteronomous morality obeys out of fear of punishment or hope of reward. Autonomous morality acts because it recognizes that something is right."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La diferencia entre el creyente y yo la resumo así: quien hace el bien porque teme el infierno no hace lo mismo que quien lo hace porque es lo correcto. No todo creyente actúa por miedo, pero la doctrina que amenaza con el infierno ofrece ese motivo, y quien actúa por él actúa por interés propio.",
+        "en": "I sum up the difference between the believer and me this way: whoever does good because they fear hell is not doing the same thing as whoever does it because it is right. Not every believer acts out of fear, but a doctrine that threatens hell offers that motive, and whoever acts on it acts out of self-interest."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Kant, que era creyente, trazó una distinción semejante con sus propias palabras: una acción puede ser conforme al deber por miedo, por conveniencia o por inclinación, pero solo tiene valor moral la hecha por deber, por respeto a lo correcto. Quien hace el bien por miedo hace un cálculo, no un acto moral. Por eso sostengo que la moral autónoma no es la carencia de quien no tiene causa superior: es la forma más alta de la ética.",
+        "en": "Kant, who was a believer, drew a similar distinction in his own words: an action can accord with duty out of fear, convenience or inclination, but only an action done from duty, out of respect for what is right, has moral worth. Whoever does good out of fear is making a calculation, not a moral act. That is why I hold that autonomous morality is not the deficiency of someone who lacks a higher cause: it is the highest form of ethics."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Autonomía no significa carecer de principios. Significa sostenerlos por juicio propio, sin conceder de antemano autoridad definitiva a ninguna doctrina.",
+        "en": "Autonomy does not mean lacking principles. It means holding them by one's own judgment, without granting final authority in advance to any doctrine."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Esta capacidad no aparece al margen de la biología. Somos animales gregarios. Hacer el bien genera placer, y ese placer tiene base biológica: el cerebro premia la cooperación, el cuidado y la protección de los cercanos porque una especie que sobrevivió unida necesitaba premiarlos. La naturaleza no da el sentido, pero da el placer que hace sostenible vivir conforme a él. La brújula tiene aguja biológica; el rumbo lo elige uno. Por eso personas con fundamentos distintos suelen llegar a principios semejantes: la condición biológica es compartida, sea o no obra de un dios.",
+        "en": "This capacity does not arise apart from biology. We are social animals. Doing good produces pleasure, and that pleasure has a biological basis: the brain rewards cooperation, care and the protection of those close to us, because a species that survived together needed to reward them. Nature does not provide meaning, but it provides the pleasure that makes living by it sustainable. The compass has a biological needle; the course is one's own choice. That is why people with different foundations tend to arrive at similar principles: the biological condition is shared, whether or not it is the work of a god."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Explicar el origen biológico de una conducta no la justifica. La biología también nos dispone a la jerarquía, la competencia y el dominio, y es la conciencia la que examina y regula esas disposiciones.",
+        "en": "Explaining the biological origin of a behavior does not justify it. Biology also disposes us toward hierarchy, competition and domination, and it is conscience that examines and regulates those dispositions."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Hay un matiz decisivo. La biología da los impulsos de cooperación, la materia prima de la empatía, pero los da con un sesgo: favorece a los míos. La empatía evolutiva es endogrupal: favorece sistemáticamente a la familia, a la tribu, a quien se parece a uno. Con el extraño se debilita, y puede volverse indiferente u hostil. Ese sesgo fue útil para sobrevivir, no para ser justo.",
+        "en": "There is a decisive nuance. Biology provides the impulses toward cooperation, the raw material of empathy, but it provides them with a bias: it favors my own. Evolutionary empathy is in-group: it systematically favors family, tribe, those who resemble us. Toward the stranger it weakens, and it can turn indifferent or hostile. That bias was useful for surviving, not for being just."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La autonomía consciente es la que da el paso que la biología no da: decidir aplicar esa empatía de forma universal, también al que no es de los míos. Es el núcleo del imperativo kantiano: actuar según una máxima que pueda valer como ley para todos, y tratar a toda persona como un fin, nunca solo como un medio. Ninguna disposición biológica dicta eso. Es la conciencia tomando la materia prima de la empatía y extendiéndola contra el propio sesgo que la produjo.",
+        "en": "Conscious autonomy is what takes the step biology does not: deciding to apply that empathy universally, also to those who are not my own. That is the core of the Kantian imperative: to act according to a maxim that could hold as a law for everyone, and to treat every person as an end, never merely as a means. No biological disposition dictates that. It is conscience taking the raw material of empathy and extending it against the very bias that produced it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Esa es mi respuesta al determinismo biológico. Si la biología lo explicara todo, la moral no pasaría nunca del círculo de los cercanos. Que pueda romperlo muestra que la conciencia no solo hereda impulsos: los corrige. Y ese mismo sesgo endogrupal, como se verá, es el que deja fuera a quien no comparte el relato de la tribu.",
+        "en": "That is my answer to biological determinism. If biology explained everything, morality would never get past the circle of those close to us. That it can break that circle shows that conscience does not merely inherit impulses: it corrects them. And that same in-group bias, as we will see, is what leaves out those who do not share the tribe's story."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Hay un argumento más directo. El canibalismo está en el repertorio natural: lo practican los guppis, se ha documentado en chimpancés y lo ha practicado el ser humano. Los fore de Papúa Nueva Guinea mantuvieron el canibalismo funerario hasta mediados del siglo XX y lo abandonaron en una o dos generaciones.",
+        "en": "There is a more direct argument. Cannibalism is part of the natural repertoire: guppies practice it, it has been documented in chimpanzees, and human beings have practiced it. The Fore of Papua New Guinea kept up funerary cannibalism until the mid-twentieth century and abandoned it within one or two generations."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ese abandono no puede atribuirse al instinto, por dos razones. La primera es el tiempo: el genoma no cambia en una generación. Si los instintos eran los mismos antes y después, el cambio de conducta vino de otra parte. La segunda es la comparación: los fore son tan humanos como cualquiera de nosotros y comparten los mismos instintos. Si con la misma biología unos practicaban el canibalismo y otros lo consideraban impensable, la diferencia no es de especie ni de instinto. Es cultural.",
+        "en": "That abandonment cannot be attributed to instinct, for two reasons. The first is time: the genome does not change in one generation. If the instincts were the same before and after, the change in behavior came from somewhere else. The second is comparison: the Fore are as human as any of us and share the same instincts. If, with the same biology, some practiced cannibalism and others considered it unthinkable, the difference is not one of species or instinct. It is cultural."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Al determinista le queda una salida: decir que todo rechazo es un instinto que le ganó a otro. Pero una explicación que sirve para cualquier conducta y para su contraria no explica nada. No puede equivocarse, y por eso no dice nada del mundo.",
+        "en": "The determinist has one way out: to say that every rejection is one instinct that won out over another. But an explanation that works for any behavior and for its opposite explains nothing. It cannot be wrong, and for that reason it says nothing about the world."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Queda una precisión. Que la diferencia sea cultural descarta el determinismo biológico estricto, pero no prueba por sí sola la autonomía: la cultura también se impone, y en el caso de los fore el cambio llegó sobre todo por la prohibición colonial y misionera. La cultura es parte del sustrato, como la biología. La autonomía es la capacidad de examinar las dos. Su prueba más clara es la universalización: proteger también al extraño, al que no es de los míos, algo que no dicta el sesgo endogrupal de la biología y, muchas veces, tampoco la propia cultura.",
+        "en": "One clarification remains. That the difference is cultural rules out strict biological determinism, but it does not by itself prove autonomy: culture also imposes itself, and in the case of the Fore the change came mainly through colonial and missionary prohibition. Culture is part of the substrate, like biology. Autonomy is the capacity to examine both. Its clearest test is universalization: protecting the stranger too, the one who is not my own, something the in-group bias of biology does not dictate and, often, neither does one's own culture."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "6. El gregario segregado",
+        "en": "6. The gregarious outcast"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Aquí aparece la paradoja: el individuo autónomo es profundamente gregario en su impulso y, sin embargo, termina siendo el más segregado de los gregarios.",
+        "en": "Here the paradox appears: the autonomous individual is deeply gregarious in impulse and yet ends up being the most segregated of the gregarious."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Las comunidades no se unen solo por conductas compartidas. Se unen por un relato compartido: el origen del mundo, el sentido de la existencia, la autoridad, las razones para vivir de cierta manera. Compartir la doctrina es condición de pertenencia. Quien actúa como los demás pero no reza en el mismo altar resulta ajeno.",
+        "en": "Communities are not held together only by shared conduct. They are held together by a shared story: the origin of the world, the meaning of existence, authority, the reasons for living a certain way. Sharing the doctrine is a condition of belonging. Whoever acts like everyone else but does not pray at the same altar remains a stranger."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ese relato es cultural, y su variedad lo demuestra en dos niveles. Entre culturas, la misma biología produce miles de religiones distintas, cada una convencida de tener la verdad. Si el contenido de la fe dependiera de algo inscrito en nuestra naturaleza, convergería. No converge: varía con la geografía y la historia. Dentro de una misma cultura, personas criadas en la misma tradición terminan en lugares distintos: unas creen, otras dudan, otras dejan de creer. Si la cultura determinara, no habría esa dispersión.",
+        "en": "That story is cultural, and its variety shows this on two levels. Across cultures, the same biology produces thousands of different religions, each convinced it holds the truth. If the content of faith depended on something inscribed in our nature, it would converge. It does not: it varies with geography and history. Within a single culture, people raised in the same tradition end up in different places: some believe, some doubt, some stop believing. If culture determined belief, there would be no such dispersion."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Esto vale también para este ensayo. Kant, Nietzsche, Sartre y el método de ajustar la creencia a la evidencia vienen de una tradición concreta. No escribo desde fuera de la cultura, sino desde dentro, examinándola. Esa es la diferencia que sostengo: no estar fuera del sustrato, sino no estar determinado por él. Mi postura no reclama superioridad desde fuera de la historia; es una posición desarrollada, sometida a examen y revisable.",
+        "en": "This also applies to this essay. Kant, Nietzsche, Sartre and the method of fitting belief to evidence come from a specific tradition. I do not write from outside culture, but from within it, examining it. That is the difference I hold: not being outside the substrate, but not being determined by it. My position claims no superiority from outside history; it is a developed position, submitted to examination and open to revision."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y la comunidad tiene una razón para desconfiar. Hay que admitirlo con honestidad: el riesgo es real. Si mi moral no está anclada en la misma fuente, nada externo garantiza que mañana no cambie. Para el creyente, la causa superior es el aval de que seguirá siendo bueno aunque nadie lo vea. Mi moral descansa solo en mi integridad; no hay contrato cósmico que me obligue. Eso la hace más frágil, y negarlo sería engañarme.",
+        "en": "And the community has a reason to be wary. It must be admitted honestly: the risk is real. If my morality is not anchored in the same source, nothing external guarantees that it will not change tomorrow. For the believer, the higher cause is the guarantee that they will go on being good even when no one is watching. My morality rests only on my integrity; there is no cosmic contract binding me. That makes it more fragile, and denying it would be deceiving myself."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La respuesta no es que el riesgo no exista, sino que la garantía del otro tampoco asegura el resultado: hay quien cree en el infierno y aun así roba y mata. Ninguna de las dos morales está vacunada. La mía, al menos, no finge tener un aval que no tiene.",
+        "en": "The answer is not that the risk does not exist, but that the other's guarantee does not ensure the outcome either: there are people who believe in hell and still steal and kill. Neither morality is immune. Mine, at least, does not pretend to have a backing it lacks."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Eso no significa que la moral autónoma carezca de garantía. La tiene, pero es interna: la coherencia y el autoexamen. Lo que me sostiene no es un vigilante exterior, sino la obligación de que mis actos no contradigan mi propio juicio, y la costumbre de revisar ese juicio una y otra vez.",
+        "en": "That does not mean autonomous morality has no guarantee. It has one, but it is internal: coherence and self-examination. What sustains me is not an outside watcher, but the obligation that my acts not contradict my own judgment, and the habit of reviewing that judgment again and again."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Tampoco carece de castigo. El castigo del autónomo no es el infierno: es la traición a su propio juicio y la pérdida de su integridad. Quien sostiene su moral sin aval externo no tiene a quién culpar ni ante quién arrepentirse para quedar absuelto. Si se traiciona, lo sabe, y no hay confesión que lo limpie. Ese castigo no espera a la muerte; llega en el momento mismo de la falta.",
+        "en": "Nor does it lack punishment. The punishment of the autonomous person is not hell: it is the betrayal of their own judgment and the loss of their integrity. Whoever holds their morality without external backing has no one to blame and no one before whom to repent and be absolved. If they betray themselves, they know it, and no confession can wash it away. That punishment does not wait for death; it arrives at the very moment of the fault."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La limitación sigue en pie, y hay que decirla: esa garantía solo la puedo auditar yo. Para la tribu, mi integridad es invisible; solo ve mis actos. Por eso su desconfianza es comprensible, aunque no sea justa.",
+        "en": "The limitation still stands, and it must be said: only I can audit that guarantee. To the tribe, my integrity is invisible; it sees only my acts. That is why its distrust is understandable, even if it is not fair."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El problema se agrava porque la exclusión no castiga una conducta, sino una imposibilidad. Quien no cree puede desear pertenecer, compartir la necesidad humana de comunidad y reconocer el valor moral de los demás, y aun así no conseguir aceptar la premisa que le permitiría integrarse. No eligió quedar fuera. Está fuera porque no puede creer.",
+        "en": "The problem is made worse because exclusion does not punish a behavior, but an impossibility. The non-believer may wish to belong, share the human need for community and recognize the moral worth of others, and still be unable to accept the premise that would let them in. They did not choose to be left out. They are out because they cannot believe."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "7. Objeciones: el deber sin legislador",
+        "en": "7. Objections: duty without a lawgiver"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "La objeción que considero más seria llega desde dos lados opuestos. Anscombe, en <em>Modern Moral Philosophy</em> (1958), sostiene que hablar de \"deber moral\" sin un legislador divino es usar una palabra que perdió su fundamento, y considera absurda la idea kantiana de legislarse a uno mismo. Nietzsche sostiene que, muerto Dios, la moral que queda es un residuo cristiano o una moral de rebaño.",
+        "en": "The objection I consider most serious comes from two opposite sides. Anscombe, in <em>Modern Moral Philosophy</em> (1958), argues that speaking of \"moral obligation\" without a divine lawgiver is using a word that has lost its foundation, and she considers the Kantian idea of legislating for oneself absurd. Nietzsche holds that, once God is dead, the morality that remains is a Christian residue or a herd morality."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>Contra Anscombe.</strong> Concedo que no hay legislador. Pero el deber que sostengo no es una ley dictada por nadie, ni siquiera por mí. Es una exigencia de coherencia: no puedo sostener una regla y exceptuarme de ella sin contradecir mi propio juicio. Universalizar no es legislar; es no hacer trampa. Y la sanción no necesita juez: es la traición al propio juicio y la pérdida de la integridad.",
+        "en": "<strong>Against Anscombe.</strong> I grant that there is no lawgiver. But the duty I hold is not a law dictated by anyone, not even by me. It is a demand of coherence: I cannot hold a rule and exempt myself from it without contradicting my own judgment. To universalize is not to legislate; it is not to cheat. And the sanction needs no judge: it is the betrayal of one's own judgment and the loss of integrity."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>Contra Nietzsche.</strong> La moral de rebaño protege a los suyos y excluye al de fuera. La moral de este ensayo hace lo contrario: rompe con el sesgo endogrupal, extiende la empatía al extraño y por eso termina segregada de la tribu. No es residuo teológico ni instinto gregario; es una elección que cuesta la pertenencia. Está más cerca del individuo que crea sus valores contra el rebaño que del rebaño mismo.",
+        "en": "<strong>Against Nietzsche.</strong> Herd morality protects its own and excludes outsiders. The morality of this essay does the opposite: it breaks with in-group bias, extends empathy to the stranger, and that is why it ends up segregated from the tribe. It is neither a theological residue nor a herd instinct; it is a choice that costs belonging. It is closer to the individual who creates his values against the herd than to the herd itself."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>Tampoco la funda la supervivencia.</strong> Ninguna especie se extingue por causas teleológicas. Su naturaleza apunta a continuar; cuando desaparece es por causas externas, o como efecto lateral de actos que buscaban continuar, como en la selección sexual que exagera un rasgo hasta volverlo costoso. Pero persistir no es ser bueno: el guppi que devora a sus crías también persiste. La biología da el empuje a continuar, no el contenido de la moral.",
+        "en": "<strong>Nor is it grounded in survival.</strong> No species goes extinct for teleological reasons. Its nature points toward continuing; when it disappears, it is from external causes, or as a side effect of acts aimed at continuing, as in sexual selection that exaggerates a trait until it becomes costly. But persisting is not being good: the guppy that devours its young also persists. Biology provides the drive to continue, not the content of morality."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>La especie que puede destruirse.</strong> El ser humano es la única especie capaz de autodestruirse conscientemente, con armas nucleares o alterando el clima, y lo es precisamente por la consciencia y la tecnología. La teleonomía nos empuja a continuar, pero no trae freno contra lo que nosotros mismos podemos hacer. Si llegáramos a destruirnos, probablemente nadie lo habría buscado: cada quien habría perseguido bienes razonables, y el efecto agregado habría sido la catástrofe. El ave que la selección empuja hacia la extinción no puede leer el modelo que lo predice. Nosotros sí.",
+        "en": "<strong>The species that can destroy itself.</strong> Human beings are the only species capable of consciously destroying themselves, with nuclear weapons or by altering the climate, and they are so precisely because of consciousness and technology. Teleonomy pushes us to continue, but it brings no brake against what we ourselves can do. If we were to destroy ourselves, probably no one would have sought it: each would have pursued reasonable goods, and the aggregate effect would have been catastrophe. The bird that selection drives toward extinction cannot read the model that predicts it. We can."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>La tesis.</strong> Llamo objetivos a los modelos predictivos en este sentido: no son bolas de cristal, pero se revisan con datos y valen para cualquiera, crea o no crea. Lo que no dicen es que debamos evitar lo que predicen. Para eso hace falta un valor: querer que haya futuro. Sostengo que hechos objetivos más un valor con fuente producen una obligación racional; sería incoherente querer el futuro y destruirlo. Una decisión que solo me afecta a mí es prudencial. Cuando se empareja con una visión de humanidad, se vuelve moral. Esa visión debe incluir a todos, también al extraño y al que todavía no nace: los totalitarismos también tenían una visión de humanidad, pero dejaban fuera a una parte de ella. Para esto no hace falta un dios. Hace falta conciencia.",
+        "en": "<strong>The thesis.</strong> I call predictive models objective in this sense: they are not crystal balls, but they are revised against data and hold for anyone, believer or not. What they do not say is that we must avoid what they predict. For that, a value is needed: wanting there to be a future. I hold that objective facts plus a value with a source produce a rational obligation; it would be incoherent to want the future and destroy it. A decision that affects only me is prudential. When it is paired with a vision of humanity, it becomes moral. That vision must include everyone, the stranger and the not-yet-born as well: totalitarian regimes also had a vision of humanity, but they left part of it out. None of this requires a god. It requires conscience."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>La capa de ozono</strong> es el caso más claro. En 1974, Molina y Rowland predijeron que los clorofluorocarbonos destruirían el ozono estratosférico. En 1985 se detectó el agujero sobre la Antártida. En 1987, el Protocolo de Montreal, que terminaron ratificando todos los países, prohibió esos compuestos, y la capa se está recuperando. Un hecho objetivo, una decisión tomada por la humanidad de su momento para la humanidad entera, incluida la que estaba por venir, y ningún dios dictándola. Fue un caso relativamente fácil, porque había sustitutos; prueba que es posible, no que siempre sea sencillo.",
+        "en": "<strong>The ozone layer</strong> is the clearest case. In 1974, Molina and Rowland predicted that chlorofluorocarbons would destroy stratospheric ozone. In 1985, the hole over Antarctica was detected. In 1987, the Montreal Protocol, eventually ratified by every country, banned those compounds, and the layer is recovering. An objective fact, a decision made by the humanity of its time for all of humanity, including the humanity yet to come, and no god dictating it. It was a relatively easy case, because substitutes existed; it proves that it is possible, not that it is always simple."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>La moral climática es un hecho.</strong> Hay quien deja de usar el coche o lo usa menos, sin que nadie lo vigile. No hace falta que todos la cumplan: entiendo que una norma existe cuando se reconoce, y una señal de ello es que hasta quien la incumple siente la necesidad de justificarse. Es una norma moral nacida en nuestra propia vida, de la ciencia y no de una revelación. Que exista no la hace válida; su validez la dan los hechos y la universalización. Pero su existencia refuta en la práctica la idea de que, sin causa superior, la moral colapsa.",
+        "en": "<strong>Climate morality is a fact.</strong> Some people stop using their car, or use it less, without anyone watching. Not everyone needs to comply: I take it that a norm exists when it is recognized, and one sign of this is that even those who break it feel the need to justify themselves. It is a moral norm born within our own lifetime, from science and not from revelation. Its existence does not make it valid; its validity comes from the facts and from universalization. But its existence refutes in practice the idea that, without a higher cause, morality collapses."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>El contraejemplo.</strong> Quien afirma que toda moral sin dios es autoengaño hace una afirmación universal, y una afirmación universal cae con un solo caso. Quien deja el coche ante la amenaza del cambio climático renuncia a un placer concreto: comodidad, tiempo, libertad de movimiento. Su efecto individual en el clima es casi nulo, nadie lo vigila, no espera premio ni teme castigo. ¿Por qué lo hace? Porque sabe lo que dicen los modelos, quiere que haya futuro para todos, incluidos quienes nunca conocerá, y no puede querer ese futuro y contribuir a destruirlo sin contradecir su propio juicio. Sacrifica su comodidad para no traicionar su coherencia.",
+        "en": "<strong>The counterexample.</strong> Whoever claims that all morality without God is self-deception is making a universal claim, and a universal claim falls with a single case. Whoever gives up the car in the face of climate change renounces a concrete pleasure: comfort, time, freedom of movement. Their individual effect on the climate is almost nil, no one is watching, they expect no reward and fear no punishment. Why do they do it? Because they know what the models say, they want there to be a future for everyone, including people they will never meet, and they cannot want that future and help destroy it without contradicting their own judgment. They sacrifice their comfort so as not to betray their coherence."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Se dirá que lo hace por la satisfacción de hacer el bien, y que eso también es interés propio. Pero esa satisfacción es consecuencia, no motivo: llega porque actuó bien; no actúa bien para obtenerla. Quien ha dejado el coche lo sabe: el placer de contribuir al clima no compensa la incomodidad de renunciar a él. Si fuera un cálculo de placer, saldría en contra. El placer de hacer el bien hace sostenible la decisión; no la explica.",
+        "en": "It will be said that they do it for the satisfaction of doing good, and that this too is self-interest. But that satisfaction is a consequence, not a motive: it comes because they acted well; they do not act well in order to get it. Anyone who has given up the car knows it: the pleasure of helping the climate does not make up for the inconvenience of doing without it. If it were a calculation of pleasure, it would come out against. The pleasure of doing good makes the decision sustainable; it does not explain it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ese caso cumple todo lo que aquí se entiende por moral: es universalizable, no es gremial y no hay legislador en su razonamiento. Al menos en este caso, la moral no es autoengaño ni residuo del dios muerto. Es la respuesta de una conciencia capaz de destruirse y que quiere continuar.",
+        "en": "That case meets everything meant here by morality: it is universalizable, it serves no single group, and there is no lawgiver in its reasoning. At least in this case, morality is neither self-deception nor a residue of the dead God. It is the response of a conscience capable of destroying itself and wanting to continue."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "8. Las dos apuestas",
+        "en": "8. The two wagers"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Ninguno escogió jugar. Creyente y no creyente fueron arrojados al mundo, en el sentido de Heidegger: sin consentimiento, con reglas que no pusieron, ya dentro de una apuesta.",
+        "en": "Neither chose to play. Believer and non-believer alike were thrown into the world, in Heidegger's sense: without consent, under rules they did not set, already inside a wager."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Y las dos posiciones son apuestas, pero no son la misma clase de apuesta.",
+        "en": "And both positions are wagers, but they are not the same kind of wager."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El ateísmo dogmático afirma \"sé que Dios no existe\". Eso es tan indemostrable como afirmar que existe, y es la misma fe con el signo invertido. No es mi postura.",
+        "en": "Dogmatic atheism asserts \"I know that God does not exist.\" That is as unprovable as asserting that he does, and it is the same faith with the sign reversed. It is not my position."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Mi postura, la del no creyente riguroso, es probabilística y metodológica. No afirma saber que no hay nada; constata que no hay evidencia de que haya algo, y ajusta su creencia a esa ausencia. La ausencia de evidencia no demuestra la inexistencia, pero la carga de la prueba corresponde a quien afirma, no a quien no encuentra razones para creer. Y la postura queda abierta: si apareciera evidencia, tendría que revisarse. El dogma no se revisa; la conclusión probabilística, sí.",
+        "en": "My position, that of the rigorous non-believer, is probabilistic and methodological. It does not claim to know that there is nothing; it notes that there is no evidence that there is something, and fits its belief to that absence. Absence of evidence does not prove non-existence, but the burden of proof lies with whoever asserts, not with whoever finds no reasons to believe. And the position remains open: if evidence appeared, it would have to be revised. Dogma is not revised; a probabilistic conclusion is."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pascal planteó la apuesta de otro modo: creer en Dios convendría porque, si existe, se gana todo, y si no existe, se pierde poco. Pero su apuesta es un cálculo de conveniencia, no de evidencia. Y presupone que se puede creer por conveniencia, cuando la fe no es algo que se elija. Pascal lo sabía: a quien no podía creer le recomendaba actuar como si creyera, hasta que la fe llegara por la costumbre. Pero el hábito produce la práctica, no la creencia. Quien no encuentra razones para creer puede rezar, persignarse e ir a misa toda la vida; habrá aprendido el rito, no la fe. Solo puede fingir.",
+        "en": "Pascal framed the wager differently: believing in God would be advantageous because, if he exists, one gains everything, and if he does not, one loses little. But his wager is a calculation of convenience, not of evidence. And it presupposes that one can believe out of convenience, when faith is not something one chooses. Pascal knew this: to those who could not believe, he recommended acting as if they did, until faith came through habit. But habit produces practice, not belief. Someone who finds no reasons to believe can pray, cross himself and go to Mass his whole life; he will have learned the rite, not the faith. He can only pretend."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Mi apuesta, entonces, no es la certeza de que no hay nada. Es la decisión de vivir conforme a lo que la evidencia permite, sin rellenar su silencio con lo que me gustaría oír. Sigue siendo una apuesta, porque no hay certeza. Pero es una apuesta que acepta perder si las razones cambian.",
+        "en": "My wager, then, is not the certainty that there is nothing. It is the decision to live according to what the evidence allows, without filling its silence with what I would like to hear. It is still a wager, because there is no certainty. But it is a wager that accepts losing if the reasons change."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Por eso los dos pueden perder la brújula. El creyente puede perder su fe en el más allá. El no creyente puede perder su fe en que vale la pena sostener una moral sin recompensa. Los dos pueden caer en el nihilismo.",
+        "en": "That is why both can lose their compass. The believer can lose faith in the hereafter. The non-believer can lose faith that a morality without reward is worth sustaining. Both can fall into nihilism."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero no caen igual. A menudo, el creyente pierde la fe tras algo tan terrible que se siente traicionado por el ente en que confiaba. Mientras no llegue a eso, tiene a dónde volver. Y cuando cae así, cae de golpe: heredó la casa, descubre que los cimientos eran imaginarios y pasa del todo a la nada sin escalas, sin haber construido nada propio.",
+        "en": "But they do not fall the same way. Often, the believer loses faith after something so terrible that he feels betrayed by the being he trusted. Until he reaches that point, he has somewhere to return to. And when he falls that way, he falls all at once: he inherited the house, discovers that the foundations were imaginary, and goes from everything to nothing with no stops in between, without ever having built anything of his own."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "El no creyente no tiene refugio al que volver, pero tampoco cae desde tan alto: ya vive a la intemperie. Si sostiene su brújula, es porque la sostiene él, todos los días.",
+        "en": "The non-believer has no refuge to return to, but he does not fall from as high either: he already lives out in the open. If he holds his compass, it is because he holds it himself, every day."
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "9. El consuelo y el precio de estar despierto",
+        "en": "9. Consolation and the price of being awake"
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Parto de que creer o no creer no es una elección voluntaria. Se puede desear creer, investigar, buscar, esperar. El deseo no produce la creencia. La fe no se adquiere por gusto, ni se pierde por voluntad.",
+        "en": "I start from the premise that believing or not believing is not a voluntary choice. One can wish to believe, investigate, search, hope. Desire does not produce belief. Faith is not acquired at will, nor lost by will."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Quien cree tiene consuelo. Cuando llega el dolor, tiene un plan, un reencuentro, alguien que vela por él. Hasta enojarse con Dios consuela: hay a quién reclamarle. Quien no cree enfrenta el dolor sin esa almohada. Puede desarrollar un sentido propio, pero ese sentido orienta; no consuela.",
+        "en": "Those who believe have consolation. When pain comes, they have a plan, a reunion, someone who watches over them. Even being angry at God consoles: there is someone to reproach. Those who do not believe face pain without that cushion. They can develop a meaning of their own, but that meaning orients; it does not console."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Por eso, desde la perspectiva de quien no puede creer, sería mejor tener fe y religión. No lo digo con ironía: es una ventaja real y no está a mi alcance. El jodido es el que está como yo: no cree, desarrolla su propia teleología, sostiene su brújula sin aval y no puede hacer nada respecto a su falta de consuelo más que reconocerla.",
+        "en": "That is why, from the perspective of someone who cannot believe, it would be better to have faith and religion. I do not say this ironically: it is a real advantage, and it is beyond my reach. The one who's screwed is the one in my position: he does not believe, develops his own teleology, holds his compass without backing, and can do nothing about his lack of consolation except acknowledge it."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Pero esa ventaja tiene un precio. Que el creyente no elija creer no significa que no elija nada: puede elegir no examinar. Cuando su consuelo depende de no mirar su apuesta como apuesta, de tomar por certeza lo que es fe, ahí está el autoengaño: no en creer, sino en proteger la creencia del escrutinio.",
+        "en": "But that advantage has a price. That the believer does not choose to believe does not mean he chooses nothing: he can choose not to examine. When his consolation depends on not looking at his wager as a wager, on taking faith for certainty, there lies the self-deception: not in believing, but in shielding belief from scrutiny."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "Estar despierto no significa tener razón. Mi posición también es una apuesta. Significa saber que lo es, y vivir sin el consuelo que da no saberlo.",
+        "en": "Being awake does not mean being right. My position is also a wager. It means knowing that it is one, and living without the consolation that comes from not knowing."
+      }
+    },
+    {
+      "type": "p",
+      "text": {
+        "es": "<strong>Uno está consolado pero dormido; el otro, jodido pero despierto.</strong>",
+        "en": "<strong>One is consoled but asleep; the other, screwed but awake.</strong>"
+      }
+    },
+    {
+      "type": "h",
+      "text": {
+        "es": "Colofón: ideas para pensar",
+        "en": "Coda: ideas to think about"
+      }
+    },
+    {
+      "type": "ul",
+      "items": [
+        {
+          "es": "Si la fe no se elige, obligar a creer no produce fe: produce un incentivo para declarar que se cree.",
+          "en": "If faith cannot be chosen, forcing people to believe does not produce faith: it produces an incentive to declare that one believes."
+        },
+        {
+          "es": "El creenciómetro: imaginemos una sociedad que corta las orejas a quien no cree. Todos declararían creer. ¿Cómo distinguir al sincero del que miente? ¿Y qué hace quien quiere conservar sus orejas, pero no puede creer?",
+          "en": "The belief-meter: imagine a society that cuts off the ears of anyone who does not believe. Everyone would declare that they believe. How do you tell the sincere from the liar? And what does someone do who wants to keep their ears but cannot believe?"
+        },
+        {
+          "es": "¿Quién calibra el creenciómetro? ¿Y quién vigila a quien lo maneja?",
+          "en": "Who calibrates the belief-meter? And who watches whoever operates it?"
+        },
+        {
+          "es": "Tolerar no es aceptar toda idea como válida. Es no perseguir a nadie por aquello que no puede dejar de pensar.",
+          "en": "Tolerating is not accepting every idea as valid. It is not persecuting anyone for what they cannot stop thinking."
+        }
+      ]
+    }
+  ]
+}

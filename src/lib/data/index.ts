@@ -7,6 +7,7 @@ export * from './books-data';
 export * from './press-data';
 export * from './services-data';
 export * from './gallery-data';
+export * from './filmography-data';
 export * from './posts';
 export * from './posts-meta';
 export * from './posts-content';

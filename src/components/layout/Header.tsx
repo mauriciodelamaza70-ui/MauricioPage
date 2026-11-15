@@ -53,7 +53,7 @@ export default function Header() {
              <Image src="/images/logo-delamaza-blanco-transparente.png" alt="De la Maza Consulting and Films" width={140} height={30} priority className="h-auto w-28" />
           </div>
         </Link>
-        <nav className="hidden md:flex items-center gap-6">
+        <nav className="hidden xl:flex items-center gap-4 2xl:gap-6 whitespace-nowrap">
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -67,7 +67,7 @@ export default function Header() {
             </Link>
           ))}
         </nav>
-        <div className="md:hidden">
+        <div className="xl:hidden">
           <Sheet>
             <SheetTrigger asChild>
               <Button
