@@ -213,6 +213,33 @@ export const postsAcademic: Record<string, AcademicFields> = {
   'plataformas-digitales': {
     doi: '10.5281/zenodo.24234672',
     zenodoUrl: 'https://doi.org/10.5281/zenodo.24234672',
+    pdfUrl:
+      'https://zenodo.org/records/24234672/files/Digital_Platforms_Plataformas_digitales.pdf?download=1',
+    localPdfUrl: '/pdf/plataformas-digitales.pdf',
+    keywordsEs: [
+      'plataformas digitales',
+      'moderación de contenidos',
+      'jurisdicción',
+      'soberanía',
+      'libertad de expresión',
+      'amparo',
+      'concesión',
+      'personalidad jurídica',
+      'fraude a la ley',
+      'México',
+    ],
+    keywordsEn: [
+      'digital platforms',
+      'content moderation',
+      'jurisdiction',
+      'sovereignty',
+      'freedom of expression',
+      'amparo',
+      'concession',
+      'legal personality',
+      'fraud on the law',
+      'Mexico',
+    ],
     license: {
       name: 'CC BY-NC-ND 4.0',
       url: 'https://creativecommons.org/licenses/by-nc-nd/4.0/',
