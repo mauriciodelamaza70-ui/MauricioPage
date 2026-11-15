@@ -78,11 +78,11 @@ export default function RevistaListing() {
                     {/* Main content - posts */}
                     <div className="lg:col-span-8">
                         <div className="relative mb-8">
-                            <label htmlFor="revista-search" className="sr-only">Buscar en la revista</label>
+                            <label htmlFor="revista-search" className="sr-only">Buscar en Confinium</label>
                             <Input
                                 id="revista-search"
                                 type="search"
-                                placeholder="Buscar en la revista…"
+                                placeholder="Buscar en Confinium…"
                                 className="h-12 pr-10 bg-background text-base"
                                 value={searchQuery}
                                 onChange={(e) => setSearchQuery(e.target.value)}
