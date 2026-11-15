@@ -212,7 +212,10 @@ export default function HomeContent() {
 
         <section id="blog" className="py-24">
           <div className="container mx-auto px-4">
-            <h2 className="font-headline text-4xl md:text-5xl font-bold text-center mb-12">Nuestro Blog</h2>
+            <div className="text-center mb-12">
+              <h2 className="font-headline text-4xl md:text-5xl font-bold">Confinium</h2>
+              <p className="text-sm uppercase tracking-widest text-accent mt-3">Ensayos en la frontera</p>
+            </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
               {postsMeta.slice(0, 3).map((post) => {
                 const postImage = PlaceHolderImages.find(p => p.id === post.imageId);
@@ -246,7 +249,7 @@ export default function HomeContent() {
             </div>
              <div className="text-center mt-12">
               <Button asChild size="lg" className="bg-accent hover:bg-accent/90">
-                <Link href="/revista">Visita la revista</Link>
+                <Link href="/revista">Ver todas las publicaciones</Link>
               </Button>
             </div>
           </div>
