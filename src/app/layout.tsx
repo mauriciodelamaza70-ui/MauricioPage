@@ -107,7 +107,6 @@ export default function RootLayout({
         { "@id": "https://www.mauriciodelamazabenignos.com/#organization-dlmcf" },
         { "@id": "https://www.mauriciodelamazabenignos.com/#organization-wcff" }
       ],
-      "subjectOf": { "@id": "https://youtu.be/MtvDLkDufCg#video" },
       "sameAs": [
         "https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos",
         "https://www.imdb.com/es/name/nm14485536/",
@@ -369,58 +368,6 @@ export default function RootLayout({
       "author": { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
       "publisher": { "@id": "https://www.mauriciodelamazabenignos.com/#organization-dlmcf" },
       "isPartOf": { "@id": "https://www.mauriciodelamazabenignos.com/#website" }
-    },
-
-    {
-      "@type": "Event",
-      "@id": "https://wcff.org/#event-2026",
-      "name": "Wildlife Conservation Film Festival 2026",
-      "description": "Edición 2026 del Wildlife Conservation Film Festival (WCFF), festival internacional de cine de naturaleza y conservación, con funciones presenciales en Monterrey, Nuevo León, México.",
-      "image": ["https://www.mauriciodelamazabenignos.com/images/Wildligeconservation.png"],
-      "url": "https://wcff.org",
-      "eventStatus": "https://schema.org/EventScheduled",
-      "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-      "organizer": { "@id": "https://www.mauriciodelamazabenignos.com/#organization-wcff" },
-      "startDate": "2026-09-18",
-      "endDate": "2026-09-20",
-      "location": {
-        "@type": "Place",
-        "name": "Elite Cinemas",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Monterrey",
-          "addressRegion": "Nuevo León",
-          "addressCountry": "MX"
-        }
-      }
-    },
-
-    {
-      "@type": "Organization",
-      "@id": "https://www.youtube.com/@AventurTitasRR#organization",
-      "name": "AventurTitasRR",
-      "description": "Canal de YouTube enfocado en naturaleza y exploración familiar."
-    },
-
-    {
-      "@type": "VideoObject",
-      "@id": "https://youtu.be/MtvDLkDufCg#video",
-      "name": "¿Puede una película ayudar a la naturaleza? | Entrevista con Mauricio de la Maza-Benignos",
-      "description": "Entrevista con Mauricio de la Maza-Benignos, director del Wildlife Conservation Film Festival (WCFF) en México, sobre el poder del cine como herramienta para inspirar la conservación de la naturaleza.",
-      "thumbnailUrl": ["https://i.ytimg.com/vi/MtvDLkDufCg/maxresdefault.jpg"],
-      "uploadDate": "2026-08-05T00:00:00-06:00",
-      "duration": "PT26M40S",
-      "url": "https://youtu.be/MtvDLkDufCg",
-      "contentUrl": "https://youtu.be/MtvDLkDufCg",
-      "embedUrl": "https://www.youtube.com/embed/MtvDLkDufCg",
-      "inLanguage": "es-MX",
-      "publisher": { "@id": "https://www.youtube.com/@AventurTitasRR#organization" },
-      "creator": { "@id": "https://www.youtube.com/@AventurTitasRR#organization" },
-      "author": { "@id": "https://www.youtube.com/@AventurTitasRR#organization" },
-      "about": [
-        { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
-        { "@id": "https://www.mauriciodelamazabenignos.com/#organization-wcff" }
-      ]
     },
 
     {
