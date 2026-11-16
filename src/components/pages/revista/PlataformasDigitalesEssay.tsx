@@ -7,14 +7,17 @@ const LABELS = {
   es: {
     notes: 'Notas',
     back: 'Volver al texto',
-    credit: 'Imagen de portada: asteroide Bennu. Crédito: NASA/Goddard/University of Arizona.',
+    creditPrefix: 'Imagen de portada: asteroide Bennu. Crédito: ',
   },
   en: {
     notes: 'Notes',
     back: 'Back to text',
-    credit: 'Cover image: asteroid Bennu. Credit: NASA/Goddard/University of Arizona.',
+    creditPrefix: 'Cover image: asteroid Bennu. Credit: ',
   },
 } as const;
+
+const CREDIT_SOURCE = 'NASA/Goddard/University of Arizona';
+const CREDIT_URL = 'https://science.nasa.gov/resource/bennu-mosaic/';
 
 const PROSE_LINKS =
   '[&_a]:text-accent [&_a]:underline [&_a]:underline-offset-2 [&_a:hover]:text-foreground [&_sup]:ml-0.5 [&_sup_a]:no-underline [&_sup_a]:font-sans [&_sup_a]:font-semibold';
@@ -94,7 +97,18 @@ function PlataformasBody({ lang, academic }: { lang: Lang; academic?: AcademicFi
         </a>
       </p>
 
-      <p className="mt-6 text-sm italic text-muted-foreground">{t.credit}</p>
+      <p className="mt-6 text-sm italic text-muted-foreground">
+        {t.creditPrefix}
+        <a
+          href={CREDIT_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline underline-offset-2 hover:text-foreground"
+        >
+          {CREDIT_SOURCE}
+        </a>
+        .
+      </p>
     </>
   );
 }
