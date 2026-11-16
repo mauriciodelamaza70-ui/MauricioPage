@@ -38,6 +38,7 @@ type PageProps = {
 };
 
 const AUTHOR_NAME = 'Mauricio de la Maza-Benignos';
+const AUTHOR_ORCID = 'https://orcid.org/0009-0004-3880-161X';
 
 const SPANISH_MONTHS: Record<string, string> = {
   enero: '01',
@@ -173,28 +174,23 @@ export default async function PostPage({ params }: PageProps) {
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Article',
+    '@type': 'ScholarlyArticle',
     headline: post.title,
     description: post.excerpt,
     image: [imageUrl],
-    datePublished: toIsoDate(post.date),
-    dateModified: toIsoDate(post.date),
     author: {
       '@type': 'Person',
       name: AUTHOR_NAME,
-      url: siteConfig.url,
+      sameAs: AUTHOR_ORCID,
     },
-    publisher: {
-      '@type': 'Organization',
-      name: siteConfig.name,
-      logo: {
-        '@type': 'ImageObject',
-        url: `${siteConfig.url}/icon-512.png`,
-      },
-    },
-    mainEntityOfPage: {
-      '@type': 'WebPage',
-      '@id': postUrl,
+    datePublished: toIsoDate(post.date),
+    inLanguage: ['es', 'en'],
+    ...(post.doi ? { identifier: `https://doi.org/${post.doi}` } : {}),
+    url: postUrl,
+    ...(post.license ? { license: post.license.url } : {}),
+    isPartOf: {
+      '@type': 'Periodical',
+      name: 'Confinium',
     },
   };
 
