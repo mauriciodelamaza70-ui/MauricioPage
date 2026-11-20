@@ -16,7 +16,13 @@ import IaTrampaPerroEssay from '@/components/pages/revista/IaTrampaPerroEssay';
 import TeleologiaEssay from '@/components/pages/revista/TeleologiaEssay';
 import NiTantoSantoEssay from '@/components/pages/revista/NiTantoSantoEssay';
 import PlataformasDigitalesEssay from '@/components/pages/revista/PlataformasDigitalesEssay';
+import DivaGansterEssay from '@/components/pages/revista/DivaGansterEssay';
 import { AcademicBlock } from '@/components/pages/revista/AcademicBlock';
+
+/** Ensayos bilingües que también traducen la portada (H1 y byline), así que la renderizan ellos mismos. */
+const SELF_HERO_ESSAYS: Record<string, ComponentType> = {
+  'la-diva-y-el-ganster': DivaGansterEssay,
+};
 
 /** En ensayos HTML, marca dónde va el bloque académico: el primero en español, el segundo en inglés. */
 const ACADEMIC_MARKER = '<!--academic-->';
@@ -164,6 +170,7 @@ export default async function PostPage({ params }: PageProps) {
   const postImage = PlaceHolderImages.find((p) => p.id === post.imageId);
   const heroImage = PlaceHolderImages.find((p) => p.id === (post.heroImageId ?? post.imageId));
   const BilingualEssay = BILINGUAL_ESSAYS[slug];
+  const SelfHeroEssay = SELF_HERO_ESSAYS[slug];
   const postUrl = `${siteConfig.url}/revista/${slug}`;
   const imageUrl = getAbsoluteImageUrl(postImage?.imageUrl);
 
@@ -194,13 +201,45 @@ export default async function PostPage({ params }: PageProps) {
     },
   };
 
+  const shareBlock = (
+    <div className="max-w-4xl mx-auto mt-16 border-t pt-8">
+      <div className="flex items-center justify-between">
+        <h3 className="font-headline text-2xl font-bold">Compartir</h3>
+        <div className="flex gap-4">
+          <Link href={shareLinks.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600">
+            <FacebookIcon className="h-8 w-8" />
+          </Link>
+          <Link href={shareLinks.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-700">
+            <LinkedinIcon className="h-8 w-8" />
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+
+  const jsonLdScript = (
+    <script
+      type="application/ld+json"
+      // eslint-disable-next-line react/no-danger
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+    />
+  );
+
+  if (SelfHeroEssay) {
+    return (
+      <>
+        {jsonLdScript}
+        <article className="pb-24">
+          <SelfHeroEssay />
+          <div className="container mx-auto px-4">{shareBlock}</div>
+        </article>
+      </>
+    );
+  }
+
   return (
     <>
-      <script
-        type="application/ld+json"
-        // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      {jsonLdScript}
       <section className="relative h-[50vh] min-h-[400px] w-full text-white">
         {heroImage && (
             <Image
@@ -242,19 +281,7 @@ export default async function PostPage({ params }: PageProps) {
               <PostContent html={post.content} />
             )}
 
-            <div className="max-w-4xl mx-auto mt-16 border-t pt-8">
-              <div className="flex items-center justify-between">
-                <h3 className="font-headline text-2xl font-bold">Compartir</h3>
-                <div className="flex gap-4">
-                  <Link href={shareLinks.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600">
-                    <FacebookIcon className="h-8 w-8" />
-                  </Link>
-                  <Link href={shareLinks.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-700">
-                    <LinkedinIcon className="h-8 w-8" />
-                  </Link>
-                </div>
-              </div>
-            </div>
+            {shareBlock}
         </div>
       </article>
     </>

@@ -1,6 +1,14 @@
 {
   "placeholderImages": [
     {
+      "id": "blog-la-diva-y-el-ganster",
+      "description": "La Diva sostiene el rostro del Gánster frente a un espejo dorado; junto a ellos, una calavera con sombrero. Portada del ensayo «Xavier Araiza: un teatro en conversación» (fotografía: Margen Magnético)",
+      "imageUrl": "/revista/la-diva-y-el-ganster/FOTO_DIVA_Y_GANGSTER.jpg",
+      "imageHint": "theater stage diva gangster",
+      "width": 2048,
+      "height": 1536
+    },
+    {
       "id": "blog-plataformas-digitales",
       "description": "Asteroide Bennu, imagen de portada del ensayo «Plataformas digitales: un poder sin rostro y sin rendición de cuentas» (crédito: NASA/Goddard/University of Arizona)",
       "imageUrl": "/images/revista/plataformas-digitales/bennu.png",
