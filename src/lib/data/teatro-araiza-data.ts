@@ -13,6 +13,34 @@ const cinematicDirection = {
 export const teatroAraiza: Film[] = [
   {
     ...blank,
+    id: 'la-diva-y-el-ganster-2026',
+    slug: 'la-diva-y-el-ganster',
+    footerName: 'La diva y el gánster',
+    title: 'LA DIVA Y EL GÁNSTER',
+    year: '2026',
+    genre: 'Teatro en formato de cine',
+    genreEn: 'Theater in film format',
+    synopsis:
+      'Dos personajes extremos, contradictorios, actúan en la frontera peligrosa de la mafia y el mundo del teatro y del cine, atrapados en el tráfico y consumo de drogas y el fetichismo enloquecedor del dinero y las armas. En el sadomasoquismo de la trama teatral se manifiestan la violencia física, el inconsciente, los símbolos del poder criminal de un capo de la mafia y la inteligencia y emociones turbulentas de una actriz que ha soñado ser diva glamorosa y famosa del escenario teatral y la pantalla cinematográfica. El enfrentamiento está vinculado fatalmente con el tráfico y consumo de cocaína, la política y el lavado de dinero. *LA DIVA Y EL GÁNSTER* es una radiografía teatral de la patología social contemporánea, encarnada en el escenario por dos personajes en el límite de la existencia: instinto de muerte y pulsión erótica materializados en la ficción escénica y la realidad cotidiana, en el pasado y presente del conflicto individual y social. Escritura dramatúrgica y puesta en escena del clandestinaje, la venganza y la justicia: tragedia contemporánea que sucede ante un público que vive en el inquietante laberinto local, nacional e internacional, registrado constantemente para mostrarlo con la tecnología de internet y la información mediática crítica, o mediante la manipulación propagandística (*fake news*) y la inteligencia artificial.',
+    synopsisEn:
+      "Two extreme, contradictory characters act on the dangerous frontier between the mafia and the world of theater and film, trapped in drug trafficking and consumption and in the maddening fetishism of money and guns. In the sadomasochism of the theatrical plot, physical violence, the unconscious and the symbols of a mafia boss's criminal power come to light, along with the intelligence and turbulent emotions of an actress who has dreamed of becoming a glamorous, famous diva of the stage and the screen. The confrontation is fatally bound up with cocaine trafficking and consumption, politics and money laundering. *LA DIVA Y EL GÁNSTER* is a theatrical X-ray of contemporary social pathology, embodied on stage by two characters at the edge of existence: the death instinct and the erotic drive made material in stage fiction and everyday reality, in the past and present of individual and social conflict. A dramaturgy and staging of clandestinity, revenge and justice: a contemporary tragedy unfolding before an audience that lives in an unsettling local, national and international labyrinth, constantly recorded and displayed through internet technology and critical media, or through propaganda (*fake news*) and artificial intelligence.",
+    synopsisSignature: 'Xavier Araiza',
+    credits: [
+      { roleEs: 'Dramaturgia y dirección escénica', roleEn: 'Playwright and stage direction', value: 'Xavier Araiza' },
+      { roleEs: 'Reparto', roleEn: 'Cast', value: 'Roger Abanto, Jessica Jaramillo' },
+      { roleEs: 'Presentada en', roleEn: 'Presented at', value: 'Punto y Coma, Monterrey' },
+      cinematicDirection,
+      { roleEs: 'Fotografía fija', roleEn: 'Still photography', value: 'Margen Magnético' },
+    ],
+    youtubeId: 'cX5y8UW0W28',
+    review: {
+      href: '/revista/la-diva-y-el-ganster',
+      labelEs: 'Leer el ensayo en la revista',
+      labelEn: 'Read the essay in the magazine',
+    },
+  },
+  {
+    ...blank,
     id: 'dialogo-sacerdote-moribundo-2023',
     slug: 'dialogo-sacerdote-moribundo',
     footerName: 'Diálogo entre un sacerdote y un moribundo',

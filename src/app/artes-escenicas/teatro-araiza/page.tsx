@@ -4,10 +4,15 @@ import FilmCard from "@/components/pages/filmografia/FilmCard";
 import { LangArticle, type Lang } from "@/components/pages/lang-article";
 import { teatroAraiza, TEATRO_ARAIZA_PLAYLIST_ID } from "@/lib/data/teatro-araiza-data";
 
+const PAGE_TITLE = "Teatro de Xavier Araiza | Mauricio De la Maza-Benignos";
+const PAGE_DESCRIPTION =
+  "Registros cinematográficos de La diva y el gánster, Diálogo entre un sacerdote y un moribundo, A puerta cerrada y La loca del maniquí, obras de Xavier Araiza montadas en formato de cine por Mauricio De la Maza-Benignos.";
+
 export const metadata: Metadata = {
-  title: "Teatro de Xavier Araiza | Mauricio De la Maza-Benignos",
-  description:
-    "Registros cinematográficos de Diálogo entre un sacerdote y un moribundo, A puerta cerrada y La loca del maniquí, obras de Xavier Araiza montadas en formato de cine por Mauricio De la Maza-Benignos.",
+  title: PAGE_TITLE,
+  description: PAGE_DESCRIPTION,
+  openGraph: { title: PAGE_TITLE, description: PAGE_DESCRIPTION },
+  twitter: { title: PAGE_TITLE, description: PAGE_DESCRIPTION },
 };
 
 const COPY = {

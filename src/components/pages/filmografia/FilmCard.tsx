@@ -30,6 +30,13 @@ const LABELS = {
   },
 } as const;
 
+/** Renders `*text*` segments as <em>, leaving plain synopses untouched. */
+function renderEmphasis(text: string) {
+  return text.split(/(\*[^*]+\*)/g).map((part, i) =>
+    part.startsWith("*") && part.endsWith("*") && part.length > 2 ? <em key={i}>{part.slice(1, -1)}</em> : part,
+  );
+}
+
 export default function FilmCard({ film, index, lang }: { film: Film; index: number; lang: Lang }) {
   const t = LABELS[lang];
   const reversed = index % 2 !== 0;
@@ -94,7 +101,10 @@ export default function FilmCard({ film, index, lang }: { film: Film; index: num
         {synopsis && (
           <div className="space-y-4">
             <h4 className="font-bold text-xl border-l-4 border-accent pl-4">{t.synopsis}</h4>
-            <p className="text-lg text-muted-foreground leading-relaxed">{synopsis}</p>
+            <p className="text-lg text-muted-foreground leading-relaxed">{renderEmphasis(synopsis)}</p>
+            {film.synopsisSignature && (
+              <p className="text-right text-muted-foreground italic">{`— ${film.synopsisSignature}`}</p>
+            )}
           </div>
         )}
 
