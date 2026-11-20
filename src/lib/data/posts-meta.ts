@@ -3,6 +3,16 @@ import type { PostMeta } from '../types';
 // Metadata de posts SIN content. Importar esto (no el barrel) desde listados/home mantiene el HTML fuera de su bundle.
 export const postsMeta: PostMeta[] = [
   {
+    "id": "post-la-diva-y-el-ganster",
+    "slug": "la-diva-y-el-ganster",
+    "title": "Xavier Araiza: un teatro en conversación",
+    "date": "20 de Noviembre, 2026",
+    "excerpt": "LA DIVA Y EL GÁNSTER, entre el absurdo, la política y los demonios del autor.",
+    "category": "Artículos",
+    "author": "Mauricio de la Maza-Benignos",
+    "imageId": "blog-la-diva-y-el-ganster"
+  },
+  {
     "id": "post-plataformas-digitales",
     "slug": "plataformas-digitales",
     "title": "Plataformas digitales: un poder sin rostro y sin rendición de cuentas",

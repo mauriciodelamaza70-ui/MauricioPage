@@ -1,5 +1,6 @@
 // HTML pesado de los posts, separado del grafo de metadata. Solo lo consume posts.ts (y [slug] vía barrel).
 export const postsContent: Record<string, string> = {
+  "la-diva-y-el-ganster": "<p><em>LA DIVA Y EL GÁNSTER</em>, entre el absurdo, la política y los demonios del autor.</p>",
   "plataformas-digitales": "<p>Un ensayo sobre el poder sin rostro de las plataformas digitales, el ciudadano sin garantías frente a ellas y por qué deben volverse alcanzables para el derecho.</p>",
   "ni-tanto-que-queme-al-santo": "<p>De los combustibles fósiles a las energías renovables: nada justifica obstaculizar la transición, pero existe un deber moral de considerar sus impactos en la biodiversidad.</p>",
   "teleologia-conciencia-y-sentido": "<p>Un diálogo interior: ¿a qué precio puede quien no hereda una teleología natural desarrollar su propio sentido y sostener una brújula moral sin causa superior?</p>",
