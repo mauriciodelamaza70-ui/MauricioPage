@@ -173,6 +173,7 @@ export type Film = Movie & {
   genreEn?: string;
   formatEn?: string;
   synopsisEn?: string;
+  synopsisSignature?: string;
   credits?: FilmCredit[];
   festivalsHeadingEs?: string;
   festivalsHeadingEn?: string;
