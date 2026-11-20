@@ -12,6 +12,7 @@ const LABELS = {
     film: 'Ver la película',
     watch: 'Ver en YouTube',
     playerTitle: 'LA DIVA Y EL GÁNSTER — película',
+    photoCredit: 'Foto: Margen Magnético',
   },
   en: {
     by: 'By',
@@ -19,6 +20,7 @@ const LABELS = {
     film: 'Watch the film',
     watch: 'Watch on YouTube',
     playerTitle: 'LA DIVA Y EL GÁNSTER — film',
+    photoCredit: 'Photo: Margen Magnético',
   },
 } as const;
 
@@ -45,11 +47,12 @@ function Hero({ lang }: { lang: Lang }) {
           {t.by}: {AUTHOR} / {t.date}
         </p>
       </div>
+      <p className="absolute bottom-3 right-4 z-10 text-xs text-gray-300">{t.photoCredit}</p>
     </section>
   );
 }
 
-function Figure({ img }: { img: DivaImage }) {
+function Figure({ img, credit }: { img: DivaImage; credit: string }) {
   const side = img.layout === 'side';
   return (
     <figure className={side ? 'w-full md:float-right md:mb-6 md:ml-8 md:w-1/2' : 'clear-both w-full'}>
@@ -61,6 +64,7 @@ function Figure({ img }: { img: DivaImage }) {
         sizes={side ? '(min-width: 768px) 384px, 100vw' : '(min-width: 768px) 768px, 100vw'}
         className="h-auto w-full"
       />
+      <figcaption className="mt-2 text-right text-xs text-muted-foreground">{credit}</figcaption>
     </figure>
   );
 }
@@ -78,7 +82,7 @@ function DivaBody({ lang }: { lang: Lang }) {
 
         <div className="mt-10 space-y-6">
           {v.body.map((block, i) => {
-            if (block.type === 'img') return <Figure key={i} img={block} />;
+            if (block.type === 'img') return <Figure key={i} img={block} credit={t.photoCredit} />;
             if (block.type === 'h') {
               return (
                 <h2 key={i} className={SECTION_HEADING} dangerouslySetInnerHTML={{ __html: block.html }} />
