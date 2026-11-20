@@ -4,6 +4,7 @@ import { Montserrat, Playfair_Display } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/lib/utils';
 import { siteConfig } from '@/lib/data';
+import { SITE_NAME } from '@/lib/revista-seo';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import { Toaster } from "@/components/ui/toaster";
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'es_MX',
     url: siteConfig.url,
-    siteName: siteConfig.name,
+    siteName: SITE_NAME,
     title: 'Mauricio De la Maza-Benignos',
     description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
     images: [
@@ -89,7 +90,7 @@ export default function RootLayout({
       "@type": "Person",
       "@id": "https://www.mauriciodelamazabenignos.com/#person",
       "name": "Mauricio De la Maza-Benignos",
-      "alternateName": ["Mauricio de la Maza", "Mauricio De la Maza Benignos"],
+      "alternateName": ["Mauricio de la Maza-Benignos", "Mauricio de la Maza", "Mauricio De la Maza Benignos"],
       "url": "https://www.mauriciodelamazabenignos.com/",
       "image": "https://www.mauriciodelamazabenignos.com/images/Mauricio.jpg",
       "description": "Cineasta, compositor y biólogo evolutivo mexicano. Su cine transita entre el documental ambiental de tono poético y la ficción introspectiva.",
@@ -108,8 +109,10 @@ export default function RootLayout({
         { "@id": "https://www.mauriciodelamazabenignos.com/#organization-wcff" }
       ],
       "sameAs": [
+        "https://orcid.org/0009-0004-3880-161X",
         "https://en.wikipedia.org/wiki/Mauricio_De_la_Maza-Benignos",
         "https://www.imdb.com/es/name/nm14485536/",
+        "https://zenodo.org/communities/delamaza-benignos-revista",
         "https://filmfreeway.com/MauriciodelaMazaBenignos",
         "https://scholar.google.com.mx/citations?user=55cWcTAAAAAJ&hl=es&oi=ao",
         "https://independentscholar.academia.edu/MauricioDelaMazaBenignos",
@@ -332,42 +335,6 @@ export default function RootLayout({
       "description": "Una alegría que no necesitó ser fabricada.",
       "url": "https://www.mauriciodelamazabenignos.com/musica/nacieron-los-perritos",
       "byArtist": { "@id": "https://www.mauriciodelamazabenignos.com/#person" }
-    },
-
-    {
-      "@type": "Article",
-      "@id": "https://www.mauriciodelamazabenignos.com/revista/el-mundo-de-los-entes-eco#article",
-      "headline": "El mundo de los entes-eco",
-      "url": "https://www.mauriciodelamazabenignos.com/revista/el-mundo-de-los-entes-eco",
-      "datePublished": "2026-08-03",
-      "inLanguage": "es-MX",
-      "author": { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
-      "publisher": { "@id": "https://www.mauriciodelamazabenignos.com/#organization-dlmcf" },
-      "isPartOf": { "@id": "https://www.mauriciodelamazabenignos.com/#website" }
-    },
-
-    {
-      "@type": "Article",
-      "@id": "https://www.mauriciodelamazabenignos.com/revista/barreras-de-entrada#article",
-      "headline": "Barreras de entrada",
-      "url": "https://www.mauriciodelamazabenignos.com/revista/barreras-de-entrada",
-      "datePublished": "2026-07-31",
-      "inLanguage": "es-MX",
-      "author": { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
-      "publisher": { "@id": "https://www.mauriciodelamazabenignos.com/#organization-dlmcf" },
-      "isPartOf": { "@id": "https://www.mauriciodelamazabenignos.com/#website" }
-    },
-
-    {
-      "@type": "Article",
-      "@id": "https://www.mauriciodelamazabenignos.com/revista/del-enjambre-y-la-sed#article",
-      "headline": "Del enjambre y la sed",
-      "url": "https://www.mauriciodelamazabenignos.com/revista/del-enjambre-y-la-sed",
-      "datePublished": "2026-07-21",
-      "inLanguage": "es-MX",
-      "author": { "@id": "https://www.mauriciodelamazabenignos.com/#person" },
-      "publisher": { "@id": "https://www.mauriciodelamazabenignos.com/#organization-dlmcf" },
-      "isPartOf": { "@id": "https://www.mauriciodelamazabenignos.com/#website" }
     },
 
     {

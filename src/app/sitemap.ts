@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { posts, siteConfig } from '@/lib/data';
+import { toIsoDate } from '@/lib/revista-seo';
 
 const staticRoutes = [
   '',
@@ -31,13 +32,19 @@ const staticRoutes = [
   '/prensa/florence-film-awards',
   '/prensa/reforma',
   '/prensa/tec-sounds-radio',
-  '/revista',
   '/revista/colaboradores',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const postEntries = posts.map((post) => ({
+    url: `${siteConfig.url}/revista/${post.slug}`,
+    lastModified: toIsoDate(post.date),
+  }));
+  const latestPostDate = postEntries.map((entry) => entry.lastModified).sort().at(-1);
+
   return [
     ...staticRoutes.map((route) => ({ url: `${siteConfig.url}${route}` })),
-    ...posts.map((post) => ({ url: `${siteConfig.url}/revista/${post.slug}` })),
+    { url: `${siteConfig.url}/revista`, ...(latestPostDate ? { lastModified: latestPostDate } : {}) },
+    ...postEntries,
   ];
 }

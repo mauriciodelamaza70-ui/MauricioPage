@@ -58,7 +58,7 @@ export default function RevistaListing() {
 
     return (
         <>
-            <PageHero title="Confinium" imageId="magazine-hero" objectPosition="object-top">
+            <PageHero kicker="Revista" title="Confinium" imageId="magazine-hero" objectPosition="object-top">
                 <p className="font-headline text-xl md:text-2xl text-balance">
                     Ensayos en la frontera
                     <span lang="en" className="block mt-1 text-base md:text-lg italic opacity-80">Essays at the Borders</span>

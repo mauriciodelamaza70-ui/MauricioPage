@@ -18,6 +18,17 @@ import NiTantoSantoEssay from '@/components/pages/revista/NiTantoSantoEssay';
 import PlataformasDigitalesEssay from '@/components/pages/revista/PlataformasDigitalesEssay';
 import DivaGansterEssay from '@/components/pages/revista/DivaGansterEssay';
 import { AcademicBlock } from '@/components/pages/revista/AcademicBlock';
+import {
+  JOURNAL_BRAND,
+  JOURNAL_NAME,
+  PERIODICAL_ID,
+  PERSON_ID,
+  REVISTA_URL,
+  SITE_NAME,
+  breadcrumbNode,
+  serializeJsonLd,
+  toIsoDate,
+} from '@/lib/revista-seo';
 
 /** Ensayos bilingües que también traducen la portada (H1 y byline), así que la renderizan ellos mismos. */
 const SELF_HERO_ESSAYS: Record<string, ComponentType> = {
@@ -43,32 +54,18 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
-const AUTHOR_NAME = 'Mauricio de la Maza-Benignos';
-const AUTHOR_ORCID = 'https://orcid.org/0009-0004-3880-161X';
+const AUTHOR_NAME = SITE_NAME;
 
-const SPANISH_MONTHS: Record<string, string> = {
-  enero: '01',
-  febrero: '02',
-  marzo: '03',
-  abril: '04',
-  mayo: '05',
-  junio: '06',
-  julio: '07',
-  agosto: '08',
-  septiembre: '09',
-  octubre: '10',
-  noviembre: '11',
-  diciembre: '12',
-};
+function getArticleTitle(post: Post): string {
+  return `${post.title} | ${JOURNAL_BRAND}`;
+}
 
-/** Convierte una fecha en español ("16 de Julio, 2026") a formato ISO 8601 (2026-07-16). */
-function toIsoDate(date: string): string {
-  const match = date.match(/(\d{1,2})\s+de\s+([A-Za-zÁÉÍÓÚáéíóú]+),?\s+(\d{4})/);
-  if (!match) return date;
-  const [, day, monthName, year] = match;
-  const month = SPANISH_MONTHS[monthName.toLowerCase()];
-  if (!month) return date;
-  return `${year}-${month}-${day.padStart(2, '0')}`;
+function isBilingual(post: Post): boolean {
+  return (
+    post.slug in BILINGUAL_ESSAYS ||
+    post.slug in SELF_HERO_ESSAYS ||
+    /English below|lang="en"/i.test(post.content ?? '')
+  );
 }
 
 /** Devuelve la URL absoluta de la imagen destacada del artículo. */
@@ -87,7 +84,8 @@ function getScholarMeta(post: Post, postUrl: string): Record<string, string> | u
     citation_doi: post.doi,
     citation_abstract_html_url: postUrl,
     citation_language: 'es',
-    citation_publisher: 'Zenodo',
+    citation_journal_title: JOURNAL_NAME,
+    citation_publisher: SITE_NAME,
     'DC.identifier': `doi:${post.doi}`,
   };
   if (post.localPdfUrl) meta.citation_pdf_url = `${siteConfig.url}${post.localPdfUrl}`;
@@ -124,9 +122,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 
   const scholarMeta = getScholarMeta(post, postUrl);
+  const title = getArticleTitle(post);
 
   return {
-    title: post.title,
+    title: { absolute: title },
     description: post.excerpt,
     ...(scholarMeta ? { other: scholarMeta } : {}),
     alternates: {
@@ -135,8 +134,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     openGraph: {
       type: 'article',
       url: postUrl,
-      siteName: siteConfig.name,
-      title: post.title,
+      siteName: SITE_NAME,
+      title,
       description: post.excerpt,
       publishedTime: toIsoDate(post.date),
       authors: [AUTHOR_NAME],
@@ -144,7 +143,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: 'summary_large_image',
-      title: post.title,
+      title,
       description: post.excerpt,
       images: [imageUrl],
     },
@@ -181,24 +180,29 @@ export default async function PostPage({ params }: PageProps) {
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'ScholarlyArticle',
-    headline: post.title,
-    description: post.excerpt,
-    image: [imageUrl],
-    author: {
-      '@type': 'Person',
-      name: AUTHOR_NAME,
-      sameAs: AUTHOR_ORCID,
-    },
-    datePublished: toIsoDate(post.date),
-    inLanguage: ['es', 'en'],
-    ...(post.doi ? { identifier: `https://doi.org/${post.doi}` } : {}),
-    url: postUrl,
-    ...(post.license ? { license: post.license.url } : {}),
-    isPartOf: {
-      '@type': 'Periodical',
-      name: 'Confinium',
-    },
+    '@graph': [
+      {
+        '@type': 'Article',
+        '@id': `${postUrl}#article`,
+        headline: post.title,
+        description: post.excerpt,
+        image: [imageUrl],
+        datePublished: toIsoDate(post.date),
+        inLanguage: isBilingual(post) ? ['es', 'en'] : 'es',
+        author: { '@id': PERSON_ID },
+        publisher: { '@id': PERSON_ID },
+        isPartOf: { '@id': PERIODICAL_ID },
+        mainEntityOfPage: postUrl,
+        url: postUrl,
+        ...(post.doi ? { identifier: `https://doi.org/${post.doi}` } : {}),
+        ...(post.license ? { license: post.license.url } : {}),
+      },
+      breadcrumbNode(`${postUrl}#breadcrumb`, [
+        { name: 'Inicio', url: `${siteConfig.url}/` },
+        { name: JOURNAL_BRAND, url: REVISTA_URL },
+        { name: post.title, url: postUrl },
+      ]),
+    ],
   };
 
   const shareBlock = (
@@ -221,7 +225,7 @@ export default async function PostPage({ params }: PageProps) {
     <script
       type="application/ld+json"
       // eslint-disable-next-line react/no-danger
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      dangerouslySetInnerHTML={{ __html: serializeJsonLd(jsonLd) }}
     />
   );
 
