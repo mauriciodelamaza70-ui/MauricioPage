@@ -5,6 +5,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-la-diva-y-el-ganster",
     "slug": "la-diva-y-el-ganster",
+    "volume": 1,
+    "number": 12,
     "title": "Xavier Araiza: un teatro en conversación",
     "date": "20 de Noviembre, 2026",
     "excerpt": "LA DIVA Y EL GÁNSTER, entre el absurdo, la política y los demonios del autor.",
@@ -15,6 +17,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-plataformas-digitales",
     "slug": "plataformas-digitales",
+    "volume": 1,
+    "number": 11,
     "title": "Plataformas digitales: un poder sin rostro y sin rendición de cuentas",
     "date": "14 de Noviembre, 2026",
     "excerpt": "Un ensayo sobre el poder sin rostro de las plataformas digitales, el ciudadano sin garantías frente a ellas y por qué deben volverse alcanzables para el derecho.",
@@ -25,6 +29,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-ni-tanto-que-queme-al-santo",
     "slug": "ni-tanto-que-queme-al-santo",
+    "volume": 1,
+    "number": 10,
     "title": "Ni tanto que queme al santo, ni tanto que no lo alumbre",
     "date": "30 de Octubre, 2026",
     "excerpt": "De los combustibles fósiles a las energías renovables: nada justifica obstaculizar la transición, pero existe un deber moral de considerar sus impactos en la biodiversidad.",
@@ -36,6 +42,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-teleologia-conciencia-y-sentido",
     "slug": "teleologia-conciencia-y-sentido",
+    "volume": 1,
+    "number": 9,
     "title": "Teleología, conciencia y sentido",
     "date": "10 de Octubre, 2026",
     "excerpt": "Un diálogo interior: ¿a qué precio puede quien no hereda una teleología natural desarrollar su propio sentido y sostener una brújula moral sin causa superior?",
@@ -47,6 +55,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-la-ia-y-la-trampa-del-perro",
     "slug": "la-ia-y-la-trampa-del-perro",
+    "volume": 1,
+    "number": 8,
     "title": "La IA y la trampa del perro",
     "date": "11 de Septiembre, 2026",
     "excerpt": "Sobre teleología sin conciencia, la zona gris de la agencia y por qué —ante una incertidumbre irreductible— conviene acordar las reglas del juego antes de saber quién llega: del neandertal y el venado al gato, el perro y la superinteligencia.",
@@ -58,6 +68,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-el-riesgo-de-no-arriesgar",
     "slug": "el-riesgo-de-no-arriesgar",
+    "volume": 1,
+    "number": 7,
     "title": "El riesgo de no arriesgar",
     "date": "28 de Agosto, 2026",
     "excerpt": "Sobre por qué buena parte del cine local no es mediocre por falta de talento sino porque un sistema premia al borrego sobre el gato, y qué significa el acotamiento digno cuando el miedo empieza a gobernar la decisión.",
@@ -69,6 +81,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-narrativa-como-sustituto-de-la-razon",
     "slug": "narrativa-como-sustituto-de-la-razon",
+    "volume": 1,
+    "number": 6,
     "title": "La narrativa como sustituto de la razón",
     "date": "11 de Agosto, 2026",
     "excerpt": "Notas sobre reconocimiento, atribución y el mecanismo que las corrompe: qué le pasa a una sociedad cuando deja de preguntar quién hizo algo y empieza a preguntar solo quién lo paga.",
@@ -80,6 +94,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-el-mundo-de-los-entes-eco",
     "slug": "el-mundo-de-los-entes-eco",
+    "volume": 1,
+    "number": 5,
     "title": "El mundo de los entes-eco",
     "date": "3 de Agosto, 2026",
     "excerpt": "Sobre por qué una generación calculó bien el silencio, la arquitectura del castigo sin juez ni cierre, y qué significa sostener una posición propia en el mundo de los entes-eco.",
@@ -91,6 +107,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-barreras-de-entrada",
     "slug": "barreras-de-entrada",
+    "volume": 1,
+    "number": 4,
     "title": "Barreras de entrada",
     "date": "31 de Julio, 2026",
     "excerpt": "Sobre festivales de cine, filas de tortillas, y cómo se construyen las reglas cuando a uno le toca decidirlas.",
@@ -102,6 +120,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-del-enjambre-y-la-sed",
     "slug": "del-enjambre-y-la-sed",
+    "volume": 1,
+    "number": 3,
     "title": "Del enjambre y la sed",
     "date": "21 de Julio, 2026",
     "excerpt": "Un diálogo entre Arturo e Indalecio sobre el juicio, la velocidad y la diferencia entre pensar como sociedad y reaccionar como enjambre.",
@@ -113,6 +133,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-por-que-compongo",
     "slug": "por-que-compongo",
+    "volume": 1,
+    "number": 2,
     "title": "Por qué compongo",
     "date": "16 de Julio, 2026",
     "excerpt": "Compongo porque me gusta, porque quiero y porque puedo.",
@@ -122,6 +144,8 @@ export const postsMeta: PostMeta[] = [
   {
     "id": "post-por-que-filmo",
     "slug": "por-que-filmo",
+    "volume": 1,
+    "number": 1,
     "title": "Por qué filmo",
     "date": "3 de Julio, 2026",
     "excerpt": "Un ensayo íntimo sobre las razones detrás del oficio de filmar, entre el absurdo de Camus, el poder cotidiano de Foucault y la biología de Nietzsche.",

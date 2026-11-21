@@ -89,8 +89,8 @@ export default function RootLayout({
     {
       "@type": "Person",
       "@id": "https://www.mauriciodelamazabenignos.com/#person",
-      "name": "Mauricio De la Maza-Benignos",
-      "alternateName": ["Mauricio de la Maza-Benignos", "Mauricio de la Maza", "Mauricio De la Maza Benignos"],
+      "name": "Mauricio de la Maza-Benignos",
+      "alternateName": ["Mauricio De la Maza-Benignos", "Mauricio de la Maza", "Mauricio De la Maza Benignos"],
       "url": "https://www.mauriciodelamazabenignos.com/",
       "image": "https://www.mauriciodelamazabenignos.com/images/Mauricio.jpg",
       "description": "Cineasta, compositor y biólogo evolutivo mexicano. Su cine transita entre el documental ambiental de tono poético y la ficción introspectiva.",

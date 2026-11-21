@@ -2,7 +2,11 @@ import Image from 'next/image';
 import { divaGanster, type DivaImage } from '@/lib/la-diva-y-el-ganster';
 import { LangArticle, type Lang } from '@/components/pages/lang-article';
 
+import { postsMeta } from '@/lib/data/posts-meta';
+import { IssueLine, MoreEssaysLink } from '@/components/pages/revista/IssueLine';
+
 const AUTHOR = 'Mauricio de la Maza-Benignos';
+const POST = postsMeta.find((post) => post.slug === 'la-diva-y-el-ganster');
 const YOUTUBE_ID = 'cX5y8UW0W28';
 
 const LABELS = {
@@ -46,6 +50,7 @@ function Hero({ lang }: { lang: Lang }) {
         <p className="mt-4 text-lg text-gray-300">
           {t.by}: {AUTHOR} / {t.date}
         </p>
+        {POST?.volume && POST.number && <IssueLine volume={POST.volume} number={POST.number} lang={lang} />}
       </div>
       <p className="absolute bottom-3 right-4 z-10 text-xs text-gray-300">{t.photoCredit}</p>
     </section>
@@ -125,6 +130,7 @@ function DivaBody({ lang }: { lang: Lang }) {
           </section>
         </div>
 
+        <MoreEssaysLink lang={lang} />
         <p className="mt-10 text-sm italic text-muted-foreground">{v.credit}</p>
       </div>
     </div>

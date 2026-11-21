@@ -13,6 +13,8 @@ import { Search, ArrowRight, Users, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { postsAcademic } from "@/lib/data/posts-academic";
+import type { PostMeta } from "@/lib/types";
+import { CONFINIUM_HOME } from "@/lib/revista-seo";
 
 const normalize = (text: string) =>
     text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -33,6 +35,45 @@ const searchIndex = new Map(
     }),
 );
 
+function PostCard({ post }: { post: PostMeta }) {
+                                    const postImage = PlaceHolderImages.find(p => p.id === post.imageId);
+                                    return (
+                                    <Card className="overflow-hidden group flex flex-col h-full bg-card">
+                                        {postImage && (
+                                        <div className={`aspect-video overflow-hidden ${post.imageFit === 'contain' ? 'bg-secondary' : ''}`}>
+                                            <Image
+                                                src={postImage.imageUrl}
+                                                alt={postImage.description || post.title}
+                                                width={600}
+                                                height={400}
+                                                className={`w-full h-full ${post.imageFit === 'contain' ? 'object-contain' : 'object-cover'} group-hover:scale-105 transition-transform duration-300`}
+                                                data-ai-hint={postImage.imageHint}
+                                            />
+                                        </div>
+                                        )}
+                                        <div className="p-6 flex flex-col flex-grow">
+                                            <div className="flex items-center justify-between mb-2">
+                                                <span className="text-xs uppercase tracking-widest text-accent font-bold">{post.category}</span>
+                                                <p className="text-xs text-muted-foreground">
+                                                    {post.date}
+                                                    {post.volume && post.number && (
+                                                        <span> · Vol. {post.volume}, núm. {post.number}</span>
+                                                    )}
+                                                </p>
+                                            </div>
+                                            {post.author && (
+                                                <p className="text-xs tracking-widest text-accent font-bold">Por: {post.author}</p>
+                                            )}
+                                            <CardTitle className="font-headline text-xl mt-1 leading-snug">{post.title}</CardTitle>
+                                            <p className="text-muted-foreground mt-4 text-sm line-clamp-3 flex-grow">{post.excerpt}</p>
+                                            <Button asChild variant="link" className="text-accent p-0 h-auto mt-6 self-start text-sm font-bold uppercase tracking-wider">
+                                                <Link href={`/revista/${post.slug}`}>Leer artículo completo <ArrowRight className="ml-2 h-4 w-4" /></Link>
+                                            </Button>
+                                        </div>
+                                    </Card>
+                                    );
+}
+
 export default function RevistaListing() {
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
     const [searchQuery, setSearchQuery] = useState("");
@@ -47,6 +88,9 @@ export default function RevistaListing() {
             return matchesCategory && matchesSearch;
         });
     }, [selectedCategory, searchQuery]);
+
+    const numberedPosts = filteredPosts.filter((post) => post.number);
+    const archivePosts = filteredPosts.filter((post) => !post.number);
 
     const handleCategoryClick = (category: string) => {
         if (selectedCategory === category) {
@@ -71,6 +115,13 @@ export default function RevistaListing() {
                         <em>Confinium</em>: in Latin, the place where two territories meet; in Roman law, the strip of land between two estates.
                     </p>
                 </div>
+                <a
+                    href={CONFINIUM_HOME}
+                    className="mt-4 text-xs md:text-sm tracking-wider opacity-80 underline-offset-4 hover:underline hover:opacity-100"
+                >
+                    Portada de la revista →{' '}
+                    <span lang="en" className="italic">/ Magazine home →</span>
+                </a>
             </PageHero>
 
             <div className="container mx-auto px-4 py-24">
@@ -108,41 +159,24 @@ export default function RevistaListing() {
                         </div>
 
                         {filteredPosts.length > 0 ? (
-                            <div className="grid sm:grid-cols-2 gap-8">
-                                {filteredPosts.map((post) => {
-                                    const postImage = PlaceHolderImages.find(p => p.id === post.imageId);
-                                    return (
-                                    <Card key={post.id} className="overflow-hidden group flex flex-col h-full bg-card">
-                                        {postImage && (
-                                        <div className={`aspect-video overflow-hidden ${post.imageFit === 'contain' ? 'bg-secondary' : ''}`}>
-                                            <Image
-                                                src={postImage.imageUrl}
-                                                alt={postImage.description || post.title}
-                                                width={600}
-                                                height={400}
-                                                className={`w-full h-full ${post.imageFit === 'contain' ? 'object-contain' : 'object-cover'} group-hover:scale-105 transition-transform duration-300`}
-                                                data-ai-hint={postImage.imageHint}
-                                            />
+                            <>
+                                {numberedPosts.length > 0 && (
+                                    <div className="grid sm:grid-cols-2 gap-8">
+                                        {numberedPosts.map((post) => <PostCard key={post.id} post={post} />)}
+                                    </div>
+                                )}
+                                {archivePosts.length > 0 && (
+                                    <section aria-labelledby="revista-archivo" className={numberedPosts.length > 0 ? "mt-20" : undefined}>
+                                        <h2 id="revista-archivo" className="font-headline text-2xl font-bold mb-8 pb-4 border-b">
+                                            Archivo (2021–2022){' '}
+                                            <span lang="en" className="text-muted-foreground text-lg font-normal italic">/ Archive (2021–2022)</span>
+                                        </h2>
+                                        <div className="grid sm:grid-cols-2 gap-8">
+                                            {archivePosts.map((post) => <PostCard key={post.id} post={post} />)}
                                         </div>
-                                        )}
-                                        <div className="p-6 flex flex-col flex-grow">
-                                            <div className="flex items-center justify-between mb-2">
-                                                <span className="text-xs uppercase tracking-widest text-accent font-bold">{post.category}</span>
-                                                <p className="text-xs text-muted-foreground">{post.date}</p>
-                                            </div>
-                                            {post.author && (
-                                                <p className="text-xs tracking-widest text-accent font-bold">Por: {post.author}</p>
-                                            )}
-                                            <CardTitle className="font-headline text-xl mt-1 leading-snug">{post.title}</CardTitle>
-                                            <p className="text-muted-foreground mt-4 text-sm line-clamp-3 flex-grow">{post.excerpt}</p>
-                                            <Button asChild variant="link" className="text-accent p-0 h-auto mt-6 self-start text-sm font-bold uppercase tracking-wider">
-                                                <Link href={`/revista/${post.slug}`}>Leer artículo completo <ArrowRight className="ml-2 h-4 w-4" /></Link>
-                                            </Button>
-                                        </div>
-                                    </Card>
-                                    );
-                                })}
-                            </div>
+                                    </section>
+                                )}
+                            </>
                         ) : (
                             <div className="text-center py-20 bg-secondary rounded-xl">
                                 <p className="text-xl text-muted-foreground">No se encontraron publicaciones</p>

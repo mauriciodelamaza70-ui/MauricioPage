@@ -78,6 +78,9 @@ export type Post = {
   history?: { es: string; en: string };
   /** Título completo para `citation_title`; si no se define, se usa `title`. */
   citationTitle?: string;
+  /** Numeración de Confinium (publicación continua; Vol. 1 = 2026). */
+  volume?: number;
+  number?: number;
 };
 
 export type AcademicFields = Pick<

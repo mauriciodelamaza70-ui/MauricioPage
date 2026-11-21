@@ -17,7 +17,7 @@ export const navLinks: NavLink[] = [
   { href: '/#artes-escenicas', label: 'Artes escénicas' },
   { href: '/musica', label: 'Música' },
   { href: '/libros', label: 'Libros' },
-  { href: '/revista', label: 'Revista Confinium' },
+  { href: 'https://confinium.mauriciodelamazabenignos.com', label: 'Revista Confinium' },
   { href: '/prensa', label: 'Prensa' },
   { href: '/filmografia', label: 'Filmografía' },
   { href: '/cortos-documentales', label: 'Cortos documentales' },
