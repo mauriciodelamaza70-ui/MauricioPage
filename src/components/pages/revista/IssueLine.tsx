@@ -2,13 +2,13 @@ import { CONFINIUM_HOME, JOURNAL_BRAND, JOURNAL_NAME, issueLine } from '@/lib/re
 
 type Lang = 'es' | 'en';
 
-export function IssueLine({ volume, number, lang = 'es' }: { volume: number; number: number; lang?: Lang }) {
+export function IssueLine({ volume, article }: { volume: number; article: number }) {
   return (
     <p className="mt-2 text-sm uppercase tracking-[0.2em] text-gray-300">
       <a href={CONFINIUM_HOME} className="underline-offset-4 hover:underline hover:text-white">
         {JOURNAL_NAME}
       </a>{' '}
-      · {issueLine(volume, number, lang)}
+      · {issueLine(volume, article)}
     </p>
   );
 }

@@ -15,9 +15,9 @@ export function volumeYear(volume: number): number {
   return 2025 + volume;
 }
 
-/** "Confinium · Vol. 1 (2026), núm. N" / "Confinium · Vol. 1 (2026), no. N" */
-export function issueLine(volume: number, number: number, lang: 'es' | 'en' = 'es'): string {
-  return `Vol. ${volume} (${volumeYear(volume)}), ${lang === 'es' ? 'núm.' : 'no.'} ${number}`;
+/** "Confinium · Vol. 1 (2026), art. N" (igual en ambos idiomas). */
+export function issueLine(volume: number, article: number): string {
+  return `Vol. ${volume} (${volumeYear(volume)}), art. ${article}`;
 }
 
 export const REVISTA_TITLE = `${JOURNAL_BRAND} — Ensayos en la frontera | ${SITE_NAME}`;

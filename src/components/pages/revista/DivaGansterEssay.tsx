@@ -50,7 +50,7 @@ function Hero({ lang }: { lang: Lang }) {
         <p className="mt-4 text-lg text-gray-300">
           {t.by}: {AUTHOR} / {t.date}
         </p>
-        {POST?.volume && POST.number && <IssueLine volume={POST.volume} number={POST.number} lang={lang} />}
+        {POST?.volume && POST.article && <IssueLine volume={POST.volume} article={POST.article} />}
       </div>
       <p className="absolute bottom-3 right-4 z-10 text-xs text-gray-300">{t.photoCredit}</p>
     </section>
