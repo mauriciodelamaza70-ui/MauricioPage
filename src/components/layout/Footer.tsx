@@ -148,7 +148,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-20 border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Mauricio De la Maza-Benignos. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Mauricio de la Maza-Benignos. Todos los derechos reservados.</p>
           <div className="flex gap-6">
             {navLinks.map((link) => (
                 <Link key={link.href} href={link.href} className="hover:text-accent transition-colors">

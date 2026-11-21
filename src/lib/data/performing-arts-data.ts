@@ -31,9 +31,9 @@ export const stageWorks: StageWork[] = [
     subtitle: 'CINE Y TEATRO · Registros cinematográficos',
     subtitleEn: 'FILM AND THEATER · Cinematic recordings',
     description:
-      'Tres obras de Xavier Araiza —Sade, Sartre y La loca del maniquí— llevadas al cine por Mauricio De la Maza-Benignos.',
+      'Tres obras de Xavier Araiza —Sade, Sartre y La loca del maniquí— llevadas al cine por Mauricio de la Maza-Benignos.',
     descriptionEn:
-      'Three plays by Xavier Araiza —Sade, Sartre and La loca del maniquí— brought to film by Mauricio De la Maza-Benignos.',
+      'Three plays by Xavier Araiza —Sade, Sartre and La loca del maniquí— brought to film by Mauricio de la Maza-Benignos.',
     ctaLabel: 'Ver las obras',
     ctaLabelEn: 'View the works',
     url: '/artes-escenicas/teatro-araiza',

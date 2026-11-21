@@ -4,9 +4,9 @@ import FilmCard from "@/components/pages/filmografia/FilmCard";
 import { LangArticle, type Lang } from "@/components/pages/lang-article";
 import { teatroAraiza, TEATRO_ARAIZA_PLAYLIST_ID } from "@/lib/data/teatro-araiza-data";
 
-const PAGE_TITLE = "Teatro de Xavier Araiza | Mauricio De la Maza-Benignos";
+const PAGE_TITLE = "Teatro de Xavier Araiza | Mauricio de la Maza-Benignos";
 const PAGE_DESCRIPTION =
-  "Registros cinematográficos de La diva y el gánster, Diálogo entre un sacerdote y un moribundo, A puerta cerrada y La loca del maniquí, obras de Xavier Araiza montadas en formato de cine por Mauricio De la Maza-Benignos.";
+  "Registros cinematográficos de La diva y el gánster, Diálogo entre un sacerdote y un moribundo, A puerta cerrada y La loca del maniquí, obras de Xavier Araiza montadas en formato de cine por Mauricio de la Maza-Benignos.";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -17,13 +17,13 @@ export const metadata: Metadata = {
 
 const COPY = {
   es: {
-    title: "Teatro de Xavier Araiza a través de la lente de Mauricio De la Maza-Benignos",
-    text: "Registros cinematográficos de obras dirigidas por Xavier Araiza, montados en formato de cine por Mauricio De la Maza-Benignos.",
+    title: "Teatro de Xavier Araiza a través de la lente de Mauricio de la Maza-Benignos",
+    text: "Registros cinematográficos de obras dirigidas por Xavier Araiza, montados en formato de cine por Mauricio de la Maza-Benignos.",
     playlist: "Lista completa",
   },
   en: {
-    title: "Xavier Araiza's Theater Through the Lens of Mauricio De la Maza-Benignos",
-    text: "Cinematic recordings of plays directed by Xavier Araiza, edited into film format by Mauricio De la Maza-Benignos.",
+    title: "Xavier Araiza's Theater Through the Lens of Mauricio de la Maza-Benignos",
+    text: "Cinematic recordings of plays directed by Xavier Araiza, edited into film format by Mauricio de la Maza-Benignos.",
     playlist: "Full playlist",
   },
 } as const;

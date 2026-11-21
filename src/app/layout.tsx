@@ -25,10 +25,10 @@ const FB_PIXEL_ID = '1506864467415170';
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: 'Mauricio De la Maza-Benignos',
+    default: 'Mauricio de la Maza-Benignos',
     template: `%s | ${siteConfig.name}`,
   },
-  description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
+  description: 'Producción audiovisual y consultoría ambiental por Mauricio de la Maza-Benignos',
   icons: {
     icon: [
       { url: '/icon-32.png', sizes: '32x32', type: 'image/png' },
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
     locale: 'es_MX',
     url: siteConfig.url,
     siteName: SITE_NAME,
-    title: 'Mauricio De la Maza-Benignos',
-    description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
+    title: 'Mauricio de la Maza-Benignos',
+    description: 'Producción audiovisual y consultoría ambiental por Mauricio de la Maza-Benignos',
     images: [
       {
         url: siteConfig.ogImage,
@@ -52,8 +52,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Mauricio De la Maza-Benignos',
-    description: 'Producción audiovisual y consultoría ambiental por Mauricio De la Maza-Benignos',
+    title: 'Mauricio de la Maza-Benignos',
+    description: 'Producción audiovisual y consultoría ambiental por Mauricio de la Maza-Benignos',
     images: [siteConfig.ogImage],
   },
 };
@@ -80,8 +80,8 @@ export default function RootLayout({
       "@type": "WebSite",
       "@id": "https://www.mauriciodelamazabenignos.com/#website",
       "url": "https://www.mauriciodelamazabenignos.com/",
-      "name": "Mauricio De la Maza-Benignos",
-      "description": "Cine, música y pensamiento científico de Mauricio De la Maza-Benignos.",
+      "name": "Mauricio de la Maza-Benignos",
+      "description": "Cine, música y pensamiento científico de Mauricio de la Maza-Benignos.",
       "inLanguage": "es-MX",
       "publisher": { "@id": "https://www.mauriciodelamazabenignos.com/#person" }
     },
@@ -89,8 +89,16 @@ export default function RootLayout({
     {
       "@type": "Person",
       "@id": "https://www.mauriciodelamazabenignos.com/#person",
-      "name": "Mauricio De la Maza-Benignos",
-      "alternateName": ["Mauricio de la Maza-Benignos", "Mauricio de la Maza", "Mauricio De la Maza Benignos"],
+      "name": "Mauricio de la Maza-Benignos",
+      "alternateName": [
+        "Mauricio De la Maza-Benignos",
+        "De la Maza-Benignos",
+        "Mauricio de la Maza Benignos",
+        "Mauricio De la Maza Benignos",
+        "De la Maza Benignos",
+        "Mauricio de la Maza",
+        "Mauricio De la Maza"
+      ],
       "url": "https://www.mauriciodelamazabenignos.com/",
       "image": "https://www.mauriciodelamazabenignos.com/images/Mauricio.jpg",
       "description": "Cineasta, compositor y biólogo evolutivo mexicano. Su cine transita entre el documental ambiental de tono poético y la ficción introspectiva.",

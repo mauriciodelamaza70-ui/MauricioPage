@@ -4,9 +4,21 @@ export const SITE_NAME = 'Mauricio de la Maza-Benignos';
 export const JOURNAL_NAME = 'Confinium';
 export const JOURNAL_BRAND = 'Revista Confinium';
 
+export const CONFINIUM_HOME = 'https://confinium.mauriciodelamazabenignos.com';
+
 export const PERSON_ID = `${siteConfig.url}/#person`;
-export const PERIODICAL_ID = `${siteConfig.url}/revista#periodical`;
+export const PERIODICAL_ID = `${CONFINIUM_HOME}/#periodical`;
 export const REVISTA_URL = `${siteConfig.url}/revista`;
+
+/** Volumen 1 corresponde a 2026; cada volumen posterior suma un año. */
+export function volumeYear(volume: number): number {
+  return 2025 + volume;
+}
+
+/** "Confinium · Vol. 1 (2026), núm. N" / "Confinium · Vol. 1 (2026), no. N" */
+export function issueLine(volume: number, number: number, lang: 'es' | 'en' = 'es'): string {
+  return `Vol. ${volume} (${volumeYear(volume)}), ${lang === 'es' ? 'núm.' : 'no.'} ${number}`;
+}
 
 export const REVISTA_TITLE = `${JOURNAL_BRAND} — Ensayos en la frontera | ${SITE_NAME}`;
 export const REVISTA_DESCRIPTION =

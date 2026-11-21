@@ -18,6 +18,7 @@ import NiTantoSantoEssay from '@/components/pages/revista/NiTantoSantoEssay';
 import PlataformasDigitalesEssay from '@/components/pages/revista/PlataformasDigitalesEssay';
 import DivaGansterEssay from '@/components/pages/revista/DivaGansterEssay';
 import { AcademicBlock } from '@/components/pages/revista/AcademicBlock';
+import { IssueLine, MoreEssaysLink } from '@/components/pages/revista/IssueLine';
 import {
   JOURNAL_BRAND,
   JOURNAL_NAME,
@@ -76,7 +77,16 @@ function getAbsoluteImageUrl(imageUrl?: string): string {
 
 /** Metaetiquetas Highwire/Dublin Core para Google Scholar. Solo si el artículo tiene DOI. */
 function getScholarMeta(post: Post, postUrl: string): Record<string, string> | undefined {
-  if (!post.doi) return undefined;
+  const issueMeta: Record<string, string> =
+    post.volume && post.number
+      ? {
+          citation_journal_title: JOURNAL_NAME,
+          citation_publisher: SITE_NAME,
+          citation_volume: String(post.volume),
+          citation_issue: String(post.number),
+        }
+      : {};
+  if (!post.doi) return Object.keys(issueMeta).length ? issueMeta : undefined;
   const meta: Record<string, string> = {
     citation_title: post.citationTitle ?? post.title,
     citation_author: 'De la Maza-Benignos, Mauricio',
@@ -87,6 +97,7 @@ function getScholarMeta(post: Post, postUrl: string): Record<string, string> | u
     citation_journal_title: JOURNAL_NAME,
     citation_publisher: SITE_NAME,
     'DC.identifier': `doi:${post.doi}`,
+    ...issueMeta,
   };
   if (post.localPdfUrl) meta.citation_pdf_url = `${siteConfig.url}${post.localPdfUrl}`;
   else if (post.pdfUrl) meta.citation_pdf_url = post.pdfUrl.split('?')[0];
@@ -192,6 +203,7 @@ export default async function PostPage({ params }: PageProps) {
         author: { '@id': PERSON_ID },
         publisher: { '@id': PERSON_ID },
         isPartOf: { '@id': PERIODICAL_ID },
+        ...(post.number ? { position: post.number } : {}),
         mainEntityOfPage: postUrl,
         url: postUrl,
         ...(post.doi ? { identifier: `https://doi.org/${post.doi}` } : {}),
@@ -263,6 +275,7 @@ export default async function PostPage({ params }: PageProps) {
             <p className="mt-4 text-lg text-gray-300">
                 Por: {post.author ?? 'De la Maza Team'} / {post.date}
             </p>
+            {post.volume && post.number && <IssueLine volume={post.volume} number={post.number} />}
         </div>
       </section>
 
@@ -285,6 +298,7 @@ export default async function PostPage({ params }: PageProps) {
               <PostContent html={post.content} />
             )}
 
+            <MoreEssaysLink />
             {shareBlock}
         </div>
       </article>
