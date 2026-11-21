@@ -34,8 +34,8 @@ export const videoGallery: Video[] = [
       youtubeId: 'Mq8fInj8l_w',
       thumbnailId: 'video-thumb-7',
       credits: {
-        es: 'Producción y dirección: Mauricio De la Maza-Benignos',
-        en: 'Produced and directed by Mauricio De la Maza-Benignos',
+        es: 'Producción y dirección: Mauricio de la Maza-Benignos',
+        en: 'Produced and directed by Mauricio de la Maza-Benignos',
       },
       description: {
         es: 'Un recorrido por la bioregión centroamericana del reino neotropical, de México a Panamá, entre selvas tropicales, bosques de niebla y bosques de pino-encino. Colibríes, ranas venenosas, la rana de hoja espléndida, el cocodrilo americano, lagartijas Anolis, monos ardilla y capuchinos, y perezosos de tres y de dos dedos muestran su comportamiento y sus adaptaciones. El cierre recuerda el surgimiento del istmo de Panamá y el Gran Intercambio Biótico Americano, y hace un llamado a valorar, respetar y amar la vida otra que humana.',

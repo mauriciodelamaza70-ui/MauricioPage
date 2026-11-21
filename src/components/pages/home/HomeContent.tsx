@@ -59,13 +59,13 @@ export default function HomeContent() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="order-2 md:order-1">
                 <p className="text-accent uppercase tracking-[0.2em] font-medium mb-2">{biography.role}</p>
-                <h2 className="font-headline text-4xl font-bold mb-6">Mauricio De la Maza-Benignos</h2>
+                <h2 className="font-headline text-4xl font-bold mb-6">Mauricio de la Maza-Benignos</h2>
                 <div className="text-muted-foreground space-y-4 text-lg">
                   <p>{biography.intro}</p>
                   <p>Su cine transita entre el documental ambiental de tono poético y educativo y la ficción de carácter introspectivo.</p>
                 </div>
                 <div className="mt-8">
-                    <Image src="/images/FirmaNegro-1.png" alt="Firma de Mauricio De la Maza" width={200} height={100} />
+                    <Image src="/images/FirmaNegro-1.png" alt="Firma de Mauricio de la Maza" width={200} height={100} />
                 </div>
                 <Button asChild variant="link" className="text-accent text-lg p-0 h-auto mt-8">
                   <Link href="/nosotros">Explorar su obra <ArrowRight className="ml-2 h-5 w-5" /></Link>
@@ -111,7 +111,7 @@ export default function HomeContent() {
                 {bioImage && (
                   <Image
                     src={bioImage.imageUrl}
-                    alt="Mauricio De la Maza-Benignos"
+                    alt="Mauricio de la Maza-Benignos"
                     width={500}
                     height={500}
                     className="rounded-lg object-cover shadow-2xl"

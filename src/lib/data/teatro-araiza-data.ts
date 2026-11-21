@@ -7,7 +7,7 @@ const blank = { awards: '', streaming: '', website: '', imdb: '', poster: '', fo
 const cinematicDirection = {
   roleEs: 'Dirección cinematográfica y montaje',
   roleEn: 'Film direction and editing',
-  value: 'Mauricio De la Maza-Benignos',
+  value: 'Mauricio de la Maza-Benignos',
 };
 
 export const teatroAraiza: Film[] = [
@@ -76,9 +76,9 @@ export const teatroAraiza: Film[] = [
     genre: 'Teatro en formato de cine',
     genreEn: 'Theater in film format',
     synopsis:
-      '“El infierno son los otros.” Una fusión entre la puesta en escena de Xavier Araiza y el juego cinematográfico de Mauricio De la Maza-Benignos sobre el clásico de Sartre: un cuestionamiento sobre la existencia humana que sigue vigente.',
+      '“El infierno son los otros.” Una fusión entre la puesta en escena de Xavier Araiza y el juego cinematográfico de Mauricio de la Maza-Benignos sobre el clásico de Sartre: un cuestionamiento sobre la existencia humana que sigue vigente.',
     synopsisEn:
-      "“Hell is other people.” A fusion of Xavier Araiza's stage production and Mauricio De la Maza-Benignos's cinematic play on Sartre's classic: a questioning of human existence that remains as relevant as ever.",
+      "“Hell is other people.” A fusion of Xavier Araiza's stage production and Mauricio de la Maza-Benignos's cinematic play on Sartre's classic: a questioning of human existence that remains as relevant as ever.",
     credits: [
       { roleEs: 'Dramaturgia', roleEn: 'Playwright', value: 'Jean-Paul Sartre (Huis clos, 1944)' },
       { roleEs: 'Dirección escénica', roleEn: 'Stage direction', value: 'Xavier Araiza' },

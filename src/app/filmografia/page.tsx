@@ -5,9 +5,9 @@ import { LangArticle, type Lang } from "@/components/pages/lang-article";
 import { filmography } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Filmografía | Mauricio De la Maza-Benignos",
+  title: "Filmografía | Mauricio de la Maza-Benignos",
   description:
-    "Largometrajes y documentales de Mauricio De la Maza-Benignos: Cora, Diálogos de la muerte, El zapato, El Gran Makhaira, El bonito, Ad memoriam rei perpetuam y Cuatro Ciénegas.",
+    "Largometrajes y documentales de Mauricio de la Maza-Benignos: Cora, Diálogos de la muerte, El zapato, El Gran Makhaira, El bonito, Ad memoriam rei perpetuam y Cuatro Ciénegas.",
 };
 
 function FilmList({ lang }: { lang: Lang }) {

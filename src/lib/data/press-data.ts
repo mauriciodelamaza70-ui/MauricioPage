@@ -198,7 +198,7 @@ export const pressArticles: PressArticle[] = [
   },
   {
     fuente: 'TRIÓN Live / Metrópolis 94.7',
-    titulo: 'Entrevista con Mauricio De La Maza Benignos',
+    titulo: 'Entrevista con Mauricio de la Maza Benignos',
     tipo: 'Podcast',
     categoria: 'Cine',
     anio: 2021,

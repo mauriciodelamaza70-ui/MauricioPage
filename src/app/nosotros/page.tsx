@@ -22,7 +22,7 @@ export default function NosotrosPage() {
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
-            alt="Mauricio De la Maza-Benignos"
+            alt="Mauricio de la Maza-Benignos"
             fill
             className="object-cover object-top"
             priority
@@ -69,7 +69,7 @@ export default function NosotrosPage() {
                         ))}
                     </div>
                     <div className="pt-6">
-                        <Image src="/images/FirmaNegro-1.png" alt="Firma de Mauricio De la Maza" width={220} height={100} />
+                        <Image src="/images/FirmaNegro-1.png" alt="Firma de Mauricio de la Maza" width={220} height={100} />
                     </div>
                 </div>
             </div>

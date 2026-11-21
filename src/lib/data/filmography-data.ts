@@ -58,8 +58,8 @@ const documentaries: Film[] = [
     synopsisEn:
       'The loss of water, ecosystems and biodiversity in the grasslands of the Chihuahuan Desert, and the complex historical relationship between this biome and the human development pushing it toward extinction.',
     credits: [
-      { roleEs: 'Dirección', roleEn: 'Directed by', value: 'Mauricio De la Maza-Benignos' },
-      { roleEs: 'Guion', roleEn: 'Screenplay', value: 'Claudia Luna Fuentes y Mauricio De la Maza-Benignos' },
+      { roleEs: 'Dirección', roleEn: 'Directed by', value: 'Mauricio de la Maza-Benignos' },
+      { roleEs: 'Guion', roleEn: 'Screenplay', value: 'Claudia Luna Fuentes y Mauricio de la Maza-Benignos' },
       { roleEs: 'Producción', roleEn: 'Production', value: 'De la Maza Films' },
       { roleEs: 'Voz', roleEn: 'Voice', value: 'Claudia Luna Fuentes' },
       { roleEs: 'Entrevistas', roleEn: 'Interviews', value: 'Andrea Ayala Luna' },
@@ -104,13 +104,13 @@ const documentaries: Film[] = [
       {
         roleEs: 'Dirección, guion, producción, fotografía y edición',
         roleEn: 'Directed, written, produced, photographed and edited by',
-        value: 'Mauricio De la Maza-Benignos',
+        value: 'Mauricio de la Maza-Benignos',
       },
       { roleEs: 'Producción', roleEn: 'Production', value: 'De la Maza Consulting and Films' },
       {
         roleEs: 'Reparto',
         roleEn: 'Cast',
-        value: 'Mauricio De la Maza-Benignos (El ciudadano), Jennifer López (Jefa del narco)',
+        value: 'Mauricio de la Maza-Benignos (El ciudadano), Jennifer López (Jefa del narco)',
       },
     ],
     awards: '',
@@ -142,11 +142,11 @@ const documentaries: Film[] = [
     formatEn: '14 min',
     synopsis: '',
     credits: [
-      { roleEs: 'Dirección', roleEn: 'Directed by', value: 'Mauricio De la Maza-Benignos' },
-      { roleEs: 'Guion', roleEn: 'Screenplay', value: 'Alejandra Salinas y Mauricio De la Maza' },
+      { roleEs: 'Dirección', roleEn: 'Directed by', value: 'Mauricio de la Maza-Benignos' },
+      { roleEs: 'Guion', roleEn: 'Screenplay', value: 'Alejandra Salinas y Mauricio de la Maza' },
       { roleEs: 'Producción', roleEn: 'Production', value: 'De la Maza Consulting and Films' },
       { roleEs: 'Narración', roleEn: 'Narration', value: 'Maraly Franco' },
-      { roleEs: 'Videografía', roleEn: 'Videography', value: 'Mauricio De la Maza y David Jaramillo' },
+      { roleEs: 'Videografía', roleEn: 'Videography', value: 'Mauricio de la Maza y David Jaramillo' },
       { roleEs: 'Música', roleEn: 'Music', value: 'Daniel Rodríguez Muñoz' },
     ],
     awards: '',
@@ -192,7 +192,7 @@ const documentaries: Film[] = [
     synopsisEn:
       'A nature documentary inspired by the spaghetti western, set in the Zone of Silence in the Bolsón de Mapimí: its landscapes, its faunal and sociocultural richness, its legends of visitors from other worlds, and the July 1970 crash of the Athena test rocket carrying cobalt-57 containers.',
     credits: [
-      { roleEs: 'Producción y dirección', roleEn: 'Produced and directed by', value: 'Mauricio De la Maza-Benignos' },
+      { roleEs: 'Producción y dirección', roleEn: 'Produced and directed by', value: 'Mauricio de la Maza-Benignos' },
     ],
     awards: '',
     festivalsHeadingEs: 'Festivales',

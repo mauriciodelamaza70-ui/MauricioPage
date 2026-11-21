@@ -5,9 +5,9 @@ import { LangArticle } from "@/components/pages/lang-article";
 import { videoGallery } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "Cortos documentales | Mauricio De la Maza-Benignos",
+  title: "Cortos documentales | Mauricio de la Maza-Benignos",
   description:
-    "Cortos documentales sobre la naturaleza y la conservación del noreste de México. Producción y dirección: Mauricio De la Maza-Benignos.",
+    "Cortos documentales sobre la naturaleza y la conservación del noreste de México. Producción y dirección: Mauricio de la Maza-Benignos.",
 };
 
 function Intro({ text }: { text: string }) {
@@ -26,13 +26,13 @@ export default function CortosDocumentalesPage() {
         <LangArticle
           es={
             <>
-              <Intro text="Cortos documentales sobre la naturaleza y la conservación del noreste de México. Producción y dirección: Mauricio De la Maza-Benignos." />
+              <Intro text="Cortos documentales sobre la naturaleza y la conservación del noreste de México. Producción y dirección: Mauricio de la Maza-Benignos." />
               <VideoGrid videos={videoGallery} lang="es" />
             </>
           }
           en={
             <>
-              <Intro text="Short documentaries on nature and conservation in northeastern Mexico. Produced and directed by Mauricio De la Maza-Benignos." />
+              <Intro text="Short documentaries on nature and conservation in northeastern Mexico. Produced and directed by Mauricio de la Maza-Benignos." />
               <VideoGrid videos={videoGallery} lang="en" />
             </>
           }
