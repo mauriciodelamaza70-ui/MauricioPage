@@ -80,7 +80,9 @@ export type Post = {
   citationTitle?: string;
   /** Numeración de Confinium (publicación continua; Vol. 1 = 2026). */
   volume?: number;
-  number?: number;
+  article?: number;
+  /** Identificador del artículo dentro del volumen, p. ej. "e12" (citation_firstpage). */
+  elocationId?: string;
 };
 
 export type AcademicFields = Pick<

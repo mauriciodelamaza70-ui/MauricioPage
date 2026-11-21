@@ -56,8 +56,8 @@ function PostCard({ post }: { post: PostMeta }) {
                                                 <span className="text-xs uppercase tracking-widest text-accent font-bold">{post.category}</span>
                                                 <p className="text-xs text-muted-foreground">
                                                     {post.date}
-                                                    {post.volume && post.number && (
-                                                        <span> · Vol. {post.volume}, núm. {post.number}</span>
+                                                    {post.volume && post.article && (
+                                                        <span> · Vol. {post.volume}, art. {post.article}</span>
                                                     )}
                                                 </p>
                                             </div>
@@ -89,8 +89,8 @@ export default function RevistaListing() {
         });
     }, [selectedCategory, searchQuery]);
 
-    const numberedPosts = filteredPosts.filter((post) => post.number);
-    const archivePosts = filteredPosts.filter((post) => !post.number);
+    const numberedPosts = filteredPosts.filter((post) => post.article);
+    const archivePosts = filteredPosts.filter((post) => !post.article);
 
     const handleCategoryClick = (category: string) => {
         if (selectedCategory === category) {

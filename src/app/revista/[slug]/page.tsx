@@ -78,12 +78,12 @@ function getAbsoluteImageUrl(imageUrl?: string): string {
 /** Metaetiquetas Highwire/Dublin Core para Google Scholar. Solo si el artículo tiene DOI. */
 function getScholarMeta(post: Post, postUrl: string): Record<string, string> | undefined {
   const issueMeta: Record<string, string> =
-    post.volume && post.number
+    post.volume && post.article
       ? {
           citation_journal_title: JOURNAL_NAME,
           citation_publisher: SITE_NAME,
           citation_volume: String(post.volume),
-          citation_issue: String(post.number),
+          citation_firstpage: post.elocationId ?? `e${post.article}`,
         }
       : {};
   if (!post.doi) return Object.keys(issueMeta).length ? issueMeta : undefined;
@@ -203,7 +203,7 @@ export default async function PostPage({ params }: PageProps) {
         author: { '@id': PERSON_ID },
         publisher: { '@id': PERSON_ID },
         isPartOf: { '@id': PERIODICAL_ID },
-        ...(post.number ? { position: post.number } : {}),
+        ...(post.article ? { position: post.article } : {}),
         mainEntityOfPage: postUrl,
         url: postUrl,
         ...(post.doi ? { identifier: `https://doi.org/${post.doi}` } : {}),
@@ -275,7 +275,7 @@ export default async function PostPage({ params }: PageProps) {
             <p className="mt-4 text-lg text-gray-300">
                 Por: {post.author ?? 'De la Maza Team'} / {post.date}
             </p>
-            {post.volume && post.number && <IssueLine volume={post.volume} number={post.number} />}
+            {post.volume && post.article && <IssueLine volume={post.volume} article={post.article} />}
         </div>
       </section>
 
